@@ -42,9 +42,8 @@
         </Window>
         <Window Type="ootGUI/StaticTextRight" Name="MainMenu/txtVersion" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" >Void Destroyer 2 - Pre-Alpha
-Early Access - thanks for your support!
-Striving for the ultimate space sandbox - together!</Property>
+            <Property Name="Text" >Void Destroyer 2 - 预览版 - 感谢你的支持!
+争取成为最好的太空沙盒游戏 - together!</Property>
             <Property Name="HorzExtent" Value="387" />
             <Property Name="VertExtent" Value="55.6314" />
             <Property Name="HorzFormatting" Value="HorzCentred" />
