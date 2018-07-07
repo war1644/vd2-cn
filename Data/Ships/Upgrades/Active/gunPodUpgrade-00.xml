@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Gun Pod"/> 
+<objectID attr1="gunPod00"/> 
+<upgradeCategory attr1="weapon"/>
+<upgradeType attr1="active"/>
+<cost attr1="30000"/>
+<addCostAsPercentOfShip attr1="0.1"/>
+<description attr1="Deploys a defense platform, directly below the ship."/>
+<description attr1=" "/>
+<description attr1="When activated, drops a self assembling gun pod platform. A small civilian grade defense platform, armed with two light turrets."/>
+<description attr1=" "/>
+<description attr1="Best used when holding territory or to augment a larger ship's anti-fighter capacity."/>
+<shipActiveUpgradeType attr1="deploy_platform"/>
+<platformObjectID attr1="cGP01"/>
+<rechargeTime attr1="600"/>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Second Lead"/>
+<objectID attr1="main07"/>
+<missionFactionID attr1="kind"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="-5800" y="0" z="-700"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="5000"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<minimumShipClass attr1="gunship"/>
+<maximumShipClass attr1="gunship"/>
+<bOverworldByPass attr1="1"/>
+<bOverworldShipsByPass attr1="1"/>
+<bStoryMission attr1="1"/>
+<bHidden attr1="1"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="caterpillarMK2"/>
+		<shipName attr1="m07-caterpillarMK2-1"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="indie"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="-250" y="150" z="-2000"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="narcoticsPod"/>
+		<name attr1="m07-narcoticsPod-1"/>
+		<faction attr1="indie"/>
+		<reletiveObject attr1="m07-caterpillarMK2-1"/>
+		<position x="0" y="200" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<carryingShip attr1="m07-caterpillarMK2-1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="narcoticsPod"/>
+		<name attr1="m07-narcoticsPod-2"/>
+		<faction attr1="indie"/>
+		<reletiveObject attr1="m07-caterpillarMK2-1"/>
+		<position x="0" y="200" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<carryingShip attr1="m07-caterpillarMK2-1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="m07-caterpillarMK2-1"/>
+		<health attr1="5"/>
+		<bAsPercent attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="roach"/>
+		<shipName attr1="m07-roach-1"/>
+		<shipID attr1="roach"/>
+		<shipName attr1="m07-roach-2"/>
+		<shipID attr1="roach"/>
+		<shipName attr1="m07-roach-3"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="indie"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="m07-caterpillarMK2-1"/>
+		<position x="-150" y="-150" z="-150"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="m07-roach-1"/>
+		<objectName attr1="m07-roach-2"/>
+		<objectName attr1="m07-roach-3"/>
+		<targetName attr1="m07-caterpillarMK2-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="look_at"/>
+		<lookAtObject attr1="m07-caterpillarMK2-1"/>
+		<objectName attr1="m07-roach-1"/>
+		<objectName attr1="m07-roach-2"/>
+		<objectName attr1="m07-roach-3"/>
+		<bNoRoll attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="m07-caterpillarMK2-1"/>
+		<characterID attr1="civilian02"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="m07-caterpillarMK2-1"/>
+		<objectName attr1="m07-roach-1"/>
+		<objectName attr1="m07-roach-2"/>
+		<objectName attr1="m07-roach-3"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubMaleGeneric02"/>
+		<message attr1="Again, verify identity using comms."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<failMissionNumber attr1="2000"/>
+	<missionHUDText attr1="Open Comms with the transport ship..."/>
+	<objective>
+		<objectiveType attr1="comms_target"/> 
+		<objectName attr1="m07-caterpillarMK2-1"/>
+		<markObject attr1="m07-caterpillarMK2-1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="m07-caterpillarMK2-1"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Hello"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian02"/>
+			<content attr1="Uhh...."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian02"/>
+			<content attr1="I'm not smuggling."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian02"/>
+			<content attr1="I mean we aren't snuggling."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Not the one."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian02"/>
+			<content attr1="Yes..."/>
+			<content attr1="Yes!"/>
+			<content attr1="Not the one!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="There's another lead to check out."/>
+			<content attr1="Transmitting."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<nextMissionNumber attr1="1000"/>
+	<preTrigger>
+		<triggerType attr1="next_mission"/>
+		<missionID attr1="main08"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="playerShip"/>
+		<healthPercent attr1="0.80"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian02"/>
+		<message attr1="Thanks for being cool. If you want repairs, go to the marked position."/>
+	</preTrigger>
+	<missionHUDText attr1="Go to marked position..."/>
+	<missionHUDText attr1="If you want repairs..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="-1000" y="0" z="1000"/>
+		<reletiveObject attr1="m07-caterpillarMK2-1"/>
+		<goToDistance attr1="500"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian02"/>
+		<message attr1="Allright, sending the boys over."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="m07-roach-1"/>
+		<objectName attr1="m07-roach-2"/>
+		<objectName attr1="m07-roach-3"/>
+		<targetName attr1="playerShip"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<missionHUDText attr1="Hold position..."/>
+	<missionHUDText attr1="If you want repairs..."/>
+	<objective>
+		<objectiveType attr1="repair"/> 
+		<objectName attr1="playerShip"/> 
+		<healthPercent attr1="0.95"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="m07-roach-1"/>
+		<objectName attr1="m07-roach-2"/>
+		<objectName attr1="m07-roach-3"/>
+		<targetName attr1="m07-caterpillarMK2-1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="mission failure"/>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubMaleGeneric02"/>
+		<message attr1="TRANSPORT DOWN!"/>
+	</preTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="playerShip"/>
+		<bSetting attr1="0"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

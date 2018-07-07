@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Proving Ground"/>
+<missionDescriptionText attr1="Want to join us? Fly our ships? Carry our banners?"/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Prove it."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Prove your courage, your skills, your ability to survive."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Pass this trial by fire and be Reborn!"/>
+<objectID attr1="reborn-00"/>
+<missionFactionID attr1="reborn"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="-2700" y="0" z="-5800"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="2500"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<maximumShipClass attr1="fighter"/>
+<bOverworldByPass attr1="1"/>
+<worldFile attr1="reborn-00-provingGround-worldFile"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="rdp-1-1"/>
+		<objectName attr1="rdp-1-2"/>
+		<objectName attr1="rdp-1-3"/>
+		<objectName attr1="rdp-1-4"/>
+		<objectName attr1="rdp-2-1"/>
+		<objectName attr1="rdp-2-2"/>
+		<objectName attr1="rdp-2-3"/>
+		<objectName attr1="rdp-2-4"/>
+		<alterType attr1="toggle_must_survive"/>
+		<bToggle attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornFemaleGeneric01"/>
+		<message attr1="Proceed to the staging area..."/>
+	</preTrigger>
+	<missionHUDText attr1="Go to staging area..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="3000"/>
+		<reletiveObject attr1="provingGroundComms"/>
+		<goToDistance attr1="500"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<content attr1="Welcome..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<content attr1="When you pass through the next marker, the trial will begin."/>
+			<content attr1="As you might have guessed... The platforms will be hostile."/>
+			<content attr1="Your objective is to do 3 loops around the track."/>
+			<content attr1="And survive..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<content attr1="This test is more about piloting ability than speed."/>
+			<content attr1="Still you'll have 30 seconds for each segment."/>
+			<content attr1="That's segment, not loop. I don't have all day..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<content attr1="Good luck! We hope that you become one of us!"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<nextMissionNumber attr1="100"/>
+	<missionHUDText attr1="Begin trial..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="2000"/>
+		<reletiveObject attr1="rdp-1-1"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornFemaleGeneric01"/>
+		<message attr1="Loop 1!"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="rdp-1-1"/>
+		<objectName attr1="rdp-1-2"/>
+		<objectName attr1="rdp-1-3"/>
+		<objectName attr1="rdp-1-4"/>
+		<objectName attr1="rdp-2-1"/>
+		<objectName attr1="rdp-2-2"/>
+		<objectName attr1="rdp-2-3"/>
+		<objectName attr1="rdp-2-4"/>
+		<faction attr1="enemyPlayer"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-1-1"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-1-2"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-1-3"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-2500"/>
+		<reletiveObject attr1="rdp-1-4"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-2500"/>
+		<reletiveObject attr1="rdp-2-4"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-2-3"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="11"/>
+	<nextMissionNumber attr1="12"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-2-2"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="12"/>
+	<nextMissionNumber attr1="13"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-2-1"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="13"/>
+	<nextMissionNumber attr1="14"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="3000"/>
+		<reletiveObject attr1="rdp-2-1"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="14"/>
+	<nextMissionNumber attr1="15"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="3000"/>
+		<reletiveObject attr1="rdp-1-1"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornFemaleGeneric01"/>
+		<message attr1="Loop 2!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="15"/>
+	<nextMissionNumber attr1="16"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-1-1"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="16"/>
+	<nextMissionNumber attr1="17"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-1-2"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="17"/>
+	<nextMissionNumber attr1="18"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-1-3"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="18"/>
+	<nextMissionNumber attr1="19"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-2500"/>
+		<reletiveObject attr1="rdp-1-4"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="19"/>
+	<nextMissionNumber attr1="20"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-2500"/>
+		<reletiveObject attr1="rdp-2-4"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="20"/>
+	<nextMissionNumber attr1="21"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-2-3"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="21"/>
+	<nextMissionNumber attr1="22"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-2-2"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="22"/>
+	<nextMissionNumber attr1="23"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-2-1"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="23"/>
+	<nextMissionNumber attr1="24"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="3000"/>
+		<reletiveObject attr1="rdp-2-1"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="24"/>
+	<nextMissionNumber attr1="25"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="3000"/>
+		<reletiveObject attr1="rdp-1-1"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornFemaleGeneric01"/>
+		<message attr1="Loop 3!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="25"/>
+	<nextMissionNumber attr1="26"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-1-1"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="26"/>
+	<nextMissionNumber attr1="27"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-1-2"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="27"/>
+	<nextMissionNumber attr1="28"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-1-3"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="28"/>
+	<nextMissionNumber attr1="29"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-2500"/>
+		<reletiveObject attr1="rdp-1-4"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="29"/>
+	<nextMissionNumber attr1="30"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-2500"/>
+		<reletiveObject attr1="rdp-2-4"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="30"/>
+	<nextMissionNumber attr1="31"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-2-3"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="31"/>
+	<nextMissionNumber attr1="32"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-2-2"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="32"/>
+	<nextMissionNumber attr1="33"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="rdp-2-1"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="33"/>
+	<nextMissionNumber attr1="34"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="3000"/>
+		<reletiveObject attr1="rdp-2-1"/>
+		<goToDistance attr1="250"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="34"/>
+	<nextMissionNumber attr1="35"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="2000"/>
+		<reletiveObject attr1="provingGroundComms"/>
+		<goToDistance attr1="500"/>
+		<bFrequentCheckInterval attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="rdp-1-1"/>
+		<objectName attr1="rdp-1-2"/>
+		<objectName attr1="rdp-1-3"/>
+		<objectName attr1="rdp-1-4"/>
+		<objectName attr1="rdp-2-1"/>
+		<objectName attr1="rdp-2-2"/>
+		<objectName attr1="rdp-2-3"/>
+		<objectName attr1="rdp-2-4"/>
+		<faction attr1="reborn"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="35"/>
+	<nextMissionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<content attr1="And done!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<content attr1="Done and done..."/>
+			<content attr1="Looks like we won't be adding to the grave yard today!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<content attr1="Welcome..."/>
+			<content attr1="You can call yourself Reborn..."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="100"/>
+	<note_to_self attr1="music trigger - bit of a delay after start of race..."/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="2"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="oneLeftStanding"/> 	
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="credit"/>
+		<credits attr="2500"/>
+	</reward>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="1.05"/>
+		<faction attr="reborn"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<mission>
+	<missionNumber attr1="2000"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornFemaleGeneric01"/>
+		<message attr1="Too slow!"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="7"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+</mission>

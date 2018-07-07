@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="looping"/>
+<objectID attr1="rapidP05"/>
+<soundFile attr1="rapidProjectileLoop05.wav"/>
+<tailSound attr1="rapidProjectileLoop05Tail.wav"/>
+<maxDistance attr1="3000"/> 
+<referenceDistance attr1="1500"/>
+<defaultVolume attr1="0.3"/>
+<soundPriority attr1="80"/>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Leo"/> 
+<objectID attr1="leo"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="fighter"/> 
+<shipClassSize attr1="medium"/>
+<meshName attr1="leo.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A medium fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Leo is a a entry level medium fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Not quite good at anything, but a welcome upgrade from lighter ships. Armed with six high capacity projectile guns and an optional defensive turret."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Twin civilian beam emitters."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Despite having low damage and short range, this weapon has the benefit of dealing instant and constant damage, putting pressure on nervous opponents. Beam weapons are a new addition to the armament scene, coming from reverse engineered Outsider tech, slowly entering the general market."/>
+<creditCost attr1="47000"/>
+<cruiseSpeed attr1="135.0"/>
+<timeTillCruise attr1="1.35"/> 
+<yaw 	attr1="105.0"/> 
+<pitch	attr1="105.0"/> 
+<roll 	attr1="105.0"/> 
+<bGravityDrive attr1="1"/>
+<cockpitID attr1="cockpit003"/>
+<cockpitActualPos x="0" y="2" z="4"/>
+<cockpitActualMesh attr1="cockpitLeo.mesh"/> 
+<bShowInCockpitParticles attr1="1"/>
+<cockpitInitPos x="0" y="4.21" z="5.54"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="15" z="75"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="700.0"/> 
+<buildTime	attr1="25.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="150.0"/> 
+<ore		attr1="225.0"/> 
+<damage>
+    <pitch attr1="-80.0"/> 
+    <roll attr1="45.0"/> 
+	<yaw attr1="94.0"/> 
+	<position x="-0.852" y="-5.88" z="3.749"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="leoD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="3.062" y="0.517" z="9.382"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="-3.062" y="0.517" z="9.382"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="6.15"/>
+    <capacity attr1="7.15"/>
+    <recharge attr1="8.0"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="leoPG"/> 
+	<weaponPosition x="7.080" y="-0.462" z="-11.5"/>
+	<weaponPosition x="8.015" y="-1.439" z="-11.5"/>
+	<weaponPosition x="-7.080" y="-0.462" z="-11.5"/>
+	<weaponPosition x="-8.015" y="-1.439" z="-11.5"/>
+	<weaponPosition x="0" y="-3.593" z="-6.762"/>
+	<weaponPosition x="0" y="-4.946" z="-6.762"/>
+	<barrelDelay attr1="0.025"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="beam"/> 
+    <hardpointID attr1="leoB"/> 
+	<weaponPosition x="3.08" y="0.35" z="1.08"/>
+	<weaponPosition x="-3.08" y="0.35" z="1.08"/>
+	<barrelDelay attr1="0.0"/> 
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<upgrades> 
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="leolDT00"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield01"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="fFrontShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed01"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="mediumFighterPUS00"/>
+	<upgradeID attr1="mediumFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="0.91" z="-1.58"/>

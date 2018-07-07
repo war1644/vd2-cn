@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="gremlinSPG"/> 
+<projectileWeaponType attr1="scatter_gun"/>
+<roundsPerShot attr1="3"/>
+<scatterYaw attr1="0.50"/>
+<scatterPitch attr1="0.2"/>
+<ammunitionID attr1="lightCGP"/> 
+<name attr1="Chain Gun"/> 
+<fireSoundID attr1="rapidP00"/>
+<muzzleFlashEffectID attr1="mfLG01"/>
+<reFireRate attr1="0.015"/>
+<capacity attr1="50"/>
+<reloadTime attr1="15"/> 
+<_bNoAimAssist attr1="1 - buffed - for new players to make this more usable"/>
+<bFireFullAmmo attr1="1"/>

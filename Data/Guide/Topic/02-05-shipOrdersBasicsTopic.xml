@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="tacShipOrdersBasics"/>
+<topicName attr1="Ship Orders Basics"/>
+<mainText attr1="Ship Orders Overview:"/>
+<mainText attr1="You can only issue orders to friendly ships."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Points:"/>
+<mainText attr1="Select a ship or ships (you can either left click + hold + drag - or left click with SHIFT to select multiple ships). "/>
+<mainText attr1="Right click on an object or empty space."/>
+<mainText attr1="Orders depending on the target of the right click."/>
+<mainText attr1=" "/>
+<mainText attr1="Right click results:"/>
+<mainText attr1="Friendly ship - form up with right clicked ship"/>
+<mainText attr1="Friendly ship - if repair ship - repair right clicked ship"/>
+<mainText attr1="Enemy ship or platform - if selected ship has weapons then attack enemy object otherwise go to object"/>
+<mainText attr1="Base"/>
+<mainText attr1="     If friendly or enemy go to base"/>
+<mainText attr1="     If friendly and selected ship is a cargo ship carrying a cargo pod then dock with base"/>
+<mainText attr1="     If friendly and selected ship is a marine ship then dock with base (if already close by)"/>
+<mainText attr1="     If enemy and selected ship is a marine ship then invade base"/>
+<mainText attr1="Asteroid or Cargo Pod"/>
+<mainText attr1="     Go to object"/>
+<mainText attr1="     If selected ship can pick up object - then pick it up"/>
+<mainText attr1="Empty space"/>
+<mainText attr1="     Go to position - see Ship Orders Move Command topic for more details"/>

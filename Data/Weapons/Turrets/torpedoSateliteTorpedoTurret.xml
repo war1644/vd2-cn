@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="torpSat001TT"/> 
+<name attr1="Torpedo Turret"/> 
+<turretWeapon attr1="missile"/>
+<hardpointID attr1="torpSatTL"/>
+<barrelDelay attr1="0.5"/>
+<turretBarrel>
+	<weaponPosition x="-5.46" y="-38.78" z="-11.12"/>
+</turretBarrel>
+<weaponDirection>
+	<pitch attr1="-20.0"/>
+</weaponDirection>
+<targetPriorityList> 
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="corvette"/>
+</targetPriorityList>

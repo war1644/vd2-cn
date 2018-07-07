@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Armor Plating - Light"/> 
+<objectID attr1="cArmor00"/> 
+<upgradeCategory attr1="engineering"/> 
+<cost attr1="52500"/>
+<addCostAsPercentOfShip attr1="0.03"/>
+<description attr1="Adds an additional layer of armor plating."/>
+<description attr1=" "/>
+<description attr1="Capable of reducing damage taken, while its damage mitigation makes it very effective against small caliber weapons, it is nearly useless against anything greater than light weaponry."/>
+<armorChange attr1="2.5"/>

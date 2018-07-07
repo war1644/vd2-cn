@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Defense Turret"/> 
+<objectID attr1="brickDT00"/> 
+<upgradeCategory attr1="weapon"/>
+<upgradeType attr1="other"/>
+<bCommonUpgrade attr1="1"/>
+<cost attr1="7500"/>
+<turret>
+	<turretID attr1="tonTurret01"/>
+	<position x="0" y="6.789" z="2.150"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="defense"/>
+	<weaponPositionID attr1="0"/>
+</turret>
+<description attr1="Adds a defensive turret to the top turret mount."/>
+<description attr1=" "/>
+<description attr1="The additional fire power allows the brick to be fare more competitive in the heavy fighter category."/>

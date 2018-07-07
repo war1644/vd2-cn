@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="apolloMTR"/> 
+<name attr1="Quad Launcher"/> 
+<turretWeapon attr1="missile"/>
+<hardpointID attr1="apolloML"/>
+<turretBarrel>
+	<weaponPosition x="16.63" y="3.44" z="15.38"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="13.52" y="3.44" z="15.2"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="17.66" y="2.22" z="14.86"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="14.45" y="2.18" z="15.13"/>
+</turretBarrel>
+<barrelDelay attr1="0.35"/>
+<weaponDirection>
+	<yaw attr1="0.0"/>
+	<pitch attr1="0.0"/>
+	<roll attr1="0.0"/>
+</weaponDirection>
+<targetPriorityList> 
+	<targetClass attr1="corvette"/> 
+	<targetClass attr1="frigate"/> 
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="attack_station"/> 
+	<targetClass attr1="gunShip"/>
+	<targetClass attr1="fighter"/>
+	<targetClass attr1="fighter_drone"/>
+</targetPriorityList>

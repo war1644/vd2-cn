@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<_ship_Object>
+     <objectID attr1="ola"/>
+     <name attr1="Ola-1"/>
+     <orientation w="0.0" x="0" y="1.0" z="0"/>
+     <position x="150" y="0" z="0"/>
+     <faction attr1="player"/>
+</_ship_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA0394"/>
+     <orientation w="0.491683" x="-0.0178917" y="-0.49776" z="-0.714257"/>
+     <position x="155.508" y="-215.5" z="739.748"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock003"/>
+     <name attr1="Medium Asteroid IA1394"/>
+     <orientation w="0.679216" x="-0.115217" y="-0.713035" z="-0.130274"/>
+     <position x="290.555" y="-336.5" z="267.772"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock002"/>
+     <name attr1="Large Asteroid IA2394"/>
+     <orientation w="0.399123" x="0.527383" y="-0.66956" z="0.338021"/>
+     <position x="993.806" y="-503.5" z="-698.544"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<debris_Object>
+     <objectID attr1="theBeastD00"/>
+     <name attr1="Debris IA0394"/>
+     <orientation w="0.993078" x="0" y="-0.117456" z="0"/>
+     <position x="-80.4274" y="-10" z="335.245"/>
+     <faction attr1="rockGuys"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="olaD00"/>
+     <name attr1="Debris IA1394"/>
+     <orientation w="0.47453" x="0" y="-0.880239" z="0"/>
+     <position x="-449.008" y="-8.14123" z="-295.42"/>
+     <faction attr1="beggar"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="mineSatD01"/>
+     <name attr1="Debris IA2394"/>
+     <orientation w="0.969796" x="0" y="-0.243918" z="0"/>
+     <position x="-172.079" y="28" z="320.445"/>
+     <faction attr1="civilian"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="tugD00"/>
+     <name attr1="Debris IA3394"/>
+     <orientation w="0.0433726" x="0" y="0.999059" z="0"/>
+     <position x="31.1815" y="-35" z="-358.446"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA0403"/>
+     <orientation w="0.388062" x="0" y="0.921633" z="0"/>
+     <position x="215.537" y="-61.9693" z="-210.569"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA1403"/>
+     <orientation w="0.0410249" x="0" y="0.999158" z="0"/>
+     <position x="9.8575" y="-5.24734" z="-119.837"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA2403"/>
+     <orientation w="0.864377" x="0" y="0.502843" z="0"/>
+     <position x="323.728" y="-2.99444" z="184.078"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA3403"/>
+     <orientation w="0.875856" x="0" y="0.482572" z="0"/>
+     <position x="269.359" y="6.01718" z="170.235"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA4403"/>
+     <orientation w="0.988048" x="0" y="-0.154146" z="0"/>
+     <position x="-39.6127" y="1.51137" z="123.865"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA5403"/>
+     <orientation w="0.623022" x="0" y="-0.782204" z="0"/>
+     <position x="-131.606" y="8.27009" z="-30.2038"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA6403"/>
+     <orientation w="0.682154" x="0" y="0.731209" z="0"/>
+     <position x="244.449" y="-108.95" z="-16.9891"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA7403"/>
+     <orientation w="0.902652" x="0" y="0.430372" z="0"/>
+     <position x="264.717" y="17.2817" z="214.499"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA8403"/>
+     <orientation w="0.96827" x="0" y="-0.249905" z="0"/>
+     <position x="-73.4546" y="1.51137" z="132.823"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA9403"/>
+     <orientation w="0.294031" x="0" y="-0.955796" z="0"/>
+     <position x="-108.597" y="-27.7764" z="-159.802"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA10403"/>
+     <orientation w="0.484002" x="0" y="-0.875067" z="0"/>
+     <position x="-99.4186" y="-27.7764" z="-62.3791"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA11403"/>
+     <orientation w="0.375575" x="0" y="-0.926792" z="0"/>
+     <position x="-99.4251" y="17.2817" z="-102.528"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA12403"/>
+     <orientation w="0.413096" x="0" y="-0.910687" z="0"/>
+     <position x="-111.189" y="-0.741532" z="-97.3421"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA13403"/>
+     <orientation w="0.119522" x="0" y="0.992832" z="0"/>
+     <position x="43.8284" y="-84.99" z="-179.397"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA14403"/>
+     <orientation w="0.334923" x="0" y="-0.942246" z="0"/>
+     <position x="-74.7652" y="-23.2706" z="-91.8817"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA15403"/>
+     <orientation w="0.72242" x="0" y="0.691455" z="0"/>
+     <position x="134.41" y="97.1" z="5.89023"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA16403"/>
+     <orientation w="0.384566" x="0" y="-0.923097" z="0"/>
+     <position x="-110.425" y="-43.1905" z="-109.528"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA17403"/>
+     <orientation w="0.999969" x="0" y="0.00792356" z="0"/>
+     <position x="2.463" y="42.0637" z="155.408"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA18403"/>
+     <orientation w="0.474539" x="0" y="0.880235" z="0"/>
+     <position x="271.997" y="12.7759" z="-178.95"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA19403"/>
+     <orientation w="0.979856" x="0" y="-0.199704" z="0"/>
+     <position x="-64.4637" y="21.7875" z="151.578"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA20403"/>
+     <orientation w="0.016339" x="0" y="-0.999867" z="0"/>
+     <position x="-5.1749" y="-16.5119" z="-158.297"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA21403"/>
+     <orientation w="0.545938" x="0" y="-0.837826" z="0"/>
+     <position x="-92.7089" y="-43.1905" z="-40.9329"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA22403"/>
+     <orientation w="0.917187" x="0" y="0.398456" z="0"/>
+     <position x="199.26" y="16.9663" z="186.051"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA23403"/>
+     <orientation w="0.557752" x="0" y="-0.830008" z="0"/>
+     <position x="-108.448" y="-30.0293" z="-44.2547"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA24403"/>
+     <orientation w="0.641022" x="0" y="0.767523" z="0"/>
+     <position x="223.916" y="104.73" z="-40.5467"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA25403"/>
+     <orientation w="0.855191" x="0" y="0.518314" z="0"/>
+     <position x="92.1347" y="-110.43" z="48.0882"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA26403"/>
+     <orientation w="0.635528" x="0" y="0.772078" z="0"/>
+     <position x="341.53" y="37.5579" z="-66.8923"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA27403"/>
+     <orientation w="0.528781" x="0" y="0.848758" z="0"/>
+     <position x="298.158" y="55.5579" z="-146.413"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA28403"/>
+     <orientation w="0.34173" x="0" y="0.939798" z="0"/>
+     <position x="163.69" y="-63.6842" z="-195.323"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="Default Name IA29403"/>
+     <orientation w="0.475185" x="0" y="-0.879886" z="0"/>
+     <position x="-117.336" y="19.5346" z="-76.95"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>

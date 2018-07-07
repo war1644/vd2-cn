@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<soundEngineSoundType attr1="ui"/>
+<effectType attr1="sound"/> 
+<objectID attr1="gateExitUI00"/> 
+<soundFile attr1="gravityDriveExit00.wav"/>
+<defaultVolume attr1="0.8"/>

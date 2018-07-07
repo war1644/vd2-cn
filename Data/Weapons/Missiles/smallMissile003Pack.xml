@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="missile"/>
+<objectID attr1="smallMissile003P"/>
+<name attr1="Small Missle Pack"/>
+<meshName attr1="smallMissile003P.mesh"/>
+<ribbonID attr1="m_ribbon"/>
+<trailParticleName attr1="missile_propulsion"/>
+<cruiseSpeed attr1="80.0"/>
+<timeTillCruise attr1="1.5"/>
+<initialVelocity attr1="60.0"/> 
+<initialLife attr1="1.25"/> 
+<timeTillActive attr1="0.15"/>
+<damage attr1="10.0"/> 
+<explosionID attr1="mHit"/>
+<health attr1="10.0"/>
+<yaw 	attr1="30.0"/> 
+<pitch	attr1="30.0"/> 
+<roll 	attr1="30.0"/> 
+<mirv> 
+	<mirvCount attr1="3"/> 
+	<mirvObjectID attr1="smallMissile00ST"/> 
+</mirv>

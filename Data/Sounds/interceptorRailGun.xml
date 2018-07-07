@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<objectID attr1="intRG"/> 
+<soundType attr1="random"/>
+<soundFile attr1="clawCharge00Tail.wav"/>
+<soundFile attr1="clawCharge00Tail.wav"/>
+<soundFile attr1="clawCharge00Tail.wav"/>
+<maxDistance attr1="875"/> 
+<referenceDistance attr1="375"/>
+<defaultVolume attr1="0.3"/>
+<soundPriority attr1="50"/>

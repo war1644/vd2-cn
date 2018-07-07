@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="missile"/>
+<objectID attr1="bDumbTorp01"/>
+<name attr1="Light Torpedo"/>
+<missileType attr1="torpedo"/>
+<meshName attr1="beggarDumbTorp01.mesh"/>
+<ribbonID attr1="m_ribbon"/>
+<trailParticleName attr1="missile_propulsion"/>
+<cruiseSpeed attr1="20.0"/>
+<timeTillCruise attr1="200"/>
+<initialVelocity attr1="10.0"/> 
+<initialLife attr1="30.5"/> 
+<timeTillActive attr1="100.5"/>
+<damage attr1="650.0"/> 
+<explosionID attr1="explode01"/>
+<health attr1="5.0"/>
+<yaw 	attr1="2.0"/> 
+<pitch	attr1="2.0"/> 
+<roll 	attr1="2.0"/> 

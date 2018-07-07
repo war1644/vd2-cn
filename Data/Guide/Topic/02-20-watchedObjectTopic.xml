@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="watchedObject"/>
+<topicName attr1="Watched Objects"/>
+<mainText attr1="Watched Objects:"/>
+<mainText attr1="Busy fighting? Lost one of your cruisers? Did this ever happen to you? "/>
+<mainText attr1=" "/>
+<mainText attr1="Well it happened to me a lot. So I added the ability to - watch objects."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Concepts:"/>
+<mainText attr1="Can watch up to 4 objects."/>
+<mainText attr1="Works in Tactical Mode and Ship Mode."/>
+<mainText attr1="Ships, stations - show health."/>
+<mainText attr1="Bases show crew"/>
+<mainText attr1="     Friendly Bases show resources"/>
+<mainText attr1=" "/>
+<mainText attr1="Using Watched Objects:"/>
+<mainText attr1="Select an object to watch"/>
+<mainText attr1="Click on the little - tab dealie/button - as shown in image on right."/>
+<mainText attr1="     Can - overwrite - another watched object with another."/>
+<mainText attr1="Clicked on the watched object - the name portion - to quickly select object."/>
+<mainText attr1="Periodically look at watched object - to watch it."/>
+<imageOne>
+	<image attr1="set:guide_watched_object image:guide_watched_object"/>
+</imageOne>

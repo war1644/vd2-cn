@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<lookAtObject attr1="b02-littleJoy-1"/> 
+	<reletiveObject attr1="b02-littleJoy-1"/> 
+	<cameraPosition x="-100" y="-100" z="-200"/>
+	<duration attr1="1.5"/>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="3.0"/>
+	<trigger>
+		<triggerType attr1="drop_all_carried"/>
+		<shipName attr1="b02-littleJoy-1"/>
+		<shipName attr1="b02-littleJoy-2"/>
+		<shipName attr1="b02-littleJoy-3"/>
+		<shipName attr1="b02-littleJoy-4"/>
+	</trigger>
+</sceneFragment>

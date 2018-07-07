@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="stubStopAttackingMe00"/>
+<bGeneric attr1="0"/>
+<factionID attr1="stubs"/>
+<dialogType attr1="stop_attacking_me"/>
+<dialog attr1="Why do you attack kin?"/>
+<dialog attr1="Why..."/>
+<dialog attr1="I didn't expect this from one of us..."/>
+<dialog attr1="As if we don't have enough enemies..."/>
+<dialog attr1="Family don't hurt family!"/>
+<dialog attr1="Check your eye implants!"/>

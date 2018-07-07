@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="mine"/> 
+<weaponID attr1="apolloDML"/> 
+<ammunitionID attr1="discMine00"/> 
+<name attr1="Mine Launcher"/> 
+<fireSoundID attr1="missileLS"/>
+<reFireRate attr1="1.15"/>
+<capacity attr1="4"/> 
+<reloadTime attr1="25.0"/> 
+<muzzleFlashEffectID attr1="mfML03"/>
+<launchVelocity attr1="50.0"/> 
+<randomLaunchAngle attr1="1"/> 
+<randomLaunchSpeed attr1="30"/>
+<bNoLifeLimit attr1="1"/>

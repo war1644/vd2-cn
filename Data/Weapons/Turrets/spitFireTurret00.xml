@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="spitFireT00"/> 
+<name attr1="Scatter Gun Turret"/> 
+<meshName attr1="spitFireTurret00.mesh"/> 
+<turretWeapon attr1="projectile"/>
+<hardpointID attr1="spitfireTSG"/>
+<dMoveSpeed attr1="100.0"/>
+<pitchMax attr1="90.0"/>
+<turretBarrel>
+	<weaponPosition x="0" y="-0.125" z="-2.608"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretViewPos x="16.05" y="0.03" z="0.61"/>
+<targetPriorityList> 
+	<targetClass attr1="fighter"/>
+	<targetClass attr1="fighter_drone"/>
+	<targetClass attr1="gunship"/>
+	<targetClass attr1="corvette"/> 
+	<targetClass attr1="frigate"/> 
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="attack_station"/> 
+</targetPriorityList> 
+<turnSoundID attr1="turretR00"/>

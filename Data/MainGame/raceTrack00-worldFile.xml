@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<station_Object>
+     <objectID attr1="raceGate00Green"/>
+     <name attr1="Race Track 0"/>
+     <orientation w="0.698883" x="0" y="0.715236" z="0"/>
+     <position x="185.092" y="0" z="-4.28155"/>
+     <faction attr1="hazardInc"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate04T"/>
+     <name attr1="Race Track 1"/>
+     <orientation w="0.703616" x="0" y="0.71058" z="0"/>
+     <position x="1060.82" y="0" z="-10.4475"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate00"/>
+     <name attr1="Race Track 2"/>
+     <orientation w="0.671416" x="0" y="0.741081" z="0"/>
+     <position x="1884.74" y="17.22" z="-186.365"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate02T"/>
+     <name attr1="Race Track 3"/>
+     <orientation w="0.723039" x="0" y="0.690807" z="0"/>
+     <position x="2995.94" y="0.16" z="136.668"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate02"/>
+     <name attr1="Race Track 4"/>
+     <orientation w="0.69259" x="0" y="0.721331" z="0"/>
+     <position x="4034.74" y="158.857" z="-164.097"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate02T"/>
+     <name attr1="Race Track 5"/>
+     <orientation w="0.72204" x="0" y="0.691851" z="0"/>
+     <position x="5986.25" y="-251.31" z="255.751"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate03"/>
+     <name attr1="Race Track 6"/>
+     <orientation w="0.700592" x="0" y="0.713562" z="0"/>
+     <position x="7972.92" y="157.667" z="-146.252"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate00T"/>
+     <name attr1="Race Track 7"/>
+     <orientation w="0.707527" x="0" y="0.706687" z="0"/>
+     <position x="9621.4" y="2.70702" z="11.4273"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate00"/>
+     <name attr1="Race Track 8"/>
+     <orientation w="0.697961" x="0" y="0.716136" z="0"/>
+     <position x="10490.2" y="-5.81642" z="-269.707"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate00T"/>
+     <name attr1="Race Track 9"/>
+     <orientation w="0.705762" x="0" y="0.708449" z="0"/>
+     <position x="11322.3" y="11.1269" z="-43.0345"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate00Red"/>
+     <name attr1="Race Track 10"/>
+     <orientation w="0.70194" x="0" y="0.712236" z="0"/>
+     <position x="12605.7" y="0" z="-183.543"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>

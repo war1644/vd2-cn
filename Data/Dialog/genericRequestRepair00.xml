@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieReqRepair00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="request_repair"/>
+<dialog attr1="You for hire? I need repairs."/>
+<dialog attr1="Heal me up Scotty?"/>
+<dialog attr1="Could use a patch job, you available?"/>

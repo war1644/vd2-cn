@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asteroid_Object>
+     <objectID attr1="bigRock002"/>
+     <name attr1="rg01-roid-1"/>
+     <orientation w="0.769332" x="-0.448222" y="-0.407029" z="-0.203845"/>
+     <position x="674.298" y="227.36" z="-1167.05"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock001"/>
+     <name attr1="rg01-roid-2"/>
+     <orientation w="0.905668" x="-0.13567" y="-0.359189" z="0.17984"/>
+     <position x="338.37" y="77" z="-953.259"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="rg01-roid-3"/>
+     <orientation w="-0.0667512" x="0.425155" y="-0.466577" z="-0.772718"/>
+     <position x="1345.78" y="-220" z="-865.52"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="bigRock002"/>
+     <name attr1="rg01-roid-4"/>
+     <orientation w="0.150601" x="0.560162" y="0.127064" z="-0.804607"/>
+     <position x="360.762" y="-161.57" z="-1466.29"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="rg01-roid-5"/>
+     <orientation w="-0.269484" x="0.956343" y="0.0884263" z="-0.0704845"/>
+     <position x="232.519" y="402.5" z="-1902.13"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="rg01-roid-6"/>
+     <orientation w="0.557576" x="0.260606" y="-0.68426" z="-0.391128"/>
+     <position x="1673.34" y="-508.38" z="1289.25"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="bigRock001"/>
+     <name attr1="rg01-roid-7"/>
+     <orientation w="-0.505001" x="-0.234628" y="-0.808114" z="0.192029"/>
+     <position x="1002.37" y="-297.5" z="-1467.26"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="holeRock002"/>
+     <name attr1="rg01-roid-8"/>
+     <orientation w="-0.294951" x="-0.375573" y="-0.153596" z="-0.865076"/>
+     <position x="1495.23" y="279.78" z="-408.582"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock002"/>
+     <name attr1="rg01-roid-9"/>
+     <orientation w="0.0513903" x="-0.805136" y="0.257289" z="0.5319"/>
+     <position x="-938.126" y="-432.95" z="-1167.02"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock003"/>
+     <name attr1="rg01-roid-10"/>
+     <orientation w="-0.537253" x="0.707885" y="-0.102833" z="-0.446859"/>
+     <position x="-21.4153" y="81.5976" z="2231.66"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="rg01-roid-11"/>
+     <orientation w="0.0794161" x="0.0443168" y="0.213315" z="0.972741"/>
+     <position x="314.214" y="424.351" z="3099.38"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock002"/>
+     <name attr1="rg01-roid-12"/>
+     <orientation w="0.291266" x="0.428611" y="0.28467" z="-0.806486"/>
+     <position x="-1306.1" y="-427.12" z="3128.82"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock005"/>
+     <name attr1="rg01-roid-13"/>
+     <orientation w="0.258022" x="0.522154" y="-0.778243" z="-0.234772"/>
+     <position x="-836.712" y="-499.27" z="2042.49"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="rg01-roid-14"/>
+     <orientation w="0.849396" x="-0.52051" y="-0.0743122" z="-0.0455385"/>
+     <position x="561.956" y="-509.42" z="2305.49"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-1"/>
+     <orientation w="0.711654" x="0" y="-0.70253" z="0"/>
+     <position x="-1012.74" y="349.883" z="13.0673"/>
+     <faction attr1="enemy"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-2"/>
+     <orientation w="0.717236" x="0" y="-0.696831" z="0"/>
+     <position x="-745.251" y="69.7511" z="21.5126"/>
+     <faction attr1="enemy"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-3"/>
+     <orientation w="0.719771" x="0" y="-0.694211" z="0"/>
+     <position x="-1032.08" y="19.2205" z="37.3253"/>
+     <faction attr1="enemy"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-4"/>
+     <orientation w="0.718893" x="0" y="-0.695121" z="0"/>
+     <position x="-805.342" y="-16.5672" z="27.0857"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-5"/>
+     <orientation w="0.707336" x="0" y="-0.706877" z="0"/>
+     <position x="-1023.56" y="426.403" z="0.66515"/>
+     <faction attr1="enemy"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-6"/>
+     <orientation w="0.833354" x="0" y="-0.552739" z="0"/>
+     <position x="-1040.69" y="445.358" z="439.385"/>
+     <faction attr1="enemy"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-7"/>
+     <orientation w="0.764689" x="0" y="-0.644399" z="0"/>
+     <position x="-573.227" y="-47.9338" z="98.5877"/>
+     <faction attr1="enemy"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-8"/>
+     <orientation w="0.705895" x="0" y="-0.708316" z="0"/>
+     <position x="-1116.07" y="-75.0795" z="-3.82121"/>
+     <faction attr1="enemy"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-9"/>
+     <orientation w="0.700436" x="0" y="-0.713715" z="0"/>
+     <position x="-1059.07" y="-21.0544" z="-19.8904"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-10"/>
+     <orientation w="0.6854" x="0" y="-0.728166" z="0"/>
+     <position x="-1054.92" y="-51.0796" z="-63.8898"/>
+     <faction attr1="enemy"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-11"/>
+     <orientation w="0.701445" x="0" y="-0.712724" z="0"/>
+     <position x="-494.624" y="480.359" z="-7.89052"/>
+     <faction attr1="enemy"/>
+     <bActivateOnDamage attr1="0"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-12"/>
+     <orientation w="0.692946" x="0" y="-0.72099" z="0"/>
+     <position x="-551.624" y="-21.0544" z="-21.8904"/>
+     <faction attr1="enemy"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-13"/>
+     <orientation w="0.910746" x="0" y="-0.412966" z="0"/>
+     <position x="-636.492" y="-100.079" z="557.548"/>
+     <faction attr1="enemy"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-14"/>
+     <orientation w="0.851596" x="0" y="-0.524198" z="0"/>
+     <position x="-1043.68" y="433.756" z="526.548"/>
+     <faction attr1="enemy"/>
+</mine_Object>
+<mine_Object>
+     <objectID attr1="rgHeatMine00"/>
+     <name attr1="rg01-mine-15"/>
+     <orientation w="0.697294" x="0" y="-0.716785" z="0"/>
+     <position x="-1047.79" y="525.359" z="-28.8902"/>
+     <faction attr1="enemy"/>
+</mine_Object>

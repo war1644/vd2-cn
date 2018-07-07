@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="raiderSG"/> 
+<ammunitionID attr1="mediumRGP"/>
+<auxAmmunitionID attr1="mediumRGPAux"/>
+<projectileWeaponType attr1="scatter_gun"/>
+<roundsPerShot attr1="9"/>
+<scatterYaw attr1="0.35"/>
+<scatterPitch attr1="0.35"/>
+<bAddRandom attr1="0"/>
+<name attr1="Medium Scatter Gun"/> 
+<fireSoundID attr1="scatterGS00"/>
+<muzzleFlashEffectID attr1="mfLG035"/>
+<capacity attr1="4"/> 
+<reFireRate attr1="0.2"/>
+<reloadTime attr1="1.2"/>
+<_recoil>
+	<recoilZ attr1="-1.5"/>
+	<recoilTime attr1="0.05"/>
+	<recoilBone attr1="recoil"/>
+</_recoil>

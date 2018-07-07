@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<lookAtObject attr1="b02-hadesB-1"/> 
+	<reletiveObject attr1="b02-hadesB-1"/> 
+	<cameraPosition x="-250" y="250" z="-650"/>
+	<duration attr1="2.0"/>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="b02-hadesB-1"/> 
+	<reletiveObject attr1="b02-hadesB-1"/> 
+	<cameraPosition x="-200" y="160" z="230"/>
+	<duration attr1="2.0"/>
+	<trigger>
+		<triggerType attr1="clear_velocities"/>
+		<body attr1="b02-hadesB-1"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="4.0"/>
+	<trigger>
+		<triggerType attr1="clear_velocities"/>
+		<body attr1="b02-hadesB-1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="explosion"/>
+		<reletiveObject attr1="b02-hadesB-1"/>
+		<explosionID attr1="explode03"/>
+		<position x="-20.81" y="16.893" z="23.31"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="b02-hadesB-1"/>
+		<health attr1="71"/>
+		<bAsPercent attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_linear_velocity"/>
+		<body attr1="b02-hadesB-1"/>
+		<velocity x="2.08" y="-1.68" z="-2.33"/>
+		<bReletive attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="b02-hadesB-1"/>	
+		<alterType attr1="rotating_elements_override"/>
+		<bToggle attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="weapons_hold"/>
+		<shipName attr1="b02-hadesB-1"/>
+		<bToggle attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="disable_maneuvering"/>
+		<shipName attr1="b02-hadesB-1"/>
+		<bSetting attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="disable_engines"/>
+		<shipName attr1="b02-hadesB-1"/>
+		<bSetting attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="capture_resistance"/>
+		<shipName attr1="b02-hadesB-1"/>
+		<numberInt attr1="40"/>		
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="b02-hadesB-1"/> 
+	<reletiveObject attr1="b02-hadesB-1"/> 
+	<cameraPosition x="-250" y="250" z="-650"/>
+	<duration attr1="2.0"/>
+</sceneFragment>

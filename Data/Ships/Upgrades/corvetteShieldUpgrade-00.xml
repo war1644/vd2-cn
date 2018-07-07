@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Shield Generator - Corvette"/> 
+<objectID attr1="cShield00"/> 
+<upgradeCategory attr1="engineering"/> 
+<cost attr1="42500"/>
+<addCostAsPercentOfShip attr1="0.04"/>
+<description attr1="Adds a shield generator, capable of protecting the entire ship."/>
+<description attr1=" "/>
+<description attr1="Stemming from analysis and modifications of captured Outsider tech, shields are capable of absorbing damage before it reaches the ship's hull. Unlike standard Outsider energy barriers, this variant is capable of protecting the entire ship, damage taken reduces shield strength and recharges when not taking damage."/>
+<shieldHealthChange attr1="750"/>

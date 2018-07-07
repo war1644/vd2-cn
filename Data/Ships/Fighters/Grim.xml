@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Grim"/> 
+<objectID attr1="grim"/> 
+<faction attr1="thePride"/> 
+<shipClass attr1="fighter"/>
+<shipClassSize attr1="light"/>
+<meshName attr1="Grim.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A light Bounty Hunter fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Featuring twin physical shield plates for protection and quad projectile guns. It is very capable for its size and class."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Grim is often the first step in joining The Pride, due to them requiring the use of their ships for missions. This ship is priced with luring new guild members in mind. If you prove yourself worthy, you are given the opportunity to purchase even more quality ships."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Twin rail guns."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Rail gun projectiles hit targets nearly instantly (relative to human perception of time) so there's no need to lead the target."/>
+<descriptionText attr1=""/>
+<creditCost attr1="25000"/>
+<missionRankRequired attr1="1"/>
+<cruiseSpeed attr1="170.0"/> 
+<timeTillCruise attr1="0.95"/> 
+<yaw 	attr1="110.0"/> 
+<pitch	attr1="110.0"/> 
+<roll 	attr1="110.0"/> 
+<bGravityDrive attr1="1"/>
+<cockpitID attr1="cockpit003"/>
+<cockpitActualPos x="0" y="0" z="0.5"/>
+<cockpitActualMesh attr1="cockpitGrim.mesh"/> 
+<cockpitInitPos x="0" y="4.73" z="4.83"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="14.68" z="70"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="500.0"/>
+<armor attr1="0.75"/>
+<buildTime	attr1="25.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="150.0"/> 
+<ore		attr1="225.0"/> 
+<damage>
+    <pitch attr1="110.0"/> 
+    <roll attr1="15.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="1.206" y="1.21" z="8.449"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/> 
+<explosionID attr1="explode02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="0" y="0" z="8.53"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="6.5"/> 
+    <capacity attr1="5.55"/>
+    <recharge attr1="6.5"/> 
+</afterburner>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="grimPG"/> 
+	<weaponPosition x="2.84" y="0.42" z="-6.74"/>
+	<weaponPosition x="1.85" y="-1.57" z="-6.79"/>
+	<weaponPosition x="-2.84" y="0.42" z="-6.74"/>
+	<weaponPosition x="-1.85" y="-1.57" z="-6.79"/>
+	<barrelDelay attr1="0.035"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="instant"/> 
+    <hardpointID attr1="grimRG"/> 
+	<weaponPosition x="1.661" y="3.267" z="0.732"/>
+	<weaponPosition x="-1.661" y="3.267" z="0.732"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<attachment>
+	<attachmentID attr1="grimShieldRight00"/>
+	<attachmentPosition x="4.62" y="-0.04" z="-1.79"/>
+</attachment>
+<attachment>
+	<attachmentID attr1="grimShieldLeft00"/>
+	<attachmentPosition x="-4.62" y="-0.04" z="-1.79"/>
+</attachment>
+<upgrades> 
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="lightFighterPUS00"/>
+	<upgradeID attr1="lightFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<shipHangarPosition x="0" y="-0.04" z="-4.61"/>

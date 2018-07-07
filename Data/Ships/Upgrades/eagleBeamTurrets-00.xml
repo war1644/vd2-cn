@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Defense Beam Turrets"/> 
+<objectID attr1="eagleBT00"/> 
+<upgradeCategory attr1="weapon"/>
+<upgradeType attr1="other"/>
+<cost attr1="101250"/>
+<addCostAsPercentOfShip attr1="0.015"/>
+<turret>
+    <turretID attr1="pilarT03"/>
+    <turretOrientation attr1="bottom"/>
+	<position x="0" y="-5.2" z="-37.16"/>
+	<pitchLower attr1="-30"/> 
+	<turretRole attr1="defense"/>
+	<yawPermitted attr1="45"/>
+	<weaponPositionID attr1="4"/>
+</turret>
+<turret>
+    <turretID attr1="pilarT03"/>
+	<position x="0" y="-1.5" z="45.69"/>
+	<pitchLower attr1="-30"/> 
+	<turretRole attr1="defense"/>
+	<yawPermitted attr1="-45"/>
+	<yaw attr1="180"/>
+	<weaponPositionID attr1="5"/>
+</turret>
+<description attr1="Replaces the standard ball turrets with a beam variants."/>
+<description attr1=" "/>
+<description attr1="A beam turret gives a near constant hit rate, provided that it is in range and properly aligned to its target. This makes the Eagle quite a lot more effective at defending itself versus pesky light fighters."/>

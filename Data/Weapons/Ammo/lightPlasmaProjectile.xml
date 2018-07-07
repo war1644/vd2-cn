@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="projectile"/> 
+<projectileID attr1="lightPlasmaP"/> 
+<projectileType attr1="particle_projectile"/> 
+<projectileParticleName attr1="vdp_plasma_bullet"/>
+<projectileVelocity attr1="1050.0"/> 
+<initialLife attr1="1.25"/> 
+<_range attr1="1312.0"/> 
+<damage attr1="25.0"/> 
+<explosionID attr1="mHit00"/> 
+<bAntiCapital attr1="1"/>

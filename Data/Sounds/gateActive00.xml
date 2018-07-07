@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="continuous"/>
+<objectID attr1="gateActive00"/> 
+<soundFile attr1="gateActive00.wav"/>
+<soundPriority attr1="180"/>

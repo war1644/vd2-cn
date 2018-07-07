@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Corporate Retreat"/>
+<missionDescriptionText attr1="Escort Quest - a elite level team building event requires a experienced combat pilot."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="In addition to gourmet class food, zero-g swimming pools and THE best trained service staff, Escort Quest features a 'live fire' experience."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Our guests get to witness exciting space combat first hand and lucky raffle winners get a hands on experience with ship turrets - no experience necessary!"/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Your task is to provide that exciting space combat."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="By accepting this mission you agree that neither the Civilian Conglomerate nor it's wholly owned subsidiary 'Escort Quest' are liable for any post traumatic stress, injury, loss of ship and/or death."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="In case of contractor death, the inability to full fill obligation nullifies any payment due."/>
+<objectID attr1="civ-02"/>
+<missionFactionID attr1="civilian"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="-5133" y="0" z="2831"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="10000"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<maximumShipClass attr1="fighter"/>
+<bOverworldByPass attr1="1"/>
+<note_to_self attr1="tweak back to 3 below - after doing some more work on mission ranks..."/>
+<missionRankRequired attr1="3.8"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<nextMissionNumber attr1="2000"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="extraLargeRock002"/>
+		<name attr1="mRoid01"/>
+		<bOverworld attr1="0"/>
+		<position x="-1533" y="400" z="1920"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="largeRock001"/>
+		<name attr1="mRoid02"/>
+		<bOverworld attr1="0"/>
+		<reletiveObject attr1="mRoid01"/>
+		<position x="-380" y="-450" z="620"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="mediumRock003"/>
+		<name attr1="mRoid03"/>
+		<bOverworld attr1="0"/>
+		<reletiveObject attr1="mRoid02"/>
+		<position x="230" y="-184" z="220"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="hades"/>
+		<shipName attr1="escortQuest"/>
+		<displayName attr1="Escort Quest 1"/>
+		<bOverworld attr1="1"/>
+		<note_to_self attr1="making part of overworld so that ransom payment works down below..."/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<position x="0" y="0" z="0"/>
+		<bCheckPosition attr1="0"/>
+		<aiPosture attr1="hold"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_ship_target_priority_list"/>
+		<shipName attr1="escortQuest"/>
+		<targetPriorityList> 
+			<targetClass attr1="corvette"/>
+			<targetClass attr1="frigate"/>
+		</targetPriorityList>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="escortQuest"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="escortQuest"/>
+		<characterID attr1="civie-02-captain"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_watched"/>
+		<objectName attr1="escortQuest"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_platform"/>
+		<stationID attr1="cGP01"/>
+		<platformName attr1="defense01"/>
+		<reletiveObject attr1="escortQuest"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="civilian"/>
+		<position x="500" y="0" z="300"/>
+		<bCheckPosition attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_platform"/>
+		<stationID attr1="cGP01"/>
+		<platformName attr1="defense02"/>
+		<reletiveObject attr1="escortQuest"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="civilian"/>
+		<position x="-500" y="0" z="300"/>
+		<bCheckPosition attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_platform"/>
+		<stationID attr1="cGP01"/>
+		<platformName attr1="defense03"/>
+		<reletiveObject attr1="escortQuest"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="civilian"/>
+		<position x="500" y="0" z="-300"/>
+		<bCheckPosition attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_platform"/>
+		<stationID attr1="cGP01"/>
+		<platformName attr1="defense04"/>
+		<reletiveObject attr1="escortQuest"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="civilian"/>
+		<position x="-500" y="0" z="-300"/>
+		<bCheckPosition attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<missionHUDText attr1="Go to the Escort Quest"/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="escortQuest"/>
+		<goToDistance attr1="2500"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="2"/>
+		<markObject attr1="escortQuest"/>
+		<markObjectType attr1="go_to_object"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Uhh... folks this is your Captain."/>
+			<content attr1="Captain Lake... speaking."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Uhh... All systems optimal..."/>
+			<content attr1="The temperature outside is a chilly  -455 degrees Fahrenheit."/>
+			<content attr1="That's -270 Celsius for our metric system guests."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="We have our combat pilot on sensors."/>
+			<content attr1="Combat pilot please acknowledge."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Acknowledged."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Uhh.. folks we have a special treat."/>
+			<content attr1="It appears that our combat pilot for today's event is a Stub."/>
+			<content attr1="Now for those of you who aren't familiar with Stubs."/>
+			<content attr1="They are mercenary cybernetic amnesiacs."/>
+			<bClearAllText attr1="1"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Now folks this might be hard for you to understand..."/>
+			<content attr1="Some people have very little money and are poor."/>
+			<content attr1="Now instead of deciding to work for a living to become rich..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="They decided that the best course of action was selling themselves into servitude."/>
+			<content attr1="Having their guts replaced with cybernetics."/>
+			<content attr1="And going on killing rampages."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Shocking I know..."/>
+			<content attr1="Anyway that's a Stub."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Now folks we are just about ready to begin our live fire experience."/>
+			<content attr1="Please make your way into the hardened observer areas..."/>
+			<content attr1="Raffle winners please see one of our team members for the hands on turret experience."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Crew to alert status."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>	
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Uhh... folks please forgive the potty mouth."/>
+			<content attr1="Comms crew begin broadcast on all frequencies."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="HEY YOU CHICKEN HOLE DOUCHEBAGS!"/>
+			<content attr1="YEAH I'M TALKING TO YOU MOTHER LICKERS!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="I HEAR YOU ARE ALL BALL LESS FAILURE COWARDS!"/>
+			<content attr1="YEAH - YOUR DADDY AND MOMMY TOLD TOLD ME!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="LAST NIGHT! HAH HAH!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Uhh... Tactical..."/>
+			<content attr1="Anything on sensors?... Tactical..."/>
+			<content attr1="Negative?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="YOUR PETS NEVER LOVED YOU!"/>
+			<content attr1="THEY WERE FAKING IT FOR TREATS!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Anything?"/>
+			<content attr1="Several contacts?"/>
+			<content attr1="Good... good..."/>
+			<content attr1="Didn't want to go too dark."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="vulture"/>
+		<shipName attr1="incVulture 1-1"/>
+		<shipID attr1="scav"/>
+		<shipName attr1="intScav 1-1"/>
+		<shipID attr1="scav"/>
+		<shipName attr1="intScav 1-2"/>
+		<position x="2000" y="2000" z="15000"/>
+		<faction attr1="enemyPlayer"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="incVulture 1-1"/>
+		<shipName attr1="intScav 1-1"/>
+		<shipName attr1="intScav 1-2"/>
+		<hopPosition x="0" y="0" z="0"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="2"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Uhh... folks we have some incoming pirates."/>
+			<content attr1="For those interested in the space combat demo."/>
+			<content attr1="Please look at a nearby screen."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="We will not be engaging the ships."/>
+			<content attr1="Let's wish our combat pilot the best of luck!"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<missionHUDText attr1="Destroy Pirate Ships..."/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="incVulture 1-1"/>
+		<targetName attr1="intScav 1-1"/>
+		<targetName attr1="intScav 1-2"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Wow folks! Still standing."/>
+			<content attr1="What a trooper!"/>
+			<content attr1="For those that voted on the combat pilot surviving..."/>
+			<content attr1="Give yourselves a round of applause! You deserve it!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="We got contacts incoming?"/>
+			<content attr1="How many?"/>
+			<content attr1="Ok... ok... ok..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Uhh... folks, looks like we've got the main event coming up."/>
+			<content attr1="Our weapons systems are powering up and..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="What's that?"/>
+			<content attr1="Folks I'm being told that the crepe and omelet bar is now open."/>
+			<content attr1="Bon apetit!"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="beggar"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="incStormCrow 2-1"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="incStormCrow 2-2"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="incStormCrow 2-3"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="incStormCrow 2-4"/>
+		<position x="2000" y="2000" z="15000"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="incStormCrow 2-1"/>
+		<shipName attr1="incStormCrow 2-2"/>
+		<shipName attr1="incStormCrow 2-3"/>
+		<shipName attr1="incStormCrow 2-4"/>
+		<hopPosition x="0" y="0" z="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="oneLeftStanding"/> 	
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<missionHUDText attr1="Destroy Pirate Ships..."/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="50"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="incStormCrow 2-1"/>
+		<targetName attr1="incStormCrow 2-2"/>
+		<targetName attr1="incStormCrow 2-3"/>
+		<targetName attr1="incStormCrow 2-4"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="littleBigJoy"/>
+		<shipName attr1="incLittleBigJoy 3-1"/>
+		<shipID attr1="littleBigJoy"/>
+		<shipName attr1="incLittleBigJoy 3-2"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="incStormCrow 3-1"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="incStormCrow 3-2"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="incStormCrow 3-3"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="incStormCrow 3-4"/>
+		<position x="2000" y="2000" z="15000"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="incRaptor 3-1"/>
+		<shipName attr1="incRaptor 3-2"/>
+		<shipName attr1="incStormCrow 3-1"/>
+		<shipName attr1="incStormCrow 3-2"/>
+		<shipName attr1="incStormCrow 3-3"/>
+		<shipName attr1="incStormCrow 3-4"/>
+		<hopPosition x="0" y="0" z="0"/>
+	</postTrigger>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="40"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="incStormCrow 3-1"/>
+		<targetName attr1="incStormCrow 3-2"/>
+		<targetName attr1="incStormCrow 3-3"/>
+		<targetName attr1="incStormCrow 3-4"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="rhinoG"/>
+		<shipName attr1="incRhinoG 4-1"/>
+		<shipID attr1="rhinoG"/>
+		<shipName attr1="incRhinoG 4-2"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="incStormCrow 4-1"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="incStormCrow 4-2"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="incStormCrow 4-3"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="incStormCrow 4-4"/>
+		<position x="3500" y="5000" z="15000"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="incRhinoG 4-1"/>
+		<shipName attr1="incRhinoG 4-2"/>
+		<shipName attr1="incStormCrow 4-1"/>
+		<shipName attr1="incStormCrow 4-2"/>
+		<shipName attr1="incStormCrow 4-3"/>
+		<shipName attr1="incStormCrow 4-4"/>
+		<hopPosition x="0" y="0" z="0"/>
+	</postTrigger>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="11"/>
+	<nextMissionNumber attr1="12"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="40"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="incStormCrow 4-1"/>
+		<targetName attr1="incStormCrow 4-2"/>
+		<targetName attr1="incStormCrow 4-3"/>
+		<targetName attr1="incStormCrow 4-4"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="killjoy"/>
+		<shipName attr1="incKilljoy 5-1"/>
+		<shipID attr1="rhinoG"/>
+		<shipName attr1="incRhinoG 5-1"/>
+		<shipID attr1="rhinoG"/>
+		<shipName attr1="incRhinoG 5-2"/>
+		<position x="-3000" y="0" z="15000"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="incKilljoy 5-1"/>
+		<shipName attr1="incRhinoG 5-1"/>
+		<shipName attr1="incRhinoG 5-2"/>
+		<hopPosition x="0" y="0" z="0"/>
+	</postTrigger>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="12"/>
+	<nextMissionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="beggar"/> 
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="4.05"/>
+		<faction attr="civilian"/>
+	</reward>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Hah hah hah! That concludes the live fire experience."/>
+			<content attr1="Oh and look! The combat pilot survived!"/>
+			<content attr1="Amazing!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="The zero-g pool will begin hula lessons in 20 minutes."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="2001"/>
+	<bForceActive attr1="1"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="escortQuest"/>
+		<healthPercent attr1="0.80"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="escortQuest"/>
+		<aiPosture attr1="defend"/>		
+	</postTrigger>	
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<nextMissionNumber attr1="2002"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="escortQuest"/>
+		<healthPercent attr1="0.30"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Wow folks! Wasn't that great?"/>
+			<content attr1="We seem to be a bit dinged up! Oh oh!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Dear sirs? How much for you to spare our lives?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-pirate"/>
+			<content attr1="After what you said?"/>
+			<content attr1="Ain't no money going to save you."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Oh no! hah hah hah!"/>
+			<content attr1="Come on sirs... name a price."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-pirate"/>
+			<content attr1="Well we did lose a few good guys..."/>
+			<content attr1="And you said some messed up stuff..."/>
+			<content attr1="10 million credits!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-captain"/>
+			<content attr1="Done! Hah hah!"/>
+			<content attr1="Resource officer... transmit credits."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-02-pirate"/>
+			<content attr1="Damn..."/>
+			<content attr1="Pleasure doing business with you."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="2002"/>
+	<note_to_self attr1="mostly for pre triggers"/>
+	<nextMissionNumber attr1="1000"/>
+	<preTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="beggar"/>
+		<bToggle attr1="0"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="pay_ransom"/>
+		<ransomFactionID attr1="beggar"/>
+		<ransomPayer attr1="playerShip"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="pay_ransom"/>
+		<ransomFactionID attr1="beggar"/>
+		<ransomPayer attr1="escortQuest"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_active"/>
+		<objectName attr1="defense01"/>
+		<objectName attr1="defense02"/>
+		<objectName attr1="defense03"/>
+		<objectName attr1="defense04"/>
+		<bActive attr1="0"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+</mission>

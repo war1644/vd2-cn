@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="tonTG"/> 
+<ammunitionID attr1="lightCGP"/> 
+<name attr1="Light Gun"/> 
+<fireSoundID attr1="rapidP04"/>
+<muzzleFlashEffectID attr1="mfLG02"/>
+<capacity attr1="35"/> 
+<reloadTime attr1="1.2"/>
+<reFireRate attr1="0.03"/>
+<scatterYaw attr1="0.25"/>
+<scatterPitch attr1="0.25"/>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="PerezMS"/> 
+<objectID attr1="perezMS"/> 
+<faction attr1="civilian"/>
+<soldByFaction attr1="tsf"/>
+<shipClass attr1="fighter"/> 
+<shipClassSize attr1="heavy"/>
+<meshName attr1="PerezMS.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A heavy fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Military surplus. When ships are damaged to the point of not being economically viable to do full repairs, the TSF has instead chosen to replace damaged parts with lower grade models and then offer the ship up for sale on the civilian market."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="While overall a lesser Perez, the most notable change in this variant is the lack of a third turret."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Despite the downgrades, this variant of the Perez is still a capable ship. Often sought by those with fantasies of flying military fighters."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Charged Rail Gun."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The original secondary weapon of the Perez, before being replaced by an additional turret. A very powerful blast, instantly hitting with a significant knock back."/>
+<creditCost attr1="200000"/>
+<missionRankRequired attr1="4"/>
+<cruiseSpeed attr1="90.0"/> 
+<timeTillCruise attr1="1.95"/>
+<yaw 	attr1="95.0"/> 
+<pitch	attr1="95"/> 
+<roll 	attr1="95.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitActualPos x="0" y="0.817" z="-6.842"/>
+<cockpitActualMesh attr1="cockpitPerezMS.mesh"/> 
+<cockpitInitPos x="0" y="6.06" z="13"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="12.7" z="70"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="1450.0"/> 
+<armor attr1="0.45"/>
+<shieldHealth attr1="0"/>
+<buildTime	attr1="25.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="150.0"/> 
+<ore		attr1="225.0"/> 
+<damage>
+    <pitch attr1="-20.0"/> 
+    <roll attr1="75.0"/> 
+	<yaw attr1="8.0"/> 
+	<position x="-1.593" y="2.141" z="8.673"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="perezMSD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="perezMSD01"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="0" y="0.27" z="16.21"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="0" y="-2.16" z="16.4"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="0" y="-4.26" z="4.02"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="6.25"/>
+    <capacity attr1="11.0"/>
+    <recharge attr1="13.0"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<turret>
+    <turretID attr1="pGTurret"/>
+    <turretOrientation attr1="right"/> 
+	<position x="9.151" y="0" z="0"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/> 
+</turret>
+<turret>
+    <turretID attr1="pGTurret"/>
+    <turretOrientation attr1="left"/> 
+	<position x="-9.151" y="0" z="0"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+</turret>
+<weapon> 
+    <weaponType attr1="instant"/> 
+    <hardpointID attr1="perezMSCG"/> 
+	<weaponPosition x="0" y="-2.379" z="-16.157"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="2"/>
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield02"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="fFrontShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed02"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="heavyFighterPUS00"/>
+	<upgradeID attr1="heavyFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="0.91" z="-1.58"/>
+<discoveryRange attr1="100"/>
+<detectionRange attr1="300"/>

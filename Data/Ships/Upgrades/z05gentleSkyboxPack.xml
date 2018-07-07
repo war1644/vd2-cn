@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Skyboxes - Stub 2"/> 
+<objectID attr1="z01SBPG01"/>
+<upgradeCategory attr1="other"/>
+<upgradeType attr1="other"/>
+<cost attr1="1500"/>
+<bAlwaysAvailableUpgrade attr1="1"/>
+<bPersistsOnShipChange attr1="1"/>
+<skybox attr1="blueGR001"/>
+<skybox attr1="greenGR001"/>
+<skybox attr1="orangeGR001"/>
+<skybox attr1="redGR001"/>
+<description attr1="Replaces the standard sky boxes with ones of a gentler and simpler variety."/>
+<description attr1=" "/>
+<description attr1="Low visual noise is intended to improve situational awareness."/>
+<description attr1=" "/>
+<description attr1="Faction specific coloring."/>

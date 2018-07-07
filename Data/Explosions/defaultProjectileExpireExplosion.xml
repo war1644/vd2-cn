@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="explosion"/> 
+<objectID attr1="dPExpire"/> 
+<particleSystemName attr1="vdp_projectile_expire"/> 
+<life attr1="0.4"/>

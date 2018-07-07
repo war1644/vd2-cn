@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="tacSelecting"/>
+<topicName attr1="Object Selection"/>
+<mainText attr1="Selecting:"/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Object selection is done mainly via the left mouse button. Left click on a 3D object to select it."/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1=" "/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Selecting Utilities:"/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Because you can select multiple friendly ships. If you hold down the SHIFT key you can add/remove ships to the selected list."/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="You can also - draw a selection rectangle - to select object(s)."/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="This is done via holding down the left mouse button and dragging the mouse."/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Via drawing the selection rectangle selecting multiple friendly ships is possible."/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Because there is a variety of small and large objects selection attempts to be smart."/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Small objects are prioritized - especially ships."/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1=" "/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Selecting Shortcuts:"/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Select Current Player Ship - KEY - "/>
+<commandTypeName attr1="tactical_command"/>
+<commandIDName attr1="select_player"/>
+<mainText attr1="Select Command Ship - KEY - "/>
+<commandTypeName attr1="tactical_command"/>
+<commandIDName attr1="select_command"/>
+<mainText attr1="Select Nearest Friendly Base - KEY - "/>
+<commandTypeName attr1="tactical_command"/>
+<commandIDName attr1="select_base"/>
+<mainText attr1="Select Nearest Friendly Shipyard - KEY - "/>
+<commandTypeName attr1="tactical_command"/>
+<commandIDName attr1="select_shipyard"/>
+<mainText attr1=" "/>
+<mainText attr1="Selecting Shortcuts Use:"/>
+<mainText attr1="Sometimes its nice to quickly focus on a particular object, double tap the above to select then focus on that object."/>
+<mainText attr1=" "/>
+<mainText attr1="Extended Click Use:"/>
+<mainText attr1="Often double clicking has added functionality."/>
+<mainText attr1="When a friendly SHIP is selected, clicking on its 3D model will select all ships of the same type."/>
+<mainText attr1="When a friendly BASE is selected, clicking on its 3D model will open up its base management screen."/>
+<mainText attr1="When a friendly SHIPYARD is selected, clicking on its 3D model will open up its ship building screen."/>
+<mainText attr1="When a friendly GATE is selected, clicking on its 3D model will activate it or de-activate it (if other criteria are met)."/>
+<mainText attr1="Clicking on a object's target - selects that target."/>
+<imageOne>
+	<image attr1="set:gui_tac_select1 image:gui_tac_select1"/>
+</imageOne>
+<imageTwo>
+	<image attr1="set:gui_tac_select2 image:gui_tac_select2"/>
+</imageTwo>
+<imageThree>
+	<image attr1="set:gui_tac_select3 image:gui_tac_select3"/>
+</imageThree>

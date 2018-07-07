@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieRequestDockHostile00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="request_dock_response_hostile"/>
+<dialog attr1="Hah! We don't let enemies dock!"/>
+<dialog attr1="Negative. In case you haven't guessed, we don't like you."/>
+<dialog attr1="We don't tolerate your kind here."/>
+<dialog attr1="You aren't welcome here."/>

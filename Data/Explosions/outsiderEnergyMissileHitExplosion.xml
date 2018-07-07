@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="explosion"/> 
+<objectID attr1="eMHit"/> 
+<particleSystemName attr1="vdp_xpl_omissile_01"/> 
+<explosionSoundID attr1="missileH00"/>
+<life attr1="2"/>
+<maxSounds attr1="20"/>
+<renderingDistance attr1="3000"/>

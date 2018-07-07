@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="targetQueueing"/>
+<topicName attr1="  Target Queueing"/>
+<mainText attr1="Target Queueing Overview:"/>
+<mainText attr1="You can queue up targets for friendly ships and friendly turrets."/>
+<mainText attr1="Target queueing works very similar to setting a single target"/>
+<mainText attr1="Issuing targets allows you to override ship's normal behavior - setting up target queues is the next step."/>
+<mainText attr1=" "/>
+<mainText attr1="Void Destroyer supports target queueing in two ways:"/>
+<mainText attr1="First select a friendly ship or ships."/>
+<mainText attr1="     SHIFT + right click to add another target to the list (same as issuing an attack order - just add the SHIFT key)"/>
+<mainText attr1="     CTRL + left click and drag - to multi select targets to be added to the queue (same as multi friendly ship selection - just add the CTRL key)"/>
+<mainText attr1="To clear current and queued targets - click the - Clear Target(s) - button in the lower right hand area of the screen"/>
+<mainText attr1=" "/>
+<mainText attr1="If you checked out the ship behavior topic you've read that ships tend to find targets on their own and they tend to do this via their own target priority lists. Issuing targets and target queueing are two great tools for you to take the commander role."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Concept:"/>
+<mainText attr1="Void Destroyer is both a space sim and strategy game. Strategy gamers tend to know really well why target queueing is important."/>
+<mainText attr1="However target queueing is also a great tool for those who lean towards the pilot role - it allows you to setup the battle (dilate time via the PAUSE key (by default) first) as you want it, then hop into the pilot/commander seat knowing that your forces are targeting the ships you want them to target."/>
+<mainText attr1=" "/>
+<mainText attr1="Use Example: "/>
+<mainText attr1="A swarm of enemy fighters is approaching - followed by frigates. Normally your corvettes would focus on the frigates - however via target queueing you can have them quickly mop up the fighters - one after the other."/>
+<mainText attr1="A swarm of enemy ships approaching your forces. Most of your forces are in do not engage mode (see Controlling Ship Behavior topic). Select your ships and issue them attack orders (including target queueing) to deal with the aggressors, after which they will return to their positions ignoring other enemy ships."/>
+<imageThree>
+	<image attr1="set:guide_multi_targets image:guide_multi_targets"/>
+</imageThree>

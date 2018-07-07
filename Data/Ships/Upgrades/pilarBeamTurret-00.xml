@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Beam Turret"/> 
+<objectID attr1="pilarBT00"/> 
+<upgradeCategory attr1="weapon"/>
+<upgradeType attr1="other"/>
+<cost attr1="51250"/>
+<addCostAsPercentOfShip attr1="0.015"/>
+<turret>
+    <turretID attr1="pilarT03"/>
+    <turretOrientation attr1="bottom"/> 
+	<position x="0" y="-6.96" z="-11.36"/>
+	<yawPermitted attr1="45"/>
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<weaponPositionID attr1="3"/>
+</turret>
+<description attr1="Replaces the under mounted ball turret with a beam variant."/>
+<description attr1=" "/>
+<description attr1="A beam turret gives a near constant hit rate, provided that it is in range and properly aligned to its target. "/>
+<description attr1=" "/>
+<description attr1="This upgrade is considered to have two drawbacks. A significant credit cost (compared to the price of the ship) and upon installation two different primary weapon types (projectile and beam)."/>

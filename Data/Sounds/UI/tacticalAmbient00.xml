@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<soundEngineSoundType attr1="ui"/>
+<effectType attr1="sound"/>
+<soundType attr1="looping"/> 
+<objectID attr1="tacticalAmbient00"/> 
+<soundFile attr1="tacticalAmbient00.wav"/> 
+<defaultVolume attr1="0.1"/>

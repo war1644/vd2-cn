@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="newTroy"/> 
+<displayName attr1="New Troy"/> 
+<objectID attr1="newTroy"/> 
+<faction attr1="civilian"/>
+<meshName attr1="newTroy.mesh"/>
+<physicalRotatingElement> 
+	<meshName attr1="ring001Upper.mesh"/>
+	<yawSpeed attr1="1"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<physicalRotatingElement> 
+	<meshName attr1="ring001Lower.mesh"/>
+	<yawSpeed attr1="-1"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<wireframeMaterial attr1="WF/TheHub"/> 
+<descriptionText attr1="A Civilian base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="New Troy is a corporate hub. Featuring the closest thing to luxurious living and working conditions in this area of space."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Scavenged Outsider debris often make their way to this base's R&D facilities. Each new piece commanding a higher payment, adding fuel to the gold rush."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="0" y="-77" z="-166"/>
+<dockingArmsEnd x="0" y="-77" z="-190"/>
+<dockPosition x="0" y="-77" z="-166"/>
+<dockSize x="200" y="90" z="85"/>
+<hangarID attr1="theHubH"/> 
+<maxBuildShipClass attr1="corvette"/>
+<bCanResearch attr1="1"/>
+<largeDock> 
+    <dockPosition x="-159.46" y="-189.14" z="-323.86"/>
+	<dockSize x="60" y="40" z="60"/>
+	<rollRotation attr1="45"/>
+</largeDock>

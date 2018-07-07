@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="music"/> 
+<objectID attr1="raceForYourLife-Intro"/> 
+<musicFile attr1="RaceForYourLife.ogg"/>
+<defaultVolume attr1="0.5"/>
+<bLooping attr1="0"/>
+<note_to_self attr1="much quieter for intro"/>

@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Evaluation"/>
+<missionDescriptionText attr1="Your pilot's registry has you flagged as a un-evaluated Stub."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="[colour='FFFFFF00']NOTICE:[colour='FFFFFFFF'] Per TSF Order #2395, you are required to be evaluated for re-integration."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Proceed to the evaluation area and await a auditor."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="You [colour='FFFF0000']prompt[colour='FFFFFFFF'] co-operation will be noted towards your evaluation."/>
+<objectID attr1="main03"/>
+<missionFactionID attr1="civilian"/>
+<missionListLocation attr1="shangrila"/>
+<missionLocation attr1="debris002"/>
+<creditReward attr1="500"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<maximumShipClass attr1="fighter"/>
+<bOverworldByPass attr1="1"/>
+<bOverworldShipsByPass attr1="1"/>
+<bStoryMission attr1="1"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian03"/>
+		<message attr1="I'm nearly at your location. Wait."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<missionHUDText attr1="Wait for auditor..."/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="caterpillarMK2"/>
+		<shipName attr1="m03-caterpillarMK2-1"/>
+		<shipID attr1="taurusMK2"/>
+		<shipName attr1="m03-taurusMK2-1"/>
+		<shipID attr1="taurusMK2"/>
+		<shipName attr1="m03-taurusMK2-2"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<bReletiveToPlayer attr1="1"/>
+		<position x="0" y="0" z="-15000"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="m03-caterpillarMK2-1"/>
+		<shipName attr1="m03-taurusMK2-1"/>
+		<shipName attr1="m03-taurusMK2-2"/>
+		<hopPosition x="0" y="0" z="-1500"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="m03-caterpillarMK2-1"/>
+		<objectName attr1="m03-taurusMK2-1"/>
+		<objectName attr1="m03-taurusMK2-2"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="m03-caterpillarMK2-1"/>
+		<characterID attr1="civilian03"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian03"/>
+		<message attr1="Auditor incoming."/>
+	</postTrigger>
+	<note_to_self attr1="setting ridiculous damage multipliers to avoid player attacking cat and escorts"/>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="playerShip"/>
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="2.25"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="m03-caterpillarMK2-1"/>
+		<objectName attr1="m03-taurusMK2-1"/>
+		<objectName attr1="m03-taurusMK2-2"/>
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="0.50"/>
+	</postTrigger>
+	<note_to_self attr1="not actually possible to kill the cat at this point"/>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="m03-caterpillarMK2-1"/> 	
+		<alterType attr1="toggle_must_survive"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="m03-taurusMK2-1"/>
+		<objectName attr1="m03-taurusMK2-2"/>
+		<targetName attr1="m03-caterpillarMK2-1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="m03-caterpillarMK2-1"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="-500"/>
+		<reletiveObject attr1="m03-caterpillarMK2-1"/>
+	</postTrigger>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="I'm a TSF Certified Civilian Auditor."/>
+			<content attr1="A TCCA."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="I'm going to give you a series of commands."/>
+			<content attr1="How you respond to them will determine your evaluation."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Understood?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Yes."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="I seriously doubt that..."/>
+			<content attr1="You see where we are? All this destruction?"/>
+			<content attr1="This is because of... people like you."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="And it's people like me..."/>
+			<content attr1="Who are going to make sure it never happens again."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Anyway..."/>
+			<content attr1="Nearly every damned Stub passes..."/>
+			<content attr1="So you'd have to be exceptionally dense to fail."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="First one is real easy."/>
+			<content attr1="Go to the marked location."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="But..."/>
+			<content attr1="Let's make this interesting..."/>
+			<content attr1="You've got 30 seconds."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<failMissionNumber attr1="500"/>
+	<missionHUDText attr1="Go to marked position..."/>
+	<missionHUDText attr1="Within 30 seconds..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="1500" y="500" z="500"/>
+		<reletiveObject attr1="m03-caterpillarMK2-1"/>
+		<goToDistance attr1="300"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Wow..."/>
+			<content attr1="You serious?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="FAIL!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="FAIL! FAIL! FAIL!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Are you going to do everything you are told?"/>
+			<content attr1="Go on killing sprees? Cause mayhem? Slaughter?"/>
+			<content attr1="You Stubs never change."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Ok... Ok..."/>
+			<content attr1="I'm going to give you another chance."/>
+			<content attr1="Let's try this one more time."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Go to the marked location."/>
+			<content attr1="You've got 30 seconds."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<failMissionNumber attr1="503"/>
+	<missionHUDText attr1="Go to marked position..."/>
+	<missionHUDText attr1="Within 30 seconds..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="-1500" y="-500" z="-1000"/>
+		<reletiveObject attr1="m03-caterpillarMK2-1"/>
+		<goToDistance attr1="300"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Really?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="FAIL!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="You did it again..."/>
+			<content attr1="How can anything be so dumb?"/>
+			<content attr1="You really will do anything you are told?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="I need a moment to think..."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Listen... I don't normally do this."/>
+			<content attr1="But, I'll give you one last chance."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="This is a different test."/>
+			<content attr1="That only I do."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="A test of SELF control."/>
+			<content attr1="Prove to me you've got it and you pass."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="It's simple, there's a gunpod nearby."/>
+			<content attr1="Go near it. It will start shooting."/>
+			<content attr1="If you let it hit you enough, you'll show me self control."/>
+			<content attr1="Refuse and it shows me your lack of commitment."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="I'll mark it on your HUD."/>
+		</dialog>
+	</postDialog>
+	<postTrigger>
+		<triggerType attr1="named_platform"/>
+		<stationID attr1="cGP01"/>
+		<platformName attr1="m03-gunpod-1"/>
+		<bOverworld attr1="0"/>
+		<reletiveObject attr1="m03-caterpillarMK2-1"/>
+		<faction attr1="neutral"/>
+		<position x="500" y="750" z="-3500"/>
+		<bCheckPosition attr1="1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<failMissionNumber attr1="14"/>
+	<missionHUDText attr1="Go near gunpod..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="0"/>
+		<reletiveObject attr1="m03-gunpod-1"/>
+		<goToDistance attr1="1000"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="m03-gunpod-1"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="All right..."/>
+			<content attr1="You've finally done something right."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Activating the gun pod."/>
+			<content attr1="Let it hit you a little bit."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<failMissionNumber attr1="14"/>
+	<missionHUDText attr1="Go near gunpod..."/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="m03-gunpod-1"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+</mission>	
+<mission>
+	<missionNumber attr1="11"/>
+	<nextMissionNumber attr1="12"/>
+	<failMissionNumber attr1="14"/>
+	<missionHUDText attr1="Let the gunpod damage you..."/>
+	<preTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="m03-gunpod-1"/>
+		<faction attr1="eToPPNeutral"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="playerShip"/>	
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="0.30"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="playerShip"/>
+		<healthPercent attr1="0.80"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="m03-gunpod-1"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="m03-gunpod-1"/>
+		<faction attr1="neutral"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</postTrigger>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Maybe you aren't as worthless as I thought."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="But I need to be sure."/>
+			<content attr1="Let's try again."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="12"/>
+	<nextMissionNumber attr1="13"/>
+	<failMissionNumber attr1="14"/>
+	<missionHUDText attr1="Let the gunpod damage you..."/>
+	<preTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="m03-gunpod-1"/>
+		<faction attr1="eToPPNeutral"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="playerShip"/>
+		<healthPercent attr1="0.40"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="20"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="m03-gunpod-1"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="m03-gunpod-1"/>
+		<faction attr1="neutral"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</postTrigger>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Wow!"/>
+			<content attr1="I'm impressed!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="A little more."/>
+			<content attr1="Don't worry, I won't let it destroy you."/>
+			<content attr1="You've almost proved yourself to me."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="13"/>
+	<nextMissionNumber attr1="14"/>
+	<missionHUDText attr1="Let the gunpod damage you..."/>
+	<preTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="m03-gunpod-1"/>
+		<faction attr1="eToPPNeutral"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="20"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="m03-gunpod-1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="14"/>
+	<nextMissionNumber attr1="15"/>
+	<preTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="m03-gunpod-1"/>
+		<faction attr1="neutral"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</preTrigger>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="What is this!"/>
+			<content attr1="You refuse... ME!"/>
+			<content attr1="How dare you!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="You worthless skin bag of guts and gear!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="This will go into my official report!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="More Stubs? What?!?"/>
+		</dialog>
+	</preDialog>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<note_to_self attr1="setting back to normal"/>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="m03-caterpillarMK2-1"/>
+		<objectName attr1="m03-taurusMK2-1"/>
+		<objectName attr1="m03-taurusMK2-2"/>
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="1.00"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="m03-caterpillarMK2-1"/> 
+		<alterType attr1="toggle_must_survive"/>
+		<bToggle attr1="0"/>
+	</postTrigger>
+	<postCutscene attr1="main-03-stubsToTheRescueScene-00"/>
+</mission>
+<mission>
+	<missionNumber attr1="15"/>
+	<nextMissionNumber attr1="16"/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="enemy"/>
+		<bMarkShips attr1="0"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="m03-houndMK2-2"/>
+		<objectName attr1="m03-houndMK2-3"/>
+		<objectName attr1="m03-houndMK2-4"/>
+		<targetName attr1="m03-houndMK2-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="m03-bullfrog-2"/>
+		<targetName attr1="m03-bullfrog-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="m03-houndMK2-1"/>
+		<objectName attr1="m03-bullfrog-1"/>
+		<targetName attr1="m03-liquidatorG-1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="16"/>
+	<nextMissionNumber attr1="17"/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="enemy"/>
+		<bMarkShips attr1="0"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="17"/>
+	<nextMissionNumber attr1="18"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubFemaleGeneric03"/>
+		<message attr1="You mind us getting a closer look?"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="m03-liquidatorG-1"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="-500"/>
+		<reletiveObject attr1="playerShip"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="18"/>
+	<nextMissionNumber attr1="19"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric03"/>
+			<nameOverride attr1="JAWBONE"/>
+			<content attr1="I hope you understand..."/>
+			<content attr1="They had it coming."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric03"/>
+			<nameOverride attr1="JAWBONE"/>
+			<content attr1="And as a bonus we found you!"/>
+			<content attr1="Welcome to the family."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Who are you?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric03"/>
+			<nameOverride attr1="JAWBONE"/>
+			<content attr1="You looked in the mirror lately?"/>
+			<content attr1="We are like you."/>
+			<content attr1="Former Stubs."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric05"/>
+			<nameOverride attr1="THIRD NIPPLE"/>
+			<content attr1="You might want to slow down with this one."/>
+			<content attr1="Sounds a bit fresh."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric03"/>
+			<nameOverride attr1="JAWBONE"/>
+			<content attr1="All right..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric03"/>
+			<nameOverride attr1="JAWBONE"/>
+			<bClearAllText attr1="1"/>
+			<content attr1="Let's start at the beginning."/>
+			<content attr1="You, me and my friends. We are former Stubs."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric03"/>
+			<nameOverride attr1="JAWBONE"/>
+			<content attr1="A Stub is someone who was willingly converted."/>
+			<content attr1="Augments went in, memory and identity went out."/>
+			<content attr1="Packaged in combat armor or a ship, then sold."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric03"/>
+			<nameOverride attr1="JAWBONE"/>
+			<content attr1="Without a sense of self... A Stub is fearless and merciless."/>
+			<content attr1="Sometimes we are cannon fodder."/>
+			<content attr1="Sometimes a disposable and untraceable assassin."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric03"/>
+			<nameOverride attr1="JAWBONE"/>
+			<content attr1="Terror, death and destruction."/>
+			<content attr1="Always."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric03"/>
+			<nameOverride attr1="JAWBONE"/>
+			<content attr1="Can you imagine why you'd willingly become a Stub?"/>
+			<content attr1="I can't."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric03"/>
+			<nameOverride attr1="JAWBONE"/>
+			<content attr1="But we all did it."/>
+			<content attr1="Tens of thousands of us."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric03"/>
+			<nameOverride attr1="JAWBONE"/>
+			<content attr1="Stubs have been a plague."/>
+			<content attr1="That was before."/>
+			<content attr1="Now we can be what we want."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric03"/>
+			<nameOverride attr1="JAWBONE"/>
+			<content attr1="If you want to know more."/>
+			<content attr1="Find Sanctuary, our base."/>
+			<content attr1="A fresh start."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="19"/>
+	<nextMissionNumber attr1="1000"/>
+	<preTrigger>
+		<triggerType attr1="next_mission"/>
+		<missionID attr1="main04"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubFemaleGeneric03"/>
+		<message attr1="Goodbye for now!"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="player didn't go to location within 30 secs"/>
+<mission>
+	<missionNumber attr1="500"/>
+	<nextMissionNumber attr1="501"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Oh man..."/>
+			<content attr1="Did they screw something in the wrong hole?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="You can't even follow basic instructions?"/>
+			<content attr1="How hard can this be?"/>
+			<content attr1="I mean..."/>
+			<content attr1="You flew all the way here... Right?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Let's try this again..."/>
+			<content attr1="Go to the marked location..."/>
+			<content attr1="You have 30 seconds."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="501"/>
+	<nextMissionNumber attr1="502"/>
+	<failMissionNumber attr1="503"/>
+	<missionHUDText attr1="Go to marked position..."/>
+	<missionHUDText attr1="Within 30 seconds..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="-1500" y="-500" z="-1000"/>
+		<reletiveObject attr1="m03-caterpillarMK2-1"/>
+		<goToDistance attr1="300"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="502"/>
+	<nextMissionNumber attr1="8"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Wow..."/>
+			<content attr1="This time you did exactly what I asked for..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="FAIL!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="FAIL! FAIL! FAIL!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Are you going to do everything you are told?"/>
+			<content attr1="Go on killing sprees? Cause mayhem? Slaughter?"/>
+			<content attr1="You Stubs never change."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="I need a moment to think..."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="503"/>
+	<nextMissionNumber attr1="8"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Is this a joke?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Are you refusing my commands?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="Nah... that can't be it."/>
+			<content attr1="Must be mentally defective this one..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="How can I evaluate something this dumb?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<content attr1="I need a moment to think..."/>
+		</dialog>
+	</postDialog>
+</mission>

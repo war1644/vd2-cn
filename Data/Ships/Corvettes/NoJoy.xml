@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="NoJoy"/> 
+<objectID attr1="noJoy"/>
+<faction attr1="beggar"/> 
+<shipClass attr1="capture"/>
+<shipClassSize attr1="heavy"/>
+<sizeShipClass attr1="corvette"/> 
+<meshName attr1="NoJoy.mesh"/>
+<descriptionText attr1="A base capture corvette."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The NoJoy is capable of housing and transporting troops specially trained and equipped for the task of base capture."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFF0000']Warning:[colour='FFFFFFFF'] Once the capture operation is under way, this is a single use ship. The crew disembark and engage into a life or death struggle."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFF0000']Note:[colour='FFFFFFFF'] Depending on the amount of base defenders, multiple capture ships might be needed."/>
+<creditCost attr1="1000000"/>
+<bBlackMarket attr1="1"/>
+<missionRankRequired attr1="5"/>
+<cruiseSpeed attr1="40.0"/> 
+<timeTillCruise attr1="2.8"/> 
+<yaw 	attr1="50.0"/>
+<pitch	attr1="50.0"/>
+<roll 	attr1="50.0"/>
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="25" z="46.775"/>
+<bHideShipInCockpitAcutal attr1="0"/>
+<cockpitInitPos x="0" y="25" z="85"/>
+<cockpitTransLimit x="2" y="2" z="2"/> 
+<chaseInitPos x="0" y="60" z="310"/>
+<chaseTransLimit x="14" y="8" z="6"/>
+<health attr1="17000"/> 
+<armor attr1="1.0"/>
+<boardingCrew attr1="70"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/>
+<damage>
+    <pitch attr1="15.0"/> 
+    <roll attr1="-115.0"/> 
+	<yaw attr1="-6.0"/> 
+	<position x="35.646" y="12.122" z="39.268"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="-90.0"/> 
+    <roll attr1="0.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="-27.354" y="-4.638" z="44.340"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="littleBigJoyD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explodeRed04"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="27.251" y="8.517" z="86.363"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="27.251" y="-4.918" z="78.437"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="-27.251" y="8.517" z="86.363"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="-27.251" y="-4.918" z="78.437"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="0" y="-13.705" z="-86.155"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.45"/> 
+    <capacity attr1="14"/>
+    <recharge attr1="16"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="0"/>
+	<activeUpgradeCapacity attr1="0"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.87" y="0" z="80"/>

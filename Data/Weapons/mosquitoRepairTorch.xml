@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="collision"/> 
+<collisionWeaponType attr1="particle_effect"/> 
+<weaponID attr1="mosquitoRT"/> 
+<name attr1="Repair Torch"/> 
+<particleEffectName attr1="vdp_muzzle_repair_torch_00"/>
+<particlePosition x="0" y="-2.88" z="-13.9125"/>
+<fireSoundID attr1="electricEMP00"/>
+<hitParticleName attr1="vdp_muzzle_repair_torch_00"/>
+<damage attr1="15.0"/>
+<bRepair attr1="1"/>
+<size x="3" y="10" z="10"/>
+<capacity attr1="15.0"/> 
+<reloadTime attr1="1"/> 
+<bSticky attr1="1"/>
+<bReduceMassOnStick attr1="1"/>
+<linkedMovingElement attr1="welder"/>

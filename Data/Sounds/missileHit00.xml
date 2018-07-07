@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="random"/>
+<objectID attr1="missileH00"/> 
+<soundFile attr1="explosionT00.wav"/>
+<soundFile attr1="explosionT01.wav"/>
+<soundFile attr1="explosionT02.wav"/>
+<soundFile attr1="explosionT03.wav"/>
+<soundFile attr1="explosionT04.wav"/>
+<soundFile attr1="explosionT05.wav"/>
+<soundFile attr1="explosionT06.wav"/>
+<soundFile attr1="explosionT07.wav"/>
+<soundFile attr1="explosionT08.wav"/>
+<maxDistance attr1="4000"/> 
+<referenceDistance attr1="2250"/>
+<defaultVolume attr1="0.75"/>
+<soundPriority attr1="70"/>

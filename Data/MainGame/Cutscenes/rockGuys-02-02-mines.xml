@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sceneFragment>
+	<screenEffect attr1="fade_in"/>
+	<lookAtObject attr1="rg02-holeRock-1"/> 
+	<reletiveObject attr1="rg02-holeRock-1"/> 
+	<cameraPosition x="-250" y="550" z="-2500"/>	
+	<duration attr1="2.5"/>
+	<trigger>
+		<triggerType attr1="named_platform"/>
+		<stationID attr1="mineSat001"/>
+		<platformName attr1="rg02-mineSat001-1"/>
+		<reletiveObject attr1="rg02-holeRock-1"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="indiePirate"/>
+		<position x="-200" y="-50" z="-220"/>
+		<bCheckPosition attr1="0"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="look_at"/>
+		<lookAtObject attr1="rg02-largeRock-1"/>
+		<objectName attr1="rg02-mineSat001-1"/>
+		<bNoRoll attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="toggle_active"/>
+		<objectName attr1="rg02-mineSat001-1"/>
+		<bActive attr1="0"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="2.5"/>
+	<trigger>
+		<triggerType attr1="toggle_active"/>
+		<objectName attr1="rg02-mineSat001-1"/>
+		<bActive attr1="1"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="rg02-mineSat001-1"/> 
+	<reletiveObject attr1="rg02-mineSat001-1"/> 
+	<cameraPosition x="10" y="50" z="-250"/>	
+	<duration attr1="2.0"/>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="rg02-mineSat001-1"/> 
+	<reletiveObject attr1="rg02-mineSat001-1"/> 
+	<cameraPosition x="10" y="50" z="250"/>	
+	<duration attr1="2.0"/>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="rg02-holeRock-1"/> 
+	<reletiveObject attr1="rg02-holeRock-1"/> 
+	<cameraPosition x="-50" y="50" z="4500"/>
+	<duration attr1="2.0"/>
+</sceneFragment>

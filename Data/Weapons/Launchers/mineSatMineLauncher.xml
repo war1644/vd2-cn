@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="mine"/> 
+<weaponID attr1="mineSatML"/> 
+<ammunitionID attr1="rgSwarmMine00"/> 
+<name attr1="Mine Launcher"/> 
+<fireSoundID attr1="missileLS"/>
+<reFireRate attr1="0.5"/>
+<capacity attr1="35"/> 
+<reloadTime attr1="3.0"/> 
+<muzzleFlashEffectID attr1="mfML03"/>
+<launchVelocity attr1="150.0"/> 
+<randomLaunchAngle attr1="90"/> 
+<randomLaunchSpeed attr1="300"/>
+<bNoLifeLimit attr1="1"/>

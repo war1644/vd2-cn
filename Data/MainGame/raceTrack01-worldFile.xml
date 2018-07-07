@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<station_Object>
+     <objectID attr1="raceGate00Green"/>
+     <name attr1="Race Track Start"/>
+     <orientation w="0.699191" x="0" y="0.714935" z="0"/>
+     <position x="185.103" y="0" z="-4.12195"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate04T"/>
+     <name attr1="Race Track 01"/>
+     <orientation w="0.604748" x="0" y="0.796417" z="0"/>
+     <position x="1534.16" y="242.77" z="-427.729"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate00T"/>
+     <name attr1="Race Track 02"/>
+     <orientation w="0.361627" x="0" y="0.932323" z="0"/>
+     <position x="3310.08" y="-194.26" z="-1266.47"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate00T"/>
+     <name attr1="Race Track 03"/>
+     <orientation w="0.176851" x="0" y="0.984238" z="0"/>
+     <position x="3754.75" y="-194.26" z="-2056.91"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate04T"/>
+     <name attr1="Race Track 04"/>
+     <orientation w="0.101595" x="0" y="0.994826" z="0"/>
+     <position x="3914.63" y="-163.38" z="-3104.01"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate04T"/>
+     <name attr1="Race Track 05"/>
+     <orientation w="0.0671534" x="0" y="0.997743" z="0"/>
+     <position x="4075.87" y="-163.38" z="-4315.4"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate00T"/>
+     <name attr1="Race Track 06"/>
+     <orientation w="0.66214" x="0" y="0.749381" z="0"/>
+     <position x="4914.31" y="-194.26" z="-5256.58"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate04T"/>
+     <name attr1="Race Track 07"/>
+     <orientation w="0.663167" x="0" y="0.748472" z="0"/>
+     <position x="4937.14" y="-183.15" z="-3959.54"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate00T"/>
+     <name attr1="Race Track 08"/>
+     <orientation w="0.602425" x="0" y="0.798175" z="0"/>
+     <position x="3089.13" y="-155.098" z="-3397.33"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="raceGate00Red"/>
+     <name attr1="Race Track End"/>
+     <orientation w="0.526288" x="0" y="0.850307" z="0"/>
+     <position x="1344.6" y="-147.38" z="-2914.87"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<debris_Object>
+     <objectID attr1="repairPlatform00D00"/>
+     <name attr1="Tunnel 01"/>
+     <orientation w="0.696756" x="0" y="0.717308" z="0"/>
+     <position x="705.603" y="-2.18995" z="-30.6153"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="furyD00"/>
+     <name attr1="Debris IA21291"/>
+     <orientation w="0.571049" x="0" y="0.820916" z="0"/>
+     <position x="3266.71" y="-183.97" z="-1211.84"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.32"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="mosquitoD00"/>
+     <name attr1="Debris IA42293"/>
+     <orientation w="0.309421" x="0" y="0.950925" z="0"/>
+     <position x="2357.51" y="-115.098" z="-3239.04"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.25"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="furyD01"/>
+     <name attr1="Debris IA54282"/>
+     <orientation w="0.569861" x="0" y="0.821741" z="0"/>
+     <position x="3240.07" y="-203.781" z="-1212.63"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.25"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="roachD01"/>
+     <name attr1="Debris IA55286"/>
+     <orientation w="0.567454" x="0" y="0.823405" z="0"/>
+     <position x="3260.98" y="-172.129" z="-1242.26"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.15"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="repairPlatform00D01"/>
+     <name attr1="Tunnel 02"/>
+     <orientation w="-0.997062" x="0" y="0.0766034" z="0"/>
+     <position x="3835.86" y="-155.152" z="-2705.71"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="repairPlatform00D00"/>
+     <name attr1="Tunnel 03"/>
+     <orientation w="-0.807706" x="0" y="0.589585" z="0"/>
+     <position x="3956.02" y="-167.13" z="-3685.41"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="leoD00"/>
+     <name attr1="Debris IA53252"/>
+     <orientation w="0.366497" x="0" y="0.93042" z="0"/>
+     <position x="3172.79" y="-170.986" z="-3402.47"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.35"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="rageD00"/>
+     <name attr1="Debris IA49252"/>
+     <orientation w="0.365587" x="0" y="0.930777" z="0"/>
+     <position x="3151.56" y="-150.29" z="-3392.98"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.25"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="crowD00"/>
+     <name attr1="Debris IA52252"/>
+     <orientation w="0.365023" x="0" y="0.930998" z="0"/>
+     <position x="3160.93" y="-147.229" z="-3411.34"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.25"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="scabD00"/>
+     <name attr1="Debris IA54252"/>
+     <orientation w="0.365087" x="0" y="0.930973" z="0"/>
+     <position x="3156.44" y="-176.958" z="-3405.56"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.35"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="mosquitoD00"/>
+     <name attr1="Debris IA56308"/>
+     <orientation w="0.363928" x="0" y="0.931427" z="0"/>
+     <position x="3175.88" y="-132.43" z="-3443.68"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.25"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="furyD00"/>
+     <name attr1="Debris IA57308"/>
+     <orientation w="0.367498" x="0" y="0.930024" z="0"/>
+     <position x="3162.75" y="-158.04" z="-3377.09"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.45"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="furyD01"/>
+     <name attr1="Debris IA58308"/>
+     <orientation w="0.364039" x="0" y="0.931384" z="0"/>
+     <position x="3153.95" y="-120.47" z="-3418.27"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.35"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="roachD01"/>
+     <name attr1="Debris IA59308"/>
+     <orientation w="0.36665" x="0" y="0.930359" z="0"/>
+     <position x="3188.87" y="-179.26" z="-3417.46"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.25"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="leoD00"/>
+     <name attr1="Debris IA1291"/>
+     <orientation w="0.22184" x="0" y="0.975083" z="0"/>
+     <position x="1865.1" y="-112.077" z="-3021.41"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.25"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="graveD00"/>
+     <name attr1="Debris IA2291"/>
+     <orientation w="0.214628" x="0" y="0.976696" z="0"/>
+     <position x="2200.27" y="-85.0619" z="-3180.33"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.35"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="cutterD00"/>
+     <name attr1="Debris IA3291"/>
+     <orientation w="0.551331" x="0" y="0.834287" z="0"/>
+     <position x="3466.2" y="-191.233" z="-1477.26"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="gebTD00"/>
+     <name attr1="Debris IA4291"/>
+     <orientation w="0.603476" x="0" y="0.797381" z="0"/>
+     <position x="1598.14" y="248.95" z="-451.067"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="skyHawkD01"/>
+     <name attr1="Debris IA5291"/>
+     <orientation w="0.204187" x="0" y="0.978932" z="0"/>
+     <position x="2399.82" y="-124.948" z="-3185.54"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.25"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="pugD00"/>
+     <name attr1="Debris IA6291"/>
+     <orientation w="0.199106" x="0" y="0.979978" z="0"/>
+     <position x="2471.69" y="-187.56" z="-3168.61"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.15"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="bcp01D00"/>
+     <name attr1="Debris IA8291"/>
+     <orientation w="0.528457" x="0" y="0.84896" z="0"/>
+     <position x="3751.55" y="-209.95" z="-1845.79"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="eagleD01"/>
+     <name attr1="Debris IA9291"/>
+     <orientation w="0.206578" x="0" y="0.97843" z="0"/>
+     <position x="2500.79" y="-148.271" z="-3285.67"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.15"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="gebD01"/>
+     <name attr1="Debris IA10291"/>
+     <orientation w="0.541319" x="0" y="0.840817" z="0"/>
+     <position x="3627.57" y="-247.662" z="-1649.59"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="skyHawkD01"/>
+     <name attr1="Debris IA11291"/>
+     <orientation w="0.552999" x="0" y="0.833182" z="0"/>
+     <position x="3435.18" y="-209.201" z="-1447.83"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.15"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="cdp01D01"/>
+     <name attr1="Debris IA12291"/>
+     <orientation w="0.536758" x="0" y="0.843736" z="0"/>
+     <position x="3470.87" y="-211.493" z="-1623.92"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="hermesD00"/>
+     <name attr1="Debris IA13291"/>
+     <orientation w="0.527531" x="0" y="0.849536" z="0"/>
+     <position x="3668.56" y="-258.52" z="-1814.9"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="eagleD01"/>
+     <name attr1="Debris IA14291"/>
+     <orientation w="0.204955" x="0" y="0.978771" z="0"/>
+     <position x="2078.57" y="-161.12" z="-3046.97"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="pugD00"/>
+     <name attr1="Debris IA15291"/>
+     <orientation w="0.196476" x="0" y="0.980509" z="0"/>
+     <position x="2048.87" y="-163.43" z="-3084.97"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.15"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="theBeastD01"/>
+     <name attr1="Debris IA17291"/>
+     <orientation w="0.526756" x="0" y="0.850016" z="0"/>
+     <position x="3660.18" y="-172.03" z="-1819.07"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="greedD00"/>
+     <name attr1="Debris IA18291"/>
+     <orientation w="0.517552" x="0" y="0.855652" z="0"/>
+     <position x="3730.81" y="-200.29" z="-1955.7"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="roachD01"/>
+     <name attr1="Debris IA19291"/>
+     <orientation w="0.217516" x="0" y="0.976057" z="0"/>
+     <position x="2317.22" y="-153.36" z="-3214.82"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.25"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="greedD01"/>
+     <name attr1="Debris IA20291"/>
+     <orientation w="0.198978" x="0" y="0.980004" z="0"/>
+     <position x="2087.75" y="-133.53" z="-3105.44"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="brickD00"/>
+     <name attr1="Debris IA22291"/>
+     <orientation w="0.215273" x="0" y="0.976554" z="0"/>
+     <position x="2144.26" y="-144.602" z="-3100.83"/>
+     <faction attr1="hazardInc"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.25"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="raiderD00"/>
+     <name attr1="Debris IA24249"/>
+     <orientation w="0.287957" x="0" y="0.957643" z="0"/>
+     <position x="1962.94" y="-171.5" z="-2968.9"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="anubisD00"/>
+     <name attr1="Debris IA25249"/>
+     <orientation w="0.292997" x="0" y="0.956114" z="0"/>
+     <position x="2117.46" y="-245.841" z="-3130.43"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="gebD01"/>
+     <name attr1="Debris IA26249"/>
+     <orientation w="0.325077" x="0" y="0.945688" z="0"/>
+     <position x="2511.66" y="-175.583" z="-3221.67"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="raptorD01"/>
+     <name attr1="Debris IA27249"/>
+     <orientation w="0.298873" x="0" y="0.954293" z="0"/>
+     <position x="2174.2" y="-162.086" z="-3130.61"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="gebD01"/>
+     <name attr1="Debris IA28249"/>
+     <orientation w="0.263224" x="0" y="0.964735" z="0"/>
+     <position x="1757.62" y="-197.5" z="-2981.12"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="cutterD01"/>
+     <name attr1="Debris IA29249"/>
+     <orientation w="0.286182" x="0" y="0.958175" z="0"/>
+     <position x="2064.38" y="-150.439" z="-3147.62"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="anubisD01"/>
+     <name attr1="Debris IA30249"/>
+     <orientation w="0.311065" x="0" y="0.950389" z="0"/>
+     <position x="2371.03" y="-202.408" z="-3234.05"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="sdPlatformD00"/>
+     <name attr1="Debris IA31249"/>
+     <orientation w="0.970932" x="0" y="0.239354" z="0"/>
+     <position x="1887.88" y="-169.279" z="-2961.88"/>
+     <faction attr1="tsf"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="roachD01"/>
+     <name attr1="Debris IA32249"/>
+     <orientation w="0.267599" x="0" y="0.96353" z="0"/>
+     <position x="1834.24" y="-178.913" z="-3047.52"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.25"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="roachD00"/>
+     <name attr1="Debris IA33249"/>
+     <orientation w="0.301907" x="0" y="0.953337" z="0"/>
+     <position x="2223.48" y="-180.332" z="-3158.49"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.22"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="ultraD00"/>
+     <name attr1="Debris IA34249"/>
+     <orientation w="0.3013" x="0" y="0.953529" z="0"/>
+     <position x="2260.11" y="-170.596" z="-3219.22"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.12"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="hadesD00"/>
+     <name attr1="Debris IA35293"/>
+     <orientation w="0.277515" x="0" y="0.960721" z="0"/>
+     <position x="1986.59" y="-147.049" z="-3151.73"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="scavMK2D00"/>
+     <name attr1="Debris IA36293"/>
+     <orientation w="0.286524" x="0" y="0.958073" z="0"/>
+     <position x="2086.15" y="-194.616" z="-3175.87"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.15"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="cobraD00"/>
+     <name attr1="Debris IA38293"/>
+     <orientation w="0.275162" x="0" y="0.961398" z="0"/>
+     <position x="1913.91" y="-184.513" z="-3069.65"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.15"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="pilarD01"/>
+     <name attr1="Debris IA39293"/>
+     <orientation w="0.292728" x="0" y="0.956196" z="0"/>
+     <position x="2133.66" y="-132.03" z="-3158.21"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="furyD01"/>
+     <name attr1="Debris IA40293"/>
+     <orientation w="0.313501" x="0" y="0.949588" z="0"/>
+     <position x="2400.57" y="-128.661" z="-3239.37"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.25"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="cutterD01"/>
+     <name attr1="Debris IA41293"/>
+     <orientation w="0.297956" x="0" y="0.95458" z="0"/>
+     <position x="2231.78" y="-103.891" z="-3226.74"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="crowD01"/>
+     <name attr1="Debris IA44293"/>
+     <orientation w="0.294132" x="0" y="0.955765" z="0"/>
+     <position x="2132.85" y="-112.047" z="-3137.1"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.25"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="pugD00"/>
+     <name attr1="Debris IA45293"/>
+     <orientation w="0.295905" x="0" y="0.955217" z="0"/>
+     <position x="2091.62" y="-81.374" z="-3052.03"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.11"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="theBeastD01"/>
+     <name attr1="Debris IA46293"/>
+     <orientation w="0.281293" x="0" y="0.959622" z="0"/>
+     <position x="2036.69" y="-190.101" z="-3175.55"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="raptorD00"/>
+     <name attr1="Debris IA47293"/>
+     <orientation w="0.311529" x="0" y="0.950237" z="0"/>
+     <position x="2285.05" y="-186.95" z="-3110.4"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="ultraD01"/>
+     <name attr1="Debris IA48293"/>
+     <orientation w="0.298606" x="0" y="0.954376" z="0"/>
+     <position x="2112.29" y="-171.9" z="-3045.1"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+	 <healthAsPercent attr1="0.15"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="correaD01"/>
+     <name attr1="Debris IA50252"/>
+     <orientation w="0.254561" x="0" y="0.967057" z="0"/>
+     <position x="1736.41" y="-172.325" z="-3069.7"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="htRoid001TurretD01"/>
+     <name attr1="Debris IA51252"/>
+     <orientation w="0.269809" x="0" y="0.962914" z="0"/>
+     <position x="1884.63" y="-108.991" z="-3098.97"/>
+     <faction attr1="hazardInc"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>

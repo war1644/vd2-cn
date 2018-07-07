@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="bullfrogPL"/> 
+<ammunitionID attr1="heavyPlasmaP"/> 
+<name attr1="Plasma Lance"/> 
+<fireSoundID attr1="heavyPGS00"/>
+<muzzleFlashEffectID attr1="mfLG10"/>
+<reFireRate attr1="0.45"/>
+<capacity attr1="4"/>
+<reloadTime attr1="1.5"/>
+<bNoAimAssist attr1="1"/>

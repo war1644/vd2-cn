@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="resourceRequests"/>
+<topicName attr1="  Resource Requests"/>
+<mainText attr1="Resource Requests:"/>
+<mainText attr1="If you have more than one base - you can transfer resources from base to base."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Concepts:"/>
+<mainText attr1="Energy, food, ore and crew can be requested."/>
+<mainText attr1="The sourcing base launches a cargo ship carrying a pod with the resource."/>
+<mainText attr1="Sourcing bases can be bases that you have a link to via a gate (out of sector bases)."/>
+<mainText attr1="Bases that can't produce ore - can thus have access to the resource."/>
+<mainText attr1="Cargo ships are launched shortly (but not immediately) after the request is made"/>
+<mainText attr1="There is a relatively brief delay between launching cargo ships."/>
+<mainText attr1=" "/>
+<mainText attr1="How to request resource(s):"/>
+<mainText attr1="Resource requests are done in the base management interface (see topic Bases and Economy)."/>
+<mainText attr1="Select (to manage) the base doing the request (the base that will receive the resource) "/>
+<mainText attr1="When you have more than one base under your control - an additional interface appears (see image on right)."/>
+<mainText attr1="If you have more than two bases - you can cycle the sourcing base via the produced buttons."/>
+<mainText attr1="Click on the request buttons next to the resource that you want to transfer."/>
+<mainText attr1="The sourcing base can have up to 5 requests per resource."/>
+<imageOne>
+	<image attr1="set:guide_resouce_request image:guide_resouce_request"/>
+</imageOne>
+

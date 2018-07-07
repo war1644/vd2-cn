@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<characterID attr1="muGeneric00"/> 
+<imageSetName attr1="jcRockGuy01"/>
+<textColor attr1="FFFFFF00"/>
+<bGeneric attr1="1"/>
+<factionID attr1="rockGuys"/>
+<note_to_self attr1="legacy for old portrait reference"/>

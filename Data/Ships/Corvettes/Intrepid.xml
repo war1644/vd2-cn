@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Intrepid"/> 
+<objectID attr1="intrepid"/> 
+<faction attr1="tsf"/> 
+<shipClass attr1="corvette"/> 
+<shipClassSize attr1="medium"/>
+<_combatAIClass attr1="frigate"/>
+<meshName attr1="Intrepid.mesh"/>
+<descriptionText attr1="A medium military combat corvette."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Intrepid's aged design is barely holding up, when compared to modern military ships. Compared to civilian ships, its still going strong."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Armed with 4 missile tubes and defended by 4 medium turrets, it hunts above its size and has little to fear from smaller ships."/>
+<bNotSoldUnlessOwnedBase attr1="1"/>
+<creditCost attr1="1550000"/>
+<bBlackMarket attr1="1"/>
+<cruiseSpeed attr1="60.0"/> 
+<timeTillCruise attr1="2.75"/> 
+<yaw 	attr1="75.0"/> 
+<pitch	attr1="75.0"/> 
+<roll 	attr1="75.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="19.61" z="29.8"/>
+<bHideShipInCockpitAcutal attr1="0"/>
+<cockpitInitPos x="0" y="24.2" z="60.95"/>
+<cockpitTransLimit x="3" y="3" z="3"/>
+<chaseInitPos x="0" y="64.15" z="280"/>
+<chaseTransLimit x="16" y="10" z="6"/> 
+<health attr1="18500"/>
+<armor attr1="2.0"/>
+<shieldHealth attr1="550"/> 
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="15.0"/> 
+    <roll attr1="17.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="-7.547" y="8.121" z="51.277"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="-15.0"/> 
+    <roll attr1="180.0"/> 
+	<yaw attr1="16"/> 
+	<position x="6.986" y="-0.715" z="-53.905"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<damage>
+    <pitch attr1="-131.0"/> 
+    <roll attr1="5.0"/> 
+	<yaw attr1="21.0"/> 
+	<position x="-12.424" y="-4.567" z="27.196"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="intrepidD00"/> 
+		<debrisMomentum attr1="2"/> 
+		<debrisAngular attr1="2"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode03"/>
+<preExplosionID attr1="explode01"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="9.03" y="2.54" z="53.61"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-9.03" y="2.54" z="53.61"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/>
+	<position x="0" y="3.33" z="-62.2"/>
+	<direction attr1="fore"/> 
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/>
+	<position x="0" y="-3.15" z="-63.45"/>
+	<direction attr1="fore"/> 
+</propulsion> 
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.75"/> 
+    <capacity attr1="15.5"/>
+    <recharge attr1="16"/> 
+</afterburner>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="0" y="15.69" z="1.05"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+	<bShowInCockpit attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="0" y="14.01" z="-33.46"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+	<bShowInCockpit attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="0" y="-15.49" z="-35.09"/>
+	<turretOrientation attr1="bottom"/> 
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="0" y="-11.23" z="1.28"/>
+	<turretOrientation attr1="bottom"/> 
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<weapon> 
+    <weaponType attr1="missile"/> 
+    <hardpointID attr1="intrepidML"/> 
+	<weaponPosition x="11.45" y="-3.2" z="-40.14"/>
+	<weaponPosition x="10.87" y="-3.2" z="-32.24"/>
+	<yaw attr1="-90.0"/>
+	<barrelDelay attr1="0.55"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="missile"/> 
+    <hardpointID attr1="intrepidML"/> 
+	<weaponPosition x="-11.45" y="-3.2" z="-40.14"/>
+	<weaponPosition x="-10.87" y="-3.2" z="-32.24"/>
+	<yaw attr1="90.0"/>
+	<barrelDelay attr1="0.55"/>
+</weapon>
+<targetPriorityList> 
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="dreadnaught"/> 
+	<targetClass attr1="attack_station"/>
+</targetPriorityList>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="5"/>
+	<activeUpgradeCapacity attr1="6"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cShield00"/>
+	<upgradeID attr1="cShieldRecharge00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="corvetteFShield00"/>
+	<upgradeID attr1="corvetteRShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.87" y="-1.7" z="77"/>

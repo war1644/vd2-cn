@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<soundEngineSoundType attr1="ui"/>
+<effectType attr1="sound"/> 
+<soundType attr1="random"/>
+<objectID attr1="commandShipHit00"/> 
+<defaultVolume attr1="0.35"/>
+<soundFile attr1="commandShipHit00.wav"/>
+<soundFile attr1="commandShipHit01.wav"/>
+<soundFile attr1="commandShipHit02.wav"/>

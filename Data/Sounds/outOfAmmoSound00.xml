@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<objectID attr1="outOfAmmoS00"/> 
+<soundType attr1="random_continuous"/>
+<soundFile attr1="outOfAmmo00.wav"/>
+<maxDistance attr1="1500"/> 
+<referenceDistance attr1="750"/>
+<defaultVolume attr1="0.1"/>
+<soundPriority attr1="200"/>

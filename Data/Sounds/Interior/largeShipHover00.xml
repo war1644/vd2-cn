@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="looping"/>
+<objectID attr1="largeShipHover00"/> 
+<soundFile attr1="largeShipHover00.wav"/> 
+<tailSound attr1="largeShipHover00-tail.wav"/>
+<defaultVolume attr1="0.9"/>
+<maxDistance attr1="110"/> 
+<referenceDistance attr1="80"/>
+<soundPriority attr1="150"/>

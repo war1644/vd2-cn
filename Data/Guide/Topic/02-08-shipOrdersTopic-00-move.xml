@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="moveCommand"/>
+<topicName attr1="  Move Command"/>
+<mainText attr1="Move Command:"/>
+<mainText attr1="A great tool - prep your ships for an attack, or position them for defense."/>
+<mainText attr1="Move to a position command (or just move command) is a bit more intricate than other commands."/>
+<mainText attr1=" "/>
+<mainText attr1="Move Command Use:"/>
+<mainText attr1="To start a move command - select one or more ships. "/>
+<mainText attr1="Now right click on empty space."/>
+<mainText attr1="Position the marker."/>
+<mainText attr1="Left click to confirm."/>
+<mainText attr1=" "/>
+<mainText attr1="Advanced Use:"/>
+<mainText attr1="A move command can have multiple way points."/>
+<mainText attr1="   Hold the SHIFT key to chain way points (see top image on right)."/>
+<mainText attr1="   The left click without the SHIFT key will be the final point."/>
+<mainText attr1="   Useful for avoiding obstacles or positioning the final orientation."/>
+<mainText attr1="A move command can be higher/lower than the ship(s)"/>
+<mainText attr1="   Hold the ALT key then move the mouse to raise/lower the marker"/>
+<mainText attr1=" "/>
+<mainText attr1="Most of the time you want to go to - near something else."/>
+<mainText attr1="Positioning in 3D space can be challenging."/>
+<mainText attr1="   That's why there's help!"/>
+<mainText attr1=" "/>
+<mainText attr1="Example: "/>
+<mainText attr1="Look at the two images on the right - I intended the ship to go to the base."/>
+<mainText attr1="But the ship would actually end up above where I intended."/>
+<mainText attr1=" "/>
+<mainText attr1="3D position assist:"/>
+<mainText attr1="If you want 3D position assist to kick in."/>
+<mainText attr1="Move the go to marker over another object."/>
+<mainText attr1="Press and hold the CTRL key."/>
+<mainText attr1="The marker will snap to the object's position in 3D space."/>
+<mainText attr1="Let go of the CTRL key and move the go to marker away from the object to desired spot."/>
+<mainText attr1="Then left click to confirm."/>
+<mainText attr1=" "/>
+<mainText attr1="Another cool thing:"/>
+<mainText attr1="Remember the - camera focus on - key? (default F)"/>
+<mainText attr1="Press it while issuing a move command - the camera will focus on the marker."/>
+<mainText attr1="Let's you see positions off screen. Don't forget you can zoom in/out as well."/>
+<mainText attr1=" "/>
+<mainText attr1="And Another cool thing: The 3D position assist - snap to object - works on rally points and nav markers as well."/>
+<imageOne>
+	<image attr1="set:guide_go_to_waypoints image:guide_go_to_waypoints"/>
+</imageOne>
+<imageTwo>
+	<image attr1="set:guide_go_to_looks_ok image:guide_go_to_looks_ok"/>
+</imageTwo>
+<imageThree>
+	<image attr1="set:guide_go_to_is_bad image:guide_go_to_is_bad"/>
+</imageThree>

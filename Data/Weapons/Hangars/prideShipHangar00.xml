@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="hangar"/>
+<hangarID attr1="prideShipH00"/> 
+<fighterShipID attr1="reaper"/> 
+<name attr1="Hangar"/>
+<maxFighters attr1="10"/> 
+<bPrimary attr1="1"/>
+<launchTube>
+    <launchDeckBeg x="0.22" y="-34.1" z="-173.27"/>
+    <launchDeckEnd x="0.22" y="-34.1" z="-266"/>
+	<dockPosition x="0" y="0" z="-34"/>
+	<dockSize x="5" y="5" z="5"/>
+</launchTube>
+<launchSpeedMultiplier attr1="1.5"/>

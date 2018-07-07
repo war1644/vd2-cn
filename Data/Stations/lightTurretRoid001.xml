@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Light Turret Roid"/>
+<objectID attr1="ltRoid001"/> 
+<faction attr1="rockGuys"/> 
+<bCommsOverride attr1="1"/>
+<stationClass attr1="defense_station"/> 
+<stationSizeAsShip attr1="fighter"/>
+<creditCost attr1="5000"/>
+<meshName attr1="ltRoid001.mesh"/>
+<descriptionText attr1="A tiny defensive asteroid, armed with a turret. Cheap and quick to produce, but barely a nuisance."/>
+<health attr1="1500.0"/> 
+<explosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="1"/>
+<turret>
+    <turretID attr1="raiderTurret"/> 
+    <turretOrientation attr1="left"/> 
+	<position x="-9.66" y="1.1" z="0.69"/>
+	<pitchLower attr1="-15.0"/> 
+	<turretRole attr1="offense"/>
+</turret>
+<_rockSubPosition attr1="1"/>
+<energyUpKeep attr1="0"/>
+<oreUpKeep attr1="0"/>
+<noUpKeepNumber attr1="100"/>

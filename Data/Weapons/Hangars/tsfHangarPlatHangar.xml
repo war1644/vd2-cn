@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="hangar"/>
+<hangarID attr1="tsfHPH"/> 
+<fighterShipID attr1="voytek"/> 
+<name attr1="Hangar"/> 
+<maxFighters attr1="6"/> 
+<bPrimary attr1="1"/>
+<launchTube>
+    <launchDeckBeg x="64.098" y="0" z="0"/>
+    <launchDeckEnd x="126.518" y="0" z="0"/>
+	<direction attr1="right"/>
+</launchTube>
+<launchTube>
+    <launchDeckBeg x="-64.098" y="0" z="0"/>
+    <launchDeckEnd x="-126.518" y="0" z="0"/>
+	<direction attr1="left"/>
+</launchTube>
+<launchSpeedMultiplier attr1="1.5"/>

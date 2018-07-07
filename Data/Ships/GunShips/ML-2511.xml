@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="ML-2511"/> 
+<objectID attr1="ML-2511"/> 
+<faction attr1="tsf"/>
+<shipClass attr1="repair"/> 
+<sizeShipClass attr1="gunship"/> 
+<shipClassSize attr1="heavy"/>
+<meshName attr1="ML-2511.mesh"/>
+<descriptionText attr1="An unarmed repair ship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The combination of longer patrols, a less centralized concentration of military force, and a variety of engagements is bringing the Monty Lockwood back into common use."/>
+<bNotSoldUnlessOwnedBase attr1="1"/>
+<creditCost attr1="355000"/>
+<bBlackMarket attr1="1"/>
+<cruiseSpeed attr1="70.0"/> 
+<timeTillCruise attr1="2.5"/>
+<yaw 	attr1="70.0"/> 
+<pitch	attr1="70.0"/> 
+<roll 	attr1="70.0"/> 
+<bGravityDrive attr1="1"/>
+<cockpitActualPos x="0" y="7.15" z="1.88"/>
+<cockpitActualMesh attr1="cockpitML-2511.mesh"/> 
+<cockpitInitPos x="0" y="13.16" z="24.31"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="40.57" z="155"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="4300.0"/>
+<armor attr1="0.5"/>
+<buildTime	attr1="35.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="275.0"/> 
+<ore		attr1="375.0"/> 
+<damage>
+    <pitch attr1="35.0"/> 
+    <roll attr1="-133.0"/> 
+	<yaw attr1="-35.0"/> 
+	<position x="3.04" y="-4.723" z="16.204"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="ML-2511D00"/> 
+		<debrisMomentum attr1="4"/> 
+		<debrisAngular attr1="4"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explodeRed03"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp1_25"/>  
+<engineSoundID attr1="eng-01"/> 
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="13.778" y="-2.14" z="-4.0"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="-13.778" y="-2.14" z="-4.0"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="13.695" y="-0.218" z="-17"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="13.695" y="-4.331" z="-17"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-13.695" y="-0.218" z="-17"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-13.695" y="-4.331" z="-17"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="6.15"/>
+    <capacity attr1="11"/>
+    <recharge attr1="12"/>
+</afterburner>
+<weapon> 
+    <weaponType attr1="beam"/> 
+    <hardpointID attr1="mlRB00"/> 
+	<weaponPosition x="0" y="-0.042" z="-26.407"/>
+</weapon>
+<upgrades>
+	<primaryUpgradeCapacity attr1="3"/>
+	<activeUpgradeCapacity attr1="3"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="gArmor00"/>
+	<upgradeID attr1="gShield00"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="gunshipFShield00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="gunshipMan00"/>
+	<upgradeID attr1="gunshipThrust00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="gSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="gunshipPUS00"/>
+	<upgradeID attr1="gunshipAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bNoTargetAimNodeOffset attr1="1"/>
+<collisionShape attr1="simple_convex"/>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.87" y="-3.85" z="55"/>

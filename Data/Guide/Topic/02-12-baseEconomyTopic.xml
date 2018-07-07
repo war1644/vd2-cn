@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="baseEconomy"/>
+<topicName attr1="Bases and Economy"/>
+<mainText attr1="Base Management:"/>
+<mainText attr1="Void Destroyer is primary a - combat oriented - game. However you do have some control over bases and their production."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Concepts:"/>
+<mainText attr1="Bases have crew which produce and consume resources."/>
+<mainText attr1="You can allocate crew to three resources - energy, food and ore."/>
+<mainText attr1="     Not all bases are able to produce ore."/>
+<mainText attr1="When over 25% of the crew gets allocated to a resource:"/>
+<mainText attr1="   A bonus to production gets added - increasing the higher the crew %"/>
+<mainText attr1="Crew consume food and energy - but do not consume ore."/>
+<mainText attr1="If a base lacks food and/or energy - crew population will decrease."/>
+<mainText attr1="Platform crew also consume resources - but do not produce resources."/>
+<mainText attr1="Platforms sometimes consume resources - as upkeep (see Building Platforms topic)."/>
+<mainText attr1=" "/>
+<mainText attr1="How to manage production:"/>
+<mainText attr1="Manipulate the three sliders to allocate crew production percentages."/>
+<mainText attr1="When you increase one slider - the other sliders will decrease."/>
+<mainText attr1="When you decrease one slider - the other sliders will increase."/>
+<mainText attr1="Because there are three sliders - sometimes you will need to - lock - a slider to be able to allocate as desired."/>
+<mainText attr1=" "/>
+<mainText attr1="Example (image on the right):"/>
+<mainText attr1="Energy: There is 2944 units of energy, with 25% of the crew production."/>
+<mainText attr1="Each of the 25% of the crew produces 5.72 units of energy for a total of 48 units."/>
+<mainText attr1="Due to consumption - there is a net gain of 17 units of energy."/>
+<mainText attr1=" "/>
+<mainText attr1="Food: The food production slider is locked - allowing to move the other sliders without changing the food slider."/>
+<mainText attr1="There is a net loss of 7 food, however due to having food stores of 3688 units there is no shortage."/>
+<mainText attr1=" "/>
+<mainText attr1="Crew: Due to there being no shortages of energy and crew - crew population increased by 3."/>
+<mainText attr1=" "/>
+<mainText attr1="For Math Majors:"/>
+<mainText attr1="If you notice - the % pictured in the image add up to over 100% - this is due to (mostly) rounding up in the displayed text %"/>
+<mainText attr1=" "/>
+<mainText attr1="History/Influence:"/>
+<mainText attr1="Managing base economy via sliders has been influenced by the classic game - Master of Orion."/>
+<mainText attr1="Early on in Void Destroyer's development - I started writing out a complex hierarchy of raw resources, intermediate resources, and final products. I realized that this process didn't appeal much to me (wasn't having fun) and that other games have much more complex resource and production mechanics. So I decided to stick with the RTS route of a few basic resources."/>
+<imageOne>
+	<image attr1="set:guide_base_icon image:guide_base_icon"/>
+</imageOne>
+<imageTwo>
+	<image attr1="set:guide_base_manage image:guide_base_manage"/>
+</imageTwo>
+

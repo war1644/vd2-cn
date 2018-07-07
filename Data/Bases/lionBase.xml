@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="lionBase"/> 
+<displayName attr1="The Lion"/> 
+<objectID attr1="lionBase"/> 
+<faction attr1="thePride"/> 
+<meshName attr1="lionBase.mesh"/>
+<descriptionText attr1="A bounty hunter lodge."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="This mobile base arrived when bounties rose in response to rising piracy due to the economic boom. The always repeating cycle."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Designed to function both as a base and a mega carrier, as soon as bounties dry up, it will move on to happier hunting grounds."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="0" y="-115" z="-455"/>
+<dockingArmsEnd x="0" y="-115" z="-670"/>
+<dockPosition x="0" y="-115" z="-465"/>
+<dockSize x="70" y="110" z="130"/>
+<bMobile attr1="1"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion300"/>
+	<position x="0" y="-25" z="715"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion300"/>
+	<position x="0" y="-180" z="630"/>
+</propulsion>

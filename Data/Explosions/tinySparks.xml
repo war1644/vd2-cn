@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="explosion"/> 
+<objectID attr1="tSExp"/> 
+<particleSystemName attr1="tinySparks"/> 

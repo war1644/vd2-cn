@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="release_attached_ship"/> 
+<weaponID attr1="dropperSR"/> 
+<name attr1="Release"/> 
+<range attr1="700"/> 

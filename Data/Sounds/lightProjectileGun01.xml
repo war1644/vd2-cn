@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="random"/>
+<objectID attr1="lightPGS01"/> 
+<soundFile attr1="lightProjectile10.wav"/>
+<soundFile attr1="lightProjectile11.wav"/>
+<soundFile attr1="lightProjectile12.wav"/>
+<soundFile attr1="lightProjectile13.wav"/>
+<soundFile attr1="lightProjectile14.wav"/>
+<soundFile attr1="lightProjectile15.wav"/>
+<maxSounds attr1="15"/>
+<maxDistance attr1="875"/> 
+<referenceDistance attr1="375"/>
+<defaultVolume attr1="0.6"/>
+<soundPriority attr1="50"/>

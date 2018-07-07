@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Scorpion"/> 
+<objectID attr1="scorpion"/> 
+<faction attr1="outsider"/> 
+<shipClass attr1="gunship"/>
+<shipClassSize attr1="medium"/>
+<meshName attr1="Scorpion.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A medium gunship."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="The Scorpion is a gunship class ship of the Outsiders."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="Armed with a three beam weapons. It's previous classification was that of a heavy fighter."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="Outsider ships tended to be far larger than TSF ships, leading the TSF to introduce the gunship designation as a response."/>
+<cruiseSpeed attr1="80.0"/> 
+<timeTillCruise attr1="1.85"/> 
+<yaw 	attr1="80.0"/> 
+<pitch	attr1="80.0"/> 
+<roll 	attr1="80.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitID attr1="cockpit003-1"/>
+<cockpitActualPos x="0" y="2.14" z="5.33"/>
+<cockpitActualMesh attr1="cockpitScorpion.mesh"/>
+<cockpitInitPos x="0" y="14.59" z="26.22"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="30.79" z="149.4"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="4000.0"/>
+<damage>
+    <pitch attr1="115.0"/> 
+    <roll attr1="30.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="2.285" y="5.068" z="17.048"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="outsiderD00"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="scorpionD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+</debrisInfo>
+<explosionID attr1="outsiderE03"/>
+<preExplosionID attr1="outsiderE00"/>
+<preExplosionID attr1="outsiderE01"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<weapon> 
+    <weaponType attr1="beam"/> 
+    <hardpointID attr1="scorpionB"/> 
+	<weaponPosition x="5.252" y="-4.375" z="-13.962"/>
+	<weaponPosition x="-5.252" y="-4.375" z="-13.962"/>
+	<weaponPosition x="-0.017" y="7.444" z="-13.962"/>
+</weapon>
+<shipHangarPosition x="0" y="0" z="0"/>

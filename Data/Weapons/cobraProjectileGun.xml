@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="cobraPG"/> 
+<ammunitionID attr1="lightCP"/> 
+<name attr1="Chain Gun"/> 
+<fireSoundID attr1="rapidP01"/>
+<muzzleFlashEffectID attr1="mfLG01"/>
+<reFireRate attr1="0.001"/>
+<capacity attr1="60"/> 
+<reloadTime attr1="1.05"/>
+<scatterYaw attr1="0.25"/>
+<scatterPitch attr1="0.25"/>

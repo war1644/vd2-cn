@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Gate Hack"/> 
+<objectID attr1="gHack"/>
+<upgradeCategory attr1="other"/>
+<upgradeType attr1="active"/>
+<cost attr1="5500"/>
+<bAlwaysAvailableUpgrade attr1="1"/>
+<bIllegalUpgrade attr1="1"/>
+<description attr1="A combination of hardware and software necessary to crack gate access codes."/>
+<description attr1=" "/>
+<description attr1="Allows for overriding gate friend or foe detection to activate gates."/>
+<description attr1=" "/>
+<description attr1="As an added bonus, the hack also bypasses the payment, this an upgrade that pays for itself."/>
+<shipActiveUpgradeType attr1="gate_hack"/>
+<rechargeTime attr1="10"/>
+<durationTime attr1="10"/>

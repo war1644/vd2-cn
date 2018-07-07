@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="physical_attachment"/> 
+<name attr1="BDP01 Shield"/> 
+<objectID attr1="bdp01Shield01"/> 
+<faction attr1="beggar"/>
+<meshName attr1="bdp01Shield01.mesh"/> 
+<wireframeMaterial attr1="WF/Gate"/> 
+<descriptionText attr1="A attached shield made out of an hardened armor plating."/> 
+<health attr1="1500"/> 
+<bNoShow x="1"/>
+<bShowInTactical attr1="0"/>
+<explosionID attr1="explode02"/>

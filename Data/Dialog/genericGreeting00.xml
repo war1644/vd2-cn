@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieGreeting00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="greeting"/>
+<dialog attr1="Hey"/>
+<dialog attr1="Morning"/>
+<dialog attr1="Good Morning"/>
+<dialog attr1="How's it going?"/>
+<dialog attr1="What's up?"/>
+<dialog attr1="How's life?"/>
+<dialog attr1="Hello?"/>
+<dialog attr1="Sup?"/>
+<dialog attr1="Yes?"/>
+<dialog attr1="Go ahead"/>
+<dialog attr1="You need something?"/>

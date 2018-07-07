@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="pick_one"/>
+<objectID attr1="megaGS00"/> 
+<defaultVolume attr1="0.85"/>
+<soundFile attr1="megaGun00.wav"/>
+<soundFile attr1="megaGun01.wav"/>
+<soundFile attr1="megaGun02.wav"/>
+<maxDistance attr1="6250"/> 
+<referenceDistance attr1="3250"/>
+<soundPriority attr1="150"/>

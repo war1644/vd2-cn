@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Ola"/> 
+<objectID attr1="ola"/> 
+<faction attr1="rockGuys"/> 
+<shipClass attr1="transport"/>
+<shipClassSize attr1="heavy"/>
+<sizeShipClass attr1="corvette"/> 
+<meshName attr1="Ola.mesh"/>
+<descriptionText attr1="A transport ship."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Ola is a small transport ship capable of carrying one cargo pod. It has no turret mounts, but is cheap, has good speed and exceptional durability."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Ola's infamy for its role in the MU rebellion is counter balanced when Ola pilots ferried much needed ore from MU bases to TSF during the Outsider conflict."/>
+<creditCost attr1="165000"/>
+<missionRankRequired attr1="2"/>
+<cruiseSpeed attr1="55.0"/>
+<timeTillCruise attr1="2.75"/> 
+<yaw 	attr1="55.0"/> 
+<pitch	attr1="55.0"/> 
+<roll 	attr1="55.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002"/>
+<cockpitActualPos x="-0.4" y="17" z="-45"/>
+<cockpitInitPos x="0" y="35" z="65"/>
+<cockpitTransLimit x="3" y="3" z="3"/>
+<chaseInitPos x="0" y="90" z="335"/>
+<chaseTransLimit x="16" y="10" z="6"/> 
+<health attr1="11000.0"/> 
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="35.0"/> 
+    <roll attr1="-25.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="36.491" y="0.859" z="61.094"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="0.0"/> 
+    <roll attr1="90.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="-11.803" y="1.389" z="-49.362"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<deathTimer attr1="3.2"/> 
+<deathSpin x="-0.014" y="-0.1" z="-0.2"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="olaD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="olaD01"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explodeRed04"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="0" y="5.04" z="82"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="13.54" y="-1.44" z="85.46"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-13.54" y="-1.44" z="85.46"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/>
+	<position x="0" y="17.1" z="-45.84"/>
+	<direction attr1="fore"/> 
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="15.426" y="-29.071" z="-55.550"/>
+	<direction attr1="down"/>
+	<yaw attr1="60"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="22.115" y="-28.777" z="44.072"/>
+	<direction attr1="down"/> 
+	<yaw attr1="60"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="-15.426" y="-29.071" z="-55.550"/>
+	<direction attr1="down"/> 
+	<yaw attr1="-60"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="-22.115" y="-28.777" z="44.072"/>
+	<direction attr1="down"/>
+	<yaw attr1="-60"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="46.060" y="-4.123" z="56.783"/>
+	<direction attr1="port"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="-46.060" y="-4.123" z="56.783"/>
+	<direction attr1="starboard"/>
+</propulsion> 
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.85"/> 
+    <capacity attr1="15"/>
+    <recharge attr1="16"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<dock> 
+	<position x="0" y="-28.528" z="-7.418"/>
+	<orientation attr1="bottom"/>
+	<ejectOrientation attr1="up"/> 
+	<ejectVelocity attr1="45"/>
+</dock>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="3"/>
+	<activeUpgradeCapacity attr1="4"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cShield00"/>
+	<upgradeID attr1="cShieldRecharge00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.87" y="0" z="146.39"/>

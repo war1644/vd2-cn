@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="weapons"/>
+<topicName attr1="Weapons"/>
+<mainText attr1="Weapons:"/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Primary Fire - KEY - "/>
+<commandTypeName attr1="ship_command"/>
+<commandIDName attr1="fire_primary"/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="(default - right mouse button, trigger button on joystick)"/>
+<mainText attr1="Secondary Fire - KEY - "/>
+<commandTypeName attr1="ship_command"/>
+<commandIDName attr1="fire_secondary"/>
+<mainText attr1=" "/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Hangar:"/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Launch All Fighters - KEY - "/>
+<commandTypeName attr1="ship_command"/>
+<commandIDName attr1="launch_all_fighters"/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1="Weapons Overview:"/>
+<mainText attr1=" "/>
+<mainText attr1="Weapon types can be divided into these categories:"/>
+<mainText attr1="Projectile, instant hit, beam, missile and collision."/>
+<mainText attr1=" "/>
+<mainText attr1="Ships and their weapons were designed with the goal of providing a unique experience. Weapons have a variety of characteristics, for example some can push, do damage over time, burst into flames or radiation fields. Some weapons do double damage to larger targets (capital ships and platforms)."/>
+<mainText attr1=" "/>
+<mainText attr1="Secondary Weapons:"/>
+<mainText attr1="Some ships are equipped with secondary weapons. Secondary weapons can be only used by the player. The idea behind these is to strengthen the space combat aspect of the game and encourage ship switching. Secondary weapons tend to be far more powerful, but at the cost of a longer recharge time and ease of use. Their placement on ships was done with careful consideration of the ship itself - either trying to fill a gap in its primary weapons or strengthen its combat role."/>
+<mainText attr1=" "/>
+<mainText attr1="Turrets:"/>
+<mainText attr1="Often ships come equipped with turrets - these will automatically track targets. Some will fire on their own, while some will fire via player control. Keep this in mind when an enemy isn't in front of you, but still within the turret's reach."/>
+<mainImage>
+	<image attr1="set:guide_weapons image:guide_weapons"/>
+</mainImage>

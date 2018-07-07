@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Buzzard"/> 
+<objectID attr1="buzzard"/> 
+<faction attr1="beggar"/> 
+<shipClass attr1="gunship"/>
+<shipClassSize attr1="medium"/>
+<combatAIClass attr1="fighter"/>
+<meshName attr1="Buzzard.mesh"/>
+<wireframeMaterial attr1="WF/Bee"/>
+<descriptionText attr1="A medium gun ship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Buzzard is a medium gunship of the Beggar pirates."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Armed with two quad chain gun turrets, the Buzzard doubles the fire power of the Vulture."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="It is exceptionally powerful head on against low armor craft, but due to the hull design and turret placements, it has unusually large blind spots for a turreted ship of its size."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="This would normally mean that it is vulnerable (in this case on its six), but the Buzzard comes equipped with two physical shields to cover its blind side."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Tractor beam."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Capable of moving gunships, tractor beams have various uses in combat, ranging from disrupting an enemy's line of fire to pulling them closer for the kill."/>
+<creditCost attr1="312500"/>
+<bBlackMarket attr1="1"/>
+<missionRankRequired attr1="3"/>
+<cruiseSpeed attr1="70"/> 
+<timeTillCruise attr1="2.05"/>
+<yaw 	attr1="95.0"/> 
+<pitch	attr1="95.0"/> 
+<roll 	attr1="95.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitInitPos x="0" y="14.43" z="21.4"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="37.5" z="162.5"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="4000.0"/> 
+<buildTime	attr1="35.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="275.0"/> 
+<ore		attr1="375.0"/> 
+<damage>
+    <pitch attr1="-123.0"/> 
+    <roll attr1="0.0"/> 
+	<yaw attr1="23.0"/> 
+	<position x="-2.165" y="-7.846" z="1.495"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.3" y="0.1" z="0.25"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="buzzardD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="buzzardD01"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explodeRed02"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp1_25"/>  
+<engineSoundID attr1="eng-01"/> 
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="12.56" y="1.935" z="15.423"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="12.56" y="-2.022" z="14.031"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-12.56" y="1.935" z="15.423"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="-12.56" y="-2.022" z="14.031"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="5.95"/>
+    <capacity attr1="11"/>
+    <recharge attr1="14.5"/>
+</afterburner>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+    <turretOrientation attr1="right"/> 
+	<position x="8.831" y="-0.541" z="-2.288"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<yawPermitted attr1="60"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+    <turretOrientation attr1="left"/> 
+	<position x="-8.831" y="-0.541" z="-2.288"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<yawPermitted attr1="60"/>
+</turret>
+<weapon>
+    <weaponType attr1="tractor_beam"/> 
+    <hardpointID attr1="buzzardTB"/> 
+	<weaponPosition x="0" y="0" z="0"/>
+	<weaponFire attr1="secondary"/>
+</weapon>
+<attachment>
+	<attachmentID attr1="buzzardShield00"/>
+	<attachmentPosition x="4.99" y="0" z="17.16"/>
+</attachment>
+<attachment>
+	<attachmentID attr1="buzzardShield00"/>
+	<attachmentPosition x="-4.99" y="0" z="17.16"/>
+</attachment>
+<targetPriorityList> 
+	<targetClass attr1="gunship"/>
+	<targetClass attr1="fighter"/>
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="dreadnaught"/> 
+	<targetClass attr1="attack_station"/>
+	<targetClass attr1="fighter_drone"/>
+</targetPriorityList>
+<upgrades>
+	<primaryUpgradeCapacity attr1="2"/>
+	<activeUpgradeCapacity attr1="3"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="gArmor00"/>
+	<upgradeID attr1="gShield00"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="gunshipFShield00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="gunshipMan00"/>
+	<upgradeID attr1="gunshipThrust00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="gSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="gunshipPUS00"/>
+	<upgradeID attr1="gunshipAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<shipHangarPosition x="0" y="-4.11" z="-9.31"/>
+<shipHangarYOffset attr1="8"/>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="missile"/> 
+<objectID attr1="smallMissile00"/>
+<meshName attr1="smallMissile00.mesh"/> 
+<ribbonID attr1="m_ribbon"/> 
+<cruiseSpeed attr1="500.0"/> 
+<timeTillCruise attr1="0.5"/> 
+<initialVelocity attr1="35.0"/> 
+<initialLife attr1="5"/> 
+<_range attr1="around 2.5k"/>
+<timeTillActive attr1="0.65"/>
+<damage attr1="70.0"/> 
+<health attr1="2.0"/> 
+<explosionID attr1="mHit00"/>
+<yaw 	attr1="150.0"/> 
+<pitch	attr1="150.0"/> 
+<roll 	attr1="150.0"/> 

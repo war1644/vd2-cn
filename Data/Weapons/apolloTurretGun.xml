@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="apolloTG"/> 
+<ammunitionID attr1="mediumCP"/> 
+<name attr1="Medium Gun"/> 
+<fireSoundID attr1="heavyPGS00"/>
+<muzzleFlashEffectID attr1="mfLG035"/>
+<capacity attr1="7"/> 
+<reloadTime attr1="0.75"/>
+<reFireRate attr1="0.15"/>

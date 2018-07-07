@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="TSF Weapons Platform"/> 
+<objectID attr1="tsfWeapons00"/> 
+<faction attr1="tsf"/> 
+<stationClass attr1="production_platform"/>
+<resourceProduced attr1="weapons"/>
+<stationSizeAsShip attr1="carrier"/>
+<creditCost attr1="3500000"/>
+<bCommonPlatform attr1="0"/>
+<meshName attr1="tsfWeapons00.mesh"/>
+<wireframeMaterial attr1="WF/FrigateShipyard"/> 
+<descriptionText attr1="A platform geared towards producing weapons."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="For safety, security and redundancy, the TSF operates multiple platforms to ensure a steady supply of arms and ordnance."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="In addition, it is widely believed that these facilities do top secret research into new tech and weapons systems."/>
+<health attr1="400000"/>
+<explosionID attr1="explode15"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="tsfWeapons00D00"/> 
+		<debrisMomentum attr1="2.5"/> 
+		<debrisAngular attr1="1.25"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="tsfWeapons00D01"/> 
+		<debrisMomentum attr1="2.5"/> 
+		<debrisAngular attr1="0.75"/> 
+	</debris>
+</debrisInfo>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>

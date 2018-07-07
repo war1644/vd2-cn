@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Marauder"/> 
+<objectID attr1="marauder"/> 
+<faction attr1="rockGuys"/> 
+<shipClass attr1="corvette"/> 
+<shipClassSize attr1="medium"/>
+<combatAIClass attr1="frigate"/>
+<meshName attr1="Marauder.mesh"/>
+<wireframeMaterial attr1="WF/Harnden"/> 
+<descriptionText attr1="A medium corvette."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Marauder is a mix of weapons and capabilities in a tough and fast package."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Armed with turrets, torpedo launchers and even an optional mine launcher, its one of the most versatile of ships."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Due to its 'non-standard' vertical design, the Marauder doesn't fit in most hangars."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Heat seeker mines."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="These mines detect engine and weapon use from larger craft (corvette and above) then home in on the target, dealing devastating damage."/>
+<creditCost attr1="950000"/>
+<missionRankRequired attr1="4"/>
+<cruiseSpeed attr1="55.0"/> 
+<timeTillCruise attr1="2.55"/> 
+<yaw 	attr1="60.0"/> 
+<pitch	attr1="60.0"/> 
+<roll 	attr1="60.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="6.338" y="-24.525" z="-25.638"/>
+<cockpitInitPos x="0" y="20.06" z="-3.29"/>
+<cockpitTransLimit x="3" y="3" z="3"/>
+<chaseInitPos x="0" y="53.95" z="409.71"/>
+<chaseTransLimit x="16" y="10" z="6"/> 
+<health attr1="16550"/> 
+<armor attr1="1.5"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="-90.0"/> 
+    <roll attr1="0.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="-5.407" y="-42.688" z="-24.476"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<damage>
+    <pitch attr1="35.0"/> 
+    <roll attr1="-65.0"/> 
+	<yaw attr1="22.0"/> 
+	<position x="4.42" y="30.282" z="43.964"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="0.0"/> 
+    <roll attr1="-90.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="23.188" y="7.34" z="4.306"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="marauderD00"/> 
+		<debrisMomentum attr1="2"/> 
+		<debrisAngular attr1="2"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="marauderD00"/> 
+		<debrisMomentum attr1="2"/> 
+		<debrisAngular attr1="2"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode04"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-1.093" y="30.282" z="51.463"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-0.047" y="-1.657" z="41.645"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-1.093" y="30.282" z="51.463"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-0.047" y="-1.657" z="41.645"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-9.501" y="3.624" z="-32.029"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-9.501" y="-3.643" z="-32.118"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="13.990" y="34.057" z="26.972"/>
+	<direction attr1="port"/> 
+	<pitch attr1="-45.0"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="14.809" y="-5.794" z="16.252"/>
+	<direction attr1="port"/> 
+	<pitch attr1="45.0"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="-12.875" y="37.892" z="22.058"/>
+	<direction attr1="starboard"/> 
+	<pitch attr1="-45.0"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="-15.361" y="-5.794" z="14.817"/>
+	<direction attr1="starboard"/> 
+	<pitch attr1="45.0"/>
+</propulsion> 
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.95"/> 
+    <capacity attr1="16.5"/>
+    <recharge attr1="16"/> 
+</afterburner>
+<turret>
+    <turretID attr1="beastT"/> 
+    <turretOrientation attr1="right"/> 
+	<position x="30.416" y="-14.540" z="-14.162"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+</turret>
+<turret>
+    <turretID attr1="beastT"/> 
+    <turretOrientation attr1="left"/> 
+	<position x="-35.545" y="-7.824" z="-11.533"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+</turret>
+<turret>
+    <turretID attr1="beastT"/> 
+    <turretOrientation attr1="bottom"/> 
+	<position x="-2.547" y="-61.521" z="-10.571"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+</turret>
+<turret>
+    <turretID attr1="raiderTurret"/> 
+    <turretOrientation attr1="right"/> 
+	<position x="21.274" y="37.044" z="14.499"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="marauderTT"/> 
+    <turretOrientation attr1="left"/> 
+	<position x="0.0" y="0.0" z="0.0"/> 
+	<turretRole attr1="parents_target"/>
+</turret>
+<weapon>
+    <weaponType attr1="mine"/> 
+    <hardpointID attr1="marauderML"/> 
+	<weaponPosition x="-2.672" y="-41.341" z="-25.085"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<targetPriorityList> 
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="dreadnaught"/> 
+	<targetClass attr1="attack_station"/>
+</targetPriorityList>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="3"/>
+	<activeUpgradeCapacity attr1="4"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bLargeDockOnly attr1="1"/>
+<rockSubPosition attr1="1"/>

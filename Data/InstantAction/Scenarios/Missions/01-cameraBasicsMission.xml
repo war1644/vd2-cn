@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<position attr1="0"/> 
+<name attr1="Flight - Basics"/> 
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="create_tutorial_listener"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="player_command"/> 
+		<playerCommandID attr1="cockpit"/>
+	</objective>
+	<preCutscene attr1="01-cameraBasicsScene"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Welcome to the camera basics tutorial."/>
+			<content attr1="We'll go through the different camera views and discuss their possible uses."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="First up - external close camera."/>
+			<content attr1="External camera - key" attr2="ship_command" attr3="cockpit"/>
+		</dialog>		
+	</preDialog>
+	<missionHUDText attr1="External camera - key" attr2="ship_command" attr3="cockpit"/>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="External cameras tend to sit above and behind the actual cockpit or bridge of a ship."/>
+			<content attr1="Often giving you a different degree of situational awareness."/>
+			<content attr1="And avoiding obstacles."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Take a look around for a few moments then go back to the internal cockpit camera."/>
+			<content attr1="Internal camera - key" attr2="ship_command" attr3="cockpit_actual"/>
+		</dialog>	
+	</preDialog>
+	<objective>
+		<objectiveType attr1="player_command"/> 
+		<playerCommandID attr1="cockpit_actual"/>
+	</objective>
+	<missionHUDText attr1="Internal camera - key" attr2="ship_command" attr3="cockpit_actual"/>
+	<missionHUDText attr1=" "/>
+	<missionHUDText attr1="Basic flight recap:"/>
+	<missionHUDText attr1="Cruise Speed - key" attr2="ship_command" attr3="cruise_speed"/>
+	<missionHUDText attr1="Zero speed - key" attr2="ship_command" attr3="zero_speed"/>
+	<missionHUDText attr1="Increase speed setting - key" attr2="ship_command" attr3="increase_speed"/>
+	<missionHUDText attr1="Decrease speed setting - key" attr2="ship_command" attr3="decrease_speed"/>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Internal cameras tend to be positioned near the center front of a ship."/>
+			<content attr1="Although this doesn't always correspond where the pilot or bridge is actually located."/>
+			<content attr1="This view tends to be good for precision aiming and flight."/>
+			<content attr1="For example shooting mines or flying through narrow gaps or spaces."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Take a look around for a few moments then switch to the chase camera."/>
+			<content attr1="Chase camera - key" attr2="ship_command" attr3="chase"/>
+		</dialog>	
+	</preDialog>
+	<objective>
+		<objectiveType attr1="player_command"/> 
+		<playerCommandID attr1="chase"/>
+	</objective>
+	<missionHUDText attr1="Chase camera - key" attr2="ship_command" attr3="chase"/>
+	<missionHUDText attr1=" "/>
+	<missionHUDText attr1="Basic flight recap:"/>
+	<missionHUDText attr1="Left thrust - key" attr2="ship_command" attr3="thrust_left"/>
+	<missionHUDText attr1="Right thrust - key" attr2="ship_command" attr3="thrust_right"/>
+	<missionHUDText attr1="Ascend thrust - key" attr2="ship_command" attr3="thrust_up"/>
+	<missionHUDText attr1="Descend thrust - key" attr2="ship_command" attr3="thrust_down"/>
+	<missionHUDText attr1="Forward thrust - key" attr2="ship_command" attr3="thrust_foreward"/>
+	<missionHUDText attr1="Reverse thrust - key" attr2="ship_command" attr3="thrust_back"/>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="The chase camera sits above and behind your ship."/>
+			<content attr1="Giving you a field of view above, below and around your ship."/>
+			<content attr1="It is great for combat with fast moving ships."/>
+			<content attr1="As well as seeing incoming fire."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Take a look around for a few moments then switch to the orbit camera."/>
+			<content attr1="Orbit camera - key" attr2="ship_command" attr3="orbit"/>
+		</dialog>	
+	</preDialog>
+	<objective>
+		<objectiveType attr1="player_command"/> 
+		<playerCommandID attr1="orbit"/>
+	</objective>
+	<missionHUDText attr1="Orbit camera - key" attr2="ship_command" attr3="orbit"/>
+	<missionHUDText attr1=" "/>
+	<missionHUDText attr1="Basic flight recap:"/>
+	<missionHUDText attr1="Afterburner - key" attr2="ship_command" attr3="afterburner"/>
+	<missionHUDText attr1="Roll left - key" attr2="ship_command" attr3="roll_left"/>
+	<missionHUDText attr1="Roll right - key" attr2="ship_command" attr3="roll_right"/>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="The orbit camera isn't often used in flight or combat."/>
+			<content attr1="It can be used to look behind, above, below or anywhere in between around your ship."/>
+			<content attr1="Making it useful for locating far away targets, or picking up objects such as cargo pods."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="While in orbit camera, you can rotate the view via holding down the right mouse button."/>
+			<content attr1="You can also zoom in and out via the mouse wheel."/>
+		</dialog>	
+	</preDialog>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<missionHUDText attr1="Experiment with the orbit camera"/>
+	<missionHUDText attr1="Hold down the right mouse button and move mouse"/>
+	<missionHUDText attr1="Zoom via mouse wheel"/>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<missionHUDText attr1="Experiment with the orbit camera"/>
+	<missionHUDText attr1="Hold down the right mouse button and move mouse"/>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+	</objective>
+		<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="There are two more cameras."/>
+			<content attr1="The turret camera and the command camera, which are linked to turret and command modes."/>
+			<content attr1="These will be covered in another tutorial."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Let's recap camera modes:"/>
+			<content attr1="Internal camera - key" attr2="ship_command" attr3="cockpit_actual"/>
+			<content attr1="External camera - key" attr2="ship_command" attr3="cockpit"/>
+			<content attr1="Chase camera - key" attr2="ship_command" attr3="chase"/>
+			<content attr1="Orbit camera - key" attr2="ship_command" attr3="orbit"/>
+		</dialog>	
+	</preDialog>
+	<missionHUDText attr1="Experiment with the camera modes"/>
+	<missionHUDText attr1="Internal camera - key" attr2="ship_command" attr3="cockpit_actual"/>
+	<missionHUDText attr1="External camera - key" attr2="ship_command" attr3="cockpit"/>
+	<missionHUDText attr1="Chase camera - key" attr2="ship_command" attr3="chase"/>
+	<missionHUDText attr1="Orbit camera - key" attr2="ship_command" attr3="orbit"/>
+	<missionHUDText attr1=" Hold down the right mouse button and move mouse"/>
+	<missionHUDText attr1=" Zoom via mouse wheel"/>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<displayName attr1="Exit tutorial"/> 
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer="1000"/>
+	</objective>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="This completes the camera basics tutorial."/>
+			<content attr1="Camera modes are intended to aid you in both flight and combat."/>
+			<content attr1="How, when and if you use them is up to you."/>
+			<content attr1="Feel free to replay this tutorial as many times as you need."/>
+			<content attr1="Good luck."/>
+		</dialog>
+	</preDialog>
+	<missionHUDText attr1="Tutorial completed"/>
+	<missionHUDText attr1="ESC game menu"/>
+</mission>

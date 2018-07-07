@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="guardList"/>
+<topicName attr1="  Guard Orders"/>
+<mainText attr1="Ship Orders - Guard:"/>
+<mainText attr1=" "/>
+<mainText attr1="Key Points:"/>
+<mainText attr1="You can assign ships to guard one or more objects."/>
+<mainText attr1="Only ships or stations can be guarded."/>
+<mainText attr1="Guard orders have nothing to do with formations."/>
+<mainText attr1="Ships will target attackers of guarded objects, even if they are set to Do Not Engage"/>
+<mainText attr1=" "/>
+<mainText attr1="How to:"/>
+<mainText attr1="Select a ship or ships"/>
+<mainText attr1="Hold down the ALT key"/>
+<mainText attr1="Right click on an object to guard"/>
+<mainText attr1="  -- or --"/>
+<mainText attr1="Left click and hold - draw a selection rectangle around friendly objects"/>
+<mainText attr1="Release left mouse button to confirm"/>
+<mainText attr1=" "/>
+<mainText attr1="Clearing guarded objects:"/>
+<mainText attr1="Select ship or ships - click 'Clear Targets' or 'Clear Orders'"/>
+<mainText attr1=" "/>
+<mainText attr1="Overview:"/>
+<mainText attr1="When ships don't have a target of their own, and are set to guard an object. They will check if the guarded object is under attack and then try to locate its attackers."/>
+<mainText attr1=" "/>
+<mainText attr1="Repair ships and guard:"/>
+<mainText attr1="You can designate multiple ships to be repaired via the guard command. The repair ship will check the status of those ships and continue repairing them as needed."/>
+<imageThree>
+	<image attr1="set:guide_guard_line image:guide_guard_line"/>
+</imageThree>

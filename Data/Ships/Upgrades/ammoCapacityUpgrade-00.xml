@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Ammo Capacity"/> 
+<objectID attr1="ammoCap00"/> 
+<upgradeCategory attr1="weapon"/> 
+<cost attr1="1000"/>
+<addCostAsPercentOfShip attr1="0.035"/>
+<description attr1="Adds a additional ammo canisters for primary weapons, increasing their capacity before needing reloading."/>
+<ammoCapacityMultiplier attr1="1.70"/>

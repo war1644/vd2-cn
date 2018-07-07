@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="gateResponseYes00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="gate_response_yes"/>
+<dialog attr1="Activating gate... Happy travels."/>
+<dialog attr1="Ready for transit."/>
+<dialog attr1="Activating."/>
+<dialog attr1="Ready for transit."/>

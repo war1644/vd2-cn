@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieReqProt00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="request_protection"/>
+<dialog attr1="You for hire? I need an escort."/>
+<dialog attr1="Join up on my wing, I'll pay."/>

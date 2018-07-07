@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Front Energy Barrier"/> 
+<objectID attr1="corvetteFShield00"/> 
+<upgradeCategory attr1="engineering"/>
+<upgradeType attr1="active"/>
+<cost attr1="10500"/>
+<addCostAsPercentOfShip attr1="0.035"/>
+<description attr1="Installs a replica of the captured and adapted energy barrier used by the command ship Wardrum. When activated it projects a barrier in front of the ship. This barrier will prevent nearly all damage from passing through it, while the system is powered."/>
+<description attr1=" "/>
+<description attr1="When active, it will protect a limited amount of the ship, however it doesn't have a set point of damage absorbed."/>
+<shipActiveUpgradeType attr1="front_shield"/>
+<shieldObjectID attr1="corvetteFShield00"/>
+<activeSoundID attr1="shield00"/>
+<rechargeTime attr1="20"/>
+<durationTime attr1="30"/>

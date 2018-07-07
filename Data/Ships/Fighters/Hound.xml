@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Hound"/> 
+<objectID attr1="hound"/> 
+<faction attr1="stubs"/> 
+<shipClass attr1="fighter"/>
+<shipClassSize attr1="heavy"/>
+<meshName attr1="Hound.mesh"/>
+<descriptionText attr1="A heavy fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Hound is the primary fighter used by the merc group commonly known as 'Stubs'."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Often hired to supplement combat forces, its goal is to rush into combat, do as much damage as possible, then die. Armed with three high capacity chain guns and equipped with exceptionally powerful engines - it can function as either a medium or heavy fighter. Its cheap price and boosted performance is in large part due to a nearly total lack of safety considerations for the pilot."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Those unlucky enough to be facing off against this ship, know that its pilot has no concept of death, can't be bribed or bargained with."/>
+<creditCost attr1="65000"/>
+<bBlackMarket attr1="1"/>
+<cruiseSpeed attr1="105.0"/> 
+<timeTillCruise attr1="1.45"/>
+<yaw 	attr1="100.0"/> 
+<pitch	attr1="100.0"/> 
+<roll 	attr1="100.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitID attr1="cockpit003-1"/>
+<cockpitActualPos x="0" y="0.85" z="3.58"/>
+<cockpitActualMesh attr1="cockpitHound.mesh"/> 
+<cockpitInitPos x="0" y="5.9" z="12.95"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos  x="0" y="10.28" z="64"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="850.0"/> 
+<buildTime	attr1="35.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="275.0"/> 
+<ore		attr1="375.0"/> 
+<damage>
+    <pitch attr1="25.0"/> 
+    <roll attr1="-53.0"/> 
+	<yaw attr1="32.0"/> 
+	<position x="4.608" y="0.945" z="3.26"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="houndD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explodeRed02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp1_25"/>  
+<engineSoundID attr1="eng-01"/> 
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="6.736" y="-2.809" z="6.872"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="-6.736" y="-2.809" z="6.872"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="6.25"/>
+    <capacity attr1="9.0"/>
+    <recharge attr1="10.5"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="houndPG"/> 
+	<weaponPosition x="4.052" y="-2.433" z="-11.799"/>
+	<weaponPosition x="3.416" y="-2.433" z="-11.799"/>
+	<weaponPosition x="3.734" y="-2.984" z="-11.799"/>
+	<barrelDelay attr1="0.0225"/> 
+	<weaponFire attr1="primary"/> 
+</weapon>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="houndPG"/> 
+	<weaponPosition x="-4.052" y="-2.433" z="-11.799"/>
+	<weaponPosition x="-3.416" y="-2.433" z="-11.799"/>
+	<weaponPosition x="-3.734" y="-2.984" z="-11.799"/>
+	<barrelDelay attr1="0.0225"/> 
+	<weaponFire attr1="primary"/> 
+</weapon>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="houndPG"/> 
+	<weaponPosition x="0" y="-2.264" z="-7.409"/>
+	<weaponPosition x="-0.293" y="-2.815" z="-7.409"/>
+	<weaponPosition x="0.343" y="-2.816" z="-7.409"/>
+	<barrelDelay attr1="0.0225"/> 
+	<weaponFire attr1="primary"/> 
+</weapon>
+<upgrades> 
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed02"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="heavyFighterPUS00"/>
+	<upgradeID attr1="heavyFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="0" z="-5.26"/>

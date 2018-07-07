@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Mite"/> 
+<objectID attr1="mite"/> 
+<faction attr1="beggar"/> 
+<shipClass attr1="ship_capture"/> 
+<sizeShipClass attr1="gunship"/>
+<shipClassSize attr1="medium"/>
+<meshName attr1="Mite.mesh"/>
+<wireframeMaterial attr1="WF/Bee"/>
+<descriptionText attr1="A breach ship, gunship class."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Mite is a breach vehicle, capable of capturing other ships. "/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Mite is optimized for short range travel from its carrier, to the target ship. Once breached, specialized troops exit the vehicle and attempt capture. The breach vehicle itself is left a damaged and empty husk."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFF0000']Note:[colour='FFFFFFFF'] Due to requiring a carrier to get to its destination, the Mite is not sold separately."/>
+<bListedNoPurchase attr1="1"/>
+<creditCost attr1="100000"/>
+<missionRankRequired attr1="0"/>
+<cruiseSpeed attr1="105"/> 
+<timeTillCruise attr1="2.05"/>
+<yaw 	attr1="60.0"/> 
+<pitch	attr1="60.0"/> 
+<roll 	attr1="60.0"/> 
+<bGravityDrive attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="0" z="9"/>
+<cockpitActualMesh attr1="cockpitMite.mesh"/> 
+<cockpitInitPos x="0" y="20" z="33.2"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="30" z="140"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="3500.0"/>
+<captureRating attr1="10"/>
+<buildTime	attr1="35.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="275.0"/> 
+<ore		attr1="375.0"/> 
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.3" y="0.1" z="0.25"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="miteD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explode03"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp1_25"/>  
+<engineSoundID attr1="eng-01"/> 
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/>
+	<position x="0" y="0" z="8.75"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="6.05"/>
+    <capacity attr1="11"/>
+    <recharge attr1="14"/>
+</afterburner>
+<weapon> 
+    <weaponType attr1="collision"/> 
+    <hardpointID attr1="miteB"/> 
+	<weaponPosition x="0.0" y="0" z="-27"/>
+</weapon> 
+<targetPriorityList> 
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="dreadnaught"/> 
+</targetPriorityList>
+<upgrades>
+	<primaryUpgradeCapacity attr1="0"/>
+	<activeUpgradeCapacity attr1="0"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<shipHangarPosition x="0" y="-3.29" z="-7.45"/>
+<shipHangarYOffset attr1="8"/>

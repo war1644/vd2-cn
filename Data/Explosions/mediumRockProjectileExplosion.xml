@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="explosion"/> 
+<objectID attr1="mRPHit"/> 
+<particleSystemName attr1="vdp_xpl_medgun_pirate"/> 
+<life attr1="1"/>
+<renderingDistance attr1="3000"/>

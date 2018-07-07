@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="mine"/> 
+<weaponID attr1="pilarMML"/> 
+<ammunitionID attr1="mineMediumMissile"/> 
+<name attr1="Missile Mine Launcher"/> 
+<fireSoundID attr1="missileLS"/>
+<reFireRate attr1="0.85"/>
+<capacity attr1="6"/> 
+<reloadTime attr1="20.0"/> 
+<muzzleFlashEffectID attr1="mfML01"/>
+<launchVelocity attr1="10.0"/> 
+<bNoLifeLimit attr1="1"/>
+<bFireFullAmmo attr1="1"/>

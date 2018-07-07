@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="debris"/> 
+<name attr1="Debris"/> 
+<objectID attr1="tritonD00"/> 
+<meshName attr1="tritonD00.mesh"/> 
+<faction attr1="tsf"/>
+<descriptionText attr1="Some debris."/> 
+<health attr1="36000.0"/> 
+<timeToLive attr1="100.0"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<explosionID attr1="explode10"/>
+<minimumMomentum attr="1"/>
+<minimumRotation attr="1"/>
+<debrisSizeAsShipClass attr1="destroyer"/>
+<bCanAddViaBattleEditorSlider attr1="0"/>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="42.349" y="5.392" z="-261.527"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+	<roll attr1="-65.0"/> 
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="44.337" y="7.277" z="-213.920"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+	<roll attr1="-65.0"/> 
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="46.267" y="9.187" z="-162.574"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+	<roll attr1="-65.0"/>
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="-42.349" y="5.392" z="-261.527"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+	<roll attr1="65.0"/> 
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="-44.337" y="7.277" z="-213.920"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+	<roll attr1="65.0"/> 
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="-46.267" y="9.187" z="-162.574"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+	<roll attr1="65.0"/>
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="0" y="52.417" z="217.017"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+	<yaw attr1="180"/>
+</turret>

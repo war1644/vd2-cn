@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="missile"/> 
+<weaponID attr1="taurusMK2MPL"/> 
+<ammunitionID attr1="smallMissile003P"/> 
+<name attr1="Launcher"/> 
+<fireSoundID attr1="missileLS"/>
+<reFireRate attr1="0"/>
+<capacity attr1="4"/>
+<reloadTime attr1="30"/> 
+<muzzleFlashEffectID attr1="mfML01"/>

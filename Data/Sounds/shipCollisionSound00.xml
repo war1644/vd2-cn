@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<objectID attr1="shipCSd00"/> 
+<soundType attr1="random_continuous"/>
+<soundFile attr1="shipCollision00.wav"/>
+<soundFile attr1="shipCollision01.wav"/>
+<soundFile attr1="shipCollision02.wav"/>
+<soundFile attr1="shipCollision03.wav"/>
+<soundFile attr1="shipCollision02.wav"/>
+<soundFile attr1="shipCollisionSmall01.wav"/>
+<soundFile attr1="shipCollisionSmall02.wav"/>
+<maxDistance attr1="1500"/> 
+<referenceDistance attr1="750"/>
+<defaultVolume attr1="0.7"/>
+<soundPriority attr1="150"/>

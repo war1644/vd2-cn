@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Rocky"/>
+<missionDescriptionText attr1="Need help with retrieval of a valuable asset."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Potential of high mission threat level."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="A operator with a gunship preferred."/>
+<objectID attr1="rockGuys-02"/>
+<missionFactionID attr1="rockGuys"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="-1600" y="0" z="-2500"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="52500"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<maximumShipClass attr1="gunship"/>
+<bOverworldByPass attr1="1"/>
+<missionRankRequired attr1="3.8"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="holeRock005"/>
+		<name attr1="rg02-holeRock-1"/>
+		<bOverworld attr1="0"/>
+		<reletiveObject attr1="playerShip"/>
+		<orientation w="0" x="0" y="0" z="1"/>
+		<position x="0" y="-6" z="-8000"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="largeRock001"/>
+		<name attr1="rg02-largeRock-1"/>
+		<bOverworld attr1="0"/>
+		<reletiveObject attr1="rg02-holeRock-1"/>
+		<orientation w="0.0403981" x="0.498403" y="-0.0786581" z="0.862424"/>
+		<position x="-1170" y="-50" z="800"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="smallRock002"/>
+		<name attr1="rg02-smallRock-1"/>
+		<bOverworld attr1="0"/>
+		<reletiveObject attr1="rg02-largeRock-1"/>
+		<orientation w="0.618933" x="-0.343048" y="0.64549" z="0.28737"/>
+		<position x="-1000" y="-50" z="820"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="mediumRock003"/>
+		<name attr1="rg02-mediumRock-1"/>
+		<bOverworld attr1="0"/>
+		<reletiveObject attr1="rg02-largeRock-1"/>
+		<orientation w="0.444787" x="0.78736" y="0.341522" z="-0.256107"/>
+		<position x="-515.184" y="-535.84" z="599.849"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="weaponsPod"/>
+		<name attr1="rg02-weaponsPod-1"/>
+		<factionID attr1="player"/>
+		<onDeathPlatformID attr1="rgHeatMine00Spread"/>
+		<reletiveObject attr1="rg02-largeRock-1"/>
+		<position x="250" y="100" z="250"/>
+		<bCheckPosition attr1="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="weaponsPod"/>
+		<name attr1="rg02-weaponsPod-2"/>
+		<onDeathPlatformID attr1="rgHeatMine00Spread"/>
+		<factionID attr1="player"/>
+		<reletiveObject attr1="rg02-largeRock-1"/>
+		<position x="325" y="100" z="250"/>
+		<bCheckPosition attr1="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="rg02-weaponsPod-1"/>
+		<objectName attr1="rg02-weaponsPod-2"/>		
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="2.0"/>
+	</preTrigger>
+	<note_to_self attr1="initial pirate ship setup start -------"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="houndMK2"/>
+		<shipName attr1="rg02-houndMK2-1"/>
+		<shipID attr1="hound"/>
+		<shipName attr1="rg02-hound-1"/>
+		<shipID attr1="arsonist"/>
+		<shipName attr1="rg02-arsonist-1"/>
+		<shipID attr1="arsonist"/>
+		<shipName attr1="rg02-arsonist-2"/>
+		<shipID attr1="arsonist"/>
+		<shipName attr1="rg02-arsonist-3"/>
+		<shipID attr1="duelistMK2"/>
+		<shipName attr1="rg02-duelistMK2-1"/>
+		<faction attr1="indiePirate"/>
+		<bAutoPilot attr1="1"/>
+		<bOverworld attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="rg02-holeRock-1"/>
+		<position x="0" y="0" z="1500"/>
+		<aiPosture attr1="hold"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="rg02-houndMK2-1"/>
+		<objectName attr1="rg02-hound-1"/>
+		<objectName attr1="rg02-arsonist-1"/>
+		<objectName attr1="rg02-arsonist-2"/>
+		<objectName attr1="rg02-arsonist-3"/>
+		<objectName attr1="rg02-duelistMK2-1"/>
+	</preTrigger>	
+	<note_to_self attr1="initial pirate ship setup end ---------"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="tug"/>
+		<shipName attr1="rg02-tug-1"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="rockGuys"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="rg02-largeRock-1"/>
+		<position x="1500" y="0" z="8000"/>
+		<aiPosture attr1="defend"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="rg02-tug-1"/>
+		<characterID attr1="muGeneric03"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_watched"/>
+		<objectName attr1="rg02-tug-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="rg02-tug-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="rg02-tug-1"/>
+		<reletiveObject attr1="rg02-largeRock-1"/>
+		<hopPosition x="1500" y="0" z="1000"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<nextMissionNumber attr1="6000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric03"/>
+			<nameOverride attr1="Balboa"/>
+			<content attr1="Sorry if I'm a bit late..."/>
+			<content attr1="So here's the deal..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric01"/>
+			<nameOverride attr1="Justice"/>
+			<content attr1="Look who came back..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric03"/>
+			<nameOverride attr1="Balboa"/>
+			<content attr1="Here we go..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric01"/>
+			<nameOverride attr1="Justice"/>
+			<content attr1="What was it we agreed on?"/>
+			<content attr1="Oh yeah..."/>
+			<content attr1="You come back. You die."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric03"/>
+			<nameOverride attr1="Balboa"/>
+			<content attr1="I just want the rock."/>
+			<content attr1="I offered to pay. That's still on the table."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric01"/>
+			<nameOverride attr1="Justice"/>
+			<content attr1="We told you before..."/>
+			<content attr1="Our hideout isn't for sale."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric03"/>
+			<nameOverride attr1="Balboa"/>
+			<content attr1="I only want the large roid."/>
+			<content attr1="Not the..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric01"/>
+			<nameOverride attr1="Justice"/>
+			<content attr1="First its the large roid..."/>
+			<content attr1="Then the rest."/>
+			<content attr1="I see how you look at it."/>
+			<bClearAllText attr1="1"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric03"/>
+			<nameOverride attr1="Balboa"/>
+			<content attr1="But..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubFemaleGeneric01"/>
+			<nameOverride attr1="Justice"/>
+			<content attr1="Enough talk."/>
+			<content attr1="Now you die!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric03"/>
+			<nameOverride attr1="Balboa"/>
+			<content attr1="See what I'm dealing with here?"/>
+		</dialog>
+	</postDialog>	
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="indiePirate"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<missionHUDText attr1="Defend the Tug..."/>
+	<missionHUDText attr1="Destroy hostile ships..."/>
+	<preTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="rg02-houndMK2-1"/>
+		<shipName attr1="rg02-hound-1"/>
+		<shipName attr1="rg02-arsonist-1"/>
+		<shipName attr1="rg02-arsonist-2"/>
+		<shipName attr1="rg02-arsonist-3"/>
+		<shipName attr1="rg02-duelistMK2-1"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="rg02-arsonist-1"/>
+		<objectName attr1="rg02-arsonist-2"/>
+		<objectName attr1="rg02-arsonist-3"/>
+		<objectName attr1="rg02-duelistMK2-1"/>
+		<targetName attr1="rg02-tug-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="rg02-houndMK2-1"/>
+		<objectName attr1="rg02-hound-1"/>
+		<targetName attr1="playerShip"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="interlinked-s"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="indiePirate"/>
+		<bMarkShips attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric03"/>
+		<message attr1="Bit dramatic huh?"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postCutscene attr1="rockGuys-02-01-swarm"/>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubFemaleGeneric01"/>
+		<message attr1="You're not getting our rock!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="12"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="rg02-dropper-1"/> 	
+		<faction attr1="indie"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="rg02-tug-1"/>	
+		<alterType attr1="never_turn_hostile"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<missionHUDText attr1="Defend the Tug..."/>
+	<missionHUDText attr1="Destroy Teardrops..."/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric03"/>
+		<message attr1="Get them off! Get them off!"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="indiePirate"/>
+		<bMarkShips attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="destroy_named"/>
+		<objectName attr1="rg02-dropper-1"/>
+		<bSilent attr1="1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="rg02-tug-1"/>	
+		<alterType attr1="never_turn_hostile"/>
+		<bToggle attr1="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric03"/>
+		<message attr1="Thanks... That would have been... unpleasant."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="11"/>
+	<nextMissionNumber attr1="12"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postCutscene attr1="rockGuys-02-02-mines"/>
+</mission>
+<mission>
+	<missionNumber attr1="12"/>
+	<nextMissionNumber attr1="13"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubFemaleGeneric01"/>
+		<message attr1="No rocks! But please have some mines!"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric03"/>
+			<nameOverride attr1="Balboa"/>
+			<content attr1="Maybe we should have scouted the area better..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="You want me to destroy the mines?"/>
+			<content attr1="All 23423 of them?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric03"/>
+			<nameOverride attr1="Balboa"/>
+			<content attr1="No..."/>
+			<content attr1="They are stalling..."/>
+		</dialog>	
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric03"/>
+			<content attr1="I have a better idea."/>
+			<content attr1="Just hold for a few moments..."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="13"/>
+	<nextMissionNumber attr1="14"/>
+	<missionHUDText attr1="Standby..."/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="25"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric03"/>
+		<message attr1="There we go... Watch the mines!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="14"/>
+	<nextMissionNumber attr1="15"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_active"/>
+		<objectName attr1="rg02-mineSat001-1"/>
+		<bActive attr1="0"/>
+	</postTrigger>
+	<postTrigger>
+		<note_to_self attr1="destroy mines before changing faction - otherwise messes with quota"/>
+		<triggerType attr1="destroy_mines"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="15"/>
+	<nextMissionNumber attr1="16"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric03"/>
+		<message attr1="Boom... boom boom... boom."/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="7"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric03"/>
+		<message attr1="I love hacking..."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="16"/>
+	<nextMissionNumber attr1="17"/>
+	<nextMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="7"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric03"/>
+		<message attr1="Hah hah! That mine satellite is mine now! Go mine field!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="17"/>
+	<nextMissionNumber attr1="18"/>
+	<preTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="rg02-mineSat001-1"/>
+		<faction attr1="rockGuys"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_active"/>
+		<objectName attr1="rg02-mineSat001-1"/>
+		<bActive attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="18"/>
+	<nextMissionNumber attr1="19"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="liquidatorG"/>
+		<shipName attr1="rg02-liquidatorG-1"/>
+		<shipID attr1="liquidatorG"/>
+		<shipName attr1="rg02-liquidatorG-2"/>
+		<shipID attr1="liquidatorG"/>
+		<shipName attr1="rg02-liquidatorG-3"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="indiePirate"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="rg02-holeRock-1"/>
+		<position x="-4000" y="500" z="-15000"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="rg02-liquidatorG-1"/>
+		<shipName attr1="rg02-liquidatorG-2"/>
+		<shipName attr1="rg02-liquidatorG-3"/>
+		<reletiveObject attr1="rg02-holeRock-1"/>
+		<hopPosition x="-4000" y="500" z="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="rg02-liquidatorG-1"/>
+		<objectName attr1="rg02-liquidatorG-2"/>
+		<objectName attr1="rg02-liquidatorG-3"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="19"/>
+	<nextMissionNumber attr1="20"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubFemaleGeneric01"/>
+		<message attr1="I said... You're not getting our rock!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="20"/>
+	<nextMissionNumber attr1="21"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="8"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric03"/>
+		<message attr1="Use the mines mop up."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="21"/>
+	<nextMissionNumber attr1="22"/>
+	<missionHUDText attr1="Defend the Tug..."/>
+	<missionHUDText attr1="Destroy hostile ships..."/>
+	<preTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="interlinked"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="indiePirate"/>
+		<bMarkShips attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="22"/>
+	<nextMissionNumber attr1="23"/>
+	<nextMissionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric03"/>
+		<message attr1="I think they're done... Going to get my rock!"/>
+	</postTrigger>
+	<postTrigger>
+		<note_to_self attr1="destroy mines any nearby mines - ensure tug doesn't somehow get destroyed..."/>
+		<triggerType attr1="destroy_mines"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="rg02-tug-1"/> 	
+		<targetName attr1="rg02-largeRock-1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="23"/>
+	<nextMissionNumber attr1="24"/>
+	<objective>
+		<objectiveType attr1="pick_up"/> 
+		<objectName attr1="rg02-largeRock-1"/>
+		<pickerName attr1="rg02-tug-1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="24"/>
+	<nextMissionNumber attr1="25"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric03"/>
+			<nameOverride attr1="Balboa"/>
+			<content attr1="You did well..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric03"/>
+			<nameOverride attr1="Balboa"/>
+			<content attr1="Do you think that was excessive?"/>
+			<content attr1="Just for a rock?"/>
+			<content attr1="Keep in mind..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric03"/>
+			<nameOverride attr1="Balboa"/>
+			<content attr1="A rock is what built your ship."/>
+			<content attr1="These rocks brought humanity here."/>
+			<content attr1="Started a war..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric03"/>
+			<nameOverride attr1="Balboa"/>
+			<content attr1="And where we go next..."/>
+			<content attr1="No one knows."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="25"/>
+	<nextMissionNumber attr1="26"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="300000"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="4.05"/>
+		<faction attr="rockGuys"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="destroying cargo pods dialog section -- START"/>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="2001"/>
+	<note_to_self attr1="timer till - dialog"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<note_to_self attr1="dialog portion"/>
+	<objective>
+		<objectiveType attr1="object_check_exists"/>
+		<objectName attr1="rg02-weaponsPod-1"/>
+		<bSilent attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="object_check_exists"/>
+		<objectName attr1="rg02-weaponsPod-2"/> 
+		<bSilent attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric03"/>
+		<message attr1="I've scanned the cargo pods. They're full of heat seeking mines. Destroy them, release the mines."/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<note_to_self attr1="destroying cargo pods dialog section -- END"/>
+<note_to_self attr1="--- MISSION FAILURES ---"/>
+<mission>
+	<missionNumber attr1="5000"/>
+	<nextMissionNumber attr1="5001"/>
+	<bForceActive attr1="1"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="rg02-largeRock-1"/>
+		<bSilent attr1="1"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="5001"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric03"/>
+		<message attr1="NO! MY ROID! IT'S WORTHLESS NOW!"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="6000"/>
+	<nextMissionNumber attr1="6001"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="rg02-tug-1"/>
+		<bSilent attr1="1"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="6001"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric03"/>
+		<message attr1="SYSTEMS FAILING! GOING DOWN!"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

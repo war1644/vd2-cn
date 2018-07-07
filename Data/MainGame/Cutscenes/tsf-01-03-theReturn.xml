@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<lookAtObject attr1="playerShip"/> 
+	<reletiveObject attr1="playerShip"/> 
+	<cameraPosition x="20" y="20" z="-200"/>
+	<duration attr1="4.5"/>
+	<trigger>
+		<triggerType attr1="clear_target"/>
+		<objectName attr1="playerShip"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="ship_speed_zero"/>
+		<shipName attr1="playerShip"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="clear_velocities"/>
+		<body attr1="playerShip"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_position"/>
+		<body attr1="smuggler"/>
+		<reletiveObject attr1="roid00"/>
+		<position x="-350" y="-41" z="-1807"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_position"/>
+		<body attr1="playerShip"/>
+		<reletiveObject attr1="smuggler"/>
+		<position x="-50" y="30" z="0"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_orientation"/>
+		<body attr1="playerShip"/>
+		<reletiveObject attr1="smuggler"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="smuggler"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="-50000"/>
+		<reletiveObject attr1="smuggler"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="playerShip"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="-50000"/>
+		<reletiveObject attr1="playerShip"/>
+	</trigger>
+	<_trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-wreckage00"/> 	
+	</_trigger>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="smuggler"/> 
+	<reletiveObject attr1="smuggler"/> 
+	<cameraPosition x="-20" y="20" z="300"/>
+	<duration attr1="2.5"/>
+	<trigger>
+		<triggerType attr1="destroy_named"/>
+		<objectName attr1="supplier"/>
+		<objectName attr1="spitfire-1"/>
+		<objectName attr1="spitfire-2"/>
+		<objectName attr1="spitfire-3"/>
+		<objectName attr1="spitfire-4"/>
+		<objectName attr1="spitfire-5"/>
+		<objectName attr1="roid00"/>
+		<objectName attr1="roid01"/>
+		<bSilent attr1="1"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<screenEffect attr1="fade_in"/>
+	<lookAtObject attr1="playerShip"/> 
+	<reletiveObject attr1="playerShip"/> 
+	<cameraPosition x="20" y="20" z="-1050"/>
+	<duration attr1="5.0"/>
+	<trigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="ton"/>
+		<shipName attr1="ton-1"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="brick-1"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="brick-2"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="brick-3"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="indie"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="smuggler"/>
+		<position x="0" y="1500" z="10000"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="ton-1"/>
+		<shipName attr1="brick-1"/>
+		<shipName attr1="brick-2"/>
+		<shipName attr1="brick-3"/>
+		<reletiveObject attr1="smuggler"/>
+		<hopPosition x="0" y="-500" z="500"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="ton-1"/>
+		<objectName attr1="brick-1"/>
+		<objectName attr1="brick-2"/>
+		<objectName attr1="brick-3"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="0.1"/>
+	<trigger>
+		<triggerType attr1="ship_clear_orders"/>
+		<shipName attr1="playerShip"/>
+	</trigger>
+</sceneFragment>

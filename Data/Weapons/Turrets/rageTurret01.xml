@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="rageTurret01"/> 
+<name attr1="Projectile Turret"/> 
+<meshName attr1="rageTurret01.mesh"/> 
+<turretWeapon attr1="projectile"/>
+<hardpointID attr1="rageTG"/>
+<dMoveSpeed attr1="60.0"/> 
+<pitchMax attr1="70.0"/>
+<turretBarrel>
+	<weaponPosition x="0.97" y="-0" z="-4.65"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-0.95" y="-0" z="-4.7"/>
+	<boneName attr1="muzzle2"/>
+</turretBarrel>
+<turretViewPos x="0" y="-12.36" z="4.87"/>
+<targetPriorityList> 
+	<targetClass attr1="fighter"/>
+	<targetClass attr1="gunship"/>
+	<targetClass attr1="fighter_drone"/>
+	<targetClass attr1="corvette"/> 
+	<targetClass attr1="frigate"/> 
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="attack_station"/> 
+</targetPriorityList> 

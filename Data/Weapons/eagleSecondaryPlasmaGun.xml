@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="eagleSPG"/> 
+<ammunitionID attr1="drakePlasmaP"/> 
+<name attr1="Plasma Lance"/> 
+<fireSoundID attr1="heavyPGS00"/>
+<muzzleFlashEffectID attr1="mfLG10"/>
+<reFireRate attr1="0.25"/> 
+<capacity attr1="6"/> 
+<reloadTime attr1="16.5"/>
+<_bNoAimAssist attr1="1"/>
+<bFireFullAmmo attr1="1"/>

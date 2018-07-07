@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="pincerTurret"/> 
+<name attr1="Medium Beam Turret"/> 
+<meshName attr1="pincerTurret.mesh"/>
+<turretWeapon attr1="beam"/>
+<hardpointID attr1="pincerB"/>
+<dMoveSpeed attr1="60.0"/>
+<pitchMax attr1="70.0"/>
+<turretBarrel>
+	<weaponPosition x="6.073" y="-0.374" z="-17.033"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-6.073" y="-0.374" z="-17.033"/>
+	<boneName attr1="muzzle2"/>
+</turretBarrel>
+<turretViewPos x="0" y="14.31" z="35.53"/>
+<targetPriorityList> 
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="corvette"/>  
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="gunship"/>
+	<targetClass attr1="fighter"/>
+	<targetClass attr1="fighter_drone"/>
+	<targetClass attr1="attack_station"/> 
+</targetPriorityList> 
+<turnSoundID attr1="turretR00"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieOfferRepair00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="offer_repair"/>
+<dialog attr1="Need repairs?"/>
+<dialog attr1="You're not looking too good, but I bet the other guy looks worse. Need repairs?"/>
+<dialog attr1="I'm available for repairs, if you're interested."/>
+<dialog attr1="Need repairs? I can patch you right up."/>
+<dialog attr1="Need repairs? I'll get you where you need to go."/>
+<dialog attr1="Why risk more damage? I'll fix you up."/>

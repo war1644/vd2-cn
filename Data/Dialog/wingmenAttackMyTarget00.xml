@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="attackMyTarget00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="attack_my_target"/>
+<dialog attr1="Attack my target!"/>
+<dialog attr1="Focus fire on my target!"/>
+<dialog attr1="Get that thing out of my sky!"/>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="collision"/> 
+<collisionWeaponType attr1="drill"/> 
+<rotateBones> 
+	<rotateBone attr1="Blade"/> 
+</rotateBones> 
+<rotateSpeed attr1="550"/> 
+<weaponID attr1="teardropSaw"/> 
+<name attr1="Saw"/> 
+<fireSoundID attr1="drill00"/>
+<hitParticleName attr1="vdp_drill_hit_001"/>
+<damage attr1="45.0"/> 
+<size x="7.5" y="15" z="15"/>
+<capacity attr1="3000.0"/> 
+<reloadTime attr1="3"/>
+<bSticky attr1="1"/>
+<penetrateZ attr1="5.5"/>
+<bAntiCapital attr1="1"/>

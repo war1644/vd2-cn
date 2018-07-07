@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Fuel Platform"/> 
+<objectID attr1="fuelPlatform00"/> 
+<faction attr1="civilian"/>
+<bCommsOverride attr1="1"/>
+<stationClass attr1="refuel_platform"/>
+<stationSizeAsShip attr1="frigate"/>
+<creditCost attr1="500000"/>
+<meshName attr1="fuelPlatform00.mesh"/>
+<physicalRotatingElement> 
+	<meshName attr1="fuelPlatform00Rotate.mesh"/>
+	<yawSpeed attr1="3"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<wireframeMaterial attr1="WF/FrigateShipyard"/> 
+<descriptionText attr1="A platform capable of re-fueling ships."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="An unmanned platform that transmits energy 'wirelessly' to ships."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="This energy is then used to power the 'primary' and 'secondary' type engine boosters."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Simply get within range and your ship(s) will be re-fueled at an affordable price."/>
+<health attr1="15000"/>
+<explosionID attr1="explode10"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="fuelPlatform00D00"/> 
+		<debrisMomentum attr1="2.5"/> 
+		<debrisAngular attr1="2.5"/> 
+	</debris>
+</debrisInfo>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<refuelArea> 
+	<refuelPosition x="0" y="0" z="0"/>
+	<refuelSize x="2000" y="2000" z="2000"/>
+	<refuelParticleSystem attr1="vdp_refuelField"/>
+	<_refuelSoundID attr1="repairTorch00"/>
+</refuelArea>

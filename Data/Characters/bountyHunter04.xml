@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<characterID attr1="prideBountyHunter04"/> 
+<imageSetName attr1="jcBountyHunter04"/>
+<textColor attr1="FFFFFF00"/>
+<physicalObjectType attr1="asteroid_base"/>
+<bGeneric attr1="1"/>
+<factionID attr1="thePride"/>

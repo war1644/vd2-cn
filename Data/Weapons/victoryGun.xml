@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="victoryGun"/> 
+<ammunitionID attr1="victoryGA"/> 
+<name attr1="The Hammer"/> 
+<fireSoundID attr1="hagarGS00"/>
+<muzzleFlashEffectID attr1="mfLG600"/>
+<reFireRate attr1="1.5"/>
+<capacity attr1="3"/> 
+<reloadTime attr1="5.0"/> 
+<parentPush attr1="4.0"/> 
+<recoil>
+	<recoilZ attr1="40"/>
+	<recoilBone attr1="mainGun"/>
+</recoil>
+<bAlwaysPlayFireSound attr1="1"/>
+<bNoAimAssist attr1="1"/>

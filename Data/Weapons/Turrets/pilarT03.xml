@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="pilarT03"/> 
+<name attr1="Beam Turret"/> 
+<meshName attr1="pilarTurret03.mesh"/> 
+<turretWeapon attr1="beam"/>
+<hardpointID attr1="pilarBTG"/>
+<dMoveSpeed attr1="70.0"/> 
+<pitchMax attr1="50.0"/>
+<turretBarrel>
+	<weaponPosition x="0.0" y="0" z="-3.112"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretViewPos x="0" y="0" z="-0.7"/>
+<barrelDelay attr1="0.05"/>
+<targetPriorityList> 
+	<targetClass attr1="fighter"/>
+	<targetClass attr1="gunship"/>
+	<targetClass attr1="fighter_drone"/>
+	<targetClass attr1="corvette"/> 
+	<targetClass attr1="frigate"/> 
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="attack_station"/> 
+</targetPriorityList> 
+<turnSoundID attr1="turretR00"/>

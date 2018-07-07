@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="damagedFriendly00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="damaged_friendly"/>
+<dialog attr1="Need cover!"/>
+<dialog attr1="Cover me!"/>
+<dialog attr1="Need help!"/>
+<dialog attr1="Damn! Systems failing."/>
+<dialog attr1="Assistance required!"/>
+<dialog attr1="Damn! Way too hot."/>
+<dialog attr1="Hull damage!"/>
+<dialog attr1="Internal damage!"/>

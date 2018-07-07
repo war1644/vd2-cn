@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="Petra"/> 
+<objectID attr1="petra"/> 
+<faction attr1="rockGuys"/> 
+<meshName attr1="Petra.mesh"/> 
+<descriptionText attr1="A MU asteroid base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Petra was the last holdout during the MU rebellion. The base was badly damaged after the TSF sent in convoys of marine ships to take control of it. The heavy fighting took its toll."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Its saving grace was that it was once again able to hold out longer than its sister base Nottingham, which now drifts abandoned somewhere in the void."/>
+<maxCrew attr1="400.0"/> 
+<oreProductionModifier attr1="7.1"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="0" y="0" z="-130"/>
+<dockingArmsEnd x="0" y="0" z="-550"/>
+<maxBuildShipClass attr1="destroyer"/>
+<miningUnitMax attr1="4"/>
+<tugUnitMax attr1="1"/>
+<_hangarID attr1="karakumH"/>
+<dockPosition  x="0" y="0" z="-165"/>
+<dockSize x="161" y="161" z="80"/>
+<rockSubPosition attr1="1"/>
+<miningPlatformPosition x="-976.736" y="821.322" z="49.177"/>

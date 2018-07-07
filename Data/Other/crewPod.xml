@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="cargo_pod"/> 
+<name attr1="Crew Pod"/> 
+<objectID attr1="crewPod"/> 
+<faction attr1="civilian"/> 
+<meshName attr1="cargoPod001.mesh"/> 
+<wireframeMaterial attr1="WF/CrewPod"/> 
+<descriptionText attr1="A container capable of holding cargo."/> 
+<cruiseSpeed attr1="5.0"/> 
+<timeTillCruise attr1="3.0"/> 
+<yaw 	attr1="15.0"/> 
+<pitch	attr1="15.0"/> 
+<roll 	attr1="15.0"/> 
+<health attr1="500.0"/> 
+<explosionID	attr1="explode03"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<cargoBay> 
+    <cargoBayType attr1="crew"/> 
+	<maxAmount attr1="50"/> 
+</cargoBay>

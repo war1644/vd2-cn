@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="projectile"/> 
+<projectileID attr1="lightRGP"/> 
+<projectileType attr1="billboard_projectile"/> 
+<materialNameHead attr1="vdp_flare_04"/> 
+<materialNameTail attr1="Weapons/S_Projectile2"/> 
+<projectileHeadSize x="0.25" y="0.25"/> 
+<projectileTailSize x="2.5" y="15.0"/> 
+<projectileVelocity attr1="1425"/>
+<initialLife attr1="1.25"/>
+<_range attr1="1781.0"/> 
+<damage attr1="7"/>
+<explosionID attr1="lRPHit"/>

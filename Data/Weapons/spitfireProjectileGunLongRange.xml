@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="spitfirePGLR"/> 
+<ammunitionID attr1="lightCPLR"/> 
+<name attr1="Projectile Gun"/> 
+<fireSoundID attr1="rapidP04"/>
+<muzzleFlashEffectID attr1="mfLG01"/>
+<reFireRate attr1="0.01"/>
+<_reFireRate attr1="0.09"/> 
+<capacity attr1="30"/> 
+<reloadTime attr1="4.5"/>

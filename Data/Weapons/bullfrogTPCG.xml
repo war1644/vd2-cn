@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="bullfrogTPCG"/> 
+<projectileWeaponType attr1="scatter_gun"/>
+<roundsPerShot attr1="3"/>
+<ammunitionID attr1="lightCGP"/> 
+<name attr1="Light Gun"/> 
+<fireSoundID attr1="rapidP01"/>
+<muzzleFlashEffectID attr1="mfLG035"/>
+<capacity attr1="50"/> 
+<reloadTime attr1="1.25"/>
+<scatterYaw attr1="0.35"/>
+<scatterPitch attr1="0.35"/>

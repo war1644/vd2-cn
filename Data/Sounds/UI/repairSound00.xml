@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<soundEngineSoundType attr1="ui"/>
+<effectType attr1="sound"/> 
+<soundType attr1="one_at_a_time"/>
+<objectID attr1="repairSound00"/> 
+<soundFile attr1="repairSound00.wav"/> 
+<soundFile attr1="repairSound01.wav"/> 
+<soundFile attr1="repairSound02.wav"/> 
+<soundFile attr1="repairSound03.wav"/> 
+<soundFile attr1="repairSound04.wav"/> 
+<soundFile attr1="repairSound05.wav"/> 
+<defaultVolume attr1="0.1"/>

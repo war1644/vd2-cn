@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Reborn Defense Platform"/> 
+<objectID attr1="rdp01-light"/> 
+<faction attr1="reborn"/> 
+<bCommsOverride attr1="1"/>
+<stationClass attr1="defense_station"/>
+<stationSizeAsShip attr1="corvette"/>
+<creditCost attr1="200000"/>
+<meshName attr1="rdp01-light.mesh"/> 
+<wireframeMaterial attr1="WF/SDP"/> 
+<descriptionText attr1="Reborn Defense Platform"/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="A Reborn defensive platform, armed with 8 medium turrets."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="Designed to be cheap and quick to assemble. These unmanned platforms are used for light base defense duty as well as space lane harassment and intel."/> 
+<health attr1="15000.0"/> 
+<explosionID attr1="explode06"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<debrisInfo>
+	<debris> 	
+		<debrisID attr1="cdp01D00"/> 
+	</debris>
+	<debris> 	
+		<debrisID attr1="cdp01D01"/> 
+	</debris>
+</debrisInfo> 
+<turret>
+    <turretID attr1="wrathTurret01"/> 
+	<position x="66.098" y="8.764" z="-13.184"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="80"/>
+</turret>
+<turret>
+    <turretID attr1="wrathTurret01"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="66.098" y="-10.402" z="-13.184"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="80"/>
+</turret>
+<turret>
+    <turretID attr1="wrathTurret01"/> 
+	<position x="-66.098" y="8.764" z="-13.184"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="90"/>
+</turret>
+<turret>
+    <turretID attr1="wrathTurret01"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="-66.098" y="-10.402" z="-13.184"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="80"/>
+</turret>
+<note_to_self attr1="back row"/>
+<turret>
+    <turretID attr1="wrathTurret01"/> 
+	<position x="66.098" y="8.764" z="13.114"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="80"/>
+	<yaw attr1="180"/>
+</turret>
+<turret>
+    <turretID attr1="wrathTurret01"/>
+	<turretOrientation attr1="bottom"/>	
+	<position x="66.098" y="-10.402" z="13.114"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="80"/>
+	<yaw attr1="180"/>
+</turret>
+<turret>
+    <turretID attr1="wrathTurret01"/> 
+	<position x="-66.098" y="8.764" z="13.114"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="80"/>
+	<yaw attr1="180"/>
+</turret>
+<turret>
+    <turretID attr1="wrathTurret01"/>
+	<turretOrientation attr1="bottom"/>	
+	<position x="-66.098" y="-10.402" z="13.114"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="80"/>
+	<yaw attr1="180"/>
+</turret>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>

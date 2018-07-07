@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="beam"/> 
+<weaponID attr1="wrathB"/> 
+<name attr1="Light Beam"/> 
+<materialName attr1="Weapons/lightBeam"/> 
+<hitParticleName attr1="lightBeamHit"/>
+<muzzleFlashEffectID attr1="mfOLB00"/>
+<fireSoundID attr1="oLBS00"/>
+<damage attr1="125.0"/> 
+<range attr1="2350.0"/> 
+<baseScale attr1="0.6"/>
+<oscilateRange attr1="0.25"/>
+<oscilateAmount attr1="0.15"/>
+<capacity attr1="5.5"/> 
+<reloadTime attr1="1.5"/> 
+<assistDegree attr1="5.5"/>

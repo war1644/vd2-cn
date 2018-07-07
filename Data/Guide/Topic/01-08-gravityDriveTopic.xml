@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="gravityDrive"/>
+<topicName attr1="Gravity Drive"/>
+<mainText attr1="Gravity Drive:"/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Cycle gravity hop objects - KEY - "/>
+<commandTypeName attr1="ship_command"/>
+<commandIDName attr1="next_hop"/>
+<mainText attr1="Enable/Disable Gravity Drive - KEY - "/>
+<commandTypeName attr1="ship_command"/>
+<commandIDName attr1="engage_gravity_drive"/>
+<mainText attr1="Set Gravity Drive Engage Speed - KEY - "/>
+<commandTypeName attr1="ship_command"/>
+<commandIDName attr1="engage_speed"/>
+<mainText attr1=" "/>
+<mainText attr1="Gravity Drive Overview:"/>
+<mainText attr1="The gravity drive is a fast mode of travel."/>
+<mainText attr1="Although there are no speed limits in Void Destroyer, acceleration and deceleration can be a limiting factor."/>
+<mainText attr1="The Gravity Drive allows you quickly accelerate and quickly decelerate, making it very efficient at reaching far away places."/>
+<mainText attr1=" "/>
+<mainText attr1="Limiting Factors:"/>
+<mainText attr1="You can only - hop - to certain objects. These tend to be large objects such as bases and gates. "/>
+<mainText attr1="Furthermore - if there is a - hop - nearer to your intended target, you must use that hop first or travel outside its range."/>
+<mainText attr1=" "/>
+<mainText attr1="Use:"/>
+<mainText attr1="To use the gravity drive you must first target a valid hop."/>
+<mainText attr1="This is simplified via the G key (by default - you can also manually target a valid hop as well)."/>
+<mainText attr1="Once you have a valid hop targeted, you can lock it into the gravity drive - via the SHIFT + G keys (by default - you can also disengage the gravity drive via these same keys, or even cut it short while in travel)."/>
+<mainText attr1="Now that you have a valid hop targeted, and the gravity drive is locked in, you must accelerate towards the hop for the gravity drive to engage. To simplify this you can use the SHIFT + BACKSPACE keys (by default) to set your ships speed. Once your ship is traveling the proper speed towards the hop the gravity drive will engage."/>
+<mainText attr1=" "/>
+<mainText attr1="Simple Use:"/>
+<mainText attr1="Target a hop (eg: base) - Press SHIFT + G and turn towards object"/>
+<mainText attr1=" "/>
+<mainText attr1="Tips and Tricks:"/>
+<mainText attr1="Once locked in, you can target other objects."/>
+<mainText attr1="You don't strictly have to use SHIFT + BACKSPACE all that matters is the speed."/>
+<mainText attr1="Use afterburners or other speed boosts to speed up the process."/>
+<mainText attr1="You can disengage the gravity drive while it is active - so you can reach a position between hops."/>
+<mainText attr1=" "/>
+<mainText attr1="On use complexity:"/>
+<mainText attr1="There have been a few players that voiced their opinions that gravity drive use is too complex - with too many keys. The purpose of the keys is to simplify the use not to complicate it. However giving options tends to sometimes confuse simple things. The G key (by default) gives you an easy access to see the valid hops. The SHIFT + BACKSPACE keys (by default) gives you a quick speed setting."/>
+<imageOne>
+	<image attr1="set:guide_gdrive image:guide_gdrive"/>
+</imageOne>

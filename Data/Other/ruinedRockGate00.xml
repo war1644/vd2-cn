@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="gate"/> 
+<name attr1="Ruined Gate"/> 
+<objectID attr1="ruinedRockGate00"/> 
+<faction attr1="rockGuys"/>
+<meshName attr1="ruinedRockGate00.mesh"/> 
+<wireframeMaterial attr1="WF/SunGate"/> 
+<descriptionText attr1="A ruined gate."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The remnants of a secret MU gate that led to the events starting the Outsider conflict."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Except for those who witnessed and participated in the conflict, very little information is known."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Rumours of the gate leading to massive caches of Outsider tech are quickly squashed by the TSF and government agents."/>
+<health attr1="500000.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<bNoShow x="1"/>
+<rockSubPosition attr1="0"/>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Mine Sweeper"/>
+<missionDescriptionText attr1="Seeking immediate assistance."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Low mission threat level."/>
+<objectID attr1="rockGuys-00"/>
+<missionFactionID attr1="rockGuys"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="1250" y="0" z="-2145"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="2500"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<maximumShipClass attr1="fighter"/>
+<bOverworldByPass attr1="1"/>
+<worldFile attr1="rockGuys-00-mineSweeper-worldFile"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="ola"/>
+		<shipName attr1="stuckShip"/>
+		<displayName attr1="Seeker"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="rockGuys"/>
+		<bAutoPilot attr1="0"/>
+		<bCheckPosition attr1="0"/>
+		<position x="150" y="0" z="0"/>
+		<orientation w="0.707107" x="0" y="0.707107" z="0"/>
+		<aiPosture attr1="hold"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="stuckShip"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="stuckShip"/>
+		<characterID attr1="muGeneric00"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric00"/>
+		<message attr1="You got my mission? Can you help me out?"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="stuckShip"/>
+		<goToDistance attr1="6000"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric00"/>
+		<message attr1="I'm kind of stuck... Let me show you..."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postCutscene attr1="rockGuys-00-stuck"/>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric00"/>
+			<content attr1="See the problem?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric00"/>
+			<content attr1="I was going for a abandoned pod..."/>
+			<content attr1="And it turned out to be one of our traps."/>
+			<content attr1="Back from the... rebellion."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric00"/>
+			<content attr1="These are heat seeking mines..."/>
+			<content attr1="They won't bother with your ship."/>
+			<content attr1="Too small."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric00"/>
+			<content attr1="Here's the job."/>
+			<content attr1="Clear out the mines."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric00"/>
+			<content attr1="They are hardened against sensors, you'll have to aim manually."/>
+			<content attr1="Try not to put too many holes in me."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<objective>
+		<objectiveType attr1="destroy_faction_mines"/> 
+		<faction attr1="enemy"/> 
+	</objective>
+	<missionHUDText attr1="Destroy the mines..."/>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric00"/>
+			<content attr1="Glad you took the mission..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric00"/>
+			<content attr1="I didn't put it on our internal job boards."/>
+			<content attr1="Didn't want my buddies finding out."/>
+			<content attr1="heh heh..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric00"/>
+			<content attr1="Listen... do you want more work?"/>
+			<content attr1="We sometimes hire outsiders to do jobs."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric00"/>
+			<content attr1="I'll put in a good word for you."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric00"/>
+			<content attr1="Thanks!"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="1.05"/>
+		<faction attr="rockGuys"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="mission failures below"/>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="2001"/>
+	<bForceActive attr1="1"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="stuckShip"/>
+		<healthPercent attr1="0.98"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric00"/>
+		<message attr1="Careful! I'm taking too much heat!"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<nextMissionNumber attr1="2002"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="stuckShip"/>
+		<healthPercent attr1="0.96"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric00"/>
+		<message attr1="STOP STOP STOP! That's enough..."/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2002"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="playerShip"/>
+		<bSetting attr1="0"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

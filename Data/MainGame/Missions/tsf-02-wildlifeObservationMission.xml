@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Wildlife Observation"/>
+<missionDescriptionText attr1="Seeking a discreet pilot to serve as a recorder of local pirate  activities."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="More details will be made available once you arrive at mission location."/>
+<objectID attr1="tsf-02"/>
+<missionFactionID attr1="tsf"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="-6200" y="0" z="-1200"/>
+<_bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="55250"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<maximumShipClass attr1="gunship"/>
+<bOverworldByPass attr1="1"/>
+<worldFile attr1="tsf-02-wildlifeObservation-worldFile"/>
+<missionRankRequired attr1="3.8"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="tsfGeneric01"/>
+		<message attr1="Head to the marked location. Nice and easy, might be a tight fit."/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<reletiveObject attr1="shield01"/>
+		<goToPosition x="-30" y="0" z="35"/>
+		<goToDistance attr1="50"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<nextMissionNumber attr1="10000"/>
+	<nextMissionNumber attr1="20000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="TSF Mission Ops ID#1334"/>
+			<content attr1="Snug as a bug in a rug!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="TSF Mission Ops ID#1334"/>
+			<content attr1="Listen up!"/>
+			<content attr1="We require updated intel on unlawful operators."/>
+			<content attr1="We have arranged for a favorable opportunity to acquire it."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="TSF Mission Ops ID#1334"/>
+			<content attr1="Rival operators are incoming."/>
+			<content attr1="They are likely to engage in hostilities."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="TSF Mission Ops ID#1334"/>
+			<content attr1="You are free to defend yourself..."/>
+			<content attr1="But leaving the mission area is unacceptable."/>
+			<content attr1="Stay within... 5k of the pods."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="TSF Mission Ops ID#1334"/>
+			<content attr1="Your ship will transmit the sensor data."/>
+			<content attr1="We will transmit the payment."/>
+			<content attr1="Commence op."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="12"/>
+	</objective>
+	<note_to_self attr1="beggar side"/>
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="beggar"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="b-stormCrow-1-1"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="b-stormCrow-1-2"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="b-stormCrow-1-3"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="b-stormCrow-1-4"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="b-stormCrow-1-5"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<position x="0" y="0" z="-7500"/>
+		<aiPosture attr1="defend"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="b-stormCrow-1-1"/>
+		<objectName attr1="b-stormCrow-1-2"/>
+		<objectName attr1="b-stormCrow-1-3"/>
+		<objectName attr1="b-stormCrow-1-4"/>
+		<objectName attr1="b-stormCrow-1-5"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="b-stormCrow-1-2"/>
+		<objectName attr1="b-stormCrow-1-3"/>
+		<objectName attr1="b-stormCrow-1-4"/>
+		<objectName attr1="b-stormCrow-1-5"/>
+		<targetName attr1="b-stormCrow-1-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="b-stormCrow-1-1"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="-1000"/>
+	</postTrigger>
+	<note_to_self attr1="reborn side"/>
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="reborn"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="fury"/>
+		<shipName attr1="r-fury-1-1"/>
+		<shipID attr1="fury"/>
+		<shipName attr1="r-fury-1-2"/>
+		<shipID attr1="fury"/>
+		<shipName attr1="r-fury-1-3"/>
+		<shipID attr1="fury"/>
+		<shipName attr1="r-fury-1-4"/>
+		<shipID attr1="fury"/>
+		<shipName attr1="r-fury-1-5"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="reborn"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<position x="0" y="0" z="7500"/>
+		<aiPosture attr1="defend"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="r-fury-1-1"/>
+		<objectName attr1="r-fury-1-2"/>
+		<objectName attr1="r-fury-1-3"/>
+		<objectName attr1="r-fury-1-4"/>
+		<objectName attr1="r-fury-1-5"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="r-fury-1-2"/>
+		<objectName attr1="r-fury-1-3"/>
+		<objectName attr1="r-fury-1-4"/>
+		<objectName attr1="r-fury-1-5"/>
+		<targetName attr1="r-fury-1-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="r-fury-1-1"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="1000"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggarMaleGeneric03"/>
+		<message attr1="There's the pods... And uninvited guests."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornGeneric01"/>
+		<message attr1="They belong to us. You stay, you die."/>
+	</postTrigger>
+</mission>	
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggarMaleGeneric03"/>
+		<message attr1="Well since neither of us want to share..."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="7"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="b-stormCrow-1-1"/>
+		<shipName attr1="b-stormCrow-1-2"/>
+		<shipName attr1="b-stormCrow-1-3"/>
+		<shipName attr1="b-stormCrow-1-4"/>
+		<shipName attr1="b-stormCrow-1-5"/>
+		<shipName attr1="r-fury-1-1"/>
+		<shipName attr1="r-fury-1-2"/>
+		<shipName attr1="r-fury-1-3"/>
+		<shipName attr1="r-fury-1-4"/>
+		<shipName attr1="r-fury-1-5"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="shakedown-l"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<missionHUDText attr1="Observe pirates..."/>
+	<missionHUDText attr1="Stay close to cargo pods..."/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="25"/>
+	</objective>
+	<note_to_self attr1="beggar side"/>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="scavMK2"/>
+		<shipName attr1="b-scavMK2-2-1"/>
+		<shipID attr1="scavMK2"/>
+		<shipName attr1="b-scavMK2-2-2"/>
+		<shipID attr1="scavMK2"/>
+		<shipName attr1="b-scavMK2-2-3"/>
+		<shipID attr1="scavMK2"/>
+		<shipName attr1="b-scavMK2-2-4"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<position x="0" y="0" z="-7500"/>
+		<aiPosture attr1="engage"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="b-scavMK2-2-1"/>
+		<objectName attr1="b-scavMK2-2-2"/>
+		<objectName attr1="b-scavMK2-2-3"/>
+		<objectName attr1="b-scavMK2-2-4"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="b-scavMK2-2-2"/>
+		<objectName attr1="b-scavMK2-2-3"/>
+		<objectName attr1="b-scavMK2-2-4"/>
+		<targetName attr1="b-scavMK2-2-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="b-scavMK2-2-1"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="0"/>
+	</postTrigger>
+	<note_to_self attr1="reborn side"/>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="spitfire"/>
+		<shipName attr1="r-spitfire-2-1"/>
+		<shipID attr1="spitfire"/>
+		<shipName attr1="r-spitfire-2-2"/>
+		<shipID attr1="spitfire"/>
+		<shipName attr1="r-spitfire-2-3"/>
+		<shipID attr1="spitfire"/>
+		<shipName attr1="r-spitfire-2-4"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="reborn"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<position x="0" y="0" z="7500"/>
+		<aiPosture attr1="engage"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="r-spitfire-2-1"/>
+		<objectName attr1="r-spitfire-2-2"/>
+		<objectName attr1="r-spitfire-2-3"/>
+		<objectName attr1="r-spitfire-2-4"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="r-spitfire-2-2"/>
+		<objectName attr1="r-spitfire-2-3"/>
+		<objectName attr1="r-spitfire-2-4"/>
+		<targetName attr1="r-spitfire-2-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="r-spitfire-2-1"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="0"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<missionHUDText attr1="Observe pirates..."/>
+	<missionHUDText attr1="Stay close to cargo pods..."/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="b-scavMK2-2-1"/>
+		<shipName attr1="b-scavMK2-2-2"/>
+		<shipName attr1="b-scavMK2-2-3"/>
+		<shipName attr1="b-scavMK2-2-4"/>
+		<shipName attr1="r-spitfire-2-1"/>
+		<shipName attr1="r-spitfire-2-2"/>
+		<shipName attr1="r-spitfire-2-3"/>
+		<shipName attr1="r-spitfire-2-4"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+	<note_to_self attr1="beggar side"/>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="rhino"/>
+		<shipName attr1="b-rhino-3-1"/>
+		<shipID attr1="rhino"/>
+		<shipName attr1="b-rhino-3-2"/>
+		<shipID attr1="rhino"/>
+		<shipName attr1="b-rhino-3-3"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<position x="0" y="0" z="-7500"/>
+		<aiPosture attr1="engage"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="b-rhino-3-1"/>
+		<objectName attr1="b-rhino-3-2"/>
+		<objectName attr1="b-rhino-3-3"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="b-rhino-3-2"/>
+		<objectName attr1="b-rhino-3-3"/>
+		<targetName attr1="b-rhino-3-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="b-rhino-3-1"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="0"/>
+	</postTrigger>
+	<note_to_self attr1="reborn side"/>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="cutterG"/>
+		<shipName attr1="r-cutterG-3-1"/>
+		<shipID attr1="cutterG"/>
+		<shipName attr1="r-cutterG-3-2"/>
+		<shipID attr1="cutterG"/>
+		<shipName attr1="r-cutterG-3-3"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="reborn"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<position x="0" y="0" z="7500"/>
+		<aiPosture attr1="engage"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="r-cutterG-3-1"/>
+		<objectName attr1="r-cutterG-3-2"/>
+		<objectName attr1="r-cutterG-3-3"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="r-cutterG-3-2"/>
+		<objectName attr1="r-cutterG-3-3"/>
+		<targetName attr1="r-cutterG-3-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="r-cutterG-3-1"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="0"/>
+	</postTrigger>
+	<note_to_self attr1="both sides"/>
+	<postTrigger>
+		<triggerType attr1="set_ship_target_priority_list"/>
+		<shipName attr1="b-rhino-3-1"/>
+		<shipName attr1="b-rhino-3-2"/>
+		<shipName attr1="b-rhino-3-3"/>
+		<shipName attr1="r-cutterG-3-1"/>
+		<shipName attr1="r-cutterG-3-2"/>
+		<shipName attr1="r-cutterG-3-3"/>
+		<targetPriorityList> 
+			<targetClass attr1="corvette"/>
+			<targetClass attr1="frigate"/> 
+		</targetPriorityList>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="11"/>
+	<nextMissionNumber attr1="12"/>
+	<nextMissionNumber attr1="4000"/>
+	<missionHUDText attr1="Observe pirates..."/>
+	<missionHUDText attr1="Stay close to cargo pods..."/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<note_to_self attr1="beggar side"/>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="buzzard"/>
+		<shipName attr1="b-buzzard-4-1"/>
+		<shipID attr1="buzzard"/>
+		<shipName attr1="b-buzzard-4-2"/>
+		<shipID attr1="buzzard"/>
+		<shipName attr1="b-buzzard-4-3"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<position x="0" y="0" z="-7500"/>
+		<aiPosture attr1="engage"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="b-buzzard-4-1"/>
+		<objectName attr1="b-buzzard-4-2"/>
+		<objectName attr1="b-buzzard-4-3"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="b-buzzard-4-1"/>
+		<targetName attr1="b-rhino-3-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="b-buzzard-4-2"/>
+		<targetName attr1="b-rhino-3-2"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="b-buzzard-4-3"/>
+		<targetName attr1="b-rhino-3-3"/>
+	</postTrigger>
+	<note_to_self attr1="reborn side"/>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="wrath"/>
+		<shipName attr1="r-wrath-4-1"/>
+		<shipID attr1="wrath"/>
+		<shipName attr1="r-wrath-4-2"/>
+		<shipID attr1="wrath"/>
+		<shipName attr1="r-wrath-4-3"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="reborn"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<position x="0" y="0" z="7500"/>
+		<aiPosture attr1="engage"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="r-wrath-4-1"/>
+		<objectName attr1="r-wrath-4-2"/>
+		<objectName attr1="r-wrath-4-3"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="r-wrath-4-1"/>
+		<targetName attr1="r-cutterG-3-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="r-wrath-4-2"/>
+		<targetName attr1="r-cutterG-3-2"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="r-wrath-4-3"/>
+		<targetName attr1="r-cutterG-3-3"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="12"/>
+	<nextMissionNumber attr1="13"/>
+	<missionHUDText attr1="Observe pirates..."/>
+	<missionHUDText attr1="Stay close to cargo pods..."/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="45"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="b-buzzard-3-1"/>
+		<shipName attr1="b-buzzard-3-2"/>
+		<shipName attr1="b-buzzard-3-3"/>
+		<shipName attr1="r-wrath-3-1"/>
+		<shipName attr1="r-wrath-3-2"/>
+		<shipName attr1="r-wrath-3-3"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="13"/>
+	<nextMissionNumber attr1="14"/>
+	<missionHUDText attr1="Observe pirates..."/>
+	<missionHUDText attr1="Stay close to cargo pods..."/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="20"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="b-cutterG-4-1"/>
+		<shipName attr1="b-cutterG-4-2"/>
+		<shipName attr1="b-cutterG-4-3"/>
+		<shipName attr1="r-rhino-4-1"/>
+		<shipName attr1="r-rhino-4-2"/>
+		<shipName attr1="r-rhino-4-3"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="14"/>
+	<nextMissionNumber attr1="15"/>
+	<missionHUDText attr1="Observe pirates until one side wins..."/>
+	<missionHUDText attr1="Stay close to cargo pods..."/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="TSF Mission Ops ID#1334"/>
+			<content attr1="Gotta admit..."/>
+			<content attr1="I'm surprised this has worked out so well."/>
+			<content attr1="I expected like... 10 seconds of data."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="TSF Mission Ops ID#1334"/>
+			<content attr1="20 tops."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="TSF Mission Ops ID#1334"/>
+			<content attr1="So here's the deal."/>
+			<content attr1="Hang out until one side is the winner.."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="TSF Mission Ops ID#1334"/>
+			<content attr1="Then its mission complete."/>
+		</dialog>
+	</preDialog>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="120"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="reborn"/>
+		<bMarkShips attr1="0"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="beggar"/>
+		<bMarkShips attr1="0"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="b-buzzard-4-1"/>
+		<shipName attr1="b-buzzard-4-2"/>
+		<shipName attr1="b-buzzard-4-3"/>
+		<shipName attr1="r-wrath-4-1"/>
+		<shipName attr1="r-wrath-4-2"/>
+		<shipName attr1="r-wrath-4-3"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="15"/>
+	<nextMissionNumber attr1="1000"/>
+	<missionHUDText attr1="Observe pirates until one side wins..."/>
+	<missionHUDText attr1="Stay close to cargo pods..."/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="reborn"/>
+		<bMarkShips attr1="0"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="beggar"/>
+		<bMarkShips attr1="0"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="4.05"/>
+		<faction attr="tsf"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="assists below ----------------------"/>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="2001"/>
+	<bForceActive attr1="1"/>
+	<note_to_self attr1="beggar assist side"/>
+	<objective>
+		<objectiveType attr1="faction_kill_count"/> 
+		<faction attr1="reborn"/>
+		<killCount attr1="4"/>
+		<bPlayerFactionKillOnly attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="faction_kill_count"/> 
+		<faction attr1="beggar"/>
+		<killCount attr1="2"/>
+		<bPlayerFactionKillOnly attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="beggar"/>
+		<bToggle attr1="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="pay_ransom"/>
+		<ransomFactionID attr1="beggar"/>
+		<ransomPayer attr1="playerShip"/>
+	</postTrigger>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggarMaleGeneric03"/>
+			<nameOverride attr1="Regulus"/>
+			<content attr1="Hey friend!"/>
+			<content attr1="Not bad style!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggarMaleGeneric03"/>
+			<nameOverride attr1="Regulus"/>
+			<content attr1="Looks like you are decent at killing Reborn..."/>
+			<content attr1="Tell you what..."/>
+			<content attr1="We'll consider you a friend for the time being."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="3000"/>
+	<nextMissionNumber attr1="3001"/>
+	<bForceActive attr1="1"/>
+	<note_to_self attr1="reborn assist side"/>
+	<objective>
+		<objectiveType attr1="faction_kill_count"/> 
+		<faction attr1="beggar"/>
+		<killCount attr1="4"/>
+		<bPlayerFactionKillOnly attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="faction_kill_count"/> 
+		<faction attr1="reborn"/>
+		<killCount attr1="2"/>
+		<bPlayerFactionKillOnly attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="3001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="reborn"/>
+		<bToggle attr1="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="pay_ransom"/>
+		<ransomFactionID attr1="reborn"/>
+		<ransomPayer attr1="playerShip"/>
+	</postTrigger>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric01"/>
+			<nameOverride attr1="Checker"/>
+			<content attr1="The enemy of the enemy is my friend?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric01"/>
+			<nameOverride attr1="Checker"/>
+			<content attr1="Let's be friends."/>
+		</dialog>
+	</postDialog>
+</mission>
+<note_to_self attr1="assists end ----------------------"/>
+<mission>
+	<missionNumber attr1="4000"/>
+	<failMissionNumber attr1="4001"/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="beggar"/>
+		<bMarkShips attr1="0"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="reborn"/>
+		<bMarkShips attr1="0"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornGeneric01"/>
+		<message attr1="Stupid Beggars... they never listen."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="greed"/>
+		<shipName attr1="r-greed-e-1"/>
+		<shipID attr1="greed"/>
+		<shipName attr1="r-greed-e-2"/>
+		<shipID attr1="greed"/>
+		<shipName attr1="r-greed-e-3"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="reborn"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<position x="0" y="0" z="7500"/>
+		<aiPosture attr1="defend"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="4001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggarMaleGeneric03"/>
+		<message attr1="Better luck next time Reborn."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="hog"/>
+		<shipName attr1="b-hog-e-1"/>
+		<shipID attr1="hog"/>
+		<shipName attr1="b-hog-e-2"/>
+		<shipID attr1="hog"/>
+		<shipName attr1="b-hog-e-3"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<position x="0" y="0" z="-7500"/>
+		<aiPosture attr1="defend"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<note_to_self attr1="assists end ----------------------"/>
+<note_to_self attr1="mission failures -----------------"/>
+<mission>
+	<missionNumber attr1="10000"/>
+	<nextMissionNumber attr1="10001"/>
+	<objective>
+		<objectiveType attr1="away_from_position"/> 
+		<traveler attr1="playerShip"/>
+		<awayPosition x="0" y="0" z="0"/>
+		<awayDistance attr1="5000"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="tsfGeneric01"/>
+		<message attr1="Need you close to the cargo pods."/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="10001"/>
+	<nextMissionNumber attr1="10002"/>
+		<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="10002"/>
+	<nextMissionNumber attr1="10003"/>
+	<objective>
+		<objectiveType attr1="away_from_position"/> 
+		<traveler attr1="playerShip"/>
+		<awayPosition x="0" y="0" z="0"/>
+		<awayDistance attr1="5500"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="10003"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="tsfGeneric01"/>
+		<message attr1="Too far, getting garbled data..."/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<note_to_self attr1="mark position -----------------"/>
+<mission>
+	<missionNumber attr1="20000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="82000"/>
+		<bMarkPosition attr1="1"/>
+		<markPosition x="0" y="0" z="0"/>
+	</objective>
+</mission>

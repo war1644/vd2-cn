@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="reaperBT"/> 
+<name attr1="Beam Turret"/> 
+<meshName attr1="reaperBeamTurret.mesh"/> 
+<turretWeapon attr1="beam"/>
+<hardpointID attr1="reaperBTG"/>
+<dMoveSpeed attr1="110.0"/> 
+<pitchMax attr1="10.0"/>
+<turretBarrel>
+	<weaponPosition x="-1.234" y="0" z="-3.098"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretViewPos x="0" y="2.52" z="5.93"/>
+<targetPriorityList> 
+	<targetClass attr1="fighter"/>
+	<targetClass attr1="gunship"/>
+	<targetClass attr1="fighter_drone"/>
+	<targetClass attr1="corvette"/> 
+	<targetClass attr1="frigate"/> 
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="attack_station"/> 
+</targetPriorityList> 
+<turnSoundID attr1="turretR00"/>

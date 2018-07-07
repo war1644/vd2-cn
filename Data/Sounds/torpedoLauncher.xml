@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="random"/>
+<objectID attr1="torpedoLS"/> 
+<soundFile attr1="tLaunch00.wav"/>
+<soundFile attr1="tLaunch01.wav"/>
+<soundFile attr1="tLaunch02.wav"/>
+<soundFile attr1="tLaunch03.wav"/>
+<soundFile attr1="tLaunch04.wav"/>
+<defaultVolume attr1="0.38"/>
+<maxDistance attr1="1500"/> 
+<referenceDistance attr1="750"/>
+<soundPriority attr1="50"/>

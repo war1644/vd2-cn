@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="roalsT02"/> 
+<name attr1="Heavy Turret"/> 
+<meshName attr1="roalsTurret02.mesh"/> 
+<turretWeapon attr1="instant"/>
+<pitchMax attr1="25.0"/>
+<hardpointID attr1="roalsTurretR02"/>
+<dMoveSpeed attr1="15.0"/> 
+<turretBarrel>
+	<weaponPosition x="0" y="0" z="-36.63"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretViewPos x="0" y="20.19" z="28.66"/>
+<targetPriorityList> 
+	<targetClass attr1="frigate"/> 
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="attack_station"/>
+	<targetClass attr1="corvette"/>
+</targetPriorityList>
+<turnSoundID attr1="turretR01"/>
+<bPhysicalBody attr1="1"/>
+<bAlwaysShowInTactical attr1="1"/>

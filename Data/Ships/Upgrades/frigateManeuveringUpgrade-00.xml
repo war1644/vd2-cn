@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Maneuvering Upgrade"/> 
+<objectID attr1="frigateMan00"/> 
+<upgradeCategory attr1="propulsion"/> 
+<cost attr1="22500"/>
+<addCostAsPercentOfShip attr1="0.027"/>
+<description attr1="Boosts the maximum potential rate of yaw, pitch and roll. To corvettes with fixed guns, this could be a game changer in battle."/>
+<maneuveringMultiplier attr1="1.3"/>

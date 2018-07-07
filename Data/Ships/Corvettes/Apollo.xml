@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Apollo"/> 
+<objectID attr1="apollo"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="corvette"/>
+<shipClassSize attr1="light"/>
+<combatAIClass attr1="fighter"/>
+<meshName attr1="Apollo.mesh"/>
+<wireframeMaterial attr1="WF/Harnden"/> 
+<descriptionText attr1="A light combat corvette."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="Sharing the same hull design as its brother The Hermes, this light corvette class ship handles and performs closer to a gun ship than other corvettes."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Concussion mines."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The mine's explosion releases a very powerful physical force, able to cause movement on corvette class ships."/>
+<creditCost attr1="680000"/>
+<missionRankRequired attr1="3"/>
+<cruiseSpeed attr1="70.0"/> 
+<timeTillCruise attr1="2.05"/> 
+<yaw 	attr1="85.0"/> 
+<pitch	attr1="85.0"/> 
+<roll 	attr1="85.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitInitPos x="0" y="11.24" z="10.79"/>
+<cockpitTransLimit x="2" y="2" z="2"/> 
+<chaseInitPos x="0" y="40.09" z="190"/>
+<chaseTransLimit x="14" y="8" z="6"/>
+<health attr1="8200"/> 
+<armor attr1="1.0"/>
+<damage>
+    <pitch attr1="15.0"/> 
+    <roll attr1="-25.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="5.865" y="4.233" z="-5.33"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="35.0"/> 
+    <roll attr1="-55.0"/> 
+	<yaw attr1="22.0"/> 
+	<position x="4.141" y="4.412" z="10.944"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="0.0"/> 
+    <roll attr1="180.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="-5.643" y="-4.5" z="28.991"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="apolloD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="apolloD01"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode03"/>
+<preExplosionID attr1="explode01"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="2.57" y="0.01" z="43.5"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="4.35" y="-0" z="42.28"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="6.16" y="0.1" z="40.57"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="-2.57" y="0.01" z="43.5"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="-4.35" y="-0" z="42.28"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="-6.16" y="0.1" z="40.57"/>
+</propulsion> 
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.55"/> 
+    <capacity attr1="15"/>
+    <recharge attr1="14"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<turret>
+    <turretID attr1="apolloT01"/>
+	<position x="22.21" y="4.89" z="20.2"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<roll attr1="-42.0"/> 
+	<yawPermitted attr1="30"/>
+</turret>
+<turret>
+    <turretID attr1="apolloT01"/>
+	<position x="22.82" y="-5.01" z="20.06"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="bottom"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<roll attr1="42.0"/>
+	<yawPermitted attr1="30"/>
+</turret>
+<turret>
+    <turretID attr1="apolloT01"/>
+	<position x="-22.21" y="4.89" z="20.2"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<roll attr1="42.0"/>
+	<yawPermitted attr1="30"/>
+</turret>
+<turret>
+    <turretID attr1="apolloT01"/>
+	<position x="-22.82" y="-5.01" z="20.06"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="bottom"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<roll attr1="-42.0"/>
+	<yawPermitted attr1="30"/>
+</turret>
+<weapon>
+    <weaponType attr1="mine"/> 
+    <hardpointID attr1="apolloDML"/> 
+	<weaponPosition x="15.440" y="-2.827" z="-15.424"/>
+	<weaponPosition x="-15.440" y="-2.827" z="-15.424"/>
+	<barrelDelay attr1="0.25"/> 
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<turret>
+    <turretID attr1="apolloMTR"/> 
+	<position x="0.0" y="0.0" z="0.0"/> 
+	<turretRole attr1="parents_target"/>
+</turret>
+<turret>
+    <turretID attr1="apolloMTL"/> 
+	<position x="0.0" y="0.0" z="0.0"/> 
+	<turretRole attr1="parents_target"/>
+</turret>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="3"/>
+	<activeUpgradeCapacity attr1="4"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cShield00"/>
+	<upgradeID attr1="cShieldRecharge00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="gunshipFShield00"/>
+	<upgradeID attr1="corvetteRShield00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.87" y="0" z="146.39"/>

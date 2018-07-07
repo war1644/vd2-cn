@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<screenID attr1="hornetIntro00"/>
+<musicID attr1="TheNewNormal-BaseApproach"/>
+<lightPosition x="0" y="0" z="0"/>
+<mainDiffuse x="1" y="1" z="1"/>
+<tacticalDiffuse x="1" y="1" z="1"/>
+<mainAmbient x="0.2" y="0.2" z="0.2"/>
+<tacticalAmbient x="0.2" y="0.2" z="0.2"/>
+<shipModeBackground attr1="Space/Dark_Blue"/>
+<tacticalBackground attr1="Tactical/Background"/>
+<ship_Object>
+     <objectID attr1="hornet"/>
+     <name attr1="Civilian Hornet IA1364"/>
+     <orientation w="0.685527" x="0" y="-0.728048" z="0"/>
+     <position x="-28.2077" y="1.53" z="-1.69854"/>
+     <faction attr1="civilian"/>
+     <pitch attr1="5"/>
+	 <yaw attr1="-3"/> 
+	 <roll attr1="4"/>
+	 <bTriggerDamage attr1="1"/>
+</ship_Object>
+<cameraPosition x="-7.48286" y="4.59" z="12.4233"/>
+<cameraOrientation w="0.882425" x="-0.0536358" y="0.466525" z="0.0283565"/>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="buildingShips"/>
+<topicName attr1="Building Ships"/>
+<mainText attr1="Building Ships:"/>
+<mainText attr1=" "/>
+<mainText attr1="Key Concepts:"/>
+<mainText attr1="Bases have internal shipyards."/>
+<mainText attr1="External (shipyard platforms) can be built to expand capacity and utility."/>
+<mainText attr1="Shipyards have varying limitations on what ship classes they can build."/>
+<mainText attr1="Most ships need to be researched before they can be built (see Research topic)"/>
+<mainText attr1="Capturing enemy bases - allows you to build different faction ships."/>
+<mainText attr1="     You can't build ships of a different faction than the shipyard originally was."/>
+<mainText attr1="Building ships requires resources such as ore and energy and crew."/>
+<mainText attr1="Ship crew don't consume resources (unlike station and base crew)."/>
+<mainText attr1="Ships are limited via a unit cap. The more bases the higher the cap (up to a max)."/>
+<mainText attr1=" "/>
+<mainText attr1="How to Build Ships:"/>
+<mainText attr1="1. Click on the - Shipyard - button in tactical mode - this brings up the - Shipyard - interface"/>
+<mainText attr1="2. Select a ship to be built from the list of available ships on the right."/>
+<mainText attr1="3. Click Build (as a shortcut you can double click the ship in the list as well)."/>
+<mainText attr1="   If you have the necessary resources a ship will be added to the build queue."/>
+<mainText attr1="5. Repeat as desired to add ships to the build queue."/>
+<mainText attr1="6. Ships will launch when ready and the next queued ship will start building."/>
+<mainText attr1="   If there is enough resources and crew - and the unit cap isn't reached."/>
+<mainText attr1=" "/>
+<mainText attr1="Base Shipyards:"/>
+<mainText attr1="Base shipyards have a dedicated - area - for building fighter class ships."/>
+<mainText attr1="Meaning that they can build a fighter class ship and another class ship - simultaneously."/>
+<mainText attr1="   This is great for having a constant squad of fighters."/>
+<mainText attr1=" "/>
+<mainText attr1="Repeat:"/>
+<mainText attr1="When the - Repeat - button is clicked - it adds the selected ship to the repeat queue."/>
+<mainText attr1="The repeat queue gets checked every time the ship build list is either empty."/>
+<mainText attr1="Ships from the repeat queue get added to the top and if requirements are met will be built."/>
+<mainText attr1="The ship on repeat - gets placed on the bottom to allow for other repeat ships to be built next."/>
+<mainText attr1="Use this to eliminate some of the tedium of managing ship building."/>
+<imageThree>
+	<image attr1="set:guide_shipyard_icon image:guide_shipyard_icon"/>
+</imageThree>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="explosion"/> 
+<objectID attr1="tacExp2_60"/> 
+<particleSystemName attr1="vdp_tac_multi_pings_2_60"/> 
+<explosionSoundID attr1="deathPing00"/>
+<life attr1="2.5"/>

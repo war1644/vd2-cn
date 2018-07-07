@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Ray"/> 
+<objectID attr1="ray"/> 
+<faction attr1="tsf"/> 
+<shipClass attr1="gunship"/> 
+<shipClassSize attr1="heavy"/>
+<meshName attr1="Ray.mesh"/>
+<descriptionText attr1="A TSF heavy gun ship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Ray is one of the first ships officially designated as a gunship. After the Outsider conflict, the military decided that the distinction between fighters and corvette class ships was too large. Thus the introduction of the gunship class."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Ray comes equipped with twin projectile guns, firing higher damage ammo than the Perez, at the cost of speed. Its defended by two light projectile turrets."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Rail Gun"/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Continuing the tradition from the original Perez fighter, but with increased damage and without the need for a charge up sequence."/>
+<bNotSoldUnlessOwnedBase attr1="1"/>
+<creditCost attr1="705000"/>
+<bBlackMarket attr1="1"/>
+<cruiseSpeed attr1="80.0"/> 
+<timeTillCruise attr1="2.0"/>
+<yaw 	attr1="85.0"/> 
+<pitch	attr1="85.0"/> 
+<roll 	attr1="85.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitActualPos x="0" y="2.83" z="14.44"/>
+<cockpitActualMesh attr1="cockpitRay.mesh"/>
+<cockpitInitPos x="0" y="12.85" z="31.77"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="25" z="130"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="5650.0"/>
+<armor attr1="1.5"/>
+<shieldHealth attr1="150"/> 
+<buildTime	attr1="35.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="275.0"/> 
+<ore		attr1="375.0"/> 
+<damage>
+    <pitch attr1="45.0"/> 
+    <roll attr1="-25.0"/> 
+	<yaw attr1="9.0"/> 
+	<position x="5.97" y="5.36" z="0.0"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="rayD00"/> 
+		<debrisMomentum attr1="4"/> 
+		<debrisAngular attr1="4"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explodeRed03"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp1_25"/>  
+<engineSoundID attr1="eng-01"/> 
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/>
+	<position x="0" y="-0.348" z="23.304"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="6.55"/>
+    <capacity attr1="12"/>
+    <recharge attr1="13"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<weapon>
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="rayPG"/> 
+	<weaponPosition x="13.143" y="-3.218" z="-14.057"/>
+	<weaponPosition x="14.152" y="-5.027" z="-14.057"/>
+	<weaponPosition x="12.108" y="-5.027" z="-14.057"/>
+	<barrelDelay attr1="0.07"/> 
+	<weaponFire attr1="primary"/> 
+</weapon>
+<weapon>
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="rayPG"/> 
+	<weaponPosition x="-13.143" y="-3.218" z="-14.057"/>
+	<weaponPosition x="-14.152" y="-5.027" z="-14.057"/>
+	<weaponPosition x="-12.108" y="-5.027" z="-14.057"/>
+	<barrelDelay attr1="0.07"/> 
+	<weaponFire attr1="primary"/> 
+</weapon>
+<weapon> 
+    <weaponType attr1="instant"/> 
+    <hardpointID attr1="rayRG"/> 
+	<weaponPosition x="0.0" y="-6.399" z="-18.117"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<turret>
+    <turretID attr1="pGTurret"/>
+    <turretOrientation attr1="top"/> 
+	<position x="0" y="8.844" z="9.947"/>
+	<pitchLower attr1="-2"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="pGTurret"/>
+    <turretOrientation attr1="bottom"/> 
+	<position x="0" y="-9.489" z="7.788"/>
+	<pitchLower attr1="-2"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<upgrades>
+	<primaryUpgradeCapacity attr1="3"/>
+	<activeUpgradeCapacity attr1="3"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="gArmor00"/>
+	<upgradeID attr1="gShield00"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="gunshipFShield00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="gunshipMan00"/>
+	<upgradeID attr1="gunshipThrust00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="gSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="gunshipPUS00"/>
+	<upgradeID attr1="gunshipAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.87" y="-3.85" z="55"/>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="beastG"/> 
+<ammunitionID attr1="mRP"/> 
+<name attr1="Rock Cannon"/> 
+<fireSoundID attr1="cannonGS00"/>
+<muzzleFlashEffectID attr1="mfMRG"/>
+<reFireRate attr1="0"/> 
+<capacity attr1="1"/> 
+<reloadTime attr1="1.75"/> 
+<parentPush attr1="3.0"/> 
+<recoil>
+	<recoilZ attr1="18"/>
+	<recoilBone attr1="Gun"/>
+	<muzzleBoneName attr1="Muzzle"/>
+</recoil>
+<bAlwaysPlayFireSound attr1="1"/>
+<bNoAimAssist attr1="1"/>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="The Plan"/>
+<objectID attr1="main09"/>
+<missionFactionID attr1="kind"/>
+<missionLocation attr1="sanctuary"/>
+<bStoryMission attr1="1"/>
+<bRepeatable attr1="0"/>
+<bHidden attr1="1"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="set_faction_score"/>
+		<factionID attr1="kind"/>
+		<factionScore attr1="70"/>
+		<note_to_self attr1="make sure kind faction isn't hostile"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric01"/>
+			<nameOverride attr1="ONE EAR"/>
+			<content attr1="Welcome back."/>
+			<content attr1="I have a secure channel to Elephant Face."/>
+			<content attr1="Patching you in."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="We've verified the intel Hammond gave us."/>
+			<content attr1="And formulated a plan on acquiring Taz."/>
+			<content attr1="We've decided to give the job to you."/>
+			<content attr1="Rather than risking bringing someone new in."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="The problem is the official bounty on Taz."/>
+			<content attr1="With it in place, it's nearly impossible for him to reach safety."/>
+			<content attr1="Safety... that's his price..."/>
+			<content attr1="To give up the group that hired him to smuggle Stubs."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="We need you to infiltrate the Pride."/>
+			<content attr1="Gain the rank and ship needed to accept the bounty."/>
+			<content attr1="We'll then have Hammond collect Taz."/>
+			<content attr1="You'll collect the bounty."/>
+			<content attr1="Only... No one will die."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="Taz and Hammond will be transported to Sanctuary."/>
+			<content attr1="And tell us how to find the smugglers."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="So there it is..."/>
+			<content attr1="We'll talk next when you are on the way to collect the bounty."/>
+		</dialog>
+	</postDialog>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+</mission>

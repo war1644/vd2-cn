@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="dockedMovingElement"/> 
+<name attr1="Command Capsule"/> 
+<objectID attr1="commandCapsule00"/> 
+<meshName attr1="commandCapsule00.mesh"/>
+<translateVector x="0" y="5" z="0"/>
+<soundID attr1="hugeDoor00"/>
+<bOpenOnProximity attr1="1"/>
+<proximityDistance attr1="50"/>
+<moveAwayTimeDuration attr1="2.5"/>

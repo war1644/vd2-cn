@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Brig"/> 
+<objectID attr1="brig"/>
+<faction attr1="beggar"/>  
+<shipClass attr1="destroyer"/> 
+<shipClassSize attr1="light"/>
+<meshName attr1="Brig.mesh"/> 
+<descriptionText attr1="A pirate light destroyer."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Brig is the last line of defense of Beggar bases. When in firing formation, its offense and defense are synergized, thanks to its three heavy rail guns and physical shields."/>
+<creditCost attr1="25500000"/>
+<bNotSoldUnlessOwnedBase attr1="1"/>
+<cruiseSpeed attr1="23.0"/> 
+<timeTillCruise attr1="4.7"/> 
+<yaw 	attr1="21.0"/> 
+<pitch	attr1="21.0"/> 
+<roll 	attr1="21.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="54.55" z="92.1"/>
+<bHideShipInCockpitAcutal attr1="0"/>
+<cockpitInitPos x="0" y="75.23" z="275.43"/>
+<cockpitTransLimit x="7" y="7" z="7"/> 
+<chaseInitPos x="0" y="111.73" z="807.63"/>
+<chaseTransLimit x="20" y="20" z="20"/> 
+<bShowInCockpitParticles attr1="1"/>
+<health attr1="260000.0"/> 
+<armor attr1="1.5"/>
+<buildTime	attr1="60.0"/> 
+<crew 		attr1="15.0"/> 
+<energy		attr1="700.0"/> 
+<ore		attr1="1000.0"/> 
+<damage>
+    <pitch attr1="5.0"/> 
+    <roll attr1="92.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="-84.837" y="13.403" z="149.815"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage04"/>
+</damage>
+<damage>
+    <pitch attr1="7.0"/> 
+    <roll attr1="-5.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="-24.6" y="26.773" z="-51.142"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage04"/>
+</damage>
+<damage>
+    <pitch attr1="-180.0"/> 
+    <roll attr1="-3.0"/> 
+	<yaw attr1="2.0"/> 
+	<position x="3.409" y="-31.677" z="-41.865"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage03"/>
+</damage>
+<deathTimer attr1="7"/> 
+<deathSpin x="0.1" y="0.07" z="-0.04"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="brigD00"/> 
+		<debrisMomentum attr1="1"/> 
+		<debrisAngular attr1="2"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explode06"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<preExplosionID attr1="explode03"/>
+<tacticalExplosionID attr1="tacExp2_60"/>
+<engineSoundID attr1="eng-03"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="63.183" y="14.629" z="234.251"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="63.183" y="-40.825" z="234.251"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="-63.183" y="14.629" z="234.251"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="-63.183" y="-40.825" z="234.251"/>
+</propulsion>
+<turret>
+    <turretID attr1="rexTurret01"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="0" y="-92.725" z="-141.550"/>
+	<pitchLower attr1="-5"/>
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+</turret>
+<turret>
+    <turretID attr1="rexTurret01"/>
+	<position x="-66.949" y="-9.226" z="-45.615"/>
+	<pitchLower attr1="-5"/>
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<roll attr1="-90.0"/>
+	<yaw attr1="90.0"/>
+	<yawPermitted attr1="60"/>
+</turret>
+<turret>
+    <turretID attr1="rexTurret01"/>
+	<position x="-66.949" y="-9.226" z="42.519"/>
+	<pitchLower attr1="-5"/>
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<roll attr1="90.0"/>
+	<yaw attr1="90.0"/>
+	<yawPermitted attr1="60"/>
+</turret>
+<turret>
+    <turretID attr1="rhinoTurret"/>
+	<position x="0" y="37.570" z="-96.290"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+	<bShowInCockpit attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="rhinoTurret"/>
+	<position x="53.093" y="54.301" z="166.852"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="rhinoTurret"/>
+	<position x="-53.093" y="54.301" z="166.852"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="rhinoTurret"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="53.096" y="-81.634" z="166.852"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="rhinoTurret"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="-53.096" y="-81.634" z="166.852"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret02"/>
+	<position x="39.293" y="33.967" z="-1.196"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="point_defense"/>
+	<bShowInCockpit attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret02"/>
+	<position x="-39.293" y="33.967" z="-1.196"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="point_defense"/>
+	<bShowInCockpit attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret02"/>
+	<turretOrientation attr1="right"/> 
+	<position x="102.265" y="-44.524" z="174.222"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret02"/>
+	<turretOrientation attr1="left"/> 
+	<position x="-102.265" y="-44.524" z="174.222"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="point_defense"/>
+</turret>
+<attachment>
+	<attachmentID attr1="brigShield00"/>
+	<attachmentPosition x="-104.093" y="-10.610" z="-91.636"/>
+</attachment>
+<attachment>
+	<attachmentID attr1="brigShield00"/>
+	<attachmentPosition x="-104.093" y="-10.593" z="-1.196"/>
+</attachment>
+<attachment>
+	<attachmentID attr1="brigShield00"/>
+	<attachmentPosition x="-103.946" y="-14.230" z="87.635"/>
+</attachment>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="7"/>
+	<activeUpgradeCapacity attr1="8"/>
+	<upgradeID attr1="gunPod00"/>
+	<upgradeID attr1="dTurrets00"/>
+	<upgradeID attr1="frArmor00"/>
+	<upgradeID attr1="frShield00"/>
+	<upgradeID attr1="frShieldRecharge00"/>
+	<upgradeID attr1="frUpgradeRecharge00"/>
+	<upgradeID attr1="afterburnerDest00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="frigateMan00"/>
+	<upgradeID attr1="frigateThrust00"/>
+	<upgradeID attr1="frAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="frArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="frSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="frigatePUS00"/>
+	<upgradeID attr1="frigateAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<towardsEnemy attr1="left"/>
+<bLargeDockOnly attr1="1"/>

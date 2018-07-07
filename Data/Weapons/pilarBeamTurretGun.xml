@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="beam"/> 
+<weaponID attr1="pilarBTG"/> 
+<name attr1="Light Beam"/> 
+<materialName attr1="Weapons/lightBeam"/> 
+<hitParticleName attr1="lightBeamHit"/>
+<muzzleFlashEffectID attr1="mfOLB00"/>
+<fireSoundID attr1="oLBS00"/>
+<damage attr1="50.0"/> 
+<range attr1="1800.0"/> 
+<baseScale attr1="0.5"/>
+<oscilateRange attr1="0.25"/>
+<oscilateAmount attr1="0.15"/>
+<capacity attr1="4.5"/> 
+<reloadTime attr1="1.25"/> 
+<assistDegree attr1="5.5"/>

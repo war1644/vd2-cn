@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="ribbon"/> 
+<objectID attr1="shipRibbon00"/> 
+<materialName attr1="Effects/RibbonTrail"/> 
+<maxChainElements attr1="35"/> 
+<trailLength attr1="200"/>
+<widthChange attr1="0.1"/>
+<initialWidth attr1="0.60"/> 
+<initialColor r="0.23" g="0.23" b="0.23" a="0.1"/> 
+<colorChange r="0.15" g="0.15" b="0.15" a="0.05"/> 

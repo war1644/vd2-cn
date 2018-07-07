@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Bullfrog"/> 
+<objectID attr1="bullfrog"/> 
+<faction attr1="stubs"/> 
+<shipClass attr1="gunship"/> 
+<shipClassSize attr1="heavy"/>
+<combatAIClass attr1="corvette"/>
+<meshName attr1="Bullfrog.mesh"/>
+<descriptionText attr1="A heavy gun ship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Bullfrog is a bomber gunship. Optimized to attack larger targets with its plasma launcher, in groups it is deadly to corvettes."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The assassin of the Stubs. While its primary weapon is nearly useless against smaller targets, it is defended by two twin chain gun turrets to punish fighter response to its attack runs."/>
+<creditCost attr1="300000"/>
+<bBlackMarket attr1="1"/>
+<cruiseSpeed attr1="65.0"/> 
+<timeTillCruise attr1="2.05"/>
+<yaw 	attr1="70.0"/> 
+<pitch	attr1="70.0"/> 
+<roll 	attr1="70.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitActualPos x="0" y="4.56" z="-15.72"/>
+<bShowInCockpitParticles attr1="1"/>
+<cockpitInitPos x="0" y="15.85" z="15"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos  x="0" y="37.61" z="185"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="5000.0"/>
+<armor attr1="0.0"/>
+<buildTime	attr1="35.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="275.0"/> 
+<ore		attr1="375.0"/> 
+<damage>
+    <pitch attr1="25.0"/> 
+    <roll attr1="-48.0"/> 
+	<yaw attr1="-13.0"/> 
+	<position x="6.776" y="8.546" z="2.266"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.3" y="0.1" z="0.25"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="bullfrogD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explodeRed03"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp1_25"/>  
+<engineSoundID attr1="eng-01"/> 
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="8.529" y="-6.653" z="17.075"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="-8.529" y="-6.653" z="17.075"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="7.858" y="-5.419" z="-7.858"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="-7.858" y="-5.419" z="-7.858"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="5.85"/>
+    <capacity attr1="10"/>
+    <recharge attr1="12"/>
+</afterburner>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="bullfrogPL"/> 
+	<weaponPosition x="0" y="-7.268" z="-24.213"/>
+	<barrelDelay attr1="0.1"/> 
+</weapon>
+<turret>
+    <turretID attr1="bullfrogT01"/> 
+    <turretOrientation attr1="right"/> 
+	<position x="17.041" y="2.517" z="7.312"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="bullfrogT01"/> 
+    <turretOrientation attr1="left"/> 
+	<position x="-17.041" y="2.517" z="7.312"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<targetPriorityList> 
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="dreadnaught"/> 
+	<targetClass attr1="attack_station"/>
+</targetPriorityList>
+<upgrades>
+	<primaryUpgradeCapacity attr1="2"/>
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="gArmor00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="gunshipMan00"/>
+	<upgradeID attr1="gunshipThrust00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="gSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="gunshipPUS00"/>
+	<upgradeID attr1="gunshipAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="120" y="-2.96" z="50"/>

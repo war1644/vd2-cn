@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="music"/> 
+<objectID attr1="pressure"/> 
+<musicFile attr1="Pressure.ogg"/>
+<defaultVolume attr1="1.0"/>
+<bLooping attr1="0"/>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="random"/>
+<objectID attr1="explode04XL"/> 
+<soundFile attr1="explosionXL01.wav"/>  
+<maxDistance attr1="17500"/> 
+<referenceDistance attr1="5000"/>
+<soundPriority attr1="180"/>

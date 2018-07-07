@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid"/> 
+<name attr1="TSF Hangar Platform"/> 
+<objectID attr1="fakeRock-Hangar001"/> 
+<meshName attr1="fakeRock-Hangar001.mesh"/> 
+<wireframeMaterial attr1="WF/Asteroid"/>
+<descriptionText attr1="A defensive hangar platform, houses and launches fighter drones."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Often used to augment static defenses. Drones are useful for both near range defense as well as sending them on suicide runs."/>
+<bShowInTactical attr1="1"/>
+<tacticalExplosionID attr1="vdp_tac_ping_15_40"/> 
+<health attr1="20000.0"/> 
+<collisionShape attr1="simple_convex"/>
+<babySpawnDamage attr="990000"/>
+<asteroidSize attr="titanic"/>
+<note_to_self attr1="setting to be titanic not to auto spawn in fields"/>
+<bCanAddViaBattleEditorSlider attr1="0"/>

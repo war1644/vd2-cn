@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="pick_one"/>
+<objectID attr1="megaRCS00"/> 
+<defaultVolume attr1="1"/>
+<soundFile attr1="megaRockCannon00.wav"/>
+<maxDistance attr1="50250"/> 
+<referenceDistance attr1="25250"/>
+<soundPriority attr1="180"/>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<screenEffect attr1="fade_in"/>
+	<lookAtObject attr1="rg01-tug-1"/> 
+	<reletiveObject attr1="rg01-tug-1"/> 
+	<cameraPosition x="-75" y="55" z="-455"/>	
+	<duration attr1="1.5"/>
+	<trigger>
+		<triggerType attr1="ship_speed_zero"/>
+		<shipName attr1="playerShip"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="destroy_named"/>
+		<objectName attr1="rg01-hangar-1"/>
+		<bSilent attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="fakeRock-Hangar001"/>
+		<name attr1="rg01-fakeRock-1"/>
+		<orientation w="0.99997" x="0" y="-0.00775567" z="0"/>
+		<position x="-0.0294973" y="0" z="1.90149"/>
+		<bCheckPosition attr1="0"/>
+		<bOverworld attr1="0"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="rg01-fakeRock-1"/> 
+	<reletiveObject attr1="rg01-fakeRock-1"/> 
+	<cameraPosition x="-575" y="155" z="500"/>	
+	<duration attr1="5.5"/>
+	<trigger>
+		<triggerType attr1="set_position"/>
+		<body attr1="rg01-tug-1"/>
+		<reletiveObject attr1="rg01-fakeRock-1"/>
+		<position x="0" y="0" z="-300"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="look_at"/>
+		<lookAtObject attr1="rg01-fakeRock-1"/>
+		<objectName attr1="rg01-tug-1"/>
+		<bNoRoll attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="alter_ship"/>
+		<shipName attr1="rg01-tug-1"/> 	
+		<alterType attr1="toggle_crew_control"/>
+		<bToggle attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="rg01-tug-1"/> 	
+		<targetName attr1="rg01-fakeRock-1"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="5.0"/>
+</sceneFragment>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Beginnings Part 2"/>
+<objectID attr1="main01"/>
+<missionLocation attr1="civilianOutpost01"/>
+<bCompleteOnNextDock attr1="1"/>
+<missionOverworldText attr1="Travel to the marked object"/>
+<missionOverworldText attr1="Go to position - "/>
+<missionOverworldText attr1="   Right click to initiate"/>
+<missionOverworldText attr1="   Left click to confirm"/>
+<missionOverworldText attr1="Go to object - right click on object"/>
+<missionOverworldText attr1=" "/>
+<missionOverworldText attr1="Camera Control - "/>
+<missionOverworldText attr1="   Rotate - hold right mouse button, move mouse"/>
+<missionOverworldText attr1="   Zoom - Mouse wheel"/>
+<missionOverworldText attr1=" "/>
+<missionOverworldText attr1="When near destination - "/>
+<missionOverworldText attr1="   Click the 'Ship Mode' button"/>
+<missionOverworldText attr1="   Or toggle Overworld mode - SHIFT + ENTER (default)"/>
+<creditReward attr1="0"/>
+<bRepeatable attr1="0"/>
+<bRemoveMissionOnNextDock attr1="1"/>
+<bCanBeCancelled attr1="0"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="civilianOutpost01"/>
+		<characterID attr1="sam"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="7"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="This is Civilian Outpost 01"/>
+			<content attr1="Unidentified craft, state your intentions."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="I repeat."/>
+			<content attr1="State your intentions."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="Hello? Anybody home?"/>
+			<content attr1="Are your comms open?"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<objective>
+		<objectiveType attr1="comms_target"/> 
+		<objectName attr1="civilianOutpost01"/>
+		<markObject attr1="civilianOutpost01"/>
+	</objective>
+	<missionHUDText attr1="Open Comms:"/>
+	<missionHUDText attr1="Target the base - left click on base"/>
+	<missionHUDText attr1="Open Comms - key" attr2="command_common" attr3="comms"/>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="H... Hello?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="And I was just about to alert station security..."/>
+			<content attr1="Actually..."/>
+			<content attr1="Your ship doesn't seem to be registered."/>
+			<content attr1="Care to explain that?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="I don't know..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="What do you mean you don't..."/>
+			<content attr1="Oh great, another one..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="What?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="Tell me if this sounds familiar."/>
+			<content attr1="You woke up in a ship."/>
+			<content attr1="You have no idea who, what or where you are."/>
+			<content attr1="And some idiots were telling you what to do."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Yes!"/>
+			<content attr1="Can you help me?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<bClearAllText attr1="1"/>
+			<content attr1="Dammit! Another one!"/>
+			<content attr1="You're a Stub."/>
+			<content attr1="You are beyond help."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="Listen, I don't have the time or patience to explain it all to you."/>
+			<content attr1="You having no memory... Its the result of your conversion."/>
+			<content attr1="Its normal."/>
+			<content attr1="I'm going to register you, and your ship."/>
+			<content attr1="That will automatically transfer 487 credits to your account."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Thank you."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="Its standard procedure."/>
+			<content attr1="There's a 'war compensation' fund for Stubs."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="This might not make a lot of sense right now..."/>
+			<content attr1="There was a war and you were meant to be a part of it."/>
+			<content attr1="Normally your kind are rehabbed at Shangri-La."/>
+			<content attr1="Shangri-La is a base."/>
+			<content attr1="With TSF medical facilities."/>
+			<content attr1="The TSF is the local peacekeeping force."/>
+			<content attr1="They don't want a bunch of amnesiac cyborgs with military grade gear in them stumbling around."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="But there's people and groups that do."/>
+			<content attr1="Usually not of the good variety."/>
+			<content attr1="You can be sure that people will try to take advantage of you."/>
+			<content attr1="Or just kill you.."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<bClearAllText attr1="1"/>
+			<content attr1="What do I do?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="Well... You have two choices."/>
+			<content attr1="Head to Shangri-La, get a evaluation."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="If you are lucky. You'll get put on ice."/>
+			<content attr1="Sooner or later they'll defrost you, put you through rehab and give you a job."/>
+			<content attr1="You'll be scrubbing vents in no time!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="What's the other choice?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="Do anything else."/>
+			<content attr1="Start with docking at this base."/>
+			<content attr1="Pick up some easy missions."/>
+			<content attr1="Upgrade that piece of junk and buy a better ship."/>
+			<content attr1="After that, deciding what to do next will be easier."/>
+			<content attr1="Maybe..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="Oh and it's not a bad idea to spend some time in the simulator, learning how to fly."/>
+			<content attr1="If I have to fill out another collision report..."/>
+		</dialog>
+	</postDialog>
+	<postTrigger>
+		<triggerType attr1="next_mission"/>
+		<missionID attr1="main02"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<note_to_self attr1="For 487 credit reward that's mentioned above"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<reward>
+		<rewardType attr="credit"/>
+		<credits attr="487"/>
+	</reward>
+</mission>	
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<preTrigger>
+		<triggerType attr1="toggle_base_dock_lights"/>
+		<baseName attr1="civilianOutpost01"/>
+		<bActive attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="20000"/>
+		<markObject attr1="civilianOutpost01"/>
+	</objective>
+	<missionHUDText attr1="Dock with the base"/>
+	<missionHUDText attr1="Fly into the dock area"/>
+	<missionHUDText attr1="Base must be targeted to dock"/>
+	<missionHUDText attr1="Target the base - left click on base"/>
+</mission>

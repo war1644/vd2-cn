@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Convert - Active To Primary"/> 
+<objectID attr1="convertAtP00"/>
+<upgradeCategory attr1="other"/>
+<upgradeType attr1="other"/>
+<addCostAsPercentOfShip attr1="0.035"/>
+<activeUpgradeSlotChange attr1="-1"/>
+<primaryUpgradeSlotChange attr1="1"/>
+<description attr1="Reconfigures a active slot to accommodate a additional primary upgrade instead."/>
+<description attr1=" "/>
+<description attr1="For those that prefer raw performance over a special ability."/>

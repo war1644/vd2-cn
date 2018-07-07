@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieYes00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="yes"/>
+<dialog attr1="Ok, sounds good."/>
+<dialog attr1="Sure."/>
+<dialog attr1="Yeah."/>
+<dialog attr1="Agreed."/>
+<dialog attr1="Sounds good."/>
+<dialog attr1="Aye aye."/>
+<dialog attr1="Roger."/>

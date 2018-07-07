@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="holdHere00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="hold_here"/>
+<dialog attr1="Hold position."/>
+<dialog attr1="Wait there."/>
+<dialog attr1="Wait until further commands."/>
+<dialog attr1="Hold."/>

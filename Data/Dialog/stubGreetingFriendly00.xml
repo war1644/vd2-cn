@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="stubGreetingFriendly00"/>
+<bGeneric attr1="0"/>
+<factionID attr1="stubs"/>
+<dialogType attr1="greeting_friendly"/>
+<dialog attr1="Good to see a friendly face!"/>
+<dialog attr1="Us against the universe!"/>
+<dialog attr1="Hey kin!"/>
+<dialog attr1="Good to know I'm not alone."/>
+<dialog attr1="Family!"/>
+<dialog attr1="I'll remember you."/>

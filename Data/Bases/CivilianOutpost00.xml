@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="civilianOutpost00"/> 
+<displayName attr1="Civilian Outpost"/> 
+<objectID attr1="civilianOutpost00"/> 
+<faction attr1="civilian"/>
+<meshName attr1="civilianOutpost00.mesh"/>
+<wireframeMaterial attr1="WF/TheHub"/> 
+<descriptionText attr1="A mobile Civilian base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The first of the 'civilian' arrivals to this area of space following the MU rebellion and Outsider war."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Taking up position far away from the most likely Outsider incursion, the initial mandate was to be a scouting and test outpost for corporate interests."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Now that other civilian bases have been established, this base is a lesser player in the new economy."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Rumours of this base being a hub of smuggling activity have begun to circulate."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="0" y="0" z="-350"/>
+<dockingArmsEnd x="0" y="0" z="-700"/>
+<dockPosition x="0" y="0" z="-400"/>
+<dockSize x="200" y="60" z="100"/>
+<bMobile attr1="1"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="465" y="30" z="64"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="442" y="30" z="68"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="420" y="30" z="72"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/>
+	<position x="320" y="-320" z="64"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/>
+	<position x="300" y="-320" z="68"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/>
+	<position x="277" y="-320" z="72"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/>
+	<position x="-465" y="30" z="64"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/>
+	<position x="-442" y="30" z="68"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/>
+	<position x="-420" y="30" z="72"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/>
+	<position x="-320" y="-320" z="64"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/>
+	<position x="-300" y="-320" z="68"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/>
+	<position x="-277" y="-320" z="72"/>
+</propulsion>

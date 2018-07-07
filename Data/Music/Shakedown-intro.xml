@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="music"/> 
+<objectID attr1="shakedown-intro"/> 
+<musicFile attr1="Shakedown-intro.ogg"/>
+<defaultVolume attr1="1.0"/>
+<bLooping attr1="0"/>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Tractor Beam"/> 
+<objectID attr1="tractorBeam00"/> 
+<upgradeCategory attr1="engineering"/>
+<upgradeType attr1="active"/>
+<cost attr1="7500"/>
+<addCostAsPercentOfShip attr1="0.040"/>
+<description attr1="Installs a general purpose tractor beam, capable of pulling objects closer."/>
+<description attr1=" "/>
+<description attr1="Tractor beams were primarily used to pull cargo pods. More recently, more powerful variants have become available and with the added power more uses have been found by creative captains."/>
+<description attr1=" "/>
+<description attr1="This system has a size limitation, for example a corvette class ship cannot pull a frigate class ship. For other objects (for example debris and asteroids) the pull power will depend on the relative size difference between the puller and the object being pulled."/>
+<shipActiveUpgradeType attr1="tractor_beam"/>
+<activeSoundID attr1="tractorBeamWeapon00"/>
+<rechargeTime attr1="25"/>
+<durationTime attr1="5"/>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<duration attr1="2"/>
+	<attachment attr1="gate-1"/>
+	<cameraPosition x="-500" y="50" z="4000"/>
+</sceneFragment>
+<sceneFragment>
+	<duration attr1="2"/>
+	<attachment attr1="gate-1"/>
+	<cameraPosition x="-500" y="50" z="-2750"/>
+</sceneFragment>
+<sceneFragment>
+	<duration attr1="5"/>
+	<bSkipCamera attr1="1"/>
+	<trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-combat05-seg2"/> 	
+	</trigger>
+	<trigger>
+		<triggerType attr1="activate_gate"/>
+		<gateName attr1="gate-1"/> 
+		<timeTillSpawn attr1="0.1"/> 
+	</trigger>
+	<trigger>
+		<triggerType attr1="gate_spawn"/>
+		<gateName attr1="gate-1"/>
+		<onExitTarget attr1="gate-2"/>
+		<shipID attr1="marauder"/> 
+		<shipName attr1="r-marauder-1"/>
+		<onExitTarget attr1="gate-2"/>
+		<shipID attr1="marauder"/> 
+		<shipName attr1="r-marauder-2"/>
+		<onExitTarget attr1="gate-2"/>
+		<shipID attr1="correa"/> 
+		<shipName attr1="r-correa-1"/>
+		<onExitTarget attr1="gate-2"/>
+		<shipID attr1="correa"/> 
+		<shipName attr1="r-correa-2"/>
+		<onExitTarget attr1="gate-2"/>
+		<shipID attr1="correa"/> 
+		<shipName attr1="r-correa-3"/>
+		<onExitTarget attr1="gate-2"/>
+		<shipID attr1="correa"/> 
+		<shipName attr1="r-correa-4"/>
+		<onExitTarget attr1="gate-2"/>
+		<shipID attr1="theBeast"/> 
+		<shipName attr1="r-theBeast-1"/>
+		<onExitTarget attr1="gate-2"/>
+		<shipID attr1="theBeast"/> 
+		<shipName attr1="r-theBeast-2"/>
+		<shipID attr1="theBear"/> 
+		<shipName attr1="r-theBear-1"/>
+		<onExitTarget attr1="gate-2"/>
+		<faction attr1="tsf"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="talon-1"/>	
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="1.5"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<duration attr1="5"/>
+	<attachment attr1="r-marauder-1"/>
+	<cameraPosition x="-250" y="100" z="-650"/>
+</sceneFragment>

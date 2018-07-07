@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="explosion"/> 
+<objectID attr1="dirtExp00"/> 
+<particleSystemName attr1="vdp_dirt_explosion00"/> 
+<life attr1="5"/>
+<renderingDistance attr1="2000"/>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="olympus"/> 
+<displayName attr1="Olympus"/> 
+<objectID attr1="olympus"/> 
+<faction attr1="hazardInc"/>
+<meshName attr1="Olympus.mesh"/>
+<descriptionText attr1="A entertainment base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Olympus is a luxury resort with top of the line dining, gaming and entertainment experiences."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="When there's money to be spent, these bases arrive on the scene to rake it in."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="It is considered 'neutral' territory with a variety of customers and hopeful competitors."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="0" y="0" z="0"/>
+<dockingArmsEnd x="0" y="0" z="-20"/>
+<dockPosition x="0" y="0" z="0"/>
+<dockSize x="120" y="120" z="120"/>
+<hangarID attr1="theHubH"/> 
+<maxBuildShipClass attr1="corvette"/>
+<bMobile attr1="1"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion300"/>
+	<position x="720" y="-135" z="0"/>
+	<yaw attr1="90.0"/>
+</propulsion>

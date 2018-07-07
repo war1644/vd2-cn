@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Azu's Gambit"/> 
+<objectID attr1="attackMe00"/> 
+<upgradeCategory attr1="other"/>
+<upgradeType attr1="active"/>
+<cost attr1="1000"/>
+<addCostAsPercentOfShip attr1="0.125"/>
+<description attr1="The so called 'Azu's Gambit', special software and hardware is installed that attempts to mimic sensor results as they would appear if your ship was a much bigger threat than it actually is."/>
+<description attr1=" "/>
+<description attr1="These sensor readings will mislead enemy targets into focusing their fire on you. While to more cowardly pilots, this may seem like a horrible, horrible idea, it has its tactical uses."/>
+<description attr1=" "/>
+<description attr1="Drawing fire from enemies might save a friend or two, the cost might be acceptable."/>
+<description attr1=" "/>
+<description attr1="The limitation of this system is that a fighter class ship can't fool a gunship, nor a gunship a corvette, but a corvette can certainly fool a fighter."/>
+<shipActiveUpgradeType attr1="attack_me"/>
+<rechargeTime attr1="20"/>

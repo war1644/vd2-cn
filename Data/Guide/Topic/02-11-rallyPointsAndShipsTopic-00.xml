@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="rallyPointsAndShips"/>
+<topicName attr1="  Rally Points and Ships"/>
+<mainText attr1="Rally Points and Ships:"/>
+<mainText attr1="Rally points are positions/objects that built ships go to when they first launch."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Concepts:"/>
+<mainText attr1="Shipyards can have rally points."/>
+<mainText attr1="Rally points can be ships."/>
+<mainText attr1="Setup rally points to easily manage your fleet."/>
+<mainText attr1=" "/>
+<mainText attr1="How to create rally points:"/>
+<mainText attr1="Select a shipyard (either a base or an shipyard platform)"/>
+<mainText attr1="Right click on empty space to set that point as a rally point for ships."/>
+<mainText attr1="Right click on a friendly ship to set that ship as a rally ship."/>
+<mainText attr1="   Rally ships become formation leaders."/>
+<mainText attr1="      Built ships join formation."/>
+<mainText attr1=" "/>
+<mainText attr1="Rally points (non-ship):"/>
+<mainText attr1="Can be moved - just like place holder and nav objects can be moved."/>
+<mainText attr1="  Left click, hold and drag to move. Hold the CTRL key to move up and down."/>
+<mainText attr1=" "/>
+<mainText attr1="How to remove rally points:"/>
+<mainText attr1="Select a shipyard (either a base or an shipyard platform)"/>
+<mainText attr1="If this is a non ship rally point - right click on it to remove it."/>
+<mainText attr1="If this is a a ship rally point - right on another ship, or empty space to designate a new rally point."/>
+<imageOne>
+	<image attr1="set:guide_rally_point image:guide_rally_point"/>
+</imageOne>
+<imageTwo>
+	<image attr1="set:guide_rally_ship image:guide_rally_ship"/>
+</imageTwo>

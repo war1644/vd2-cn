@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="random"/>
+<objectID attr1="outsiderMLS"/> 
+<soundFile attr1="outsiderMFire-1.wav"/>
+<soundFile attr1="outsiderMFire-2.wav"/>
+<soundFile attr1="outsiderMFire-3.wav"/>
+<defaultVolume attr1="0.5"/>
+<maxDistance attr1="250"/> 
+<referenceDistance attr1="25"/>
+<soundPriority attr1="80"/>

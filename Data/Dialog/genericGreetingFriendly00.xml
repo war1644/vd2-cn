@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieGreetingFriendly00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="greeting_friendly"/>
+<dialog attr1="Morning Sunshine!"/>
+<dialog attr1="G'day mate!"/>
+<dialog attr1="Hey Hey Hey!"/>
+<dialog attr1="Greetings!"/>
+<dialog attr1="Yo!"/>
+<dialog attr1="Howdy!"/>

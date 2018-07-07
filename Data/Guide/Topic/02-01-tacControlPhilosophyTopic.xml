@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="tacControlPhilosophy"/>
+<topicName attr1="Control Philosophy"/>
+<mainText attr1="Unlike Ship mode - Tactical mode is intended to function (almost entirely) via the mouse. Left click to select an object, right click to issue an order, and zoom via the mouse wheel. The interface is nearly entirely represented via buttons and controls - versus hidden elements of ship mode."/>
+<mainText attr1=" "/>
+<mainText attr1="Because Tactical Mode is at its essence a 3D map - giving you a battle awareness - moving around it is very important. This is accomplished via WASD - and QE keys (by default). As well as holding down the right mouse button and then moving the camera to change the camera's orientation."/>
+<mainText attr1=" "/>
+<mainText attr1="Keyboard is intended to be used for a few key functions or as a short cuts."/>
+<mainText attr1=" "/>
+<mainText attr1="Just like in Ship Mode - controls in Tactical Mode are mappable."/>

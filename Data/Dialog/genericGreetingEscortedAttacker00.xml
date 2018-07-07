@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieGreetingEA00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="greeting_escorted_attacker"/>
+<dialog attr1="Do yourself a favor and leave."/>
+<dialog attr1="We gave them a chance... They didn't pay, now it's too late."/>
+<dialog attr1="We didn't come for you! Get out of the way!"/>
+<dialog attr1="We've got a lesson to teach to those who don't pay."/>

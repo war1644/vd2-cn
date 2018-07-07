@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="pincerMT"/> 
+<name attr1="Missile Launcher"/> 
+<turretWeapon attr1="missile"/>
+<hardpointID attr1="pincerML"/>
+<turretBarrel>
+	<weaponPosition x="0" y="63.179" z="31.975"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="0" y="-79.858" z="30.672"/>
+</turretBarrel>
+<turretViewPos x="0.0" y="2.8" z="0.5"/>
+<barrelDelay attr1="0.25"/>
+<weaponDirection>
+	<yaw attr1="0.0"/>
+	<pitch attr1="0.0"/>
+	<roll attr1="0.0"/>
+</weaponDirection>

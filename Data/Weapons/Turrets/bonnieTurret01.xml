@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="bonnieT01"/> 
+<name attr1="Chain Gun Turret"/> 
+<meshName attr1="bonnieTurret01.mesh"/> 
+<turretWeapon attr1="projectile"/>
+<hardpointID attr1="bonnieTG"/>
+<pitchMax attr1="65.0"/>
+<dMoveSpeed attr1="135.0"/> 
+<turretBarrel>
+	<weaponPosition x="0" y="0.046" z="-6.478"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretViewPos  x="0" y="1.84" z="5.05"/>
+<barrelDelay attr1="0.05"/>
+<targetPriorityList> 
+	<targetClass attr1="fighter"/>
+	<targetClass attr1="gunship"/>
+	<targetClass attr1="fighter_drone"/>
+	<targetClass attr1="corvette"/> 
+	<targetClass attr1="frigate"/> 
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="attack_station"/> 
+</targetPriorityList> 
+<turnSoundID attr1="turretR00"/>

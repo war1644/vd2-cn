@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="projectile"/> 
+<projectileID attr1="mediumCP"/> 
+<projectileType attr1="billboard_projectile"/> 
+<materialNameHead attr1="vdp_flare_04"/> 
+<materialNameTail attr1="Weapons/S_Projectile3"/> 
+<projectileHeadSize x="0.35" y="0.35"/> 
+<projectileTailSize x="3.5" y="20.0"/> 
+<projectileVelocity attr1="1150.0"/>
+<initialLife attr1="2.25"/>
+<_range attr1="2587.0"/>
+<damage attr1="15.0"/> 
+<explosionID attr1="cHit"/>

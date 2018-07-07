@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Flea"/> 
+<objectID attr1="flea"/> 
+<faction attr1="outsider"/> 
+<shipClass attr1="corvette"/>
+<shipClassSize attr1="heavy"/>
+<meshName attr1="Flea.mesh"/>
+<descriptionText attr1="A heavy combat corvette."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Flea is a Outsider bomber corvette."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Armed with some form of plasma launchers. Their rapid fire is capable of dealing significant damage to ship's hulls."/>
+<descriptionText attr1=" "/>
+<creditCost attr1="0"/>
+<cruiseSpeed attr1="50.0"/> 
+<timeTillCruise attr1="2.85"/> 
+<yaw 	attr1="55.0"/> 
+<pitch	attr1="55.0"/> 
+<roll 	attr1="55.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="17.14" z="-7.26"/>
+<cockpitInitPos x="-37.29" y="18.12" z="58.57"/>
+<cockpitTransLimit x="2" y="2" z="2"/> 
+<bShowInCockpitWeaponParticles attr1="0"/>
+<chaseInitPos x="0" y="90.39" z="472.66"/>
+<chaseTransLimit x="14" y="8" z="6"/>
+<health attr1="22500.0"/>
+<armor attr1="1.0"/>
+<damage>
+    <pitch attr1="-115.0"/> 
+    <roll attr1="30.0"/> 
+	<yaw attr1="-165.0"/> 
+	<position x="-14.522" y="-26.838" z="35.488"/>
+	<healthPoint attr1="0.42"/>
+	<damageEffectID attr1="outsiderD00"/>
+</damage>
+<damage>
+    <pitch attr1="115.0"/> 
+    <roll attr1="30.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="1.081" y="50.585" z="32.519"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="outsiderD00"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="fleaD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="outsiderE04"/>
+<preExplosionID attr1="outsiderE00"/>
+<preExplosionID attr1="outsiderE01"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<collisionShape attr1="simple_convex"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="fleaPGun"/> 
+	<weaponPosition x="10.385" y="2.725" z="-14.195"/>
+	<weaponPosition x="10.385" y="-2.651" z="-14.195"/>
+	<weaponPosition x="-10.385" y="2.725" z="-14.195"/>
+	<weaponPosition x="-10.385" y="-2.651" z="-14.195"/>
+	<barrelDelay attr1="0.05"/>
+</weapon>
+<turret>
+    <turretID attr1="fleaTurret"/>
+    <turretOrientation attr1="left"/>
+	<position x="-25.783" y="-24.504" z="26.27"/>
+	<pitchLower attr1="-4"/> 
+	<turretRole attr1="defense"/>
+	<yawPermitted attr1="45"/>
+	<weaponPositionID attr1="4"/>
+</turret>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.16" y="-2.63" z="130"/>

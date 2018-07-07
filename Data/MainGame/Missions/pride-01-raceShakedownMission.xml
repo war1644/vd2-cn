@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Race Shakedown"/>
+<missionDescriptionText attr1="A indie pirate gang has been disrupting races near Olympus. Hazard Inc. refused their extortion demands."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Instead Hazard Inc. has put a sizable bounty on anyone interfering with their races."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Your mission is to act like a ordinary race participant to lure out and eliminate the extortionists when they attempt to carry out their threat."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="The combination of a race participant expertly fighting back and the loss of ships should prevent future disruptions."/>
+<missionDescriptionText attr1=" "/>
+<objectID attr1="pride-01"/>
+<missionFactionID attr1="thePride"/>
+<missionLocation attr1="raceTrack00"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="20000"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<bFactionShipRequired attr1="1"/>
+<maximumShipClass attr1="fighter"/>
+<bOverworldByPass attr1="1"/>
+<bOverworldShipsByPass attr1="1"/>
+<missionRankRequired attr1="2.8"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="8"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="prideBountyHunter09"/>
+			<nameOverride attr1="Ripper"/>
+			<content attr1="Hey, I'm Ripper"/>
+			<content attr1="I handle the 'outsourcing' side of the Pride."/>
+			<content attr1="Hazard Inc. has patched me in via their comms."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="prideBountyHunter09"/>
+			<nameOverride attr1="Ripper"/>
+			<content attr1="Start the race as normal."/>
+			<content attr1="Pass through the gates."/>
+			<content attr1="Act like you are trying to win."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="prideBountyHunter09"/>
+			<nameOverride attr1="Ripper"/>
+			<content attr1="If you take too long it will look suspicious."/>
+			<content attr1="Hopefully our bounties will show up."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="prideBountyHunter09"/>
+			<nameOverride attr1="Ripper"/>
+			<content attr1="Stay sharp, you're on your own."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<missionHUDText attr1="Proceed to the start area..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="Race Track 0"/>
+		<goToDistance attr1="300"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<missionHUDText attr1="Start the race..."/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="Race Track 0"/>
+		<goToDistance attr1="100"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bFrequentCheckInterval attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="shakedown-l"/>
+	</postTrigger>
+	<bNoMissionEndWaitTimer attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<failMissionNumber attr1="5000"/>
+	<missionHUDText attr1="Gate 1 of 10..."/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="Race Track 1"/>
+		<goToDistance attr1="100"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bFrequentCheckInterval attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<bNoMissionEndWaitTimer attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<failMissionNumber attr1="5000"/>
+	<missionHUDText attr1="Gate 2 of 10..."/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="Race Track 2"/>
+		<goToDistance attr1="100"/>
+		<bFrequentCheckInterval attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<bSingleCompletesMission attr1="1"/>
+	<bNoMissionEndWaitTimer attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<failMissionNumber attr1="5000"/>
+	<missionHUDText attr1="Gate 3 of 10..."/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="Race Track 3"/>
+		<goToDistance attr1="100"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bFrequentCheckInterval attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<bNoMissionEndWaitTimer attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<nextMissionNumber attr1="2000"/>
+	<preTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="indiePirate"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="flint"/>
+		<shipName attr1="flint-1"/>
+		<shipID attr1="fury"/>
+		<shipName attr1="fury-1"/>
+		<shipID attr1="fury"/>
+		<shipName attr1="fury-2"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-1"/>
+		<faction attr1="indiePirate"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="Race Track 4"/>
+		<position x="200" y="2000" z="15000"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="flint-1"/>
+		<shipName attr1="fury-1"/>
+		<shipName attr1="fury-2"/>
+		<shipName attr1="leo-1"/>
+		<reletiveObject attr1="Race Track 4"/>
+		<hopPosition x="0" y="0" z="-1000"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="flint-1"/>
+		<objectName attr1="fury-1"/>
+		<objectName attr1="fury-2"/>
+		<objectName attr1="leo-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_ship_target_priority_list"/>
+		<note_to_self attr1="ensure fighters only attack player - not the race stations"/>
+		<shipName attr1="flint-1"/>
+		<shipName attr1="fury-1"/>
+		<shipName attr1="fury-2"/>
+		<shipName attr1="leo-1"/>
+		<targetPriorityList> 
+			<targetClass attr1="fighter"/>
+		</targetPriorityList>
+	</preTrigger>
+	<missionHUDText attr1="Gate 4 of 10..."/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="Race Track 4"/>
+		<goToDistance attr1="100"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bFrequentCheckInterval attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bSingleCompletesMission attr1="1"/>
+		<note_to_self attr1="either player flies through next gate or time expires..."/>
+	</objective>
+	<bNoMissionEndWaitTimer attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<missionHUDText attr1="Destroy pirate ships..."/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<nameOverride attr1="Indie Pirate"/>
+			<content attr1="They didn't pay... So you will!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<nameOverride attr1="Indie Pirate"/>
+			<content attr1="Wait wait! I've got a better one!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian03"/>
+			<nameOverride attr1="Indie Pirate"/>
+			<content attr1="They didn't pay... So you will..."/>
+			<content attr1="WITH YOUR LIFE! AHAH HAH HAH!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="prideBountyHunter09"/>
+			<nameOverride attr1="Ripper"/>
+			<content attr1="Wow... That's just sad..."/>
+			<content attr1="I feel the cringe all the way here..."/>
+			<content attr1="And people ask us if we ever feel remorse..."/>
+		</dialog>
+	</preDialog>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="indiePirate"/>
+		<bMarkShips attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<missionHUDText attr1="Destroy pirate ships..."/>
+		<preTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="indiePirate"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="flint"/>
+		<shipName attr1="flint-1"/>
+		<shipID attr1="fury"/>
+		<shipName attr1="fury-1"/>
+		<shipID attr1="scareCrow"/>
+		<shipName attr1="scareCrow-1"/>
+		<shipID attr1="scareCrow"/>
+		<shipName attr1="scareCrow-2"/>
+		<faction attr1="indiePirate"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="Race Track 8"/>
+		<position x="200" y="2000" z="15000"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="flint-1"/>
+		<shipName attr1="fury-1"/>
+		<shipName attr1="scareCrow-1"/>
+		<shipName attr1="scareCrow-2"/>
+		<reletiveObject attr1="Race Track 8"/>
+		<hopPosition x="0" y="0" z="-1000"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="flint-1"/>
+		<objectName attr1="fury-1"/>
+		<objectName attr1="scareCrow-1"/>
+		<objectName attr1="scareCrow-2"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_ship_target_priority_list"/>
+		<note_to_self attr1="ensure fighters only attack player - not the race stations"/>
+		<shipName attr1="flint-1"/>
+		<shipName attr1="fury-1"/>
+		<shipName attr1="scareCrow-1"/>
+		<shipName attr1="scareCrow-2"/>
+		<targetPriorityList> 
+			<targetClass attr1="fighter"/>
+		</targetPriorityList>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="indiePirate"/>
+		<bMarkShips attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<missionHUDText attr1="Destroy pirate ships..."/>
+	<preTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="indiePirate"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="roachC"/>
+		<shipName attr1="roachC-1"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="brick-1"/>
+		<shipID attr1="fury"/>
+		<shipName attr1="fury-1"/>
+		<shipID attr1="fury"/>
+		<shipName attr1="fury-2"/>
+		<shipID attr1="scareCrow"/>
+		<shipName attr1="scareCrow-1"/>
+		<shipID attr1="scareCrow"/>
+		<shipName attr1="scareCrow-2"/>
+		<faction attr1="indiePirate"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="Race Track 8"/>
+		<position x="200" y="2000" z="15000"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="roachC-1"/>
+		<shipName attr1="brick-1"/>
+		<shipName attr1="fury-1"/>
+		<shipName attr1="fury-2"/>
+		<shipName attr1="scareCrow-1"/>
+		<shipName attr1="scareCrow-2"/>
+		<reletiveObject attr1="Race Track 8"/>
+		<hopPosition x="0" y="0" z="-1000"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="roachC-1"/>
+		<objectName attr1="brick-1"/>
+		<objectName attr1="fury-1"/>
+		<objectName attr1="fury-2"/>
+		<objectName attr1="scareCrow-1"/>
+		<objectName attr1="scareCrow-2"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_ship_target_priority_list"/>
+		<note_to_self attr1="ensure fighters only attack player - not the race stations"/>
+		<shipName attr1="roachC-1"/>
+		<shipName attr1="brick-1"/>
+		<shipName attr1="fury-1"/>
+		<shipName attr1="fury-2"/>
+		<shipName attr1="scareCrow-1"/>
+		<shipName attr1="scareCrow-2"/>
+		<targetPriorityList> 
+			<targetClass attr1="fighter"/>
+		</targetPriorityList>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="prideBountyHunter09"/>
+			<nameOverride attr1="Ripper"/>
+			<content attr1="Hmmm... more ships than we anticipated."/>
+			<content attr1="I'm going to turn on the race gates' turrets."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="prideBountyHunter09"/>
+			<nameOverride attr1="Ripper"/>
+			<content attr1="No offense."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="prideBountyHunter09"/>
+			<nameOverride attr1="Ripper"/>
+			<content attr1="Try to hang around them if you want some extra fire power."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="11"/>
+	<nextMissionNumber attr1="12"/>
+	<missionHUDText attr1="Destroy pirate ships..."/>
+	<preTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="Race Track 0"/>
+		<objectName attr1="Race Track 1"/>
+		<objectName attr1="Race Track 2"/>
+		<objectName attr1="Race Track 3"/>
+		<objectName attr1="Race Track 4"/>
+		<objectName attr1="Race Track 5"/>
+		<objectName attr1="Race Track 6"/>
+		<objectName attr1="Race Track 7"/>
+		<objectName attr1="Race Track 8"/>
+		<objectName attr1="Race Track 9"/>
+		<objectName attr1="Race Track 10"/>
+		<faction attr1="thePride"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="indiePirate"/>
+		<bMarkShips attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="12"/>
+	<nextMissionNumber attr1="1000"/>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="prideBountyHunter09"/>
+			<nameOverride attr1="Ripper"/>
+			<content attr1="Well done..."/>
+			<content attr1="You've made us a lot of money..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="prideBountyHunter09"/>
+			<nameOverride attr1="Ripper"/>
+			<content attr1="And best of all..."/>
+			<content attr1="Showed that the Pride always comes out on top."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="3.05"/>
+		<faction attr="thePride"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="racing continues below..."/>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="Race Track 5"/>
+		<goToDistance attr1="100"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bFrequentCheckInterval attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<bNoMissionEndWaitTimer attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<nextMissionNumber attr1="2002"/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="Race Track 6"/>
+		<goToDistance attr1="100"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bFrequentCheckInterval attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<bNoMissionEndWaitTimer attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2002"/>
+	<nextMissionNumber attr1="2003"/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="Race Track 7"/>
+		<goToDistance attr1="100"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bFrequentCheckInterval attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<bNoMissionEndWaitTimer attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2003"/>
+	<nextMissionNumber attr1="2004"/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="Race Track 8"/>
+		<goToDistance attr1="100"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bFrequentCheckInterval attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<bNoMissionEndWaitTimer attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2004"/>
+	<nextMissionNumber attr1="2005"/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="Race Track 9"/>
+		<goToDistance attr1="100"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bFrequentCheckInterval attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<bNoMissionEndWaitTimer attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2005"/>
+	<nextMissionNumber attr1="2006"/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="Race Track 10"/>
+		<goToDistance attr1="100"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bFrequentCheckInterval attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="prideBountyHunter09"/>
+		<message attr1="What!? You completed the race? Guess they owe you some money!"/>
+	</postTrigger>
+	<reward>
+		<rewardType attr="credit"/>
+		<credits attr="5000"/>
+	</reward>
+	<bNoMissionEndWaitTimer attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="5000"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="prideBountyHunter09"/>
+		<message attr1="Too slow! It has to look legit!"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="8"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+</mission>

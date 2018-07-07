@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Skyboxes - Pretty Space"/> 
+<objectID attr1="z01SBPP01"/>
+<upgradeCategory attr1="other"/>
+<upgradeType attr1="other"/>
+<cost attr1="1500"/>
+<bAlwaysAvailableUpgrade attr1="1"/>
+<bPersistsOnShipChange attr1="1"/>
+<skybox attr1="blueNebula001"/>
+<skybox attr1="orangeNebula001"/>
+<skybox attr1="greenNebula001"/>
+<skybox attr1="redNebula001"/>
+<description attr1="Alters the visual aspect of the 'space skybox' with ones designed to more closely mimic 'normal' human vision."/>
+<description attr1=" "/>
+<description attr1="This skybox pack is how space is often portrayed in fiction and media. Realistically human vision would need to perceive a far wider spectrum of light to begin to grasp the majesty of the universe."/>
+<description attr1=" "/>
+<description attr1="As more and more Stubs started the re-integration the demand for these types of products increased. "/>
+<description attr1=" "/>
+<description attr1="Faction specific coloring."/>

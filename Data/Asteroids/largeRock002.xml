@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid"/> 
+<name attr1="Large Asteroid"/> 
+<objectID attr1="largeRock002"/> 
+<meshName attr1="largeRock002.mesh"/> 
+<wireframeMaterial attr1="WF/Asteroid"/>
+<descriptionText attr1="A large asteroid."/> 
+<bShowInTactical attr1="1"/>
+<tacticalExplosionID attr1="vdp_tac_ping_15_40"/> 
+<health attr1="15000.0"/> 
+<collisionShape attr1="simple_convex"/>
+<babySpawnDamage attr="30"/>
+<baby>
+	<asteroidID attr="tinyRock001"/>
+	<lifeTimer attr="180.0"/>
+	<linearVelocity x="3.0" y="3.0" z="10"/>
+</baby>
+<baby>
+	<asteroidID attr="tinyRock002"/>
+	<lifeTimer attr="180.0"/>
+	<linearVelocity x="3.0" y="3.0" z="10"/>
+</baby>
+<baby>
+	<asteroidID attr="tinyRock003"/>
+	<lifeTimer attr="180.0"/>
+	<linearVelocity x="3.0" y="3.0" z="10"/>
+</baby>
+<babyExplosionID attr="dirtExp00"/>
+<explosionID attr="roidExplode02"/>
+<deathSpawn>
+	<asteroidID attr="mediumRock002"/>
+	<asteroidID attr="mediumRock002"/>
+</deathSpawn>
+<deathLinearVelocity x="1.0" y="5.0" z="1"/>
+<asteroidSize attr="large"/>

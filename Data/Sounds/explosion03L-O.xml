@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="random"/>
+<objectID attr1="explode03L-O"/> 
+<soundFile attr1="explosionL00-O.wav"/> 
+<soundFile attr1="explosionL01-O.wav"/> 
+<soundFile attr1="explosionL02-O.wav"/>
+<soundFile attr1="explosionL03-O.wav"/>
+<soundFile attr1="explosionL04-O.wav"/>
+<soundFile attr1="explosionL05-O.wav"/>
+<soundFile attr1="explosionL06-O.wav"/>
+<maxDistance attr1="4500"/> 
+<referenceDistance attr1="2000"/>
+<soundPriority attr1="150"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="looping"/>
+<objectID attr1="oLBS00"/>
+<soundFile attr1="outsiderLightBeam00.wav"/>
+<tailSound attr1="outsiderLightBeamTail00.wav"/>
+<maxDistance attr1="875"/> 
+<referenceDistance attr1="225"/>
+<defaultVolume attr1="0.4"/>
+<soundPriority attr1="70"/>

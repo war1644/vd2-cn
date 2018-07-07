@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<displayName attr1="TSF Hangar Platform"/>
+<objectID attr1="hangar001"/> 
+<faction attr1="tsf"/>
+<bCommsOverride attr1="1"/>
+<stationClass attr1="hangar_station"/> 
+<stationSizeAsShip attr1="corvette"/>
+<creditCost attr1="350000"/>
+<meshName attr1="hangar001.mesh"/> 
+<wireframeMaterial attr1="WF/Hangar"/> 
+<descriptionText attr1="A defensive hangar platform, houses and launches fighter drones."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Often used to augment static defenses. Drones are useful for both near range defense as well as sending them on suicide runs."/>
+<health attr1="20000.0"/> 
+<explosionID attr1="explode05"/>
+<tacticalExplosionID attr1="tacExp25_75"/>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<hangarID attr1="tsfHPH"/>
+<debrisInfo>
+	<debris> 	
+		<debrisID attr1="hangar001D00"/> 
+	</debris>
+</debrisInfo> 

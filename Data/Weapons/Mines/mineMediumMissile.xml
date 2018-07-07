@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="mine"/> 
+<mineType attr1="basic_mine"/> 
+<objectID attr1="mineMediumMissile"/>
+<meshName attr1="mediumMissile00.mesh"/> 
+<cruiseSpeed attr1="0"/> 
+<timeTillCruise attr1="2.0"/> 
+<initialVelocity attr1="0.0"/>
+<bCheckFriendOrFoe attr1="1"/>
+<initialLife attr1="180.0"/> 
+<detectionProximity attr1="1350"/>
+<timeTillActive attr1="1.5"/>
+<damage attr1="0"/> 
+<weaponPush attr1="0"/>
+<health attr1="1.0"/> 
+<explosionID attr1="mHit"/>
+<yaw 	attr1="100.0"/> 
+<pitch	attr1="100.0"/> 
+<roll 	attr1="100.0"/> 
+<minimumShipClass attr1="fighter"/>
+<mirv> 
+	<mirvCount attr1="1.0"/> 
+	<bNoExplodeOnMirv attr1="1"/>
+	<mirvObjectID attr1="mediumMissile00"/> 
+</mirv> 
+<bCanAddViaBattleEditorSlider attr1="0"/>

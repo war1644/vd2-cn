@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Fury"/> 
+<objectID attr1="fury"/> 
+<faction attr1="reborn"/> 
+<shipClass attr1="fighter"/> 
+<shipClassSize attr1="light"/>
+<meshName attr1="Fury.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A light fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The primary fighter of the 'Reborn' pirates. A conglomerate of various factions that didn't quite 'give peace a chance' after the recent conflicts."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Fast, maneuverable and armed with quad projectile guns."/>
+<descriptionText attr1=""/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Long range projectile."/>
+<descriptionText attr1=""/>
+<descriptionText attr1="Shoots a projectile modified to greatly increase its velocity, thus increasing its range or decreasing its time till target. Giving the operation options to engage from a greater distance or land shots on a rapid moving target."/>
+<creditCost attr1="22500"/>
+<missionRankRequired attr1="1"/>
+<cruiseSpeed attr1="170.0"/> 
+<timeTillCruise attr1="0.95"/> 
+<yaw 	attr1="105.0"/>
+<pitch	attr1="105.0"/>
+<roll 	attr1="105.0"/>
+<bGravityDrive attr1="1"/>
+<cockpitInitPos x="0" y="7.2" z="13"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="14.4" z="64"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="650.0"/> 
+<buildTime	attr1="25.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="150.0"/> 
+<ore		attr1="225.0"/> 
+<damage>
+    <pitch attr1="0.0"/> 
+    <roll attr1="-115.0"/> 
+	<yaw attr1="-73.0"/> 
+	<position x="2.502" y="0" z="3.484"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="furyD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="furyD01"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explodeRed02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="0.8" y="2.6" z="4.8"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="0.8" y="-2.6" z="4.8"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="-0.8" y="2.6" z="4.8"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="-0.8" y="-2.6" z="4.8"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="6.25"/> 
+    <capacity attr1="2.1"/> 
+    <recharge attr1="2.8"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bPlayerSharedFire attr1="1"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="furyPG"/> 
+	<weaponPosition x="8.6" y="3.34" z="-4.14"/>
+	<weaponPosition x="8.6" y="-3.3" z="-4.08"/>
+	<weaponPosition x="-8.6" y="-3.3" z="-4.08"/>
+	<weaponPosition x="-8.6" y="3.34" z="-4.14"/>
+	<barrelDelay attr1="0.045"/>
+</weapon> 
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="furyPGLR"/> 
+	<weaponPosition x="8.6" y="3.34" z="-4.14"/>
+	<weaponPosition x="8.6" y="-3.3" z="-4.08"/>
+	<weaponPosition x="-8.6" y="-3.3" z="-4.08"/>
+	<weaponPosition x="-8.6" y="3.34" z="-4.14"/>
+	<barrelDelay attr1="0.045"/>
+	<weaponFire attr1="secondary"/> 
+</weapon> 
+<upgrades> 
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield00"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="fFrontShield00"/>
+	<upgradeID attr1="burnerCap00"/>	
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="lightFighterPUS00"/>
+	<upgradeID attr1="lightFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="-0.22" z="-3.95"/>

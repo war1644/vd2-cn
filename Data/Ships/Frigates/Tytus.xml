@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Tytus"/> 
+<objectID attr1="tytus"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="mining"/> 
+<shipClassSize attr1="light"/>
+<sizeShipClass attr1="frigate"/> 
+<meshName attr1="Tytus.mesh"/>
+<wireframeMaterial attr1="WF/Harnden"/> 
+<descriptionText attr1="A mining ship, light frigate class."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="In the early day of this area of space, Tytus mining ships were a common sight. As more and more ore deposits were found heavier mining operations moved in, settling the mega asteroids that these drill ships dug out."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Once crowded out of the market, some of these early miners turned to piracy, becoming a minor nuisance. Tytus mining ships became a rare and unwelcome sight."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Due to the recent resurgence of independent mining operations, the scramble to fill the need for cheap and reliable mining ships has resurrected the Tytus. Few of its operators know or care about its history, there's rock drilling to do."/>
+<creditCost attr1="465000"/>
+<missionRankRequired attr1="0"/>
+<cruiseSpeed attr1="42.0"/> 
+<timeTillCruise attr1="3.05"/> 
+<yaw 	attr1="35.0"/> 
+<pitch	attr1="35.0"/> 
+<roll 	attr1="35.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitActualPos x="0" y="13.92" z="-36.58"/>
+<cockpitActualMesh attr1="cockpitTytus.mesh"/> 
+<cockpitInitPos x="0" y="27.35" z="-12.5"/>
+<cockpitTransLimit x="3" y="3" z="3"/>
+<chaseInitPos x="0" y="53.03" z="400"/>
+<chaseTransLimit x="16" y="10" z="6"/> 
+<health attr1="31000"/> 
+<armor attr1="0.75"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="13.0"/> 
+    <roll attr1="-90.0"/> 
+	<yaw attr1="-12.0"/> 
+	<position x="20.702" y="-14.153" z="-64.898"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage03"/>
+</damage>
+<damage>
+    <pitch attr1="21.0"/> 
+    <roll attr1="90.0"/> 
+	<yaw attr1="11.0"/> 
+	<position x="-7.610" y="-7.558" z="131.992"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage04"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="tytusD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explode04"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="0" y="-9.594" z="147.5"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/>
+	<position x="20.07" y="-35.665" z="22.5"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion>
+    <propulsionEffectID attr1="propulsion100"/>
+	<position x="-20.07" y="-35.665" z="22.5"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion>
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="18.606" y="-9.686" z="114.135"/>
+	<direction attr1="port"/> 
+</propulsion>
+<propulsion>
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="-18.606" y="-9.686" z="114.135"/>
+	<direction attr1="starboard"/> 
+</propulsion>
+<afterburner>
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="4.55"/> 
+    <capacity attr1="10.75"/>
+    <recharge attr1="12"/> 
+</afterburner>
+<weapon> 
+    <weaponType attr1="collision"/> 
+    <hardpointID attr1="tytusDrill"/> 
+	<weaponPosition x="0.0" y="-13.756" z="-123.330"/>
+</weapon>
+<weapon>
+    <weaponType attr1="tractor_beam"/> 
+    <hardpointID attr1="rockPuller00"/> 
+	<weaponPosition x="0" y="-13.756" z="-123.330"/>
+	<weaponFire attr1="secondary"/>
+</weapon>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<position x="0" y="24.680" z="65.040"/>
+	<pitchLower attr1="-2"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<position x="0" y="-43.671" z="-46.525"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="bottom"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<targetPriorityList> 
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="dreadnaught"/> 
+	<targetClass attr1="attack_station"/>
+</targetPriorityList>
+<dock> 
+	<position x="0" y="-23.265" z="1.788"/>
+	<orientation attr1="bottom"/>
+	<ejectOrientation attr1="up"/> 
+	<ejectVelocity attr1="45"/>
+	<bCanAcceptRawResource attr1="1"/>
+</dock>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="2"/>
+	<activeUpgradeCapacity attr1="3"/>
+	<upgradeID attr1="gunPod00"/>
+	<upgradeID attr1="frArmor00"/>
+	<upgradeID attr1="frUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="frigateMan00"/>
+	<upgradeID attr1="frigateThrust00"/>
+	<upgradeID attr1="frAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="frArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="frSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="frigatePUS00"/>
+	<upgradeID attr1="frigateAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.87" y="0" z="100"/>

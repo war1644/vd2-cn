@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="correaT02"/> 
+<name attr1="Heavy Turret"/> 
+<meshName attr1="correaTurret02.mesh"/> 
+<turretWeapon attr1="projectile"/>
+<pitchMax attr1="25.0"/>
+<hardpointID attr1="correaT02G"/>
+<dMoveSpeed attr1="20.0"/> 
+<turretBarrel>
+	<weaponPosition x="3.71" y="0" z="-18.19"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-3.79" y="0" z="-19.14"/>
+	<boneName attr1="muzzle2"/>
+</turretBarrel>
+<turretViewPos x="0" y="10.36" z="32.82"/>
+<targetPriorityList>
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="attack_station"/>
+	<targetClass attr1="gunship"/>
+	<targetClass attr1="fighter"/>
+</targetPriorityList>
+<turnSoundID attr1="turretR01"/>
+<bPhysicalBody attr1="1"/>
+<bAlwaysShowInTactical attr1="1"/>

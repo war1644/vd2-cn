@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="debris"/> 
+<name attr1="Debris"/> 
+<objectID attr1="scorpionD00"/> 
+<meshName attr1="scorpionD00.mesh"/> 
+<faction attr1="outsider"/>
+<descriptionText attr1="Some debris."/> 
+<health attr1="1000.0"/> 
+<timeToLive attr1="35.0"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<explosionID attr1="outsiderE02"/>
+<minimumMomentum attr="1"/>
+<minimumRotation attr="1"/>
+<debrisSizeAsShipClass attr1="fighter"/>
+<bCanAddViaBattleEditorSlider attr1="1"/>

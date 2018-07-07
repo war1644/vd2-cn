@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<duration attr1="2.0"/>
+	<bPaused attr1="1"/>
+	<lookAtObject attr1="sanctuary"/> 
+	<reletiveObject attr1="sanctuary"/> 
+	<cameraPosition x="-500" y="50" z="-2000"/>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<bPaused attr1="1"/>
+	<duration attr1="3"/> 
+	<headingText attr1="Sanctuary..."/>
+	<trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-spooky00"/> 	
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="3"/>
+	<headingText attr1="Kind Base..."/>
+	<bPaused attr1="1"/>
+</sceneFragment>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="mineSat001MT"/>
+<name attr1="Mine Turret"/> 
+<turretWeapon attr1="mine"/>
+<hardpointID attr1="mineSatML"/>
+<turretBarrel>
+	<weaponPosition x="0" y="3.5" z="-12.33"/>
+</turretBarrel>

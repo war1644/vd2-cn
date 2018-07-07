@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Scav MK2"/> 
+<objectID attr1="scavMK2"/> 
+<faction attr1="beggar"/> 
+<shipClass attr1="fighter"/>
+<shipClassSize attr1="medium"/>
+<meshName attr1="scavMK2.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="An upgraded variant of the Scav fighter."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="This heavier ship has proper shielded plates, an additional engine to compensate for the weight, as well as a turret chain gun."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Dumb fire torpedo."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Expels a un-powered torpedo that will inherit its parent's velocity, flying straight ahead."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Without any maneuvering or thrust components, the torpedo is instead optimized for damage. Be sure to have sufficient velocity before firing, so that it will reach its target, sooner rather than never. Flying straight at your target is advised."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Another form of intimidation in the Beggar's tool box."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The MK2 has the capacity to fire two at once."/>
+<creditCost attr1="32000"/>
+<bBlackMarket attr1="1"/>
+<cruiseSpeed attr1="145.0"/> 
+<timeTillCruise attr1="1.35"/> 
+<yaw 	attr1="105.0"/> 
+<pitch	attr1="105.0"/> 
+<roll 	attr1="105.0"/> 
+<bGravityDrive attr1="1"/>
+<cockpitActualPos x="0" y="0" z="3.5"/>
+<cockpitActualMesh attr1="cockpitScavMK2.mesh"/>
+<cockpitInitPos x="0" y="4.09" z="3.52"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="12.52" z="65"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="700.0"/> 
+<buildTime	attr1="25.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="150.0"/> 
+<ore		attr1="225.0"/> 
+<damage>
+    <pitch attr1="-20.0"/> 
+    <roll attr1="-62.0"/> 
+	<yaw attr1="23.0"/> 
+	<position x="6.2" y="2.549" z="1.454"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="scavMK2D00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+	<debris>
+		<debrisID attr1="scavD01"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="5.21" y="1.6" z="5.34"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="5.21" y="-1.53" z="5.34"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="-3.99" y="-0.01" z="5.91"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="6.25"/>
+    <capacity attr1="7.0"/>
+    <recharge attr1="8.0"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="scavPCG"/> 
+	<weaponPosition x="-3.3" y="1.13" z="-5.33"/>
+	<weaponPosition x="-2.84" y="0.68" z="-5.25"/>
+	<weaponPosition x="-3.47" y="0.52" z="-5.23"/>
+	<barrelDelay attr1="0.06"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="scavPCG"/> 
+	<weaponPosition x="-4.45" y="-0.48" z="-5.26"/>
+	<weaponPosition x="-5.07" y="-0.62" z="-5.23"/>
+	<weaponPosition x="-4.61" y="-1.09" z="-5.25"/>
+	<barrelDelay attr1="0.06"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="missile"/> 
+    <hardpointID attr1="beggarDTL02"/> 
+	<weaponPosition x="2.758" y="-4.283" z="-1.189"/>
+	<weaponPosition x="-2.758" y="-4.283" z="-1.189"/>
+	<barrelDelay attr1="0"/>
+	<weaponFire attr1="secondary"/> 	
+</weapon>
+<turret>
+    <turretID attr1="scavMK2T"/>
+    <turretOrientation attr1="right"/> 
+	<position x="16.05" y="0.03" z="0.61"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+</turret>
+<attachment>
+	<attachmentID attr1="scavMK2Shield00"/>
+	<attachmentPosition x="0" y="0" z="7.62"/>
+</attachment>
+<attachment>
+	<attachmentID attr1="scavMK2Shield01"/>
+	<attachmentPosition x="-6.08" y="0" z="2.36"/>
+</attachment>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="2"/>
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed01"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="mediumFighterPUS00"/>
+	<upgradeID attr1="mediumFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="-0.16" z="-5.33"/>

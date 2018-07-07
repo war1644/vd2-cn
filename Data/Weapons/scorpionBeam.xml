@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="beam"/> 
+<weaponID attr1="scorpionB"/> 
+<name attr1="Light Beam"/> 
+<materialName attr1="Weapons/heavyBeam"/> 
+<hitParticleName attr1="lightBeamHit"/>
+<muzzleFlashEffectID attr1="mfOLB00"/>
+<fireSoundID attr1="oLBS00"/>
+<damage attr1="105.0"/> 
+<range attr1="1850.0"/> 
+<baseScale attr1="0.3"/>
+<oscilateRange attr1="0.1"/>
+<oscilateAmount attr1="0.1"/>
+<capacity attr1="1.55"/> 
+<reloadTime attr1="1.05"/> 
+<assistDegree attr1="5.5"/>

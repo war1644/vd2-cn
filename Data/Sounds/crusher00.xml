@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="looping"/>
+<objectID attr1="crusher00"/>
+<soundFile attr1="crusher00.wav"/>
+<tailSound attr1="crusherTail00.wav"/>
+<maxDistance attr1="1500"/>
+<referenceDistance attr1="1000"/>
+<defaultVolume attr1="0.20"/>
+<soundPriority attr1="150"/>

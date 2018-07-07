@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="missile"/> 
+<weaponID attr1="rhinoTL"/> 
+<ammunitionID attr1="rhinoTorp01"/> 
+<name attr1="Launcher"/> 
+<fireSoundID attr1="missileLS"/>
+<reFireRate attr1="1.75"/>
+<capacity attr1="6"/>
+<reloadTime attr1="15"/> 
+<muzzleFlashEffectID attr1="mfML01"/>

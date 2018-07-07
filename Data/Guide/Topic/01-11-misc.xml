@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="ship_mode_misc"/>
+<topicName attr1="Other"/>
+<mainText attr1="Other:"/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Hide HUD - KEY - "/>
+<commandTypeName attr1="ship_command"/>
+<commandIDName attr1="toggle_hud"/>
+<mainText attr1=" "/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Shared Keys:"/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Time Dilation - KEY - "/>
+<commandTypeName attr1="command_common"/>
+<commandIDName attr1="time_dilation"/>
+<mainText attr1="Quick Save - KEY - "/>
+<commandTypeName attr1="command_common"/>
+<commandIDName attr1="quick_save"/>
+<mainImage>
+	<image attr1="set:guide_ship_misc image:guide_ship_misc"/>
+</mainImage>

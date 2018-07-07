@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<hudID attr1="cbaHUD"/> 
+<crossHair>
+	<materialName attr1="Hud/Crosshair"/> 
+	<onMaterialName attr1="Hud/CrosshairOn"/> 
+	<position x="0.0" y="0.0"/> 
+	<size x="0.04" y="0.04"/> 
+</crossHair>
+<turretCrossHair>
+	<materialName attr1="Hud/TurretCrosshair"/> 
+	<onMaterialName attr1="Hud/TurretCrosshair"/> 
+	<position x="0.0" y="0.0"/> 
+	<size x="0.035" y="0.035"/> 
+</turretCrossHair>
+<mouseManeuver>
+	<materialName attr1="Hud/MouseManeuver"/>
+	<onMaterialName attr1="Hud/MouseManeuverOn"/>
+	<position x="0.0" y="0.0"/> 
+	<size x="0.03" y="0.03"/> 
+</mouseManeuver>
+<targetBox>
+	<friendlyMaterialName 					attr1="Hud/FriendlyTarget_CBA"/> 
+	<enemyMaterialName 						attr1="Hud/EnemyTarget_CBA"/>
+	<enemyTargetingPlayerMaterialName 		attr1="Hud/EnemyAttackTarget_CBA"/> 
+	<neutralMaterialName 					attr1="Hud/NeutralTarget_CBA"/> 
+	<size x="0.04" y="0.04"/> 
+</targetBox>
+<radarInfo>
+	<neutralBlipColor 			r="0.8" g="0.8" b="0.8" a="1.0"/> 
+	<friendlyBlipColor 			r="0" g="0" b="1" a="1.0"/> 
+	<enemyBlipColor 			r="1" g="0.5" b="0" a="1.0"/> 
+	<enemyTargetingBlipColor 	r="1" g="0.1" b="0.1" a="1.0"/> 
+</radarInfo>
+<aimLead>
+	<materialName attr1="Hud/AimLead"/> 
+	<size x="0.03" y="0.03"/> 
+</aimLead>
+<orientationBar>
+	<materialName attr1="Hud/Orientation"/> 
+	<position x="0.0" y="-0.45"/> 
+	<size x="0.22" y="0.22"/> 
+</orientationBar>
+<navArrow>
+	<materialName attr1="Hud/NavArrow"/> 
+	<meshName attr1="navArrow.mesh"/>
+	<position x="0.0" y="-0.25" z="0.0"/> 
+	<size x="0.1" y="0.1" z="0.1"/> 
+</navArrow>
+<hudFloorGrid floorOffset="10" size="1000" majorSegments="10" minorSegments="5"/> 

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Beginnings"/>
+<objectID attr1="main00"/>
+<missionLocation attr1="debris001"/>
+<creditReward attr1="0"/>
+<bRepeatable attr1="0"/>
+<bNoShowInMissionList attr1="1"/>
+<bCanBeCancelled attr1="0"/>
+<bCompletedOnNextOverworldMode attr1="1"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<failMissionNumber attr1="6"/>
+	<bForceActive attr1="1"/>
+	<preCutscene attr1="main-00-introMissionScene-00"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<note_to_self attr1="putting this here - eliminates some goofyness with switching to overworld-etc"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="hercules"/>
+		<shipName attr1="Hercules 1-1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="0"/>
+		<bCheckPosition attr1="0"/>
+		<bReletiveToPlayer attr1="1"/>
+		<_position x="750" y="60" z="1300"/>
+		<position x="750" y="-300" z="700"/>
+		<bOverworld attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="Hercules 1-1"/> 	
+		<alterType attr1="toggle_must_survive"/>
+		<bToggle attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="cargoPod 1-1"/>
+		<faction attr1="civilian"/>
+		<bCheckPosition attr1="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bReletiveToPlayer attr1="1"/>
+		<position x="0" y="0" z="55"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="Hercules 1-1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="cargoPod 1-1"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="Hey Taz... "/>
+			<content attr1="How do we work this thing?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="We just tell it what to do."/>
+			<content attr1="Let's try something easy..."/>
+			<content attr1="Hey!"/>
+			<content attr1="Stub!"/>
+			<content attr1="Go to the position marked on your HUD."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<failMissionNumber attr1="6"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="1200" y="0" z="-750"/>
+		<reletiveObject attr1="playerShip"/>
+		<goToDistance attr1="100"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="cargoPod 1-1"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<missionHUDText attr1="Go to the marked position"/>
+	<missionHUDText attr1="Maneuver via mouse or controller"/>
+	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
+	<missionHUDText attr1="All stop - key" attr2="ship_command" attr3="zero_speed"/>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="Damn..."/>
+			<content attr1="It actually did it..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="Didn't I tell you?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="I want to try..."/>
+			<content attr1="Marking another point."/>
+			<content attr1="Stub! Go!"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<failMissionNumber attr1="6"/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="-1250" y="0" z="500"/>
+		<reletiveObject attr1="cargoPod 1-1"/>
+		<goToDistance attr1="100"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="cargoPod 1-1"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<missionHUDText attr1="Go to the marked position"/>
+	<missionHUDText attr1="Maneuver via mouse or controller"/>
+	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
+	<missionHUDText attr1="All stop - key" attr2="ship_command" attr3="zero_speed"/>
+	<missionHUDText attr1="Afterburner - key" attr2="ship_command" attr3="afterburner"/>
+	<missionHUDText attr1=" "/>
+	<missionHUDText attr1="Increase speed setting - key" attr2="ship_command" attr3="increase_speed"/>
+	<missionHUDText attr1="Decrease speed setting - key" attr2="ship_command" attr3="decrease_speed"/>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="Damn..."/>
+			<content attr1="What else can it do?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="How about this?"/>
+			<content attr1="Dumping some debris."/>
+			<content attr1="Stub! Destroy!"/>
+		</dialog>
+	</postDialog>
+	<postTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="furyD00"/>
+		<name attr1="Debris 1"/>
+		<position x="3" y="3" z="-60"/>
+		<angularVelocity x="-0.607292" y="-0.188076" z="0.387534"/>
+		<linearVelocity x="0" y="0" z="-18"/>
+		<bLimitLife attr1="0"/>
+		<reletiveObject attr1="cargoPod 1-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="mosquitoD00"/>
+		<name attr1="Debris 2"/>
+		<position x="1" y="-2" z="-68"/>
+		<angularVelocity x="0.607292" y="-0.86" z="0.187534"/>
+		<linearVelocity x="0" y="0" z="-14"/>
+		<bLimitLife attr1="0"/>
+		<reletiveObject attr1="cargoPod 1-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="furyD01"/>
+		<name attr1="Debris 3"/>
+		<position x="-2" y="-4" z="-78"/>
+		<angularVelocity x="-0.107292" y="0.11076" z="-0.887534"/>
+		<linearVelocity x="0" y="0" z="-7"/>
+		<bLimitLife attr1="0"/>
+		<reletiveObject attr1="cargoPod 1-1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="gebT"/>
+		<shipName attr1="GebT 1-1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="0"/>
+		<reletiveObject attr1="Hercules 1-1"/>
+		<position x="3500" y="200" z="7000"/>
+		<bOverworld attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="cargoPodOreForMission1-1"/>
+		<faction attr1="civilian"/>
+		<reletiveObject attr1="Hercules 1-1"/>
+		<position x="3500" y="100" z="7000"/>
+		<bFillToCapacity attr1="1"/>
+		<carryingShip attr1="GebT 1-1"/>
+	</preTrigger>
+	<preTrigger>
+		<postTrigger attr1="toggle_comms_override"/>
+		<objectName attr1="GebT 1-1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="Debris 1"/>
+		<targetName attr1="Debris 2"/>
+		<targetName attr1="Debris 3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<commandType attr1="go_to_position"/>
+		<shipName attr1="GebT 1-1"/>
+		<position x="-3500" y="100" z="-7000"/>
+		<reletiveObject attr1="Hercules 1-1"/>
+	</postTrigger>
+	<missionHUDText attr1="Destroy the debris"/>
+	<missionHUDText attr1="Fly towards debris"/>
+	<missionHUDText attr1="Left click to target"/>
+	<missionHUDText attr1="Right click to fire weapons"/>
+	<missionHUDText attr1="Secondary weapon - key " attr2="ship_command" attr3="fire_secondary"/>
+	<missionHUDText attr1=" "/>
+	<missionHUDText attr1="Weapons range indicator - orange marker on target indicator."/>
+	<missionHUDText attr1=" "/>
+	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
+	<missionHUDText attr1="All stop - key" attr2="ship_command" attr3="zero_speed"/>
+	<missionHUDText attr1="Afterburner - key" attr2="ship_command" attr3="afterburner"/>
+	<missionHUDText attr1=" "/>
+	<missionHUDText attr1="Increase speed setting - key" attr2="ship_command" attr3="increase_speed"/>
+	<missionHUDText attr1="Decrease speed setting - key" attr2="ship_command" attr3="decrease_speed"/>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="Damn..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="Double damn!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="We could have this thing mining ore non stop, or doing transport runs..."/>
+			<content attr1="We'll be rich!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="Meh... you're thinking small again..."/>
+			<content attr1="How about shaking down miners and stealing cargo pods!"/>
+			<content attr1="heh heh..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="Yeah..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="Alright, say we take him, her, whatever..."/>
+			<content attr1="Won't they notice?"/>
+			<bClearAllText attr1="1"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="We'll just say, we were attacked."/>
+			<content attr1="And dumped the pod..."/>
+			<content attr1="Like they say - company policy."/>
+			<content attr1="Nobody is going to care about a missing Stub."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="Right... right..."/>
+			<content attr1="Hold up... I'm getting something on the scanner..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="Looks like just some dumb transport ship."/>
+			<content attr1="Let's have some fun!"/>
+			<content attr1="Stub! Intercept!"/>
+		</dialog>
+	</preDialog>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="GebT 1-1"/>
+		<goToDistance attr1="1000"/>
+	</objective>
+	<missionHUDText attr1="Intercept the ship"/>
+	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
+	<missionHUDText attr1=" "/>
+	<missionHUDText attr1="Afterburner - key" attr2="ship_command" attr3="afterburner"/>
+	<missionHUDText attr1=" "/>
+	<missionHUDText attr1="Manual thrust control:"/>
+	<missionHUDText attr1=" "/>
+	<missionHUDText attr1="Left thrust - key" attr2="ship_command" attr3="thrust_left"/>
+	<missionHUDText attr1="Right thrust - key" attr2="ship_command" attr3="thrust_right"/>
+	<missionHUDText attr1="Ascend thrust - key" attr2="ship_command" attr3="thrust_up"/>
+	<missionHUDText attr1="Descend thrust - key" attr2="ship_command" attr3="thrust_down"/>
+	<missionHUDText attr1="Forward thrust - key" attr2="ship_command" attr3="thrust_foreward"/>
+	<missionHUDText attr1="Reverse thrust - key" attr2="ship_command" attr3="thrust_back"/>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="Hurry up next time!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="Ok here's how we are going to play it."/>
+			<content attr1="It will shoot it up a bit, we'll demand ransom."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="Nice! Hah hah!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="Stub! Attaer2#5"/>
+			<content attr1="--- Error: Comms Jammed ---"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="brPlouton"/>
+			<content attr1="--- Error: Comms Override ---"/>
+			<content attr1="--- Error: Receiving Broadcast Communication ---"/>
+			<content attr1="Hey kiddo."/>
+			<content attr1="I don't normally do this..."/>
+			<content attr1="But I have a feeling about you."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="brPlouton"/>
+			<content attr1="You are free."/>
+			<content attr1="Leave."/>
+			<content attr1="Go to the nearest base."/>
+			<content attr1="Be anything you want."/>
+			<content attr1="But remember..."/>
+			<content attr1="Make pappa proud."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="next_mission"/>
+		<missionID attr1="main01"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="50000"/>
+	</objective>
+	<missionHUDText attr1="Leave the area"/>
+	<missionHUDText attr1="Enter Overworld mode"/>
+	<missionHUDText attr1="Overworld mode - key" attr2="command_common" attr3="overworld"/>
+	<missionHUDText attr1=" "/>
+	<missionHUDText attr1="Increase speed setting - key" attr2="ship_command" attr3="increase_speed"/>
+	<missionHUDText attr1="Decrease speed setting - key" attr2="ship_command" attr3="decrease_speed"/>
+	<missionHUDText attr1="Afterburner - key" attr2="ship_command" attr3="afterburner"/>
+	<missionHUDText attr1=" "/>
+	<missionHUDText attr1="Manual thrust control:"/>
+	<missionHUDText attr1="Forward thrust - key" attr2="ship_command" attr3="thrust_foreward"/>
+</mission>

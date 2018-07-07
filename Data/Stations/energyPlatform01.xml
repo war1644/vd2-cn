@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Energy Platform"/> 
+<objectID attr1="energyPlatform01"/> 
+<faction attr1="civilian"/> 
+<stationClass attr1="production_platform"/>
+<resourceProduced attr1="energy"/>
+<stationSizeAsShip attr1="carrier"/>
+<creditCost attr1="2000000"/>
+<bCommonPlatform attr1="1"/>
+<meshName attr1="energyPlatform01.mesh"/>
+<physicalRotatingElement> 
+	<meshName attr1="ep01EnergyGen1.mesh"/>
+	<rollSpeed attr1="3"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<physicalRotatingElement> 
+	<meshName attr1="ep01EnergyGen2.mesh"/>
+	<rollSpeed attr1="-3"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<wireframeMaterial attr1="WF/FrigateShipyard"/> 
+<descriptionText attr1="A platform capable of generating energy."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="A scaled down version of a energy producing base, this platform sacrifices base amenities for efficiency and size."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="When owned by bases, these platforms assist in their owner's production and consumption needs."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="When interdependently run, their low prices make them sought out trading partners."/>
+<health attr1="200000"/>
+<explosionID attr1="explode15"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="foodPlatform01D00"/> 
+		<debrisMomentum attr1="2.5"/> 
+		<debrisAngular attr1="2.5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="foodPlatform01D00"/> 
+		<debrisMomentum attr1="2.5"/> 
+		<debrisAngular attr1="2.5"/> 
+	</debris>
+</debrisInfo>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="projectile"/> 
+<projectileID attr1="heavyPlasmaP"/> 
+<projectileType attr1="particle_projectile"/> 
+<projectileParticleName attr1="vdp_plasma_bullet_10"/>
+<projectileVelocity attr1="800.0"/> 
+<initialLife attr1="3.0"/> 
+<_range attr1="2400.0"/> 
+<damage attr1="115.0"/>
+<explosionID attr1="explode00"/> 
+<bAntiCapital attr1="1"/>
+<canister> 
+	<canisterCount attr1="1"/>
+	<blowBackCanisterCount attr1="1"/>
+	<projectileID attr1="arFlameP"/>
+	<yawRange attr1="5"/>
+	<pitchRange attr1="5"/>
+	<rollRange attr1="2"/>
+	<speedAddBase attr1="5"/>
+	<speedAddRandom attr1="2"/>
+	<bCanisterAimAssist attr1="0"/>
+	<bAddToRangeCalculations attr1="0"/>
+</canister>

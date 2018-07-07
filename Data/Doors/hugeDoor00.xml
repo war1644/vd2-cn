@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="door"/> 
+<name attr1="Regular Door"/> 
+<objectID attr1="hugeDoor00"/> 
+<meshName attr1="hugeDoor00.mesh"/>
+<translateMax x="38" y="0" z="0"/>
+<doorSoundID attr1="hugeDoor00"/>
+<bPhysicalDoor attr1="0"/>
+<bOpenOnProximity attr1="0"/>

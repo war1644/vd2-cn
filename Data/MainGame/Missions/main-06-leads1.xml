@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="First Lead"/>
+<objectID attr1="main06"/>
+<missionFactionID attr1="kind"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="-4800" y="0" z="-2400"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="25000"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<minimumShipClass attr1="gunship"/>
+<maximumShipClass attr1="gunship"/>
+<bOverworldByPass attr1="1"/>
+<bOverworldShipsByPass attr1="1"/>
+<bStoryMission attr1="1"/>
+<bHidden attr1="1"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="caterpillar"/>
+		<shipName attr1="m06-caterpillar-1"/>
+		<shipID attr1="caterpillar"/>
+		<shipName attr1="m06-caterpillar-2"/>
+		<shipID attr1="caterpillar"/>
+		<shipName attr1="m06-caterpillar-3"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="indie"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="0" y="500" z="-3500"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="m06-orePod01-1"/>
+		<faction attr1="indie"/>
+		<reletiveObject attr1="m06-caterpillar-1"/>
+		<position x="0" y="200" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<carryingShip attr1="m06-caterpillar-1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="m06-orePod01-2"/>
+		<faction attr1="indie"/>
+		<reletiveObject attr1="m06-caterpillar-2"/>
+		<position x="0" y="200" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<carryingShip attr1="m06-caterpillar-2"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="m06-orePod01-3"/>
+		<faction attr1="indie"/>
+		<reletiveObject attr1="m06-caterpillar-3"/>
+		<position x="0" y="200" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<carryingShip attr1="m06-caterpillar-3"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="taurus"/>
+		<shipName attr1="m06-taurus-1"/>
+		<shipID attr1="taurus"/>
+		<shipName attr1="m06-taurus-2"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="m06-brick-1"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="m06-brick-2"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="m06-leo-1"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="m06-leo-2"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="indie"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="0" y="500" z="-3500"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="vulture"/>
+		<shipName attr1="m06-vulture-p1"/>
+		<shipID attr1="taurus"/>
+		<shipName attr1="m06-taurus-p1"/>
+		<shipID attr1="scavMK2"/>
+		<shipName attr1="m06-scavMK2-p1"/>
+		<shipID attr1="duelistMK2"/>
+		<shipName attr1="m06-duelistMK2-p1"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="m06-brick-p1"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="m06-brick-p2"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="m06-leo-p1"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="m06-leo-p2"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="indiePirate"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="0" y="500" z="-3500"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="arsonist"/>
+		<shipName attr1="m06-arsonist-p1"/>
+		<shipID attr1="arsonist"/>
+		<shipName attr1="m06-arsonist-p2"/>
+		<shipID attr1="arsonist"/>
+		<shipName attr1="m06-arsonist-p3"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="indiePirate"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="0" y="500" z="-3500"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="m06-arsonist-p1"/>
+		<objectName attr1="m06-arsonist-p2"/>
+		<objectName attr1="m06-arsonist-p3"/>
+		<targetName attr1="m06-caterpillar-3"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="m06-caterpillar-1"/>
+		<objectName attr1="m06-caterpillar-2"/>
+		<objectName attr1="m06-caterpillar-3"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubMaleGeneric02"/>
+		<message attr1="Verify identity using comms."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<missionHUDText attr1="Open Comms with the first ship..."/>
+	<objective>
+		<objectiveType attr1="comms_target"/> 
+		<objectName attr1="m06-caterpillar-1"/>
+		<markObject attr1="m06-caterpillar-1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Hello"/>
+			<content attr1="Who is this?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<content attr1="Hello?"/>
+			<content attr1="Hello!?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<content attr1="You commed me!"/>
+			<content attr1="Who the HELL are you!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Not the one."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<content attr1="What?"/>
+			<content attr1="What!"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<missionHUDText attr1="Open Comms with the second ship..."/>
+	<objective>
+		<objectiveType attr1="comms_target"/> 
+		<objectName attr1="m06-caterpillar-2"/>
+		<markObject attr1="m06-caterpillar-2"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian01"/>
+			<content attr1="Hello?"/>
+			<content attr1="We are under attack!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Not the one."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian01"/>
+			<content attr1="What?"/>
+			<content attr1="Please help us!"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<missionHUDText attr1="Open Comms with the third ship..."/>
+	<objective>
+		<objectiveType attr1="comms_target"/> 
+		<objectName attr1="m06-caterpillar-3"/>
+		<markObject attr1="m06-caterpillar-3"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian07-g"/>
+			<content attr1="*32903824weee att"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Say again."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian07-g"/>
+			<content attr1="w833 ehhee?399-0--"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="Looks like their comms system is damaged."/>
+			<content attr1="We have to be sure."/>
+			<content attr1="Get involved."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<failMissionNumber attr1="2000"/>
+	<missionHUDText attr1="Destroy Pirates..."/>
+	<missionHUDText attr1="Protect Transport..."/>
+	<preTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="indiePirate"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_watched"/>
+		<objectName attr1="m06-caterpillar-3"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="interlinked"/> 	
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="indiePirate"/>
+		<bMarkShips attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="m06-caterpillar-3"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="m06-caterpillar-3"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian07-g"/>
+			<content attr1="*ruruwya#44"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Again."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian07-g"/>
+			<content attr1="HE3933jw$$4"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian07"/>
+			<content attr1="You saved us!"/>
+			<content attr1="How can we ever repay you?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Not the one."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian07"/>
+			<content attr1="Wha?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian07"/>
+			<content attr1="Are the comms still malfunctioning?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="Second lead to check out."/>
+			<content attr1="Sending the info to your ship."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="1000"/>
+	<preTrigger>
+		<triggerType attr1="next_mission"/>
+		<missionID attr1="main07"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="mission failure"/>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubMaleGeneric02"/>
+		<message attr1="TRANSPORT DOWN!"/>
+	</preTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="playerShip"/>
+		<bSetting attr1="0"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

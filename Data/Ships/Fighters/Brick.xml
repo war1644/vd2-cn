@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Brick"/> 
+<objectID attr1="brick"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="fighter"/> 
+<shipClassSize attr1="heavy"/>
+<meshName attr1="Brick.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A heavy fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="An entry level heavy fighter. The Brick's main selling point is its durability."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Armed with six projectile guns, it won't be out gunning other heavy fighters. If upgraded with additional armor, tanking hits might be the winning strategy. If upgraded with the optional turret, lack of fire power becomes less of an issue."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Aft missile mine launcher."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Missile mines float in space and activate when a hostile craft is in their detection range. Due to its rear facing nature, when deployed a crafty Brick pilot might want to circle around to draw the enemy into the missile mine's activation radius."/>
+<creditCost attr1="105000"/>
+<cruiseSpeed attr1="80.0"/> 
+<timeTillCruise attr1="1.95"/> 
+<yaw 	attr1="95.0"/> 
+<pitch	attr1="95.0"/> 
+<roll 	attr1="95.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitID attr1="cockpit003"/>
+<cockpitActualPos x="0" y="0" z="3"/>
+<cockpitActualMesh attr1="cockpitBrick.mesh"/> 
+<cockpitInitPos x="0" y="7.5" z="9"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="15.15" z="78"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="1650.0"/>
+<armor attr1="0.95"/>
+<buildTime	attr1="25.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="150.0"/> 
+<ore		attr1="225.0"/> 
+<damage>
+    <pitch attr1="-30.0"/>
+    <roll attr1="45.0"/>
+	<yaw attr1="94.0"/>
+	<position x="-0.577" y="2.676" z="9.594"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.4" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="brickD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explodeRed02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="0" y="1.505" z="14.792"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.75"/>
+    <capacity attr1="11.0"/>
+    <recharge attr1="14.0"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="brickPG"/> 
+	<weaponPosition x="6.648" y="-0.078" z="-10.794"/>
+	<weaponPosition x="6.648" y="-1.288" z="-10.794"/>
+	<weaponPosition x="6.648" y="-2.490" z="-10.794"/>
+	<weaponPosition x="-6.648" y="-0.078" z="-10.794"/>
+	<weaponPosition x="-6.648" y="-1.288" z="-10.794"/>
+	<weaponPosition x="-6.648" y="-2.490" z="-10.794"/>
+	<barrelDelay attr1="0.02"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="mine"/> 
+    <hardpointID attr1="brickMML"/> 
+	<weaponPosition x="0.0" y="-3.040" z="-0.505"/>
+	<yaw attr1="-180.0"/>
+	<weaponFire attr1="secondary"/> 	
+</weapon>
+<upgrades> 
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="brickDT00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield02"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="fFrontShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed02"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="heavyFighterPUS00"/>
+	<upgradeID attr1="heavyFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="0.5" z="-1.785"/>

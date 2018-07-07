@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="hangar"/>
+<hangarID attr1="mark13H"/> 
+<fighterShipID attr1="voytek"/> 
+<name attr1="Hangar"/> 
+<maxFighters attr1="10"/> 
+<bPrimary attr1="0"/>
+<launchTube>
+    <launchDeckBeg x="0" y="-13.888" z="-300.644"/>
+    <launchDeckEnd x="0" y="-13.888" z="-490"/>
+</launchTube>
+<launchSpeedMultiplier attr1="1.5"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieRequestDock00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="request_dock"/>
+<dialog attr1="Requesting docking permission."/>
+<dialog attr1="Am I cleared to dock?"/>
+<dialog attr1="Permission to come aboard."/>
+<dialog attr1="Got room for me in the hangar?"/>
+<dialog attr1="May I dock?"/>

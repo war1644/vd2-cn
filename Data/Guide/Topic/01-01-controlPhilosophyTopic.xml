@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="controlPhilosophy"/>
+<topicName attr1="Control Philosophy"/>
+<mainText attr1="Void Destroyer has mappable controls, there is mouse flight (in two variates), single and multi controllers (HOTAS) are supported."/>
+<mainText attr1=" "/>
+<mainText attr1="The down side of options:"/>
+<mainText attr1="The goal in designing different camera modes and control modes was to give the player options on how to control craft. The challenge is that different craft have different optimal ways of control. For example turning a slow cruiser with the standard mouse flight is boring, so mouse look to turn exists. But mouse look to turn is less optimal during dogfights in small fighters (avoiding enemy weapons fire and obstacles). Mouse look to turn is also less optimal when a capital ship has fixed mounted main guns - but mouse look to turn is great for turret fire and target acquisition."/>
+<mainText attr1=" "/>
+<mainText attr1="Without rambling too much, there is a variety of craft and thus a variety of situations where different control schemes could be preferred by the player. Being a space sim lover and someone who really enjoys playing/creating video games I added the above multiple methods. My hope is that instead of being confusing/awkward (though at start I understand if they are) these are welcome additions to you the player - once you get the hang of them. So please keep that in mind if you struggle in the first few hours."/>
+<mainText attr1=" "/>
+<mainText attr1="When I play the game:"/>
+<mainText attr1="I tend to have my left hand on the keyboard for WASD manual thrusters, X for secondary fire, Z and C for rolling, TAB for afterburner and T and R for targeting enemies."/>
+<mainText attr1="I also have the F key in easy reach - which lets me turn off auto thrust - and thus manually use my engines. Which is great for avoiding obstacles or doing strafing runs on capital ships."/>
+<mainText attr1="My left hand will also toggle camera modes F1 for cockpit, F2 for chase, F5 for command are my most frequent. And my left hand will also tend to control the speed settings - even though they are on the opposite side of the keyboard - BACKSPACE for cruise speed and BACKSLASH for zero speed."/>
+<mainText attr1="V and B are also easily accessible - allowing me to change ships, and my thumb is dedicated for the SPACE key which gets me into tactical mode."/>
+<mainText attr1="My right hand tends to be on my trusty mouse, which I use for flight and when I hop into command mode."/>
+<mainText attr1=" "/>
+<mainText attr1="Once again these are fully mappable, and controller support is possible. If there is some control item that I missed or some way I could accommodate your particular needs please let me know. I hope you enjoy playing the game."/>

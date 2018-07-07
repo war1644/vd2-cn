@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Raider"/> 
+<objectID attr1="raider"/> 
+<faction attr1="rockGuys"/> 
+<shipClass attr1="gunship"/> 
+<shipClassSize attr1="heavy"/>
+<combatAIClass attr1="corvette"/>
+<meshName attr1="Raider.mesh"/>
+<wireframeMaterial attr1="WF/Bee"/>
+<descriptionText attr1="A heavy gun ship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Nearly a corvette class, the Raider can trade punches with heavier ships and dish out serious damage."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Boasting a variety of weapons systems, the Raider is a versatile craft."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Spinner mines."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Mines that are quick enough to chase down smaller craft. Though designed against gunships, the mine's explosive force is capable of moving corvettes as well."/>
+<creditCost attr1="382000"/>
+<missionRankRequired attr1="3"/>
+<cruiseSpeed attr1="100.0"/> 
+<timeTillCruise attr1="2.55"/>
+<yaw 	attr1="75.0"/> 
+<pitch	attr1="75.0"/> 
+<roll 	attr1="75.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitActualPos x="0" y="0.625" z="4.375"/>
+<cockpitActualMesh attr1="cockpitRaider.mesh"/> 
+<bShowInCockpitParticles attr1="1"/>
+<cockpitInitPos x="-9.33" y="-2.1875" z="-11.1875"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos  x="0" y="31" z="116.325"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="5650.0"/>
+<armor attr1="2.0"/>
+<buildTime	attr1="35.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="275.0"/> 
+<ore		attr1="375.0"/> 
+<damage>
+    <pitch attr1="35.0"/> 
+    <roll attr1="23.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="-3.0" y="10.157" z="5.971"/>
+	<healthPoint attr1="0.42"/>
+</damage>
+<damage>
+    <pitch attr1="-35.0"/> 
+    <roll attr1="-143.0"/> 
+	<yaw attr1="-12.0"/> 
+	<position x="2.34" y="-2.677" z="26.174"/>
+	<healthPoint attr1="0.24"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.3" y="0.1" z="0.25"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="raiderD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explodeRed03"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp1_25"/>  
+<engineSoundID attr1="eng-01"/> 
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="0.48" y="0.525" z="37.5625"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="8.2375" y="3.075" z="18.975"/>
+	<direction attr1="port"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="-7.125" y="3.13" z="19.0625"/>
+	<direction attr1="starboard"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="0.4" y="8.75" z="18.925"/>
+	<direction attr1="up"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="0.46" y="-5.75" z="18.875"/>
+	<direction attr1="down"/> 
+</propulsion> 
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="6.55"/>
+    <capacity attr1="13"/>
+    <recharge attr1="16.5"/>
+</afterburner>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="raiderSG"/> 
+	<weaponPosition x="2.7" y="-5.83" z="-27.425"/>
+	<weaponPosition x="-2.7" y="-5.83" z="-27.425"/>
+	<barrelDelay attr1="0.1"/> 
+</weapon> 
+<turret>
+    <turretID attr1="raiderTurret"/> 
+    <turretOrientation attr1="right"/> 
+	<position x="13.6125" y="1.125" z="5.575"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="raiderTurret"/> 
+    <turretOrientation attr1="left"/> 
+	<position x="-13.45" y="1.125" z="-2.3"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="raiderTMT"/> 
+    <turretOrientation attr1="top"/> 
+	<position x="0.0" y="0.0" z="0.0"/> 
+	<turretRole attr1="parents_target"/>
+</turret>
+<turret>
+    <turretID attr1="raiderBMT"/> 
+    <turretOrientation attr1="down"/> 
+	<position x="0.0" y="0.0" z="0.0"/> 
+	<turretRole attr1="parents_target"/>
+</turret>
+<weapon>
+    <weaponType attr1="mine"/> 
+    <hardpointID attr1="raiderSML"/> 
+	<weaponPosition x="-2.771" y="1.412" z="-22.415"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<targetPriorityList> 
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="dreadnaught"/> 
+	<targetClass attr1="attack_station"/>
+</targetPriorityList>
+<upgrades>
+	<primaryUpgradeCapacity attr1="2"/>
+	<activeUpgradeCapacity attr1="3"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="gArmor00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="gunshipMan00"/>
+	<upgradeID attr1="gunshipThrust00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="gSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="gunshipPUS00"/>
+	<upgradeID attr1="gunshipAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="120" y="-2.96" z="50"/>
+<rockSubPosition attr1="1"/>

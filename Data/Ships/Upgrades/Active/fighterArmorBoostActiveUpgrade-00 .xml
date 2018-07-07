@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Armor Boost"/> 
+<objectID attr1="fArmorBoostAU00"/> 
+<upgradeCategory attr1="engineering"/>
+<upgradeType attr1="active"/>
+<cost attr1="750"/>
+<addCostAsPercentOfShip attr1="0.05"/>
+<description attr1="When activated, polarizes the ship's hull to boost its armor rating, doubling its effectiveness. Unlike shields armor reduces damage taken instead of negating it. However if the armor is high enough, very little to no damage might be transferred to the ship's hull and internal systems."/>
+<description attr1=" "/>
+<description attr1="[colour='FFFF0000']WARNING:[colour='FFFFFFFF'] This active upgrade only boosts existing armor, this means that if the ship's armor rating is zero, then the boosted armor will also be zero."/>
+<shipActiveUpgradeType attr1="armor_boost"/>
+<rechargeTime attr1="25"/>
+<durationTime attr1="15"/>

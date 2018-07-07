@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="pick_one"/>
+<objectID attr1="heavyPGS00"/> 
+<defaultVolume attr1="0.7"/>
+<soundFile attr1="heavyProjectile00.wav"/>
+<soundFile attr1="heavyProjectile01.wav"/>
+<soundFile attr1="heavyProjectile02.wav"/>
+<soundFile attr1="heavyProjectile03.wav"/>
+<soundFile attr1="heavyProjectile04.wav"/>
+<maxDistance attr1="1500"/> 
+<referenceDistance attr1="750"/>
+<soundPriority attr1="55"/>

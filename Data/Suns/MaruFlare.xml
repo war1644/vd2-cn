@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="sun"/> 
+<sunType attr1="flare_sun"/>
+<name attr1="MaruFlare"/> 
+<objectID attr1="maruFlare"/> 
+<materialName attr1="Sun/YellowRedSun"/> 
+<billboardFlareMaterial attr1="Space/SunFlare"/>
+<flareSize attr1="450"/>

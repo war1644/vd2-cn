@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="jax"/> 
+<displayName attr1="Jax"/> 
+<objectID attr1="jax"/> 
+<faction attr1="shadowTraders"/>
+<meshName attr1="Jax.mesh"/>
+<descriptionText attr1="A black market base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="A former mine, run down and barely functioning as a meeting point."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Dealing with goods normally gated behind legal barriers, the Jax is a trading hub for a variety of goods, including ships."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="If you want to buy something, but aren't allowed to, the Shadow Traders are here to help. A loosely organized group facilitating illegal trade."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="As far as the criminal element is concerned, it is considered 'neutral' territory."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="This base isn't officially recognized, making it essentially lawless. Anyone can dock, and no form of security is provided."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The massive roid turned out to yield poor quality ore and only after considerable effort. Mining operations began to seek more profitable ventures, leading to total abandonment."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="0" y="0" z="0"/>
+<dockingArmsEnd x="0" y="0" z="-20"/>
+<dockPosition x="0" y="0" z="0"/>
+<dockSize x="120" y="120" z="120"/>
+<hangarID attr1="theHubH"/> 
+<maxBuildShipClass attr1="corvette"/>
+<rockSubPosition attr1="0"/>
+<miningPlatformPosition x="-1194.275" y="878.885" z="319.522"/>

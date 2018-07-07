@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="demeter"/> 
+<displayName attr1="Demeter"/> 
+<objectID attr1="demeter"/> 
+<faction attr1="civilian"/>
+<meshName attr1="Demeter.mesh"/>
+<physicalRotatingElement> 
+	<meshName attr1="demeterHabitat.mesh"/>
+	<rollSpeed attr1="1"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<physicalRotatingElement> 
+	<meshName attr1="demeterBioSpheres.mesh"/>
+	<rollSpeed attr1="-1"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<descriptionText attr1="A Civilian agricultural base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Specialized for agricultural production, this base is practically raking the credits in."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Supplying products ranging from cheap food paste, to actual vegetables and even non imitation meat."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="0" y="0" z="-328"/>
+<dockingArmsEnd x="0" y="0" z="-350"/>
+<dockPosition x="0" y="0" z="-328"/>
+<dockSize x="175" y="100" z="150"/>
+<hangarID attr1="theHubH"/> 
+<maxBuildShipClass attr1="corvette"/>
+<bCanResearch attr1="1"/>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<position attr1="0"/> 
+<name attr1="Flight - Advanced"/> 
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="create_tutorial_listener"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="player_command"/> 
+		<playerCommandID attr1="auto_thrust"/>
+	</objective>
+	<preCutscene attr1="03-flightAdvancedScene"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Welcome to the advanced flight tutorial."/>
+			<content attr1="This tutorial mostly covers the concepts of auto thrust and drift."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="First up auto thrust."/>
+			<content attr1="Auto thrust is a function of your ship which maintains the ship's speed setting."/>
+			<content attr1="Let's turn it off and see the effects."/>
+			<content attr1="Auto thrust - key" attr2="ship_command" attr3="auto_thrust"/>
+		</dialog>		
+	</preDialog>
+	<missionHUDText attr1="Auto thrust toggle" attr2="ship_command" attr3="auto_thrust"/>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Auto thrust should now be off."/>
+			<content attr1="As you can see nothing seemingly changed."/>
+			<content attr1="However shutting the function off has many dramatic changes."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="To see the effect, set the ship's speed to cruise speed."/>
+			<content attr1="Cruise Speed - key" attr2="ship_command" attr3="cruise_speed"/>
+		</dialog>	
+	</preDialog>
+	<objective>
+		<objectiveType attr1="player_command"/> 
+		<playerCommandID attr1="cruise_speed"/>
+	</objective>
+	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="If done properly, your ship shouldn't be moving, even though you've changed the speed setting."/>
+			<content attr1="The speed setting is only relevant when auto thrust is on."/>
+			<content attr1="Although this might be confusing for now, let's continue."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="While the speed setting is nullified when auto thrust is off."/>
+			<content attr1="You can still manually thrust."/>
+			<content attr1="Go ahead and activate the right thruster."/>
+			<content attr1="Right thrust - key" attr2="ship_command" attr3="thrust_right"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<objective>
+		<objectiveType attr1="player_command"/> 
+		<playerCommandID attr1="thrust_right"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<missionHUDText attr1="Experiment with manual thrusters:"/>
+	<missionHUDText attr1="Right thrust - key" attr2="ship_command" attr3="thrust_right"/>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Your ship should now be moving to the right."/>
+			<content attr1="Even if you let go of the thruster."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>	
+			<content attr1="Because auto thrust is off."/>
+			<content attr1="Your ship won't automatically compensate for the right thrust, with the opposite left thrust."/>
+			<content attr1="Turning auto thrust off, allows you absolute control over your ship's thrusters."/>
+			<content attr1="Letting you perform advanced maneuvers."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Let's turn auto thrust back on and see the effect."/>
+			<content attr1="Auto thrust toggle - key" attr2="ship_command" attr3="auto_thrust"/>
+		</dialog>
+	</preDialog>
+	<objective>
+		<objectiveType attr1="player_command"/> 
+		<playerCommandID attr1="auto_thrust"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<missionHUDText attr1="Auto thrust toggle" attr2="ship_command" attr3="auto_thrust"/>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Your ship will now thrust left, to compensate for the right drift."/>
+			<content attr1="And also forward thrust to maintain the speed setting."/>
+			<content attr1="Which we earlier set to cruise speed."/>
+			<content attr1="So the end result should be your ship flying forward."/>
+		</dialog>	
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Let's toggle auto thrust off again to demonstrate another concept."/>
+			<content attr1="Auto thrust toggle - key" attr2="ship_command" attr3="auto_thrust"/>
+		</dialog>
+	</preDialog>
+	<objective>
+		<objectiveType attr1="player_command"/> 
+		<playerCommandID attr1="auto_thrust"/>
+	</objective>
+	<missionHUDText attr1="Auto thrust toggle" attr2="ship_command" attr3="auto_thrust"/>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Auto thrust should now be off."/>
+			<content attr1="And your ship should still be flying forward."/>
+		</dialog>	
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="To demonstrate the concept of drift."/>
+			<content attr1="Turn your ship, to the right or left, then watch it drift.."/>
+		</dialog>
+	</preDialog>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="With auto thrust off, your ship's thrusters don't compensate for drift."/>
+			<content attr1="This means that turning doesn't effect your movement vector."/>
+			<content attr1="This allows for many advanced maneuvers."/>
+		</dialog>	
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Consider being chased by enemies, then turning auto thrust off and turning."/>
+			<content attr1="You could still fire on them, while drifting away from them."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Consider being in a dogfight, trying to out turn your opponent."/>
+			<content attr1="Sometimes its better to turn off auto thrust, and drift while turning."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Consider turning off auto thrust when dodging enemy fire."/>
+			<content attr1="Giving you absolute control over your thrusters."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Consider doing strafing runs on larger targets."/>
+			<content attr1="First align your ship to face it, then turn off auto thrust."/>
+			<content attr1="Then manually thrust to avoid a collision, while turning to maintain a line of sight."/>
+		</dialog>
+	</postDialog>
+	<missionHUDText attr1="Experiment with drift"/>
+	<missionHUDText attr1="Turn your ship while auto thrust is off"/>
+	<missionHUDText attr1="And you are moving"/>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Let's recap."/>
+			<content attr1="Disabling auto thrust nullifies your ship's speed setting."/>
+			<content attr1="Allowing you to drift and control your momentum vector."/>
+		</dialog>	
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Experiment with toggling auto thrust, speed settings and manual thrusters."/>
+			<content attr1="Auto thrust toggle - key" attr2="ship_command" attr3="auto_thrust"/>
+			<content attr1="Cruise Speed - key" attr2="ship_command" attr3="cruise_speed"/>
+			<content attr1="Zero speed - key" attr2="ship_command" attr3="zero_speed"/>
+			<content attr1="Left thrust - key" attr2="ship_command" attr3="thrust_left"/>
+			<content attr1="Right thrust - key" attr2="ship_command" attr3="thrust_right"/>
+			<content attr1="Ascend thrust - key" attr2="ship_command" attr3="thrust_up"/>
+			<content attr1="Descend thrust - key" attr2="ship_command" attr3="thrust_down"/>
+			<content attr1="Forward thrust - key" attr2="ship_command" attr3="thrust_foreward"/>
+			<content attr1="Reverse thrust - key" attr2="ship_command" attr3="thrust_back"/>
+		</dialog>
+	</preDialog>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+	</objective>
+	<missionHUDText attr1="Experiment with auto thrust"/>
+	<missionHUDText attr1="Auto thrust toggle" attr2="ship_command" attr3="auto_thrust"/>
+	<missionHUDText attr1="Experiment with speed settings"/>
+	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
+	<missionHUDText attr1="All stop - key" attr2="ship_command" attr3="zero_speed"/>
+	<missionHUDText attr1="Experiment with manual thrusters"/>
+	<missionHUDText attr1="Left thrust - key" attr2="ship_command" attr3="thrust_left"/>
+	<missionHUDText attr1="Right thrust - key" attr2="ship_command" attr3="thrust_right"/>
+	<missionHUDText attr1="Ascend thrust - key" attr2="ship_command" attr3="thrust_up"/>
+	<missionHUDText attr1="Descend thrust - key" attr2="ship_command" attr3="thrust_down"/>
+	<missionHUDText attr1="Forward thrust - key" attr2="ship_command" attr3="thrust_foreward"/>
+	<missionHUDText attr1="Reverse thrust - key" attr2="ship_command" attr3="thrust_back"/>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<displayName attr1="Exit tutorial"/> 
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer="1000"/>
+	</objective>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="This completes the flight advanced tutorial."/>
+			<content attr1="Mastering drift is crucial to moving from a beginner pilot to an ace."/>
+			<content attr1="Feel free to replay this tutorial as many times as you need."/>
+			<content attr1="Good luck."/>
+		</dialog>
+	</preDialog>
+	<missionHUDText attr1="Tutorial completed"/>
+	<missionHUDText attr1="ESC game menu"/>
+</mission>

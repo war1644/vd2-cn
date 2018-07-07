@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Torpedo Satelite"/> 
+<objectID attr1="torpSat001"/> 
+<faction attr1="rockGuys"/> 
+<bCommsOverride attr1="1"/>
+<stationClass attr1="defense_station"/>
+<stationSizeAsShip attr1="corvette"/>
+<creditCost attr1="85000"/>
+<meshName attr1="torpSat001.mesh"/> 
+<wireframeMaterial attr1="WF/TorpSat001"/>
+<descriptionText attr1="A torpedo platform."/> 
+<health attr1="6000.0"/> 
+<explosionID attr1="explode03"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="1"/>
+<debrisInfo>
+	<debris> 	
+		<debrisID attr1="mineSatD01"/> 
+	</debris>
+</debrisInfo> 
+<turret>
+    <turretID attr1="torpSat001TT"/> 
+	<position x="0" y="0" z="0"/>
+	<turretRole attr1="offense"/>
+</turret>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="rbG01"/> 
+<ammunitionID attr1="rbP01"/> 
+<name attr1="Rock Blaster"/> 
+<fireSoundID attr1="megaGS00"/>
+<muzzleFlashEffectID attr1="mfLG060"/>
+<reFireRate attr1="0.0"/> 
+<capacity attr1="4"/> 
+<reloadTime attr1="3"/> 
+<bAlwaysPlayFireSound attr1="1"/>

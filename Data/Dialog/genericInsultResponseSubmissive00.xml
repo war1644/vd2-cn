@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="cInsultSub00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="insult_response_submissive"/>
+<dialog attr1="Whatever man..."/>
+<dialog attr1="Hater's gonna hate."/>
+<dialog attr1="My mom thinks I'm cool."/>
+<dialog attr1="That's just your issues."/>
+<dialog attr1="Not cool..."/>
+<dialog attr1="Meh..."/>
+<dialog attr1="Can't you see I'm busy?"/>
+<dialog attr1="That's the best you can do?"/>
+<dialog attr1="I've been called worse by better people."/>

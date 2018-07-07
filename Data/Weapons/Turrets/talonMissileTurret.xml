@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="talonMT"/> 
+<name attr1="Missile Launcher"/> 
+<turretWeapon attr1="missile"/>
+<hardpointID attr1="talonML"/>
+<turretBarrel>
+	<weaponPosition x="0" y="98.78" z="-10.409"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="0" y="-105.697" z="4.941"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="0" y="-113.164" z="6.955"/>
+</turretBarrel>
+<turretViewPos x="0.0" y="2.8" z="0.5"/>
+<barrelDelay attr1="0.2"/>
+<weaponDirection>
+	<yaw attr1="0.0"/>
+	<pitch attr1="0.0"/>
+	<roll attr1="0.0"/>
+</weaponDirection>

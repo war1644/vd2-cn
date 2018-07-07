@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectID attr1="outsiderE01"/> 
+<particleSystemName attr1="vdp_explode_o01"/> 
+<explosionSoundID attr1="explode00T"/>
+<life attr1="4.5"/>
+<bCausesShake attr1="1"/>
+<shakeDistance attr1="1000"/>
+<renderingDistance attr1="8500"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="random_continuous"/>
+<objectID attr1="rockChip00"/> 
+<soundFile attr1="rockChipper00.wav"/>
+<soundFile attr1="rockChipper01.wav"/>
+<soundFile attr1="rockChipper02.wav"/>
+<maxDistance attr1="375"/> 
+<referenceDistance attr1="150"/>
+<defaultVolume attr1="0.9"/>
+<soundPriority attr1="20"/>

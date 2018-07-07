@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="contactList"/>
+<topicName attr1="Sensor Contact List"/>
+<mainText attr1="Sensor Contact List:"/>
+<mainText attr1="Lost something? Try the sensor contact list."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Concepts:"/>
+<mainText attr1="Hidden by default - see image on right."/>
+<mainText attr1="Categorized by object type."/>
+<mainText attr1="Colorized by object faction."/>
+<mainText attr1="Ordered by - last added - on the bottom."/>
+<mainText attr1="Has all objects in the sector."/>
+<mainText attr1="     Except mines and missiles."/>
+<mainText attr1="Other object category contains:"/>
+<mainText attr1="     Asteroids, cargo pods, gates and debris."/>
+<mainText attr1=" "/>
+<mainText attr1="Using:"/>
+<mainText attr1="Look through the list."/>
+<mainText attr1="Click on desired object to select."/>
+<mainText attr1="Double click to focus camera on object."/>
+<mainText attr1=" "/>
+<mainText attr1="Uses:"/>
+<mainText attr1="See the newly built enemy ships"/>
+<mainText attr1="     Look at bottom of the ship category"/>
+<mainText attr1="Locate hard to find objects."/>
+<mainText attr1="     For example - cargo pods after a battle"/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1="History/Behind the scenes:"/>
+<mainText attr1="The Sensor Contact list was added very early in development. I added it because I had a hard time finding objects - back when maps were quite a bit larger (but more empty). It was always visible by default - then as it became less useful - I decided to hide it by default so that it doesn't obscure the view - unless wanted."/>
+<imageOne>
+	<image attr1="set:guide_sensor_contacts_hidden image:guide_sensor_contacts_hidden"/>
+</imageOne>
+<imageTwo>
+	<image attr1="set:guide_sensor_contacts_shown image:guide_sensor_contacts_shown"/>
+</imageTwo>

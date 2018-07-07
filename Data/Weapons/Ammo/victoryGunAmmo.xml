@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="projectile"/> 
+<projectileID attr1="victoryGA"/> 
+<projectileType attr1="mesh_projectile"/> 
+<meshName attr1="victoryGunAmmo.mesh"/> 
+<projectileVelocity attr1="1850.0"/> 
+<initialLife attr1="4.55"/>
+<_range attr1="8417"/>
+<damage attr1="2000.0"/> 
+<weaponPush attr1="10000000.0"/>
+<explosionID attr1="explode02"/>
+<instantKillShipClass attr1="gunship"/>

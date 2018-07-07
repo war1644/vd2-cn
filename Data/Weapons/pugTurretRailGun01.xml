@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="instant"/> 
+<instantType attr1="chain_instant"/> 
+<weaponID attr1="pugTurretR01"/> 
+<name attr1="Medium Rail Gun"/> 
+<materialName attr1="Effects/RibbonTrail"/> 
+<baseScale attr1="0.5"/>
+<explosionID attr1="railGunHit00"/> 
+<fireSoundID attr1="heavyPGS00"/>
+<muzzleFlashEffectID attr1="mfLG035"/>
+<damage attr1="55.0"/> 
+<range attr1="1450.0"/> 
+<capacity attr1="1.0"/> 
+<reFireRate attr1="0.0"/>
+<visualTimer attr1="0.3"/>
+<reloadTime attr1="1.5"/>
+<recoil>
+	<recoilParentType attr1="turret_recoil"/>
+	<recoilZ attr1="0.3"/>
+	<recoilBone attr1="Recoil"/>
+	<muzzleBone attr1="muzzle1"/>
+</recoil>
+<weaponPush attr1="250000.0"/> 
+<bIgnoresShields attr1="1"/>

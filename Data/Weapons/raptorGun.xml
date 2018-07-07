@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="raptorG"/> 
+<ammunitionID attr1="raptorP"/> 
+<name attr1="Twin Cannon"/> 
+<fireSoundID attr1="cannonGS00"/>
+<muzzleFlashEffectID attr1="mfLG080"/>
+<reFireRate attr1="0"/> 
+<capacity attr1="2"/> 
+<reloadTime attr1="2.25"/>
+<parentPush attr1="7.5"/> 
+<recoil>
+	<recoilZ attr1="-10"/>
+	<recoilBone attr1="Gun"/>
+	<muzzleBoneName attr1="Muzzle"/>
+</recoil>
+<bAlwaysPlayFireSound attr1="1"/>

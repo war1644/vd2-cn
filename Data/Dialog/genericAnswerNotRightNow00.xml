@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieNotRightNow00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="not_right_now"/>
+<dialog attr1="Not right now."/>
+<dialog attr1="Not a good idea right now."/>
+<dialog attr1="Now? No."/>
+<dialog attr1="A bit busy at the moment. Give me a few."/>

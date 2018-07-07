@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="duelistSG"/> 
+<ammunitionID attr1="lightRGP"/>
+<auxAmmunitionID attr1="lightRGPAux"/>
+<projectileWeaponType attr1="scatter_gun"/>
+<roundsPerShot attr1="7"/>
+<scatterYaw attr1="0.20"/>
+<scatterPitch attr1="0.20"/>
+<bAddRandom attr1="0"/>
+<name attr1="Light Scatter Gun"/> 
+<fireSoundID attr1="scatterGS00"/>
+<muzzleFlashEffectID attr1="mfLG10"/>
+<reFireRate attr1="0.1"/>
+<capacity attr1="4"/> 
+<reloadTime attr1="1.0"/>

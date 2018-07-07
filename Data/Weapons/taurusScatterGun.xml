@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="taurusSG"/> 
+<ammunitionID attr1="lightCP"/> 
+<auxAmmunitionID attr1="lightCPAux"/>
+<projectileWeaponType attr1="scatter_gun"/>
+<roundsPerShot attr1="6"/>
+<scatterYaw attr1="0.30"/>
+<scatterPitch attr1="0.30"/>
+<bAddRandom attr1="0"/>
+<name attr1="Light Scatter Gun"/> 
+<fireSoundID attr1="scatterGS00"/>
+<muzzleFlashEffectID attr1="mfLG10"/>
+<reFireRate attr1="0.25"/>
+<capacity attr1="8"/> 
+<reloadTime attr1="4.0"/>
+<bFireFullAmmo attr1="1"/>

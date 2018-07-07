@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<_ship_Object>
+     <objectID attr1="scoria"/>
+     <name attr1="Alliance Scoria IA483"/>
+     <orientation w="0.685936" x="0" y="-0.727662" z="0"/>
+     <position x="-263.78" y="0" z="-15.5855"/>
+     <faction attr1="player"/>
+     <bActivateOnDamage attr1="0"/>
+     <bPlayerShip attr1="1"/>
+</_ship_Object>
+<note_to_self attr1="first pair --------------------------------------------"/>
+<station_Object>
+     <objectID attr1="shieldPlatform01"/>
+     <name attr1="shield01"/>
+     <orientation w="-0.708588" x="0" y="-0.705625" z="0"/>
+     <position x="1955.0" y="0" z="-30"/>
+     <faction attr1="noFaction"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="shieldPlatform01"/>
+     <name attr1="shield02"/>
+     <orientation w="-0.708588" x="0" y="-0.705625" z="0"/>
+     <position x="1955.0" y="0" z="30.0"/>
+     <faction attr1="noFaction"/>
+</station_Object>
+<note_to_self attr1="next pair --------------------------------------------"/>
+<station_Object>
+     <objectID attr1="shieldPlatform01"/>
+     <name attr1="shield03"/>
+     <orientation w="0.0" x="0" y="-0.999999" z="0"/>
+     <position x="2000" y="0" z="45"/>
+     <faction attr1="noFaction"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="shieldPlatform01"/>
+     <name attr1="shield04"/>
+     <orientation w="0.0" x="0" y="-0.999999" z="0"/>
+     <position x="2060" y="0" z="45"/>
+     <faction attr1="noFaction"/>
+</station_Object>
+<note_to_self attr1="next pair --------------------------------------------"/>
+<station_Object>
+     <objectID attr1="shieldPlatform01"/>
+     <name attr1="shield05"/>
+     <orientation w="-1" x="0" y="0.0" z="0"/>
+     <position x="2000" y="0" z="-45"/>
+     <faction attr1="noFaction"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="shieldPlatform01"/>
+     <name attr1="shield06"/>
+     <orientation w="-1" x="0" y="0.0" z="0"/>
+     <position x="2060" y="0" z="-45"/>
+     <faction attr1="noFaction"/>
+</station_Object>
+<note_to_self attr1="last pair --------------------------------------------"/>
+<station_Object>
+     <objectID attr1="shieldPlatform01"/>
+     <name attr1="shield07"/>
+     <orientation w="0.707848" x="0" y="-0.706367" z="0"/>
+     <position x="2090" y="0" z="0"/>
+     <faction attr1="noFaction"/>
+</station_Object>
+<cargoPod_Object>
+     <objectID attr1="narcoticsPod"/>
+     <name attr1="baitPod-1"/>
+     <orientation w="-0.708588" x="0" y="-0.705625" z="0"/>
+     <position x="0" y="0" z="-100"/>
+     <faction attr1="civilian"/>
+     <bFull attr1="1"/>
+</cargoPod_Object>
+<cargoPod_Object>
+     <objectID attr1="narcoticsPod"/>
+     <name attr1="baitPod-2"/>
+     <orientation w="-0.708588" x="0" y="-0.705625" z="0"/>
+     <position x="0" y="100" z="-100"/>
+     <faction attr1="civilian"/>
+     <bFull attr1="1"/>
+</cargoPod_Object>
+<cargoPod_Object>
+     <objectID attr1="narcoticsPod"/>
+     <name attr1="baitPod-3"/>
+     <orientation w="-0.708588" x="0" y="-0.705625" z="0"/>
+     <position x="0" y="-100" z="-100"/>
+     <faction attr1="civilian"/>
+     <bFull attr1="1"/>
+</cargoPod_Object>
+<cargoPod_Object>
+     <objectID attr1="weaponsPod"/>
+     <name attr1="baitPod-4"/>
+     <orientation w="-0.708588" x="0" y="-0.705625" z="0"/>
+     <position x="0" y="0" z="100"/>
+     <faction attr1="civilian"/>
+     <bFull attr1="1"/>
+</cargoPod_Object>
+<cargoPod_Object>
+     <objectID attr1="weaponsPod"/>
+     <name attr1="baitPod-5"/>
+     <orientation w="-0.708588" x="0" y="-0.705625" z="0"/>
+     <position x="0" y="100" z="100"/>
+     <faction attr1="civilian"/>
+     <bFull attr1="1"/>
+</cargoPod_Object>
+<cargoPod_Object>
+     <objectID attr1="weaponsPod"/>
+     <name attr1="baitPod-6"/>
+     <orientation w="-0.708588" x="0" y="-0.705625" z="0"/>
+     <position x="0" y="-100" z="100"/>
+     <faction attr1="civilian"/>
+     <bFull attr1="1"/>
+</cargoPod_Object>

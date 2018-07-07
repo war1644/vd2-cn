@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="LiquidatorG"/> 
+<objectID attr1="liquidatorG"/> 
+<faction attr1="kind"/>
+<shipClass attr1="corvette"/> 
+<shipClassSize attr1="light"/>
+<meshName attr1="LiquidatorG.mesh"/>
+<descriptionText attr1="A corvette class ship."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Liquidator is a Dropper modified for combat."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="With the addition of weaponry the pilot is no longer completely defenseless. The ship is still slow and unwieldy, making it a poor choice to take into battle without fighter support."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Armed with quad medium chain guns, it boasts impressive fire power, if it can line up the shot. Best used against larger targets."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="With this and other modified ships, the Kind is showing a potential ability to expand."/>
+<creditCost attr1="552500"/>
+<missionRankRequired attr1="0"/>
+<cruiseSpeed attr1="55.0"/> 
+<timeTillCruise attr1="3.15"/> 
+<yaw 	attr1="45.0"/> 
+<pitch	attr1="45.0"/> 
+<roll 	attr1="45.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="17.07" z="0.405"/>
+<bHideShipInCockpitAcutal attr1="0"/>
+<cockpitInitPos x="0" y="28.23" z="51.915"/>
+<cockpitTransLimit x="2" y="2" z="2"/> 
+<bShowInCockpitWeaponParticles attr1="1"/>
+<chaseInitPos x="0" y="44.535" z="285.765"/>
+<chaseTransLimit x="14" y="8" z="6"/>
+<health attr1="13500.0"/>
+<armor attr1="0.0"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="-35.0"/> 
+    <roll attr1="180.0"/> 
+	<yaw attr1="22.0"/> 
+	<position x="16.181" y="-15.648" z="8.653"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="0.0"/> 
+    <roll attr1="90.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="-3.199" y="13.152" z="13.593"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="dropperD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explode03"/>
+<preExplosionID attr1="explode01"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="0" y="-14.415" z="41.904"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="0" y="-24.769" z="36.128"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="15.288" y="-10.9425" z="-2.391"/>
+	<direction attr1="fore"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="-15.288" y="-10.9425" z="-2.391"/>
+	<direction attr1="fore"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.45"/> 
+    <capacity attr1="15"/>
+    <recharge attr1="16"/> 
+</afterburner>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="liquidatorG"/> 
+	<weaponPosition x="6.981" y="0.342" z="-52.354"/>
+	<weaponPosition x="-6.981" y="0.342" z="-52.354"/>
+	<weaponPosition x="8.372" y="-5.524" z="-52.354"/>
+	<weaponPosition x="-8.372" y="-5.524" z="-52.354"/>	
+	<barrelDelay attr1="0.025"/> 
+</weapon>
+<aggressiveRange attr1="3000"/>
+<collisionShape attr1="simple_convex"/>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="3"/>
+	<activeUpgradeCapacity attr1="3"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.16" y="-2.63" z="130"/>

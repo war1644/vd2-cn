@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Shield Recharge"/> 
+<objectID attr1="frShieldRecharge00"/> 
+<upgradeCategory attr1="engineering"/>
+<upgradeType attr1="active"/>
+<cost attr1="25000"/>
+<addCostAsPercentOfShip attr1="0.025"/>
+<description attr1="Installs a capacitor, that when activated, transfers energy directly into the ship's shield generator, causing it to recharge at a rapid rate even despite taking damage."/>
+<description attr1=" "/>
+<description attr1="[colour='FFFF0000']WARNING:[colour='FFFFFFFF'] This active upgrade only works with the passive shield systems and does nothing if the ship doesn't have a shield generator installed."/>
+<shipActiveUpgradeType attr1="shield_recharge"/>
+<healthShieldRechargePercent attr1="0.75"/>
+<rechargeTime attr1="45"/>
+<durationTime attr1="20"/>

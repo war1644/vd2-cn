@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="projectile"/> 
+<projectileID attr1="tonPL"/> 
+<projectileType attr1="particle_projectile"/> 
+<projectileParticleName attr1="vdp_plasma_lob"/>
+<projectileVelocity attr1="450.0"/> 
+<initialLife attr1="2.5"/>
+<_range attr1="1125"/> 
+<damage attr1="50.0"/> 
+<explosionID attr1="mHit"/>
+<canister> 
+	<canisterCount attr1="10"/>
+	<blowBackCanisterCount attr1="10"/>
+	<projectileID attr1="arFlameP"/>
+	<yawRange attr1="5"/>
+	<pitchRange attr1="5"/>
+	<rollRange attr1="2"/>
+	<speedAddBase attr1="5"/>
+	<speedAddRandom attr1="2"/>
+	<bCanisterAimAssist attr1="0"/>
+	<bAddToRangeCalculations attr1="0"/>
+</canister>

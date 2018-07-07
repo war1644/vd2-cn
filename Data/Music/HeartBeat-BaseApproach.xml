@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="music"/> 
+<objectID attr1="HeartBeat-BaseApproach"/> 
+<musicFile attr1="HeartBeat-BaseApproach.ogg"/>
+<defaultVolume attr1="1.0"/>
+<bLooping attr1="0"/>
+<objectTypeMusic attr1="asteroid_base"/>

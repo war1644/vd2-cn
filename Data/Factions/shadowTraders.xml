@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<factionID attr1="shadowTraders"/> 
+<factionType attr1="black_market"/>
+<factionName attr1="Shadow Traders"/>
+<factionPluralName attr1="Shadow Traders"/>
+<wireframeColor r="0.6" g="0.0" b="0.6" a="1.0"/> 
+<highlightOutlineColor r="0.8" g="0.0" b="0.8" a="0.5"/>
+<textColor r="0.6" g="0.0" b="0.6" a="1.0"/> 
+<backgroundColor r="0.20" g="0.0" b="0.25" a="0.5"/>
+<cloudsColor r="0.25" g="0.0" b="0.3" a="0.5"/>
+<tacticalMaterial attr1="Overworld/ShadowTraders"/>
+<selectedTacticalMaterial attr1="Overworld/ShadowTradersSelected"/>
+<buildTacticalMaterial attr1="Overworld/ShadowTradersBuild"/>
+<descriptionText attr1="The Shadow Traders make up the majority of the black market."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="In bases, more like abandoned ruins, you can find opportunities. Looking for something? They might just have it, but don't expect it to come cheap and consequence free."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Created by the need to facilitate illegal trade, the Shadow Traders are neutral, only aligned to money."/>

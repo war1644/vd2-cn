@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="raiderBMT"/> 
+<name attr1="Quad Launcher"/> 
+<turretWeapon attr1="missile"/>
+<hardpointID attr1="raiderML"/>
+<turretBarrel>
+	<weaponPosition x="-2.139" y="-9.485" z="-6.248"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-2.139" y="-9.875" z="-4.438"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-2.139" y="-10.236" z="-1.184"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-2.139" y="-10.288" z="-0.665"/>
+</turretBarrel>
+<turretViewPos x="0.0" y="2.8" z="0.5"/>
+<barrelDelay attr1="0.65"/>
+<weaponDirection>
+	<mainDirection attr1="down"/>
+	<yaw attr1="0.0"/>
+	<pitch attr1="-75.0"/>
+	<roll attr1="0.0"/>
+</weaponDirection>

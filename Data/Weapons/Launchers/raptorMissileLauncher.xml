@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="missile"/> 
+<weaponID attr1="raptorML"/> 
+<ammunitionID attr1="mediumMissile00"/> 
+<name attr1="Launcher"/> 
+<fireSoundID attr1="missileLS"/>
+<reFireRate attr1="1.75"/>
+<capacity attr1="6"/>
+<reloadTime attr1="20"/> 
+<muzzleFlashEffectID attr1="mfML01"/>

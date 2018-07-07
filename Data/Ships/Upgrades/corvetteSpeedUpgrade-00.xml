@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Engine Optimization"/> 
+<objectID attr1="cSpeed00"/> 
+<upgradeCategory attr1="propulsion"/> 
+<cost attr1="20250"/>
+<addCostAsPercentOfShip attr1="0.05"/>
+<description attr1="Optimizes engines to significantly increase cruise speed."/>
+<description attr1=" "/>
+<speedChangePercent attr1="1.65"/>

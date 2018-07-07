@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Sam"/> 
+<title attr1="COMMS CONTROL"/>
+<characterID attr1="sam"/> 
+<imageSetName attr1="jcSam"/>
+<textColor attr1="FF00FF00"/>

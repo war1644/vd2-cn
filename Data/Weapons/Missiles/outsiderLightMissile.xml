@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="missile"/> 
+<objectID attr1="oLM"/> 
+<missileType attr1="particle_missile"/> 
+<missileParticleName attr1="vdp_oMissile_02"/> 
+<missileSize x="1.5" y="1.5" z="2.5"/>
+<cruiseSpeed attr1="450.0"/> 
+<timeTillCruise attr1="1.0"/> 
+<initialVelocity attr1="50.0"/>
+<initialLife attr1="7.0"/>
+<_range attr1="around 3.1k"/>
+<damage attr1="150.0"/>
+<bAntiCapital attr1="1"/>
+<explosionID attr1="eMHit"/>
+<yaw 	attr1="80.0"/>
+<pitch	attr1="80.0"/>
+<roll 	attr1="80.0"/>

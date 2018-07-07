@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="rhinoTG"/> 
+<ammunitionID attr1="rhinoTP"/> 
+<name attr1="Medium Gun"/> 
+<fireSoundID attr1="heavyPGS00"/>
+<fireSoundID attr1="lightPGS01"/>
+<muzzleFlashEffectID attr1="mfLG035"/>
+<capacity attr1="2"/> 
+<reloadTime attr1="0.45"/>
+<reFireRate attr1="0.20"/>

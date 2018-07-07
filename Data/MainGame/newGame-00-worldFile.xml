@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asteroidBase_Object>
+     <objectID attr1="shangrila"/>
+     <name attr1="shangrila"/>
+     <orientation w="1" x="0" y="0" z="0"/>
+     <position x="0.0" y="0" z="0.0"/>
+     <faction attr1="civilian"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <startingCrew attr1="180"/>
+     <energy attr1="7564"/>
+     <food attr1="7660"/>
+     <ore attr1="7068"/>
+     <defenseFighters attr1="8"/>
+     <defenseCapitals attr1="4"/>
+     <maxDefenseStations attr1="4"/>
+</asteroidBase_Object>
+<gate_Object>
+     <objectID attr1="gate00"/>
+     <name attr1="gate-1"/>
+     <orientation w="0.9977" x="0" y="-0.0677909" z="0"/>
+     <position x="-3500" y="0" z="5000"/>
+     <faction attr1="tsf"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</gate_Object>
+<gate_Object>
+     <objectID attr1="gate00"/>
+     <name attr1="gate-2"/>
+     <orientation w="0.00328512" x="0" y="-0.999995" z="0"/>
+     <position x="-100" y="0" z="-15000"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+</gate_Object>
+<gate_Object>
+     <objectID attr1="gate00"/>
+     <name attr1="gate-3"/>
+     <orientation w="0.679098" x="0" y="0.734048" z="0"/>
+     <position x="10000" y="0" z="-10000"/>
+     <faction attr1="tsf"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</gate_Object>
+<ship_Object>
+     <objectID attr1="correa"/>
+     <name attr1="correa-1"/>
+     <orientation w="0.999847" x="0.0142816" y="-0.00948139" z="-0.00344365"/>
+     <position x="-670.391" y="-32.08" z="-1756.03"/>
+     <faction attr1="tsf"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="talon-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="correa"/>
+     <name attr1="correa-2"/>
+     <orientation w="0.999582" x="0.00467915" y="-0.0285464" z="0.000133629"/>
+     <position x="374.15" y="-45.9" z="-1731.29"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="talon-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="correa"/>
+     <name attr1="correa-3"/>
+     <orientation w="0.991693" x="0.0308274" y="0.124814" z="-0.00387992"/>
+     <position x="70.8253" y="-238.437" z="-3111.51"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="talon-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="intrepid"/>
+     <name attr1="intrepid-1"/>
+     <orientation w="0.998815" x="-0.0232991" y="0.0427191" z="0.000996499"/>
+     <position x="-483.331" y="216.09" z="-2211.14"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="talon-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="intrepid"/>
+     <name attr1="intrepid-2"/>
+     <orientation w="0.999377" x="0" y="0.0352938" z="0"/>
+     <position x="1253.15" y="-256.28" z="-1877.81"/>
+     <faction attr1="tsf"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="intrepid"/>
+     <name attr1="intrepid-3"/>
+     <orientation w="0.99831" x="-9.86107e-009" y="-0.0581152" z="-5.74049e-010"/>
+     <position x="-1098.8" y="0.00012207" z="-2112.08"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="pincer-2"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="perezGMK2"/>
+     <name attr1="perezGMK2-1"/>
+     <orientation w="0.999327" x="0" y="0.0366906" z="0"/>
+     <position x="1914.27" y="0" z="2156.45"/>
+     <faction attr1="tsf"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="perezGMK2"/>
+     <name attr1="perezGMK2-2"/>
+     <orientation w="0.95015" x="0" y="0.311792" z="0"/>
+     <position x="1705.53" y="0" z="2318.87"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="perezGMK2"/>
+     <name attr1="perezGMK2-3"/>
+     <orientation w="0.939885" x="0" y="0.341491" z="0"/>
+     <position x="1839.07" y="33.2862" z="2196.74"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="perezGMK2"/>
+     <name attr1="perezGMK2-4"/>
+     <orientation w="0.934797" x="0" y="0.355183" z="0"/>
+     <position x="1802.85" y="0" z="2029.94"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="hound"/>
+     <name attr1="hound-1"/>
+     <orientation w="0.938725" x="0" y="-0.344666" z="0"/>
+     <position x="-1141.21" y="0" z="-4627.69"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="seta-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="hound"/>
+     <name attr1="hound-2"/>
+     <orientation w="0.982434" x="0" y="-0.18661" z="0"/>
+     <position x="-73.6474" y="0" z="-4436.63"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="flea-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="hound"/>
+     <name attr1="hound-3"/>
+     <orientation w="0.79051" x="0.00477654" y="-0.61242" z="0.00370045"/>
+     <position x="-1699.35" y="-27.1799" z="-5275.3"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="flea-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="bonnie"/>
+     <name attr1="bonnie-1"/>
+     <orientation w="0.953308" x="0.012524" y="-0.301714" z="0.00396374"/>
+     <position x="-2004.91" y="0" z="-4511.61"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="seta-4"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="bonnie"/>
+     <name attr1="bonnie-2"/>
+     <orientation w="0.995146" x="5.47393e-009" y="0.0984071" z="-5.41301e-010"/>
+     <position x="761.862" y="0" z="-4417.76"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="flea-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="bonnie"/>
+     <name attr1="bonnie-3"/>
+     <orientation w="0.0541923" x="0" y="0.998531" z="0"/>
+     <position x="623.622" y="0" z="-5724.56"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="bullfrog"/>
+     <name attr1="bullfrog-1"/>
+     <orientation w="0.964484" x="0" y="-0.264141" z="0"/>
+     <position x="-627.514" y="0" z="-4462.67"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="talon-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="bullfrog"/>
+     <name attr1="bullfrog-2"/>
+     <orientation w="0.976612" x="0" y="-0.215009" z="0"/>
+     <position x="-2419.18" y="0" z="-4454.82"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="flea-2"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="bullfrog"/>
+     <name attr1="bullfrog-3"/>
+     <orientation w="0.0648082" x="0" y="-0.997898" z="0"/>
+     <position x="-748.402" y="0" z="-5718.64"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="bullfrog"/>
+     <name attr1="bullfrog-4"/>
+     <orientation w="0.970712" x="-0.000189455" y="0.240244" z="4.68888e-005"/>
+     <position x="1250.87" y="0.5" z="-5492.61"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="talon-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="bullfrog"/>
+     <name attr1="bullfrog-5"/>
+     <orientation w="0.838337" x="-0.238145" y="-0.471722" z="-0.134001"/>
+     <position x="957.52" y="-85.8316" z="-4931.11"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="pincer-3"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="marauder"/>
+     <name attr1="marauder-1"/>
+     <orientation w="0.973801" x="0" y="0.227403" z="0"/>
+     <position x="2257.15" y="0" z="-3307.22"/>
+     <faction attr1="tsf"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="theBeast"/>
+     <name attr1="theBeast-1"/>
+     <orientation w="0.999997" x="0" y="-0.00229037" z="0"/>
+     <position x="-894.367" y="0" z="-3379.17"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="talon-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="theBeast"/>
+     <name attr1="theBeast-2"/>
+     <orientation w="0.995624" x="0.0264535" y="-0.0895908" z="0.00238041"/>
+     <position x="-160.379" y="-242.49" z="-2139.22"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="talon-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="arsonist"/>
+     <name attr1="arsonist-1"/>
+     <orientation w="0.997791" x="0" y="0.0664298" z="0"/>
+     <position x="1545.16" y="0" z="621.669"/>
+     <faction attr1="tsf"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="arsonist"/>
+     <name attr1="arsonist-2"/>
+     <orientation w="0.999978" x="0" y="-0.00664864" z="0"/>
+     <position x="1385.1" y="0" z="978.924"/>
+     <faction attr1="tsf"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="arsonist"/>
+     <name attr1="arsonist-3"/>
+     <orientation w="0.999231" x="0" y="0.0392244" z="0"/>
+     <position x="1517.84" y="0" z="786.148"/>
+     <faction attr1="tsf"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="arsonist"/>
+     <name attr1="arsonist-4"/>
+     <orientation w="0.999598" x="0" y="0.0283609" z="0"/>
+     <position x="1599.81" y="0" z="751.5"/>
+     <faction attr1="tsf"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="talon"/>
+     <name attr1="talon-1"/>
+     <orientation w="0.0491311" x="0" y="0.998792" z="0"/>
+     <position x="653.404" y="0" z="-6625.84"/>
+     <faction attr1="outsider"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="pincer"/>
+     <name attr1="pincer-1"/>
+     <orientation w="9.32972e-005" x="0" y="1" z="0"/>
+     <position x="1.08559" y="-278" z="-5817.65"/>
+     <faction attr1="outsider"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="pincer"/>
+     <name attr1="pincer-2"/>
+     <orientation w="0.0230818" x="0" y="-0.999734" z="0"/>
+     <position x="-381.813" y="0" z="-8249.42"/>
+     <faction attr1="outsider"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="flea"/>
+     <name attr1="flea-1"/>
+     <orientation w="0.214652" x="0" y="0.976691" z="0"/>
+     <position x="2538.31" y="0" z="-5495.86"/>
+     <faction attr1="outsider"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="flea"/>
+     <name attr1="flea-2"/>
+     <orientation w="0.135484" x="0" y="-0.99078" z="0"/>
+     <position x="-1685.79" y="0" z="-6039.69"/>
+     <faction attr1="outsider"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="flea"/>
+     <name attr1="flea-3"/>
+     <orientation w="0.106142" x="0" y="-0.994351" z="0"/>
+     <position x="-1655.78" y="0" z="-7655.93"/>
+     <faction attr1="outsider"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="flea"/>
+     <name attr1="flea-4"/>
+     <orientation w="0.149947" x="0" y="0.988694" z="0"/>
+     <position x="1664.15" y="-596.746" z="-5360.21"/>
+     <faction attr1="outsider"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="seta"/>
+     <name attr1="seta-1"/>
+     <orientation w="0.0440125" x="0" y="-0.999031" z="0"/>
+     <position x="-477.564" y="0" z="-5409.56"/>
+     <faction attr1="outsider"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="seta"/>
+     <name attr1="seta-2"/>
+     <orientation w="0.0257513" x="0" y="0.999668" z="0"/>
+     <position x="280.669" y="48.184" z="-5444.17"/>
+     <faction attr1="outsider"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="seta"/>
+     <name attr1="seta-3"/>
+     <orientation w="0.186661" x="0" y="-0.982424" z="0"/>
+     <position x="-1816.39" y="0" z="-4607.4"/>
+     <faction attr1="outsider"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="seta"/>
+     <name attr1="seta-4"/>
+     <orientation w="0.0782757" x="0" y="-0.996932" z="0"/>
+     <position x="-949.844" y="48.184" z="-6011.39"/>
+     <faction attr1="outsider"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="seta"/>
+     <name attr1="seta-5"/>
+     <orientation w="0.383516" x="-0.0330217" y="-0.919542" z="-0.0791748"/>
+     <position x="-905.71" y="0" z="-4078.57"/>
+     <faction attr1="outsider"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="correa-3"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="seta"/>
+     <name attr1="seta-6"/>
+     <orientation w="0.0899921" x="-0.000457706" y="0.99593" z="0.00506537"/>
+     <position x="857.113" y="4.76837e-007" z="-3841.57"/>
+     <faction attr1="outsider"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="correa-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="seta"/>
+     <name attr1="seta-7"/>
+     <orientation w="0.135906" x="-0.00644928" y="0.989587" z="0.0469598"/>
+     <position x="1845.2" y="-47.3854" z="-3992.81"/>
+     <faction attr1="outsider"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="intrepid-2"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="seta"/>
+     <name attr1="seta-8"/>
+     <orientation w="0.218419" x="5.6289e-009" y="-0.975855" z="2.51489e-008"/>
+     <position x="-2105.95" y="2.38419e-007" z="-4249.88"/>
+     <faction attr1="outsider"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="intrepid-3"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="seta"/>
+     <name attr1="seta-9"/>
+     <orientation w="0.0660225" x="-0.00900703" y="0.98862" z="0.134871"/>
+     <position x="186.656" y="3.74584" z="-3974.87"/>
+     <faction attr1="outsider"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="correa-3"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="seta"/>
+     <name attr1="seta-10"/>
+     <orientation w="0.127394" x="0.000812819" y="0.991832" z="-0.00632822"/>
+     <position x="1220.74" y="-78.987" z="-4295.48"/>
+     <faction attr1="outsider"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="correa-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="seta"/>
+     <name attr1="seta-11"/>
+     <orientation w="0.249418" x="-0.00231532" y="0.968351" z="0.00898908"/>
+     <position x="2755.24" y="19.1129" z="-4209.92"/>
+     <faction attr1="outsider"/>
+     <bActivateOnDamage attr1="0"/>
+     <target attr1="marauder-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="correa"/>
+     <name attr1="correa-4"/>
+     <orientation w="0.999593" x="0" y="-0.0285314" z="0"/>
+     <position x="-1338.71" y="0" z="1763.66"/>
+     <faction attr1="tsf"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="correa"/>
+     <name attr1="correa-5"/>
+     <orientation w="0.999864" x="0" y="0.0164743" z="0"/>
+     <position x="-2149.61" y="0" z="1734.8"/>
+     <faction attr1="tsf"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="correa"/>
+     <name attr1="correa-6"/>
+     <orientation w="0.999897" x="0" y="0.0143664" z="0"/>
+     <position x="-1810.33" y="-62.1165" z="1712.49"/>
+     <faction attr1="tsf"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="correa"/>
+     <name attr1="correa-7"/>
+     <orientation w="0.999049" x="0" y="0.0435931" z="0"/>
+     <position x="-1573.63" y="0" z="1783.08"/>
+     <faction attr1="tsf"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="correa"/>
+     <name attr1="correa-8"/>
+     <orientation w="0.993342" x="5.04517e-008" y="0.115201" z="-5.85107e-009"/>
+     <position x="-328.023" y="-0.000244141" z="-4484.05"/>
+     <faction attr1="tsf"/>
+	<target attr1="talon-1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="bonnie"/>
+     <name attr1="bonnie-4"/>
+     <orientation w="0.947439" x="0" y="-0.319936" z="0"/>
+     <position x="-1648.11" y="0" z="2162.84"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="bonnie"/>
+     <name attr1="bonnie-5"/>
+     <orientation w="0.947468" x="0" y="-0.319851" z="0"/>
+     <position x="-1648.11" y="39.8922" z="2162.84"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="bonnie"/>
+     <name attr1="bonnie-6"/>
+     <orientation w="0.947439" x="0" y="-0.319936" z="0"/>
+     <position x="-1622.56" y="0" z="2129.33"/>
+     <faction attr1="tsf"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="bonnie"/>
+     <name attr1="bonnie-7"/>
+     <orientation w="0.947468" x="0" y="-0.319852" z="0"/>
+     <position x="-1673.65" y="39.8922" z="2196.35"/>
+     <faction attr1="tsf"/>
+</ship_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA0230"/>
+     <orientation w="0.896811" x="0.258443" y="0.338685" z="-0.119286"/>
+     <position x="269.484" y="-139.253" z="-5133.92"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock003"/>
+     <name attr1="Medium Asteroid IA2230"/>
+     <orientation w="0.630668" x="0.0410802" y="0.535426" z="0.560259"/>
+     <position x="1095.64" y="241" z="-5788.76"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="holeRock002"/>
+     <name attr1="Large Asteroid IA3230"/>
+     <orientation w="0.537337" x="0.239413" y="0.728913" z="0.350195"/>
+     <position x="910.321" y="-666.31" z="-6294.03"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA4230"/>
+     <orientation w="0.168089" x="-0.196807" y="-0.627319" z="-0.734496"/>
+     <position x="-535.364" y="-192" z="-4791.75"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="bigRock001"/>
+     <name attr1="Big Asteroid IA6230"/>
+     <orientation w="0.338377" x="0.296373" y="0.890554" z="-0.0676535"/>
+     <position x="-1032.42" y="216" z="-7310.36"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="holeRock002"/>
+     <name attr1="Large Asteroid IA7230"/>
+     <orientation w="0.493355" x="-0.00786014" y="-0.869217" z="0.0316444"/>
+     <position x="621.674" y="1057.5" z="-7367.12"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock003"/>
+     <name attr1="Large Asteroid IA8230"/>
+     <orientation w="0.0139118" x="-0.127487" y="0.365097" z="-0.922094"/>
+     <position x="241.019" y="-1246" z="-6216.44"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA9230"/>
+     <orientation w="0.805721" x="0.0217296" y="0.566615" z="-0.17114"/>
+     <position x="-362.325" y="-1214.5" z="-4377.12"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="Extra Large Asteroid IA10230"/>
+     <orientation w="0.569816" x="0.511364" y="-0.0819192" z="-0.638049"/>
+     <position x="-2865.61" y="580.625" z="-7091.87"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock001"/>
+     <name attr1="Small Asteroid IA11230"/>
+     <orientation w="0.618772" x="-0.203886" y="-0.417794" z="0.633246"/>
+     <position x="-813.384" y="351.553" z="-8387.78"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA12230"/>
+     <orientation w="0.695222" x="0.462534" y="0.31752" z="-0.449344"/>
+     <position x="2035.49" y="-616" z="-4132.84"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock006"/>
+     <name attr1="Extra Large Asteroid IA13230"/>
+     <orientation w="0.577972" x="-0.5957" y="-0.144695" z="-0.538658"/>
+     <position x="2390.49" y="-321.92" z="-7721.69"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="Medium Asteroid IA14230"/>
+     <orientation w="0.0460989" x="-0.970019" y="-0.058995" z="-0.231208"/>
+     <position x="1166.67" y="893.5" z="-7692.12"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA15230"/>
+     <orientation w="0.627433" x="0.345683" y="-0.603248" z="0.350604"/>
+     <position x="3100" y="1236" z="-3624"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>

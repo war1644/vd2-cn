@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="missile"/>
+<objectID attr1="rgTorp001"/>
+<name attr1="Medium Torpedo"/>
+<missileType attr1="torpedo"/>
+<meshName attr1="rgTorp001.mesh"/>
+<ribbonID attr1="m_ribbon"/>
+<trailParticleName attr1="missile_propulsion"/>
+<cruiseSpeed attr1="300.0"/>
+<timeTillCruise attr1="7"/>
+<initialVelocity attr1="50.0"/> 
+<initialLife attr1="16.5"/> 
+<timeTillActive attr1="0.5"/>
+<damage attr1="350.0"/> 
+<explosionID attr1="explode00"/>
+<health attr1="5.0"/>
+<yaw 	attr1="20.0"/> 
+<pitch	attr1="20.0"/> 
+<roll 	attr1="20.0"/> 

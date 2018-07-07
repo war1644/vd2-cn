@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="mine"/> 
+<weaponID attr1="marauderML"/> 
+<ammunitionID attr1="rgHeatMine00"/> 
+<name attr1="Mine Launcher"/> 
+<fireSoundID attr1="missileLS"/>
+<reFireRate attr1="0.0"/>
+<capacity attr1="1"/>
+<reloadTime attr1="10.0"/> 
+<muzzleFlashEffectID attr1="mfML03"/>
+<launchVelocity attr1="120.0"/> 
+<randomLaunchAngle attr1="2"/> 
+<randomLaunchSpeed attr1="20"/>
+<bNoLifeLimit attr1="1"/>

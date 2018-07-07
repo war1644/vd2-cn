@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="explosion"/> 
+<objectID attr1="lRPHit"/> 
+<particleSystemName attr1="vdp_xpl_lightgun_pirate"/> 
+<life attr1="1.2"/>
+<renderingDistance attr1="2000"/>

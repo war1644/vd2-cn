@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="vultureTurret01"/> 
+<name attr1="Chain Gun Turret"/> 
+<meshName attr1="vultureTurret01.mesh"/> 
+<turretWeapon attr1="projectile"/>
+<hardpointID attr1="vultureTPCG"/>
+<dMoveSpeed attr1="80.0"/>
+<pitchMax attr1="90.0"/>
+<turretBarrel>
+	<weaponPosition x="1.1" y="1.05" z="-3.91"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="1.1" y="-1.03" z="-4.01"/>
+	<boneName attr1="muzzle2"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-1.1" y="1.05" z="-3.91"/>
+	<boneName attr1="muzzle3"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-1.1" y="-1.03" z="-4.01"/>
+	<boneName attr1="muzzle4"/>
+</turretBarrel>
+<turretViewPos x="0" y="4.58" z="10.6"/>
+<barrelDelay attr1="0.05"/>
+<targetPriorityList> 
+	<targetClass attr1="gunShip"/>
+	<targetClass attr1="fighter"/>
+	<targetClass attr1="corvette"/> 
+	<targetClass attr1="frigate"/> 
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="attack_station"/> 
+	<targetClass attr1="fighter_drone"/>
+</targetPriorityList> 
+<turnSoundID attr1="turretR00"/>

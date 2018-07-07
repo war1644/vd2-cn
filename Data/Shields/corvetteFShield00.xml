@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="shield"/> 
+<name attr1="Shield"/> 
+<shieldID attr1="corvetteFShield00"/>
+<collisionMeshName attr1="corvetteFShield00.mesh"/>
+<_materialName attr1="Shield/Outsider001"/>

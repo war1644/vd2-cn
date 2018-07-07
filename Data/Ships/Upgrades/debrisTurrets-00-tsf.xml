@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Harden Turrets"/> 
+<objectID attr1="dTurrets00tsf"/>
+<upgradeCategory attr1="weapon"/>
+<cost attr1="1500"/>
+<addCostAsPercentOfShip attr1="0.025"/>
+<bCommonUpgrade attr1="1"/>
+<bTurretedDebris attr1="1"/>
+<description attr1="Hardens turrets and associated components to the point where they are likely to survive the destruction of the ship."/>
+<description attr1=" "/>
+<description attr1="While the crew dies a horrible death, they can take confort that their dying ship's debris will keep sending out invitations for their enemies to join them."/>
+<description attr1=" "/>
+<description attr1="In recent times, a very common upgrade on TSF ships."/>

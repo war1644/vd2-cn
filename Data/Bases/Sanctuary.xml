@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="sanctuary"/> 
+<displayName attr1="Sanctuary"/> 
+<objectID attr1="sanctuary"/> 
+<faction attr1="kind"/> 
+<meshName attr1="Sanctuary.mesh"/>
+<wireframeMaterial attr1="WF/TheHub"/> 
+<descriptionText attr1="A Kind asteroid base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The primary base of the Kind pirate faction."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="If you believe the current occupants... This was a abandoned base, found and colonized by a sizeable group of left over Stubs, who now call themselves the Kind and this base their sanctuary."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The base itself is fully operational and even capable of mining ore."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="0" y="0" z="0"/>
+<dockingArmsEnd x="0" y="0" z="-300"/>
+<dockPosition x="0" y="0" z="-60"/>
+<dockSize x="120" y="120" z="80"/>
+<_hangarID attr1="theHubH"/> 
+<maxBuildShipClass attr1="corvette"/>
+<bCanResearch attr1="1"/>
+<rockSubPosition attr1="1"/>
+<miningPlatformPosition x="-1002" y="-556" z="295"/>

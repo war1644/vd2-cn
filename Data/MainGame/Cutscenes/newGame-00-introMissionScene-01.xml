@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<duration attr1="4"/>
+	<attachment attr1="playerShip"/>
+	<cameraPosition x="-10" y="5" z="-75"/>
+</sceneFragment>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid"/> 
+<name attr1="Tiny Asteroid"/> 
+<objectID attr1="tinyRock002"/> 
+<meshName attr1="tinyRock002.mesh"/> 
+<wireframeMaterial attr1="WF/Asteroid"/> 
+<descriptionText attr1="A tiny asteroid."/> 
+<bShowInTactical attr1="0"/> 
+<health attr1="50.0"/>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<explosionID attr="dirtExp00"/>
+<asteroidType attr="ore"/>
+<asteroidSize attr="tiny"/>

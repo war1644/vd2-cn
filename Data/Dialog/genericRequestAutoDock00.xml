@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieRequestAutoDock00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="request_auto_dock"/>
+<dialog attr1="Requesting auto dock."/>
+<dialog attr1="Base, take the wheel!"/>
+<dialog attr1="Beam me up Scotty."/>
+<dialog attr1="Yielding control for auto dock."/>
+<dialog attr1="Ready for auto dock."/>

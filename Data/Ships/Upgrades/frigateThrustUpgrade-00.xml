@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Thrust Upgrade"/> 
+<objectID attr1="frigateThrust00"/> 
+<upgradeCategory attr1="propulsion"/> 
+<cost attr1="31500"/>
+<addCostAsPercentOfShip attr1="0.029"/>
+<description attr1="Optimises ship's engines to reach their ideal speed (the so called 'cruise' speed) faster. Via a faster time till cruise, ships not only accelerate faster, but the 'drag' effect when changing directions is lessened, allowing for a more responsive flight."/>
+<timeTillCruiseMultiplier attr1="0.8"/>

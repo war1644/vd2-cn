@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Civilian Defense Platform - 04"/> 
+<objectID attr1="cdp01-4"/> 
+<faction attr1="civilian"/> 
+<stationClass attr1="defense_station"/>
+<stationSizeAsShip attr1="frigate"/>
+<creditCost attr1="500000"/>
+<bBaseBuildOverride attr1="1"/>
+<meshName attr1="cdp01-4.mesh"/> 
+<wireframeMaterial attr1="WF/SDP"/> 
+<descriptionText attr1="Civilian Defense Platform"/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="A civilian defensive platform, armed with a mix of light and heavy turrets."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="A larger variant of the CDP-02."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="This platform is often found in 'empty space' as a potential safe harbor for ships under attack that can survive long enough to get near its turrets."/> 
+<health attr1="60000"/> 
+<explosionID attr1="explode06"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<debrisInfo>
+	<debris> 	
+		<debrisID attr1="cdp01D00"/> 
+	</debris>
+	<debris> 	
+		<debrisID attr1="cdp01D01"/> 
+	</debris>
+</debrisInfo> 
+<noteToSelf attr1="Forward Segment ------------------------------------------"/>
+<turret>
+    <turretID attr1="pugTurret02"/> 
+	<position x="32.474" y="25.5" z="-103"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/> 
+	<position x="-32.474" y="25.5" z="-103"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="32.474" y="-25.5" z="-103"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<turretOrientation attr1="bottom"/>	
+	<position x="-32.474" y="-25.5" z="-103"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+</turret>
+<turret>
+    <turretID attr1="frigateT02"/>
+	<turretID attr1="frigateT01"/>
+	<position x="0" y="45.183" z="-52.6"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="90"/>
+</turret>
+<turret>
+    <turretID attr1="frigateT02"/>
+	<turretID attr1="frigateT01"/>
+	<position x="0" y="-45.183" z="-52.6"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="bottom"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="90"/>
+</turret>
+<noteToSelf attr1="Right Segment ------------------------------------------"/>
+<turret>
+    <turretID attr1="pugTurret02"/> 
+	<position x="103" y="25.5" z="32.474"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="-90"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/> 
+	<position x="103" y="25.5" z="-32.474"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="-90"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="103" y="-25.5" z="32.474"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="-90"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<turretOrientation attr1="bottom"/>	
+	<position x="103" y="-25.5" z="-32.474"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="-90"/>
+</turret>
+<turret>
+    <turretID attr1="frigateT02"/>
+	<turretID attr1="frigateT01"/>
+	<position x="52.6" y="45.183" z="0"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="-90"/>
+</turret>
+<turret>
+    <turretID attr1="frigateT02"/>
+	<turretID attr1="frigateT01"/>
+	<position x="52.6" y="-45.183" z="0"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="bottom"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="-90"/>
+</turret>
+<noteToSelf attr1="Left Segment ------------------------------------------"/>
+<turret>
+    <turretID attr1="pugTurret02"/> 
+	<position x="-103" y="25.5" z="32.474"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="90"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/> 
+	<position x="-103" y="25.5" z="-32.474"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="90"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="-103" y="-25.5" z="32.474"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="90"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<turretOrientation attr1="bottom"/>	
+	<position x="-103" y="-25.5" z="-32.474"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="90"/>
+</turret>
+<turret>
+    <turretID attr1="frigateT02"/>
+	<turretID attr1="frigateT01"/>
+	<position x="-52.6" y="45.183" z="0"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="90"/>
+</turret>
+<turret>
+    <turretID attr1="frigateT02"/>
+	<turretID attr1="frigateT01"/>
+	<position x="-52.6" y="-45.183" z="0"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="bottom"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="90"/>
+</turret>
+<noteToSelf attr1="Rear Segment ------------------------------------------"/>
+<turret>
+    <turretID attr1="pugTurret02"/> 
+	<position x="32.474" y="25.5" z="103"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="180"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/> 
+	<position x="-32.474" y="25.5" z="103"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="180"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="32.474" y="-25.5" z="103"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="180"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<turretOrientation attr1="bottom"/>	
+	<position x="-32.474" y="-25.5" z="103"/>
+	<pitchLower attr1="-2.0"/> 
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="180"/>
+</turret>
+<turret>
+    <turretID attr1="frigateT02"/>
+	<turretID attr1="frigateT01"/>
+	<position x="0" y="45.183" z="52.6"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="180"/>
+</turret>
+<turret>
+    <turretID attr1="frigateT02"/>
+	<turretID attr1="frigateT01"/>
+	<position x="0" y="-45.183" z="52.6"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="bottom"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="90"/>
+	<yaw attr1="180"/>
+</turret>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="sun"/> 
+<sunType attr1="flare_sun"/>
+<name attr1="distantTinyFlare"/> 
+<objectID attr1="distantTinyFlare"/> 
+<materialName attr1="Sun/YellowRedSun"/> 
+<billboardFlareMaterial attr1="Space/SunFlare"/>
+<flareSize attr1="150"/>
+<specularColor r="0.5" g="0.5" b="0.5" a="1"/>
+

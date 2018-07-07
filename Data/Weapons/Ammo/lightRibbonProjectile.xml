@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="projectile"/> 
+<projectileID attr1="lightRP"/> 
+<projectileVelocity attr1="670.0"/>
+<ribbonID attr1="yellowPR"/>
+<initialLife attr1="0.8"/> 
+<_range attr1="536.0"/>
+<damage attr1="3.0"/> 
+<explosionID attr1="lPHit"/>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="weaponsHold"/>
+<topicName attr1="  Weapons Hold"/>
+<mainText attr1="Weapons Hold:"/>
+<mainText attr1="Weapons hold is a ship weapon override, allowing you to turn off weapons."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Concepts:"/>
+<mainText attr1="If the ship is player controlled, you can still fire weapons."/>
+<mainText attr1="If leader ship's weapon hold is changed, followers inherit."/>
+<mainText attr1="    On joining the formation."/>
+<mainText attr1="    On change of leader's setting."/>
+<mainText attr1=" "/>
+<mainText attr1="Use:"/>
+<mainText attr1="Prevent friendly fire."/>
+<mainText attr1="Weapons fire generates heat - which is detected by heat seeking mines."/>
+<mainText attr1=" "/>
+<mainText attr1="Overview:"/>
+<mainText attr1="Ships have a variety of weapon systems, some weapon systems can't be directly player controlled - for example automated missile turrets. Because there are some tiny stealth elements in the game, and because I could see this being useful in the future (potential mods where ships have limited ammo) I added this feature to further control ships."/>
+<imageThree>
+	<image attr1="set:guide_weapons_hold image:guide_weapons_hold"/>
+</imageThree>

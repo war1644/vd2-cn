@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="gGavePayment00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="demand_payment_response_already_paid"/>
+<dialog attr1="I already paid!"/>
+<dialog attr1="You trying to double dip? I already paid."/>
+<dialog attr1="You've got my last credits. I already paid."/>
+<dialog attr1="You feeling ok? I already paid you."/>
+<dialog attr1="I already paid you."/>
+<dialog attr1="You don't remember? I paid."/>
+<dialog attr1="You got me already... I paid."/>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<objectID attr1="gDriveExit00"/> 
+<soundFile attr1="gravityDriveExit00.wav"/>
+<maxDistance attr1="5000"/> 
+<referenceDistance attr1="1250"/>
+<defaultVolume attr1="0.3"/>
+<soundPriority attr1="150"/>

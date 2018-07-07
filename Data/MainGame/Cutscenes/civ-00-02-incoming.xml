@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<attachment attr1="incBonnie 1-1"/>
+	<cameraPosition x="0" y="0" z="-120"/>
+	<duration attr1="4.0"/>
+	<trigger>
+		<note_to_self attr1="cutter was moving while under fire sometimes causing unintended camera"/>
+		<triggerType attr1="disable_maneuvering"/>
+		<shipName attr1="miniCarrier1"/>
+		<bSetting attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="disable_engines"/>
+		<shipName attr1="miniCarrier1"/>
+		<bSetting attr1="1"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<attachment attr1="incCorrea 1"/>
+	<cameraPosition x="-40" y="20" z="-320"/>
+	<duration attr1="5.0"/>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="miniCarrier1"/> 
+	<reletiveObject attr1="miniCarrier1"/> 
+	<cameraPosition x="45" y="-35" z="-150"/>
+	<duration attr1="1.5"/>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="miniCarrier1"/> 
+	<reletiveObject attr1="miniCarrier1"/> 
+	<cameraPosition x="45" y="-35" z="-150"/>
+	<duration attr1="2.0"/>
+	<trigger>
+		<triggerType attr1="drop_all_carried"/>
+		<shipName attr1="miniCarrier1"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="miniCarrier1"/> 
+	<reletiveObject attr1="miniCarrier1"/> 
+	<cameraPosition x="45" y="-35" z="-150"/>
+	<duration attr1="0.5"/>
+	<trigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="miniCarrier1"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</trigger>
+	<trigger>
+		<note_to_self attr1="undo above"/>
+		<triggerType attr1="disable_maneuvering"/>
+		<shipName attr1="miniCarrier1"/>
+		<bSetting attr1="0"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="disable_engines"/>
+		<shipName attr1="miniCarrier1"/>
+		<bSetting attr1="0"/>
+	</trigger>
+</sceneFragment>

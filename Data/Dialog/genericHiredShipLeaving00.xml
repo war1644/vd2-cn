@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieHiredShipLeaving00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="hired_ship_leaving"/>
+<dialog attr1="I'm not paid enough to put up with this! Leaving."/>
+<dialog attr1="Getting too hot! Not worth the money you paid me."/>
+<dialog attr1="Find another punching bag! This one is leaving."/>
+<dialog attr1="I'm getting too old for this... You're on your own."/>
+<dialog attr1="That's it! I'm going back to mining."/>
+<dialog attr1="The money you are paying me isn't worth my life."/>

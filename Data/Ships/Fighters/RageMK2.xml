@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="RageMK2"/> 
+<objectID attr1="rageMK2"/> 
+<faction attr1="reborn"/> 
+<shipClass attr1="fighter"/> 
+<meshName attr1="RageMK2.mesh"/>
+<shipClassSize attr1="heavy"/>
+<wireframeMaterial attr1="WF/Bee"/>
+<descriptionText attr1="A heavy fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Rage MK2 is a upgraded version of the Rage. Featuring more armor, an additional turret and heavy fighter upgrade options."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Missile Launcher."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Fires 3 small missiles before needing to reload. Best used against smaller fighters."/>
+<creditCost attr1="145000"/>
+<bBlackMarket attr1="1"/>
+<missionRankRequired attr1="3"/>
+<cruiseSpeed attr1="105.0"/> 
+<timeTillCruise attr1="1.95"/>
+<yaw 	attr1="90.0"/> 
+<pitch	attr1="90.0"/> 
+<roll 	attr1="90.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitInitPos x="0" y="4.61" z="10.76"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos  x="0" y="15" z="105"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="1150.0"/> 
+<buildTime	attr1="35.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="275.0"/> 
+<ore		attr1="375.0"/> 
+<damage>
+    <pitch attr1="-35.0"/> 
+    <roll attr1="125.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="-6.201" y="-5.814" z="8.604"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="rageD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="rageD01"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explodeRed02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp1_25"/>  
+<engineSoundID attr1="eng-01"/> 
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="4.15" y="1.68" z="11.03"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="4.15" y="-4.81" z="11.59"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-4.15" y="1.66" z="11.43"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-4.15" y="-4.78" z="11.86"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="6.25"/>
+    <capacity attr1="11.0"/>
+    <recharge attr1="14.0"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<turret>
+    <turretID attr1="rageTurret01"/>
+	<position x="-18.69" y="0.47" z="5.59"/>
+	<pitchLower attr1="-2"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/> 
+</turret>
+<turret>
+    <turretID attr1="rageTurret01"/>
+    <turretOrientation attr1="bottom"/> 
+	<position x="-18.69" y="-3.62" z="5.59"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/> 
+</turret>
+<turret>
+    <turretID attr1="rageTurret01"/>
+    <turretOrientation attr1="bottom"/> 
+	<position x="-0.06" y="-13" z="4.87"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/> 
+</turret>
+<weapon> 
+    <weaponType attr1="missile"/> 
+    <hardpointID attr1="rageML"/> 
+	<weaponPosition x="13.07" y="0.3" z="2.78"/>
+	<weaponPosition x="13.07" y="-1.61" z="2.78"/>
+	<weaponPosition x="13.07" y="-3.26" z="2.78"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<upgrades> 
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield02"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="gunshipFShield00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed02"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="heavyFighterPUS00"/>
+	<upgradeID attr1="heavyFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="0.71" z="-6.87"/>
+<shipHangarYOffset attr1="7"/>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<factionID attr1="indie"/> 
+<spawnShipFactionID attr1="civilian"/> 
+<spawnShipFactionID attr1="rockGuys"/>
+<factionType attr1="indie"/>
+<factionName attr1="Indie"/>
+<factionPluralName attr1="Indie"/>
+<wireframeColor r="0.0" g="0.3" b="1.0" a="1.0"/> 
+<highlightOutlineColor r="0.0" g="0.3" b="1.0" a="0.5"/>
+<backgroundColor r="0.0" g="0.1" b="0.25" a="0.5"/>
+<cloudsColor r="0.0" g="0.0" b="0.4" a="0.8"/>
+<tacticalMaterial attr1="Overworld/Indie"/>
+<selectedTacticalMaterial attr1="Overworld/IndieSelected"/>
+<buildTacticalMaterial attr1="Overworld/IndieBuild"/>
+<descriptionText attr1="The faction less left overs."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Some might join an actual faction and a scarce few might one day own a ship of their own. Most will die, replaced by another eager soul. "/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Often taking odd jobs, transporting goods or mining, taken for grated by corporations and preyed on by pirates. Rarely acknowledged for their vital contributions."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="An ever changing mass of humanity dreaming of somehow clawing their way out of their current circumstance."/>

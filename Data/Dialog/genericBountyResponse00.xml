@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieGreetingBounty00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="bounty_announcement_response"/>
+<dialog attr1="I didn't do anything!"/>
+<dialog attr1="No... It can't end like this."/>
+<dialog attr1="Check your data! You've got the wrong ship!"/>
+<dialog attr1="You've got the wrong bounty! I just bought this ship!"/>
+<dialog attr1="I'm innocent. I didn't do anything!"/>
+<dialog attr1="I'm being framed! I don't want to die for something I didn't do!"/>
+<dialog attr1="Guess my bounty will just get bigger when I space you."/>
+<dialog attr1="You the bounty hunter they sent? Thought I'd get someone better..."/>
+<dialog attr1="You think you can take me? You'll regret it."/>
+<dialog attr1="I've got friends! Think it over."/>
+<dialog attr1="Just let me leave, you'll never see me again. Please."/>
+<dialog attr1="Please don't... I have a family."/>
+<dialog attr1="Give me a break... Please..."/>
+<dialog attr1="I know I messed up... but I don't deserve to die."/>

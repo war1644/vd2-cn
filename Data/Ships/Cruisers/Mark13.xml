@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Mark13"/> 
+<objectID attr1="mark13"/>
+<faction attr1="tsf"/>  
+<shipClass attr1="cruiser"/> 
+<shipClassSize attr1="light"/>
+<meshName attr1="Mark13.mesh"/> 
+<wireframeMaterial attr1="WF/CorreaG"/> 
+<descriptionText attr1="A TSF light cruiser."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Mark 13 is a living legend."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="During the Outsider conflict it was a meat shield for the command ship - Wardrum. Time after time taking beatings and still standing."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Seemingly invincible, what's less apparent is the number of crew and support ships that weren't."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Legends unfortunately don't age well. It received minor weapon upgrades in the form of additional offensive turret mounts and an improved fighter drone hangar."/>
+<bUniqueShip attr1="1"/>
+<creditCost attr1="52500000"/>
+<cruiseSpeed attr1="15.0"/>
+<timeTillCruise attr1="5.5"/>
+<yaw 	attr1="10.0"/>
+<pitch	attr1="10.0"/>
+<roll 	attr1="10.0"/>
+<bGravityDrive attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="100.13" z="-9.88"/>
+<bHideShipInCockpitAcutal attr1="0"/>
+<cockpitInitPos x="-100.83" y="77.81" z="6.59"/>
+<cockpitTransLimit x="7" y="7" z="7"/>
+<chaseInitPos x="0" y="290.26" z="1451.86"/>
+<chaseTransLimit x="20" y="20" z="20"/>
+<health attr1="450000.0"/>
+<armor attr1="1.75"/>
+<shieldHealth attr1="2000"/>
+<damage>
+    <pitch attr1="12.0"/> 
+    <roll attr1="-2.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="-28.172" y="76.051" z="-51.699"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="17.0"/> 
+    <roll attr1="-15.0"/> 
+	<yaw attr1="-22.0"/> 
+	<position x="-11.293" y="9.06" z="-355.575"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="21.0"/> 
+    <roll attr1="90.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="-43.014" y="-47.493" z="122.599"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage03"/>
+</damage>
+<damage>
+    <pitch attr1="21.0"/> 
+    <roll attr1="-90.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="56.533" y="67.967" z="200.627"/>
+	<healthPoint attr1="0.58"/>
+	<damageEffectID attr1="damage03"/>
+</damage>
+<damage>
+    <pitch attr1="0.0"/> 
+    <roll attr1="-105.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="47.561" y="9.082" z="-279.74"/>
+	<healthPoint attr1="0.48"/>
+	<damageEffectID attr1="damage04"/>
+</damage>
+<damage>
+    <pitch attr1="0.0"/> 
+    <roll attr1="135.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="-56.424" y="-4.834" z="-258.173"/>
+	<healthPoint attr1="0.61"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="12.0"/> 
+    <roll attr1="12.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="-35.417" y="75.361" z="191.932"/>
+	<healthPoint attr1="0.61"/>
+	<damageEffectID attr1="damage03"/>
+</damage>
+<deathTimer attr1="7"/> 
+<deathSpin x="0.1" y="-0.07" z="-0.03"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="mark13D00"/> 
+		<debrisMomentum attr1="1"/> 
+		<debrisAngular attr1="1"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="mark13D01"/> 
+		<debrisMomentum attr1="1"/> 
+		<debrisAngular attr1="1"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explode10"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<preExplosionID attr1="explode03"/>
+<tacticalExplosionID attr1="tacExp2_60"/>
+<engineSoundID attr1="eng-03"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion300"/> 
+	<position x="-1.95" y="-25.73" z="182.32"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/> 
+	<position x="24.84" y="45.32" z="-94.36"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/> 
+	<position x="-24.84" y="45.32" z="-94.36"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="78.93" y="-12.28" z="46.59"/>
+	<direction attr1="port"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="-78.93" y="-12.28" z="46.59"/>
+	<direction attr1="starboard"/> 
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-00"/>
+    <multiplier attr1="1.1"/> 
+    <capacity attr1="1.0"/> 
+    <recharge attr1="5.0"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<turret>
+    <turretID attr1="roalsT02"/>
+	<position x="0.0" y="-130.317" z="20.444"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="parents_target"/>
+	<turretOrientation attr1="bottom"/> 
+</turret>
+<turret>
+    <turretID attr1="roalsT02"/>
+	<position x="0.0" y="-120.019" z="-65.770"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="parents_target"/>
+	<turretOrientation attr1="bottom"/> 
+</turret>
+<turret>
+    <turretID attr1="correaT02"/>
+	<position x="0.31" y="-103.73" z="-143.85"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<turretOrientation attr1="bottom"/> 
+</turret>
+<turret>
+    <turretID attr1="correaT02"/>
+	<position x="0.3" y="-98.74" z="-196.3"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<turretOrientation attr1="bottom"/> 
+</turret>
+<turret>
+    <turretID attr1="correaT02"/>
+	<position x="0.24" y="-91.12" z="-264.41"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<turretOrientation attr1="bottom"/> 
+</turret>
+<turret>
+    <turretID attr1="correaT02"/>
+	<position x="0.08" y="-84.96" z="-321.4"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<turretOrientation attr1="bottom"/> 
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="50.27" y="-20.56" z="-361.09"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+	<turretOrientation attr1="right"/> 
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="51.36" y="-20.56" z="-315.41"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+	<turretOrientation attr1="right"/> 
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="-50.27" y="-20.56" z="-361.09"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+	<turretOrientation attr1="left"/> 
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="-51.36" y="-20.56" z="-315.41"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+	<turretOrientation attr1="left"/> 
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="30.231" y="76.41" z="234.659"/>
+	<pitchLower attr1="1"/> 
+	<turretRole attr1="point_defense"/>
+	<yaw attr1="180"/>
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="-30.231" y="76.41" z="234.659"/>
+	<pitchLower attr1="1"/> 
+	<turretRole attr1="point_defense"/>
+	<yaw attr1="180"/>
+</turret>
+<_movingElement> 
+	<boneName attr1="Bridge"/>
+	<translateAmount x="0" y="-8" z="0"/> 
+	<bCombat attr1="1"/>
+</_movingElement>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="8"/>
+	<activeUpgradeCapacity attr1="10"/>
+	<upgradeID attr1="gunPod00"/>
+	<upgradeID attr1="dTurrets00tsf"/>	
+	<upgradeID attr1="frArmor00"/>
+	<upgradeID attr1="frShield00"/>
+	<upgradeID attr1="frShieldRecharge00"/>
+	<upgradeID attr1="frUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="frigateMan00"/>
+	<upgradeID attr1="frigateThrust00"/>
+	<upgradeID attr1="frAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="frArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="frSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="frigatePUS00"/>
+	<upgradeID attr1="frigateAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<towardsEnemy attr1="right"/>
+<hangarID attr1="mark13H"/> 
+<bLargeDockOnly attr1="1"/>

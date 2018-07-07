@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="gDemandCargo00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="demand_cargo"/>
+<dialog attr1="Either you drop the cargo, or it drops when your ship explodes."/>
+<dialog attr1="Drop your cargo now, or when you blow, your choice."/>
+<dialog attr1="Is some junk worth dying for? Drop your cargo."/>
+<dialog attr1="You drop your cargo, you move on. Everyone is happy."/>
+<dialog attr1="Be smart... drop it and live."/>

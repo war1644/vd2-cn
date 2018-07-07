@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Tug"/> 
+<objectID attr1="tug"/> 
+<faction attr1="rockGuys"/> 
+<shipClass attr1="mining"/> 
+<shipClassSize attr1="medium"/>
+<sizeShipClass attr1="frigate"/> 
+<meshName attr1="Tug.mesh"/>
+<descriptionText attr1="A mining ship, medium frigate class."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Tug is a commonly seen mining ship of the MU."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Instead of the conventional mining method, chipping away pieces of an asteroid then sucking them into a cargo pod, the Tug 'tugs' the asteroid back to base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFF0000']Notice:[colour='FFFFFFFF']When attempting to pick up an asteroid - be sure to go after those classified as 'large'."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The major trade off is this - an asteroid is far less modular than a standard cargo pod, meaning that a transport ship can't support the Tug in mining. However all the Tug has to do is grab the roid, which is far quicker and in a pirate infested field, a potential life saver."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Like nearly every ship of the MU, the Tug has its share of infamy. Tugs were essential to the 'surprise' element of the MU rebellion. From weapons transport to setting up fields of defensive platforms. There's even a unconfirmed account, from a leaked source, claiming that a Tug was used to destroy a TSF base."/>
+<creditCost attr1="655000"/>
+<missionRankRequired attr1="0"/>
+<cruiseSpeed attr1="35.0"/> 
+<timeTillCruise attr1="3.5"/> 
+<yaw 	attr1="30.0"/> 
+<pitch	attr1="30.0"/> 
+<roll 	attr1="30.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitActualPos x="0" y="11.716" z="-71.313"/>
+<cockpitInitPos x="0" y="38.26" z="-5.75"/>
+<cockpitTransLimit x="3" y="3" z="3"/>
+<chaseInitPos x="0" y="111.94" z="822.11"/>
+<chaseTransLimit x="16" y="10" z="6"/>
+<health attr1="55000"/>
+<armor attr1="0.5"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="-45.0"/> 
+    <roll attr1="90.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="-8.536" y="17.936" z="-69.465"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage03"/>
+</damage>
+<damage>
+    <pitch attr1="25.0"/> 
+    <roll attr1="-75.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="72.45" y="-1.448" z="-8.187"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="21.0"/> 
+    <roll attr1="123.0"/> 
+	<yaw attr1="11.0"/> 
+	<position x="-39.132" y="-31.679" z="-6.449"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage04"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="tugD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explode05"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="62.156" y="-1.634" z="44.489"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/>
+	<position x="-62.156" y="-1.634" z="44.489"/>
+</propulsion>
+<propulsion>
+    <propulsionEffectID attr1="propulsion100"/>
+	<position x="0" y="-14.133" z="-75.296"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion>
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="49.524" y="-22.901" z="-5.835"/>
+	<direction attr1="port"/> 
+	<pitch attr1="25.0"/>
+</propulsion>
+<propulsion>
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-49.524" y="-22.901" z="-5.835"/>
+	<direction attr1="starboard"/> 
+	<pitch attr1="25.0"/>
+</propulsion>
+<afterburner>
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="4.1"/> 
+    <capacity attr1="3.75"/>
+    <recharge attr1="3.55"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<dock> 
+	<dockType attr1="ore_dock"/>
+	<position x="0" y="0" z="225"/>
+	<dockOrientation x="back"/>
+	<ejectOrientation x="back"/>
+	<objectID attr1="largeRock001"/>
+	<objectID attr1="largeRock002"/>
+	<objectID attr1="largeRock003"/>
+	<objectID attr1="fakeRock-Hangar001"/>
+</dock>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="2"/>
+	<activeUpgradeCapacity attr1="3"/>
+	<upgradeID attr1="gunPod00"/>
+	<upgradeID attr1="frArmor00"/>
+	<upgradeID attr1="frUpgradeRecharge00"/>
+	<upgradeID attr1="afterburnerFrig00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="frigateMan00"/>
+	<upgradeID attr1="frigateThrust00"/>
+	<upgradeID attr1="frAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="frArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="frSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="frigatePUS00"/>
+	<upgradeID attr1="frigateAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeDockOnly attr1="1"/>

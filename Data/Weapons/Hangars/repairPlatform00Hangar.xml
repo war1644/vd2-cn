@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="hangar"/>
+<hangarID attr1="rP00H"/> 
+<fighterShipID attr1="mosquito"/> 
+<name attr1="Hangar"/> 
+<maxFighters attr1="5"/> 
+<bPrimary attr1="0"/>
+<bRepairHangar attr1="1"/>
+<launchTube>
+    <launchDeckBeg x="0" y="0" z="-31.26"/>
+    <launchDeckEnd x="0" y="0" z="-60"/>
+	<dockPosition x="0" y="0" z="-34"/>
+	<dockSize x="5" y="5" z="5"/>
+</launchTube>
+<_launchTube>
+    <launchDeckBeg x="0" y="0" z="31.1"/>
+    <launchDeckEnd x="0" y="0" z="60"/>
+	<dockPosition x="0" y="0" z="34"/>
+	<dockSize x="5" y="5" z="5"/>
+	<_direction attr1="right"/>
+</_launchTube>
+<launchSpeedMultiplier attr1="1.5"/>

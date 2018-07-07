@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieRequestDockCriminal00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="request_dock_response_criminal"/>
+<dialog attr1="Nope. You've crossed the line and are wanted."/>
+<dialog attr1="Denied. Wanted criminals aren't allowed to dock."/>
+<dialog attr1="You are wanted, you can't dock."/>

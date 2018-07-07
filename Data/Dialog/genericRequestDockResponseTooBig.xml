@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieRequestDockTooBig00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="request_dock_response_too_big"/>
+<dialog attr1="Negative, ship is too big for standard dock. Try auto dock."/>
+<dialog attr1="Hold up there big fella. Try auto dock."/>
+<dialog attr1="We can't accommodate a ship of your size. Try auto dock."/>

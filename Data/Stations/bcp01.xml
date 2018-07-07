@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Beggar Comms Platform "/> 
+<objectID attr1="bcp01"/> 
+<faction attr1="beggar"/> 
+<bCommsOverride attr1="1"/>
+<stationClass attr1="comms_platform"/>
+<stationSizeAsShip attr1="gunship"/>
+<creditCost attr1="100000"/>
+<meshName attr1="bcp01.mesh"/> 
+<wireframeMaterial attr1="WF/SDP"/> 
+<descriptionText attr1="Beggar Comms Platform - 01"/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="A unmanned Beggar communication platform, whose purpose is to scan and report on nearby traffic. Designed to be hard to detect and easy to construct."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="If you are near one of these platforms and are not on friendly terms with its owner, the chances of getting attacked go up exponentially."/>
+<health attr1="4000.0"/> 
+<explosionID attr1="explode06"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<debrisInfo>
+	<debris> 	
+		<debrisID attr1="bcp01D00"/> 
+	</debris>
+</debrisInfo> 
+<attachment>
+	<attachmentID attr1="bdp01Shield01"/>
+	<attachmentPosition x="0" y="0" z="-21.011"/>
+</attachment>
+<attachment>
+	<attachmentID attr1="bdp01Shield01"/>
+	<attachmentPosition x="0" y="0" z="21.011"/>
+	<attachmentOrientation attr1="back"/>
+</attachment>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>

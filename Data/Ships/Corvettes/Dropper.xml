@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Dropper"/> 
+<objectID attr1="dropper"/> 
+<faction attr1="stubs"/> 
+<shipClass attr1="corvette"/>
+<shipClassSize attr1="light"/>
+<meshName attr1="Dropper.mesh"/>
+<descriptionText attr1="A corvette class ship."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="Carries 8 Teardrop drones, capable of efficiently attaching to and destroying larger ships."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="The stuff of nightmares, an unarmed delivery vehicle of death and destruction. Commonly seen in squads to eliminate capital ships. Often both it and its target have time to hopelessly await death."/>
+<creditCost attr1="315000"/>
+<bBlackMarket attr1="1"/>
+<missionRankRequired attr1="0"/>
+<cruiseSpeed attr1="55.0"/> 
+<timeTillCruise attr1="3.15"/> 
+<yaw 	attr1="45.0"/> 
+<pitch	attr1="45.0"/> 
+<roll 	attr1="45.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="17.07" z="0.405"/>
+<bHideShipInCockpitAcutal attr1="0"/>
+<cockpitInitPos x="0" y="28.23" z="51.915"/>
+<cockpitTransLimit x="2" y="2" z="2"/> 
+<bShowInCockpitWeaponParticles attr1="1"/>
+<chaseInitPos x="0" y="44.535" z="285.765"/>
+<chaseTransLimit x="14" y="8" z="6"/>
+<health attr1="7500.0"/>
+<armor attr1="0.0"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="-35.0"/> 
+    <roll attr1="180.0"/> 
+	<yaw attr1="22.0"/> 
+	<position x="16.181" y="-15.648" z="8.653"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="0.0"/> 
+    <roll attr1="90.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="-3.199" y="13.152" z="13.593"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="dropperD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explode03"/>
+<preExplosionID attr1="explode01"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="0" y="-14.415" z="41.904"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="0" y="-24.769" z="36.128"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="15.288" y="-10.9425" z="-2.391"/>
+	<direction attr1="fore"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="-15.288" y="-10.9425" z="-2.391"/>
+	<direction attr1="fore"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.55"/> 
+    <capacity attr1="15"/>
+    <recharge attr1="16"/> 
+</afterburner>
+<weapon> 
+    <weaponType attr1="release_attached_ship"/> 
+    <hardpointID attr1="dropperSR"/> 
+</weapon> 
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="14.219" y="1.551" z="-37.23"/>
+	<objectID attr1="teardrop"/>
+	<attachedID attr1="teardrop"/>
+	<orientation attr1="left"/>
+	<ejectOrientation attr1="right"/>
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="14.219" y="-7.347" z="-37.23"/>
+	<objectID attr1="teardrop"/>
+	<attachedID attr1="teardrop"/>
+	<orientation attr1="left"/>
+	<ejectOrientation attr1="right"/>
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="14.219" y="1.551" z="-16.034"/>
+	<objectID attr1="teardrop"/>
+	<attachedID attr1="teardrop"/>
+	<orientation attr1="left"/>
+	<ejectOrientation attr1="right"/>
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="14.219" y="-7.347" z="-16.034"/>
+	<objectID attr1="teardrop"/>
+	<attachedID attr1="teardrop"/>
+	<orientation attr1="left"/>
+	<ejectOrientation attr1="right"/>
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="-14.219" y="1.551" z="-37.23"/>
+	<objectID attr1="teardrop"/>
+	<attachedID attr1="teardrop"/>
+	<orientation attr1="right"/>
+	<ejectOrientation attr1="left"/>
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="-14.219" y="-7.347" z="-37.23"/>
+	<objectID attr1="teardrop"/>
+	<attachedID attr1="teardrop"/>
+	<orientation attr1="right"/>
+	<ejectOrientation attr1="left"/>
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="-14.219" y="1.551" z="-16.034"/>
+	<objectID attr1="teardrop"/>
+	<attachedID attr1="teardrop"/>
+	<orientation attr1="right"/>
+	<ejectOrientation attr1="left"/>
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="-14.219" y="-7.347" z="-16.034"/>
+	<objectID attr1="teardrop"/>
+	<attachedID attr1="teardrop"/>
+	<orientation attr1="right"/>
+	<ejectOrientation attr1="left"/>
+	<ejectVelocity attr1="15"/>
+</dock>
+<targetPriorityList> 
+	<targetClass attr1="carrier"/> 
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="destroyer"/>
+	<targetClass attr1="frigate"/> 
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="attack_station"/>
+	<targetClass attr1="dreadnaught"/> 
+</targetPriorityList>
+<aggressiveRange attr1="3000"/>
+<collisionShape attr1="simple_convex"/>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="2"/>
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.16" y="-2.63" z="130"/>

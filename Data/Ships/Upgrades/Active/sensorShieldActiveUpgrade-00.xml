@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Sensor Shield"/> 
+<objectID attr1="sensorShield00"/> 
+<upgradeCategory attr1="other"/>
+<upgradeType attr1="active"/>
+<cost attr1="1000"/>
+<addCostAsPercentOfShip attr1="0.15"/>
+<description attr1="Special software and hardware is installed that attempts to mimic sensor results as they would appear if your ship wasn't present to impact the scans."/>
+<description attr1=" "/>
+<description attr1="When active, the sensor shield will prevent your ship from being acquired as a target by hostile craft."/>
+<description attr1=" "/>
+<description attr1="There are two major exceptions: hostile actions by your ship and the targeting mechanism of turrets."/>
+<shipActiveUpgradeType attr1="no_target"/>
+<rechargeTime attr1="15"/>
+<durationTime attr1="20"/>

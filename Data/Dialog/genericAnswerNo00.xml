@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieNo00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="no"/>
+<dialog attr1="No."/>
+<dialog attr1="I don't think so."/>
+<dialog attr1="Nah."/>
+<dialog attr1="Not interested."/>
+<dialog attr1="No thanks."/>
+<dialog attr1="Thanks, but no thanks."/>

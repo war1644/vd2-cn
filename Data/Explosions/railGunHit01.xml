@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="explosion"/> 
+<objectID attr1="railGunHit01"/> 
+<particleSystemName attr1="vdp_anim_rail_gun_hit_01"/> 
+<life attr1="2.2"/>
+<renderingDistance attr1="4000"/>

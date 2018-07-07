@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Skyboxes - Dark Space"/> 
+<objectID attr1="z02SBPD01"/>
+<upgradeCategory attr1="other"/>
+<upgradeType attr1="other"/>
+<cost attr1="1500"/>
+<bAlwaysAvailableUpgrade attr1="1"/>
+<bPersistsOnShipChange attr1="1"/>
+<skybox attr1="darkBlue001"/>
+<skybox attr1="darkYellow001"/>
+<skybox attr1="darkPurple001"/>
+<skybox attr1="darkBlue001"/>
+<description attr1="Alters the visual aspect of the 'space skybox' with ones designed to more closely mimic 'normal' human vision."/>
+<description attr1=" "/>
+<description attr1="This pack features skyboxes with a 'darker' theme."/>
+<description attr1=" "/>
+<description attr1="For those who believe that space should be dark."/>
+<description attr1=" "/>
+<description attr1="Non-faction specific coloring."/>

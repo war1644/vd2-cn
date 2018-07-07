@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Spitfire"/> 
+<objectID attr1="spitfire"/> 
+<faction attr1="reborn"/> 
+<shipClass attr1="fighter"/> 
+<meshName attr1="Spitfire.mesh"/>
+<shipClassSize attr1="heavy"/>
+<wireframeMaterial attr1="WF/Bee"/>
+<descriptionText attr1="A heavy fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Spitfire is another variant of the Fury. Featuring more armor and fire power as well as the capacity to equip defensive turrets."/>
+<descriptionText attr1=""/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Long range projectile."/>
+<descriptionText attr1=""/>
+<descriptionText attr1="Shoots a projectile modified to greatly increase its velocity, thus increasing its range or decreasing its time till target. Giving the operation options to engage from a greater distance or land shots on a rapid moving target."/>
+<descriptionText attr1=""/>
+<descriptionText attr1="Identical to the secondary on the Fury, but with increased ammo capacity.."/>
+<creditCost attr1="115000"/>
+<missionRankRequired attr1="3"/>
+<cruiseSpeed attr1="110.0"/> 
+<timeTillCruise attr1="1.55"/>
+<yaw 	attr1="100.0"/> 
+<pitch	attr1="100.0"/> 
+<roll 	attr1="100.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitActualPos x="0" y="2.4" z="5.13"/>
+<cockpitActualMesh attr1="cockpitSpitfire.mesh"/> 
+<cockpitInitPos x="0" y="6.5" z="15"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos  x="0" y="20" z="95"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="1250.0"/> 
+<buildTime	attr1="35.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="275.0"/> 
+<ore		attr1="375.0"/> 
+<damage>
+    <pitch attr1="15.0"/> 
+    <roll attr1="12.0"/> 
+	<yaw attr1="7.0"/> 
+	<position x="-5.868" y="1.54" z="1.881"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="spitfireD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explodeRed02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp1_25"/>  
+<engineSoundID attr1="eng-01"/> 
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="11.011" y="3.434" z="8.320"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="11.011" y="-3.030" z="8.451"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-11.011" y="3.434" z="8.320"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-11.011" y="-3.030" z="8.451"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="6.25"/>
+    <capacity attr1="10.0"/>
+    <recharge attr1="12.0"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bPlayerSharedFire attr1="1"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="spitfirePG"/> 
+	<weaponPosition x="7.840" y="0.304" z="-3.829"/>
+	<weaponPosition x="5.968" y="0.304" z="-4.251"/>
+	<weaponPosition x="4.096" y="0.304" z="-4.672"/>
+	<weaponPosition x="-7.840" y="0.304" z="-3.829"/>
+	<weaponPosition x="-5.968" y="0.304" z="-4.251"/>
+	<weaponPosition x="-4.096" y="0.304" z="-4.672"/>
+	<barrelDelay attr1="0.025"/>
+</weapon> 
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="spitfirePGLR"/> 
+	<weaponPosition x="7.840" y="0.304" z="-3.829"/>
+	<weaponPosition x="5.968" y="0.304" z="-4.251"/>
+	<weaponPosition x="4.096" y="0.304" z="-4.672"/>
+	<weaponPosition x="-7.840" y="0.304" z="-3.829"/>
+	<weaponPosition x="-5.968" y="0.304" z="-4.251"/>
+	<weaponPosition x="-4.096" y="0.304" z="-4.672"/>
+	<barrelDelay attr1="0.025"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<upgrades> 
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="spitDT00"/>
+	<upgradeID attr1="spitDT01"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield02"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="fFrontShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed02"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="heavyFighterPUS00"/>
+	<upgradeID attr1="heavyFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="-1.5" z="-6.87"/>
+<shipHangarYOffset attr1="1"/>

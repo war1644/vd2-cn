@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Remove - 3D Range Marker"/> 
+<objectID attr1="overRM"/>
+<upgradeCategory attr1="other"/>
+<upgradeType attr1="other"/>
+<cost attr1="500"/>
+<bNoOverworldIndicatorInShipMode attr1="1"/>
+<bAlwaysAvailableUpgrade attr1="1"/>
+<bPersistsOnShipChange attr1="1"/>
+<description attr1="Removes the visual representation of a marker which indicates the ability to enter into 'Overworld' mode."/>
+<description attr1=" "/>
+<description attr1="Overworld mode creates a 3D projection into a Stub's visual systems and alters the state of consciousness far beyond what would be considered normal for a human."/>
+<description attr1=" "/>
+<description attr1="The hack is so simple, that many programmers kick themselves for not thinking of it first and missing out on loads of money. Apparently it's fairly popular with Stubs wishing to be 'more' normal."/>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="instant"/> 
+<instantType attr1="chain_instant"/> 
+<weaponID attr1="sHLCG"/> 
+<name attr1="Light Charge Gun"/> 
+<materialName attr1="Effects/RibbonTrail"/> 
+<baseScale attr1="0.6"/>
+<explosionID attr1="railGunHit00"/> 
+<fireSoundID attr1="heavyGS00"/>
+<chargeSoundID attr1="chargingG00"/>
+<chargedSoundID attr1="chargedG00"/>
+<muzzleFlashEffectID attr1="mfLG01"/>
+<bChargeGun attr1="1"/> 
+<chargeParticleName attr1="weaponCharge"/>
+<weaponPush attr1="3000.0"/> 
+<damage attr1="90.0"/> 
+<range attr1="2100.0"/> 
+<capacity attr1="1.5"/> 
+<reFireRate attr1="0.0"/>
+<visualTimer attr1="0.5"/>
+<reloadTime attr1="1.55"/>
+<bAntiCapShip attr1="1"/>
+<bIgnoresShields attr1="1"/>

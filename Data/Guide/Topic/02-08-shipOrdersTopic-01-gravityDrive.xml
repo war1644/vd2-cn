@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="tacGravDrive"/>
+<topicName attr1="  Gravity Drive Use"/>
+<mainText attr1="Ship Orders - Gravity Drive Use:"/>
+<mainText attr1=" "/>
+<mainText attr1="Key Point:"/>
+<mainText attr1="For ships to use their gravity drive - click the - permit gravity drive - button (see image)."/>
+<mainText attr1="This is done on a - per order - basis."/>
+<mainText attr1="     For example:"/>
+<mainText attr1="      You issued a go to command - to a far away base"/>
+<mainText attr1="      You clicked the permit g-drive button"/>
+<mainText attr1="      You cancelled that order"/>
+<mainText attr1="      If you issue another order - you will need to permit g-drive use again"/>
+<mainText attr1=" "/>
+<mainText attr1="The issue:"/>
+<mainText attr1="If you read one of the earlier topics - it talked about the contradiction of making ships independent and obedient."/>
+<mainText attr1="Gravity drive use smacks into a variant of this as well."/>
+<mainText attr1=" "/>
+<mainText attr1="Gravity drive is can be used to travel long distances."/>
+<mainText attr1="Gravity drive has to use the nearest hop."/>
+<mainText attr1="Gravity drive could potentially lead to ships getting into trouble."/>
+<mainText attr1="Players might want to use standard engines for travel, or the g-drive."/>
+<mainText attr1="     This is an unknown and widely situational."/>
+<mainText attr1="Therefore - gravity drive use is under the player's control."/>
+<mainText attr1=" "/>
+<mainText attr1="Special cases:"/>
+<mainText attr1="There are a few cases where ships will always use the g-drive."/>
+<mainText attr1="     Formation leader used the g-drive"/>
+<mainText attr1="     If delivering cargo pods"/>
+<mainText attr1="     If headed towards a friendly base"/>
+<mainText attr1="     Other cases - where speed and simplicity tend to win."/>
+<mainText attr1=" "/>
+<mainText attr1="Note:"/>
+<mainText attr1="Not all ships have a g-drive - mostly drones."/>
+<imageThree>
+	<image attr1="set:guide_permit_gdrive image:guide_permit_gdrive"/>
+</imageThree>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieRequestDockTooFar00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="request_auto_dock_response_too_far"/>
+<dialog attr1="Negative. Get closer."/>
+<dialog attr1="Negative, you are out of range."/>
+<dialog attr1="Auto dock not available at this range."/>

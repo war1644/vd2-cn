@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<factionID attr1="tsf"/> 
+<factionType attr1="military"/>
+<factionName attr1="TSF"/>
+<factionPluralName attr1="TSF"/>
+<wireframeColor r="0.0" g="0.75" b="0.0" a="1.0"/> 
+<highlightOutlineColor r="0.0" g="0.3" b="0.0" a="0.5"/>
+<backgroundColor r="0.0" g="0.25" b="0.0" a="0.5"/>
+<cloudsColor r="0.0" g="0.4" b="0.0" a="0.8"/>
+<tacticalMaterial attr1="Overworld/TSF"/>
+<selectedTacticalMaterial attr1="Overworld/TSFSelected"/>
+<buildTacticalMaterial attr1="Overworld/TSFBuild"/>
+<factionIconText attr1="set:brFactionIcons image:tsf"/>
+<factionSkyBoxMaterialName attr1="Space/Green_Space"/>
+<descriptionText attr1="Territory Security Force, a wing of the military tasked with maintaining order in otherwise lawless regions of space."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="In vast areas of undeveloped space there is no organized law enforcement, so it is up to the TSF to function as judge, jury and executioner. The TSF aren't the police, they won't arrest you."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Often underfunded and short staffed, this region's of space TSF has recently suppressed a rebellion and unbelievably to some, repelled a assault from a unknown, presumably alien source. They are battle hardened, victorious, and now flooded with funds and new recruits."/>

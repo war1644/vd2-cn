@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Approval Run"/>
+<missionDescriptionText attr1="Do you have what it takes to join The Pride?"/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="If the answer is yes... Money, fame, glorious combat and the best ships can be yours."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Meet one of our members outside of The Lion and your evaluation will begin."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Thank you for your interest in The Pride."/>
+<_missionOverworldText attr1="Travel to The Lion"/>
+<objectID attr1="pride-00"/>
+<missionFactionID attr1="thePride"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="1650" y="0" z="150"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="1000"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<maximumShipClass attr1="fighter"/>
+<bOverworldByPass attr1="1"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="pilar"/>
+		<shipName attr1="bhApprovalShip"/>
+		<displayName attr1="Dulcinea"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="thePride"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<bReletiveToPlayer attr1="1"/>
+		<position x="3000" y="0" z="-3000"/>
+		<aiPosture attr1="search_and_destroy"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="bhApprovalShip"/>
+		<hopPosition x="0" y="0" z="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="bhApprovalShip"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="bhApprovalShip"/>
+		<characterID attr1="cervantes"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<commandType attr1="hold_position"/>
+		<shipName attr1="bhApprovalShip"/>
+		<reletiveObject atte1="bhApprovalShip"/>
+		<position x="0" y="0" z="0"/>
+	</postTrigger>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="There you are..."/>
+			<content attr1="My ship is the Dulcinea."/>
+			<content attr1="Let's get a good look at you."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<missionHUDText attr1="Go to the Dulcinea"/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="bhApprovalShip"/>
+		<goToDistance attr1="2500"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="ship_speed_zero"/>
+		<shipName attr1="playerShip"/>
+	</postTrigger>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="Good, I see you can fly."/>
+			<content attr1="I'm here to make sure you can follow mission directives."/>
+			<content attr1="To be clear, that means killing."/>
+			<content attr1="You got that?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Yes."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="Oh damn!"/>
+			<content attr1="A Stub!? Hah hah!"/>
+			<content attr1="Good good..."/>
+			<content attr1="If I had to listen to another noob cry for help..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="Now the fun part..."/>
+			<content attr1="Waiting for the target."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Fun?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="Yeah!"/>
+			<content attr1="It's the anticipation. The best part."/>
+			<content attr1="First I'll take bets on whether you'll survive."/>
+			<content attr1="Then I'll catch up on my comms."/>
+			<content attr1="Think about lunch.."/>
+			<content attr1="Maybe a nap or two..."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postCutscene attr1="pride-00-someTimeLater"/>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="2"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="And here's our pay check!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="Now I know you Stubs just want to kill things."/>
+			<content attr1="And don't get me wrong, I can appreciate that."/>
+			<content attr1="But there is a protocol to these things."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="Because this is a non-hostile target, you need to announce the bounty."/>
+			<content attr1="Then you can legally send it back to momma."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<failMissionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<missionHUDText attr1="Announce the bounty via comms..."/>
+	<objective>
+		<objectiveType attr1="comms_target"/> 
+		<objectName attr1="approvalTarget"/>
+		<markObject attr1="approvalTarget"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="approvalTarget"/>
+		<healthPercent attr1="0.90"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="This is a bounty announcement."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="pride-00-Target"/>
+			<content attr1="Uh... what?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="That's the best you can do?"/>
+			<content attr1="This guy is about to die and those will be the last words he'll hear?"/>
+			<content attr1="Sad..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="pride-00-Target"/>
+			<content attr1="Bounty? What? No no no that wasn't me!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="Here we go..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="pride-00-Target"/>
+			<content attr1="Listen! I'll pay you."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="Yep... yep yep yep."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="pride-00-Target"/>
+			<content attr1="Please don't! You don't have to do this!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<bClearAllText attr1="1"/>
+			<content attr1="Well technically he's right. You don't have to do this."/>
+			<content attr1="So what's it going to be kid?"/>
+			<content attr1="Are you going to join us or am I going to get the full bounty?"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="Forgetting something?"/>
+			<content attr1="Like that bounty announcement I mentioned?"/>
+			<content attr1="Proper Stub... Bloodthirsty."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="Attacking a non-hostile ship is a crime."/>
+			<content attr1="Lucky for you this target is wanted."/>
+			<content attr1="So there won't be any severe penalties."/>
+		</dialog>
+	</preDialog>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<failMissionNumber attr1="8"/>
+	<nextMissionNumber attr1="1000"/>
+	<missionHUDText attr1="Destroy target"/>
+	<preTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="approvalTarget"/> 	
+		<faction attr1="enemyPlayer"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="approvalTarget"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="Hah hah hah!"/>
+			<content attr1="I knew you had it in you."/>
+			<content attr1="You now have the rank to buy Pride ships and get contracts."/>
+			<content attr1="Welcome aboard!"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="1000"/>
+	<missionHUDText attr1="Destroy target"/>
+	<preTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="approvalTarget"/> 	
+		<faction attr1="enemy"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="bhApprovalShip"/> 	
+		<targetName attr1="approvalTarget"/>
+	</preTrigger>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="pride-00-Target"/>
+			<content attr1="Hah hah!"/>
+			<content attr1="I thought that the Pride was tough!"/>
+			<content attr1="Thanks for the laugh!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="Oh come on..."/>
+			<content attr1="Fine! I guess pappa lion has to show baby bird how its done."/>
+			<content attr1="Engaging!"/>
+		</dialog>
+	</preDialog>
+	<preTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="approvalTarget"/>
+		<aiPosture attr1="engage"/>		
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="approvalTarget"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="Well kid..."/>
+			<content attr1="You are going to have a bumpy ride ahead of you."/>
+			<content attr1="But I'm not going to stand in your way."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="We can always use an accountant."/>
+			<content attr1="Or something..."/>
+			<content attr1="You now have the rank to buy Pride ships and get contracts."/>
+			<content attr1="Welcome aboard!"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="1.05"/>
+		<faction attr="thePride"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<mission>
+	<missionNumber attr1="2000"/>
+	<bForceActive attr1="1"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="bhApprovalShip"/>
+		<healthPercent attr1="0.20"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="cervantes"/>
+			<content attr1="Was it all those Stub jokes?"/>
+			<content attr1="I regret nothing!"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<bForceActive attr1="1"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="bhApprovalShip"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+</mission>

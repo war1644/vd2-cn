@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Target Scramble"/> 
+<objectID attr1="targetScramble00"/> 
+<upgradeCategory attr1="other"/>
+<upgradeType attr1="active"/>
+<cost attr1="1000"/>
+<addCostAsPercentOfShip attr1="0.1"/>
+<description attr1="Special software and hardware is installed that attempts to mimic sensor results as they would appear if your ship was destroyed."/>
+<description attr1=" "/>
+<description attr1="When activated, the target scramble will clear your ship from hostile target lists, including ships, platforms, missiles and mines."/>
+<description attr1=" "/>
+<description attr1="Best used in a situation where you can further mask your ship (for example with the sensor shield ability) or in a environment where hostiles are likely to target other objects."/>
+<shipActiveUpgradeType attr1="target_scramble"/>
+<rechargeTime attr1="20"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="stubCollision00"/>
+<bGeneric attr1="0"/>
+<factionID attr1="stubs"/>
+<dialogType attr1="collision"/>
+<dialog attr1="Maybe you were one of the grunt Stubs..."/>
+<dialog attr1="Didn't we all get the same flight training?"/>
+<dialog attr1="I know we got the ship for 'free'... but be careful."/>
+<dialog attr1="Your eye implants ok?"/>
+<dialog attr1="Enhanced vision and still this?"/>

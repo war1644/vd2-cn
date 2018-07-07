@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<soundEngineSoundType attr1="ui"/>
+<effectType attr1="sound"/> 
+<soundType attr1="continuous"/> 
+<objectID attr1="timeSlowed00"/> 
+<soundFile attr1="timeSlowed00.wav"/> 

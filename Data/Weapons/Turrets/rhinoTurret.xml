@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="rhinoTurret"/> 
+<name attr1="Medium Turret"/> 
+<meshName attr1="rhinoTurret.mesh"/> 
+<turretWeapon attr1="projectile"/>
+<pitchMax attr1="65.0"/>
+<hardpointID attr1="rhinoTG"/>
+<dMoveSpeed attr1="25.0"/> 
+<turretBarrel>
+	<weaponPosition x="3.18" y="0" z="-11.925"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-3.18" y="0" z="-11.925"/>
+	<boneName attr1="muzzle2"/>
+</turretBarrel>
+<barrelDelay attr1="0.25"/>
+<turretViewPos x="0" y="3.675" z="8.4975"/>
+<targetPriorityList> 
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="gunship"/>
+	<targetClass attr1="attack_station"/>
+	<targetClass attr1="fighter"/>
+</targetPriorityList>
+<turnSoundID attr1="turretR01"/>
+<bPhysicalBody attr1="1"/>
+<bAlwaysShowInTactical attr1="1"/>

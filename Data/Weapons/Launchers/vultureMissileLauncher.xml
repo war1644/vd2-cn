@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="missile"/> 
+<weaponID attr1="vultureML"/> 
+<ammunitionID attr1="smallMissile00"/> 
+<name attr1="Launcher"/> 
+<fireSoundID attr1="missileLS"/>
+<reFireRate attr1="1.75"/>
+<capacity attr1="4"/>
+<reloadTime attr1="12"/> 
+<muzzleFlashEffectID attr1="mfML01"/>

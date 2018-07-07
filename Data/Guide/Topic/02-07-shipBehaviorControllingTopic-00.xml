@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="doNotEnage"/>
+<topicName attr1="  Do Not Engage"/>
+<mainText attr1="Do not engage:"/>
+<mainText attr1="Ships WILL NOT target enemy ships on their own"/>
+<mainText attr1="     Don't forget, you can still issue targets"/>
+<mainText attr1=" "/>
+<mainText attr1="Goal:"/>
+<mainText attr1="The goal behind this setting is eliminate ship independence."/>
+<mainText attr1=" "/>
+<mainText attr1="Use:"/>
+<mainText attr1="Use this setting to keep ships in formations, or stationary."/>
+<mainText attr1="This is a good defensive setting or a way of preventing ships from being drawn into far away fights."/>
+<mainText attr1="Because turrets have their own behaviour - turrets will still fire on enemy targets."/>
+<mainText attr1="Having a line of capital ships - in do not engage - in some situations might be far better - are no ships charging enemy columns in or lagging behind."/>
+<mainText attr1="If player orders are given - after the destruction of the target, ships will return to formation or previous hold position."/>
+<mainText attr1="Hop into a ship - and pilot it yourself. Your forces won't engage on their own - so they'll be where you left them."/>
+<mainText attr1=" "/>
+<imageThree>
+	<image attr1="set:guide_ship_behavior image:guide_ship_behavior"/>
+</imageThree>

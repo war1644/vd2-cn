@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectID attr1="radPlatformField00"/> 
+<particleSystemName attr1="vdp_radiation400"/> 
+<damage attr1="25"/>
+<affectedObjects attr1="ship"/>
+<lifeTimer attr1="45"/>
+<fieldSize x="300" y="300" z="300"/>

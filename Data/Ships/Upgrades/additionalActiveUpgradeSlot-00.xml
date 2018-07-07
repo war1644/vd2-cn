@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Overhaul - AUS"/> 
+<objectID attr1="addAUS00"/>
+<upgradeCategory attr1="other"/>
+<upgradeType attr1="other"/>
+<addCostAsPercentOfShip attr1="0.65"/>
+<activeUpgradeSlotChange attr1="1"/>
+<description attr1="A near total reconfiguration of ship systems and replacement with more compact variants to yield another active upgrade slot."/>
+<description attr1=" "/>
+<description attr1="Crazy rich? Or just crazy? Even with the cost of this upgrade, pilots that love a particular ship are sometimes tempted to invest, versus moving on to a higher tier."/>

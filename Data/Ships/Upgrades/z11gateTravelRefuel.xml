@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Gate Travel - Refuel"/> 
+<objectID attr1="gTR"/>
+<upgradeCategory attr1="engineering"/>
+<cost attr1="1500"/>
+<addCostAsPercentOfShip attr1="0.025"/>
+<bGateTravelRefuel attr1="1"/>
+<bAlwaysAvailableUpgrade attr1="1"/>
+<description attr1="Adds a component to the ship's gravity drive to enable recharging energy reserves."/>
+<description attr1=" "/>
+<description attr1="While in gate travel, kinetic energy is harnessed to recharge 'fuel' reserves, used for primary and secondary speed boosts while in 'standard' Overworld travel."/>

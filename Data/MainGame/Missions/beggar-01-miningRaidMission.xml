@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Mining Raid"/>
+<missionDescriptionText attr1="The Civilian Conglomerate has setup a illegal mining operation in our space."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="That is to say... they've refused to pay us."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="You up for a raid?"/>
+<objectID attr1="beggar-01"/>
+<missionFactionID attr1="beggar"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="-4300" y="0" z="1775"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="20000"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<bFactionShipRequired attr1="1"/>
+<maximumShipClass attr1="fighter"/>
+<bOverworldByPass attr1="1"/>
+<missionRankRequired attr1="3.8"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="hugeRock006"/>
+		<name attr1="miningRoid"/>
+		<bOverworld attr1="0"/>
+		<position x="0" y="0" z="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="mediumRock001"/>
+		<name attr1="roid-1"/>
+		<bOverworld attr1="0"/>
+		<orientation w="-0.404287" x="0.386659" y="0.538185" z="-0.630399"/>
+		<position x="641.951" y="-410.88" z="-540.482"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="smallRock002"/>
+		<name attr1="roid-2"/>
+		<bOverworld attr1="0"/>
+		<orientation w="0.148314" x="-0.915898" y="-0.173895" z="-0.329992"/>
+		<position x="476.83" y="129.41" z="506.038"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="holeRock003"/>
+		<name attr1="roid-3"/>
+		<bOverworld attr1="0"/>
+		<orientation w="0.296677" x="0.823901" y="-0.386" z="0.290127"/>
+		<position x="-1490.15" y="-345.4" z="-1213.39"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="extraLargeRock004"/>
+		<name attr1="roid-5"/>
+		<bOverworld attr1="0"/>
+		<orientation w="-0.467565" x="0.685318" y="0.247823" z="-0.500306"/>
+		<position x="1298.91" y="514.673" z="1011.9"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="pluto"/>
+		<shipName attr1="miningShip"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="neutral"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="0"/>
+		<reletiveObject attr1="miningRoid"/>
+		<position x="0" y="0" z="-1400"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="look_at"/>
+		<lookAtObject attr1="miningRoid"/>
+		<objectName attr1="miningShip"/>
+		<bNoRoll attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="miningShip"/> 	
+		<targetName attr1="miningRoid"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="carriedOrePod-1"/>
+		<faction attr1="civilian"/>
+		<reletiveObject attr1="miningShip"/>
+		<position x="0" y="200" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<carryingShip attr1="miningShip"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="orePod-1"/>
+		<faction attr1="civilian"/>
+		<reletiveObject attr1="miningShip"/>
+		<position x="1000" y="-500" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="orePod-2"/>
+		<faction attr1="civilian"/>
+		<reletiveObject attr1="orePod-1"/>
+		<position x="300" y="0" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="orePod-3"/>
+		<faction attr1="civilian"/>
+		<reletiveObject attr1="orePod-1"/>
+		<position x="0" y="-300" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="orePod-4"/>
+		<faction attr1="civilian"/>
+		<reletiveObject attr1="orePod-3"/>
+		<position x="300" y="0" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="anubis"/>
+		<shipName attr1="escort-1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="miningShip"/>
+		<position x="500" y="1000" z="1000"/>
+		<aiPosture attr1="engage"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="escort-1"/>
+		<commandType attr1="patrol_position"/>
+		<position x="0" y="1000" z="0"/>
+		<distance attr1="5000"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="cobra"/>
+		<shipName attr1="cobra-1"/>
+		<shipID attr1="cobra"/>
+		<shipName attr1="cobra-2"/>
+		<shipID attr1="cobra"/>
+		<shipName attr1="cobra-3"/>
+		<shipID attr1="cobra"/>
+		<shipName attr1="cobra-4"/>
+		<shipID attr1="cobra"/>
+		<shipName attr1="cobra-5"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="escort-1"/>
+		<position x="500" y="0" z="0"/>
+		<aiPosture attr1="engage"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="cobra-1"/>
+		<targetName attr1="escort-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="cobra-2"/>
+		<objectName attr1="cobra-3"/>
+		<objectName attr1="cobra-4"/>
+		<objectName attr1="cobra-5"/>
+		<targetName attr1="cobra-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="roachC"/>
+		<shipName attr1="roachC-1"/>
+		<shipID attr1="roachC"/>
+		<shipName attr1="roachC-2"/>
+		<shipID attr1="roachC"/>
+		<shipName attr1="roachC-3"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="escort-1"/>
+		<position x="-500" y="0" z="0"/>
+		<aiPosture attr1="engage"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="roachC-2"/>
+		<objectName attr1="roachC-3"/>
+		<targetName attr1="roachC-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="roachC-1"/>
+		<targetName attr1="escort-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-1"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-2"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-3"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-4"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-5"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="500" y="-500" z="-4000"/>
+		<aiPosture attr1="hold"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="leo-2"/>
+		<objectName attr1="leo-3"/>
+		<objectName attr1="leo-4"/>
+		<objectName attr1="leo-5"/>
+		<targetName attr1="leo-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="miningShip"/>
+		<objectName attr1="escort-1"/>
+		<objectName attr1="cobra-1"/>
+		<objectName attr1="cobra-2"/>
+		<objectName attr1="cobra-3"/>
+		<objectName attr1="cobra-4"/>
+		<objectName attr1="cobra-5"/>
+		<objectName attr1="roachC-1"/>
+		<objectName attr1="roachC-2"/>
+		<objectName attr1="roachC-3"/>
+		<objectName attr1="leo-1"/>
+		<objectName attr1="leo-2"/>
+		<objectName attr1="leo-3"/>
+		<objectName attr1="leo-4"/>
+		<objectName attr1="leo-5"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggarMaleGeneric03"/>
+		<message attr1="Ignore the Pluto. Take out the escorts and watch yourselves around the Anubis!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="scavMK2"/>
+		<shipName attr1="scavMK2-1"/>
+		<shipID attr1="scavMK2"/>
+		<shipName attr1="scavMK2-2"/>
+		<shipID attr1="scavMK2"/>
+		<shipName attr1="scavMK2-3"/>
+		<shipID attr1="vulture"/>
+		<shipName attr1="vulture-1"/>
+		<shipID attr1="vulture"/>
+		<shipName attr1="vulture-2"/>
+		<shipID attr1="vulture"/>
+		<shipName attr1="vulture-3"/>
+		<shipID attr1="vulture"/>
+		<shipName attr1="vulture-4"/>
+		<shipID attr1="buzzard"/>
+		<shipName attr1="buzzard-1"/>
+		<shipID attr1="buzzard"/>
+		<shipName attr1="buzzard-2"/>
+		<shipID attr1="buzzard"/>
+		<shipName attr1="buzzard-3"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="1000" y="0" z="300"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="scavMK2-1"/>
+		<objectName attr1="scavMK2-2"/>
+		<objectName attr1="scavMK2-3"/>
+		<objectName attr1="vulture-1"/>
+		<objectName attr1="vulture-2"/>
+		<objectName attr1="vulture-3"/>
+		<objectName attr1="vulture-4"/>
+		<objectName attr1="buzzard-1"/>
+		<objectName attr1="buzzard-2"/>
+		<objectName attr1="buzzard-3"/>
+	</preTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="scavMK2-1"/>
+		<objectName attr1="scavMK2-2"/>
+		<objectName attr1="scavMK2-3"/>
+		<objectName attr1="vulture-1"/>
+		<objectName attr1="vulture-2"/>
+		<objectName attr1="vulture-3"/>
+		<objectName attr1="vulture-4"/>
+		<objectName attr1="buzzard-1"/>
+		<objectName attr1="buzzard-2"/>
+		<objectName attr1="buzzard-3"/>		
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="0.8"/>
+	</postTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="civilian"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="leo-1"/>
+		<shipName attr1="leo-2"/>
+		<shipName attr1="leo-3"/>
+		<shipName attr1="leo-4"/>
+		<shipName attr1="leo-5"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<failMissionNumber attr1="2000"/>
+	<missionHUDText attr1="Destroy escorts..."/>
+	<preTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="interlinked-l"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="civilian"/>
+		<bMarkShips attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="miningShip"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggarMaleGeneric03"/>
+		<message attr1="Nice! Now get the Pluto to reconsider its life choices."/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="miningShip"/> 	
+		<faction attr1="civilian"/>
+	</preTrigger>
+	<missionHUDText attr1="Damage Pluto..."/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="miningShip"/>
+		<healthPercent attr1="0.8"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggarMaleGeneric03"/>
+		<message attr1="Not paying! Keep asking!"/>
+	</preTrigger>
+	<missionHUDText attr1="Damage Pluto..."/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="miningShip"/>
+		<healthPercent attr1="0.6"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="brick-1"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="brick-2"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-1"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-2"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-3"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-4"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="miningShip"/>
+		<position x="5000" y="0" z="15000"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="brick-1"/>
+		<shipName attr1="brick-2"/>
+		<shipName attr1="leo-1"/>
+		<shipName attr1="leo-2"/>
+		<shipName attr1="leo-3"/>
+		<shipName attr1="leo-4"/>
+		<reletiveObject attr1="miningShip"/>
+		<hopPosition x="0" y="0" z="3000"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="caterpillar"/>
+		<shipName attr1="caterpillar-1"/>
+		<shipID attr1="caterpillar"/>
+		<shipName attr1="caterpillar-2"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="miningShip"/>
+		<position x="6000" y="2000" z="15000"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="caterpillar-1"/>
+		<shipName attr1="caterpillar-2"/>
+		<reletiveObject attr1="miningShip"/>
+		<hopPosition x="0" y="0" z="3000"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="caterpillar-1"/>
+		<objectName attr1="caterpillar-2"/>
+		<objectName attr1="brick-1"/>
+		<objectName attr1="brick-2"/>
+		<objectName attr1="leo-1"/>
+		<objectName attr1="leo-2"/>
+		<objectName attr1="leo-3"/>
+		<objectName attr1="leo-4"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggarMaleGeneric03"/>
+		<message attr1="Oh I see... Waiting for some friends eh?"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<nextMissionNumber attr1="4000"/>
+	<missionHUDText attr1="Destroy escorts..."/>
+	<preTrigger>
+		<triggerType attr1="ship_clear_orders"/>
+		<factionName attr1="beggar"/>
+		<note_to_self attr1="clearing orders so that ships re-target - hopefully the incoming leos"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="all_faction_ships_target"/>
+		<faction attr1="beggar"/>
+		<target attr1="leo-1"/>
+		<note_to_self attr1="bit more forceful here on setting target - first leo"/>
+	</preTrigger>	
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="brick-1"/>
+		<targetName attr1="brick-2"/>
+		<targetName attr1="leo-1"/>
+		<targetName attr1="leo-2"/>
+		<targetName attr1="leo-3"/>
+		<targetName attr1="leo-4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggarMaleGeneric03"/>
+		<message attr1="Nice... Sending in the Hogs, mop up the rest."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="hog"/>
+		<shipName attr1="hog-1"/>
+		<shipID attr1="hog"/>
+		<shipName attr1="hog-2"/>
+		<shipID attr1="hog"/>
+		<shipName attr1="hog-3"/>
+		<shipID attr1="hog"/>
+		<shipName attr1="hog-4"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="miningRoid"/>
+		<position x="10000" y="2000" z="0"/>
+		<aiPosture attr1="engage"/>
+	</preTrigger>
+	<missionHUDText attr1="Destroy remaining ships..."/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="civilian"/>
+		<bMarkShips attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="1000"/>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggarMaleGeneric03"/>
+		<message attr1="Good work... I like to get paid, but hate begging."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="4.05"/>
+		<faction attr="beggar"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="8"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggarMaleGeneric03"/>
+		<message attr1="I said ignore the Pluto! Oh well... Mop up the rest."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="4000"/>
+	<nextMissionNumber attr1="4001"/>
+	<note_to_self attr1="setup for comms after no one is left"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="caterpillar-1"/>
+		<targetName attr1="caterpillar-2"/>
+		<bNoObjectiveMarker attr1="1"/>		
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="4001"/>
+	<nextMissionNumber attr1="4002"/>
+	<note_to_self attr1="comms after no one is left"/>
+	<objective>
+		<objectiveType attr1="comms_target"/> 
+		<objectName attr1="miningShip"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="There's no one left..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civPNC03"/>
+			<nameOverride attr1="Captain Mulish"/>
+			<content attr1="Dammit!"/>
+			<content attr1="Fine! I'll pay!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggarMaleGeneric03"/>
+			<nameOverride attr1="Raid Leader"/>
+			<content attr1="You silver tongued devil..."/>
+			<content attr1="Wait... Do you even have a tongue?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggarMaleGeneric03"/>
+			<nameOverride attr1="Raid Leader"/>
+			<content attr1="Ehh... don't tell me."/>
+			<content attr1="Here's your cut, a 15k bonus."/>
+		</dialog>
+	</postDialog>
+	<postTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="miningShip"/> 	
+		<faction attr1="neutral"/>
+		<note_to_self attr1="changing the faction means that there's no more civilian ships - should complete the destroy faction objective above"/>
+	</postTrigger>
+	<reward>
+		<rewardType attr="credit"/>
+		<credits attr="15000"/>
+	</reward>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="4002"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="20"/>
+		<note_to_self attr1="bit of a wait timer to ensure other missions are completed..."/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="drop_all_carried"/>
+		<shipName attr1="miningShip"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="miningShip"/> 	
+		<faction attr1="civilian"/>
+		<note_to_self attr1="changing faction back"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="pay_ransom"/>
+		<ransomFactionID attr1="beggar"/>
+		<ransomPayer attr1="miningShip"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="pay_ransom"/>
+		<ransomFactionID attr1="player"/>
+		<ransomPayer attr1="miningShip"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<screenEffect attr1="fade_in"/>
+	<lookAtObject attr1="stuckShip"/> 
+	<reletiveObject attr1="stuckShip"/> 
+	<cameraPosition x="-275" y="55" z="-55"/>	
+	<duration attr1="1.5"/>
+	<trigger>
+		<triggerType attr1="ship_speed_zero"/>
+		<shipName attr1="playerShip"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="0.5"/>
+	<trigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="stuckShip"/>
+		<commandType attr1="thrust_to_position"/>
+		<position x="0" y="0" z="1000"/>
+		<reletiveObject attr1="stuckShip"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="5.0"/>
+	<trigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="stuckShip"/>
+		<bSetting attr1="0"/>
+	</trigger>
+</sceneFragment>

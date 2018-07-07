@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="pilarTG"/> 
+<ammunitionID attr1="lightBHP"/> 
+<name attr1="Light Gun"/> 
+<fireSoundID attr1="rapidP06"/>
+<muzzleFlashEffectID attr1="mfLG02"/>
+<capacity attr1="30"/>
+<reloadTime attr1="1.3"/>
+<reFireRate attr1="0.045"/>

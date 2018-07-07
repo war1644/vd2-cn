@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="derelict"/> 
+<displayName attr1="Derelict"/> 
+<objectID attr1="beggarBase"/> 
+<faction attr1="beggar"/> 
+<meshName attr1="beggarBase.mesh"/>
+<wireframeMaterial attr1="WF/TheHub"/> 
+<descriptionText attr1="A asteroid base of the pirate group known as the Beggars."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Beggars are a professional crime syndicate, focusing on extortion."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Often operating in areas experiencing economic booms, for a reasonable fee they'll let you live and carry on with business."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Those wondering how this faction is able to set-up operations so quickly in new areas of space, only have to look at their base design in detail."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The recent gold rush for Outsider tech found in debris, has been a dinner bell for their cut. "/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Their ships tend to focus on fear, preferring rapid fire chain guns to drown out any thoughts of resistance with a constant barrage against a ship's hull."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="5.41" y="0" z="106.81"/>
+<dockingArmsEnd x="5.41" y="0" z="-121"/>
+<dockPosition x="5.41" y="0" z="79.54"/>
+<dockSize x="80" y="40" z="20"/>
+<hangarID attr1="derelictBH"/> 
+<maxBuildShipClass attr1="corvette"/>
+<bCanResearch attr1="1"/>
+<rockSubPosition attr1="1"/>
+<miningPlatformPosition x="-1204.146" y="41.102" z="-123.440"/>

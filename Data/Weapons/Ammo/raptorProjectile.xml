@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="projectile"/> 
+<projectileID attr1="raptorP"/> 
+<projectileType attr1="mesh_projectile"/> 
+<meshName attr1="raptorProjectile.mesh"/> 
+<projectileVelocity attr1="900.0"/>
+<initialLife attr1="4.5"/> 
+<_range attr1="4050.0"/>
+<damage attr1="200.0"/> 
+<explosionID attr1="railGunHit02"/> 
+<projectileExpireExplosionID attr1="railGunHit02"/>
+<canister> 
+	<canisterCount attr1="2"/>
+	<blowBackCanisterCount attr1="2"/>
+	<projectileID attr1="raptorFlameP"/>
+	<yawRange attr1="5"/>
+	<pitchRange attr1="5"/>
+	<rollRange attr1="2"/>
+	<speedAddBase attr1="5"/>
+	<speedAddRandom attr1="2"/>
+	<bCanisterAimAssist attr1="0"/>
+	<bAddToRangeCalculations attr1="0"/>
+</canister>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Taurus MK2"/> 
+<objectID attr1="taurusMK2"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="gunship"/> 
+<shipClassSize attr1="light"/>
+<meshName attr1="TaurusMK2.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A light gunship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="If you've loved the Taurus and can handle a speed downgrade for the price of added durability and fire-power, the Taurus Mark 2 might be your next best friend."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Missile swarm."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Ejects missile canisters that split into small missiles, creating a swarm. Either homing in on a single target (if you have a target) or doing the target acquisition themselves (seeking out hostile craft)."/>
+<creditCost attr1="235000"/>
+<missionRankRequired attr1="3"/>
+<cruiseSpeed attr1="90.0"/> 
+<timeTillCruise attr1="1.95"/> 
+<yaw 	attr1="90.0"/> 
+<pitch	attr1="90.0"/> 
+<roll 	attr1="90.0"/> 
+<bGravityDrive attr1="1"/>
+<cockpitID attr1="cockpit003"/>
+<cockpitActualPos x="0" y="5.22" z="19.416"/>
+<cockpitActualMesh attr1="cockpitTaurusMK2.mesh"/> 
+<bShowInCockpitParticles attr1="1"/>
+<cockpitInitPos x="0" y="12" z="18"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="30" z="138"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="2500.0"/> 
+<buildTime	attr1="25.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="150.0"/> 
+<ore		attr1="225.0"/> 
+<damage>
+    <pitch attr1="135"/> 
+    <roll attr1="0.0"/> 
+	<yaw attr1="13.0"/> 
+	<position x="8.948" y="2.186" z="3.942"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="taurusMK2D00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode02"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="3.756" y="3.718" z="12.162"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="3.756" y="-0.043" z="12.162"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="3.756" y="-3.718" z="12.162"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="-3.378" y="3.099" z="12.162"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="-3.378" y="-0.043" z="12.162"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="-3.378" y="-3.718" z="12.162"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/>
+	<position x="-3.51" y="3.04" z="-7.49"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/>
+	<position x="-3.51" y="-3.04" z="-7.49"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="6.05"/>
+    <capacity attr1="12.5"/>
+    <recharge attr1="13.5"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<turret>
+    <turretID attr1="taurusT01R"/>
+    <turretOrientation attr1="right"/> 
+	<position x="9.682" y="-5.382" z="-7.963"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/> 
+	<bShowInCockpit attr1="1"/>
+	<weaponPositionID attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="taurusT01L"/>
+    <turretOrientation attr1="left"/> 
+	<position x="-9.682" y="-5.382" z="-7.963"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<bShowInCockpit attr1="1"/>
+	<weaponPositionID attr1="2"/>
+</turret>
+<turret>
+    <turretID attr1="taurusT01R"/>
+    <turretOrientation attr1="right"/> 
+	<position x="11.289" y="3.427" z="3.942"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/> 
+	<bShowInCockpit attr1="1"/>
+	<weaponPositionID attr1="3"/>
+</turret>
+<turret>
+    <turretID attr1="taurusT01L"/>
+    <turretOrientation attr1="left"/> 
+	<position x="-11.289" y="3.427" z="3.942"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<bShowInCockpit attr1="1"/>
+	<weaponPositionID attr1="4"/>
+</turret>
+<weapon> 
+    <weaponType attr1="missile"/> 
+    <hardpointID attr1="taurusMK2MPL"/> 
+	<weaponPosition x="4.076" y="6.58" z="0.204"/>
+	<weaponPosition x="-3.68" y="6.58" z="0.204"/>
+	<weaponPosition x="4.076" y="-6.508" z="0.204"/>
+	<weaponPosition x="-3.68" y="-6.508" z="0.204"/>
+	<barrelDelay attr1="0"/>
+	<weaponFire attr1="secondary"/> 	
+</weapon>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="2"/>
+	<activeUpgradeCapacity attr1="3"/>
+	<upgradeID attr1="taurusMK2HCT00"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="gArmor00"/>
+	<upgradeID attr1="gShield00"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="gunshipFShield00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="gunshipMan00"/>
+	<upgradeID attr1="gunshipThrust00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="gSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="gunshipPUS00"/>
+	<upgradeID attr1="gunshipAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="-2.36" z="-6.73"/>
+<shipHangarYOffset attr1="5"/>

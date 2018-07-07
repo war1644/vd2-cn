@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Primary Upgrade Slot"/> 
+<objectID attr1="frigatePUS00"/>
+<upgradeCategory attr1="other"/>
+<upgradeType attr1="other"/>
+<addCostAsPercentOfShip attr1="0.085"/>
+<primaryUpgradeSlotChange attr1="1"/>
+<description attr1="Via optimizing space, reconfiguring and sometimes even replacing internal systems, room for an additional PRIMARY upgrade slot is added to the ship."/>
+<description attr1=" "/>
+<description attr1="Frigates tend to have a plenty of room for adding upgrade slots, making lowering the cost, relative to smaller ship classes."/>
+<description attr1=" "/>
+<description attr1="Even with the cost of this upgrade, pilots that love a particular ship are sometimes tempted to invest, versus moving on to a higher tier."/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="physical_attachment"/> 
+<name attr1="Brig Shield"/> 
+<objectID attr1="brigShield00"/> 
+<faction attr1="beggar"/>
+<meshName attr1="brigShield00.mesh"/> 
+<descriptionText attr1="A attached shield made out of an hardened plate."/> 
+<health attr1="20000"/>
+<bNoShow x="1"/>
+<bShowInTactical attr1="1"/>
+<explosionID attr1="explode03"/>

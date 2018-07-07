@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Afterburner Capacity"/> 
+<objectID attr1="burnerCap00"/> 
+<upgradeCategory attr1="propulsion"/> 
+<cost attr1="1000"/>
+<addCostAsPercentOfShip attr1="0.025"/>
+<description attr1="Adds a additional fuel pod for the afterburner, increasing its capacity before it needs to recharge."/>
+<afterBurnerCapacityMultiplier attr1="2.15"/>

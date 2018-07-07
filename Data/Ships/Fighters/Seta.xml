@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Seta"/> 
+<objectID attr1="seta"/> 
+<faction attr1="outsider"/> 
+<shipClass attr1="fighter"/>
+<shipClassSize attr1="medium"/>
+<meshName attr1="Seta.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A medium fighter."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="The Seta is fighter class ship of the Outsiders."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="Armed with a beam weapon, it's main strength. Often seen in swarms."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="Many elements of its design and function are unknown, including whether it is piloted, remotely controlled or a drone."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Outsiders, so called due to that being the only seemingly 'spoken' word from them."/>
+<cruiseSpeed attr1="100.0"/> 
+<timeTillCruise attr1="1.15"/> 
+<yaw 	attr1="100.0"/> 
+<pitch	attr1="100.0"/> 
+<roll 	attr1="100.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitID attr1="cockpit003-1"/>
+<cockpitActualPos x="0" y="0" z="10.49"/>
+<cockpitActualMesh attr1="cockpitSeta.mesh"/>
+<cockpitInitPos x="0" y="8.24" z="17.76"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="22.19" z="132.43"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="750.0"/>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/> 
+<explosionID attr1="outsiderE02"/>
+<preExplosionID attr1="outsiderE00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<weapon> 
+    <weaponType attr1="beam"/> 
+    <hardpointID attr1="setaB"/> 
+	<weaponPosition x="1.824" y="-6.012" z="-6.685"/>
+</weapon>
+<shipHangarPosition x="0" y="0" z="0"/>

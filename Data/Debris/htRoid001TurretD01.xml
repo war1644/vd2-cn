@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="debris"/> 
+<name attr1="Debris"/> 
+<objectID attr1="htRoid001TurretD01"/> 
+<meshName attr1="htRoid001TurretD01.mesh"/> 
+<faction attr1="rockGuys"/>
+<descriptionText attr1="Some debris."/> 
+<health attr1="2000.0"/> 
+<timeToLive attr1="32.0"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<explosionID attr1="explode03"/>
+<minimumMomentum attr="7"/>
+<minimumRotation attr="2"/>
+<debrisSizeAsShipClass attr1="gunship"/>
+<bCanAddViaBattleEditorSlider attr1="1"/>

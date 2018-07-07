@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="gameModes"/>
+<topicName attr1="Game Modes"/>
+<mainText attr1="Void Destroyer can be divided into two game modes."/>
+<mainText attr1=" "/>
+<mainText attr1="Story/Mission Mode: "/>
+<mainText attr1="This game mode is what I consider the - main - mode of the game. Story mode features capturing bases, boss fights and unique challenges. Although the story is fairly linear, the player is given free reign on how to accomplish objectives."/>
+<mainText attr1=" "/>
+<mainText attr1="Instant Action Mode: "/>
+<mainText attr1="Scenarios: quick combat focused scenarios. Some complement the story of the game, some are meant to give a unique challenge, some a relaxed difficulty, some cater to dogfight enthusiasts."/>
+<mainText attr1="Arena: quick fleet versus fleet combat mode."/>
+<mainText attr1="Skirmish: base versus base mode, a more traditional RTS experience."/>
+<mainText attr1="Battle Editor: design your own map via the in game map editor. You can also seed the battle editor using arena and skirmish interfaces then further customize in the Battle Editor."/>
+<mainText attr1=" "/>
+<mainText attr1="This mode has elements that are unlocked via playing the story mode of the game."/>
+<mainText attr1="Playing through the story instant actino scenarios will be unlocked, when you capture enemy bases they are unlocked, when you research, build and destroy ships, they are unlocked. Unlocked items can then be used in Arena and Skirmish modes and the Battle editor."/>
+<mainText attr1=" "/>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="beam"/> 
+<weaponID attr1="plutoMiningB00"/> 
+<name attr1="Mining Beam"/> 
+<materialName attr1="Weapons/heavyBeam"/> 
+<hitParticleName attr1="heavyBeamHit"/>
+<muzzleFlashEffectID attr1="mfMMegB00"/>
+<fireSoundID attr1="oMegBS00"/>
+<damage attr1="15.0"/>
+<bMining attr1="1"/>
+<weaponPush attr1="110000"/>
+<range attr1="2500.0"/> 
+<baseScale attr1="3"/>
+<oscilateRange attr1="1"/>
+<oscilateAmount attr1="0.25"/>
+<capacity attr1="12"/> 
+<reloadTime attr1="3.7"/> 
+<assistDegree attr1="0.5"/>
+<bAlwaysPlayFireSound attr1="1"/>
+<linkedRotatingElement attr1="miningArray"/>

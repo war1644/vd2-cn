@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Talon"/> 
+<objectID attr1="talon"/>
+<faction attr1="outsider"/>  
+<shipClass attr1="destroyer"/> 
+<shipClassSize attr1="light"/>
+<meshName attr1="Talon.mesh"/> 
+<descriptionText attr1="A outsider light destroyer."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Talon features many strengths of Outsider ships in the same package."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Armed with a variety of beam turrets, energy missiles and well defended by energy barriers. It posed a significant threat to the Wardrum and easily outmatched every smaller ship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="It's energy barriers cover a significant portion of it's hull, a frontal or rear attack is recommended."/>
+<creditCost attr1="0"/>
+<cruiseSpeed attr1="28.0"/>
+<timeTillCruise attr1="4.0"/>
+<yaw 	attr1="30.0"/>
+<pitch	attr1="30.0"/>
+<roll 	attr1="30.0"/>
+<bGravityDrive attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="0" z="0"/>
+<cockpitInitPos x="67.75" y="43.23" z="106.56"/>
+<cockpitTransLimit x="7" y="7" z="7"/>
+<chaseInitPos x="0" y="193.73" z="1233.47"/>
+<chaseTransLimit x="20" y="20" z="20"/>
+<bShowInCockpitParticles attr1="1"/>
+<health attr1="300000.0"/>
+<armor attr1="1.5"/>
+<shieldHealth attr1="0"/>
+<damage>
+    <pitch attr1="140.0"/> 
+    <roll attr1="90.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="4.83" y="134.836" z="73.115"/>
+	<healthPoint attr1="0.55"/>
+	<damageEffectID attr1="outsiderD01"/>
+</damage>
+<damage>
+    <pitch attr1="-34.0"/> 
+    <roll attr1="2.0"/> 
+	<yaw attr1="15.0"/> 
+	<position x="-30.02" y="3.529" z="-25.47"/>
+	<healthPoint attr1="0.42"/>
+	<damageEffectID attr1="outsiderD01"/>
+</damage>
+<damage>
+    <pitch attr1="-14.0"/> 
+    <roll attr1="2.0"/> 
+	<yaw attr1="190.0"/> 
+	<position x="-6.131" y="-51.976" z="58.498"/>
+	<healthPoint attr1="0.29"/>
+	<damageEffectID attr1="outsiderD01"/>
+</damage>
+<deathTimer attr1="7"/> 
+<deathSpin x="0.1" y="0.07" z="-0.04"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="talonD00"/> 
+		<debrisMomentum attr1="1"/> 
+		<debrisAngular attr1="2"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="outsiderE06"/>
+<preExplosionID attr1="outsiderE01"/>
+<preExplosionID attr1="outsiderE02"/>
+<preExplosionID attr1="outsiderE03"/>
+<tacticalExplosionID attr1="tacExp2_60"/>
+<engineSoundID attr1="eng-03"/>
+<turret>
+    <turretID attr1="talonTurret"/>
+	<position x="54" y="0.0" z="0"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="right"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/> 
+	<bShowInCockpit attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="talonTurret"/>
+	<position x="-54" y="0.0" z="0"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="left"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/> 
+	<bShowInCockpit attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="pincerTurret"/>
+	<position x="33.9" y="164.478" z="54.809"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="right"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="pincerTurret"/>
+	<position x="-33.9" y="164.478" z="54.809"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="left"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="fleaTurret"/>
+	<position x="31.375" y="-135.109" z="89.976"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="right"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="fleaTurret"/>
+	<position x="-31.375" y="-135.109" z="89.976"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="left"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="talonMT"/> 
+   	<position x="0.0" y="0.0" z="0.0"/> 
+	<turretRole attr1="parents_target"/>
+</turret>
+<shield>
+    <shieldID attr1="oSS00"/>
+	<shieldPosition x="47.53" y="98.171" z="29.23"/>
+	<shieldOrientation attr1="right"/>
+	<roll attr1="-15"/>
+</shield>
+<shield>
+    <shieldID attr1="oSS00"/>
+	<shieldPosition x="-47.53" y="98.171" z="29.23"/>
+	<shieldOrientation attr1="left"/>
+	<roll attr1="15"/>
+</shield>
+<shield>
+    <shieldID attr1="oSS00"/>
+	<shieldPosition x="47.53" y="-85.05" z="32.244"/>
+	<shieldOrientation attr1="right"/>
+	<roll attr1="25"/>
+</shield>
+<shield>
+    <shieldID attr1="oSS00"/>
+	<shieldPosition x="-47.53" y="-85.05" z="32.244"/>
+	<shieldOrientation attr1="left"/>
+	<roll attr1="-25"/>
+</shield>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bLargeDockOnly attr1="1"/>

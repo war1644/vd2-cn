@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="cInsultHostile00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="insult_response_hostile"/>
+<dialog attr1="Them's fighting words!"/>
+<dialog attr1="I'll see you in hell!"/>
+<dialog attr1="Don't forget... You asked for it!"/>
+<dialog attr1="Oh! This is going to be fun!"/>
+<dialog attr1="Let's get it on!"/>
+<dialog attr1="Fine! You got yourself a war!"/>

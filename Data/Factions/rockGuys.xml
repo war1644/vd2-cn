@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<factionID attr1="rockGuys"/> 
+<factionType attr1="mining"/>
+<factionName attr1="MU"/> 
+<factionPluralName attr1="MU"/>
+<wireframeColor r="1" g="1" b="0.1" a="1.0"/> 
+<highlightOutlineColor r="0.35" g="0.35" b="0.0" a="0.5"/>
+<textColor r="1" g="1" b="0.1" a="1.0"/>
+<backgroundColor r="0.5" g="0.25" b="0.0" a="0.5"/>
+<cloudsColor r="0.6" g="0.3" b="0.0" a="0.5"/>
+<tacticalMaterial attr1="Overworld/RockGuys"/>
+<selectedTacticalMaterial attr1="Overworld/RockGuysSelected"/>
+<buildTacticalMaterial attr1="Overworld/RockGuysBuild"/>
+<bareBonesMaterialName attr1="BaseColor/RockGuys"/>
+<factionIconText attr1="set:brFactionIcons image:mu"/>
+<factionSkyBoxMaterialName attr1="Space/Orange_Space"/>
+<factionBaseMusic attr1="LastBase-BaseApproach"/>
+<descriptionText attr1="During the early days of human colonization of this area of space, many independent miners and small mining groups joined together to form the Miners United, a mining union."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="For most, mining has never been a safe or lucrative occupation, and the nature of asteroid mining is most often trending from bad to worse yields. Slowly but surely, many voices with identical stories combined and acted in rebellion, seeking total independence."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The end result was many lives lost, and now a much weakened Miners Union. Even if just for a brief time... they were free."/>

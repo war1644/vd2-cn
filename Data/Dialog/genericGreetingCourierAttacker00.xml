@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieGreetingCA00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="greeting_courier_attacker"/>
+<dialog attr1="You the courier? Well I've got a delivery... of DEATH! Damn that sounded way better in my mind."/>
+<dialog attr1="You're paid to deliver, I'm paid to stop you."/>
+<dialog attr1="That data you are delivering has some unfortunate facts..."/>
+<dialog attr1="Sorry man, if they find out what I did..."/>
+<dialog attr1="Better you than me. Can't let you deliver that data."/>

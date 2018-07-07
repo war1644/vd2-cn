@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="duelistMT"/> 
+<name attr1="Twin Launcher"/> 
+<turretWeapon attr1="missile"/>
+<hardpointID attr1="duelistML"/>
+<turretBarrel>
+	<weaponPosition x="0" y="4.543" z="0.68"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="0" y="5.043" z="1.737"/>
+</turretBarrel>
+<turretViewPos x="0.0" y="2.8" z="0.5"/>
+<barrelDelay attr1="0.75"/>
+<weaponDirection>
+	<yaw attr1="0.0"/>
+	<pitch attr1="75.0"/>
+	<roll attr1="0.0"/>
+</weaponDirection>

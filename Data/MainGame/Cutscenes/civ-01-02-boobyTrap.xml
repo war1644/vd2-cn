@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<lookAtObject attr1="hogger00"/> 
+	<reletiveObject attr1="hogger00"/> 
+	<cameraPosition x="-75" y="80" z="-100"/>
+	<duration attr1="2"/>
+	<trigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="hogger00"/>
+		<bSetting attr1="0"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="disable_maneuvering"/>
+		<shipName attr1="hogger00"/>
+		<bSetting attr1="1"/>
+	</trigger>
+	<trigger>
+		<note_to_self attr1="would kill players in cutscene sometimes"/>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="weapons_hold"/>
+		<shipName attr1="hogger00"/>
+		<bToggle attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="disable_engines"/>
+		<shipName attr1="hogger00"/>
+		<bSetting attr1="1"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="1"/>
+	<trigger>
+		<triggerType attr1="drop_all_carried"/>
+		<shipName attr1="hogger00"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="6"/>
+	<trigger>
+		<triggerType attr1="destroy_named"/>
+		<objectName attr1="boobyTrapPod 2"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="hogger00"/>
+		<health attr1="16"/>
+		<bAsPercent attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_linear_velocity"/>
+		<body attr1="hogger00"/>
+		<velocity x="-2.35" y="6.51" z="2.1"/>
+		<bReletive attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_angular_velocity"/>
+		<body attr1="hogger00"/>
+		<velocity x="0.08" y="-0.11" z="-0.075"/>
+		<bReletive attr1="1"/>
+	</trigger>
+</sceneFragment>

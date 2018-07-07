@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="prideGreetingBounty00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="greeting_bounty_announcement"/>
+<dialog attr1="I'm here to collect, need you to die."/>
+<dialog attr1="This is your bounty notice."/>
+<dialog attr1="You've got a bounty, I'm here to collect."/>
+<dialog attr1="Collection time. If it's not me, then it will be someone else, so do me a favor and die."/>
+<dialog attr1="Don't be difficult, you knew this was coming."/>
+<dialog attr1="Hope your life was great, because its over."/>

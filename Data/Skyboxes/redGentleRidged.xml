@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectID attr1="redGR001"/> 
+<materialName attr1="Space/Gentle_Ridged_Red"/>
+<factionType attr1="pirate"/>
+<factionType attr1="indie_pirate"/>
+<factionType attr1="black_market"/>
+<factionType attr1="stub_pirate"/>
+<factionType attr1="alien"/>
+<factionType attr1="enemy_to_player"/>
+<factionType attr1="enemy_to_all"/>
+<factionType attr1="free_for_all"/>

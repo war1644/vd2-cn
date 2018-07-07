@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="beam"/> 
+<weaponID attr1="mlRB00"/> 
+<beamType attr1="particle_beam"/>
+<name attr1="Light Repair Torch"/> 
+<hitSound attr1="beamHit.wav"/>
+<hitParticleName attr1="vdp_repair_torch00_hit"/>
+<fireSoundID attr1="repairTorch00"/>
+<fireParticleName attr1="vdp_repair_torch00"/>
+<damage attr1="90.0"/> 
+<bRepair attr1="1"/> 
+<range attr1="550.0"/> 
+<capacity attr1="25"/> 
+<reloadTime attr1="1.75"/>
+<bAlwaysPlayFireSound attr1="1"/>
+<assistDegree attr1="5"/>

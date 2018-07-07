@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="beam"/> 
+<weaponID attr1="drakePB00"/> 
+<name attr1="Push Beam"/> 
+<materialName attr1="Weapons/heavyBeam"/> 
+<hitParticleName attr1="vdp_muzzle_megabeam"/>
+<muzzleFlashEffectID attr1="mfMMegB00"/>
+<fireSoundID attr1="oMegBS00"/>
+<damage attr1="150.0"/> 
+<weaponPush attr1="70000000"/>
+<range attr1="2500.0"/> 
+<baseScale attr1="3"/>
+<oscilateRange attr1="1"/>
+<oscilateAmount attr1="0.25"/>
+<capacity attr1="3"/> 
+<reloadTime attr1="3.7"/>
+<_assistDegree attr1="1.5"/>

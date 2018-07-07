@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Flint"/> 
+<objectID attr1="flint"/> 
+<faction attr1="rockGuys"/> 
+<shipClass attr1="fighter"/> 
+<shipClassSize attr1="medium"/>
+<meshName attr1="Flint.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A medium fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="A fighter whose construction relies on the use of an asteroid, allowing for quick and cheap production. Yielding a surprisingly sturdy frame."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Armed with a chain gun type weapon. The Flint's design very similar to MU Scoria drones."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Rapid fire."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Flint's chain gun comes equipped with a second ammo cannister and an alternate fire mode which sacrifices accuracy for a extreme rate of fire."/>
+<creditCost attr1="30000"/>
+<missionRankRequired attr1="1"/>
+<cruiseSpeed attr1="145.0"/> 
+<timeTillCruise attr1="1.65"/> 
+<yaw 	attr1="90.0"/> 
+<pitch	attr1="90.0"/> 
+<roll 	attr1="90.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitActualPos x="0" y="-0.41" z="-1.61"/>
+<cockpitActualMesh attr1="cockpitFlint.mesh"/> 
+<cockpitInitPos x="0" y="8.11" z="17.59"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="20" z="90"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="800.0"/> 
+<armor attr1="1.00"/>
+<buildTime	attr1="25.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="150.0"/> 
+<ore		attr1="225.0"/> 
+<damage>
+    <pitch attr1="32.0"/> 
+    <roll attr1="-20.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="0.272" y="2.711" z="8.656"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.4" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="flintD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo>
+<explosionID attr1="explodeRed02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="0" y="0.18" z="12.42"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="6.5"/>
+    <capacity attr1="8.0"/>
+    <recharge attr1="8.0"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bPlayerSharedFire attr1="1"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="flintPCG"/> 
+	<weaponPosition x="0.53" y="-3.72" z="-15.76"/>
+	<weaponPosition x="-0.62" y="-3.73" z="-15.7"/>
+	<weaponPosition x="-0.03" y="-4.77" z="-15.67"/>
+	<barrelDelay attr1="0.04"/>
+</weapon> 
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="flintSPCG"/> 
+	<weaponPosition x="0.53" y="-3.72" z="-15.76"/>
+	<weaponPosition x="-0.62" y="-3.73" z="-15.7"/>
+	<weaponPosition x="-0.03" y="-4.77" z="-15.67"/>
+	<_barrelDelay attr1="0.005"/>
+	<weaponFire attr1="secondary"/>
+</weapon> 
+<upgrades> 
+	<activeUpgradeCapacity attr1="1"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed01"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="mediumFighterPUS00"/>
+	<upgradeID attr1="mediumFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="-0.59" y="-0.4" z="-5"/>
+<shipHangarYOffset attr1="3"/>
+<rockSubPosition attr1="1"/>

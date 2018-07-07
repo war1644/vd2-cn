@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="rageTG"/> 
+<ammunitionID attr1="lightCP"/> 
+<name attr1="Light Gun"/> 
+<fireSoundID attr1="rapidP02"/>
+<muzzleFlashEffectID attr1="mfLG02"/>
+<capacity attr1="15"/> 
+<reloadTime attr1="1.2"/>
+<reFireRate attr1="0.04"/>

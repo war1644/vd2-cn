@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="cove"/> 
+<displayName attr1="Cove"/> 
+<objectID attr1="cove"/> 
+<faction attr1="beggar"/> 
+<meshName attr1="cove.mesh"/>
+<wireframeMaterial attr1="WF/TheHub"/> 
+<descriptionText attr1="A mobile base of the pirate group known as the Beggars."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="An enormous and mobile base of operations, the main seat of power of The Beggars, a professional crime syndicate."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Perfectly suited for moving into new territory, taking it over, defending it, establishing new outposts, then leaving to find better opportunities."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="365.271" y="-3" z="-627.263"/>
+<dockingArmsEnd x="365.271" y="-3" z="-936"/>
+<dockPosition x="365.271" y="-3" z="-665"/>
+<dockSize x="120" y="65" z="30"/>
+<bMobile attr1="1"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="637" y="87" z="500"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="637" y="-87" z="500"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="686" y="36" z="500"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="588" y="36" z="500"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="686" y="-36" z="500"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="588" y="-36" z="500"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="-637" y="87" z="500"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="-637" y="-87" z="500"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="-686" y="36" z="500"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="-588" y="36" z="500"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="-686" y="-36" z="500"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/>
+	<position x="-588" y="-36" z="500"/>
+</propulsion>
+<_hangarID attr1="derelictBH"/> 
+<maxBuildShipClass attr1="destroyer"/>
+<bCanResearch attr1="1"/>

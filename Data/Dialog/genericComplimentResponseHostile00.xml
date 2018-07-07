@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieInsult00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="compliment_response_hostile"/>
+<dialog attr1="Do I look like I was born yesterday?"/>
+<dialog attr1="Not interested."/>
+<dialog attr1="You liar."/>
+<dialog attr1="Spare me."/>
+<dialog attr1="Nah... hah hah hah"/>
+<dialog attr1="You expect me to believe that?"/>
+<dialog attr1="What a load of bs."/>
+<dialog attr1="Don't make me laugh."/>
+<dialog attr1="Words are cheap."/>

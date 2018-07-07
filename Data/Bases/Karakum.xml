@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="Karakum"/> 
+<objectID attr1="karakum"/> 
+<faction attr1="rockGuys"/>
+<meshName attr1="karakum.mesh"/>
+<wireframeMaterial attr1="WF/Karakum"/> 
+<descriptionText attr1="A MU asteroid base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The second object to be settled by humans in this area of space. The first being the asteroid that now contains the Palm base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Karakum is now one of two remaining MU bases. The others (most notably Nottingham) were recently abandoned due to the combination of damage during the MU rebellion, ever decreasing yield and the new civilian (and often pirate) bases offering better opportunities."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Karakum is now forced to compete against corporate mining bases and a non-stop flow of independent miners, who are willing to rent mining ships and risk heavy losses due to piracy, in the hopes of one day striking it rich."/>
+<maxCrew attr1="400.0"/> 
+<oreProductionModifier attr1="7.1"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="0" y="0" z="-130"/>
+<dockingArmsEnd x="0" y="0" z="-550"/>
+<maxBuildShipClass attr1="destroyer"/>
+<miningUnitMax attr1="4"/>
+<tugUnitMax attr1="1"/>
+<_hangarID attr1="karakumH"/>
+<dockPosition  x="0" y="0" z="-165"/>
+<dockSize x="161" y="161" z="80"/>
+<rockSubPosition attr1="1"/>
+<miningPlatformPosition x="-942.099" y="0.0" z="-14.79"/>

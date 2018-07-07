@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="instant"/> 
+<instantType attr1="chain_instant"/> 
+<weaponID attr1="interceptorRG"/> 
+<name attr1="Light Rail Gun"/> 
+<materialName attr1="Effects/RibbonTrail"/> 
+<baseScale attr1="0.6"/>
+<explosionID attr1="railGunHit00"/> 
+<fireSoundID attr1="heavyGS00"/>
+<muzzleFlashEffectID attr1="mfLG01"/>
+<damage attr1="10.0"/>
+<range attr1="1250.0"/> 
+<capacity attr1="20.0"/> 
+<reFireRate attr1="0.05"/>
+<visualTimer attr1="0.025"/>
+<reloadTime attr1="0.95"/>
+<bIgnoresShields attr1="1"/>

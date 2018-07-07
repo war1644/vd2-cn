@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Pilar"/> 
+<objectID attr1="pilar"/> 
+<faction attr1="thePride"/> 
+<shipClass attr1="gunship"/> 
+<shipClassSize attr1="heavy"/>
+<meshName attr1="Pilar.mesh"/>
+<descriptionText attr1="A heavy gun ship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="As a Pride gun ship, it focuses more on durability than fire power. Pride gun ships tend to take on more of a leadership role, the assault role is given to fighters."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Still, it is armed with a variety of weapon systems to deal with a variety of situations."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Missile mine launcher."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Missile mines float in space and activate when a hostile craft is in their detection range."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The mines are medium missiles, specialized to do increased damage against capital ships."/>
+<creditCost attr1="485000"/>
+<bBlackMarket attr1="1"/>
+<missionRankRequired attr1="4"/>
+<cruiseSpeed attr1="75.0"/> 
+<timeTillCruise attr1="2.05"/>
+<yaw 	attr1="70.0"/> 
+<pitch	attr1="70.0"/> 
+<roll 	attr1="70.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitID attr1="cockpit003-1"/>
+<cockpitActualPos x="0" y="4.78" z="-11.45"/>
+<cockpitInitPos x="0" y="13.08" z="13.86"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="35" z="140"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="4650.0"/>
+<armor attr1="1.5"/>
+<shieldHealth attr1="150"/> 
+<buildTime	attr1="35.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="275.0"/> 
+<ore		attr1="375.0"/> 
+<damage>
+    <pitch attr1="35.0"/> 
+    <roll attr1="135.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="-6.168" y="-5.717" z="5.592"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="pilarD01"/> 
+		<debrisMomentum attr1="4"/> 
+		<debrisAngular attr1="4"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explodeRed03"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp1_25"/>  
+<engineSoundID attr1="eng-01"/> 
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="16.22" y="-0.08" z="17.26"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="12.51" y="0.03" z="18.88"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="-16.22" y="-0.08" z="17.26"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="-12.51" y="0.03" z="18.88"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="9.38" y="0.01" z="-13.46"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="-9.38" y="0.01" z="-13.46"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="6.25"/>
+    <capacity attr1="12"/>
+    <recharge attr1="15.5"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<turret>
+    <turretID attr1="pilarT01R"/>
+    <turretOrientation attr1="bottom"/> 
+	<position x="14.64" y="-5.82" z="-1.69"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<yawPermitted attr1="45"/>
+	<weaponPositionID attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="pilarT01L"/>
+    <turretOrientation attr1="bottom"/> 
+	<position x="-14.64" y="-5.82" z="-1.69"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<yawPermitted attr1="45"/>
+	<weaponPositionID attr1="2"/>
+</turret>
+<turret>
+    <turretID attr1="pilarT02"/>
+    <turretOrientation attr1="bottom"/>
+	<position x="0" y="-6.96" z="-11.36"/>
+	<pitchLower attr1="-30"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<yawPermitted attr1="45"/>
+	<weaponPositionID attr1="3"/>
+</turret>
+<turret>
+    <turretID attr1="pilarT02"/>
+    <_turretOrientation attr1="back"/> 
+	<position x="0" y="0" z="19.62"/>
+	<pitchLower attr1="-30"/> 
+	<turretRole attr1="defense"/>
+	<yawPermitted attr1="-45"/>
+	<yaw attr1="180"/>
+</turret>
+<weapon> 
+    <weaponType attr1="mine"/> 
+    <hardpointID attr1="pilarMML"/> 
+	<weaponPosition x="3.368" y="7.186" z="12.591"/>
+	<weaponPosition x="2.033" y="7.186" z="12.591"/>
+	<weaponPosition x="0.699" y="7.186" z="12.591"/>
+	<weaponPosition x="-0.699" y="7.186" z="12.591"/>
+	<weaponPosition x="-2.033" y="7.186" z="12.591"/>
+	<weaponPosition x="-3.368" y="7.186" z="12.591"/>
+	<pitch attr1="35.0"/>
+	<barrelDelay attr1="0.35"/>
+	<weaponFire attr1="secondary"/> 	
+</weapon>
+<turret>
+    <turretID attr1="pilarMT"/> 
+    <position x="0.0" y="0.0" z="0.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<upgrades>
+	<primaryUpgradeCapacity attr1="3"/>
+	<activeUpgradeCapacity attr1="3"/>
+	<upgradeID attr1="pilarTT00"/>
+	<upgradeID attr1="pilarBT00"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="gArmor00"/>
+	<upgradeID attr1="gShield00"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="gunshipFShield00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="gunshipMan00"/>
+	<upgradeID attr1="gunshipThrust00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="gSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="gunshipPUS00"/>
+	<upgradeID attr1="gunshipAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.87" y="-3.85" z="55"/>

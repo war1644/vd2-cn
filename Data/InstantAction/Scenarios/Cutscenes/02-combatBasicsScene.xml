@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<screenEffect attr1="fade_in"/>
+	<trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="baseExit00"/> 	
+	</trigger>
+	<attachment attr1="tutorialShip"/>
+	<cameraPosition x="-25" y="-15" z="-20"/>
+	<duration attr1="1"/>
+	<trigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="scav"/>
+		<shipName attr1="Target 1-1"/>
+		<reletiveObject attr1="tutorialShip"/>
+		<position x="0" y="0" z="-200"/>
+		<faction attr1="enemyPlayer"/>
+		<bAutoPilot attr1="0"/>
+		<bCheckPosition attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="scav"/>
+		<shipName attr1="Target 1-2"/>
+		<reletiveObject attr1="tutorialShip"/>
+		<position x="0" y="0" z="-300"/>
+		<faction attr1="enemyPlayer"/>
+		<bAutoPilot attr1="0"/>
+		<bCheckPosition attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="Target 1-1"/>
+		<health attr1="54"/>
+		<bAsPercent attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="Target 1-2"/>
+		<health attr1="54"/>
+		<bAsPercent attr1="1"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="5"/> 
+	<headingText attr1=" "/> 
+	<headingText attr1="Combat Basics..."/> 
+</sceneFragment>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="gDemandPayment00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="demand_payment"/>
+<dialog attr1="Your money or your life... blab blab blab you know the drill."/>
+<dialog attr1="A few credits worth dying for?"/>
+<dialog attr1="Consider it a life fee - heh heh..."/>
+<dialog attr1="Don't want to suck vacuum? Pay up."/>
+<dialog attr1="Pay the toll."/>
+<dialog attr1="Would it help if I said its tax deductible? Pay up."/>
+<dialog attr1="We've all got problems and right now paying me solves one."/>
+<dialog attr1="Be smart... pay up and live."/>

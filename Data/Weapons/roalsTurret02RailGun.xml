@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="instant"/> 
+<instantType attr1="chain_instant"/> 
+<weaponID attr1="roalsTurretR02"/> 
+<name attr1="Heavy Rail Gun"/> 
+<materialName attr1="Effects/RibbonTrail"/> 
+<baseScale attr1="2.25"/>
+<explosionID attr1="railGunHit02"/> 
+<fireSoundID attr1="heavyPGS00"/>
+<muzzleFlashEffectID attr1="mfLG060"/>
+<damage attr1="350.0"/> 
+<range attr1="6800.0"/> 
+<capacity attr1="1.0"/> 
+<reFireRate attr1="0.0"/>
+<visualTimer attr1="0.3"/>
+<reloadTime attr1="1.55"/>
+<recoil>
+	<recoilParentType attr1="turret_recoil"/>
+	<recoilZ attr1="6"/>
+	<recoilBone attr1="Turret"/>
+	<muzzleBone attr1="muzzle1"/>
+</recoil>
+<weaponPush attr1="8000000"/> 
+<bIgnoresShields attr1="1"/>
+<bAlwaysPlayFireSound attr1="1"/>

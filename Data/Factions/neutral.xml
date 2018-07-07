@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<factionID attr1="neutral"/> 
+<factionType attr1="no_faction"/>
+<factionName attr1="Neutral"/> 
+<factionPluralName attr1="Neutral"/>
+<wireframeColor r="1" g="1" b="1" a="1"/> 
+<textColor r="1" g="1" b="1" a="1"/>
+<backgroundColor r="0.0" g="0.1" b="0.25" a="0.5"/>
+<cloudsColor r="0.0" g="0.0" b="0.4" a="0.8"/>
+<tacticalMaterial attr1="Tactical/Neutral"/>
+<selectedTacticalMaterial attr1="Tactical/NeutralSelected"/>
+<buildTacticalMaterial attr1="Tactical/NeutralBuild"/>
+<bareBonesMaterialName attr1="BASEWHITE"/>

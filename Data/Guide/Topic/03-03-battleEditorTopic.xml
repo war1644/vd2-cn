@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="battleEditor"/>
+<topicName attr1="Battle Editor"/>
+<mainText attr1="Battle Editor:"/>
+<mainText attr1=" "/>
+<mainText attr1="Key concepts:"/>
+<mainText attr1="Drag and drop interface."/>
+<mainText attr1="Controls modelled after Tactical Mode controls."/>
+<mainText attr1="Add items via double click on them."/>
+<mainText attr1="     Items must be unlocked."/>
+<mainText attr1="Maps can be saved and loaded."/>
+<mainText attr1="Last map used gets automatically saved (when player hits Play button)."/>
+<mainText attr1=" "/>
+<mainText attr1="Using:"/>
+<mainText attr1="On the right side of the screen you'll see object categories."/>
+<mainText attr1="Double click on an object to add it."/>
+<mainText attr1="Click on the 3D object - to modify it."/>
+<mainText attr1="     Easy duplication."/>
+<mainText attr1="     Left click and hold to move."/>
+<mainText attr1="     Change object faction."/>
+<mainText attr1=" "/>
+<mainText attr1="Options:"/>
+<mainText attr1="There's a bunch of options available in the Environment and Other tabs. Some are direct mirrors of the same options available in Arena and Skirmish modes."/>
+<mainText attr1=" "/>
+<mainText attr1="Using the battle editor can be a bit involved. So I'm going to keep this topic short - if you experiment I'm sure you'll be ok."/>
+<mainText attr1=" "/>
+<mainText attr1="Enjoy!"/>

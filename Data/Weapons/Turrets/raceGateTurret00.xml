@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="raceGateTurret00"/> 
+<name attr1="Medium Turret"/> 
+<meshName attr1="raceGateTurret00.mesh"/> 
+<turretWeapon attr1="projectile"/>
+<pitchMax attr1="40.0"/>
+<hardpointID attr1="raceGateTG00"/>
+<dMoveSpeed attr1="65.0"/> 
+<turretBarrel>
+	<weaponPosition x="2.624" y="0" z="-14.830"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-3.71" y="0" z="-14.830"/>	
+	<boneName attr1="muzzle2"/>
+</turretBarrel>
+<barrelDelay attr1="0.05"/>
+<turretViewPos x="-0.29" y="4.16" z="10.73"/>
+<targetPriorityList> 
+	<targetClass attr1="fighter"/>
+	<targetClass attr1="gunship"/>
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="attack_station"/>
+</targetPriorityList>
+<turnSoundID attr1="turretR01"/>
+<_bPhysicalBody attr1="1"/>
+<bAlwaysShowInTactical attr1="1"/>

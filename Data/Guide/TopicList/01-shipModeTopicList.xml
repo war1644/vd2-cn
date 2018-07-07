@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<listID attr1="shipMode"/>
+<topicID attr1="shipModeIntro"/>
+<topicID attr1="controlPhilosophy"/>
+<topicID attr1="hudOverview"/>
+<topicID attr1="piloting"/>
+<topicID attr1="targeting"/>
+<topicID attr1="weapons"/>
+<topicID attr1="combat"/>
+<topicID attr1="cameraModes"/>
+<topicID attr1="shipSwitching"/>
+<topicID attr1="gravityDrive"/>
+<topicID attr1="commandMode"/>
+<topicID attr1="abilities"/>
+<topicID attr1="ship_mode_misc"/>

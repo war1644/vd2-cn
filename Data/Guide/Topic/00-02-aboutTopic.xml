@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="about"/>
+<topicName attr1="About Void Destroyer"/>
+<mainText attr1="Void Destroyer is an attempt to create a game with loads of options on how to play. This resulted in the game becoming what can be described as a hybrid between a space sim and real time strategy. It has been said that action gamers don't like to think and that strategy gamers don't like to die - and this kind of thinking has led to very few hybrid games being made due to the risk of creating games for niche audiences. Void Destroyer started as a hobby project, there was nothing to lose."/>
+<mainText attr1=" "/>
+<mainText attr1="It is my hope that you - the player - enjoy the combination of these two elements and that the result is a game that allows you to play how you want to play. Players often play in terms of maximizing efficiency - win in the fastest way. If you are such a player, I hope that while playing you also consider playing the game in the most fun way (which may or may not be the most efficient way to you). I hope that both aspects of the game (action and strategy) are strong enough to give you the ability to enjoy them without being hampered and that the game's challenges can be overcome in multiple ways."/>
+<mainText attr1=" "/>
+<mainText attr1="Complexity:"/>
+<mainText attr1="Void Destroyer wasn't designed to be overly complex. However - in my opinion - due to my obsession with adding options - players often say that it is complex. In my view - the game's individual elements aren't all that complicated, there's just so many of them, and there's multiple ways of doing a particular thing in the game."/>
+<mainText attr1=" "/>
+<mainText attr1="Learning Curve:"/>
+<mainText attr1="In my estimates/hopes Void Destroyer's learning curve is 3 to 5 hours. I hope that this guide shrinks that learning curve or eases it for those who read these words."/>
+<mainText attr1=" "/>
+<mainText attr1="Technical: "/>
+<mainText attr1="Void Destroyer is an indie game - using a custom game engine coded in the C++ language. The game engine includes open source engines and plugins (Ogre3D for rendering, Bullet for physics, CEGUI for GUI, OpenAL for sound)."/>
+<mainText attr1=" "/>
+<mainText attr1="History/Business: "/>
+<mainText attr1="Development started in 2010. There has been a public demo since January 2011. The Kickstarter campaign ran during the summer of 2013, raising $32k from over 1,700 backers. The game has been Greenlit in October 2013 and Early Access started in January 2014. The game's cost/budget is around $40k USD, without counting my personal time. The near entirety of the budget was spent paying contract artists and musicians."/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1="Without the incredible support of the gamers, programming enthusiasts, online communities and a great many other games, this project wouldn't be possible. I hope that you enjoy the unique aspects of the game and forgive its shortcomings, my ability, budget and time constraints."/>

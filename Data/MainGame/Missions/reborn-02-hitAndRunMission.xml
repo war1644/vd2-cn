@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Hit and Run"/>
+<missionDescriptionText attr1="Prove your support for the Reborn."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Their loss is our gain."/>
+<objectID attr1="reborn-02"/>
+<missionFactionID attr1="reborn"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="3600" y="0" z=" -450"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="80500"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<bFactionShipRequired attr1="1"/>
+<maximumShipClass attr1="gunship"/>
+<bOverworldByPass attr1="1"/>
+<bOverworldShipsByPass attr1="1"/>
+<missionRankRequired attr1="4.8"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="tsf"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_platform"/>
+		<stationID attr1="tsfWeapons00"/>
+		<platformName attr1="r02-weaponsPlatform"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="tsf"/>
+		<position x="0" y="0" z="0"/>
+		<bCheckPosition attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_platform"/>
+		<stationID attr1="sdp"/>
+		<platformName attr1="r02-sdp-1"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="tsf"/>
+		<reletiveObject attr1="r02-weaponsPlatform"/>
+		<position x="1000" y="0" z="-1000"/>
+		<bCheckPosition attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="tinyRock001"/>
+		<name attr1="lookAtRock1"/>
+		<bOverworld attr1="0"/>
+		<reletiveObject attr1="r02-weaponsPlatform"/>
+		<position x="1000" y="0" z="-5000"/>
+		<bCheckPosition attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="look_at"/>
+		<lookAtObject attr1="lookAtRock1"/>
+		<objectName attr1="r02-sdp-1"/>
+		<bNoRoll attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="destroy_named"/>
+		<objectName attr1="lookAtRock1"/>
+		<bSilent attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_platform"/>
+		<stationID attr1="sdp"/>
+		<platformName attr1="r02-sdp-2"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="tsf"/>
+		<reletiveObject attr1="r02-weaponsPlatform"/>
+		<position x="-1000" y="0" z="1000"/>
+		<bCheckPosition attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="tinyRock001"/>
+		<name attr1="lookAtRock2"/>
+		<bOverworld attr1="0"/>
+		<reletiveObject attr1="r02-weaponsPlatform"/>
+		<position x="-1000" y="0" z="5000"/>
+		<bCheckPosition attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="look_at"/>
+		<lookAtObject attr1="lookAtRock2"/>
+		<objectName attr1="r02-sdp-2"/>
+		<bNoRoll attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="destroy_named"/>
+		<objectName attr1="lookAtRock2"/>
+		<bSilent attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_platform"/>
+		<stationID attr1="hangar001"/>
+		<platformName attr1="r02-hangar-1"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="tsf"/>
+		<reletiveObject attr1="r02-weaponsPlatform"/>
+		<position x="0" y="-1000" z="0"/>
+		<bCheckPosition attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<note_to_self attr1="setting inactive to prevent from early killing of player with missiles and drones"/>
+		<triggerType attr1="toggle_active"/>
+		<objectName attr1="r02-sdp-1"/>
+		<objectName attr1="r02-sdp-2"/>
+		<objectName attr1="r02-hangar-1"/>
+		<bActive attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="weaponsPod"/>
+		<name attr1="r02-weaponsPod-1"/>
+		<faction attr1="tsf"/>
+		<reletiveObject attr1="r02-weaponsPlatform"/>
+		<position x="500" y="750" z="500"/>
+		<bCheckPosition attr1="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="weaponsPod"/>
+		<name attr1="r02-weaponsPod-2"/>
+		<faction attr1="tsf"/>
+		<reletiveObject attr1="r02-weaponsPod-1"/>
+		<position x="75" y="0" z="0"/>
+		<bCheckPosition attr1="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="weaponsPod"/>
+		<name attr1="r02-weaponsPod-3"/>
+		<faction attr1="tsf"/>
+		<reletiveObject attr1="r02-weaponsPod-1"/>
+		<position x="-75" y="0" z="0"/>
+		<bCheckPosition attr1="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<note_to_self attr1="SHIP SETUP"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="correa"/>
+		<shipName attr1="r02-correa-1"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="tsf"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="0"/>
+		<position x="0" y="0" z="-1500"/>
+		<reletiveObject attr1="r02-weaponsPlatform-1"/>
+		<aiPosture attr1="defend"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="intrepid"/>
+		<shipName attr1="r02-intrepid-1"/>
+		<faction attr1="tsf"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="r02-correa-1"/>
+		<position x="500" y="500" z="500"/>
+		<aiPosture attr1="defend"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="bonnie"/>
+		<shipName attr1="r02-bonnie-1"/>
+		<shipID attr1="bonnie"/>
+		<shipName attr1="r02-bonnie-2"/>
+		<shipID attr1="bonnie"/>
+		<shipName attr1="r02-bonnie-3"/>
+		<shipID attr1="bonnie"/>
+		<shipName attr1="r02-bonnie-4"/>
+		<shipID attr1="bonnie"/>
+		<shipName attr1="r02-bonnie-5"/>
+		<faction attr1="tsf"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="r02-correa-1"/>
+		<position x="500" y="500" z="500"/>
+		<aiPosture attr1="engage"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="r02-bonnie-2"/>
+		<objectName attr1="r02-bonnie-3"/>
+		<objectName attr1="r02-bonnie-4"/>
+		<objectName attr1="r02-bonnie-5"/>
+		<targetName attr1="r02-bonnie-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="r02-bonnie-1"/>
+		<commandType attr1="patrol_position"/>
+		<position x="0" y="0" z="0"/>
+		<distance attr1="4500"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="r02-intrepid-1"/>
+		<commandType attr1="patrol_position"/>
+		<position x="0" y="0" z="0"/>
+		<distance attr1="3500"/>
+	</preTrigger>
+	<preTrigger>
+		<note_to_self attr1="silencing the ships - too chatty"/>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="r02-correa-1"/>
+		<objectName attr1="r02-intrepid-1"/>
+		<objectName attr1="r02-bonnie-1"/>
+		<objectName attr1="r02-bonnie-2"/>
+		<objectName attr1="r02-bonnie-3"/>
+		<objectName attr1="r02-bonnie-4"/>
+		<objectName attr1="r02-bonnie-5"/>
+		<bHudCommsOverride attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric01"/>
+			<nameOverride attr1="Crazy Eddie"/>
+			<content attr1="That is a TSF weapons production platform."/>
+			<content attr1="This one is off the books..."/>
+			<content attr1="So its likely to be more research than manufacture."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric01"/>
+			<nameOverride attr1="Crazy Eddie"/>
+			<content attr1="Our mission is those cargo pods."/>
+			<content attr1="We have to stay competitive."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric01"/>
+			<nameOverride attr1="Crazy Eddie"/>
+			<content attr1="Your role is distraction."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric01"/>
+			<nameOverride attr1="Crazy Eddie"/>
+			<content attr1="The TSF tends to be very disciplined."/>
+			<content attr1="You'll need to be MORE than annoying."/>
+			<content attr1="A few holes in the Correa should do it."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric01"/>
+			<nameOverride attr1="Crazy Eddie"/>
+			<content attr1="Once you bang up the Correa a bit..."/>
+			<content attr1="Lead it away from the platform."/>
+			<content attr1="It's escorts should follow."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric01"/>
+			<nameOverride attr1="Crazy Eddie"/>
+			<content attr1="Then its phase 2..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric01"/>
+			<nameOverride attr1="Crazy Eddie"/>
+			<content attr1="Oh and... a bit of advice."/>
+			<content attr1="In case you need it."/>
+			<content attr1="It could be good to wait for the patrols to be on the far side."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<missionHUDText attr1="Damage the Correa..."/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="r02-correa-1"/>
+		<healthPercent attr1="0.97"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="r02-correa-1"/>
+		<targetName attr1="playerShip"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="r02-correa-1"/>
+		<shipName attr1="r02-intrepid-1"/>
+		<shipName attr1="r02-intrepid-2"/>
+		<shipName attr1="r02-bonnie-1"/>
+		<shipName attr1="r02-bonnie-2"/>
+		<shipName attr1="r02-bonnie-3"/>
+		<shipName attr1="r02-bonnie-4"/>
+		<shipName attr1="r02-bonnie-5"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian03"/>
+		<message attr1="It's engaging! Lead it towards the marked position."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="shakedown-l"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<missionHUDText attr1="Lead Correa to marked location..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="r02-correa-1"/> 
+		<goToPosition x="0" y="0" z="-10000"/>
+		<reletiveObject attr1="r02-weaponsPlatform-1"/>
+		<goToDistance attr1="1000"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="r02-correa-1"/> 
+		<goToPosition x="0" y="0" z="-10000"/>
+		<reletiveObject attr1="r02-weaponsPlatform-1"/>
+		<goToDistance attr1="2500"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSilent attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="r02-correa-1"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornGeneric01"/>
+		<message attr1="Good enough! Incoming heavy hitters!"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="cutterG"/>
+		<shipName attr1="r02-cutterG-1"/>
+		<shipID attr1="cutterG"/>
+		<shipName attr1="r02-cutterG-2"/>
+		<shipID attr1="cutterG"/>
+		<shipName attr1="r02-cutterG-3"/>
+		<shipID attr1="cutterG"/>
+		<shipName attr1="r02-cutterG-4"/>
+		<shipID attr1="cutterG"/>
+		<shipName attr1="r02-cutterG-5"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="reborn"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="r02-weaponsPlatform-1"/>
+		<position x="0" y="0" z="-25000"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="r02-cutterG-1"/>
+		<shipName attr1="r02-cutterG-2"/>
+		<shipName attr1="r02-cutterG-3"/>
+		<shipName attr1="r02-cutterG-4"/>
+		<shipName attr1="r02-cutterG-5"/>
+		<reletiveObject attr1="r02-weaponsPlatform-1"/>
+		<hopPosition x="0" y="0" z="-10000"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="r02-cutterG-1"/>
+		<objectName attr1="r02-cutterG-2"/>
+		<objectName attr1="r02-cutterG-3"/>
+		<objectName attr1="r02-cutterG-4"/>
+		<objectName attr1="r02-cutterG-5"/>
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="0.75"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_active"/>
+		<objectName attr1="r02-sdp-1"/>
+		<objectName attr1="r02-sdp-2"/>
+		<bActive attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="r02-sdp-1"/>
+		<objectName attr1="r02-sdp-2"/>
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="1.35"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="r02-hangar-1"/>
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="1.75"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="ship_clear_orders"/>
+		<shipName attr1="r02-correa-1"/>
+		<shipName attr1="r02-intrepid-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornGeneric01"/>
+		<message attr1="Help the Cutters mop up."/>
+	</postTrigger>
+</mission>	
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<missionHUDText attr1="Destroy TSF ships..."/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="tsf"/>
+		<bMarkShips attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<nextMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornGeneric01"/>
+		<message attr1="Now we focus on the platforms."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="r02-cutterG-1"/>
+		<objectName attr1="r02-cutterG-2"/>
+		<objectName attr1="r02-cutterG-3"/>
+		<objectName attr1="r02-cutterG-4"/>
+		<objectName attr1="r02-cutterG-5"/>
+		<targetName attr1="r02-sdp-1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<missionHUDText attr1="Destroy TSF defense platform..."/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="r02-sdp-1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornGeneric01"/>
+		<message attr1="Now the other one!"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="r02-cutterG-1"/>
+		<objectName attr1="r02-cutterG-2"/>
+		<objectName attr1="r02-cutterG-3"/>
+		<objectName attr1="r02-cutterG-4"/>
+		<objectName attr1="r02-cutterG-5"/>
+		<targetName attr1="r02-sdp-2"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<nextMissionNumber attr1="4000"/>
+	<missionHUDText attr1="Destroy TSF defense platform..."/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="r02-sdp-2"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornGeneric01"/>
+		<message attr1="Sending in the transports. Assist where necessary."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="r02-cutterG-1"/>
+		<shipName attr1="r02-cutterG-2"/>
+		<shipName attr1="r02-cutterG-3"/>
+		<shipName attr1="r02-cutterG-4"/>
+		<shipName attr1="r02-cutterG-5"/>
+		<aiPosture attr1="defend"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_ship_target_priority_list"/>
+		<shipName attr1="r02-cutterG-1"/>
+		<shipName attr1="r02-cutterG-2"/>
+		<shipName attr1="r02-cutterG-3"/>
+		<shipName attr1="r02-cutterG-4"/>
+		<shipName attr1="r02-cutterG-5"/>
+		<targetPriorityList> 
+			<targetClass attr1="corvette"/>
+			<targetClass attr1="frigate"/>
+			<targetClass attr1="gunship"/>
+			<targetClass attr1="fighter"/>
+		</targetPriorityList>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_clear_orders"/>
+		<shipName attr1="r02-cutterG-1"/>
+		<shipName attr1="r02-cutterG-2"/>
+		<shipName attr1="r02-cutterG-3"/>
+		<shipName attr1="r02-cutterG-4"/>
+		<shipName attr1="r02-cutterG-5"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="r02-cutterG-1"/>
+		<shipName attr1="r02-cutterG-2"/>
+		<shipName attr1="r02-cutterG-3"/>
+		<shipName attr1="r02-cutterG-4"/>
+		<shipName attr1="r02-cutterG-5"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="-10000"/>
+		<reletiveObject attr1="r02-weaponsPlatform-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="greed"/>
+		<shipName attr1="r02-greed-1"/>
+		<shipID attr1="greed"/>
+		<shipName attr1="r02-greed-2"/>
+		<shipID attr1="greed"/>
+		<shipName attr1="r02-greed-3"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="reborn"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="r02-weaponsPlatform-1"/>
+		<position x="0" y="0" z="-10000"/>
+		<aiPosture attr1="defend"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="r02-greed-1"/>
+		<shipName attr1="r02-greed-2"/>
+		<shipName attr1="r02-greed-3"/>
+		<reletiveObject attr1="r02-weaponsPlatform-1"/>
+		<hopPosition x="0" y="0" z="-2500"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="r02-greed-1"/>
+		<targetName attr1="r02-weaponsPod-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="r02-greed-2"/>
+		<targetName attr1="r02-weaponsPod-2"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="r02-greed-3"/>
+		<targetName attr1="r02-weaponsPod-3"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<missionHUDText attr1="Cover transport ships..."/>
+	<objective>
+		<objectiveType attr1="pick_up"/> 
+		<objectName attr1="r02-weaponsPod-1"/>
+		<pickerName attr1="r02-greed-1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="pick_up"/> 
+		<objectName attr1="r02-weaponsPod-2"/>
+		<pickerName attr1="r02-greed-2"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="pick_up"/> 
+		<objectName attr1="r02-weaponsPod-3"/>
+		<pickerName attr1="r02-greed-3"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="11"/>
+	<nextMissionNumber attr1="12"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornGeneric01"/>
+		<message attr1="Cargo secure."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="r02-greed-1"/>
+		<shipName attr1="r02-greed-2"/>
+		<shipName attr1="r02-greed-3"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="-10000"/>
+		<reletiveObject attr1="r02-weaponsPlatform-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="12"/>
+	<nextMissionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornGeneric01"/>
+		<message attr1="All quiet and the transports are away. Mission complete!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="5.05"/>
+		<faction attr="reborn"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="hangar launching drones --------------------------- "/>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="70"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="r02-hangar-1"/>
+		<healthPercent attr1="0.90"/>
+		<bSilent attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="launch_fighter"/>
+		<hangar attr1="r02-hangar-1"/>
+		<shipName attr1="r02-drone-1"/>
+		<shipName attr1="r02-drone-2"/>
+		<shipName attr1="r02-drone-3"/>
+		<shipName attr1="r02-drone-4"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornGeneric01"/>
+		<message attr1="A hangar platform is launching fighters. Take it out ASAP."/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<nextMissionNumber attr1="2002"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="80"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="r02-hangar-1"/>
+		<healthPercent attr1="0.60"/>
+		<bSilent attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="r02-hangar-1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="launch_fighter"/>
+		<hangar attr1="r02-hangar-1"/>
+		<shipName attr1="r02-drone-5"/>
+		<shipName attr1="r02-drone-6"/>
+		<shipName attr1="r02-drone-7"/>
+		<shipName attr1="r02-drone-8"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2002"/>
+	<nextMissionNumber attr1="2003"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="80"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="r02-hangar-1"/>
+		<healthPercent attr1="0.20"/>
+		<bSilent attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="r02-hangar-1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="launch_fighter"/>
+		<hangar attr1="r02-hangar-1"/>
+		<shipName attr1="r02-drone-9"/>
+		<shipName attr1="r02-drone-10"/>
+		<shipName attr1="r02-drone-11"/>
+		<shipName attr1="r02-drone-12"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2003"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="80"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="r02-hangar-1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_active"/>
+		<objectName attr1="r02-hangar-1"/>
+		<bActive attr1="1"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<note_to_self attr1="hangar launching drones --------------------------- "/>
+<note_to_self attr1="mission failures ---------------------------------- "/>
+<mission>
+	<missionNumber attr1="3000"/>
+	<nextMissionNumber attr1="3001"/>
+	<bForceActive attr1="1"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="r02-weaponsPod-1"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="r02-weaponsPod-2"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="r02-weaponsPod-3"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="3001"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornGeneric01"/>
+		<message attr1="WE NEED THOSE PODS!"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="4000"/>
+	<nextMissionNumber attr1="4001"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="r02-greed-1"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="r02-greed-2"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="r02-greed-3"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="4001"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornGeneric01"/>
+		<message attr1="WE NEED THOSE TRANSPORTS!"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

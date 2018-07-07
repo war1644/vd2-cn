@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="explosion"/> 
+<explosionType attr1="explosion_impact"/>
+<objectID attr1="mineExp00"/> 
+<particleSystemName attr1="vdp_animexplode_02"/> 
+<explosionSoundID attr1="explode01S"/>
+<life attr1="4.5"/>
+<impactSize x="200" y="200" z="200"/> 
+<pushForce attr1="1500"/>
+<angularForce attr1="0.02"/>
+<damage attr1="100"/>
+<bCausesShake attr1="1"/>
+<shakeDistance attr1="500"/>
+<maxSounds attr1="20"/>
+<renderingDistance attr1="4000"/>

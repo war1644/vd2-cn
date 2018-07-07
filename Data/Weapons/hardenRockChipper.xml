@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="instant"/> 
+<instantType attr1="chain_instant"/> 
+<weaponID attr1="harndenRC"/> 
+<name attr1="Chipper"/> 
+<materialName attr1="Weapons/RailGunBase"/> 
+<baseScale attr1="0.3"/>
+<hitParticleName attr1="vdp_hit_hull_lg"/> 
+<fireSoundID attr1="rockChip00"/>
+<muzzleFlashEffectID attr1="mfLG01"/>
+<damage attr1="5.0"/> 
+<range attr1="800.0"/> 
+<capacity attr1="10.0"/> 
+<reFireRate attr1="0.01"/>
+<visualTimer attr1="0.007"/>
+<reloadTime attr1="1.0"/>
+<color r="1" g="1" b="0" a="0.6"/>
+<bMining attr1="1"/>

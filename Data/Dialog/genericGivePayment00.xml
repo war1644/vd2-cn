@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="gGivePayment00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="give_payment"/>
+<dialog attr1="How about some credits to ease the guilt of not killing me?"/>
+<dialog attr1="If it's a matter of money... Why not be friends?"/>
+<dialog attr1="I send over credits, you don't kill me. Deal?"/>
+<dialog attr1="Don't kill me, instead why not buy something for your man or lady friend?"/>
+<dialog attr1="No need to waste bullets on me, I'll pay."/>

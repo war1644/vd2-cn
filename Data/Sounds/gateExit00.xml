@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="sequence"/>
+<objectID attr1="gateExit00"/> 
+<soundFile attr1="gateExit00.wav"/>
+<maxDistance attr1="10000"/> 
+<referenceDistance attr1="5000"/>
+<defaultVolume attr1="0.65"/>
+<soundPriority attr1="150"/>

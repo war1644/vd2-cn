@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bForceSwitchToSpace attr1="1"/>
+<sun_Object>
+	<objectID attr1="eveSun"/> 
+	<name attr1="eve"/>
+    <displayName attr1="Eve"/>
+	<position x="0" y="0" z="0"/>
+	<gate_Object>
+		 <objectID attr1="sunGate"/>
+		 <name attr1="Sun Gate"/>
+		 <faction attr1="tsf"/>
+		 <scale attr1="0.06"/>
+		 <bAlwaysRender attr1="1"/>
+	</gate_Object>
+	<scale attr1="25"/>
+	<bAlwaysRender attr1="1"/>
+	<shipModeBackground attr1="Space/Red_Space"/>
+</sun_Object>
+<misc_Object>
+     <objectID attr1="raceGate00Green"/>
+	 <objectType attr1="station"/>
+     <name attr1="newGameStartLocation"/>
+	 <displayName attr1="Shangri-La"/>
+     <position x="-2277" y="0" z="920"/>
+	 <note_to_self attr1="not actual shangri-la position - but gets correct orientation to sun.. I messed up apparently"/>
+     <faction attr1="outsider"/>
+	 <worldFile attr1="newGame-00-worldFile"/>
+	 <bDiscovered attr1="1"/>
+</misc_Object>
+<ship_Object>
+	 <objectID attr1="hound"/>
+	 <displayName attr1="Hound"/>
+	 <bPlayer attr1="1"/>
+     <position x="-2277" y="0" z="920"/>
+     <faction attr1="player"/>
+	 <scriptedMissionID attr1="newGame00"/>
+</ship_Object>

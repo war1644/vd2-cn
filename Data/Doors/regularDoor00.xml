@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="door"/> 
+<name attr1="Regular Door"/> 
+<objectID attr1="regularDoor00"/> 
+<meshName attr1="door001.mesh"/>
+<translateMax x="3.5" y="0" z="0"/>
+<doorSoundID attr1="regularDoor00"/>
+<openTimeMultiplier attr1="1.5"/>

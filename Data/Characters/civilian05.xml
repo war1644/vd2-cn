@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<characterID attr1="civilian05"/> 
+<imageSetName attr1="jcCivilian05"/>
+<textColor attr1="FFFFFF00"/>
+<physicalObjectType attr1="asteroid_base"/>
+<bGeneric attr1="1"/>
+<factionID attr1="civilian"/>

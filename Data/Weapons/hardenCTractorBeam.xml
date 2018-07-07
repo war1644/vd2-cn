@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="tractor_beam"/> 
+<weaponID attr1="hardenCTB"/> 
+<name attr1="Ship Puller"/> 
+<fireSoundID attr1="tractorBeamW00"/>
+<muzzleFlashEffectID attr1="mfMRG"/>
+<capacity attr1="7"/> 
+<reloadTime attr1="9.0"/>
+<gravityObjectType attar1="gravity_object_simple"/>
+<maxShipSize attar1="gunship"/>
+<distance attar1="2800"/>

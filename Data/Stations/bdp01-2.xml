@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Beggar Defense Platform - 01-2"/> 
+<objectID attr1="bdp01-2"/> 
+<faction attr1="beggar"/> 
+<bCommsOverride attr1="1"/>
+<stationClass attr1="defense_station"/>
+<stationSizeAsShip attr1="corvette"/>
+<creditCost attr1="225000"/>
+<meshName attr1="bdp01-2.mesh"/> 
+<wireframeMaterial attr1="WF/SDP"/> 
+<descriptionText attr1="Beggar Defense Platform - 01-2"/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="A Beggar defensive platform, armed with 6 anti-corvette turrets."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="This platform is the alternate configuration of the BDP - 01-01. In this configuration, two platforms are linked together to increase fire power and durability."/>
+<health attr1="10000.0"/> 
+<explosionID attr1="explode06"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<debrisInfo>
+	<debris> 	
+		<debrisID attr1="rdp01D01"/> 
+	</debris>
+</debrisInfo> 
+<turret>
+    <turretID attr1="rhinoTurret"/> 
+	<position x="27.730" y="17.667" z="0"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="80"/>
+</turret>
+<turret>
+    <turretID attr1="rhinoTurret"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="27.730" y="-17.667" z="0"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="80"/>
+</turret>
+<turret>
+    <turretID attr1="rhinoTurret"/>
+	<turretOrientation attr1="right"/>
+	<position x="53.532" y="0" z="0"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="90"/>
+</turret>
+<note_to_self attr1="left side"/>
+<turret>
+    <turretID attr1="rhinoTurret"/> 
+	<position x="-27.730" y="17.667" z="0"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="80"/>
+</turret>
+<turret>
+    <turretID attr1="rhinoTurret"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="-27.730" y="-17.667" z="0"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="80"/>
+</turret>
+<turret>
+    <turretID attr1="rhinoTurret"/>
+	<turretOrientation attr1="left"/>
+	<position x="-53.532" y="0" z="0"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="90"/>
+</turret>
+<attachment>
+	<attachmentID attr1="bdp01Shield01"/>
+	<attachmentPosition x="27.779" y="0" z="-21.011"/>
+</attachment>
+<attachment>
+	<attachmentID attr1="bdp01Shield01"/>
+	<attachmentPosition x="-27.779" y="0" z="-21.011"/>
+</attachment>
+<attachment>
+	<attachmentID attr1="bdp01Shield01"/>
+	<attachmentPosition x="27.779" y="0" z="21.011"/>
+	<attachmentOrientation attr1="back"/>
+</attachment>
+<attachment>
+	<attachmentID attr1="bdp01Shield01"/>
+	<attachmentPosition x="-27.779" y="0" z="21.011"/>
+	<attachmentOrientation attr1="back"/>
+</attachment>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>

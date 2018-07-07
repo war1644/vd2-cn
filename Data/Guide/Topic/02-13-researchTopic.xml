@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="research"/>
+<topicName attr1="Research"/>
+<mainText attr1="Research:"/>
+<mainText attr1="Research allows you to increase your ship and platform building options."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Concepts:"/>
+<mainText attr1="Research is conduced in bases."/>
+<mainText attr1="Crew is allocated to research."/>
+<mainText attr1="     This crew consumes resources - but doesn't produce them."/>
+<mainText attr1="     If there are no research items, crew goes back to producing resources (no need to micro manage)."/>
+<mainText attr1="Only bases of the original faction of the research can conduct the research."/>
+<mainText attr1="Some research items have pre-requisites - for example the Perez M variant needs the Perez G to be first researched."/>
+<mainText attr1=" "/>
+<mainText attr1="How to research:"/>
+<mainText attr1="Research is done in the research interface - see image on right for the button"/>
+<mainText attr1="Select the research from the list then click the add button or double click to add to the research queue."/>
+<mainText attr1="Make sure to allocate crew to research."/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1=" "/>
+<mainText attr1="Broken Dreams:"/>
+<mainText attr1="I've planned for research to be more interesting:"/>
+<mainText attr1="     Capturing enemy ships would yield research of a similar ship."/>
+<mainText attr1="     When research would be first completed - a more powerful prototype would automatically launch."/>
+<mainText attr1="Oh well... there's always the future."/>
+<imageOne>
+	<image attr1="set:guide_research_icon image:guide_research_icon"/>
+</imageOne>
+<imageTwo>
+	<image attr1="set:guide_research_alloc image:guide_research_alloc"/>
+</imageTwo>

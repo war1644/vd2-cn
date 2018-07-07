@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="random"/>
+<objectID attr1="cannonGS00"/> 
+<defaultVolume attr1="0.5"/>
+<soundFile attr1="cannonFire00.wav"/>
+<soundFile attr1="cannonFire01.wav"/>
+<soundFile attr1="cannonFire02.wav"/>
+<soundFile attr1="cannonFire03.wav"/>
+<soundFile attr1="cannonFire04.wav"/>
+<maxDistance attr1="2250"/> 
+<referenceDistance attr1="750"/>

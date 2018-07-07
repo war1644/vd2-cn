@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<screenEffect attr1="fade_in"/>
+	<trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="baseExit00"/> 	
+	</trigger>
+	<trigger>
+		<triggerType attr1="named_platform"/>
+		<stationID attr1="ltRoid001"/> 
+		<faction attr1="enemyPlayer"/>
+		<position x="0" y="0" z="-2300"/>
+		<platformName attr1="Target Gun Pod"/>
+		<bReletiveToPlayer attr1="1"/>		
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="Target Gun Pod"/> 
+		<health attr1="30"/>
+		<bAsPercent attr1="1"/>		
+	</trigger>
+	<trigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="tutorialShip"/> 	
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="0.5"/>
+	</trigger>
+	<attachment attr1="tutorialShip"/>
+	<cameraPosition x="-25" y="-15" z="-20"/>
+	<duration attr1="1"/>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="5"/> 
+	<headingText attr1=" "/> 
+	<headingText attr1="Active Upgrades..."/> 
+</sceneFragment>

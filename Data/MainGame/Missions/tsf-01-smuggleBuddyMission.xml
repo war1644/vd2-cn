@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Smuggle Buddy"/>
+<missionDescriptionText attr1="We need a experienced mercenary to pose as a bodyguard for a transport ship."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="The transport ship will engage in a TSF sanctioned smuggling operation."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Your mission will be to ensure the retrieval of a contraband cargo pod at all cost."/>
+<objectID attr1="tsf-01"/>
+<missionFactionID attr1="tsf"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="2600" y="0" z="-2700"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="12500"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<maximumShipClass attr1="fighter"/>
+<bOverworldByPass attr1="1"/>
+<missionRankRequired attr1="2.8"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="caterpillar"/>
+		<shipName attr1="smuggler"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="indie"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="0"/>
+		<bReletiveToPlayer attr1="1"/>
+		<position x="1000" y="-200" z="-3000"/>
+		<aiPosture attr1="hold"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_watched"/>
+		<objectName attr1="smuggler"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="smuggler"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="smuggler"/>
+		<characterID attr1="civilian04"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="smuggler"/>
+		<goToDistance attr1="1000"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="comms_target"/> 
+		<objectName attr1="smuggler"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="Hey!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Hello."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="They sent me a stub?"/>
+			<content attr1="A stub?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="Awesome!"/>
+			<content attr1="I've been imagining some crew cut military type..."/>
+			<content attr1="Like that's not suspicious!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="Alright..."/>
+			<content attr1="I'm sure that the TSF didn't tell you squat..."/>
+			<content attr1="Well I'm going to tell you everything."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="Our job is to get a cargo pod full of narcotics."/>
+			<content attr1="The TSF want to analyze drugs closer to the source of manufacture."/>
+			<content attr1="Or so they told me."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="We meet the supplier. I pay them. I get the pod."/>
+			<content attr1="We are each allowed one escort."/>
+			<content attr1="That's you. My bodyguard."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<bClearAllText attr1="1"/>
+			<content attr1="We take the pod to a TSF transport."/>
+			<content attr1="We get paid."/>
+			<content attr1="Simple right?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Sounds simple."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="Exactly!"/>
+			<content attr1="SOUNDS simple."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="Well I just received a transmission from the supplier."/>
+			<content attr1="Meeting coordinates changed..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="They always do this!"/>
+			<content attr1="Drives me nuts."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="Form up and we'll get going."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<missionHUDText attr1="Form up with the transport..."/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="smuggler"/>
+		<goToDistance attr1="1000"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postCutscene attr1="tsf-01-01-formUp"/>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<nextMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<nameOverride attr1="Lucille"/>
+			<content attr1="You're late!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="You changed the meeting spot..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<nameOverride attr1="Lucille"/>
+			<content attr1="Excuses... Excuses..."/>
+			<content attr1="What do I pay you for?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="You don't pay me."/>
+			<content attr1="I pay you..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<nameOverride attr1="Lucille"/>
+			<content attr1="So I work for you now?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="No... Just the pod..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<nameOverride attr1="Lucille"/>
+			<content attr1="The pod? You're here for the pod?"/>
+			<content attr1="You gonna take it?"/>
+			<content attr1="You hear that boys?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="No..."/>
+			<content attr1="And we were only supposed to bring one ship."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<nameOverride attr1="Lucille"/>
+			<bClearAllText attr1="1"/>
+			<content attr1="YOU were supposed to bring one ship."/>
+			<content attr1="Besides a little bird told me you got arrested by the TSF."/>
+			<content attr1="And who's this?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="I'm the bodyguard."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<nameOverride attr1="Lucille"/>
+			<content attr1="Nice. A stub."/>
+			<content attr1="But I was expecting your boy? Where is he?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="He had to skip this run."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<nameOverride attr1="Lucille"/>
+			<content attr1="Whatever. This is getting boring."/>
+			<content attr1="If I was even a tiny bit more suspicious you'd be dead."/>
+			<content attr1="Send over the payment."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="Sent."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<nameOverride attr1="Lucille"/>
+			<bClearAllText attr1="1"/>
+			<content attr1="Now send over an extra 10% late fee."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="What?!"/>
+			<content attr1="I can't..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<nameOverride attr1="Lucille"/>
+			<content attr1="It's going to be 20% if you make me wait any longer..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="But... I only have 34k credits."/>
+			<content attr1="Sending."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<nameOverride attr1="Lucille"/>
+			<content attr1="Whatever."/>
+			<content attr1="I'll expect the rest on your next run."/>
+			<content attr1="Dropping."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornFemaleGeneric01"/>
+			<nameOverride attr1="Lucille"/>
+			<content attr1="Have your stub stay put."/>
+			<content attr1="We don't want any misunderstandings."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<preTrigger>
+		<triggerType attr1="pay_ransom"/>
+		<ransomFactionID attr1="reborn"/>
+		<ransomPayer attr1="smuggler"/>
+		<note_to_self attr1="smuggler 'paid' in dialog above'"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postCutscene attr1="tsf-01-02-dropping"/>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<failMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="narcoticsPod"/>
+		<goToDistance attr1="1500"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian04"/>
+		<message attr1="Sit tight while I pick up the pod. Please..."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="smuggler"/> 	
+		<targetName attr1="narcoticsPod"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<failMissionNumber attr1="2000"/>
+	<missionHUDText attr1="Stand by..."/>
+	<objective>
+		<objectiveType attr1="pick_up"/> 
+		<objectName attr1="narcoticsPod"/>
+		<pickerName attr1="smuggler"/>
+		<bSilent attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="narcoticsPod"/>
+		<goToDistance attr1="1500"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="supplier"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="50000"/>
+		<reletiveObject attr1="supplier"/>
+	</postTrigger>
+</mission>	
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<failMissionNumber attr1="2000"/>
+	<missionHUDText attr1="Stand by..."/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="narcoticsPod"/>
+		<goToDistance attr1="1500"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="Damn..."/>
+			<content attr1="It's all here."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="This is going to work!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="We can relax now..."/>
+			<content attr1="I doubt they'd let me get close to the pod if they were planning anything."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="Form up and we'll make our way back."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<preTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="spitfire-1"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="50000"/>
+		<reletiveObject attr1="spitfire-1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="2"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="smuggler"/>
+		<commandType attr1="go_to_position"/>
+		<position x="10000" y="0" z="50000"/>
+		<reletiveObject attr1="smuggler"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<missionHUDText attr1="Form up with the transport..."/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="smuggler"/>
+		<goToDistance attr1="1000"/>
+	</objective>
+	<postCutscene attr1="tsf-01-03-theReturn"/>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="narcoticsPod"/> 	
+		<alterType attr1="toggle_must_survive"/>
+		<bToggle attr1="1"/>
+		<note_to_self attr1="pod might be damaged by incoming ships - better make it invincible while carried"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian02"/>
+			<nameOverride attr1="Corr"/>
+			<content attr1="Relax friends!"/>
+			<content attr1="We're just here for our cut!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian02"/>
+			<nameOverride attr1="Corr"/>
+			<content attr1="Pay us and we'll be on our way."/>
+			<content attr1="I think that 30k is a fair."/>
+			<content attr1="Considering the value of the cargo."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="That's... I can't afford that."/>
+			<content attr1="I really can't."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian02"/>
+			<nameOverride attr1="Corr"/>
+			<content attr1="No worries! I understand..."/>
+			<content attr1="These things happen to the best of us."/>
+			<content attr1="Personally I prefer cash, but we'll just take the pod."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<bClearAllText attr1="1"/>
+			<content attr1="I can't drop the pod!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian02"/>
+			<nameOverride attr1="Corr"/>
+			<content attr1="Oh come on!"/>
+			<content attr1="Can't? What's this can't business?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="Listen!"/>
+			<content attr1="I'm delivering this pod to the TSF."/>
+			<content attr1="They'll be here any moment."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian02"/>
+			<nameOverride attr1="Corr"/>
+			<content attr1="The TSF are coming?"/>
+			<content attr1="To pick up drugs?"/>
+			<content attr1="hahahahhaha!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian02"/>
+			<nameOverride attr1="Corr"/>
+			<content attr1="Alright, I tried."/>
+			<content attr1="Have it your way."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="11"/>
+	<nextMissionNumber attr1="12"/>
+	<nextMissionNumber attr1="3000"/>
+	<preTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="indiePirate"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="ton-1"/>
+		<objectName attr1="brick-1"/>
+		<objectName attr1="brick-2"/>
+		<objectName attr1="brick-3"/>
+		<faction attr1="indiePirate"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian04"/>
+		<message attr1="Stay close! We'll have a better chance if my turrets are in range."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="12"/>
+	<nextMissionNumber attr1="13"/>
+	<nextMissionNumber attr1="4000"/>
+	<missionHUDText attr1="Defeat attackers..."/>
+	<preTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-combat05-seg2"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="indiePirate"/>
+		<bMarkShips attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="240"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="ton"/>
+		<shipName attr1="ton-2"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="brick-4"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="brick-5"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="indiePirate"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="0" y="1250" z="-12500"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="ton-2"/>
+		<shipName attr1="brick-4"/>
+		<shipName attr1="brick-5"/>
+		<reletiveObject attr1="playerShip"/>
+		<hopPosition x="0" y="200" z="-3000"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="ton-2"/>
+		<objectName attr1="brick-4"/>
+		<objectName attr1="brick-5"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="13"/>
+	<nextMissionNumber attr1="14"/>
+	<missionHUDText attr1="Defeat attackers..."/>
+	<preTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-combat05-seg2"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="indiePirate"/>
+		<bMarkShips attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="120"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-1"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-2"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-3"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-4"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="leo-5"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="indiePirate"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="0" y="1250" z="-12500"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="leo-1"/>
+		<shipName attr1="leo-2"/>
+		<shipName attr1="leo-3"/>
+		<shipName attr1="leo-4"/>
+		<shipName attr1="leo-5"/>
+		<reletiveObject attr1="playerShip"/>
+		<hopPosition x="0" y="200" z="-3000"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="leo-1"/>
+		<objectName attr1="leo-2"/>
+		<objectName attr1="leo-3"/>
+		<objectName attr1="leo-4"/>
+		<objectName attr1="leo-5"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="14"/>
+	<nextMissionNumber attr1="15"/>
+	<missionHUDText attr1="Defeat attackers..."/>
+	<preTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-combat05-seg2"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="indiePirate"/>
+		<bMarkShips attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="40"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="perezGMK2-1"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="perezGMK2-2"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="perezGMK2-3"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="perezGMK2-4"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="perezGMK2-5"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="tsf"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="0" y="1000" z="-17500"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="perezGMK2-1"/>
+		<shipName attr1="perezGMK2-2"/>
+		<shipName attr1="perezGMK2-3"/>
+		<shipName attr1="perezGMK2-4"/>
+		<shipName attr1="perezGMK2-5"/>
+		<reletiveObject attr1="playerShip"/>
+		<hopPosition x="0" y="0" z="-5000"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="perezGMK2-1"/>
+		<objectName attr1="perezGMK2-2"/>
+		<objectName attr1="perezGMK2-3"/>
+		<objectName attr1="perezGMK2-4"/>
+		<objectName attr1="perezGMK2-5"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="tsfGenericFemale01"/>
+		<message attr1="Secure the pod!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="15"/>
+	<nextMissionNumber attr1="16"/>
+	<nextMissionNumber attr1="4100"/>
+	<missionHUDText attr1="Defeat attackers..."/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="indiePirate"/>
+		<bMarkShips attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="perezGMK2-2"/>
+		<objectName attr1="perezGMK2-3"/>
+		<objectName attr1="perezGMK2-4"/>
+		<objectName attr1="perezGMK2-5"/>
+		<targetName attr1="perezGMK2-1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="16"/>
+	<nextMissionNumber attr1="17"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="thrall"/>
+		<shipName attr1="thrall-1"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="tsf"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="narcoticsPod"/>
+		<position x="0" y="1000" z="-17500"/>
+		<aiPosture attr1="hold"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="thrall-1"/>
+		<reletiveObject attr1="narcoticsPod"/>
+		<hopPosition x="0" y="0" z="-5000"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="thrall-1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="tsfGeneric01"/>
+		<message attr1="Transport securing pod!"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="thrall-1"/> 	
+		<targetName attr1="narcoticsPod"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="perezGMK2-1"/>
+		<targetName attr1="thrall-1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="17"/>
+	<nextMissionNumber attr1="1000"/>
+	<missionHUDText attr1="Stand by..."/>
+	<objective>
+		<objectiveType attr1="pick_up"/> 
+		<objectName attr1="narcoticsPod"/>
+		<pickerName attr1="thrall-1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGenericFemale01"/>
+			<nameOverride attr1="Flight Leader ID 35AE41"/>
+			<content attr1="Pod secure, contents verified."/>
+			<content attr1="Thank you for your assistance."/>
+		</dialog>
+		<dialog>
+			<checkIfExists attr1="smuggler"/>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="What about my son?"/>
+		</dialog>	
+		<dialog>
+			<checkIfExists attr1="smuggler"/>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGenericFemale01"/>
+			<nameOverride attr1="Flight Leader ID 35AE41"/>
+			<content attr1="What?"/>
+			<content attr1="We didn't find any sons in the pod."/>
+		</dialog>
+		<dialog>
+			<checkIfExists attr1="smuggler"/>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="No I mean..."/>
+			<content attr1="I was told my son would be returned if I did the run."/>
+		</dialog>
+		<dialog>
+			<checkIfExists attr1="smuggler"/>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGenericFemale01"/>
+			<nameOverride attr1="Flight Leader ID 35AE41"/>
+			<content attr1="We're just here for the pod."/>
+			<content attr1="Contact the pardon office."/>
+		</dialog>
+		<dialog>
+			<checkIfExists attr1="smuggler"/>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<bClearAllText attr1="1"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="I thought..."/>
+		</dialog>
+		<dialog>
+			<checkIfExists attr1="smuggler"/>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="Thanks for your help friend."/>
+			<content attr1="Its a bit strange..."/>
+			<content attr1="But maybe..."/>
+		</dialog>
+		<dialog>
+			<checkIfExists attr1="smuggler"/>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="I think I understand how someone could chose to become a Stub."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="3.05"/>
+		<faction attr="tsf"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="9"/>
+	<preTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="reborn"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="spitfire-1"/>
+		<shipName attr1="spitfire-2"/>
+		<shipName attr1="spitfire-3"/>
+		<shipName attr1="spitfire-4"/>
+		<shipName attr1="spitfire-5"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornFemaleGeneric01"/>
+		<message attr1="You trying to double cross us?"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="reborn"/>
+		<bMarkShips attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="Why?"/>
+			<content attr1="Did the TSF tell you to provoke a fight?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1=""/>
+			<content attr1="Damn it! Those bastards..."/>
+			<content attr1="We have to get out of here!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="Form up and we'll make our way back."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="3000"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="smuggler"/>
+		<healthPercent attr1="0.3"/>
+		<bSilent attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="I don't think I'll make it!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="The TSF have my son... My boy.."/>
+			<content attr1="They caught us on our last run."/>
+			<content attr1="That's why I'm doing this. To get him back."/>
+			<content attr1="They promised."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian04"/>
+			<nameOverride attr1="Baz"/>
+			<content attr1="No matter what! Please!"/>
+			<content attr1="Keep the pod safe!"/>
+		</dialog>
+	</postDialog>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="4000"/>
+	<objective>
+		<objectiveType attr1="object_check_exists"/> 
+		<objectName attr1="smuggler"/> 
+		<bSilent attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian04"/>
+		<message attr1="ANOTHER WAVE!"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="4100"/>
+	<objective>
+		<objectiveType attr1="object_check_exists"/> 
+		<objectName attr1="smuggler"/> 
+		<bSilent attr1="1"/>
+	</objective>	
+	<postTrigger>
+		<triggerType attr1="drop_all_carried"/>
+		<shipName attr1="smuggler"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian04"/>
+		<message attr1="Dropping pod."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="smuggler"/>
+		<position x="0" y="2500" z="-1000"/>
+		<reletiveObject attr1="smuggler"/>
+		<commandType attr1="thrust_to_position"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>	
+<note_to_self attr1="--- MISSION FAILURES ---"/>
+<mission>
+	<missionNumber attr1="5000"/>
+	<nextMissionNumber attr1="5001"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="narcoticsPod"/>
+		<bSilent attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="smuggler"/>
+		<note_to_self attr1="this failure chain gets canceled if smuggler is destroyed"/>
+		<bSilent attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="5001"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian04"/>
+		<message attr1="THE POD!"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

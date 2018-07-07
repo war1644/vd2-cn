@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Sanctuary cutscene"/>
+<objectID attr1="main04"/>
+<missionFactionID attr1="kind"/>
+<missionLocation attr1="sanctuary"/>
+<bStoryMission attr1="1"/>
+<bRepeatable attr1="0"/>
+<bHidden attr1="1"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preCutscene attr1="main-04-showSanctuaryScene-00"/>
+	<preTrigger>
+		<triggerType attr1="set_faction_score"/>
+		<factionID attr1="kind"/>
+		<factionScore attr1="70"/>
+		<note_to_self attr1="make sure kind faction isn't hostile"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubMaleGeneric01"/>
+		<message attr1="Welcome friend!"/>
+	</postTrigger>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric01"/>
+			<nameOverride attr1="ONE EAR"/>
+			<content attr1="This is Sanctuary."/>
+			<content attr1="Our new home."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric01"/>
+			<nameOverride attr1="ONE EAR"/>
+			<content attr1="One of our patrols said you might be coming by."/>
+			<content attr1="Glad you made it."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Thank you."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric01"/>
+			<nameOverride attr1="ONE EAR"/>
+			<content attr1="It's our custom for newcomers to introduce themselves."/>
+			<content attr1="Because we all gave up our past..."/>
+			<content attr1="We ask this."/>
+			<content attr1="What is your earliest memory?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="A battle around Shangri-La."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric01"/>
+			<nameOverride attr1="ONE EAR"/>
+			<content attr1="So you are a veteran of the Outsider conflict."/>
+			<content attr1="And after that?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="I woke up in a different ship."/>
+			<content attr1="In a debris field."/>
+			<content attr1="Near a Hercules transport."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric01"/>
+			<nameOverride attr1="ONE EAR"/>
+			<content attr1="Sounds like smugglers."/>
+			<content attr1="I'll pass that up the chain."/>
+			<content attr1="Could be useful."/>
+		</dialog>
+	</postDialog>
+</mission>

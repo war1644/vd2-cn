@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Cobra"/> 
+<objectID attr1="cobra"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="fighter"/>
+<shipClassSize attr1="heavy"/>
+<meshName attr1="Cobra.mesh"/> 
+<wireframeMaterial attr1="WF/Bee"/>
+<descriptionText attr1="A heavy fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Cobra is a heavy fighter that specializes in putting a barrage of projectiles in a fixed forward firing arc."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Charged rail gun."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="This high damage per shot weapon is capable of severely damaging small fighters, and easily penetrating tough armor on heavier targets."/>
+<creditCost attr1="145000"/>
+<cruiseSpeed attr1="115.0"/> 
+<timeTillCruise attr1="1.65"/>
+<yaw 	attr1="100.0"/> 
+<pitch	attr1="100.0"/> 
+<roll 	attr1="100.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitID attr1="cockpit003-1"/>
+<cockpitActualPos x="0" y="3.97" z="17.96"/>
+<cockpitActualMesh attr1="cockpitCobra.mesh"/> 
+<cockpitInitPos x="0" y="7.15" z="6.85"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos  x="0" y="12.51" z="77"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="1450.0"/> 
+<buildTime	attr1="35.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="275.0"/> 
+<ore		attr1="375.0"/> 
+<damage>
+    <pitch attr1="-30.0"/>
+    <roll attr1="45.0"/>
+	<yaw attr1="94.0"/>
+	<position x="-5.822" y="-0.253" z="5.254"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="cobraD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explodeRed02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp1_25"/>  
+<engineSoundID attr1="eng-01"/> 
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="5.05" y="-0.2" z="8.03"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="-5.05" y="-0.2" z="8.03"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="6.15"/>
+    <capacity attr1="10.0"/>
+    <recharge attr1="13.0"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="cobraPG"/> 
+	<weaponPosition x="11.3" y="1.23" z="-2.94"/>
+	<weaponPosition x="10.42" y="0.88" z="-2.9"/>
+	<weaponPosition x="10.06" y="-0" z="-3.09"/>
+	<weaponPosition  x="10.42" y="-0.86" z="-3.03"/>
+	<weaponPosition x="11.27" y="-1.25" z="-2.97"/>
+	<weaponPosition x="12.18" y="-0.89" z="-3.05"/>
+	<weaponPosition x="12.55" y="0.01" z="-3.05"/>
+	<weaponPosition x="12.18" y="0.88" z="-2.98"/>
+	<barrelDelay attr1="0.0225"/> 
+	<weaponFire attr1="primary"/> 
+</weapon>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="cobraPG"/> 
+	<weaponPosition x="-11.3" y="1.23" z="-2.94"/>
+	<weaponPosition x="-10.42" y="0.88" z="-2.9"/>
+	<weaponPosition x="-10.06" y="-0" z="-3.09"/>
+	<weaponPosition x="-10.42" y="-0.86" z="-3.03"/>
+	<weaponPosition x="-11.27" y="-1.25" z="-2.97"/>
+	<weaponPosition x="-12.18" y="-0.89" z="-3.05"/>
+	<weaponPosition x="-12.55" y="0.01" z="-3.05"/>
+	<weaponPosition x="-12.18" y="0.88" z="-2.98"/>
+	<barrelDelay attr1="0.0225"/> 
+	<weaponFire attr1="primary"/> 
+</weapon>
+<weapon> 
+    <weaponType attr1="instant"/> 
+    <hardpointID attr1="cMCG"/> 
+	<weaponPosition x="11.299" y="0" z="-5.147"/>
+	<weaponPosition x="-11.299" y="0" z="-5.147"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<upgrades> 
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="cobralDT00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield02"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="fFrontShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed02"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="heavyFighterPUS00"/>
+	<upgradeID attr1="heavyFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="1.5" z="-5.33"/>

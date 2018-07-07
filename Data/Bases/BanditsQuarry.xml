@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="banditsQuarry"/> 
+<displayName attr1="Bandit's Quarry"/> 
+<objectID attr1="banditsQuarry"/> 
+<faction attr1="civilian"/> 
+<meshName attr1="banditsQuarry.mesh"/>
+<wireframeMaterial attr1="WF/TheHub"/> 
+<descriptionText attr1="A Civilian asteroid mining base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Originally an independently operated mining base, Bandit's Quarry has been bought by a mega corporation. The acquisition was more about ensuring a tighter grip on the market than actual ore production."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Bandit's Quarry now sits more or less ignored by its owner. Except for the annual glance at the balance sheet, followed by budget cuts, pushing it nearer to the breaking point."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="860" y="288" z="-505"/>
+<dockingArmsEnd x="860" y="288" z="-650"/>
+<dockPosition x="860" y="288" z="-547"/>
+<dockSize x="220" y="100" z="65"/>
+<_hangarID attr1="theHubH"/> 
+<maxBuildShipClass attr1="corvette"/>
+<bCanResearch attr1="1"/>
+<rockSubPosition attr1="1"/>
+<miningPlatformPosition x="-1696" y="-165" z="65"/>

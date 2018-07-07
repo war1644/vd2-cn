@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="instant"/> 
+<instantType attr1="chain_instant"/> 
+<weaponID attr1="rayRG"/> 
+<name attr1="Rail Gun"/> 
+<materialName attr1="Effects/RibbonTrail"/> 
+<baseScale attr1="1.5"/>
+<explosionID attr1="railGunHit01"/> 
+<fireSoundID attr1="heavyPGS00"/>
+<chargeSoundID attr1="chargingG00"/>
+<chargedSoundID attr1="chargedG00"/>
+<muzzleFlashEffectID attr1="mfLG080"/>
+<chargeParticleName attr1="weaponCharge05"/>
+<damage attr1="400.0"/> 
+<range attr1="2550.0"/> 
+<capacity attr1="1.0"/> 
+<reFireRate attr1="0.0"/>
+<visualTimer attr1="0.3"/>
+<reloadTime attr1="6.25"/>
+<weaponPush attr1="150000.0"/> 
+<bIgnoresShields attr1="1"/>

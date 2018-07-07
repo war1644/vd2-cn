@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieGreetingHired00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="greeting_hired_ship"/>
+<dialog attr1="What now boss?"/>
+<dialog attr1="Ready to work."/>
+<dialog attr1="Lead the way, I'm in formation."/>
+<dialog attr1="You pay for my time, but you get the sarcasm for free."/>
+<dialog attr1="What are we up to today boss?"/>
+<dialog attr1="Ready."/>
+<dialog attr1="All systems go."/>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="R.L.A."/> 
+<objectID attr1="rla"/>
+<upgradeCategory attr1="other"/>
+<upgradeType attr1="other"/>
+<cost attr1="2000"/>
+<bAlwaysAvailableUpgrade attr1="1"/>
+<bPersistsOnShipChange attr1="1"/>
+<bPermitShipCameraLight attr1="0"/>
+<description attr1="R.L.A. - Realistic Light Approximation"/>
+<description attr1=" "/>
+<description attr1="Approximates realistic light direction."/>
+<description attr1=" "/>
+<description attr1="As part of their conversions, persons commonly referred to as Stubs are outfitted with the ability to receive ship sensor data into their optical systems. This results in seeing objects in the void as if a constant and infinite light source is originating from the optic perspective."/>
+<description attr1=" "/>
+<description attr1="If you are a Stub that has the desire to be experience a more human perspective, this upgrade alters sensor readings to approximate a more realistic light source. Which in this part of space is the Sun Gate."/>

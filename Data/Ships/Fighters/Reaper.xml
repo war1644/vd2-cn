@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Reaper"/> 
+<objectID attr1="reaper"/> 
+<faction attr1="thePride"/> 
+<shipClass attr1="fighter"/> 
+<shipClassSize attr1="heavy"/>
+<meshName attr1="Reaper.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A heavy Bounty Hunter fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Reaper is a mini heavy fighter. Combining firepower with a small target profile is a winning combination. Skewing any fight with a similar sized ship in its favor."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Essentially a flying gun pod with layers of protection. There is little room for the pilot, but plenty for armor and a shield generator."/>
+<creditCost attr1="225000"/>
+<missionRankRequired attr1="3"/>
+<cruiseSpeed attr1="100.0"/> 
+<timeTillCruise attr1="1.75"/> 
+<yaw 	attr1="110.0"/> 
+<pitch	attr1="110.0"/> 
+<roll 	attr1="110.0"/> 
+<bGravityDrive attr1="1"/>
+<cockpitID attr1="cockpit003"/>
+<cockpitActualPos x="0" y="4" z="12.66"/>
+<cockpitActualMesh attr1="cockpitReaper.mesh"/>
+<bShowInCockpitParticles attr1="1"/>
+<cockpitInitPos x="0" y="10" z="20"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="20" z="100"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="1100.0"/>
+<shieldHealth attr1="100"/>
+<armor attr1="0.8"/>
+<damage>
+    <pitch attr1="87.0"/> 
+    <roll attr1="13.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="-7.35" y="3.163" z="6.523"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/> 
+<explosionID attr1="explode02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="4.222" y="1.665" z="8.95"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="-4.222" y="1.665" z="8.95"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion012"/> 
+	<position x="3.319" y="4.23" z="-1.202"/>
+	<direction attr1="up"/> 
+	<yaw attr1="45.0"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion012"/> 
+	<position x="-3.319" y="4.23" z="-1.202"/>
+	<direction attr1="up"/> 
+	<yaw attr1="-45.0"/>
+</propulsion>  
+<propulsion> 
+    <propulsionEffectID attr1="propulsion012"/> 
+	<position x="3.231" y="-4.278" z="1.971"/>
+	<direction attr1="down"/> 
+	<yaw attr1="45.0"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion012"/> 
+	<position x="-3.231" y="-4.278" z="1.971"/>
+	<direction attr1="down"/> 
+	<yaw attr1="-45.0"/>
+</propulsion> 
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="6.5"/> 
+    <capacity attr1="6.0"/>
+    <recharge attr1="6.75"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<turret>
+    <turretID attr1="pilarT01L"/>
+    <turretOrientation attr1="right"/> 
+	<position x="10.574" y="-0.23" z="-0.09"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<bShowInCockpit attr1="1"/>
+	<weaponPositionID attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="pilarT01R"/>
+    <turretOrientation attr1="left"/> 
+	<position x="-10.574" y="-0.23" z="-0.09"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<bShowInCockpit attr1="1"/>
+	<weaponPositionID attr1="2"/>
+</turret>
+<upgrades>
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="reaperTT00"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield02"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="fFrontShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed02"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="heavyFighterPUS00"/>
+	<upgradeID attr1="heavyFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="-2.647" z="-3.775"/>
+<shipHangarYOffset attr1="5"/>

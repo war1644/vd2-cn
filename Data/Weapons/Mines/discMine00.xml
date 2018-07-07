@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="mine"/> 
+<mineType attr1="swarm_mine"/> 
+<objectID attr1="discMine00"/>
+<meshName attr1="discMine00.mesh"/> 
+<cruiseSpeed attr1="75.0"/> 
+<detectionProximity attr1="650"/>
+<timeTillCruise attr1="2.5"/> 
+<initialVelocity attr1="35.0"/> 
+<initialLife attr1="60.0"/> 
+<timeTillActive attr1="0.5"/>
+<damage attr1="350.0"/> 
+<weaponPush attr1="25000000"/>
+<health attr1="10.0"/> 
+<explosionID attr1="explode00"/> 
+<yaw 	attr1="100.0"/> 
+<pitch	attr1="100.0"/> 
+<roll 	attr1="100.0"/>
+<minimumShipClass attr1="corvette"/>
+<bUseParentTarget attr1="1"/>
+<bSpinner attr1="1"/>
+<bKeepTarget attr1="1"/>
+<_instantKillShipClass attr1="fighter"/>

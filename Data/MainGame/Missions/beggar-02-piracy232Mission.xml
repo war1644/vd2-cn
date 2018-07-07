@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Piracy 232"/>
+<missionDescriptionText attr1="Intermediate course on piracy."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Ship Capture for fun and profit."/>
+<objectID attr1="beggar-02"/>
+<missionFactionID attr1="beggar"/>
+<missionLocation attr1="gate04-A"/>
+<bNearRangeMarkerOverride attr1="0"/>
+<creditReward attr1="65000"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<bFactionShipRequired attr1="1"/>
+<maximumShipClass attr1="gunship"/>
+<bOverworldByPass attr1="1"/>
+<missionRankRequired attr1="4.8"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<nextMissionNumber attr1="2000"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="2"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="littleBigJoy"/>
+		<shipName attr1="b02-littleBigJoy-1"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="gate04-A"/>
+		<position x="-7500" y="-250" z="-7500"/>
+		<aiPosture attr1="defend"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="b02-littleBigJoy-1"/>
+		<characterID attr1="beggar-00-PPlt"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_watched"/>
+		<objectName attr1="b02-littleBigJoy-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="buzzard"/>
+		<shipName attr1="b02-buzzard-1"/>
+		<shipID attr1="buzzard"/>
+		<shipName attr1="b02-buzzard-2"/>
+		<shipID attr1="buzzard"/>
+		<shipName attr1="b02-buzzard-3"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="gate04-A"/>
+		<position x="0" y="500" z="-10000"/>
+		<aiPosture attr1="engage"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="vulture"/>
+		<shipName attr1="b02-vulture-1"/>
+		<shipID attr1="vulture"/>
+		<shipName attr1="b02-vulture-2"/>
+		<shipID attr1="vulture"/>
+		<shipName attr1="b02-vulture-3"/>
+		<shipID attr1="vulture"/>
+		<shipName attr1="b02-vulture-4"/>
+		<shipID attr1="vulture"/>
+		<shipName attr1="b02-vulture-5"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="gate04-A"/>
+		<position x="7500" y="-1250" z="-7500"/>
+		<aiPosture attr1="engage"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="b02-buzzard-3"/>
+		<objectName attr1="b02-buzzard-2"/>
+		<targetName attr1="b02-buzzard-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="b02-vulture-2"/>
+		<objectName attr1="b02-vulture-3"/>
+		<objectName attr1="b02-vulture-4"/>
+		<objectName attr1="b02-vulture-5"/>
+		<targetName attr1="b02-vulture-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="b02-vulture-1"/>
+		<objectName attr1="b02-buzzard-1"/>
+		<targetName attr1="b02-littleBigJoy-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="b02-littleBigJoy-1"/>
+		<shipName attr1="b02-buzzard-1"/>
+		<shipName attr1="b02-buzzard-2"/>
+		<shipName attr1="b02-buzzard-3"/>
+		<shipName attr1="b02-vulture-1"/>
+		<shipName attr1="b02-vulture-2"/>
+		<shipName attr1="b02-vulture-3"/>
+		<shipName attr1="b02-vulture-4"/>
+		<shipName attr1="b02-vulture-5"/>
+		<reletiveObject attr1="gate04-A"/>
+		<hopPosition x="0" y="0" z="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="b02-littleBigJoy-1"/>
+		<objectName attr1="b02-buzzard-1"/>
+		<objectName attr1="b02-buzzard-2"/>
+		<objectName attr1="b02-buzzard-3"/>
+		<objectName attr1="b02-vulture-1"/>
+		<objectName attr1="b02-vulture-2"/>
+		<objectName attr1="b02-vulture-3"/>
+		<objectName attr1="b02-vulture-4"/>
+		<objectName attr1="b02-vulture-5"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="b02-littleBigJoy-1"/>
+		<objectName attr1="b02-buzzard-1"/>
+		<objectName attr1="b02-buzzard-2"/>
+		<objectName attr1="b02-buzzard-3"/>
+		<objectName attr1="b02-vulture-1"/>
+		<objectName attr1="b02-vulture-2"/>
+		<objectName attr1="b02-vulture-3"/>
+		<objectName attr1="b02-vulture-4"/>
+		<objectName attr1="b02-vulture-5"/>	
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="0.75"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="b02-buzzard-1"/>
+		<objectName attr1="b02-vulture-1"/>
+		<objectName attr1="b02-vulture-2"/>
+		<alterType attr1="toggle_must_survive"/> 	
+		<bToggle attr1="1"/> 	
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="b02-littleBigJoy-1"/>
+		<commandType attr1="go_to_position"/>
+		<reletiveObject attr1="gate04-A"/>
+		<position x="0" y="0" z="-5000"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="Hey! Form up."/>
+	</preTrigger>
+	<missionHUDText attr1="Form up..."/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="b02-littleBigJoy-1"/>
+		<goToDistance attr1="750"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+		<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Alright."/>
+			<content attr1="We all here?"/>
+			<content attr1="And my favorite Stub too!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Simple op."/>
+			<content attr1="We wait here for our target."/>
+			<content attr1="Kill any undesirables that come near us."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="When our target shows up..."/>
+			<content attr1="We take any escorts."/>
+			<content attr1="I call in the LittleJoys..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="And it's ours."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Keep me alive."/>
+			<content attr1="Kill everyone else."/>
+			<content attr1="Except our target."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Like I said."/>
+			<content attr1="Simple."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Let's get into position."/>
+			<content attr1="Stay together."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<missionHUDText attr1="Get into position..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="b02-littleBigJoy-1"/>
+		<reletiveObject attr1="gate04-A"/>
+		<goToPosition x="0" y="0" z="-5000"/>
+		<goToDistance attr1="300"/>
+		<markObject attr1="b02-littleBigJoy-1"/>
+		<markObjectType attr1="go_to_object"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="b02-littleBigJoy-1"/>
+		<commandType attr1="go_to_position"/>
+		<reletiveObject attr1="gate04-A"/>
+		<position x="0" y="0" z="-4000"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="roachC"/>
+		<shipName attr1="b02-roachC-1"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="b02-brick-1"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="b02-brick-2"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="gate04-A"/>
+		<position x="15000" y="0" z="5000"/>
+		<aiPosture attr1="engage"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="b02-roachC-1"/>
+		<shipName attr1="b02-brick-1"/>
+		<shipName attr1="b02-brick-2"/>
+		<reletiveObject attr1="gate04-A"/>
+		<hopPosition x="2000" y="0" z="5000"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="b02-roachC-1"/>
+		<objectName attr1="b02-brick-1"/>
+		<objectName attr1="b02-brick-2"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="Got some civies on my scope. Stubsy can handle em."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="b02-brick-1"/>
+		<objectName attr1="b02-brick-2"/>
+		<targetName attr1="b02-roachC-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="b02-roachC-1"/>
+		<commandType attr1="go_to_position"/>
+		<reletiveObject attr1="b02-roachC-1"/>
+		<position x="0" y="0" z="-10000"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<missionHUDText attr1="Destroy civilian ships..."/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="civilian"/>
+		<bMarkShips attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="Good. Form back up."/>
+	</preTrigger>
+	<missionHUDText attr1="Form up..."/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="b02-littleBigJoy-1"/>
+		<goToDistance attr1="750"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="11"/>
+	<nextMissionNumber attr1="12"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="12"/>
+	<nextMissionNumber attr1="13"/>
+	<preTrigger>
+		<triggerType attr1="activate_gate"/>
+		<gateName attr1="gate04-A"/> 
+		<timeTillSpawn attr1="0.1"/> 
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="gate_spawn"/>
+		<gateName attr1="gate04-A"/>
+		<shipID attr1="ultra"/> 
+		<shipName attr1="b02-ultra-1"/>
+		<shipID attr1="ultra"/> 
+		<shipName attr1="b02-ultra-2"/>
+		<shipID attr1="ultra"/> 
+		<shipName attr1="b02-ultra-3"/>
+		<shipID attr1="ultra"/> 
+		<shipName attr1="b02-ultra-4"/>
+		<shipID attr1="pilar"/> 
+		<shipName attr1="b02-pilar-1"/>
+		<shipID attr1="pilar"/> 
+		<shipName attr1="b02-pilar-2"/>
+		<shipID attr1="pilar"/> 
+		<shipName attr1="b02-pilar-3"/>
+		<shipID attr1="eagle"/> 
+		<shipName attr1="b02-eagle-1"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="thePride"/>
+		<bAllDirectCommand attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="Incoming ships. It could be...  Nah, just a bounty hunter patrol. Waste em."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-combat05-seg2"/> 	
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="13"/>
+	<nextMissionNumber attr1="14"/>
+	<objective>
+		<objectiveType attr1="gate_de_activated"/> 
+		<gateName attr1="gate04-A"/>
+		<gateStatus attr1="spawning"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="b02-ultra-1"/>
+		<shipName attr1="b02-ultra-2"/>
+		<shipName attr1="b02-ultra-3"/>
+		<shipName attr1="b02-ultra-4"/>
+		<shipName attr1="b02-pilar-1"/>
+		<shipName attr1="b02-pilar-2"/>
+		<shipName attr1="b02-pilar-3"/>
+		<shipName attr1="b02-eagle-1"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="14"/>
+	<nextMissionNumber attr1="15"/>
+	<missionHUDText attr1="Destroy Pride Ships..."/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="thePride"/>
+		<bMarkShips attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="15"/>
+	<nextMissionNumber attr1="16"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="No bounties for you!"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="b02-littleBigJoy-1"/>
+		<commandType attr1="go_to_position"/>
+		<reletiveObject attr1="gate04-A"/>
+		<position x="0" y="0" z="-7000"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="16"/>
+	<nextMissionNumber attr1="17"/>
+	<nextMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="Let's get back into position."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="17"/>
+	<nextMissionNumber attr1="18"/>
+	<missionHUDText attr1="Get into position..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="b02-littleBigJoy-1"/>
+		<reletiveObject attr1="gate04-A"/>
+		<goToPosition x="0" y="0" z="-7000"/>
+		<goToDistance attr1="300"/>
+		<markObject attr1="b02-littleBigJoy-1"/>
+		<markObjectType attr1="go_to_object"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="b02-littleBigJoy-1"/>
+		<commandType attr1="go_to_position"/>
+		<reletiveObject attr1="gate04-A"/>
+		<position x="0" y="0" z="-6000"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="18"/>
+	<nextMissionNumber attr1="19"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="Waiting... The worst part."/>
+	</preTrigger>
+	<missionHUDText attr1="Standby..."/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="25"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="19"/>
+	<nextMissionNumber attr1="20"/>
+	<preTrigger>
+		<triggerType attr1="activate_gate"/>
+		<gateName attr1="gate04-A"/> 
+		<timeTillSpawn attr1="0.1"/> 
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="gate_spawn"/>
+		<gateName attr1="gate04-A"/>
+		<shipID attr1="taurus"/> 
+		<shipName attr1="b02-taurus-1"/>
+		<shipID attr1="taurus"/> 
+		<shipName attr1="b02-taurus-2"/>
+		<shipID attr1="taurus"/> 
+		<shipName attr1="b02-taurus-3"/>
+		<shipID attr1="taurus"/> 
+		<shipName attr1="b02-taurus-4"/>
+		<shipID attr1="brick"/> 
+		<shipName attr1="b02-brick-1"/>
+		<shipID attr1="brick"/> 
+		<shipName attr1="b02-brick-2"/>
+		<shipID attr1="brick"/> 
+		<shipName attr1="b02-brick-3"/>
+		<shipID attr1="roachC"/> 
+		<shipName attr1="b02-roachC-1"/>
+		<shipID attr1="roachC"/> 
+		<shipName attr1="b02-roachC-2"/>
+		<shipID attr1="roachC"/> 
+		<shipName attr1="b02-roachC-3"/>
+		<shipID attr1="anubis"/> 
+		<shipName attr1="b02-anubis-1"/>
+		<shipID attr1="anubis"/> 
+		<shipName attr1="b02-anubis-2"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="civilian"/>
+		<bAllDirectCommand attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="Gate active. This looks like it could be... Almost, those are our target's escorts."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-combat05-seg2"/> 	
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="20"/>
+	<nextMissionNumber attr1="21"/>
+	<objective>
+		<objectiveType attr1="gate_de_activated"/> 
+		<gateName attr1="gate04-A"/>
+		<gateStatus attr1="spawning"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="b02-taurus-1"/>
+		<objectName attr1="b02-taurus-2"/>
+		<objectName attr1="b02-taurus-3"/>
+		<objectName attr1="b02-taurus-4"/>
+		<objectName attr1="b02-brick-1"/>
+		<objectName attr1="b02-brick-2"/>
+		<objectName attr1="b02-brick-3"/>
+		<objectName attr1="b02-roachC-1"/>
+		<objectName attr1="b02-roachC-2"/>
+		<objectName attr1="b02-roachC-3"/>
+		<objectName attr1="b02-anubis-1"/>
+		<objectName attr1="b02-anubis-2"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="b02-taurus-1"/>
+		<shipName attr1="b02-taurus-2"/>
+		<shipName attr1="b02-taurus-3"/>
+		<shipName attr1="b02-taurus-4"/>
+		<shipName attr1="b02-brick-1"/>
+		<shipName attr1="b02-brick-2"/>
+		<shipName attr1="b02-brick-3"/>
+		<shipName attr1="b02-roachC-1"/>
+		<shipName attr1="b02-roachC-2"/>
+		<shipName attr1="b02-roachC-3"/>
+		<shipName attr1="b02-anubis-1"/>
+		<shipName attr1="b02-anubis-2"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="21"/>
+	<nextMissionNumber attr1="22"/>
+	<missionHUDText attr1="Destroy Escort Ships..."/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="civilian"/>
+		<bMarkShips attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="22"/>
+	<nextMissionNumber attr1="23"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="Form up. Our target should be nearly here."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="b02-littleBigJoy-1"/>
+		<commandType attr1="go_to_position"/>
+		<reletiveObject attr1="gate04-A"/>
+		<position x="0" y="0" z="-8000"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="b02-rhinoT-1"/>
+		<commandType attr1="go_to_position"/>
+		<reletiveObject attr1="gate04-A"/>
+		<position x="7500" y="0" z="-10000"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="b02-rhinoT-2"/>
+		<commandType attr1="go_to_position"/>
+		<reletiveObject attr1="gate04-A"/>
+		<position x="-7500" y="0" z="-10000"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="b02-roach-1"/>
+		<targetName attr1="b02-littleBigJoy-1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="23"/>
+	<nextMissionNumber attr1="24"/>
+	<missionHUDText attr1="Form up..."/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="20"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="b02-littleBigJoy-1"/>
+		<commandType attr1="go_to_position"/>
+		<reletiveObject attr1="gate04-A"/>
+		<position x="0" y="0" z="-7000"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="activate_gate"/>
+		<gateName attr1="gate04-A"/> 
+		<timeTillSpawn attr1="0.1"/> 
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="gate_spawn"/>
+		<gateName attr1="gate04-A"/>
+		<shipID attr1="hadesB"/> 
+		<shipName attr1="b02-hadesB-1"/>
+		<faction attr1="civilian"/>
+		<bAllDirectCommand attr1="1"/>
+		<bOverworld attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="b02-littleBigJoy-1"/>
+		<shipName attr1="b02-rhinoT-1"/>
+		<shipName attr1="b02-rhinoT-2"/>
+		<shipName attr1="b02-buzzard-1"/>
+		<shipName attr1="b02-buzzard-2"/>
+		<shipName attr1="b02-vulture-1"/>
+		<shipName attr1="b02-vulture-2"/>
+		<shipName attr1="b02-vulture-3"/>
+		<shipName attr1="b02-vulture-4"/>
+		<shipName attr1="b02-vulture-5"/>
+		<aiPosture attr1="hold"/>		
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<note_to_self attr1="keep alive in case hades nukes it"/>
+		<objectName attr1="b02-littleBigJoy-1"/>
+		<alterType attr1="toggle_must_survive"/> 	
+		<bToggle attr1="1"/> 	
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="24"/>
+	<nextMissionNumber attr1="25"/>
+	<nextMissionNumber attr1="3000"/>
+	<objective>
+		<objectiveType attr1="gate_de_activated"/> 
+		<gateName attr1="gate04-A"/>
+		<gateStatus attr1="spawning"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="b02-hadesB-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="b02-hadesB-1"/>
+		<characterID attr1="civilian05"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="b02-hadesB-1"/>
+		<aiPosture attr1="defend"/>		
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="There it is! Don't engage! Our objective is to capture."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="weapons_hold"/>
+		<shipName attr1="b02-littleBigJoy-1"/>
+		<shipName attr1="b02-rhinoT-1"/>
+		<shipName attr1="b02-rhinoT-2"/>
+		<shipName attr1="b02-buzzard-1"/>
+		<shipName attr1="b02-buzzard-2"/>
+		<shipName attr1="b02-vulture-1"/>
+		<shipName attr1="b02-vulture-2"/>
+		<shipName attr1="b02-vulture-3"/>
+		<shipName attr1="b02-vulture-4"/>
+		<shipName attr1="b02-vulture-5"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="25"/>
+	<nextMissionNumber attr1="26"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postCutscene attr1="beggar-02-01-sabotage"/>
+</mission>
+<mission>
+	<missionNumber attr1="26"/>
+	<nextMissionNumber attr1="27"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian05"/>
+			<nameOverride attr1="Captain Stream"/>
+			<content attr1="Ok ok... You got me!"/>
+			<content attr1="The sabotage was a nice touch."/>
+			<content attr1="How much?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="How much what?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian05"/>
+			<nameOverride attr1="Captain Stream"/>
+			<content attr1="You know..."/>
+			<content attr1="The ransom."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Sorry friend."/>
+			<content attr1="We don't want ransom."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian05"/>
+			<nameOverride attr1="Captain Stream"/>
+			<content attr1="Then why..."/>
+			<content attr1="OH MY DAMMIT!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian05"/>
+			<nameOverride attr1="Captain Stream"/>
+			<content attr1="PREPARE FOR BOARDING PARTIES!"/>
+		</dialog>
+	</postDialog>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="littleJoy"/>
+		<shipName attr1="b02-littleJoy-1"/>
+		<shipID attr1="littleJoy"/>
+		<shipName attr1="b02-littleJoy-2"/>
+		<shipID attr1="littleJoy"/>
+		<shipName attr1="b02-littleJoy-3"/>
+		<shipID attr1="littleJoy"/>
+		<shipName attr1="b02-littleJoy-4"/>
+		<faction attr1="beggar"/>
+		<bFillAttachedShips attr1="1"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="gate04-A"/>
+		<position x="-15000" y="250" z="-2000"/>
+		<aiPosture attr1="defend"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="b02-littleJoy-1"/>
+		<objectName attr1="b02-littleJoy-2"/>
+		<objectName attr1="b02-littleJoy-3"/>
+		<objectName attr1="b02-littleJoy-4"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="weapons_hold"/>
+		<shipName attr1="b02-littleJoy-1"/>
+		<shipName attr1="b02-littleJoy-2"/>
+		<shipName attr1="b02-littleJoy-3"/>
+		<shipName attr1="b02-littleJoy-4"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="b02-littleJoy-1"/>
+		<shipName attr1="b02-littleJoy-2"/>
+		<shipName attr1="b02-littleJoy-3"/>
+		<shipName attr1="b02-littleJoy-4"/>
+		<reletiveObject attr1="gate04-A"/>
+		<hopPosition x="1500" y="0" z="-2000"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="27"/>
+	<nextMissionNumber attr1="28"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="Here come the LittleJoys!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="28"/>
+	<nextMissionNumber attr1="29"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="8"/>
+	</objective>
+	<postCutscene attr1="beggar-02-02-littleJoys"/>
+</mission>
+<mission>
+	<missionNumber attr1="29"/>
+	<nextMissionNumber attr1="30"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="2"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="all_ship_class_target"/>
+		<faction attr1="beggar"/>
+		<target attr1="b02-hadesB-1"/>
+		<shipClass attr1="ship_capture"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="b02-littleJoy-2"/>
+		<objectName attr1="b02-littleJoy-3"/>
+		<objectName attr1="b02-littleJoy-4"/>
+		<targetName attr1="b02-littleJoy-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="b02-littleJoy-1"/>
+		<commandType attr1="go_to_position"/>
+		<reletiveObject attr1="b02-littleJoy-1"/>
+		<position x="0" y="0" z="50000"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="30"/>
+	<nextMissionNumber attr1="31"/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="civilian"/>
+		<bMarkShips attr1="0"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="31"/>
+	<nextMissionNumber attr1="32"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Good work team."/>
+			<content attr1="This baby has a date with the nearest black market base."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="I love my job..."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="32"/>
+	<nextMissionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="b02-hadesB-1"/>	
+		<alterType attr1="rotating_elements_override"/>
+		<bToggle attr1="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="weapons_hold"/>
+		<shipName attr1="b02-hadesB-1"/>
+		<bToggle attr1="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="disable_maneuvering"/>
+		<shipName attr1="b02-hadesB-1"/>
+		<bSetting attr1="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="disable_engines"/>
+		<shipName attr1="b02-hadesB-1"/>
+		<bSetting attr1="0"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="5.05"/>
+		<faction attr="beggar"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="start failures -------------------"/>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="b02-littleBigJoy-1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="DAMN! DAMN! YOU ALL ARE USELESS!"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="3000"/>
+	<nextMissionNumber attr1="3001"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="b02-hadesB-1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="CAPTURE! NOT DESTROY!"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="3001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<note_to_self attr1="end failures -----------------------"/>
+<note_to_self attr1="start reinforcements ---------------"/>
+<mission>
+	<missionNumber attr1="5000"/>
+	<nextMissionNumber attr1="5001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="rhinoT"/>
+		<shipName attr1="b02-rhinoT-1"/>
+		<shipID attr1="rhinoT"/>
+		<shipName attr1="b02-rhinoT-2"/>
+		<shipID attr1="roach"/>
+		<shipName attr1="b02-roach-1"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="gate04-A"/>
+		<position x="-7500" y="-250" z="-7500"/>
+		<aiPosture attr1="engage"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="b02-rhinoT-1"/>
+		<shipName attr1="b02-rhinoT-2"/>
+		<shipName attr1="b02-roach-1"/>
+		<reletiveObject attr1="gate04-A"/>
+		<hopPosition x="0" y="0" z="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="b02-rhinoT-1"/>
+		<objectName attr1="b02-rhinoT-2"/>
+		<objectName attr1="b02-roach-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="b02-rhinoT-1"/>
+		<objectName attr1="b02-rhinoT-2"/>
+		<objectName attr1="b02-roach-1"/>
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="0.8"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="5001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="I've called for some backup."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="b02-rhinoT-1"/>
+		<objectName attr1="b02-rhinoT-2"/>
+		<objectName attr1="b02-roach-1"/>
+		<targetName attr1="b02-littleBigJoy-1"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<note_to_self attr1="end reinforcements ---------------"/>

@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Tactical" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.000952381,0},{1,0},{0.999048,0}}" />
+        <Window Type="ootGUI/StaticText" Name="Tactical/txtLocalShip" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.47602,0},{0.0595714,0},{0.831438,0},{0.099688,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="ootGUI/StaticText" Name="Tactical/txtCombat" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.322497,0},{0.138293,0},{0.677915,0},{0.17841,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="ootGUI/StaticText" Name="Tactical/txtEconomy" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.322497,0},{0.0957402,0},{0.677915,0},{0.135857,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="ootGUI/StaticText" Name="Tactical/txtGui" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.323023,0},{0.0538332,0},{0.67844,0},{0.0939492,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="ootGUI/StaticText" Name="Tactical/txtMissionCompleted" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Mission Completed:" />
+            <Property Name="HorzExtent" Value="148" />
+            <Property Name="VertExtent" Value="18.5438" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.233805,0},{0.138224,0},{0.767545,0},{0.178339,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="ootGUI/StaticText" Name="Tactical/txtNewMission" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="New Mission:" />
+            <Property Name="HorzExtent" Value="99" />
+            <Property Name="VertExtent" Value="18.5438" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.235382,0},{0.182904,0},{0.762812,0},{0.22302,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="DefaultWindow" Name="Tactical/Groups" >
+            <Property Name="UnifiedAreaRect" Value="{{0.319218,0},{0.00446478,0},{0.680723,0},{0.0971894,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Groups/imgFrame" >
+                <Property Name="Image" Value="set:jmGUI_squad_frame image:squad_frame" />
+                <Property Name="UnifiedAreaRect" Value="{{0.186828,0},{0.0235886,0},{0.815536,0},{0.508803,0}}" />
+                <Window Type="jmGUI/SquadLeft" Name="Tactical/Groups/btn1" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0103738,0},{0.168697,0},{0.103773,0},{0.854457,0}}" />
+                </Window>
+                <Window Type="jmGUI/SquadLeft" Name="Tactical/Groups/btn2" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.108759,0},{0.168697,0},{0.202157,0},{0.854457,0}}" />
+                </Window>
+                <Window Type="jmGUI/SquadLeft" Name="Tactical/Groups/btn3" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.215819,0},{0.168697,0},{0.309218,0},{0.854457,0}}" />
+                </Window>
+                <Window Type="jmGUI/SquadLeft" Name="Tactical/Groups/btn4" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="4" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.310976,0},{0.168697,0},{0.404375,0},{0.854457,0}}" />
+                </Window>
+                <Window Type="jmGUI/SquadMiddle" Name="Tactical/Groups/btn5" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.413767,0},{0.168697,0},{0.493994,0},{0.854457,0}}" />
+                </Window>
+                <Window Type="jmGUI/SquadMiddle" Name="Tactical/Groups/btn6" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="6" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.507445,0},{0.168697,0},{0.587671,0},{0.854457,0}}" />
+                </Window>
+                <Window Type="jmGUI/SquadRight" Name="Tactical/Groups/btn7" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="7" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.597973,0},{0.168697,0},{0.691372,0},{0.854457,0}}" />
+                </Window>
+                <Window Type="jmGUI/SquadRight" Name="Tactical/Groups/btn8" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="8" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.703605,0},{0.168697,0},{0.797003,0},{0.854457,0}}" />
+                </Window>
+                <Window Type="jmGUI/SquadRight" Name="Tactical/Groups/btn9" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.809847,0},{0.168697,0},{0.903246,0},{0.854457,0}}" />
+                </Window>
+                <Window Type="jmGUI/SquadRight" Name="Tactical/Groups/btn0" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.903893,0},{0.168697,0},{0.997292,0},{0.854457,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="ootGUI/LabelWithOutline" Name="Tactical/txtMouseOver" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="MouseOver" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.123915,0},{0.806941,0},{0.421937,0},{0.987947,0}}" />
+        </Window>
+        <Window Type="ootGUI/StaticText" Name="Tactical/txtMissionTacticalText" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Mission Tactical Text" />
+            <Property Name="HorzExtent" Value="161" />
+            <Property Name="VertExtent" Value="18.5438" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapRightAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.662986,0},{0.149875,0},{0.997222,0},{0.463262,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="ootGUI/StaticText" Name="Tactical/txtMissionTacticalText/txtSecondaryText" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Secondary Tactical Text" />
+                <Property Name="HorzExtent" Value="182" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapRightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.591044,0},{1,0},{1,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/MasterSelection" >
+            <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:main_frame" />
+            <Property Name="GuiClick" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.766392,0},{0.7452,0},{0.978521,0},{0.992999,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="ootGUI/StaticImageRight" Name="Tactical/MasterSelection/rttImage" >
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.149192,0},{0.0498929,0},{0.918705,0},{0.971046,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticTextRight" Name="Tactical/MasterSelection/txtName" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Name:" />
+                <Property Name="HorzExtent" Value="47" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.166374,0},{0.0678505,0},{0.740084,0},{0.170553,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="bGUI/TacSelectionHealth" Name="Tactical/MasterSelection/prgsStatus" >
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.772675,0},{-0.0495635,0},{1.08706,0},{1.00822,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticTextRight" Name="Tactical/MasterSelection/txtDistance" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Distance:" />
+                <Property Name="HorzExtent" Value="60" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.136979,0},{0.266198,0},{0.349496,0},{0.341137,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticTextRight" Name="Tactical/MasterSelection/txtSpeed" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Speed:" />
+                <Property Name="HorzExtent" Value="44" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.136979,0},{0.189066,0},{0.349496,0},{0.261623,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/MasterSelection/imgFaction" >
+                <Property Name="Image" Value="set:brFactionIcons image:tsf" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0451099,0},{0.0477918,0},{0.163511,0},{0.199106,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="Tactical/MasterSelection/Turret/chkPrimary" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="PRIMARY FIRE" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.530727,0},{0.178785,0},{0.989016,0},{0.268621,0}}" />
+            </Window>
+            <Window Type="ootGUI/Combobox" Name="Tactical/MasterSelection/Turret/comRole" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.526731,0},{0.0723629,0},{0.981966,0},{0.784438,0}}" />
+                <Property Name="MaxEditTextLength" Value="1073741823" />
+            </Window>
+            <Window Type="bGUI/TacSelfDestruct" Name="Tactical/MasterSelection/btnSelfDestruct" >
+                <Property Name="Font" Value="Exo-SemiBold-6" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.770512,0},{0.814925,0},{0.999948,0},{0.944084,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/MasterSelection/btnSelfDestruct/imgIcon" >
+                    <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:skull" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.36679,0},{0.118922,0},{0.662724,0},{0.823149,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/MasterSelection/imgSpeed" >
+                <Property Name="Image" Value="set:jhGUI_target image:speed" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0735749,0},{0.189066,0},{0.12653,0},{0.261623,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/MasterSelection/imgDistance" >
+                <Property Name="Image" Value="set:jhGUI_target image:distance" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0735749,0},{0.271805,0},{0.12653,0},{0.346743,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="jhGUI/FramelessListbox" Name="Tactical/MasterSelection/lstShips" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.44655,0},{0.0464907,0},{0.988102,0},{0.780249,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Tactical/MasterSelection/shipFrameRight" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0471161,0},{0.544472,0},{0.136753,0},{0.891477,0}}" />
+                <Window Type="ootGUI/CheckBoxSmall" Name="Tactical/MasterSelection/shipFrameRight/chkHold" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="DO NOT ENGAGE" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0718083,0},{0.0606318,0},{4.93462,0},{0.280956,0}}" />
+                </Window>
+                <Window Type="ootGUI/CheckBoxSmall" Name="Tactical/MasterSelection/shipFrameRight/chkEngage" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="ENGAGE" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0718083,0},{0.30632,0},{4.93462,0},{0.526645,0}}" />
+                </Window>
+                <Window Type="ootGUI/CheckBoxSmall" Name="Tactical/MasterSelection/shipFrameRight/chkSearchAndDestroy" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="SEARCH AND DESTROY" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0718083,0},{0.545108,0},{4.93462,0},{0.765432,0}}" />
+                </Window>
+                <Window Type="ootGUI/CheckBoxSmall" Name="Tactical/MasterSelection/shipFrameRight/chkWeaponsHold" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="WEAPONS HOLD" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0718083,0},{0.784503,0},{4.30853,0},{1.00483,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticTextRight" Name="Tactical/MasterSelection/txtSelectionStatus" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="Selection Status" />
+                <Property Name="HorzExtent" Value="90" />
+                <Property Name="VertExtent" Value="12.3762" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0614908,0},{0.891267,0},{0.753052,0},{0.99397,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="bGUI/TacSelectAcceptButton" Name="Tactical/MasterSelection/btnButton1" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Button1" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.311481,0},{0.0686899,0},{0.0352723,0},{0.196957,0}}" />
+            </Window>
+            <Window Type="bGUI/TacSelectDeclineButton" Name="Tactical/MasterSelection/btnButton2" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Button2" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.311481,0},{0.188626,0},{0.0352723,0},{0.320737,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/MasterSelection/SelectionsTarget" >
+                <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:target_frame" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.39215,0},{0.358767,0},{0.0352723,0},{0.992176,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/TacTargetHealth" Name="Tactical/MasterSelection/SelectionsTarget/prgsStatus" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.896792,0},{0.0197287,0},{0.986289,0},{0.949391,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageRight" Name="Tactical/MasterSelection/SelectionsTarget/rttImage" >
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0219372,0},{0.012397,0},{0.988399,0},{0.935727,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/MasterSelection/shipFrame" >
+                <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:buttons_frame" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0779167,0},{-0.40689,0},{0.921551,0},{0.0111101,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/TacUpperButton" Name="Tactical/MasterSelection/shipFrame/btnMove" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0158084,0},{0.0347736,0},{0.171615,0},{0.458968,0}}" />
+                    <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/MasterSelection/shipFrame/btnMove/imgIcon" >
+                        <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:move" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.076897,0},{0.100808,0},{0.889568,0},{0.872702,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="bGUI/TacUpperButton" Name="Tactical/MasterSelection/shipFrame/btnTurn" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.220948,0},{0.0347736,0},{0.376756,0},{0.458968,0}}" />
+                    <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/MasterSelection/shipFrame/btnTurn/imgIcon" >
+                        <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:turn" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.126858,0},{0.0766015,0},{0.939529,0},{0.848495,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="bGUI/TacLowerButton" Name="Tactical/MasterSelection/shipFrame/btnHold" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0158084,0},{0.531806,0},{0.171615,0},{0.956,0}}" />
+                    <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/MasterSelection/shipFrame/btnHold/imgIcon" >
+                        <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:hold" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.105471,0},{0.123012,0},{0.918143,0},{0.894906,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="bGUI/TacLowerButton" Name="Tactical/MasterSelection/shipFrame/btnWait" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.220948,0},{0.531806,0},{0.376756,0},{0.956,0}}" />
+                    <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/MasterSelection/shipFrame/btnWait/imgIcon" >
+                        <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:wait" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.112737,0},{0.101864,0},{0.925409,0},{0.873758,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="bGUI/TacUpperButton" Name="Tactical/MasterSelection/shipFrame/btnRetreat" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.422562,0},{0.0347736,0},{0.57837,0},{0.458968,0}}" />
+                    <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/MasterSelection/shipFrame/btnRetreat/imgIcon" >
+                        <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:retreat" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.176742,0},{0.117421,0},{0.882714,0},{0.889316,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="bGUI/TacLowerButton" Name="Tactical/MasterSelection/shipFrame/btnPermitGDrive" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.422562,0},{0.531806,0},{0.57837,0},{0.956001,0}}" />
+                    <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/MasterSelection/shipFrame/btnPermitGDrive/imgIcon" >
+                        <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:gdrive" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0985779,0},{0.145891,0},{0.911249,0},{0.787513,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="bGUI/TacUpperButton" Name="Tactical/MasterSelection/shipFrame/btnSwitchTo" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.627702,0},{0.0347736,0},{0.78351,0},{0.458968,0}}" />
+                    <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/MasterSelection/shipFrame/btnSwitchTo/imgIcon" >
+                        <Property Name="Image" Value="set:jhGUI_mode_icons image:ship_switch" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0982846,0},{0.0839325,0},{0.889568,0},{0.84956,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="bGUI/TacLowerButton" Name="Tactical/MasterSelection/shipFrame/btnDrop" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.627702,0},{0.531806,0},{0.78351,0},{0.956001,0}}" />
+                    <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/MasterSelection/shipFrame/btnDrop/imgIcon" >
+                        <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:drop" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.148461,0},{0.102995,0},{0.854434,0},{0.896492,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="bGUI/TacLowerButton" Name="Tactical/MasterSelection/shipFrame/btnLifeSupport" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.830703,0},{0.531806,0},{0.986511,0},{0.956001,0}}" />
+                    <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/MasterSelection/shipFrame/btnLifeSupport/imgIcon" >
+                        <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:lifesupport" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0844186,0},{0.102995,0},{0.918476,0},{0.896492,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="bGUI/TacUpperButton" Name="Tactical/MasterSelection/shipFrame/btnIdle" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.827377,0},{0.0453018,0},{0.983185,0},{0.469496,0}}" />
+                    <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/MasterSelection/shipFrame/btnIdle/imgIcon" >
+                        <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:circle_with_slash" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0776811,0},{0.0572229,0},{0.911739,0},{0.85072,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="jmGUI/CrewControl" Name="Tactical/MasterSelection/shipFrame/chkCrewControl" >
+                    <Property Name="Font" Value="Comfortaa-6" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0232828,0},{1.85029,0},{0.133261,0},{2.22286,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/MasterSelection/shipFrame/tooltipFrame" >
+                    <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:tooltip_frame" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0882805,0},{-0.705654,0},{1.08131,0},{0.024963,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Window Type="ootGUI/StaticText" Name="Tactical/MasterSelection/shipFrame/tooltipFrame/txtTooltipText" >
+                        <Property Name="Font" Value="Exo-SemiBold-8" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0269932,0},{0.0406196,0},{0.990792,0},{0.8382,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="Tactical/MasterSelection/btnObjectDetails" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="DETAILS" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.767589,0},{0.650875,0},{0.992334,0},{0.770201,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBoxSmall" Name="Tactical/MasterSelection/chkEnableSelfDestruct" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.699227,0},{0.808055,0},{0.758418,0},{0.939234,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="Tactical/unifiedHealthAndTime" >
+            <Property Name="UnifiedAreaRect" Value="{{0.730356,0},{-0.000391843,0},{0.997617,0},{0.172732,0}}" />
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/healthBG" >
+                <Property Name="Image" Value="set:jhGUI_cmd_health_BG image:jhGUI_cmd_health_BG" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.17177,0},{0.0321933,0},{0.992562,0},{0.377049,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="jhGUI/Cmd_Health" Name="Tactical/unifiedHealthAndTime/healthBG/Health" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0150876,0},{0.0429181,0},{0.976011,0},{0.895677,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/unifiedHealthAndTime/healthBG/txtRemoteInterface" >
+                    <Property Name="Font" Value="Exo-SemiBold-16" />
+                    <Property Name="Text" Value="REMOTE INTERFACE" />
+                    <Property Name="HorzExtent" Value="195" />
+                    <Property Name="VertExtent" Value="24.7527" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0233104,0},{0.0740877,0},{0.984454,0},{0.74041,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/CmdFrame" >
+                <Property Name="Image" Value="set:jhGUI_cmd_heading image:jhGUI_cmd_heading" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.170545,0},{0.389292,0},{0.62608,0},{0.572426,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/unifiedHealthAndTime/CmdFrame/txtCredits" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="Credits: " />
+                    <Property Name="HorzExtent" Value="63" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0324684,0},{0.0971505,0},{0.964301,0},{0.708676,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/WantedFrame" >
+                <Property Name="Image" Value="set:jhGUI_cmd_heading image:jhGUI_cmd_heading" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.173774,0},{0.575477,0},{0.595902,0},{0.758611,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/unifiedHealthAndTime/WantedFrame/txtWanted" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="Wanted: " />
+                    <Property Name="HorzExtent" Value="67" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0275794,0},{0.0971505,0},{0.964302,0},{0.708676,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="jhGUI/Dilation" Name="Tactical/unifiedHealthAndTime/chkTimeDilation" >
+                <Property Name="UnifiedAreaRect" Value="{{0.618264,0},{0.608081,0},{0.992986,0},{0.822086,0}}" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/unifiedHealthAndTime/chkTimeDilation/txtINACTIVE" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="INACTIVE" />
+                    <Property Name="HorzExtent" Value="70" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0380833,0},{0.0683807,0},{0.745874,0},{0.679906,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/cmdIcon" >
+                <Property Name="Image" Value="set:jhGUI_cmd_ship_small_ICON image:jhGUI_cmd_ship_small_ICON" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0033414,0},{0.0437295,0},{0.1598,0},{0.411229,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/imgDot0" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.87294,0},{0.781668,0},{0.891314,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/imgDot1" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.844989,0},{0.781668,0},{0.863363,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/imgDot2" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.814811,0},{0.781668,0},{0.833185,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/imgDot3" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.789088,0},{0.781668,0},{0.807462,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/imgDot4" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.761136,0},{0.781668,0},{0.77951,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/imgDot5" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.733186,0},{0.781668,0},{0.75156,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/imgDot6" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.703008,0},{0.781668,0},{0.721382,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/imgDot7" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.67283,0},{0.781668,0},{0.691203,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/imgDot8" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.640425,0},{0.781668,0},{0.658798,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/imgDot9" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.610247,0},{0.781668,0},{0.62862,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/DilateFrame" >
+                <Property Name="Image" Value="set:jhGUI_dilate_heading image:jhGUI_dilate_heading" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.619858,0},{0.455795,0},{0.99458,0},{0.598742,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/unifiedHealthAndTime/DilateFrame/txtDilate" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="TIME DILATION" />
+                    <Property Name="HorzExtent" Value="111" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0215924,0},{0.149661,0},{0.958315,0},{0.893384,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Tactical/unifiedHealthAndTime/OverworldFrame" >
+                <Property Name="Image" Value="set:jhGUI_cmd_heading image:jhGUI_cmd_heading" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.610301,0},{0.850241,0},{0.990112,0},{1.01137,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/unifiedHealthAndTime/OverworldFrame/txtOverworld" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="OVERWORLD - AVAILABLE" />
+                    <Property Name="HorzExtent" Value="133" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0275794,0},{0.0971505,0},{0.964302,0},{0.708676,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticText" Name="Tactical/txtNavTooltip" >
+            <Property Name="Font" Value="Comfortaa-14" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.372619,0},{0.829226,0},{0.627381,0},{0.862214,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/txtNavTooltip/imgBackground" >
+                <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex" Name="Tactical/btnShipMode" >
+            <Property Name="UnifiedAreaRect" Value="{{0.39711,0},{0.91635,0},{0.447229,0},{0.994833,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/btnShipMode/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:ship" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.171427,0},{0.882341,0},{0.893849,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="Tactical/btnFormation" >
+            <Property Name="UnifiedAreaRect" Value="{{0.436408,0},{0.872729,0},{0.486527,0},{0.951212,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/btnFormation/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:formations" />
+                <Property Name="UnifiedAreaRect" Value="{{0.12196,0},{0.129742,0},{0.870471,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="Tactical/btnFactions" >
+            <Property Name="UnifiedAreaRect" Value="{{0.475212,0},{0.916924,0},{0.525331,0},{0.995407,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/btnFactions/imgIcon" >
+                <Property Name="Image" Value="set:jcGUI_mode_icons image:factions" />
+                <Property Name="UnifiedAreaRect" Value="{{0.157583,0},{0.143637,0},{0.91797,0},{0.866059,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="Tactical/btnShipSwitch" >
+            <Property Name="UnifiedAreaRect" Value="{{0.514487,0},{0.872729,0},{0.564606,0},{0.951212,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/btnShipSwitch/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:ship_switch" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="Tactical/btnHelp" >
+            <Property Name="UnifiedAreaRect" Value="{{0.553613,0},{0.916924,0},{0.603732,0},{0.995407,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/btnHelp/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:help" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="Tactical/Hangar" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.84061,0},{0.448394,0},{1.00067,0},{0.567013,0}}" />
+            <Window Type="jmGUI/AutoLaunch" Name="Tactical/Hangar/chkAutoLaunch" >
+                <Property Name="UnifiedAreaRect" Value="{{0.705749,0},{0.161708,0},{0.814438,0},{0.286862,0}}" />
+            </Window>
+            <Window Type="jmGUI/Launch" Name="Tactical/Hangar/btnLaunch" >
+                <Property Name="UnifiedAreaRect" Value="{{0.82103,0},{0.162811,0},{0.981779,0},{0.426663,0}}" />
+            </Window>
+            <Window Type="jmGUI/LaunchAll" Name="Tactical/Hangar/btnLaunchAll" >
+                <Property Name="UnifiedAreaRect" Value="{{0.82103,0},{0.43963,0},{0.981779,0},{0.703482,0}}" />
+            </Window>
+            <Window Type="jmGUI/HangarProgress" Name="Tactical/Hangar/prgsBuild" >
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.367344,0},{0.579011,0},{0.814438,0},{0.716605,0}}" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/Hangar/prgsBuild/txtBuild" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="BUILD" />
+                    <Property Name="HorzExtent" Value="32" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0748586,0},{0.133631,0},{0.96673,0},{1,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="jmGUI/HangarProgress" Name="Tactical/Hangar/prgsDocked" >
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.367344,0},{0.442812,0},{0.814438,0},{0.580406,0}}" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/Hangar/prgsDocked/txtDocked" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="DOCKED" />
+                    <Property Name="HorzExtent" Value="43" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0748586,0},{0.133631,0},{0.96673,0},{1,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="jmGUI/HangarProgress" Name="Tactical/Hangar/prgsLaunched" >
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.367344,0},{0.29742,0},{0.814438,0},{0.435014,0}}" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/Hangar/prgsLaunched/txtLaunched" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="LAUNCHED" />
+                    <Property Name="HorzExtent" Value="56" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0748586,0},{0.133631,0},{0.966729,0},{1,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticImageLarge" Name="Tactical/AssetList" >
+            <Property Name="Image" Value="set:jhGUI_asset_list image:frame" />
+            <Property Name="GuiClick" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00939267,0},{0.0707015,0},{0.17963,0},{0.53224,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="jhGUI/FramelessListbox" Name="Tactical/AssetList/ListBox" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0150347,0},{0.198855,0},{0.994056,0},{0.969665,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="Tactical/AssetList/txtHeader" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="SENSOR CONTACTS:" />
+                <Property Name="HorzExtent" Value="107" />
+                <Property Name="VertExtent" Value="12.3762" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0223759,0},{0.000690647,0},{0.74091,0},{0.0474917,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="jhGUI/Button_AssetList" Name="Tactical/AssetList/btnShips" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0859326,0},{0.0610553,0},{0.27477,0},{0.165176,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/AssetList/btnShips/imgIcon" >
+                    <Property Name="Image" Value="set:jhGUI_asset_list image:ships" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="jhGUI/Button_AssetList" Name="Tactical/AssetList/btnStations" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.282284,0},{0.0610553,0},{0.471121,0},{0.165176,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/AssetList/btnStations/imgIcon" >
+                    <Property Name="Image" Value="set:jhGUI_asset_list image:stations" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="jhGUI/Button_AssetList" Name="Tactical/AssetList/btnBases" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.48257,0},{0.0610553,0},{0.671407,0},{0.165176,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/AssetList/btnBases/imgIcon" >
+                    <Property Name="Image" Value="set:jhGUI_asset_list image:bases" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="jhGUI/Button_AssetList" Name="Tactical/AssetList/btnOther" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.682856,0},{0.0610553,0},{0.871693,0},{0.165176,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/AssetList/btnOther/imgIcon" >
+                    <Property Name="Image" Value="set:jhGUI_asset_list image:other" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="jhGUI/AssetListHide" Name="Tactical/AssetList/btnHideAssets" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.950352,0},{0.0968011,0},{1.10245,0},{0.271192,0}}" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticImageLarge" Name="Tactical/HiddenAssetList" >
+            <Property Name="Image" Value="set:jhGUI_asset_list image:frameSlither" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.00251196,0},{0.0705452,0},{0.014749,0},{0.532084,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="jhGUI/AssetListShow" Name="Tactical/HiddenAssetList/btnShowAssets" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.536536,0},{0.0991639,0},{2.03354,0},{0.273555,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="Tactical/Watched" >
+            <Property Name="UnifiedAreaRect" Value="{{-0.0047619,0},{0.524876,0},{0.0729831,0},{0.99819,0}}" />
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/Watched/Watched1" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191406,0},{0.0212451,0},{0.877287,0},{0.191775,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="Tactical/Watched/Watched1/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.0162,0},{0.140479,0},{1.28217,0},{0.851076,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched1/txtName" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="HorzExtent" Value="33" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.0165651,0},{1.00643,0},{0.184861,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="bGUI/WatchedHealth" Name="Tactical/Watched/Watched1/prgsStatus" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.187627,0},{-0.0883577,0},{0.472808,0},{1.04397,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched1/txt1" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt1" />
+                    <Property Name="HorzExtent" Value="18" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.201673,0},{1.00643,0},{0.369969,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched1/txt2" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt2" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.386781,0},{1.00643,0},{0.555077,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched1/txt3" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt3" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.571889,0},{1.00643,0},{0.740185,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched1/txt4" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt4" />
+                    <Property Name="HorzExtent" Value="20" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.756997,0},{1.00643,0},{0.925293,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageRight" Name="Tactical/Watched/Watched1/image" >
+                    <Property Name="Image" Value="set:jhGUI_ship_classes image:fighter" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.218212,0},{0.213257,0},{0.772949,0},{0.777914,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/Watched/Watched2" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191406,0},{0.221005,0},{0.877288,0},{0.391535,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="Tactical/Watched/Watched2/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.0162,0},{0.140479,0},{1.28217,0},{0.851076,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched2/txtName" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="HorzExtent" Value="33" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.0165651,0},{1.00643,0},{0.211883,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="bGUI/WatchedHealth" Name="Tactical/Watched/Watched2/prgsStatus" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.187627,0},{-0.0883577,0},{0.472808,0},{1.04396,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched2/txt1" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt1" />
+                    <Property Name="HorzExtent" Value="18" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.201673,0},{1.00643,0},{0.369969,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched2/txt2" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt2" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.386781,0},{1.00643,0},{0.555077,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched2/txt3" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt3" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.571889,0},{1.00643,0},{0.740185,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched2/txt4" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt4" />
+                    <Property Name="HorzExtent" Value="20" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.756997,0},{1.00643,0},{0.925293,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageRight" Name="Tactical/Watched/Watched2/image" >
+                    <Property Name="Image" Value="set:jhGUI_ship_classes image:fighter" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.218212,0},{0.213257,0},{0.772949,0},{0.777914,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/Watched/Watched3" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191406,0},{0.423068,0},{0.877289,0},{0.593598,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="Tactical/Watched/Watched3/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.0162,0},{0.140479,0},{1.28217,0},{0.851076,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched3/txtName" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="HorzExtent" Value="33" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.0165651,0},{1.00643,0},{0.211883,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="bGUI/WatchedHealth" Name="Tactical/Watched/Watched3/prgsStatus" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.187627,0},{-0.0883577,0},{0.472808,0},{1.04396,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched3/txt1" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt1" />
+                    <Property Name="HorzExtent" Value="18" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.201673,0},{1.00643,0},{0.369969,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched3/txt2" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt2" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.386781,0},{1.00643,0},{0.555077,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched3/txt3" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt3" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.571889,0},{1.00643,0},{0.740185,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched3/txt4" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt4" />
+                    <Property Name="HorzExtent" Value="20" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.756997,0},{1.00643,0},{0.925293,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageRight" Name="Tactical/Watched/Watched3/image" >
+                    <Property Name="Image" Value="set:jhGUI_ship_classes image:fighter" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.218212,0},{0.213257,0},{0.772949,0},{0.777914,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/Watched/Watched4" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191406,0},{0.627436,0},{0.877288,0},{0.797966,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="Tactical/Watched/Watched4/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.0162,0},{0.140479,0},{1.28217,0},{0.851076,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched4/txtName" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="HorzExtent" Value="33" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.0165651,0},{1.00643,0},{0.211883,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="bGUI/WatchedHealth" Name="Tactical/Watched/Watched4/prgsStatus" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.187627,0},{-0.0883577,0},{0.472808,0},{1.04396,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched4/txt1" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt1" />
+                    <Property Name="HorzExtent" Value="18" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.201673,0},{1.00643,0},{0.369969,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched4/txt2" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt2" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.386781,0},{1.00643,0},{0.555077,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched4/txt3" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt3" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.571889,0},{1.00643,0},{0.740185,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched4/txt4" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt4" />
+                    <Property Name="HorzExtent" Value="20" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.756997,0},{1.00643,0},{0.925293,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageRight" Name="Tactical/Watched/Watched4/image" >
+                    <Property Name="Image" Value="set:jhGUI_ship_classes image:fighter" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.218212,0},{0.213257,0},{0.772949,0},{0.777914,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/Watched/Watched5" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191406,0},{0.8295,0},{0.877289,0},{1.00003,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="Tactical/Watched/Watched5/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.0162,0},{0.140479,0},{1.28217,0},{0.851076,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched5/txtName" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="HorzExtent" Value="33" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.0165651,0},{1.00643,0},{0.211883,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="bGUI/WatchedHealth" Name="Tactical/Watched/Watched5/prgsStatus" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.187627,0},{-0.0883577,0},{0.472808,0},{1.04396,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched5/txt1" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt1" />
+                    <Property Name="HorzExtent" Value="18" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.201673,0},{1.00643,0},{0.369969,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched5/txt2" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt2" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.386781,0},{1.00643,0},{0.555077,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched5/txt3" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt3" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.571889,0},{1.00643,0},{0.740185,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="Tactical/Watched/Watched5/txt4" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt4" />
+                    <Property Name="HorzExtent" Value="20" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.756997,0},{1.00643,0},{0.925293,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageRight" Name="Tactical/Watched/Watched5/image" >
+                    <Property Name="Image" Value="set:jhGUI_ship_classes image:fighter" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.218212,0},{0.213257,0},{0.772949,0},{0.777914,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/Watched/Hidden1" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame_hidden" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0189068,0},{0.0205572,0},{0.138691,0},{0.191087,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="Tactical/Watched/Hidden1/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.12447,0},{0.140479,0},{2.27401,0},{0.851076,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/Watched/Hidden2" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame_hidden" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0189068,0},{0.220317,0},{0.138691,0},{0.390847,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="Tactical/Watched/Hidden2/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.12447,0},{0.140479,0},{2.27401,0},{0.851076,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/Watched/Hidden3" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame_hidden" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00453071,0},{0.424685,0},{0.162129,0},{0.595215,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="Tactical/Watched/Hidden3/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.12447,0},{0.140479,0},{2.27401,0},{0.851076,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/Watched/Hidden4" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame_hidden" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0189068,0},{0.626749,0},{0.138691,0},{0.797279,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="Tactical/Watched/Hidden4/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.12447,0},{0.140479,0},{2.27401,0},{0.851076,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/Watched/Hidden5" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame_hidden" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0189068,0},{0.828812,0},{0.138691,0},{0.999342,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="Tactical/Watched/Hidden5/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.12447,0},{0.140479,0},{2.27401,0},{0.851076,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticImageLargeRight" Name="Tactical/Abilities" >
+            <Property Name="GuiClick" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.00952415,0},{-0.00946122,0},{0.328567,0},{0.0674962,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="bGUI/AbilityButton" Name="Tactical/Abilities/btnAbility0" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0400383,0},{0.316606,0},{0.127977,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/Abilities/btnAbility0/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility0/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:tractor" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="Tactical/Abilities/btnAbility0/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="Tactical/Abilities/btnAbility0/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility0/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.157169,0},{1.09902,0},{0.856047,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="Tactical/Abilities/btnAbility1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.133492,0},{0.316606,0},{0.22143,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/Abilities/btnAbility1/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility1/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:charge" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="Tactical/Abilities/btnAbility1/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="Tactical/Abilities/btnAbility1/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility1/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.157169,0},{1.09902,0},{0.856047,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="Tactical/Abilities/btnAbility2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.225939,0},{0.316606,0},{0.313877,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/Abilities/btnAbility2/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility2/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:withdraw" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="Tactical/Abilities/btnAbility2/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="Tactical/Abilities/btnAbility2/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility2/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="Tactical/Abilities/btnAbility3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.319393,0},{0.316606,0},{0.407332,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/Abilities/btnAbility3/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility3/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:command" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="Tactical/Abilities/btnAbility3/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="Tactical/Abilities/btnAbility3/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility3/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="Tactical/Abilities/btnAbility4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.411839,0},{0.316606,0},{0.499777,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/Abilities/btnAbility4/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility4/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:radiation_field" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="Tactical/Abilities/btnAbility4/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="Tactical/Abilities/btnAbility4/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility4/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="Tactical/Abilities/btnAbility5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.502852,0},{0.316606,0},{0.590791,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/Abilities/btnAbility5/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility5/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:missile_mines" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="Tactical/Abilities/btnAbility5/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="Tactical/Abilities/btnAbility5/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility5/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="Tactical/Abilities/btnAbility6" >
+                <Property Name="UnifiedAreaRect" Value="{{0.594872,0},{0.316606,0},{0.68281,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/Abilities/btnAbility6/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility6/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:taunt" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="Tactical/Abilities/btnAbility6/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="Tactical/Abilities/btnAbility6/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility6/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="Tactical/Abilities/btnAbility7" >
+                <Property Name="UnifiedAreaRect" Value="{{0.685886,0},{0.316606,0},{0.773824,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/Abilities/btnAbility7/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility7/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:rts" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="Tactical/Abilities/btnAbility7/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="Tactical/Abilities/btnAbility7/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility7/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="Tactical/Abilities/btnAbility8" >
+                <Property Name="UnifiedAreaRect" Value="{{0.777906,0},{0.316606,0},{0.865845,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/Abilities/btnAbility8/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility8/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:rapid_repair" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="Tactical/Abilities/btnAbility8/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="Tactical/Abilities/btnAbility8/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility8/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="Tactical/Abilities/btnAbility9" >
+                <Property Name="UnifiedAreaRect" Value="{{0.870353,0},{0.316606,0},{0.958291,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="Tactical/Abilities/btnAbility9/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility9/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:shield" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="Tactical/Abilities/btnAbility9/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="Tactical/Abilities/btnAbility9/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="Tactical/Abilities/btnAbility9/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="Tactical/Abilities/txtTooltip" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0465843,0},{0.142511,0},{0.601744,0},{0.305883,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

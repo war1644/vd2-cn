@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieGreetingHostile00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="greeting_hostile"/>
+<dialog attr1="What now?"/>
+<dialog attr1="You ready to beg for forgiveness?"/>
+<dialog attr1="And here I was having such a nice day..."/>
+<dialog attr1="Save it, I'm not interested."/>
+<dialog attr1="What!"/>
+<dialog attr1="Speak!"/>

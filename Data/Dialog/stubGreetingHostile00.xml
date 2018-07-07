@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="stubGreetingHostile00"/>
+<bGeneric attr1="0"/> 
+<factionID attr1="stubs"/>
+<dialogType attr1="greeting_hostile"/>
+<dialog attr1="Never thought I'd fight kin..."/>
+<dialog attr1="You? That's a shame..."/>
+<dialog attr1="We have enough enemies."/>
+<dialog attr1="You're no kin!"/>
+<dialog attr1="Traitor!"/>
+<dialog attr1="Not family!"/>

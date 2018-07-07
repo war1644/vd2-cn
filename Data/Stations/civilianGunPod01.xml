@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Civilian Gun Pod 01"/>
+<objectID attr1="cGP01"/> 
+<faction attr1="civilian"/> 
+<bCommsOverride attr1="1"/>
+<stationClass attr1="defense_station"/> 
+<stationSizeAsShip attr1="gunship"/>
+<creditCost attr1="100000"/>
+<meshName attr1="cGP01.mesh"/>
+<descriptionText attr1="A small unmanned defensive platform."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Armed with two projectile turrets. Mostly used as a deterrent against overly curious passerbys."/>
+<health attr1="4000.0"/> 
+<explosionID attr1="explode03"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<buildTimeCost	attr1="10.0"/>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="1"/>
+<turret>
+    <turretID attr1="pugTurret02"/> 
+	<position x="0" y="19.180" z="0"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="0" y="-19.180" z="0"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+</turret>

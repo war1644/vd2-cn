@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lightPosition x="0" y="2000" z="10000"/>
+<mainDiffuse x="1" y="1" z="1"/>
+<mainAmbient x="0.2" y="0.2" z="0.2"/>
+<bMusic attr1="1"/>
+<instantActionID attr1="testInSimulator00"/>
+<station_Object>
+     <objectID attr1="cdp01-1"/>
+     <name attr1="Civilian Civilian Defense Platform IA0207"/>
+     <orientation w="0.000162915" x="0" y="1" z="0"/>
+     <position x="0.286329" y="0" z="-1914.91"/>
+     <faction attr1="civilian"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="cdp01-2"/>
+     <name attr1="Civilian Civilian Defense Platform IA1207"/>
+     <orientation w="0.000162558" x="0" y="-1" z="0"/>
+     <position x="0.036917" y="0" z="-3355.78"/>
+     <faction attr1="civilian"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<station_Object>
+     <objectID attr1="cdp01-4"/>
+     <name attr1="Civilian Civilian Defense Platform IA2207"/>
+     <orientation w="7.00513e-005" x="0" y="1" z="0"/>
+     <position x="-0.6401" y="0" z="-4868.19"/>
+     <faction attr1="civilian"/>
+     <bActivateOnDamage attr1="0"/>
+</station_Object>
+<ship_Object>
+     <objectID attr1="brick"/>
+     <name attr1="Civilian Brick IA0175"/>
+     <orientation w="1" x="0" y="0.00076259" z="0"/>
+     <position x="2.19849" y="0" z="1441.46"/>
+     <faction attr1="player"/>
+     <bActivateOnDamage attr1="0"/>
+     <bPlayerShip attr1="1"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="anubis"/>
+     <name attr1="Civilian Anubis IA1207"/>
+     <orientation w="0.0125374" x="0" y="0.999922" z="0"/>
+     <position x="825.333" y="0" z="-4709.94"/>
+     <faction attr1="civilian"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="taurus"/>
+     <name attr1="Civilian Taurus IA2207"/>
+     <orientation w="0.0131465" x="0" y="0.999914" z="0"/>
+     <position x="555.976" y="0" z="-2618.92"/>
+     <faction attr1="civilian"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="brick"/>
+     <name attr1="Civilian Brick IA3207"/>
+     <orientation w="-0.0137453" x="0" y="0.999906" z="0"/>
+     <position x="-426.122" y="0" z="-1585.7"/>
+     <faction attr1="civilian"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<asteroid_Object>
+     <objectID attr1="bigRock002"/>
+     <name attr1="Big Asteroid IA0198"/>
+     <orientation w="0.364167" x="-0.905002" y="-0.209067" z="-0.0681577"/>
+     <position x="610.055" y="-577.18" z="-1424.2"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA1198"/>
+     <orientation w="0.150229" x="0.844088" y="-0.251984" z="-0.448833"/>
+     <position x="874.49" y="-823.71" z="-1298.46"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="bigRock002"/>
+     <name attr1="Big Asteroid IA2198"/>
+     <orientation w="0.645501" x="-0.59205" y="0.468013" z="0.117337"/>
+     <position x="1343.1" y="-401.57" z="-1372.28"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock003"/>
+     <name attr1="Medium Asteroid IA4198"/>
+     <orientation w="0.621895" x="-0.295198" y="-0.356045" z="0.63193"/>
+     <position x="1253.87" y="-521.68" z="-1223.38"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA5198"/>
+     <orientation w="0.0529615" x="-0.355008" y="0.511759" z="-0.780556"/>
+     <position x="1329.57" y="-694.68" z="-1051.3"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock003"/>
+     <name attr1="Large Asteroid IA6198"/>
+     <orientation w="0.463227" x="-0.786702" y="-0.408063" z="0.00218938"/>
+     <position x="914.169" y="-452.68" z="-1589.37"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA7198"/>
+     <orientation w="0.419344" x="0.317068" y="0.836857" z="-0.152606"/>
+     <position x="881.97" y="-595.68" z="-1459.35"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<debris_Object>
+     <objectID attr1="graveD00"/>
+     <name attr1="Debris IA0198"/>
+     <orientation w="0.442664" x="0" y="-0.896687" z="0"/>
+     <position x="-904.517" y="346.646" z="-692.857"/>
+     <faction attr1="rockGuys"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="cdp01D01"/>
+     <name attr1="Debris IA1198"/>
+     <orientation w="0.523059" x="0" y="0.852297" z="0"/>
+     <position x="-545.124" y="361.164" z="-781.919"/>
+     <faction attr1="civilian"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="raiderD00"/>
+     <name attr1="Debris IA2198"/>
+     <orientation w="0.44805" x="0" y="-0.894009" z="0"/>
+     <position x="-998.567" y="405.023" z="-746.012"/>
+     <faction attr1="rockGuys"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="pilarD01"/>
+     <name attr1="Debris IA3198"/>
+     <orientation w="0.367792" x="0" y="-0.929908" z="0"/>
+     <position x="-725.587" y="348.158" z="-773.779"/>
+     <faction attr1="thePride"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="theBeastD01"/>
+     <name attr1="Debris IA4198"/>
+     <orientation w="0.38238" x="0" y="-0.924005" z="0"/>
+     <position x="-754.727" y="490.267" z="-755.719"/>
+     <faction attr1="rockGuys"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="tonD00"/>
+     <name attr1="Debris IA5198"/>
+     <orientation w="0.417627" x="0" y="-0.908619" z="0"/>
+     <position x="-741.157" y="423.948" z="-635.929"/>
+     <faction attr1="civilian"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="furyD01"/>
+     <name attr1="Debris IA6198"/>
+     <orientation w="0.419745" x="0" y="-0.907642" z="0"/>
+     <position x="-567.202" y="334.82" z="-482.096"/>
+     <faction attr1="reborn"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="scabD00"/>
+     <name attr1="Debris IA7198"/>
+     <orientation w="0.428469" x="0" y="-0.903556" z="0"/>
+     <position x="-911.647" y="381.373" z="-745.088"/>
+     <faction attr1="beggar"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="crowD00"/>
+     <name attr1="Debris IA8198"/>
+     <orientation w="0.418985" x="0" y="-0.907993" z="0"/>
+     <position x="-750.937" y="354.948" z="-640.432"/>
+     <faction attr1="beggar"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="hadesD01"/>
+     <name attr1="Debris IA9198"/>
+     <orientation w="0.354667" x="0" y="-0.934993" z="0"/>
+     <position x="-924.467" y="350.17" z="-1043.23"/>
+     <faction attr1="civilian"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="gebD00"/>
+     <name attr1="Debris IA10198"/>
+     <orientation w="0.331574" x="0" y="-0.943429" z="0"/>
+     <position x="-751.677" y="390.423" z="-937.282"/>
+     <faction attr1="civilian"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<ship_Object>
+     <objectID attr1="hornet"/>
+     <name attr1="Civilian Hornet IA4139"/>
+     <orientation w="0.0114361" x="0" y="0.999935" z="0"/>
+     <position x="200.824" y="0" z="-683.642"/>
+     <faction attr1="civilian"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="ton"/>
+     <name attr1="Civilian Ton IA5139"/>
+     <orientation w="-0.0246679" x="0" y="-0.999696" z="0"/>
+     <position x="-802.726" y="0" z="-3864.94"/>
+     <faction attr1="civilian"/>
+     <bAutoRotate attr1="0"/>
+     <bActivateOnDamage attr1="0"/>
+</ship_Object>
+<debris_Object>
+     <objectID attr1="hornetD00"/>
+     <name attr1="Debris IA11149"/>
+     <orientation w="0.330465" x="0" y="-0.943818" z="0"/>
+     <position x="-616.538" y="250.35" z="-772.49"/>
+     <faction attr1="civilian"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="raptorD00"/>
+     <name attr1="Debris IA12149"/>
+     <orientation w="0.335976" x="0" y="-0.941871" z="0"/>
+     <position x="-657.71" y="263.605" z="-804.603"/>
+     <faction attr1="civilian"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="scavD00"/>
+     <name attr1="Debris IA13149"/>
+     <orientation w="0.28749" x="0" y="-0.957784" z="0"/>
+     <position x="-590.661" y="276.35" z="-895.259"/>
+     <faction attr1="beggar"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="priamD00"/>
+     <name attr1="Debris IA14149"/>
+     <orientation w="0.427647" x="0" y="-0.903946" z="0"/>
+     <position x="-783.418" y="247.756" z="-642.668"/>
+     <faction attr1="civilian"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<debris_Object>
+     <objectID attr1="graveD01"/>
+     <name attr1="Debris IA15149"/>
+     <orientation w="0.31717" x="0" y="-0.948369" z="0"/>
+     <position x="-613.895" y="244.284" z="-815.149"/>
+     <faction attr1="rockGuys"/>
+     <bActivateOnDamage attr1="0"/>
+     <bLimitLife attr1="0"/>
+     <lifeTimer attr1="0"/>
+</debris_Object>
+<cameraPosition x="177.467" y="1513.51" z="92.4195"/>
+<cameraOrientation w="0.820029" x="-0.572124" y="-0.0123377" z="-0.00860787"/>

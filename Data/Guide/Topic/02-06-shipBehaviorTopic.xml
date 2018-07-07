@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="tacShipBehaviour"/>
+<topicName attr1="Ship Behaviour"/>
+<mainText attr1="Ship Behaviour Overview:"/>
+<mainText attr1="Because part of the fun of games is discovering how they work - I'm not going to cover this topic in as much detail as it entails."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Points:"/>
+<mainText attr1="The attempt is made for ships to react intelligently/logically to enemies."/>
+<mainText attr1="Ship will tend to seek out fights."/>
+<mainText attr1="The attempt is made for ships to be independent."/>
+<mainText attr1="    Ships have combat roles - which are defined by what ships/objects they will prioritize when the choice exists."/>
+<mainText attr1="    Example: fighter drone will attack fighter drones, then fighters, then corvettes."/>
+<mainText attr1="    Example: A bomber will prioritize corvette ships and higher before attacking a fighter."/>
+<mainText attr1="    Example: a cruiser will ignore fighter drones all together (though its defensive turrets might not)"/>
+<mainText attr1="The attempt is made for ships be obedient when given orders."/>
+<mainText attr1=" "/>
+<mainText attr1="Contradictions:"/>
+<mainText attr1="If you noticed a conflict between independence and obedience then congratulations, contradictions like these are a big challenge of game design - especially when it comes to a hybrid game. AI is a wide topic, and good AI varies based on games and goals."/>
+<mainText attr1=" "/>
+<mainText attr1="In Void Destroyer my concept of good AI is that it seeks out fights - combat being the main focus of the game. So ship AI is given independence to do so - this independence can allow for the player playing the pilot role - and knowing that friendly forces will engage enemies - on their own."/>
+<mainText attr1=" "/>
+<mainText attr1="However - also - being a RTS - friendly units need to obey player orders. Otherwise giving orders would be a waste of time (not to mention frustrating)."/>
+<mainText attr1=" "/>
+<mainText attr1="Contradiction solutions:"/>
+<mainText attr1="Luckily we can somewhat easily prioritize player commands and not allow (in most cases) for ships to ignore player commands. In addition there are a few tools to be aware off (see the Controlling Ship Behaviour topic)."/>

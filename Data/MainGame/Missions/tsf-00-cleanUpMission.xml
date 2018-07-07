@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Clean Up"/>
+<missionDescriptionText attr1="A recent engagement with pirate forces has resulted in the creation of a small debris field."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="We are seeking an independent contractor to tidy up the area."/>
+<objectID attr1="tsf-00"/>
+<missionFactionID attr1="tsf"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="-1200" y="0" z="-1800"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="4000"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<maximumShipClass attr1="fighter"/>
+<bOverworldByPass attr1="1"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="correa"/>
+		<shipName attr1="damagedCorrea"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="tsf"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="0"/>
+		<position x="0" y="0" z="0"/>
+		<aiPosture attr1="engage"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="damagedCorrea"/>
+		<characterID attr1="tsfGeneric01"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="damagedCorrea"/>
+		<health attr1="15"/>
+		<bAsPercent attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="escort-1"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="escort-2"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="escort-3"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="escort-4"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="escort-5"/>
+		<faction attr1="tsf"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="damagedCorrea"/>
+		<position x="500" y="500" z="500"/>
+		<aiPosture attr1="search_and_destroy"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="escort-2"/>
+		<objectName attr1="escort-3"/>
+		<objectName attr1="escort-4"/>
+		<objectName attr1="escort-5"/>
+		<targetName attr1="escort-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="escort-1"/>
+		<commandType attr1="patrol_position"/>
+		<position x="0" y="0" z="0"/>
+		<distance attr1="1500"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="ML-2511"/>
+		<shipName attr1="repairShip 1"/>
+		<shipID attr1="ML-2511"/>
+		<shipName attr1="repairShip 2"/>
+		<faction attr1="tsf"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="damagedCorrea"/>
+		<position x="0" y="0" z="7000"/>
+		<aiPosture attr1="engage"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="repairShip 1"/>
+		<objectName attr1="repairShip 2"/>
+		<targetName attr1="damagedCorrea"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="damagedCorrea"/>
+		<objectName attr1="escort-1"/>
+		<objectName attr1="escort-2"/>
+		<objectName attr1="escort-3"/>
+		<objectName attr1="escort-4"/>
+		<objectName attr1="escort-5"/>
+	</preTrigger>
+	<note_to_self attr1="DEBRIS CREATION ------------------ WAYPOINT  1"/>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="cutterD00"/>
+		<name attr1="Debris 1"/>
+		<position x="3000" y="0" z="0"/>
+		<angularVelocity x="-0.017292" y="-0.088076" z="0.134"/>
+		<bLimitLife attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="cutterD01"/>
+		<name attr1="Debris 2"/>
+		<position x="30" y="-40" z="40"/>
+		<angularVelocity x="0.107292" y="0.188076" z="-0.187534"/>
+		<bLimitLife attr1="0"/>
+		<reletiveObject attr1="Debris 1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="wrathD00"/>
+		<name attr1="Debris 3"/>
+		<position x="-30" y="40" z="140"/>
+		<angularVelocity x="0.107292" y="0.188076" z="-0.187534"/>
+		<bLimitLife attr1="0"/>
+		<reletiveObject attr1="Debris 1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<note_to_self attr1="DEBRIS CREATION ------------------ WAYPOINT  2"/>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="longbowD00"/>
+		<name attr1="Debris 4"/>
+		<position x="-4000" y="0" z="0"/>
+		<angularVelocity x="-0.017292" y="-0.088076" z="0.134"/>
+		<bLimitLife attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="Debris 4"/>
+		<health attr1="23"/>
+		<bAsPercent attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="longbowD01"/>
+		<name attr1="Debris 5"/>
+		<position x="151" y="-81" z="-300"/>
+		<angularVelocity x="0.107292" y="0.188076" z="-0.187534"/>
+		<bLimitLife attr1="0"/>
+		<reletiveObject attr1="Debris 4"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="Debris 5"/>
+		<health attr1="33"/>
+		<bAsPercent attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="rageD00"/>
+		<name attr1="rageDebris 1"/>
+		<position x="-380" y="40" z="140"/>
+		<angularVelocity x="0.107292" y="0.188076" z="-0.187534"/>
+		<bLimitLife attr1="0"/>
+		<reletiveObject attr1="Debris 4"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="rageD01"/>
+		<name attr1="rageDebris 2"/>
+		<position x="-380" y="40" z="140"/>
+		<angularVelocity x="0.107292" y="0.188076" z="-0.187534"/>
+		<bLimitLife attr1="0"/>
+		<reletiveObject attr1="Debris 4"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="spitfireD00"/>
+		<name attr1="spitFireDebris 1"/>
+		<position x="380" y="-40" z="140"/>
+		<angularVelocity x="0.107292" y="0.188076" z="-0.187534"/>
+		<bLimitLife attr1="0"/>
+		<reletiveObject attr1="Debris 4"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_mine"/>
+		<mineID attr1="mineSmallMissile"/>
+		<name attr1="mine 1"/>
+		<faction attr1="enemyPlayer"/>
+		<position x="800" y="30" z="50"/>
+		<reletiveObject attr1="Debris 4"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_mine"/>
+		<mineID attr1="mineSmallMissile"/>
+		<name attr1="mine 2"/>
+		<faction attr1="enemyPlayer"/>
+		<position x="900" y="-70" z="120"/>
+		<reletiveObject attr1="Debris 4"/>
+	</preTrigger>
+		<preTrigger>
+		<triggerType attr1="create_mine"/>
+		<mineID attr1="mineSmallMissile"/>
+		<name attr1="mine 3"/>
+		<faction attr1="enemyPlayer"/>
+		<position x="850" y="70" z="-20"/>
+		<reletiveObject attr1="Debris 4"/>
+	</preTrigger>
+	<note_to_self attr1="DEBRIS CREATION ------------------ WAYPOINT  3"/>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="racerD00"/>
+		<name attr1="Debris 6"/>
+		<faction attr1="enemyPlayer"/>
+		<position x="-1500" y="-2500" z="3000"/>
+		<angularVelocity x="-0.107292" y="-0.088076" z="0.134"/>
+		<bTurrets attr1="1"/>
+		<bLimitLife attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="Debris 6"/>
+		<health attr1="23"/>
+		<bAsPercent attr1="1"/>
+	</preTrigger>
+		<note_to_self attr1="DEBRIS CREATION ------------------ WAYPOINT  4"/>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="thrallD00"/>
+		<name attr1="Debris 7"/>
+		<position x="-1000" y="-1200" z="-4000"/>
+		<angularVelocity x="-0.007292" y="-0.008076" z="0.034"/>
+		<bTurrets attr1="1"/>
+		<bLimitLife attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="Debris 7"/>
+		<health attr1="16"/>
+		<bAsPercent attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="tsfGeneric01"/>
+		<message attr1="Start at the first way point. Destroy the junk. Report anything unusual."/>
+	</preTrigger>
+	<missionHUDText attr1="Destroy debris..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="3000" y="0" z="0"/>
+		<goToDistance attr1="100"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="Debris 1"/>
+		<targetName attr1="Debris 2"/>
+		<targetName attr1="Debris 3"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="tsfGeneric01"/>
+		<message attr1="Wow... You're a regular Mr. Clean eh? Here's the next way point."/>
+	</preTrigger>
+	<missionHUDText attr1="Destroy debris..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="-4000" y="0" z="0"/>
+		<goToDistance attr1="100"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="Debris 4"/>
+		<targetName attr1="Debris 5"/>
+		<targetName attr1="rageDebris 1"/>
+		<targetName attr1="rageDebris 2"/>
+		<targetName attr1="spitFireDebris 1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="tsfGeneric01"/>
+		<message attr1="Almost done. Don't forget to have fun!"/>
+	</preTrigger>
+	<missionHUDText attr1="Destroy debris..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="-1500" y="-2500" z="3000"/>
+		<goToDistance attr1="100"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="Debris 6"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="tsfGeneric01"/>
+		<message attr1="That one had some fight left in it... Huh..."/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="9"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="tsfGeneric01"/>
+		<message attr1="Last one."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<missionHUDText attr1="Destroy debris..."/>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="-1000" y="-1200" z="-4000"/>
+		<goToDistance attr1="100"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="Debris 7"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="Correa Commander ID#23354"/>
+			<content attr1="Wow..."/>
+			<content attr1="Keep it up and maybe one day..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="Correa Commander ID#23354"/>
+			<content attr1="You'll be invited to clean one of our zero-g toilets!"/>
+			<content attr1="hah hah hah!"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="1.05"/>
+		<faction attr="tsf"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="2001"/>
+	<bForceActive attr1="1"/>
+	<objective>
+		<objectiveType attr1="destroy_faction_mines"/> 
+		<faction attr1="enemyPlayer"/> 
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="tsfGeneric01"/>
+		<message attr1="Oh yea... forgot to mention. There's some unexploded ordinance around, so watch out."/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="3000"/>
+	<nextMissionNumber attr1="3001"/>
+	<bForceActive attr1="1"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="Debris 6"/>
+		<bSilent attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="rageMK2"/>
+		<shipName attr1="hiddenRage"/>
+		<bOverworld attr1="0"/>
+		<note_to_self attr1="not created in the overworld - is 'hidden'"/>
+		<faction attr1="neutral"/>
+		<bAutoPilot attr1="0"/>
+		<bCheckPosition attr1="0"/>
+		<position x="-1540" y="-2540" z="3040"/>
+		<aiPosture attr1="hold"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="disable_maneuvering"/>
+		<shipName attr1="hiddenRage"/>
+		<bSetting attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="disable_engines"/>
+		<shipName attr1="hiddenRage"/>
+		<bSetting attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="hiddenRage"/>
+		<bSetting attr1="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_linear_velocity"/>
+		<body attr1="hiddenRage"/>
+		<velocity x="-4" y="-6" z="-1.5"/>
+		<bReletive attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_angular_velocity"/>
+		<body attr1="hiddenRage"/>
+		<velocity x="-0.13" y="0.15" z="-0.19"/>
+		<bReletive attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="hiddenRage"/>
+		<characterID attr1="rebornGeneric02"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="hiddenRage"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<shipName attr1="hiddenRage"/>
+		<alterType attr1="weapons_hold"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="3001"/>
+	<nextMissionNumber attr1="3002"/>
+	<nextMissionNumber attr1="4000"/>
+	<failMissionNumber attr1="3003"/>
+	<objective>
+		<objectiveType attr1="comms_target"/> 
+		<objectName attr1="hiddenRage"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="hiddenRage"/>
+		<healthPercent attr1="0.98"/>
+		<bSilent attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="hiddenRage"/>
+		<goToDistance attr1="300"/>
+		<bSilent attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="comms_target"/> 
+		<objectName attr1="damagedCorrea"/>
+		<bSilent attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric02"/>
+			<content attr1="Hey..."/>
+			<content attr1="I know I'm just some anonymous helmeted guy..."/>
+			<content attr1="Hiding in some debris you just destroyed..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric02"/>
+			<content attr1="But..."/>
+			<content attr1="PLEASE! PLEASE!"/>
+			<content attr1="Don't tell the TSF about me!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric02"/>
+			<content attr1="You know... yesterday I was all stressed..."/>
+			<content attr1="I ordered a brand new gun... My first brand new gun."/>
+			<content attr1="All shiny."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric02"/>
+			<content attr1="It gets delivered... And the grip had a dent in it!"/>
+			<content attr1="That was my biggest problem yesterday!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric02"/>
+			<content attr1="And now... floating here... I realize how stupid it was..."/>
+			<content attr1="How lucky I was..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric02"/>
+			<content attr1="Please friend... I just want to live..."/>
+			<content attr1="Let me just drift away."/>
+		</dialog>
+	</postDialog>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="3002"/>
+	<nextMissionNumber attr1="3003"/>
+	<objective>
+		<objectiveType attr1="comms_target"/> 
+		<objectName attr1="damagedCorrea"/>
+		<bSilent attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="hiddenRage"/>
+		<bIsFailObjective attr1="1"/>
+		<bSilent attr1="1"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="3003"/>
+	<nextMissionNumber attr1="3004"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="There's a hidden pirate ship."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="Correa Commander ID#23354"/>
+			<content attr1="We'll take care of it."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="Correa Commander ID#23354"/>
+			<content attr1="You might want to give us some room to work."/>
+		</dialog>
+	</preDialog>
+	<preTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="hiddenRage"/> 	
+		<faction attr1="reborn"/>
+		<bPreservePlayerTarget attr1="1"/>
+		<note_to_self attr1="ship is set to hold so shouldn't immediately attack player"/>
+		<note_to_self attr1="weapons are toggled to hold"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="escort-1"/>
+		<objectName attr1="escort-2"/>
+		<objectName attr1="escort-3"/>
+		<objectName attr1="escort-4"/>
+		<objectName attr1="escort-5"/>
+		<targetName attr1="hiddenRage"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="3004"/>
+	<nextMissionNumber attr1="3005"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="hiddenRage"/>
+		<bSilent attr1="1"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="3005"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="Correa Commander ID#23354"/>
+			<content attr1="Now then..."/>
+			<content attr1="I'm obligated to compensate you for your assistance."/>
+			<content attr1="3.5k credits."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="Correa Commander ID#23354"/>
+			<content attr1="Thank you for your cooperation."/>
+		</dialog>
+	</postDialog>
+	<reward>
+		<rewardType attr="credit"/>
+		<credits attr="3500"/>
+	</reward>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="4000"/>
+	<note_to_self attr1="make rage active on damage"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="hiddenRage"/>
+		<healthPercent attr1="0.80"/>
+		<bSilent attr1="1"/>
+	</objective>
+	<preTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="hiddenRage"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</preTrigger>
+	<postTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="hiddenRage"/> 	
+		<faction attr1="reborn"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="disable_maneuvering"/>
+		<shipName attr1="hiddenRage"/>
+		<bSetting attr1="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="disable_engines"/>
+		<shipName attr1="hiddenRage"/>
+		<bSetting attr1="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="hiddenRage"/>
+		<bSetting attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<shipName attr1="hiddenRage"/>
+		<alterType attr1="weapons_hold"/>
+		<bToggle attr1="0"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

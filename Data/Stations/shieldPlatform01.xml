@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<displayName attr1="Shield Platform 01"/>
+<objectID attr1="shieldPlatform01"/> 
+<faction attr1="civilian"/>
+<bCommsOverride attr1="1"/>
+<stationClass attr1="shield_platform"/> 
+<stationSizeAsShip attr1="gunship"/>
+<creditCost attr1="50000"/>
+<meshName attr1="shieldPlatform01.mesh"/> 
+<descriptionText attr1="A defensive platform."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Capable of projecting a energy barrier in front of itself."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Creating the potential for hiding behind. The shield won't discriminate between friendly and hostile fire."/>
+<health attr1="5000.0"/> 
+<explosionID attr1="explode03"/>
+<tacticalExplosionID attr1="tacExp25_75"/>
+<collisionShape attr1="trimesh"/>
+<shieldID attr1="corvetteFShield00"/>
+<isMassInfinite attr1="1"/>

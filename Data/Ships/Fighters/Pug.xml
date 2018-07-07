@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Pug"/> 
+<objectID attr1="pug"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="fighter"/>
+<shipClassSize attr1="heavy"/>
+<meshName attr1="Pug.mesh"/> 
+<wireframeMaterial attr1="WF/Bee"/>
+<descriptionText attr1="A heavy fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Pug represents the best in heavy fighter class that you can buy on the civilian market."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="While its weapons may appear under powered, the Pug features high capacity turrets with excellent coverage."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="If the heavy capacity projectile turrets aren't suited to the pilot's needs, the Pug can be upgraded with rail gun turrets. The rail gun turrets will function independently to protect the craft, making it weak offensively, but strong defensively."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Tractor beam."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="A modified version of a mining ship's tractor beam. Sacrificing precision and capacity for raw pulling power. Capable of moving fighter class ships, tractor beams have various uses in combat, ranging from disrupting an enemy's line of fire to pulling them closer for the kill."/>
+<creditCost attr1="175000"/>
+<cruiseSpeed attr1="95.0"/> 
+<timeTillCruise attr1="1.8"/>
+<yaw 	attr1="95.0"/> 
+<pitch	attr1="95.0"/> 
+<roll 	attr1="95.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitID attr1="cockpit003-1"/>
+<cockpitActualPos x="0" y="1.5" z="15"/>
+<cockpitInitPos x="0" y="11.753" z="23.023"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos  x="0" y="28.75" z="132.25"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="1350.0"/> 
+<buildTime	attr1="35.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="275.0"/> 
+<ore		attr1="375.0"/> 
+<damage>
+    <pitch attr1="25.0"/> 
+    <roll attr1="-53.0"/> 
+	<yaw attr1="32.0"/> 
+	<position x="3.458" y="-7.593" z="-6.501"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="pugD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explodeRed02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp1_25"/>  
+<engineSoundID attr1="eng-01"/> 
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="0" y="1.058" z="17.25"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="5.85"/>
+    <capacity attr1="10.0"/>
+    <recharge attr1="13.0"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="0" y="-11.067" z="-3.8"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<bShowInCockpit attr1="1"/>
+	<weaponPositionID attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+    <turretOrientation attr1="right"/>
+	<position x="8.118" y="-1.38" z="7.268"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<bShowInCockpit attr1="1"/>
+	<weaponPositionID attr1="2"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+    <turretOrientation attr1="left"/> 
+	<position x="-8.118" y="-1.38" z="7.268"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<bShowInCockpit attr1="1"/>
+	<weaponPositionID attr1="3"/>
+</turret>
+<weapon>
+    <weaponType attr1="tractor_beam"/> 
+    <hardpointID attr1="fighterTB"/> 
+	<weaponPosition x="0" y="0" z="0"/>
+	<weaponFire attr1="secondary"/>
+</weapon>
+<upgrades> 
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+    <upgradeID attr1="pugRGT00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield02"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="fFrontShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed02"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="heavyFighterPUS00"/>
+	<upgradeID attr1="heavyFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="5" z="-7.17"/>
+<shipHangarYOffset attr1="5"/>

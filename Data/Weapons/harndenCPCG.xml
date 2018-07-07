@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="harndenPCG"/> 
+<ammunitionID attr1="lightRGP"/> 
+<name attr1="Light Chain Gun"/> 
+<fireSoundID attr1="rapidP01"/>
+<muzzleFlashEffectID attr1="mfLG01"/>
+<capacity attr1="25"/> 
+<reloadTime attr1="0.85"/>
+<scatterYaw attr1="0.50"/>
+<scatterPitch attr1="0.50"/>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="miningBase00"/> 
+<displayName attr1="Mining Base"/> 
+<objectID attr1="miningBase00"/> 
+<faction attr1="civilian"/> 
+<meshName attr1="miningBase00.mesh"/>
+<physicalRotatingElement> 
+	<meshName attr1="miningBaseTB.mesh"/>
+	<yawSpeed attr1="10"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<physicalRotatingElement> 
+	<meshName attr1="miningBaseMB.mesh"/>
+	<yawSpeed attr1="-10"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<physicalRotatingElement> 
+	<meshName attr1="miningBaseBB.mesh"/>
+	<yawSpeed attr1="10"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<wireframeMaterial attr1="WF/TheHub"/> 
+<descriptionText attr1="A Civilian asteroid mining base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The second Civilian arrival post the MU rebellion and Outsider war. The corporations knowing that further growth would heavily rely on raw resources for base and ship building established this base to quickly strip mine mega asteroids."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<alwaysOnEffect>
+    <effectID attr1="miningDustCloud00"/> 
+	<position x="0" y="100" z="245"/>
+</alwaysOnEffect>
+<alwaysOnEffect>
+    <effectID attr1="miningDustCloud00"/> 
+	<position x="0" y="0" z="245"/>
+</alwaysOnEffect>
+<alwaysOnEffect>
+    <effectID attr1="miningDustCloud00"/> 
+	<position x="0" y="-100" z="245"/>
+</alwaysOnEffect>
+<dockingArms x="0" y="557.56" z="-320"/>
+<dockingArmsEnd x="0" y="557.56" z="-731.5"/>
+<dockPosition x="0" y="557.56" z="-351.91"/>
+<dockSize x="200" y="60" z="100"/>
+<_hangarID attr1="theHubH"/> 
+<maxBuildShipClass attr1="corvette"/>
+<bCanResearch attr1="1"/>
+<rockSubPosition attr1="1"/>
+<miningPlatformPosition x="-883.195" y="0" z="720.209"/>

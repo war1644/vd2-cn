@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="howTargetingWorks"/>
+<topicName attr1="  Summary: How Ship Targeting Works"/>
+<mainText attr1="Summary: How Ship Targeting Works:"/>
+<mainText attr1=" "/>
+<mainText attr1="In case you are confused how ships acquire target's..."/>
+<mainText attr1=" "/>
+<mainText attr1="Here's a summary/priority list."/>
+<mainText attr1=" "/>
+<mainText attr1="Ships will prioritize targets set by the player - even if Do Not Engage is set."/>
+<mainText attr1="Ships will then check the target queue - even if Do Not Engage is set."/>
+<mainText attr1="Ships will then check the guard object for attackers - even if Do Not Engage is set."/>
+<mainText attr1="  -----------"/>
+<mainText attr1="At this point ship's postures take effect. EG: Do Not Engage, Engage and Search and Destroy"/>
+<mainText attr1="The setting will now determine whether and how a ship will target."/>

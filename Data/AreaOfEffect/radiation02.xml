@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectID attr1="radiation02"/> 
+<particleSystemName attr1="vdp_radiation650"/> 
+<damage attr1="25"/>
+<affectedObjects attr1="ship"/>
+<lifeTimer attr1="0"/>
+<fieldSize x="800" y="1250" z="1350"/>

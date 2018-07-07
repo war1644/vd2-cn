@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<factionID attr1="reborn"/> 
+<factionType attr1="pirate"/>
+<bPirate attr1="1"/>
+<factionName attr1="Reborn"/> 
+<factionPluralName attr1="Reborn"/>
+<wireframeColor r="1" g="0.427" b="0.109" a="1.0"/>
+<highlightOutlineColor r="0.25" g="0.0" b="0.0" a="0.5"/>
+<textColor r="1" g="0.1" b="0.1" a="1.0"/> 
+<backgroundColor r="0.25" g="0.0" b="0.0" a="0.5"/>
+<cloudsColor r="0.3" g="0.0" b="0.0" a="0.5"/>
+<tacticalMaterial attr1="Overworld/Pirate"/>
+<selectedTacticalMaterial attr1="Overworld/PirateSelected"/>
+<buildTacticalMaterial attr1="Overworld/PirateBuild"/>
+<bareBonesMaterialName attr1="BaseColor/RedPirate"/>
+<factionIconText attr1="set:brFactionIcons image:digger"/>
+<bFactionShipRequiredForMission attr1="1"/>
+<factionSkyBoxMaterialName attr1="Space/Red_Space"/>
+<factionBaseMusic attr1="RocksAndSkulls-BaseApproach"/>
+<descriptionText attr1="The Reborn are a newly formed faction, most resembling a pirate group."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="After the rebellion, the MU took another hit when a big portion of the remaining rebels chose to continue the fight. Thus the Reborn were created."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Initially made up of the early settlers of this region, the Reborn's official mandate is independence and self rule. Needing resources and a way to weaken the establishment, they turned to piracy."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="As more and more new recruits are taken on board, diluting the original founders, the original goals are slowly eroding away."/>

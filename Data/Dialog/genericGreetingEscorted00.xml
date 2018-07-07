@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieGreetingE00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="greeting_escorted"/>
+<dialog attr1="Hey! Glad to have you watching my six."/>
+<dialog attr1="Hey! Last time it was a cakewalk. No worries!"/>
+<dialog attr1="Hey buddy. Keep em off me and we'll get along just fine."/>

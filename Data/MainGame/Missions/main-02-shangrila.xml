@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Shangri-La cutscene"/>
+<objectID attr1="main02"/>
+<missionFactionID attr1="civilian"/>
+<missionLocation attr1="shangrila"/>
+<bRepeatable attr1="0"/>
+<bHidden attr1="1"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preCutscene attr1="main-02-showShangriLaScene-00"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+</mission>

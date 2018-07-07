@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<duration attr1="12.0"/>
+	<lookAtObject attr1="m08-hercules-1"/> 
+	<reletiveObject attr1="m08-hercules-1"/> 
+	<cameraPosition x="500" y="750" z="150"/>
+	<trigger>
+		<triggerType attr1="destroy_named"/>
+		<note_to_self attr1="start death count down"/>
+		<objectName attr1="m08-hercules-1"/>
+		<bSilent attr1="0"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="override_hostile_target_player"/>
+		<bToggle attr1="1"/>
+		<note_to_self attr1="don't target during cutscene"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="alter_physical_object"/>
+		<note_to_self attr1="keep alive during cutscene"/>
+		<objectName attr1="playerShip"/> 	
+		<alterType attr1="toggle_must_survive"/>
+		<bToggle attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="alter_physical_object"/>
+		<note_to_self attr1="keep healthy during cutscene"/>
+		<objectName attr1="playerShip"/>
+		<alterType attr1="must_survive_health"/> 	
+		<floatValue attr1="0.55"/> 	
+	</trigger>
+	<trigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="ronin"/>
+		<shipName attr1="m08-ronin-1"/>
+		<shipID attr1="liquidatorG"/>
+		<shipName attr1="m08-liquidatorG-1"/>
+		<shipID attr1="liquidatorG"/>
+		<shipName attr1="m08-liquidatorG-2"/>
+		<shipID attr1="liquidatorG"/>
+		<shipName attr1="m08-liquidatorG-3"/>
+		<shipID attr1="bullfrog"/>
+		<shipName attr1="m08-bullfrog-1"/>
+		<shipID attr1="bullfrog"/>
+		<shipName attr1="m08-bullfrog-2"/>
+		<shipID attr1="bullfrog"/>
+		<shipName attr1="m08-bullfrog-3"/>
+		<shipID attr1="houndMK2"/>
+		<shipName attr1="m08-houndMK2-1"/>
+		<shipID attr1="houndMK2"/>
+		<shipName attr1="m08-houndMK2-2"/>
+		<shipID attr1="houndMK2"/>
+		<shipName attr1="m08-houndMK2-3"/>
+		<shipID attr1="houndMK2"/>
+		<shipName attr1="m08-houndMK2-4"/>
+		<shipID attr1="houndMK2"/>
+		<shipName attr1="m08-houndMK2-5"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="kind"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+		<reletiveObject attr1="m08-hercules-1"/>
+		<note_to_self attr1="at this point herc is still alive"/>
+		<position x="-15000" y="2500" z="5000"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="m08-ronin-1"/>
+		<shipName attr1="m08-liquidatorG-1"/>
+		<shipName attr1="m08-liquidatorG-2"/>
+		<shipName attr1="m08-liquidatorG-3"/>
+		<shipName attr1="m08-bullfrog-1"/>
+		<shipName attr1="m08-bullfrog-2"/>
+		<shipName attr1="m08-bullfrog-3"/>
+		<shipName attr1="m08-houndMK2-1"/>
+		<shipName attr1="m08-houndMK2-2"/>
+		<shipName attr1="m08-houndMK2-3"/>
+		<shipName attr1="m08-houndMK2-4"/>
+		<shipName attr1="m08-houndMK2-5"/>
+		<reletiveObject attr1="m08-hercules-1"/>
+		<hopPosition x="0" y="0" z="0"/>
+	</trigger>
+</sceneFragment>

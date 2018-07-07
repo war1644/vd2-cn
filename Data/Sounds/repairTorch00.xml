@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="looping"/>
+<objectID attr1="repairTorch00"/>
+<soundFile attr1="repairTorch00.wav"/>
+<tailSound attr1="repairTorch00Tail.wav"/>
+<maxDistance attr1="1500"/> 
+<referenceDistance attr1="750"/>
+<defaultVolume attr1="0.4"/>
+<soundPriority attr1="75"/>

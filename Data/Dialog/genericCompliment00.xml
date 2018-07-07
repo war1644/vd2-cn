@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieCompliment00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="compliment"/>
+<dialog attr1="You are as handsome as you are smart!"/>
+<dialog attr1="Nice flying ace!"/>
+<dialog attr1="Cool ship!"/>
+<dialog attr1="Sweet ride!"/>
+<dialog attr1="Heard good things... Keep up the good work."/>
+<dialog attr1="Looking good, ace!"/>
+<dialog attr1="Keep your chin high."/>
+<dialog attr1="Who's da man? You da man!"/>
+<dialog attr1="You work out? Looking good."/>
+<dialog attr1="I like your style!"/>
+<dialog attr1="Hey friend! Not bad style!"/>
+<dialog attr1="Respect!"/>
+<dialog attr1="I'd be proud to call you friend."/>
+<dialog attr1="Did we just become best friends?"/>

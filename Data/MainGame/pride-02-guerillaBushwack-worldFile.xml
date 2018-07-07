@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ship_Object>
+     <objectID attr1="raptor"/>
+     <name attr1="p02-raptor-1"/>
+     <orientation w="1" x="0" y="0.000405572" z="0"/>
+     <position x="1.06878" y="0" z="1787.72"/>
+     <faction attr1="beggar"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="rhinoT"/>
+     <name attr1="p02-rhinoT-1"/>
+     <orientation w="0.999896" x="0" y="0.0145181" z="0"/>
+     <position x="442.082" y="0" z="2234.64"/>
+     <faction attr1="beggar"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="rhino"/>
+     <name attr1="p02-rhino-1"/>
+     <orientation w="0.999874" x="0" y="-0.0159676" z="0"/>
+     <position x="-346.965" y="0" z="1547.94"/>
+     <faction attr1="beggar"/>
+</ship_Object>
+<ship_Object>
+     <objectID attr1="stealjoy"/>
+     <name attr1="p02-stealjoy-1"/>
+     <orientation w="1" x="0" y="0.000561763" z="0"/>
+     <position x="2.46115" y="108.9" z="2190.56"/>
+     <faction attr1="beggar"/>
+</ship_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="p02-roid-1"/>
+     <orientation w="0.521369" x="0.799444" y="0.270002" z="-0.127131"/>
+     <position x="148.845" y="-353.542" z="650.476"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="p02-roid-2"/>
+     <orientation w="0.732245" x="0.318277" y="-0.279443" z="-0.533318"/>
+     <position x="-743.38" y="-308.759" z="-1875.88"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="p02-roid-3"/>
+     <orientation w="0.719579" x="0.00725856" y="-0.694096" z="-0.019595"/>
+     <position x="-663.76" y="-381.26" z="536.76"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock003"/>
+     <name attr1="p02-roid-4"/>
+     <orientation w="0.284554" x="-0.628739" y="-0.47114" z="0.549312"/>
+     <position x="696.76" y="-253.759" z="-231.759"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="bigRock002"/>
+     <name attr1="p02-roid-5"/>
+     <orientation w="0.366417" x="-0.179419" y="0.156708" z="-0.899439"/>
+     <position x="-857.76" y="-353.259" z="982.76"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock004"/>
+     <name attr1="p02-roid-6"/>
+     <orientation w="0.367372" x="-0.519947" y="0.42996" z="0.640178"/>
+     <position x="-1495.85" y="708.26" z="1284.74"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock002"/>
+     <name attr1="p02-roid-7"/>
+     <orientation w="-0.673828" x="-0.380199" y="-0.351619" z="0.527038"/>
+     <position x="1918.74" y="-622.26" z="-1278.46"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="p02-roid-8"/>
+     <orientation w="-0.780302" x="0.381414" y="-0.422961" z="-0.258372"/>
+     <position x="-1485.77" y="-512.76" z="-344.759"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="bigRock001"/>
+     <name attr1="p02-roid-9"/>
+     <orientation w="0.793013" x="-0.45701" y="-0.180696" z="-0.360029"/>
+     <position x="1568.77" y="419.76" z="-144.76"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock003"/>
+     <name attr1="p02-roid-10"/>
+     <orientation w="-0.472318" x="-0.312621" y="0.454866" z="0.687227"/>
+     <position x="431.76" y="376.26" z="847.76"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock004"/>
+     <name attr1="p02-roid-11"/>
+     <orientation w="0.41118" x="0.60013" y="-0.337211" z="0.597547"/>
+     <position x="-2379.83" y="-309.259" z="-247.977"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="p02-roid-12"/>
+     <orientation w="-0.148575" x="0.602345" y="0.386677" z="-0.682339"/>
+     <position x="2467.93" y="-345.759" z="1007.2"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock001"/>
+     <name attr1="p02-roid-13"/>
+     <orientation w="0.410619" x="-0.575667" y="-0.653282" z="-0.270598"/>
+     <position x="-558.76" y="-975.26" z="-986.76"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock002"/>
+     <name attr1="p02-roid-14"/>
+     <orientation w="0.742357" x="-0.065401" y="-0.618645" z="-0.248811"/>
+     <position x="-1669.77" y="-1191.77" z="1312.77"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock002"/>
+     <name attr1="p02-roid-15"/>
+     <orientation w="4.24245e-005" x="-0.0530546" y="0.164365" z="0.984972"/>
+     <position x="801.984" y="959.76" z="-1344.13"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock001"/>
+     <name attr1="p02-roid-16"/>
+     <orientation w="0.352097" x="0.858425" y="0.253016" z="0.274074"/>
+     <position x="-2159.75" y="-1173.77" z="-1848.77"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="p02-roid-17"/>
+     <orientation w="0.646841" x="-0.0585346" y="-0.757648" z="-0.0643417"/>
+     <position x="1357.77" y="1335.77" z="-2131.76"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="p02-roid-18"/>
+     <orientation w="-0.810365" x="-0.375057" y="-0.224102" z="0.390408"/>
+     <position x="283.987" y="-387.26" z="-1153.92"/>
+     <faction attr1="none"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock005"/>
+     <name attr1="p02-roid-19"/>
+     <orientation w="0.213115" x="-0.519237" y="-0.781648" z="-0.272032"/>
+     <position x="-70.0285" y="-474.26" z="-2044.82"/>
+     <faction attr1="none"/>
+</asteroid_Object>

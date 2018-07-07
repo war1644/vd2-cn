@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<factionID attr1="thePride"/> 
+<factionType attr1="bounty_hunter"/>
+<factionName attr1="The Pride"/>
+<factionPluralName attr1="The Pride"/>
+<wireframeColor r="0.737" g="0.854" b="0.976" a="1.0"/> 
+<highlightOutlineColor r="0.25" g="0.25" b="0.25" a="0.5"/>
+<backgroundColor r="0.1" g="0.15" b="0.2" a="0.5"/>
+<cloudsColor r="0.15" g="0.2" b="0.25" a="0.5"/>
+<tacticalMaterial attr1="Overworld/Pride"/>
+<selectedTacticalMaterial attr1="Overworld/PrideSelected"/>
+<buildTacticalMaterial attr1="Overworld/PrideBuild"/>
+<factionIconText attr1="set:brFactionIcons image:scarab"/>
+<bFactionShipRequiredForMission attr1="1"/>
+<_factionSkyBoxMaterialName attr1="Space/Teal_Space"/>
+<descriptionText attr1="A bounty hunter corporation."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Known for traveling to booming areas of space in their mobile bases and offering their solution to the chaos that changing times bring."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Their business is death. There's no shortage of demand."/>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Eagle"/> 
+<objectID attr1="eagle"/> 
+<faction attr1="thePride"/> 
+<shipClass attr1="corvette"/>
+<shipClassSize attr1="light"/>
+<combatAIClass attr1="fighter"/>
+<meshName attr1="Eagle.mesh"/>
+<wireframeMaterial attr1="WF/Harnden"/> 
+<descriptionText attr1="A light combat corvette."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Eagle is used in combat missions, heavier escort duty, VIP transport and even shuttling rare 'alive' bounties."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Designed to take on smaller craft and almost always come out on top. It shouldn't be used against heavier corvettes."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Plasma launcher."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Fires super heated plasma projectiles. Comparable damage and range to the Drake's primary weapons, though with far with less capacity."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Plasma does heavy damage to capital ships, if the pilot is skilled or lucky enough to land a hit."/>
+<creditCost attr1="800000"/>
+<bBlackMarket attr1="1"/>
+<missionRankRequired attr1="5"/>
+<cruiseSpeed attr1="60.0"/> 
+<timeTillCruise attr1="2.35"/> 
+<yaw 	attr1="70.0"/> 
+<pitch	attr1="70.0"/> 
+<roll 	attr1="70.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitInitPos x="0" y="35" z="80"/>
+<cockpitTransLimit x="2" y="2" z="2"/> 
+<bShowInCockpitWeaponParticles attr1="0"/>
+<chaseInitPos x="0" y="70" z="300"/>
+<chaseTransLimit x="14" y="8" z="6"/>
+<health attr1="12500.0"/>
+<armor attr1="2.0"/>
+<shieldHealth attr1="350"/> 
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="15.0"/> 
+    <roll attr1="121.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="-9.702" y="-9.855" z="-2.482"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<damage>
+    <pitch attr1="35.0"/> 
+    <roll attr1="65.0"/> 
+	<yaw attr1="22.0"/> 
+	<position x="-6.149" y="10.464" z="26.551"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="0.0"/> 
+    <roll attr1="-90.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="39.955" y="-0.454" z="-6.506"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="eagleD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="eagleD01"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode03"/>
+<preExplosionID attr1="explode01"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="23.91" y="1.68" z="45.66"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="36.04" y="2.51" z="9.48"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="-23.91" y="1.68" z="45.66"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="-36.04" y="2.51" z="9.48"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="36.05" y="2.51" z="-11.83"/>
+	<direction attr1="fore"/> 
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="-36.05" y="2.51" z="-11.83"/>
+	<direction attr1="fore"/> 
+</propulsion> 
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.75"/> 
+    <capacity attr1="14"/>
+    <recharge attr1="14"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<turret>
+    <turretID attr1="eagleT01"/>
+	<position x="0.01" y="19.93" z="-12.89"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<weaponPositionID attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="eagleT01"/>
+    <turretOrientation attr1="bottom"/> 
+	<position x="0.0" y="-16.638" z="-8.215"/>
+	<pitchLower attr1="-5"/> 
+	<yawPermitted attr1="90"/>
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<weaponPositionID attr1="2"/>
+</turret>
+<turret>
+    <turretID attr1="eagleT01"/>
+    <turretOrientation attr1="bottom"/> 
+	<position x="0.0" y="-21.303" z="18.443"/>
+	<pitchLower attr1="-5"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<weaponPositionID attr1="3"/>
+</turret>
+<turret>
+    <turretID attr1="pilarT02"/>
+    <turretOrientation attr1="bottom"/>
+	<position x="0" y="-5.2" z="-37.16"/>
+	<pitchLower attr1="-30"/> 
+	<turretRole attr1="defense"/>
+	<yawPermitted attr1="45"/>
+	<weaponPositionID attr1="4"/>
+</turret>
+<turret>
+    <turretID attr1="pilarT02"/>
+	<position x="0" y="-1.5" z="45.69"/>
+	<pitchLower attr1="-30"/> 
+	<turretRole attr1="defense"/>
+	<yawPermitted attr1="-45"/>
+	<yaw attr1="180"/>
+	<weaponPositionID attr1="5"/>
+</turret>
+<turret>
+    <turretID attr1="reaperT"/>
+	<position x="0.0" y="15.446" z="25.221"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="point_defense"/>
+	<yawPermitted attr1="-120"/>
+	<yaw attr1="180"/>
+	<weaponPositionID attr1="6"/>
+</turret>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="eagleSPG"/> 
+	<weaponPosition x="36.05" y="2.51" z="-11.83"/>
+	<weaponPosition x="-36.05" y="2.51" z="-11.83"/>
+	<barrelDelay attr1="0.25"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="4"/>
+	<activeUpgradeCapacity attr1="5"/>
+	<upgradeID attr1="eagleBT00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cShield00"/>
+	<upgradeID attr1="cShieldRecharge00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="corvetteFShield00"/>
+	<upgradeID attr1="corvetteRShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.16" y="-2.63" z="130"/>

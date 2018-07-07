@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="projectile"/> 
+<projectileID attr1="bearCP"/> 
+<projectileType attr1="mesh_projectile"/> 
+<meshName attr1="bearCan.mesh"/> 
+<projectileVelocity attr1="450.0"/> 
+<initialLife attr1="7.5"/>
+<_range attr1="3375"/>
+<damage attr1="10.0"/> 
+<explosionID attr1=""/>
+<projectileExpireExplosionID attr1="tHit"/>
+<bPersistsOnHit attr1="1"/>
+<areaOfEffectID attr1="frigateSD00"/>

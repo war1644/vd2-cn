@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Anubis"/> 
+<objectID attr1="anubis"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="corvette"/> 
+<shipClassSize attr1="heavy"/>
+<combatAIClass attr1="frigate"/>
+<meshName attr1="Anubis.mesh"/>
+<wireframeMaterial attr1="WF/Harnden"/> 
+<descriptionText attr1="A heavy combat corvette."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="A combat variant of the Geb, armed with a frigate class turret and missile tubes."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Tractor beam."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="A modified version of a mining ship's tractor beam, sacrificing precision and capacity for raw pulling power. Capable of moving corvettes, tractor beams have various uses in combat, ranging from disrupting an enemy's line of fire to pulling them closer for the kill."/>
+<creditCost attr1="1825000"/>
+<bBlackMarket attr1="1"/>
+<missionRankRequired attr1="4"/>
+<cruiseSpeed attr1="40.0"/>
+<timeTillCruise attr1="3.35"/> 
+<yaw 	attr1="50.0"/> 
+<pitch	attr1="50.0"/> 
+<roll 	attr1="50.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="-2.263" z="-7.12"/>
+<cockpitInitPos x="0" y="21.01" z="-8.38"/>
+<cockpitTransLimit x="3" y="3" z="3"/>
+<chaseInitPos x="0" y="57.52" z="380"/>
+<chaseTransLimit x="16" y="10" z="6"/> 
+<health attr1="22000"/> 
+<armor attr1="1.0"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="15.0"/> 
+    <roll attr1="-110.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="6.725" y="-18.887" z="42.09"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="35.0"/> 
+    <roll attr1="55.0"/> 
+	<yaw attr1="22.0"/> 
+	<position x="-33.95" y="-4.707" z="91.068"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="anubisD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="anubisD01"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode04"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="26.64" y="-2.26" z="143"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="-26.64" y="-2.26" z="143"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="26.72" y="-18.4" z="132"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="-26.72" y="-18.4" z="132"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/>
+	<position x="26.62" y="-2.26" z="-35.17"/>
+	<direction attr1="fore"/> 
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/>
+	<position x="26.6" y="-13.7" z="-25.27"/>
+	<direction attr1="fore"/> 
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/>
+	<position x="-26.62" y="-2.26" z="-35.17"/>
+	<direction attr1="fore"/> 
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/>
+	<position x="-26.6" y="-13.7" z="-25.27"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.55"/> 
+    <capacity attr1="13"/>
+    <recharge attr1="14"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<turret>
+    <turretID attr1="frigateT02"/>
+	<turretID attr1="frigateT01"/>
+	<position x="0" y="-16.32" z="-7"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="bottom"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/> 
+	<yawPermitted attr1="30"/>
+	<bShowInCockpit attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<position x="0" y="17.66" z="75.14"/>
+	<pitchLower attr1="-2"/> 
+	<turretRole attr1="point_defense"/>
+	<yaw attr1="180"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<position x="0" y="-38.48" z="76.06"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="bottom"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="anubisRMT"/> 
+    <turretOrientation attr1="top"/> 
+	<position x="0.0" y="0.0" z="0.0"/> 
+	<turretRole attr1="parents_target"/>
+	<turretRole attr1="offense"/>
+</turret>
+<turret>
+    <turretID attr1="anubisLMT"/> 
+    <turretOrientation attr1="top"/> 
+	<position x="0.0" y="0.0" z="0.0"/> 
+	<turretRole attr1="parents_target"/>
+	<turretRole attr1="offense"/>
+</turret>
+<weapon>
+    <weaponType attr1="tractor_beam"/> 
+    <hardpointID attr1="anubisCTB"/> 
+	<weaponPosition x="0" y="0" z="0"/>
+	<weaponFire attr1="secondary"/>
+</weapon>
+<movingElement> 
+	<boneName attr1="missileHatchLeft"/>
+	<yaw attr1="70.0"/>
+	<pitch attr1="0.0"/>
+	<roll attr1="0.0"/>
+	<bLinkedToWeapon attr1="1"/>
+</movingElement>
+<movingElement> 
+	<boneName attr1="missileHatchRight"/>
+	<yaw attr1="-70.0"/>
+	<pitch attr1="0.0"/>
+	<roll attr1="0.0"/>
+	<bLinkedToWeapon attr1="1"/>
+</movingElement>
+<targetPriorityList> 
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="dreadnaught"/> 
+	<targetClass attr1="attack_station"/>
+</targetPriorityList>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="4"/>
+	<activeUpgradeCapacity attr1="5"/>
+	<upgradeID attr1="dTurrets00"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cShield00"/>
+	<upgradeID attr1="cShieldRecharge00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="corvetteFShield00"/>
+	<upgradeID attr1="corvetteRShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.87" y="0" z="100"/>

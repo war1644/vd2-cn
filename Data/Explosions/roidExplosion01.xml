@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="explosion"/> 
+<objectID attr1="roidExplode01"/> 
+<particleSystemName attr1="vdp_roid_explode01"/> 
+<explosionSoundID attr1="roidExplode01"/>
+<life attr1="5"/>
+<maxSounds attr1="10"/>
+<renderingDistance attr1="10000"/>

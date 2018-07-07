@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="OverworldBaseInfo" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.000952381,0},{1,0},{0.999048,0}}" />
+        <Window Type="jhGUI/StaticImageLeft" Name="OverworldBaseInfo/BaseFrame" >
+            <Property Name="Image" Value="set:bGUI_formation image:main_frame" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00344062,0},{0.00488588,0},{0.17844,0},{0.526758,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="ootGUI/StaticText" Name="OverworldBaseInfo/BaseFrame/txtBase" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Base: " />
+                <Property Name="HorzExtent" Value="39" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0194907,0},{0.00681374,0},{0.706524,0},{0.0365117,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="bGUI/LeftButton" Name="OverworldBaseInfo/BaseFrame/btnUndock" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.94422,0},{0.0987676,0},{1.10238,0},{0.26458,0}}" />
+            </Window>
+            <Window Type="ootGUI/TabControl" Name="OverworldBaseInfo/BaseFrame/tabCtrl" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="TabHeight" Value="{0,27.9164}" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0628,0},{0.908277,0},{0.903707,0}}" />
+                <Window Type="DefaultWindow" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Ships" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value=" Ships" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="ootGUI/ListboxRight" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Ships/lstShips" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Missions" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="  Missions" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="ootGUI/ListboxRight" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Missions/lstMissions" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="  Commerce" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="ootGUI/StaticText" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/txtPurchase" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Purchase: " />
+                        <Property Name="HorzExtent" Value="78" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.016987,0},{0.946955,0},{0.0862392,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/btnBuyEnergy" >
+                        <Property Name="Font" Value="Exo-SemiBold-10" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.277531,0},{0.100908,0},{0.961935,0},{0.178516,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/btnBuyFood" >
+                        <Property Name="Font" Value="Exo-SemiBold-10" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.277531,0},{0.181825,0},{0.961935,0},{0.259433,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/btnBuyOre" >
+                        <Property Name="Font" Value="Exo-SemiBold-10" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.277531,0},{0.260063,0},{0.961935,0},{0.337671,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/txtSell" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Sell: " />
+                        <Property Name="HorzExtent" Value="36" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.468806,0},{0.946955,0},{0.538059,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/btnSellEnergy" >
+                        <Property Name="Font" Value="Exo-SemiBold-10" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.277531,0},{0.552778,0},{0.961935,0},{0.630385,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/btnSellFood" >
+                        <Property Name="Font" Value="Exo-SemiBold-10" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.277531,0},{0.633695,0},{0.961935,0},{0.711302,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/btnSellOre" >
+                        <Property Name="Font" Value="Exo-SemiBold-10" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.277531,0},{0.711933,0},{0.961935,0},{0.78954,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/txtEnergy" >
+                        <Property Name="Font" Value="Exo-SemiBold-10" />
+                        <Property Name="Text" Value="Energy:" />
+                        <Property Name="HorzExtent" Value="50" />
+                        <Property Name="VertExtent" Value="15.4497" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.102661,0},{0.2579,0},{0.171913,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/txtFood" >
+                        <Property Name="Font" Value="Exo-SemiBold-10" />
+                        <Property Name="Text" Value="Food:" />
+                        <Property Name="HorzExtent" Value="36" />
+                        <Property Name="VertExtent" Value="15.4497" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.1812,0},{0.2579,0},{0.250453,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/txtOre" >
+                        <Property Name="Font" Value="Exo-SemiBold-10" />
+                        <Property Name="Text" Value="Ore:" />
+                        <Property Name="HorzExtent" Value="27" />
+                        <Property Name="VertExtent" Value="15.4497" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.259633,0},{0.2579,0},{0.328885,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/txtOreSell" >
+                        <Property Name="Font" Value="Exo-SemiBold-10" />
+                        <Property Name="Text" Value="Ore:" />
+                        <Property Name="HorzExtent" Value="27" />
+                        <Property Name="VertExtent" Value="15.4497" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.711666,0},{0.2579,0},{0.780918,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/txtFoodSell" >
+                        <Property Name="Font" Value="Exo-SemiBold-10" />
+                        <Property Name="Text" Value="Food:" />
+                        <Property Name="HorzExtent" Value="36" />
+                        <Property Name="VertExtent" Value="15.4497" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.63307,0},{0.2579,0},{0.702322,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/txtEnergySell" >
+                        <Property Name="Font" Value="Exo-SemiBold-10" />
+                        <Property Name="Text" Value="Energy:" />
+                        <Property Name="HorzExtent" Value="50" />
+                        <Property Name="VertExtent" Value="15.4497" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.552152,0},{0.2579,0},{0.621405,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="OverworldBaseInfo/BaseFrame/tabCtrl/Commerce/txtNoRoomForPod" >
+                        <Property Name="Font" Value="Exo-SemiBold-10" />
+                        <Property Name="Text" Value="No room for cargo pod..." />
+                        <Property Name="HorzExtent" Value="155" />
+                        <Property Name="VertExtent" Value="15.4497" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.277531,0},{0.344422,0},{0.95819,0},{0.413674,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="OverworldBaseInfo/BaseFrame/txtCredits" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Credits:" />
+                <Property Name="HorzExtent" Value="59" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0204065,0},{0.907099,0},{0.906464,0},{0.969034,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

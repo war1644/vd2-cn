@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="grouping"/>
+<topicName attr1="Grouping Ships"/>
+<mainText attr1="Grouping Ships:"/>
+<commandTypeName attr1=" "/>
+<commandIDName attr1=" "/>
+<mainText attr1="Designate Group 1 - KEY - "/>
+<commandTypeName attr1="tactical_command"/>
+<commandIDName attr1="designate_grp1"/>
+<mainText attr1="Select Group 1 - KEY - "/>
+<commandTypeName attr1="tactical_command"/>
+<commandIDName attr1="select_grp1"/>
+<mainText attr1=" "/>
+<mainText attr1="Grouping Ships Overview:"/>
+<mainText attr1="Ships can be grouped - for easier selection."/>
+<mainText attr1="You can have up to 10 groups."/>
+<mainText attr1="Grouping is different than formations."/>
+<mainText attr1=" "/>
+<mainText attr1="How To Group Ships:"/>
+<mainText attr1="Select one or more ships."/>
+<mainText attr1="Designate it as a group (see above for group 1 key designation)."/>
+<mainText attr1="To select the group press the group key (see above for the group 1 selection)."/>
+<mainText attr1="     To quickly focus the camera on the group - double tap the selection key."/>
+<mainText attr1=" "/>
+<mainText attr1="Examples:"/>
+<mainText attr1="     Group marine frigates, keep them back during the initial assault, then once clear - select them and send them in."/>
+<mainText attr1="     Use groups for easier management of multi sided attacks. "/>
+<mainText attr1="     In the image - groups - 1, 3, 5, and 9 are designated."/>
+<mainText attr1=" "/>
+<mainText attr1="Group Status:"/>
+<mainText attr1="The main Tactical screen - has group status indicators. The numbers light up when at least one ship is part of that group."/>
+<mainText attr1=" "/>
+<mainText attr1="History/Behind the scenes:"/>
+<mainText attr1="Grouping ships was added to Void Destroyer (a very long time) before formations. Nearly every RTS has unit grouping, but not every RTS has formations (that concept doesn't always apply to certain genres) - or grouping is just used."/>
+<mainText attr1=" "/>
+<mainText attr1="Grouping and formations are fairly close to concept. Personally when I added formations to the game - I nearly stopped using groups. The two exist in Void Destroyer - so feel free to use one, the other, or both."/>
+<imageOne>
+	<image attr1="set:guide_group_status image:guide_group_status"/>
+</imageOne>

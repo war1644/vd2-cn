@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="random"/>
+<objectID attr1="plasmaLL00"/> 
+<soundFile attr1="ab-01-tail.wav"/>
+<soundFile attr1="ab-02-tail.wav"/>
+<maxDistance attr1="875"/> 
+<referenceDistance attr1="175"/>
+<defaultVolume attr1="0.65"/>
+<soundPriority attr1="20"/>

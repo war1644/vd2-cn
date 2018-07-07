@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="TSF Shipyard"/> 
+<objectID attr1="tsfShipyard00"/> 
+<faction attr1="tsf"/> 
+<stationClass attr1="shipyard_station"/>
+<stationSizeAsShip attr1="carrier"/>
+<creditCost attr1="5000000"/>
+<meshName attr1="tsfShipyard00.mesh"/>
+<collisionMeshName attr1="tsfShipyard0Collision.mesh"/>
+<wireframeMaterial attr1="WF/FrigateShipyard"/>
+<descriptionText attr1="A platform capable of building and repairing ships."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Many bases don't have the capacity to build ships larger than corvettes, hence the use of shipyard platforms."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="While the TSF usually has these in base local space, they are commonly found in open space as a means of additional redundancy and as a way of providing in field repairs."/>
+<health attr1="500000"/>
+<explosionID attr1="cExplode"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<repairArea> 
+	<repairPosition x="0" y="0" z="0"/>
+	<repairSize x="90" y="90" z="150"/>
+	<repairParticleSystem attr1="vdp_shipyard_repair00"/>
+	<repairSoundID attr1="repairTorch00"/>
+	<maxRepairClass attr1="corvette"/>
+</repairArea>

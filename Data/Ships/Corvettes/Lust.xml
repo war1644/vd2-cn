@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Lust"/> 
+<objectID attr1="lust"/> 
+<faction attr1="reborn"/> 
+<shipClass attr1="ship_capture"/> 
+<shipClassSize attr1="medium"/>
+<sizeShipClass attr1="corvette"/> 
+<meshName attr1="Lust.mesh"/>
+<wireframeMaterial attr1="WF/Harnden"/> 
+<descriptionText attr1="A boarding ship."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="A modified version of the Greed transport ship. Now designed to meet the bare minimum needed to board a corvette class (or larger) ship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The original design has been extended to accommodate additional crew, troops specialized for boarding combat. A breaching spike is used to first punch through the hull and then to accommodate boarding. The troops engage with the ship's crew with the goal of taking the ship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFF0000']Warning:[colour='FFFFFFFF'] Once the capture operation is under way, this is a single use ship. The crew disembark and engage into a life or death struggle, leaving a badly damaged empty husk."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFF0000']Note:[colour='FFFFFFFF'] Depending on the size difference of this ship and the ship being captured, multiple capture ships might be needed."/>
+<creditCost attr1="750000"/>
+<bBlackMarket attr1="1"/>
+<missionRankRequired attr1="4"/>
+<cruiseSpeed attr1="60.0"/> 
+<timeTillCruise attr1="2.45"/> 
+<yaw 	attr1="60.0"/> 
+<pitch	attr1="60.0"/> 
+<roll 	attr1="60.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit004"/>
+<cockpitActualPos x="0" y="20" z="15"/>
+<cockpitActualMesh attr1="cockpitLust.mesh"/> 
+<cockpitInitPos x="0" y="25" z="4.5"/>
+<cockpitTransLimit x="3" y="3" z="3"/>
+<chaseInitPos x="0" y="45.42" z="175"/>
+<chaseTransLimit x="16" y="8" z="6"/> 
+<health attr1="7000.0"/> 
+<captureRating attr1="30"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="35.0"/> 
+    <roll attr1="-55.0"/> 
+	<yaw attr1="22.0"/> 
+	<position x="14.83" y="2.801" z="29.761"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<deathTimer attr1="3.2"/> 
+<deathSpin x="-0.014" y="-0.1" z="-0.2"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="lustD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="greedD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="greedD01"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explodeRed04"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion>
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="10.45" y="2.78" z="40.19"/>
+</propulsion>
+<propulsion>
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-10.45" y="2.78" z="40.19"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.25"/> 
+    <capacity attr1="15"/>
+    <recharge attr1="16"/> 
+</afterburner>
+<weapon> 
+    <weaponType attr1="collision"/> 
+    <hardpointID attr1="lustB"/> 
+	<weaponPosition x="0.0" y="0" z="-75"/>
+</weapon> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="2"/>
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cShield00"/>
+	<upgradeID attr1="cShieldRecharge00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="120" y="0" z="70"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="roachCPG"/> 
+<ammunitionID attr1="lightCP"/> 
+<name attr1="Quad Gun"/> 
+<fireSoundID attr1="rapidP02"/>
+<muzzleFlashEffectID attr1="mfLG02"/>
+<reFireRate attr1="0.06"/>
+<capacity attr1="40"/> 
+<reloadTime attr1="1.25"/>

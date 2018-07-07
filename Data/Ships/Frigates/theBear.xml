@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="The Bear"/> 
+<objectID attr1="theBear"/> 
+<faction attr1="rockGuys"/> 
+<shipClass attr1="frigate"/> 
+<shipClassSize attr1="light"/>
+<combatAIClass attr1="frigate"/>
+<meshName attr1="theBear.mesh"/>
+<wireframeMaterial attr1="WF/Harnden"/> 
+<descriptionText attr1="A light frigate."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="If you like The Beast, you'll love The Bear. Twice the fire-power, defensive weapons and far more armor."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Bear was a force to content with during the MU rebellion, then a crucial part of the TSF rally to repel the Outsiders."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Radiation canister."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Fires a canister, which on impact or a time delay scatters radiation in all directions creating a field. Radiation fields do low but constant damage to a small area of space."/>
+<creditCost attr1="2500000"/>
+<bNotSoldUnlessOwnedBase attr1="1"/>
+<missionRankRequired attr1="6"/>
+<cruiseSpeed attr1="35.0"/> 
+<timeTillCruise attr1="2.85"/>
+<yaw 	attr1="35.0"/> 
+<pitch	attr1="35.0"/> 
+<roll 	attr1="35.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="34.3" y="25.3" z="-5.62"/>
+<bHideShipInCockpitAcutal attr1="0"/>
+<cockpitInitPos x="0" y="56.01" z="60.23"/>
+<cockpitTransLimit x="3" y="3" z="3"/>
+<chaseInitPos x="0" y="100" z="500"/>
+<chaseTransLimit x="16" y="10" z="6"/> 
+<health attr1="60000"/> 
+<armor attr1="1.75"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="-15.0"/> 
+    <roll attr1="90.0"/> 
+	<yaw attr1="4.0"/> 
+	<position x="-22.195" y="0.282" z="-40.313"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<damage>
+    <pitch attr1="25.0"/> 
+    <roll attr1="-75.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="29.461" y="1.021" z="13.941"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage04"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="theBearD00"/> 
+		<debrisMomentum attr1="2"/> 
+		<debrisAngular attr1="2"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explode04"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="2.042" y="12.325" z="105.601"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-18.106" y="12.376" z="105.601"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-8.410" y="-6.431" z="105.601"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="32.894" y="2.48" z="52.085"/>
+	<direction attr1="port"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="-42.107" y="2.357" z="52.085"/>
+	<direction attr1="starboard"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="30.411" y="10.693" z="52.085"/>
+	<direction attr1="up"/>
+	<yaw attr1="50.0"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="30.659" y="-6.090" z="52.085"/>
+	<direction attr1="down"/>
+	<yaw attr1="50.0"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="-39.624" y="10.569" z="52.085"/>
+	<direction attr1="up"/>
+	<yaw attr1="-50.0"/>
+</propulsion>  
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="-39.873" y="-6.214" z="52.085"/>
+	<direction attr1="down"/>
+	<yaw attr1="-50.0"/>
+</propulsion> 
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.05"/> 
+    <capacity attr1="14"/>
+    <recharge attr1="15"/> 
+</afterburner>
+<bPlayerSharedFire attr1="1"/>
+<bNoTargetAimNodeOffset attr1="1"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="bearG"/> 
+	<weaponPosition x="11.788" y="0" z="-97.119"/>
+	<weaponPosition x="-11.788" y="0" z="-97.119"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="bearSG"/> 
+	<weaponPosition x="11.788" y="0" z="-97.119"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<turret>
+    <turretID attr1="beastT"/> 
+    <turretOrientation attr1="right"/> 
+	<position x="39.414" y="13.755" z="14.620"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="beastT"/> 
+    <turretOrientation attr1="left"/> 
+	<position x="-43.611" y="21.878" z="16.055"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="raiderTurret"/> 
+    <turretOrientation attr1="right"/> 
+	<position x="33.003" y="0.571" z="0.108"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="raiderTurret"/> 
+    <turretOrientation attr1="left"/> 
+	<position x="-37.192" y="8.694" z="1.544"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<targetPriorityList> 
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="dreadnaught"/> 
+	<targetClass attr1="attack_station"/>
+	<targetClass attr1="corvette"/>
+</targetPriorityList>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="4"/>
+	<activeUpgradeCapacity attr1="5"/>
+	<upgradeID attr1="gunPod00"/>
+	<upgradeID attr1="frArmor00"/>
+	<upgradeID attr1="frUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="frigateMan00"/>
+	<upgradeID attr1="frigateThrust00"/>
+	<upgradeID attr1="frAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="frArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="frSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="frigatePUS00"/>
+	<upgradeID attr1="frigateAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bLargeDockOnly attr1="1"/>

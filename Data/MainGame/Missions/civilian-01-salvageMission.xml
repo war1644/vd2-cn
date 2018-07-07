@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Salvage"/>
+<missionDescriptionText attr1="One of our transport ships spotted two abandoned cargo pods and claimed them."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="The captain has requested a combat pilot to assist in threat assessment before recovery."/>
+<objectID attr1="civ-01-1"/>
+<note_to_self attr1="using civ-01-1 due to already using civ-01 - so for legacy saves"/>
+<missionFactionID attr1="civilian"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="-4270" y="0" z="-1400"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="5000"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<maximumShipClass attr1="fighter"/>
+<bOverworldByPass attr1="1"/>
+<missionRankRequired attr1="2.8"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="caterpillarMK2"/>
+		<shipName attr1="salvager00"/>
+		<displayName attr1="California"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="0"/>
+		<bCheckPosition attr1="0"/>
+		<bReletiveToPlayer attr1="1"/>
+		<position x="-500" y="-200" z="-2000"/>
+		<aiPosture attr1="hold"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="salvager00"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="salvager00"/>
+		<characterID attr1="civie-01-tPlt"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="boobyTrapPod 1"/>
+		<faction attr1="neutral"/>
+		<bCheckPosition attr1="0"/>
+		<bFillToCapacity attr1="1"/>
+		<reletiveObject attr1="salvager00"/>
+		<position x="0" y="0" z="-2000"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="ola"/>
+		<shipName attr1="derelict"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="neutral"/>
+		<bAutoPilot attr1="0"/>
+		<bCheckPosition attr1="0"/>
+		<position x="-200" y="200" z="-700"/>
+		<reletiveObject attr1="boobyTrapPod 1"/>
+		<position x="79" y="257" z="170"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="derelict"/>
+		<bHudCommsOverride attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="derelict"/>
+		<health attr1="5"/>
+		<bAsPercent attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="derelict"/> 	
+		<alterType attr1="toggle_auto_repair"/>
+		<bToggle attr1="0"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="disable_maneuvering"/>
+		<shipName attr1="derelict"/>
+		<bSetting attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="disable_engines"/>
+		<shipName attr1="derelict"/>
+		<bSetting attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_angular_velocity"/>
+		<body attr1="derelict"/>
+		<velocity x="0.02" y="-0.05" z="0.01"/>
+		<bReletive attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="boobyTrapPod 2"/>
+		<faction attr1="neutral"/>
+		<bCheckPosition attr1="0"/>
+		<bFillToCapacity attr1="1"/>
+		<reletiveObject attr1="boobyTrapPod 1"/>
+		<position x="200" y="-200" z="-600"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="olaD01"/>
+		<name attr1="olaD01-debris"/>
+		<bLimitLife attr1="0"/>
+		<reletiveObject attr1="boobyTrapPod 2"/>
+		<position x="30" y="300" z="-200"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_angular_velocity"/>
+		<body attr1="olaD01-debris"/>
+		<velocity x="-0.03" y="0.03" z="0.02"/>
+		<bReletive attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="olaD00"/>
+		<name attr1="olaD00-debris"/>
+		<bLimitLife attr1="0"/>
+		<reletiveObject attr1="olaD01-debris"/>
+		<position x="-24" y="41" z="-187"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_angular_velocity"/>
+		<body attr1="olaD00-debris"/>
+		<velocity x="-0.02" y="0.05" z="-0.01"/>
+		<bReletive attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="largeRock001"/>
+		<name attr1="largeRock00"/>
+		<bOverworld attr1="0"/>
+		<reletiveObject attr1="olaD00-debris"/>
+		<position x="350" y="41" z="-187"/>
+		<bRandomOrientation attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="bigRock002"/>
+		<name attr1="bigRock00"/>
+		<bOverworld attr1="0"/>
+		<reletiveObject attr1="largeRock00"/>
+		<position x="550" y="-241" z="387"/>
+		<bRandomOrientation attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="Hey friend! Got you on sensors!"/>
+			<content attr1="Hope your day's going well."/>
+			<content attr1="Thanks for the assist, hopefully we'll find some juicy cargo!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Yes."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="Oh..."/>
+			<content attr1="You're one of those..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="Get near the cargo pod."/>
+			<content attr1="I'll transmit the salvage protocols."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="Wait... Hold on."/>
+			<content attr1="I suppose I should say this."/>
+			<content attr1="This might be a booby trap... Left-over from the MU rebellion."/>
+			<content attr1="Sure looks like one..."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<missionHUDText attr1="Approach the cargo pod..."/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="boobyTrapPod 1"/>
+		<goToDistance attr1="500"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civie-01-tPlt"/>
+		<message attr1="Transmitting salvage protocols..."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="scoria"/>
+		<shipName attr1="sDrone 1-1"/>
+		<shipID attr1="scoria"/>
+		<shipName attr1="sDrone 1-2"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="neutral"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="0"/>
+		<reletiveObject attr1="boobyTrapPod 1"/>
+		<position x="0" y="-20" z="-100"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="ship_command"/>
+		<commandType attr1="go_to_position"/>
+		<shipName attr1="sDrone 1-1"/>
+		<position x="0" y="0" z="-2000"/>
+		<reletiveObject attr1="sDrone 1-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="ship_command"/>
+		<commandType attr1="go_to_position"/>
+		<shipName attr1="sDrone 1-2"/>
+		<position x="0" y="0" z="-2000"/>
+		<reletiveObject attr1="sDrone 1-2"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civie-01-tPlt"/>
+		<message attr1="The pod dropped drones! Take them out!"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="alter_ship"/>
+		<shipName attr1="sDrone 1-1"/>
+		<shipName attr1="sDrone 1-2"/>		
+		<alterType attr1="speed_multiplier"/>
+		<multiplier attr1="0.75"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="sDrone 1-1"/>
+		<objectName attr1="sDrone 1-2"/>
+		<faction attr1="enemyPlayer"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</preTrigger>
+	<missionHUDText attr1="Destroy the drones..."/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="sDrone 1-1"/>
+		<targetName attr1="sDrone 1-2"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="That's it? What a joke!"/>
+			<content attr1="No wonder the MU lost the rebellion."/>
+			<content attr1="Going to scoop up that sweet sweet cargo now."/>
+			<content attr1="Standby."/>
+		</dialog>
+	</preDialog>
+	<preTrigger>
+		<triggerType attr1="alter_ship"/>
+		<shipName attr1="salvager00"/> 	
+		<alterType attr1="toggle_crew_control"/>
+		<bToggle attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="salvager00"/> 	
+		<targetName attr1="boobyTrapPod 1"/>
+	</preTrigger>
+	<missionHUDText attr1="Stand by..."/>
+	<objective>
+		<objectiveType attr1="pick_up"/> 
+		<objectName attr1="boobyTrapPod 1"/>
+		<pickerName attr1="salvager00"/>
+		<markObject attr1="boobyTrapPod 1"/>
+		<markObjectType attr1="go_to_object"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<preTrigger>
+		<triggerType attr1="alter_ship"/>
+		<shipName attr1="salvager00"/> 	
+		<alterType attr1="toggle_crew_control"/>
+		<bToggle attr1="0"/>
+	</preTrigger>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civie-01-tPlt"/>
+		<message attr1="Now to see what I got..."/>
+	</postTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postCutscene attr1="civ-01-01-boobyTrap"/>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civie-01-tPlt"/>
+		<message attr1="#@$&*#!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="11"/>
+	<nextMissionNumber attr1="12"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="Mayday! Mayday!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="This is civilian transport California!"/>
+			<content attr1="My ship's systems have been heavily damaged!"/>
+			<content attr1="Requesting immediate assistance!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="What the?!?"/>
+			<content attr1="Now the other pod is dropping drones!"/>
+			<content attr1="Protect me!"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="12"/>
+	<nextMissionNumber attr1="13"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="scoria"/>
+		<shipName attr1="sDrone 2-1"/>
+		<shipID attr1="scoria"/>
+		<shipName attr1="sDrone 2-2"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="enemyPlayer"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="0"/>
+		<reletiveObject attr1="boobyTrapPod 2"/>
+		<position x="0" y="-20" z="-100"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="alter_ship"/>
+		<shipName attr1="sDrone 2-1"/>
+		<shipName attr1="sDrone 2-2"/>		
+		<alterType attr1="speed_multiplier"/>
+		<multiplier attr1="0.75"/>
+	</preTrigger>
+	<missionHUDText attr1="Destroy the drones..."/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="sDrone 2-1"/>
+		<targetName attr1="sDrone 2-2"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="13"/>
+	<nextMissionNumber attr1="14"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="hog"/>
+		<shipName attr1="hogger00"/>
+		<position x="2000" y="2000" z="15000"/>
+		<faction attr1="enemyPlayer"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="hogger00"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="hogger00"/>
+		<characterID attr1="begPNP01"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="hogger00"/>
+		<hopPosition x="1000" y="1000" z="3000"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="begPNP01"/>
+			<content attr1="Ahoy there!"/>
+			<content attr1="How nice! A dinner bell!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="Guess what?"/>
+			<content attr1="While you were fighting a pirate showed up..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="begPNP01"/>
+			<content attr1="And what's this? I'll be taking that pod now!"/>
+			<content attr1="Hah hah hah!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="It's a Hog. A well armed pirate transport."/>
+			<content attr1="You have no chance... stay out of its way."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="14"/>
+	<nextMissionNumber attr1="15"/>
+	<failMissionNumber attr1="18"/>
+	<objective>
+		<objectiveType attr1="pick_up"/> 
+		<objectName attr1="boobyTrapPod 2"/>
+		<pickerName attr1="hogger00"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="hogger00"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+		<note_to_self attr1="use fail objective to skip if destroyed"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="15"/>
+	<nextMissionNumber attr1="16"/>
+	<failMissionNumber attr1="18"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="begPNP01"/>
+		<message attr1="Now to see what goodies are here... heh heh heh..."/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="hogger00"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+		<note_to_self attr1="use fail objective to skip if destroyed"/>
+	</objective>
+	<postCutscene attr1="civ-01-02-boobyTrap"/>
+</mission>
+<mission>
+	<missionNumber attr1="16"/>
+	<nextMissionNumber attr1="17"/>
+	<failMissionNumber attr1="18"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="hogger00"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+		<note_to_self attr1="use fail objective to skip if destroyed"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="begPNP01"/>
+			<content attr1="#@#$@!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="begPNP01"/>
+			<content attr1="You bastards!"/>
+			<content attr1="See? This is why I went pirate!"/>
+			<content attr1="You people... Can't even trust a distress signal!"/>
+			<content attr1="Or a cargo pod!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="begPNP01"/>
+			<content attr1="I was going to just take the pod, but now... when my buddies show up..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="We have no choice."/>
+			<content attr1="Destroy that ship before any more pirates come."/>
+			<content attr1="Once a distress call cuts out.. They won't bother."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="It's damaged, but still has guns."/>
+			<content attr1="Go after it from below, where its turret coverage is weakest."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="Anyway... I'll just float here..."/>
+			<content attr1="Be careful... "/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="17"/>
+	<nextMissionNumber attr1="18"/>
+	<missionHUDText attr1="Destroy the Hog..."/>
+	<preTrigger>
+		<note_to_self attr1="disabled in cutscene - re-enable"/>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="weapons_hold"/>
+		<shipName attr1="hogger00"/>
+		<bToggle attr1="0"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="hogger00"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="18"/>
+	<nextMissionNumber attr1="19"/>
+	<nextMissionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="Wow! You did great!"/>
+			<content attr1="I'd never imagine... Saved by a Stub."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civie-01-tPlt"/>
+			<content attr1="Got some incoming repair ships."/>
+			<content attr1="I'll be ok... I'll be ok..."/>
+			<content attr1="Thank you."/>
+			<content attr1="Mission complete..."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="19"/>
+	<nextMissionNumber attr1="20"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="roach"/>
+		<shipName attr1="roach01"/>
+		<shipID attr1="roach"/>
+		<shipName attr1="roach02"/>
+		<position x="-2000" y="-2000" z="-15000"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="roach01"/>
+		<shipName attr1="roach02"/>
+		<hopPosition x="-1000" y="-1000" z="-3000"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="8"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="20"/>
+	<nextMissionNumber attr1="21"/>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="roach01"/>
+		<objectName attr1="roach02"/>
+		<targetName attr1="salvager00"/>
+	</postTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="21"/>
+	<nextMissionNumber attr1="22"/>
+	<objective>
+		<objectiveType attr1="repair"/> 
+		<objectName attr1="salvager00"/> 
+		<healthPercent attr1="0.5"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="disable_maneuvering"/>
+		<shipName attr1="salvager00"/>
+		<bSetting attr1="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="disable_engines"/>
+		<shipName attr1="salvager00"/>
+		<bSetting attr1="0"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="22"/>
+	<nextMissionNumber attr1="23"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civie-01-tPlt"/>
+		<message attr1="Thanks for hanging around while I got patched up..."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="3.05"/>
+		<faction attr="civilian"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="mission failures below"/>
+<mission>
+	<missionNumber attr1="2000"/>
+	<bForceActive attr1="1"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="salvager00"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="hogger00"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+		<note_to_self attr1="use fail objective to skip if destroyed hogger - in case salvager dies post that"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<bForceActive attr1="1"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="boobyTrapPod 1"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="pick_up"/> 
+		<objectName attr1="boobyTrapPod 1"/>
+		<pickerName attr1="salvager00"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+		<note_to_self attr1="use fail objective to skip if picked up - destroyed later on"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="2002"/>
+	<bForceActive attr1="1"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="boobyTrapPod 2"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="pick_up"/> 
+		<objectName attr1="boobyTrapPod 2"/>
+		<pickerName attr1="hogger00"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+		<note_to_self attr1="use fail objective to skip if picked up - destroyed later on"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+</mission>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieOfferProt00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="offer_protection"/>
+<dialog attr1="Need someone on your wing?"/>
+<dialog attr1="You've got troubles... I've got guts and guns."/>
+<dialog attr1="Let me cover you. Better safe then sorry."/>
+<dialog attr1="I'll get you where you need to go, and in one piece."/>
+<dialog attr1="Could be trouble up ahead... Want an escort?"/>
+<dialog attr1="Looking for escort work, you hiring?"/>

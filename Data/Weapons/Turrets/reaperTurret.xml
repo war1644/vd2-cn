@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="reaperT"/> 
+<name attr1="Twin Turret"/> 
+<meshName attr1="reaperTurret.mesh"/> 
+<turretWeapon attr1="projectile"/>
+<hardpointID attr1="reaperTG"/>
+<dMoveSpeed attr1="110.0"/> 
+<pitchMax attr1="10.0"/>
+<turretBarrel>
+	<weaponPosition x="1.36" y="0" z="-2.99"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-1.36" y="0" z="-2.99"/>
+	<boneName attr1="muzzle2"/>
+</turretBarrel>
+<turretViewPos x="0" y="2.52" z="5.93"/>
+<barrelDelay attr1="0.075"/>
+<targetPriorityList> 
+	<targetClass attr1="fighter"/>
+	<targetClass attr1="gunship"/>
+	<targetClass attr1="fighter_drone"/>
+	<targetClass attr1="corvette"/> 
+	<targetClass attr1="frigate"/> 
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="attack_station"/> 
+</targetPriorityList> 
+<turnSoundID attr1="turretR00"/>

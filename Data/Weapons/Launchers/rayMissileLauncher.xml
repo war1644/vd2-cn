@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="missile"/> 
+<weaponID attr1="rayML"/> 
+<ammunitionID attr1="largeMissile00"/> 
+<name attr1="Missile Launcher"/> 
+<fireSoundID attr1="torpedoLS"/>
+<reFireRate attr1="1.0"/>
+<capacity attr1="2"/>
+<reloadTime attr1="10.0"/> 
+<muzzleFlashEffectID attr1="mfLM"/>

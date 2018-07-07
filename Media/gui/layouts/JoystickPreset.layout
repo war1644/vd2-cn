@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="JoystickPreset" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="ootGUI/StaticImage" Name="JoystickPreset/winPopup" >
+            <Property Name="UnifiedAreaRect" Value="{{0.302975,0},{0.27286,0},{0.697618,0},{0.601148,0}}" />
+            <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtMainTxt" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Control Mapping:" />
+                <Property Name="HorzExtent" Value="129" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0137817,0},{0.0297296,0},{0.984628,0},{0.168442,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtDevice" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Device:" />
+                <Property Name="HorzExtent" Value="54" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0597176,0},{0.17194,0},{0.417492,0},{0.288395,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtDeviceHere" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="device name here" />
+                <Property Name="HorzExtent" Value="131" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.427739,0},{0.17194,0},{0.985159,0},{0.288395,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtCommand" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Command Name:" />
+                <Property Name="HorzExtent" Value="126" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.059718,0},{0.3,0},{0.417492,0},{0.416455,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtCurrent" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Current:" />
+                <Property Name="HorzExtent" Value="62" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0597176,0},{0.413593,0},{0.417492,0},{0.530048,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtCurrentHere" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="current button here" />
+                <Property Name="HorzExtent" Value="149" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.427739,0},{0.413593,0},{0.985159,0},{0.530048,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtCommandHere" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="command name here" />
+                <Property Name="HorzExtent" Value="156" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.427738,0},{0.3,0},{0.985159,0},{0.416455,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtPressEscape" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Press Escape to Cancel" />
+                <Property Name="HorzExtent" Value="176" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapRightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.44894,0},{0.849205,0},{0.969258,0},{0.96566,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtModifierText" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Note: can use SHIFT CTRL and ALT as modifiers" />
+                <Property Name="HorzExtent" Value="355" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0597176,0},{0.758109,0},{0.961659,0},{0.874564,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtDirective" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Use Device to specify new input" />
+                <Property Name="HorzExtent" Value="240" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0597171,0},{0.639587,0},{0.961659,0},{0.756042,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtConflict" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="[colour=&apos;FFFF0000&apos;]!! CONFLICT DETECTED !!" />
+                <Property Name="HorzExtent" Value="181" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0597171,0},{0.517685,0},{0.961659,0},{0.63414,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtIgnoreList" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="[colour=&apos;FFFF0000&apos;]!! IGNORE LIST BUTTON DETECTED !!" />
+                <Property Name="HorzExtent" Value="265" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0597176,0},{0.841327,0},{0.66,0},{0.957782,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

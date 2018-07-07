@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<factionID attr1="kind"/> 
+<spawnShipFactionID attr1="stubs"/>
+<spawnShipFactionID attr1="kind"/>
+<sellShipFactionID attr1="stubs"/>
+<buildShipFactionID attr1="stubs"/>
+<portraitFactionID attr1="stubs"/>
+<factionType attr1="stub_indie"/>
+<factionName attr1="Kind"/> 
+<factionPluralName attr1="Kind"/>
+<wireframeColor r="1" g="0.427" b="0.109" a="1.0"/>
+<highlightOutlineColor r="0.25" g="0.0" b="0.0" a="0.5"/>
+<textColor r="1" g="0.1" b="0.1" a="1.0"/>
+<backgroundColor r="0.2" g="0.2" b="0.6" a="1.0"/>
+<tacticalMaterial attr1="Overworld/Pirate"/>
+<selectedTacticalMaterial attr1="Overworld/PirateSelected"/>
+<buildTacticalMaterial attr1="Overworld/PirateBuild"/>
+<bareBonesMaterialName attr1="BaseColor/RedPirate"/>
+<factionIconText attr1="set:brFactionIcons image:digger"/>
+<bFactionShipRequiredForMission attr1="0"/>
+<note_to_self attr1="faction ship not required - for a variety of resources including stub and kind ship overlap, and lack of larger ships"/>
+<factionSkyBoxMaterialName attr1="Space/Red_Space"/>
+<descriptionText attr1="The Kind is a faction composed of Stubs."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="After the MU and Outsider wars, a fleet of Stub ships waiting for instructions that never came, decided to find a base instead of rotting in their ships. While this in itself is surprising, what's even more surprising is that a base was found and settled. A new faction was formed, calling itself the Kind."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="There are quite a lot of issues and questions with the above story. How could a Stub 'decide' anything beyond its orders? What are the odds of finding an abandoned base? Some form of help and guidance is assumed."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Questions aside, there's even more problems with the Kind's existence, they refuse to submit to TSF authority making them a pirate group, cut off from lawful society their choices are limited to the illegal by default. Overall the TSF have adapted a 'wait and see' approach, speculating that the members of the Kind will simply die out."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="A strange thing in this world indeed, any Stub is welcome here, possibly the only place of its kind."/>

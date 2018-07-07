@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Shipyard Platform"/> 
+<objectID attr1="repairPlatform00"/> 
+<faction attr1="civilian"/> 
+<stationClass attr1="shipyard_station"/> 
+<stationSizeAsShip attr1="carrier"/>
+<creditCost attr1="2000000"/>
+<bCommonPlatform attr1="1"/>
+<meshName attr1="repairPlatform00.mesh"/>
+<physicalRotatingElement> 
+	<meshName attr1="rp00TopRotate.mesh"/>
+	<yawSpeed attr1="3"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<physicalRotatingElement> 
+	<meshName attr1="rp00BottomRotate.mesh"/>
+	<yawSpeed attr1="-3"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<wireframeMaterial attr1="WF/FrigateShipyard"/> 
+<descriptionText attr1="A platform capable of building and repairing ships."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Many bases don't have the capacity to build ships larger than corvettes, hence the use of shipyard platforms."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Another means for the Civilian Conglomerate to generate income, these platforms are often found in use by other factions via the licensing of their schematics."/>
+<health attr1="200000"/>
+<explosionID attr1="cExplode"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="repairPlatform00D00"/> 
+		<debrisMomentum attr1="2.5"/> 
+		<debrisAngular attr1="2.5"/> 
+	</debris>
+</debrisInfo>
+<buildTimeCost	attr1="90.0"/>
+<noUpKeepNumber attr1="1"/>
+<oreUpKeep attr1="10"/>
+<energyUpKeep attr1="10"/>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<repairArea> 
+	<repairPosition x="-400" y="0" z="0"/>
+	<repairSize x="200" y="200" z="350"/>
+	<repairParticleSystem attr1="vdp_shipyard_repair00"/>
+	<repairSoundID attr1="repairTorch00"/>
+	<maxRepairClass attr1="corvette"/>
+</repairArea>
+<dockingArms x="0" y="0" z="-80"/>
+<dockingArmsEnd x="0" y="0" z="-115"/>
+<hangarID attr1="rP00H"/>

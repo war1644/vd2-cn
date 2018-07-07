@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="missile"/> 
+<weaponID attr1="pallasTL"/> 
+<ammunitionID attr1="heavyTorp00"/> 
+<name attr1="Torpedo Launcher"/> 
+<fireSoundID attr1="torpedoLS"/>
+<reFireRate attr1="0"/>
+<capacity attr1="4"/> 
+<reloadTime attr1="10.0"/> 
+<muzzleFlashEffectID attr1="mfML03"/>

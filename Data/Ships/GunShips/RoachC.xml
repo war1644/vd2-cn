@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="RoachC"/> 
+<objectID attr1="roachC"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="gunship"/> 
+<shipClassSize attr1="medium"/>
+<meshName attr1="RoachC.mesh"/>
+<descriptionText attr1="A medium gun ship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="This variant of the Roach repair vessel, has been armed and fitted with higher performance engines. Actual weapons, in the form of projectile guns and a defensive turret."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Often looked down upon, its one strength is superior upgrade capacity which resulted from the conversion from a repair to combat ship yielding usable space."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Combat torch."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="A repair torch modified for combat. Hull solder removed and safeties bypassed, now hull will burn."/>
+<creditCost attr1="255000"/>
+<cruiseSpeed attr1="85.0"/> 
+<timeTillCruise attr1="2.15"/>
+<yaw 	attr1="80.0"/> 
+<pitch	attr1="80.0"/> 
+<roll 	attr1="80.0"/> 
+<bGravityDrive attr1="1"/>
+<cockpitID attr1="cockpit003"/>
+<cockpitActualPos x="0" y="1" z="-10"/>
+<cockpitInitPos x="0" y="13.19" z="18.03"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="30" z="135"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="2900.0"/> 
+<buildTime	attr1="35.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="275.0"/> 
+<ore		attr1="375.0"/> 
+<damage>
+    <pitch attr1="35.0"/> 
+    <roll attr1="0.0"/> 
+	<yaw attr1="-35.0"/> 
+	<position x="-4.846" y="6.148" z="13.114"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/>
+<explosionID attr1="explodeRed03"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp1_25"/>  
+<engineSoundID attr1="eng-01"/> 
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/>
+	<position x="0" y="0" z="17.73"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="5.72" y="0.13" z="16.57"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-5.72" y="0.13" z="16.57"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="6.43" y="-0.42" z="-4.1"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="5.19" y="-2.44" z="-3.98"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-6.43" y="-0.42" z="-4.1"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-5.19" y="-2.44" z="-3.98"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="2.38" y="6.91" z="-15.48"/>
+	<direction attr1="port"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="2.95" y="-8.62" z="13.12"/>
+	<direction attr1="port"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-2.38" y="6.91" z="-15.48"/>
+	<direction attr1="starboard"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-2.95" y="-8.62" z="13.12"/>
+	<direction attr1="starboard"/> 
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="6.05"/>
+    <capacity attr1="11"/>
+    <recharge attr1="13"/>
+</afterburner>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="roachCPG"/> 
+	<weaponPosition x="8.87" y="-7.11" z="-2.58"/>
+	<weaponPosition x="9.57" y="-7.82" z="-2.7"/>
+	<weaponPosition x="10.27" y="-8.53" z="-2.75"/>
+	<weaponPosition x="10.99" y="-9.22" z="-2.68"/>
+	<barrelDelay attr1="0.08"/> 
+	<weaponFire attr1="primary"/> 
+</weapon>
+<_weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="roachCPG"/> 
+	<weaponPosition x="0.06" y="-7.54" z="-7.72"/>
+	<weaponPosition x="0.06" y="-8.56" z="-7.72"/>
+	<weaponPosition x="0.06" y="-9.57" z="-7.72"/>
+	<weaponPosition x="0.06" y="-10.55" z="-7.72"/>
+	<barrelDelay attr1="0.08"/> 
+	<weaponFire attr1="primary"/> 
+</_weapon>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="roachCPG"/> 
+	<weaponPosition x="-8.87" y="-7.11" z="-2.58"/>
+	<weaponPosition x="-9.57" y="-7.82" z="-2.7"/>
+	<weaponPosition x="-10.27" y="-8.53" z="-2.75"/>
+	<weaponPosition x="-10.99" y="-9.22" z="-2.68"/>
+	<barrelDelay attr1="0.08"/> 
+	<weaponFire attr1="primary"/> 
+</weapon>
+<weapon> 
+    <weaponType attr1="beam"/> 
+    <hardpointID attr1="roachCB00"/> 
+	<weaponPosition x="0" y="-9.241" z="-11.007"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<turret>
+    <turretID attr1="tonTurret01"/>
+	<position x="0" y="11.983" z="1.346"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="defense"/>
+	<bHideInHangar attr1="1"/>
+</turret>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="4"/>
+	<activeUpgradeCapacity attr1="4"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="gArmor00"/>
+	<upgradeID attr1="gShield00"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="gunshipFShield00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="gunshipMan00"/>
+	<upgradeID attr1="gunshipThrust00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="gSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="gunshipPUS00"/>
+	<upgradeID attr1="gunshipAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<shipHangarPosition x="0" y="-4.55" z="0"/>
+<shipHangarYOffset attr1="13"/>

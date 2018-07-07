@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="projectile"/> 
+<projectileID attr1="mRP"/> 
+<projectileType attr1="mesh_projectile"/> 
+<meshName attr1="mediumRockP.mesh"/> 
+<projectileVelocity attr1="1200.0"/> 
+<initialLife attr1="3.75"/> 
+<_range attr1="4500.0"/>
+<damage attr1="600.0"/> 
+<weaponPush attr1="11500000.0"/> 
+<explosionID attr1="dirtExp01"/> 
+<instantKillShipClass attr1="fighter"/>
+<projectileExpireExplosionID attr1="dirtExp01"/>

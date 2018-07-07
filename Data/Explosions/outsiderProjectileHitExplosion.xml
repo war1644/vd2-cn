@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="explosion"/> 
+<objectID attr1="oPHit"/> 
+<particleSystemName attr1="vdp_oProjectile_01_hit"/> 
+<life attr1="1.5"/>
+<renderingDistance attr1="2000"/>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="dust_cloud"/> 
+<objectID attr1="smallCDC00"/> 
+<materialName attr1="DustCloud/DustCloud02"/> 
+<maxRangeZ attr1="50"/> 
+<defaultDimensions x="3" y="2"/>
+<initialColor r="0.1" g="0.1" b="0.1" a="0.1"/>
+<count attr1="30"/>

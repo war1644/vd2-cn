@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectID attr1="blueClouds001"/> 
+<materialName attr1="Space/Blue_Clouds"/>
+<factionType attr1="player"/>
+<factionType attr1="civilian"/>
+<factionType attr1="indie"/>
+<factionType attr1="bounty_hunter"/>
+<factionType attr1="neutral"/>
+<factionType attr1="games"/>
+<factionType attr1="corporate"/>
+<factionType attr1="no_faction"/>
+<bGeneric attr1="1"/>

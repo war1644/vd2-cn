@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Wrath"/> 
+<objectID attr1="wrath"/> 
+<faction attr1="reborn"/> 
+<shipClass attr1="gunship"/> 
+<shipClassSize attr1="medium"/>
+<meshName attr1="Wrath.mesh"/>
+<descriptionText attr1="A medium gun ship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Wrath is a versatile craft. Capable of dealing damage at various ranges."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Primarily armed with a modified civilian beam emitter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Boasting an impressive range for a gunship. It augments the low beam damage with three projectile turrets that prioritize the ship's target."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Missile Launcher."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Fires 8 small missiles before needing to reload. Best used against smaller fighters."/>
+<creditCost attr1="345000"/>
+<bBlackMarket attr1="1"/>
+<missionRankRequired attr1="3"/>
+<cruiseSpeed attr1="75.0"/> 
+<timeTillCruise attr1="2.05"/>
+<yaw 	attr1="75.0"/> 
+<pitch	attr1="75.0"/> 
+<roll 	attr1="75.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitActualPos x="0" y="4.375" z="0"/>
+<cockpitActualMesh attr1="cockpitWrath.mesh"/>
+<cockpitInitPos x="0" y="6.875" z="-6.875"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="30.93" z="125"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="4250.0"/> 
+<buildTime	attr1="35.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="275.0"/> 
+<ore		attr1="375.0"/> 
+<damage>
+    <pitch attr1="135.0"/> 
+    <roll attr1="12.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="5.181" y="-3.258" z="9.803"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="wrathD00"/> 
+		<debrisMomentum attr1="4"/> 
+		<debrisAngular attr1="4"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explodeRed02"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp1_25"/>  
+<engineSoundID attr1="eng-01"/> 
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="5.212" y="1.55" z="15.68"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="5.212" y="-1.26" z="16.06"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-5.212" y="1.55" z="15.68"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/>
+	<position x="-5.212" y="-1.26" z="16.06"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="6.25"/>
+    <capacity attr1="12"/>
+    <recharge attr1="15.5"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<weapon> 
+    <weaponType attr1="beam"/> 
+    <hardpointID attr1="wrathB"/> 
+	<weaponPosition x="0.0" y="-7.576" z="-7.237"/>
+	<weaponFire attr1="primary"/> 
+</weapon>
+<weapon> 
+    <weaponType attr1="missile"/> 
+    <hardpointID attr1="wrathML"/> 
+	<weaponPosition x="6.435" y="-6.673" z="2.532"/>
+	<weaponPosition x="4.471" y="-6.673" z="2.532"/>
+	<weaponPosition x="-6.435" y="-6.673" z="2.532"/>
+	<weaponPosition x="-4.471" y="-6.673" z="2.532"/>
+	<barrelDelay attr1="0.33"/> 
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<turret>
+    <turretID attr1="rageTurret01"/>
+	<position x="0.0" y="8.613" z="4.131"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="parents_target"/>
+</turret>
+<turret>
+    <turretID attr1="rageTurret01"/>
+    <turretOrientation attr1="right"/> 
+	<position x="20.432" y="0.09" z="-3.673"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="parents_target"/>
+</turret>
+<turret>
+    <turretID attr1="rageTurret01"/>
+    <turretOrientation attr1="left"/> 
+	<position x="-20.432" y="0.09" z="-3.673"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="parents_target"/>
+</turret>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="2"/>
+	<activeUpgradeCapacity attr1="3"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="gArmor00"/>
+	<upgradeID attr1="gShield00"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="gunshipFShield00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="gunshipMan00"/>
+	<upgradeID attr1="gunshipThrust00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="gSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="gunshipPUS00"/>
+	<upgradeID attr1="gunshipAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="-1.96" z="-5.96"/>
+<shipHangarYOffset attr1="7"/>

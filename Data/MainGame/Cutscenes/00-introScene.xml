@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<screenEffect attr1="fade_in"/>
+	<trigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="playerPG"/>
+		<position x="0" y="0" z="-200"/>
+		<reletiveObject attr1="playerPG"/>
+		<commandType attr1="go_to_position"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="combat07-intro"/> 	
+	</trigger>
+	<attachment attr1="playerPG"/>
+	<cameraPosition x="-50" y="-10" z="-20"/>
+	<duration attr1="7.5"/>
+	<headingText attr1="Palm space..."/>  
+</sceneFragment>
+<sceneFragment>
+	<attachment attr1="playerPG"/>
+	<cameraPosition x="50" y="65" z="-120"/>
+	<duration attr1="4"/> 
+</sceneFragment>
+<sceneFragment>
+	<reletiveObject attr1="playerPG"/>
+	<lookAtObject attr1="playerPG"/> 
+	<cameraPosition x="50" y="65" z="-120"/>
+	<duration attr1="6"/> 
+	<headingText attr1=" "/> 
+	<headingText attr1="Perez fighter final tests"/> 
+</sceneFragment>
+<sceneFragment>
+	<trigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="playerPG"/>
+		<bSetting attr1="0"/>
+	</trigger>
+	<attachment attr1="playerPG"/>
+	<cameraPosition x="30" y="20" z="-65"/>
+	<duration attr1="8"/> 
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="0.1"/>
+	<bResetHeading attr1="1"/>
+	<bResetBody attr1="1"/>
+</sceneFragment>

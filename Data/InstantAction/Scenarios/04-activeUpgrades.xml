@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<displayName attr1="Tutorial - Active Upgrades"/>
+<instantActionID attr1="activeUpgrades00"/>
+<position attr1="0"/>
+<description attr1="Covers: use of active upgrades."/>
+<mainDiffuse x="1" y="1" z="1"/>
+<tacticalDiffuse x="1" y="1" z="1"/>
+<mainAmbient x="0.2" y="0.2" z="0.2"/>
+<tacticalAmbient x="0.2" y="0.2" z="0.2"/>
+<tacticalBackground attr1="Tactical/Background"/>
+<missionFile attr1="04-activeUpgradesMission"/>
+<distantSun_Object>
+	<objectID attr1="maruFWSG"/> 
+    <displayName attr1="Sun"/>
+	<orientation w="0.864242" x="0" y="0.503076" z="0"/>
+	<position x="34060.06" y="10000" z="11433.7"/>
+	<worldScale attr1="1"/>
+</distantSun_Object>
+<ship_Object>
+     <objectID attr1="hornet"/>
+	 <name attr1="tutorialShip"/>
+     <displayName attr1="Hornet"/>
+     <position x="0" y="0" z="0"/>
+     <orientation w="-0.0342839" x="0.00972391" y="0.999343" z="0.0066849"/>
+     <faction attr1="player"/>
+     <bPlayerShip attr1="1"/>
+	 <bCanHavePilotName attr1="0"/>
+</ship_Object>
+<asteroids-go-here attr1="--------------  --------------------------------------- --------------"/>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA0318"/>
+     <orientation w="0.430525" x="0.655039" y="0.595527" z="-0.175842"/>
+     <position x="977.86" y="109.5" z="1066.71"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA1318"/>
+     <orientation w="0.1765" x="0.023138" y="-0.724543" z="-0.665845"/>
+     <position x="938.925" y="38.4084" z="1457.34"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock002"/>
+     <name attr1="Small Asteroid IA2318"/>
+     <orientation w="0.67842" x="-0.170595" y="0.704047" z="-0.122318"/>
+     <position x="697" y="-168.5" z="-66"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA3318"/>
+     <orientation w="0.00984371" x="-0.565174" y="-0.467896" z="-0.679379"/>
+     <position x="633.756" y="-227.5" z="-1179.88"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA4318"/>
+     <orientation w="0.664321" x="0.626726" y="-0.309093" z="0.265244"/>
+     <position x="682" y="-66" z="-828"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock002"/>
+     <name attr1="Small Asteroid IA5318"/>
+     <orientation w="0.612312" x="-0.315126" y="-0.641681" z="-0.337662"/>
+     <position x="-934" y="-830" z="-2485"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock002"/>
+     <name attr1="Large Asteroid IA6318"/>
+     <orientation w="-0.367101" x="0.761336" y="0.182363" z="0.502343"/>
+     <position x="-206.329" y="-995" z="751.548"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock001"/>
+     <name attr1="Small Asteroid IA7318"/>
+     <orientation w="-0.277961" x="-0.252113" y="-0.719269" z="0.584662"/>
+     <position x="-3219" y="-1017.5" z="-1500"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock002"/>
+     <name attr1="Extra Large Asteroid IA8318"/>
+     <orientation w="0.0854114" x="0.714611" y="0.123495" z="-0.683217"/>
+     <position x="1810" y="1725.5" z="2452"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="Extra Large Asteroid IA9318"/>
+     <orientation w="0.564418" x="0.358648" y="0.740627" z="-0.0653863"/>
+     <position x="2958" y="-352.5" z="827"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA10318"/>
+     <orientation w="-0.587366" x="0.308522" y="0.670357" z="0.332319"/>
+     <position x="-759.86" y="802.5" z="-550.085"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="Medium Asteroid IA11318"/>
+     <orientation w="-0.432712" x="0.248679" y="0.802386" z="0.327256"/>
+     <position x="-2357" y="1165" z="1077"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA12318"/>
+     <orientation w="0.5848" x="-0.298963" y="-0.737678" z="-0.156402"/>
+     <position x="910" y="1243.5" z="3319"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="Extra Large Asteroid IA13318"/>
+     <orientation w="0.701207" x="-0.217756" y="-0.662947" z="0.146264"/>
+     <position x="-395.847" y="-1418" z="-666.622"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock002"/>
+     <name attr1="Extra Large Asteroid IA14318"/>
+     <orientation w="-0.160024" x="0.0875957" y="0.429585" z="-0.884407"/>
+     <position x="-2537.49" y="-1047.5" z="-873.663"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="Medium Asteroid IA15318"/>
+     <orientation w="0.541928" x="-0.238213" y="0.670241" z="0.4476"/>
+     <position x="1431.35" y="71" z="-339.645"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="Medium Asteroid IA16318"/>
+     <orientation w="0.285984" x="0.234644" y="-0.926841" z="-0.0641923"/>
+     <position x="3559" y="-1265" z="412"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA17318"/>
+     <orientation w="0.531933" x="0.787626" y="-0.306738" z="0.0510454"/>
+     <position x="697" y="-977" z="-1424"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock002"/>
+     <name attr1="Large Asteroid IA18318"/>
+     <orientation w="0.27496" x="-0.555627" y="-0.775329" z="0.120583"/>
+     <position x="-5718" y="-1247" z="7031"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock003"/>
+     <name attr1="Medium Asteroid IA19318"/>
+     <orientation w="-0.593603" x="0.616946" y="-0.333446" z="-0.39475"/>
+     <position x="-1579" y="-399.5" z="2541"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock002"/>
+     <name attr1="Small Asteroid IA20318"/>
+     <orientation w="0.292087" x="-0.592549" y="-0.750242" z="0.0266107"/>
+     <position x="-6191" y="1855.5" z="3698"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="Medium Asteroid IA21318"/>
+     <orientation w="0.358876" x="0.720237" y="-0.338533" z="0.487712"/>
+     <position x="7610" y="3850" z="-1775"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA22318"/>
+     <orientation w="0.700613" x="-0.636175" y="0.32133" z="-0.0342044"/>
+     <position x="3240" y="-3749.5" z="-1770"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA23318"/>
+     <orientation w="0.816806" x="0.0105611" y="-0.572403" z="-0.0712146"/>
+     <position x="4683" y="3249" z="-6570"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock002"/>
+     <name attr1="Large Asteroid IA24318"/>
+     <orientation w="-0.378933" x="-0.593007" y="-0.00517538" z="-0.710441"/>
+     <position x="4781" y="-1389.5" z="-5810"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="Medium Asteroid IA25318"/>
+     <orientation w="0.314333" x="-0.244784" y="-0.904648" z="-0.151287"/>
+     <position x="-3894" y="-2774" z="-4545"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock001"/>
+     <name attr1="Small Asteroid IA26318"/>
+     <orientation w="-0.301081" x="0.779743" y="0.363504" z="-0.411358"/>
+     <position x="-6268" y="-531" z="-956"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock002"/>
+     <name attr1="Large Asteroid IA27318"/>
+     <orientation w="-0.592535" x="0.577026" y="-0.0630837" z="-0.558538"/>
+     <position x="-6926" y="-3938.5" z="-6362"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="Extra Large Asteroid IA28318"/>
+     <orientation w="0.520607" x="0.435286" y="-0.665594" z="-0.31061"/>
+     <position x="4024" y="282.5" z="2353"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA29318"/>
+     <orientation w="0.628662" x="0.170465" y="0.626413" z="-0.428175"/>
+     <position x="3224" y="3197" z="4042"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA30318"/>
+     <orientation w="0.03966" x="0.736192" y="0.0342836" z="-0.674739"/>
+     <position x="-5347" y="-78" z="-7552"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock002"/>
+     <name attr1="Extra Large Asteroid IA31318"/>
+     <orientation w="0.847448" x="0.0834615" y="0.431685" z="0.297515"/>
+     <position x="4691" y="4107" z="-2167"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA32318"/>
+     <orientation w="0.800103" x="0.331414" y="0.46194" z="-0.191342"/>
+     <position x="-27" y="3565" z="7574"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock003"/>
+     <name attr1="Medium Asteroid IA33318"/>
+     <orientation w="0.216724" x="0.960575" y="-0.168656" z="0.0433752"/>
+     <position x="1949" y="-370.5" z="-6570"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA34318"/>
+     <orientation w="0.703896" x="-0.23829" y="0.597695" z="0.300847"/>
+     <position x="795" y="-3838" z="-2510"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock002"/>
+     <name attr1="Small Asteroid IA35318"/>
+     <orientation w="0.467483" x="-0.115226" y="0.822127" z="0.303793"/>
+     <position x="-845" y="-439" z="-8272"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock002"/>
+     <name attr1="Extra Large Asteroid IA36318"/>
+     <orientation w="0.509475" x="-0.574096" y="0.573115" z="0.287034"/>
+     <position x="-7640" y="4151" z="4339"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock001"/>
+     <name attr1="Small Asteroid IA37318"/>
+     <orientation w="0.0288171" x="-0.775726" y="0.542319" z="0.321417"/>
+     <position x="6916" y="289" z="-2661"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA38318"/>
+     <orientation w="0.417987" x="0.67927" y="-0.292795" z="0.527399"/>
+     <position x="4718" y="3783" z="7341"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock002"/>
+     <name attr1="Small Asteroid IA39318"/>
+     <orientation w="0.686726" x="-0.328697" y="-0.59323" z="0.261617"/>
+     <position x="5642" y="2458.5" z="-2031"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock003"/>
+     <name attr1="Medium Asteroid IA40318"/>
+     <orientation w="0.0263146" x="-0.291917" y="0.353613" z="-0.888285"/>
+     <position x="-4645" y="-359" z="4829"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock002"/>
+     <name attr1="Extra Large Asteroid IA41318"/>
+     <orientation w="0.121048" x="-0.29417" y="0.568092" z="-0.759001"/>
+     <position x="-1768" y="-100" z="6855"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="Medium Asteroid IA42318"/>
+     <orientation w="0.620757" x="0.313506" y="-0.414859" z="0.586742"/>
+     <position x="-6484" y="5365.5" z="6660"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock002"/>
+     <name attr1="Small Asteroid IA43318"/>
+     <orientation w="0.591649" x="0.707007" y="-0.385813" z="-0.0352154"/>
+     <position x="3689.01" y="-278.5" z="-1052.83"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="Extra Large Asteroid IA44318"/>
+     <orientation w="0.170487" x="-0.690487" y="-0.33139" z="0.619953"/>
+     <position x="6700" y="1648.5" z="-7328"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA45318"/>
+     <orientation w="-0.170662" x="-0.728339" y="0.600095" z="0.283342"/>
+     <position x="-5181" y="-1899.5" z="9497"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="Extra Large Asteroid IA46318"/>
+     <orientation w="0.522818" x="-0.757494" y="-0.39087" z="-0.00918117"/>
+     <position x="9817" y="-2550.5" z="-11083"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA47318"/>
+     <orientation w="-0.458121" x="-0.84707" y="0.018568" z="0.2688"/>
+     <position x="1090" y="1363" z="-3572"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="Medium Asteroid IA48318"/>
+     <orientation w="0.543282" x="0.772254" y="-0.0798519" z="-0.31952"/>
+     <position x="-8575" y="5497" z="7008"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA49318"/>
+     <orientation w="0.372764" x="-0.36781" y="0.365754" z="0.769407"/>
+     <position x="9820" y="3722.5" z="424"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA50318"/>
+     <orientation w="0.0994643" x="-0.266029" y="-0.8981" z="0.335786"/>
+     <position x="6034" y="4818.5" z="-4905"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock002"/>
+     <name attr1="Extra Large Asteroid IA51318"/>
+     <orientation w="0.292218" x="-0.108958" y="0.937901" z="-0.151915"/>
+     <position x="-7346" y="1204" z="-5604"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA52318"/>
+     <orientation w="0.874529" x="-0.339576" y="-0.27648" z="0.208436"/>
+     <position x="3037" y="-4421" z="6911"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock001"/>
+     <name attr1="Small Asteroid IA53318"/>
+     <orientation w="-0.468875" x="0.492724" y="0.322283" z="0.658417"/>
+     <position x="-2854" y="-1093.5" z="-3823"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="Medium Asteroid IA54318"/>
+     <orientation w="-0.780239" x="0.260171" y="-0.076659" z="0.563615"/>
+     <position x="-135" y="-1209.5" z="-11828"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA55318"/>
+     <orientation w="0.272686" x="0.107993" y="-0.677083" z="0.674936"/>
+     <position x="8544" y="3687.5" z="-7439"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="Extra Large Asteroid IA56318"/>
+     <orientation w="0.215678" x="0.664723" y="0.137752" z="-0.701891"/>
+     <position x="-7842" y="4168" z="-2770"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA57318"/>
+     <orientation w="-0.438054" x="0.775185" y="0.0876943" z="-0.446662"/>
+     <position x="6227" y="3254" z="4545"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock001"/>
+     <name attr1="Small Asteroid IA58318"/>
+     <orientation w="0.685214" x="0.205871" y="-0.626539" z="-0.309108"/>
+     <position x="-2253" y="4610.5" z="5275"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="Medium Asteroid IA59318"/>
+     <orientation w="0.646486" x="0.345447" y="0.430501" z="-0.52668"/>
+     <position x="7258" y="-1228.5" z="-10372"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA60318"/>
+     <orientation w="0.399312" x="0.881248" y="-0.148623" z="-0.204605"/>
+     <position x="15001" y="-6953.5" z="-127"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA61318"/>
+     <orientation w="0.203536" x="0.794399" y="0.551087" z="-0.154292"/>
+     <position x="7807" y="5044" z="-11038"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA62318"/>
+     <orientation w="0.356799" x="0.762254" y="0.225086" z="0.490917"/>
+     <position x="3563" y="3964" z="7867"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="Extra Large Asteroid IA63318"/>
+     <orientation w="0.627658" x="0.34739" y="0.049238" z="-0.694939"/>
+     <position x="-8262" y="3024" z="13715"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA64318"/>
+     <orientation w="0.334514" x="0.395333" y="-0.798807" z="-0.306138"/>
+     <position x="6931" y="129" z="-13419"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA65318"/>
+     <orientation w="0.0493252" x="-0.705384" y="0.0493251" z="0.705384"/>
+     <position x="161" y="1934.5" z="-4520"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock003"/>
+     <name attr1="Medium Asteroid IA66318"/>
+     <orientation w="0.261019" x="-0.858784" y="-0.265442" z="-0.351994"/>
+     <position x="14592" y="-7357.5" z="2114"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock003"/>
+     <name attr1="Medium Asteroid IA67318"/>
+     <orientation w="0.685591" x="-0.158027" y="-0.699757" z="-0.123825"/>
+     <position x="7730" y="-1530" z="-2499"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock001"/>
+     <name attr1="Small Asteroid IA68318"/>
+     <orientation w="-0.374732" x="0.478384" y="0.655136" z="0.448912"/>
+     <position x="2685" y="-694" z="7559"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="Extra Large Asteroid IA69318"/>
+     <orientation w="0.937747" x="0.0267104" y="-0.332825" z="0.0956322"/>
+     <position x="-10519" y="-1305.5" z="-1385"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA70318"/>
+     <orientation w="0.254159" x="0.265005" y="0.605205" z="-0.70633"/>
+     <position x="12196" y="6641" z="798"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock001"/>
+     <name attr1="Small Asteroid IA71318"/>
+     <orientation w="-0.366286" x="0.5666" y="0.433636" z="0.597293"/>
+     <position x="-14897" y="-6913.5" z="13070"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA72318"/>
+     <orientation w="0.59435" x="0.253481" y="-0.319687" z="0.693033"/>
+     <position x="-3681" y="-6820" z="4969"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock002"/>
+     <name attr1="Large Asteroid IA73318"/>
+     <orientation w="-0.925198" x="-0.0642708" y="-0.0682998" z="0.367714"/>
+     <position x="-14750" y="6476" z="15253"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock003"/>
+     <name attr1="Medium Asteroid IA74318"/>
+     <orientation w="0.128927" x="-0.352048" y="0.291149" z="-0.880155"/>
+     <position x="13015" y="-5411" z="216"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="Extra Large Asteroid IA75318"/>
+     <orientation w="0.0370389" x="0.516558" y="-0.623257" z="-0.585958"/>
+     <position x="-15219" y="994" z="-1292"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA76318"/>
+     <orientation w="0.496296" x="0.49195" y="-0.714482" z="0.0345118"/>
+     <position x="8426" y="2805.5" z="12876"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA77318"/>
+     <orientation w="0.701218" x="0.194169" y="0.52347" z="-0.443363"/>
+     <position x="11665" y="3750.5" z="2975"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA78318"/>
+     <orientation w="0.165437" x="0.846946" y="-0.176958" z="-0.473286"/>
+     <position x="396" y="6277.5" z="-3896"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA79318"/>
+     <orientation w="0.621737" x="-0.268115" y="-0.646979" z="-0.350678"/>
+     <position x="10250" y="-4604" z="17866"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA80318"/>
+     <orientation w="-0.265198" x="0.355831" y="0.805076" z="0.393583"/>
+     <position x="-10335" y="874" z="-6380"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA81318"/>
+     <orientation w="0.49291" x="0.0549505" y="0.624553" z="-0.603286"/>
+     <position x="-7645" y="6387.5" z="14498"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock002"/>
+     <name attr1="Extra Large Asteroid IA82318"/>
+     <orientation w="-0.359493" x="0.903777" y="-0.184676" z="0.14088"/>
+     <position x="2325" y="-2278" z="13087"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA83318"/>
+     <orientation w="-0.309497" x="-0.690296" y="-0.170587" z="-0.63135"/>
+     <position x="-16749" y="-3344.5" z="1455"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="Medium Asteroid IA84318"/>
+     <orientation w="0.747235" x="-0.000786796" y="0.365021" z="-0.555337"/>
+     <position x="13217" y="438.5" z="-2906"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="Medium Asteroid IA85318"/>
+     <orientation w="0.697409" x="0.687569" y="0.165071" z="0.116706"/>
+     <position x="5054" y="-3701" z="-9550"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA86318"/>
+     <orientation w="0.219103" x="-0.488289" y="-0.660428" z="0.52669"/>
+     <position x="-1035" y="-4953.5" z="-18449"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA87318"/>
+     <orientation w="0.00675043" x="0.762921" y="-0.031338" z="-0.645697"/>
+     <position x="4345" y="-7020" z="-10743"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock002"/>
+     <name attr1="Extra Large Asteroid IA88318"/>
+     <orientation w="0.210531" x="0.340322" y="0.257699" z="-0.879459"/>
+     <position x="-6299" y="6639" z="6795"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA89318"/>
+     <orientation w="0.230925" x="-0.00963305" y="-0.557086" z="0.797644"/>
+     <position x="689" y="-2015.5" z="-1981"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA90318"/>
+     <orientation w="0.110256" x="0.942475" y="-0.240391" z="0.204442"/>
+     <position x="-11716" y="4343" z="-6029"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock003"/>
+     <name attr1="Medium Asteroid IA91318"/>
+     <orientation w="0.859206" x="0.174574" y="-0.40951" z="-0.252172"/>
+     <position x="1131" y="8618.5" z="11417"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock002"/>
+     <name attr1="Small Asteroid IA92318"/>
+     <orientation w="0.849722" x="0.0572359" y="0.524108" z="-0.00274682"/>
+     <position x="-2923" y="-3218" z="-947"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock002"/>
+     <name attr1="Extra Large Asteroid IA93318"/>
+     <orientation w="0.489316" x="-0.249006" y="-0.795303" z="-0.257019"/>
+     <position x="15961" y="-4257" z="13928"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock002"/>
+     <name attr1="Extra Large Asteroid IA94318"/>
+     <orientation w="-0.339186" x="-0.5845" y="0.255735" z="-0.691312"/>
+     <position x="12256" y="285.5" z="8142"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA95318"/>
+     <orientation w="-0.661331" x="-0.375223" y="0.0671157" z="-0.646022"/>
+     <position x="-6759" y="-3138" z="-16818"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="Extra Large Asteroid IA96318"/>
+     <orientation w="0.676148" x="-0.30733" y="0.517932" z="0.424403"/>
+     <position x="2283" y="1384" z="-3533"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA97318"/>
+     <orientation w="0.230771" x="-0.801665" y="0.241453" z="0.49576"/>
+     <position x="-10410" y="-5373.5" z="4960"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA98318"/>
+     <orientation w="0.114384" x="-0.762182" y="-0.0042534" z="0.637164"/>
+     <position x="4466" y="2005.5" z="973"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock003"/>
+     <name attr1="Medium Asteroid IA99318"/>
+     <orientation w="0.0661029" x="-0.0239113" y="0.889079" z="0.452325"/>
+     <position x="7924" y="-5858" z="-4485"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA100291"/>
+     <orientation w="0.633415" x="-0.0731455" y="0.420569" z="-0.645412"/>
+     <position x="50" y="-138.5" z="-489"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA101291"/>
+     <orientation w="0.795396" x="0.314867" y="-0.510941" z="0.0845204"/>
+     <position x="194" y="-22.5" z="458"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock002"/>
+     <name attr1="Large Asteroid IA102291"/>
+     <orientation w="-0.810131" x="0.227567" y="-0.506658" z="-0.187614"/>
+     <position x="76" y="397.5" z="-375"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA103291"/>
+     <orientation w="0.557576" x="0.391129" y="-0.68426" z="-0.260606"/>
+     <position x="623" y="553.5" z="-1206"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA104291"/>
+     <orientation w="0.0596367" x="-0.188125" y="0.052736" z="0.978913"/>
+     <position x="-75" y="937" z="1689"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="Medium Asteroid IA105291"/>
+     <orientation w="0.588494" x="0.522301" y="-0.478867" z="0.389312"/>
+     <position x="-1708" y="508" z="2603"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock002"/>
+     <name attr1="Small Asteroid IA106291"/>
+     <orientation w="0.199475" x="0.703248" y="0.614055" z="0.297637"/>
+     <position x="776" y="396.5" z="310"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock002"/>
+     <name attr1="Extra Large Asteroid IA107291"/>
+     <orientation w="0.0568517" x="-0.458112" y="0.241208" z="-0.853651"/>
+     <position x="977" y="1802.5" z="-1455"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock001"/>
+     <name attr1="Medium Asteroid IA108291"/>
+     <orientation w="0.126201" x="0.802976" y="-0.265112" z="-0.51867"/>
+     <position x="500.149" y="1127.5" z="-3393.08"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA109291"/>
+     <orientation w="0.848145" x="-0.0895828" y="0.484854" z="0.193755"/>
+     <position x="-3569" y="-2136" z="68"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock001"/>
+     <name attr1="Small Asteroid IA110291"/>
+     <orientation w="0.566566" x="-0.0628752" y="0.594091" z="-0.567543"/>
+     <position x="-2242" y="560" z="96"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock003"/>
+     <name attr1="Medium Asteroid IA111291"/>
+     <orientation w="0.585105" x="-0.707606" y="0.204017" z="0.339594"/>
+     <position x="3091" y="-1879" z="-4693"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock001"/>
+     <name attr1="Extra Large Asteroid IA112291"/>
+     <orientation w="0.474066" x="-0.198618" y="-0.349803" z="-0.783231"/>
+     <position x="-3164" y="1364.5" z="6387"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="Extra Large Asteroid IA113291"/>
+     <orientation w="0.124549" x="0.966058" y="0.226306" z="0.00208947"/>
+     <position x="5564" y="-1983.5" z="-3092"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA114291"/>
+     <orientation w="0.540664" x="-0.523253" y="-0.38118" z="-0.537206"/>
+     <position x="-4545" y="-1350.5" z="-4463"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA115291"/>
+     <orientation w="0.462258" x="0.494152" y="-0.619648" z="0.397703"/>
+     <position x="-3916" y="3101" z="465"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock002"/>
+     <name attr1="Large Asteroid IA116291"/>
+     <orientation w="0.451993" x="-0.861249" y="-0.054862" z="-0.225706"/>
+     <position x="6173" y="657.5" z="660"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA117291"/>
+     <orientation w="-0.0443791" x="-0.638611" y="-0.00474922" z="0.768234"/>
+     <position x="6200" y="2801" z="1676"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA118291"/>
+     <orientation w="0.491197" x="0.50865" y="-0.683013" z="0.183013"/>
+     <position x="8045" y="-1762" z="-2850"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock003"/>
+     <name attr1="Small Asteroid IA119291"/>
+     <orientation w="0.823016" x="0.552391" y="-0.0238551" z="-0.130157"/>
+     <position x="2342" y="-4532.5" z="846"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA120254"/>
+     <orientation w="-0.93976" x="-0.30203" y="0.138738" z="-0.0798865"/>
+     <position x="4306.39" y="0" z="-4557.06"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock002"/>
+     <name attr1="Small Asteroid IA121254"/>
+     <orientation w="0.311925" x="0.642573" y="-0.262937" z="0.648588"/>
+     <position x="4171.14" y="-39.3528" z="-3726.46"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock001"/>
+     <name attr1="Small Asteroid IA122254"/>
+     <orientation w="0.135616" x="-0.401793" y="0.351437" z="0.834663"/>
+     <position x="4273.04" y="36.8969" z="-3534.21"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="tinyRock002"/>
+     <name attr1="Tiny Asteroid IA123254"/>
+     <orientation w="0.638603" x="0.713993" y="0.27352" z="0.0871085"/>
+     <position x="4084.22" y="-38.3387" z="-3850.77"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="tinyRock003"/>
+     <name attr1="Tiny Asteroid IA124254"/>
+     <orientation w="0.126028" x="0.1319" y="0.743087" z="0.643849"/>
+     <position x="4076.89" y="35.4302" z="-3848.59"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock001"/>
+     <name attr1="Large Asteroid IA125254"/>
+     <orientation w="0.633564" x="-0.0344959" y="0.771505" z="-0.0467577"/>
+     <position x="5119.51" y="335.077" z="-3315.82"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock002"/>
+     <name attr1="Large Asteroid IA126254"/>
+     <orientation w="0.30707" x="-0.0830453" y="0.932738" z="-0.169741"/>
+     <position x="-993.598" y="0" z="-3437.34"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA127254"/>
+     <orientation w="0.580682" x="0.0111313" y="0.0456308" z="0.812775"/>
+     <position x="446.491" y="-168.84" z="-2932.7"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock002"/>
+     <name attr1="Small Asteroid IA128254"/>
+     <orientation w="0.133792" x="-0.300947" y="0.903559" z="0.274066"/>
+     <position x="-157.014" y="278.87" z="-3098.89"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA129254"/>
+     <orientation w="0.401088" x="0.798198" y="-0.312943" z="0.322607"/>
+     <position x="-4360.96" y="-174.69" z="-3185.58"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock001"/>
+     <name attr1="Small Asteroid IA130254"/>
+     <orientation w="0.287305" x="0.0349608" y="0.875" z="-0.388084"/>
+     <position x="-3047.32" y="430.93" z="-2555.73"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="smallRock002"/>
+     <name attr1="Small Asteroid IA131254"/>
+     <orientation w="-0.274741" x="0.641124" y="0.311523" z="0.645315"/>
+     <position x="-5170.06" y="0.00012207" z="-740.545"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock002"/>
+     <name attr1="Large Asteroid IA132254"/>
+     <orientation w="0.0896159" x="0.662325" y="-0.594931" z="-0.446488"/>
+     <position x="-5315.23" y="121.78" z="791.573"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA133254"/>
+     <orientation w="-0.299518" x="-0.884776" y="0.239262" z="0.264979"/>
+     <position x="-6310.48" y="-241.04" z="-296.268"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA134254"/>
+     <orientation w="0.759467" x="-0.335817" y="0.350708" z="-0.432945"/>
+     <position x="-637.03" y="-127.39" z="5413.67"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="largeRock002"/>
+     <name attr1="Large Asteroid IA135254"/>
+     <orientation w="0.717729" x="-0.111127" y="-0.33605" z="-0.599655"/>
+     <position x="184.999" y="136.15" z="5909.52"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="extraLargeRock003"/>
+     <name attr1="Extra Large Asteroid IA136254"/>
+     <orientation w="0.701098" x="-0.0232349" y="0.712685" z="0.00144261"/>
+     <position x="5646.58" y="100.89" z="-497.433"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroid_Object>
+     <objectID attr1="mediumRock002"/>
+     <name attr1="Medium Asteroid IA137254"/>
+     <orientation w="0.0481211" x="0.723605" y="0.479383" z="0.494239"/>
+     <position x="5540.03" y="-96.1101" z="509.684"/>
+     <faction attr1="none"/>
+     <bActivateOnDamage attr1="0"/>
+</asteroid_Object>
+<asteroids-go-here attr1="--------------  --------------------------------------- --------------"/>
+<cameraPosition x="-1426.04" y="469.69" z="-1316.46"/>
+<cameraOrientation w="0.39823" x="-0.0475022" y="-0.909607" z="-0.108501"/>

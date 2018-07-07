@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="pilarMT"/> 
+<name attr1="Quad Launcher"/> 
+<turretWeapon attr1="missile"/>
+<hardpointID attr1="pilarML"/>
+<turretBarrel>
+	<weaponPosition x="4.769" y="0.225" z="-18.399"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="3.582" y="0.225" z="-18.399"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-4.769" y="0.225" z="-18.399"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-3.582" y="0.225" z="-18.399"/>
+</turretBarrel>
+<turretViewPos x="0.0" y="2.8" z="0.5"/>
+<barrelDelay attr1="0.25"/>
+<weaponDirection>
+	<yaw attr1="0.0"/>
+	<pitch attr1="0.0"/>
+	<roll attr1="0.0"/>
+</weaponDirection>

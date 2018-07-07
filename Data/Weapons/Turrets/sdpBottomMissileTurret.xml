@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="sdpBMT"/> 
+<name attr1="Triple Launcher"/> 
+<turretWeapon attr1="missile"/>
+<hardpointID attr1="lancerML"/>
+<turretBarrel>
+	<weaponPosition x="45.189" y="-14.579" z="-65.16"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="56.52" y="-14.579" z="-53.83"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="68.02" y="-14.579" z="-42.325"/>
+</turretBarrel>
+<turretViewPos x="0.0" y="2.8" z="0.5"/>
+<barrelDelay attr1="0.35"/>
+<weaponDirection>
+	<yaw attr1="0.0"/>
+	<pitch attr1="-90.0"/>
+	<roll attr1="0.0"/>
+</weaponDirection>
+<targetPriorityList> 
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="corvette"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="attack_station"/> 
+	<targetClass attr1="gunship"/> 	
+	<targetClass attr1="fighter"/>	
+</targetPriorityList>

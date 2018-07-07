@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Rex"/> 
+<objectID attr1="rex"/> 
+<faction attr1="beggar"/> 
+<shipClass attr1="carrier"/> 
+<meshName attr1="Rex.mesh"/> 
+<descriptionText attr1="A pirate carrier."/>
+<descriptionText attr1=" "/>
+<bUniqueShip attr1="1"/>
+<creditCost attr1="55000000"/>
+<cruiseSpeed attr1="8"/> 
+<timeTillCruise attr1="5.5"/> 
+<yaw 	attr1="5.0"/> 
+<pitch	attr1="5.0"/> 
+<roll 	attr1="5.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitInitPos x="0" y="126.46" z="349.39"/>
+<cockpitTransLimit x="0.5" y="0.5" z="0.5"/> 
+<chaseInitPos x="0" y="358.21" z="1648.51"/>
+<chaseTransLimit x="5.0" y="1.0" z="1.0"/> 
+<health attr1="450000.0"/>
+<armor attr1="1.5"/>
+<buildTime	attr1="100"/> 
+<crew 		attr1="60.0"/> 
+<energy		attr1="1000.0"/> 
+<ore		attr1="2000.0"/> 
+<deathTimer attr1="9"/> 
+<deathSpin x="0.05" y="0.025" z="-0.031"/> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="123.24" y="-0.68" z="429.31"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/> 
+	<position x="77.12" y="47.46" z="535.75"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/> 
+	<position x="77.15" y="-50.72" z="536.39"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="-123.24" y="-0.68" z="429.31"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/> 
+	<position x="-77.12" y="47.46" z="535.75"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion250"/> 
+	<position x="-77.15" y="-50.72" z="536.39"/>
+</propulsion> 
+<turret>
+    <turretID attr1="rexTurret01"/>
+	<position x="0" y="96.46" z="-93.49"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="rexTurret01"/>
+	<position x="0" y="100.01" z="149.19"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+	<position x="30.48" y="71.77" z="-10.75"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+	<position x="52.27" y="72.6" z="42.61"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+	<position x="52.38" y="72.6" z="173.45"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+	<position x="31.37" y="72.36" z="-137.41"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+	<position x="-30.48" y="71.77" z="-10.75"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+	<position x="-52.27" y="72.6" z="42.61"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+	<position x="-52.38" y="72.6" z="173.45"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+	<position x="-31.37" y="72.36" z="-137.41"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+	<position x="8.62" y="-82.45" z="42.47"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+	<turretOrientation attr1="bottom"/> 
+</turret>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+	<position x="-8.62" y="-82.45" z="42.47"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="point_defense"/>
+	<turretOrientation attr1="bottom"/> 
+</turret>
+<hangarID attr1="prideShipH00"/> 
+<collisionShape attr1="mover_trimesh"/>

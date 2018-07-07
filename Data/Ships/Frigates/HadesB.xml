@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="HadesB"/> 
+<objectID attr1="hadesB"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="frigate"/>
+<shipClassSize attr1="heavy"/>
+<meshName attr1="HadesB.mesh"/>
+<descriptionText attr1="A civilian combat frigate."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Although the HadesB takes many elements from its mining variant brother. The beam emitters have been modified for combat giving them greater accuracy. Additional power plants were also added to increase the yield."/>
+<creditCost attr1="15000000"/>
+<missionRankRequired attr1="6"/>
+<bCanPurchase attr1="1"/>
+<cruiseSpeed attr1="28.0"/> 
+<timeTillCruise attr1="3.7"/>
+<yaw 	attr1="29.0"/> 
+<pitch	attr1="29.0"/> 
+<roll 	attr1="29.0"/> 
+<bGravityDrive attr1="1"/>
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="-37" y="41" z="40.4"/>
+<bHideShipInCockpitAcutal attr1="0"/>
+<cockpitInitPos x="0" y="81" z="132"/>
+<cockpitTransLimit x="3" y="3" z="3"/> 
+<chaseInitPos x="0" y="276" z="960"/>
+<chaseTransLimit x="20" y="20" z="20"/> 
+<health attr1="135000.0"/>
+<armor attr1="1.25"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="600.0"/> 
+<damage>
+    <pitch attr1="12.0"/> 
+    <roll attr1="-90.0"/> 
+	<yaw attr1="-12.0"/> 
+	<position x="8.914" y="43.832" z="134.138"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage04"/>
+</damage>
+<damage>
+    <pitch attr1="180.0"/> 
+    <roll attr1="-15.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="-43.789" y="-8.947" z="154.867"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage03"/>
+</damage>
+<damage>
+    <pitch attr1="21.0"/> 
+    <roll attr1="-55.0"/> 
+	<yaw attr1="11.0"/> 
+	<position x="15.885" y="33.429" z="58.201"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="21.0"/> 
+    <roll attr1="77.0"/> 
+	<yaw attr1="11.0"/> 
+	<position x="-15.209" y="33.429" z="99.199"/>
+	<healthPoint attr1="0.58"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<deathTimer attr1="6"/> 
+<deathSpin x="-0.054" y="-0.083" z="-0.073"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="hadesD00"/> 
+		<debrisMomentum attr1="2"/> 
+		<debrisAngular attr1="2"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="hadesD01"/> 
+		<debrisMomentum attr1="3"/> 
+		<debrisAngular attr1="3"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode05"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<preExplosionID attr1="explode03"/>
+<tacticalExplosionID attr1="tacExp2_60"/> 
+<engineSoundID attr1="eng-03"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="53.508" y="0" z="187.14"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="-53.508" y="0" z="187.14"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="34.248" y="0" z="201.132"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="-34.248" y="0" z="201.132"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="0" y="53.5" z="186.888"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="0" y="-53.5" z="186.888"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="0" y="34.164" z="200.9"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="0" y="-34.164" z="200.9"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="40.152" y="0" z="-190.284"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="-40.152" y="0" z="-190.284"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="25.692" y="0" z="-201"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="-25.692" y="0" z="-201"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="11.772" y="26.364" z="-148.248"/>
+	<direction attr1="port"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="11.772" y="-26.364" z="-148.248"/>
+	<direction attr1="port"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="19.62" y="43.272" z="151.836"/>
+	<direction attr1="port"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="19.62" y="-43.272" z="151.836"/>
+	<direction attr1="port"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-11.772" y="26.364" z="-148.248"/>
+	<direction attr1="starboard"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-11.772" y="-26.364" z="-148.248"/>
+	<direction attr1="starboard"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-19.62" y="43.272" z="151.836"/>
+	<direction attr1="starboard"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-19.62" y="-43.272" z="151.836"/>
+	<direction attr1="starboard"/>
+</propulsion>
+<bNoTargetAimNodeOffset attr1="1"/>
+<weapon> 
+    <weaponType attr1="beam"/> 
+    <hardpointID attr1="hadesB00"/> 
+	<weaponPosition x="0" y="56.76" z="-120.096"/>
+	<weaponPosition x="56.772" y="0.04" z="-118.92"/>
+	<weaponPosition x="0" y="-56.76" z="-120.096"/>
+	<weaponPosition x="-56.772" y="0.04" z="-118.92"/>
+</weapon>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<position x="0" y="72.265" z="145"/>
+	<pitchLower attr1="-2"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<position x="0" y="-72.265" z="145"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="bottom"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<rotatingElement> 
+	<boneName attr1="beamArray"/>
+	<rollSpeed attr1="7"/> 
+	<bLinkedToWeapon attr1="1"/>
+</rotatingElement>
+<rotatingElement> 
+	<boneName attr1="rearRotatingArray"/> 
+	<rollSpeed attr1="14"/> 
+</rotatingElement>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="5"/>
+	<activeUpgradeCapacity attr1="6"/>
+	<upgradeID attr1="gunPod00"/>
+	<upgradeID attr1="dTurrets00"/>
+	<upgradeID attr1="frArmor00"/>
+	<upgradeID attr1="frShield00"/>
+	<upgradeID attr1="frShieldRecharge00"/>
+	<upgradeID attr1="frUpgradeRecharge00"/>
+	<upgradeID attr1="afterburnerFrig00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="frigateMan00"/>
+	<upgradeID attr1="frigateThrust00"/>
+	<upgradeID attr1="frAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="frArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="frSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="frigatePUS00"/>
+	<upgradeID attr1="frigateAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bLargeDockOnly attr1="1"/>

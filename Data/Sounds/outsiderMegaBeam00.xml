@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="looping"/>
+<objectID attr1="oMegBS00"/>
+<soundFile attr1="outsiderMegaBeam00.wav"/>
+<tailSound attr1="outsiderMegaBeamTail00.wav"/>
+<maxDistance attr1="8500"/> 
+<referenceDistance attr1="4000"/>
+<defaultVolume attr1="0.6"/>
+<soundPriority attr1="180"/>

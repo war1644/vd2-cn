@@ -1,0 +1,1665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bForceSwitchToSpace attr1="1"/>
+<sun_Object>
+	<objectID attr1="eveSun"/> 
+	<name attr1="eve"/>
+    <displayName attr1="Eve"/>
+	<position x="0" y="0" z="0"/>
+	<gate_Object>
+		 <objectID attr1="sunGate"/>
+		 <name attr1="Sun Gate"/>
+		 <faction attr1="tsf"/>
+		 <scale attr1="0.06"/>
+		 <bAlwaysRender attr1="1"/>
+	</gate_Object>
+	<scale attr1="25"/>
+	<bAlwaysRender attr1="1"/>
+	<shipModeBackground attr1="Space/Red_Space"/>
+</sun_Object>
+<gates_below attr1=" ---------------------------------- " />
+<gate_Object>
+	 <objectID attr1="ruinedRockGate00"/>
+	 <name attr1="ruinedRockGate00"/>
+	 <displayName attr1="Ruined Gate"/>
+	 <position x="7500" y="0" z="-550"/>
+	 <faction attr1="rockGuys"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate01-A"/>
+	 <displayName attr1="Gate 01-A"/>
+	 <position x="-6521" y="0" z="-710"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate01-B"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate01-B"/>
+	 <displayName attr1="Gate 01-B"/>
+	 <position x="-4424" y="0" z="-2396"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate01-A"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate02-A"/>
+	 <displayName attr1="Gate 02-A"/>
+	 <position x="-3767" y="0" z="-2208"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate02-B"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate02-B"/>
+	 <displayName attr1="Gate 02-B"/>
+	 <position x="-1141" y="0" z="-1402"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate02-A"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate03-A"/>
+	 <displayName attr1="Gate 03-A"/>
+	 <position x="-259" y="0" z="-1350"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate03-B"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate03-B"/>
+	 <displayName attr1="Gate 03-B"/>
+	 <position x="449" y="0" z="-2669"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate03-A"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate04-A"/>
+	 <displayName attr1="Gate 04-A"/>
+	 <position x="-3543" y="0" z="-230"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate04-B"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate04-B"/>
+	 <displayName attr1="Gate 04-B"/>
+	 <position x="-750" y="0" z="-230"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate04-A"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate05-A"/>
+	 <displayName attr1="Gate 05-A"/>
+	 <position x="1050" y="0" z="-1050"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate05-B"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate05-B"/>
+	 <displayName attr1="Gate 05-B"/>
+	 <position x="4050" y="0" z="-1050"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate05-A"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate06-A"/>
+	 <displayName attr1="Gate 06-A"/>
+	 <position x="4234" y="0" z="-1612"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate06-B"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate06-B"/>
+	 <displayName attr1="Gate 06-B"/>
+	 <position x="3733" y="0" z="-3087"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate06-A"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate07-A"/>
+	 <displayName attr1="Gate 07-A"/>
+	 <position x="4372" y="0" z="-220"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate07-B"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate07-B"/>
+	 <displayName attr1="Gate 07-B"/>
+	 <position x="2921" y="0" z="1517"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate07-A"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate08-A"/>
+	 <displayName attr1="Gate 08-A"/>
+	 <position x="2177" y="0" z="2595"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate08-B"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate08-B"/>
+	 <displayName attr1="Gate 08-B"/>
+	 <position x="-743" y="0" z="1245"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate08-A"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate09-A"/>
+	 <displayName attr1="Gate 09-A"/>
+	 <position x="-2212" y="0" z="1570"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate09-B"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate09-B"/>
+	 <displayName attr1="Gate 09-B"/>
+	 <position x="-4078" y="0" z="2532"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate09-A"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate10-A"/>
+	 <displayName attr1="Gate 10-A"/>
+	 <position x="-5357" y="0" z="2281"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate10-B"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gate_Object>
+	 <objectID attr1="gate00"/>
+	 <objectVersionID attr1="4"/>
+	 <name attr1="gate10-B"/>
+	 <displayName attr1="Gate 10-B"/>
+	 <position x="-7120" y="0" z="910"/>
+	 <faction attr1="tsf"/>
+	 <linkedGate attr1="gate10-A"/>
+	 <_scale attr1="0.06"/>
+</gate_Object>
+<gates_above attr1=" ---------------------------------- " />
+<ship_Object>
+	 <objectID attr1="hornet"/>
+	 <displayName attr1="Hornet - Alpha 1"/>
+	 <bPlayer attr1="1"/>
+     <position x="-7700" y="0" z="410"/>
+     <orientation w="0.730647" x="-4.65661e-010" y="-0.682756" z="-2.32831e-010"/>
+     <faction attr1="player"/>
+	 <scriptedMissionID attr1="main00"/>
+</ship_Object>
+<base_Object>
+     <objectID attr1="palm"/>
+     <name attr1="palm"/>
+	 <displayName attr1="Palm"/>
+     <position x="-600" y="0" z="-1000"/>
+     <faction attr1="tsf"/>
+	 <missionDifficulty attr1="very_hard"/>
+	 <platform_Object>
+		 <objectID attr1="sdp"/>
+		 <name attr1="pSDP1"/>
+		 <reletivePosition x="10" y="0" z="-20"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="sdp"/>
+		 <name attr1="pSDP2"/>
+		 <reletivePosition x="-10" y="0" z="-20"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="tsfShipyard00"/>
+		 <name attr1="pShipyard1"/>
+		 <reletivePosition x="-20" y="-7.5" z="-20"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	</platform_Object>
+	<defense_ship attr1="triton"/>
+	<defense_ship attr1="mark13"/>
+	<defense_ship attr1="victory"/>
+	<defense_ship attr1="roals"/>
+	<defense_ship attr1="roals"/>
+	<defense_ship attr1="correa"/>
+	<defense_ship attr1="correa"/>
+	<defense_ship attr1="correa"/>
+	<defense_ship attr1="correa"/>
+	<defense_ship attr1="perezGMK2"/>
+	<defense_ship attr1="perezGMK2"/>
+	<defense_ship attr1="perezGMK2"/>
+	<defense_ship attr1="perezGMK2"/>
+	<defense_ship attr1="perezGMK2"/>
+	<energyCostType attr1="consumer"/>
+	<foodCostType attr1="consumer"/>
+	<oreCostType attr1="consumer"/>
+	<weaponsCostType attr1="producer"/>
+ 	<narcoticsCostType attr1="no_use"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="karakum"/>
+     <name attr1="karakum"/>
+	 <displayName attr1="Karakum"/>
+     <position x="800" y="0" z="-1300"/>
+     <faction attr1="rockGuys"/>
+	 <missionDifficulty attr1="very_hard"/>
+	 <platform_Object>
+          <objectID attr1="htRoid001"/>
+          <name attr1="kHtRoid001-01"/>
+          <faction attr1="rockGuys"/>
+          <scale attr1="0.01"/>
+          <reletivePosition x="5" y="0" z="-10"/>
+     </platform_Object>
+     <platform_Object>
+          <objectID attr1="htRoid001"/>
+          <name attr1="kHtRoid001-02"/>
+          <faction attr1="rockGuys"/>
+          <scale attr1="0.01"/>
+          <reletivePosition x="-5" y="0" z="-10"/>
+     </platform_Object>
+	 <platform_Object>
+          <objectID attr1="htRoid001"/>
+          <name attr1="kHtRoid001-03"/>
+          <faction attr1="rockGuys"/>
+          <scale attr1="0.01"/>
+          <reletivePosition x="10" y="-5" z="-15"/>
+     </platform_Object>
+     <platform_Object>
+          <objectID attr1="htRoid001"/>
+          <name attr1="kHtRoid001-04"/>
+          <faction attr1="rockGuys"/>
+          <scale attr1="0.01"/>
+          <reletivePosition x="-10" y="-5" z="-15"/>
+     </platform_Object>
+     <defense_ship attr1="raider"/>
+     <defense_ship attr1="raider"/>
+     <defense_ship attr1="raider"/>
+     <defense_ship attr1="theBeast"/>
+     <defense_ship attr1="theBeast"/>
+	 <defense_ship attr1="theBear"/>
+	 <defense_ship attr1="theBeast"/>
+	 <defense_ship attr1="theBeast"/>
+	 <defense_ship attr1="raider"/>
+     <defense_ship attr1="raider"/>
+     <defense_ship attr1="raider"/>
+     <defense_ship attr1="duelistMK2"/>
+     <defense_ship attr1="duelistMK2"/>
+     <defense_ship attr1="duelistMK2"/>
+     <defense_ship attr1="duelistMK2"/>
+     <defense_ship attr1="duelistMK2"/>
+ 	 <energyCostType attr1="consumer"/>
+	 <foodCostType attr1="consumer"/>
+	 <oreCostType attr1="producer"/>
+ 	 <weaponsCostType attr1="consumer"/>
+ 	 <narcoticsCostType attr1="consumer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="petra"/>
+	 <objectVersionID attr1="5"/>
+     <name attr1="petra"/>
+	 <displayName attr1="Petra"/>
+     <position x="3197" y="0" z="-1716"/>
+     <faction attr1="rockGuys"/>
+	 <missionDifficulty attr1="very_hard"/>
+	 <platform_Object>
+          <objectID attr1="htRoid001"/>
+		  <objectVersionID attr1="5"/>
+          <name attr1="pHtRoid001-01"/>
+          <faction attr1="rockGuys"/>
+          <scale attr1="0.01"/>
+          <reletivePosition x="5" y="0" z="-10"/>
+     </platform_Object>
+     <platform_Object>
+          <objectID attr1="htRoid001"/>
+		  <objectVersionID attr1="5"/>
+          <name attr1="pHtRoid001-02"/>
+          <faction attr1="rockGuys"/>
+          <scale attr1="0.01"/>
+          <reletivePosition x="-5" y="0" z="-10"/>
+     </platform_Object>
+	 <platform_Object>
+          <objectID attr1="htRoid001"/>
+		  <objectVersionID attr1="5"/>
+          <name attr1="pHtRoid001-03"/>
+          <faction attr1="rockGuys"/>
+          <scale attr1="0.01"/>
+          <reletivePosition x="10" y="-5" z="-15"/>
+     </platform_Object>
+     <platform_Object>
+          <objectID attr1="htRoid001"/>
+		  <objectVersionID attr1="5"/>
+          <name attr1="pHtRoid001-04"/>
+          <faction attr1="rockGuys"/>
+          <scale attr1="0.01"/>
+          <reletivePosition x="-10" y="-5" z="-15"/>
+     </platform_Object>
+     <defense_ship attr1="raider"/>
+     <defense_ship attr1="raider"/>
+     <defense_ship attr1="raider"/>
+     <defense_ship attr1="theBeast"/>
+     <defense_ship attr1="theBeast"/>
+	 <defense_ship attr1="theBear"/>
+	 <defense_ship attr1="theBeast"/>
+	 <defense_ship attr1="theBeast"/>
+	 <defense_ship attr1="raider"/>
+     <defense_ship attr1="raider"/>
+     <defense_ship attr1="raider"/>
+     <defense_ship attr1="duelistMK2"/>
+     <defense_ship attr1="duelistMK2"/>
+     <defense_ship attr1="duelistMK2"/>
+     <defense_ship attr1="duelistMK2"/>
+     <defense_ship attr1="duelistMK2"/>
+ 	 <energyCostType attr1="consumer"/>
+	 <foodCostType attr1="consumer"/>
+	 <oreCostType attr1="producer"/>
+ 	 <weaponsCostType attr1="consumer"/>
+ 	 <narcoticsCostType attr1="consumer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="tradingOutpost00"/>
+     <name attr1="tradingOutpost01"/>
+	 <displayName attr1="Trading Outpost 01"/>
+     <position x="2229" y="0" z="-786"/>
+     <faction attr1="civilian"/>
+	 <missionDifficulty attr1="hard"/>
+	 <defense_ship attr1="hades"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <energyCostType attr1="retailer"/>
+	 <foodCostType attr1="retailer"/>
+	 <oreCostType attr1="retailer"/>
+	 <weaponsCostType attr1="consumer"/>
+ 	 <narcoticsCostType attr1="consumer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="newTroy"/>
+     <name attr1="newTroy"/>
+	 <displayName attr1="New Troy"/>
+     <position x="-3392" y="0" z="619"/>
+     <faction attr1="civilian"/>
+	 <missionDifficulty attr1="hard"/>
+	 <defense_ship attr1="hades"/>
+	 <defense_ship attr1="hades"/>
+	 <defense_ship attr1="hades"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <platform_Object>
+		 <objectID attr1="cdp01-2"/>
+		 <name attr1="nCdp01"/>
+		 <reletivePosition x="7" y="0" z="-15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="civilian"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="cdp01-2"/>
+		 <name attr1="nCdp02"/>
+		 <reletivePosition x="-7" y="0" z="-15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="civilian"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="energyPlatform01"/>
+		 <name attr1="nEP01-01"/>
+		 <reletivePosition x="10" y="-10" z="15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="civilian"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="foodPlatform01"/>
+		 <name attr1="nFP01-01"/>
+		 <reletivePosition x="-10" y="-15" z="15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="civilian"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="repairPlatform00"/>
+		 <name attr1="NTShipyard1"/>
+		 <reletivePosition x="-20" y="-7.5" z="-20"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="civilian"/>
+	</platform_Object>
+	<energyCostType attr1="retailer"/>
+	<foodCostType attr1="retailer"/>
+	<oreCostType attr1="retailer"/>
+	<weaponsCostType attr1="consumer"/>
+ 	<narcoticsCostType attr1="consumer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="demeter"/>
+     <name attr1="demeter"/>
+	 <displayName attr1="Demeter"/>
+     <position x="-4276" y="0" z="-511"/>
+     <faction attr1="civilian"/>
+	 <missionDifficulty attr1="easy"/>
+	 <defense_ship attr1="hades"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <platform_Object>
+		 <objectID attr1="energyPlatform01"/>
+		 <name attr1="dEP01-01"/>
+		 <reletivePosition x="10" y="-10" z="15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="civilian"/>
+	 </platform_Object>
+	 <energyCostType attr1="consumer"/>
+	 <foodCostType attr1="producer"/>
+	 <oreCostType attr1="retailer"/>
+	 <weaponsCostType attr1="consumer"/>
+ 	 <narcoticsCostType attr1="consumer"/>
+</base_Object>
+<base_Object>
+	 <objectID attr1="miningBase00"/>
+	 <name attr1="miningBase01"/>
+	 <displayName attr1="MB 001"/>
+	 <position x="-5251" y="0" z="-2673"/>
+	 <faction attr1="civilian"/>
+	 <missionDifficulty attr1="medium"/>
+	 <defense_ship attr1="hades"/>
+	 <defense_ship attr1="hades"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="cobra"/>
+	 <defense_ship attr1="cobra"/>
+	 <defense_ship attr1="cobra"/>
+	 <defense_ship attr1="cobra"/>
+	 <defense_ship attr1="cobra"/>
+	 <energyCostType attr1="consumer"/>
+	 <foodCostType attr1="consumer"/>
+	 <oreCostType attr1="producer"/>
+	 <weaponsCostType attr1="consumer"/>
+ 	 <narcoticsCostType attr1="consumer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="hallOfKings"/>
+     <name attr1="hallOfKings"/>
+	 <displayName attr1="Hall Of Kings"/>
+     <position x="728" y="0" z="-4108"/>
+     <faction attr1="reborn"/>
+	 <missionDifficulty attr1="very_hard"/>
+	 <platform_Object>
+		 <objectID attr1="rdp01-light"/>
+		 <name attr1="hRDP1-light"/>
+		 <reletivePosition x="10" y="0" z="-15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="reborn"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="rdp01-light"/>
+		 <name attr1="hRDP2-light"/>
+		 <reletivePosition x="-10" y="0" z="-15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="reborn"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="rdp01-light"/>
+		 <name attr1="hRDP1-heavy"/>
+		 <reletivePosition x="10" y="2.5" z="-10"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="reborn"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="rdp01-light"/>
+		 <name attr1="hRDP2-heavy"/>
+		 <reletivePosition x="-10" y="2.5" z="-10"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="reborn"/>
+	</platform_Object>
+	 <defense_ship attr1="racer"/>
+	 <defense_ship attr1="racer"/>
+	 <defense_ship attr1="racer"/>
+	 <defense_ship attr1="cutterG"/>
+	 <defense_ship attr1="cutterG"/>
+	 <defense_ship attr1="cutterG"/>
+	 <defense_ship attr1="cutterG"/>
+	 <defense_ship attr1="wrath"/>
+	 <defense_ship attr1="wrath"/>
+	 <defense_ship attr1="wrath"/>
+	 <defense_ship attr1="wrath"/>
+	 <defense_ship attr1="fury"/>
+	 <defense_ship attr1="fury"/>
+	 <defense_ship attr1="fury"/>
+	 <defense_ship attr1="fury"/>
+	 <defense_ship attr1="fury"/>
+ 	 <energyCostType attr1="consumer"/>
+	 <foodCostType attr1="consumer"/>
+	 <oreCostType attr1="consumer"/>
+	 <weaponsCostType attr1="producer"/>
+ 	 <narcoticsCostType attr1="producer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="hydra"/>
+     <name attr1="hydra"/>
+	 <displayName attr1="Hydra"/>
+     <position x="-3332" y="0" z="-4766"/>
+     <faction attr1="reborn"/>
+	 <missionDifficulty attr1="very_hard"/>
+	 <platform_Object>
+		 <objectID attr1="rdp01-light"/>
+		 <name attr1="hyRDP1-light"/>
+		 <reletivePosition x="10" y="0" z="-15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="reborn"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="rdp01-light"/>
+		 <name attr1="hyRDP2-light"/>
+		 <reletivePosition x="-10" y="0" z="-15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="reborn"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="rdp01-light"/>
+		 <name attr1="hyRDP1-heavy"/>
+		 <reletivePosition x="10" y="2.5" z="-10"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="reborn"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="rdp01-light"/>
+		 <name attr1="hyRDP2-heavy"/>
+		 <reletivePosition x="-10" y="2.5" z="-10"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="reborn"/>
+	</platform_Object>
+	<defense_ship attr1="racer"/>
+	<defense_ship attr1="racer"/>
+	<defense_ship attr1="racer"/>
+	<defense_ship attr1="cutterG"/>
+	<defense_ship attr1="cutterG"/>
+	<defense_ship attr1="cutterG"/>
+	<defense_ship attr1="cutterG"/>
+	<defense_ship attr1="wrath"/>
+	<defense_ship attr1="wrath"/>
+	<defense_ship attr1="wrath"/>
+	<defense_ship attr1="wrath"/>
+	<defense_ship attr1="fury"/>
+	<defense_ship attr1="fury"/>
+	<defense_ship attr1="fury"/>
+	<defense_ship attr1="fury"/>
+	<defense_ship attr1="fury"/>
+	<energyCostType attr1="consumer"/>
+	<foodCostType attr1="consumer"/>
+	<oreCostType attr1="consumer"/>
+	<weaponsCostType attr1="producer"/>
+ 	<narcoticsCostType attr1="producer"/>
+</base_Object>
+<base_Object>
+    <objectID attr1="sanctuary"/>
+	<objectVersionID attr1="6"/>
+    <name attr1="sanctuary"/>
+	<displayName attr1="Sanctuary"/>
+    <position x="-7733" y="0" z="-2835"/>
+    <faction attr1="kind"/>
+ 	<defense_ship attr1="ronin"/>
+    <defense_ship attr1="ronin"/>
+ 	<defense_ship attr1="liquidatorG"/>
+    <defense_ship attr1="liquidatorG"/>
+	<defense_ship attr1="dropper"/>
+	<defense_ship attr1="dropper"/>
+	<defense_ship attr1="dropper"/>
+	<defense_ship attr1="bullfrog"/>
+    <defense_ship attr1="bullfrog"/>
+    <defense_ship attr1="bullfrog"/>
+    <defense_ship attr1="bullfrog"/>
+    <defense_ship attr1="bullfrog"/>
+	<defense_ship attr1="houndMK2"/>
+    <defense_ship attr1="houndMK2"/>
+    <defense_ship attr1="houndMK2"/>
+    <defense_ship attr1="houndMK2"/>
+    <defense_ship attr1="houndMK2"/>
+    <energyCostType attr1="consumer"/>
+    <foodCostType attr1="consumer"/>
+    <oreCostType attr1="producer"/>
+    <weaponsCostType attr1="producer"/>
+    <narcoticsCostType attr1="producer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="beggarBase"/>
+     <name attr1="derelict"/>
+	 <displayName attr1="Derelict"/>
+     <position x="-7838" y="0" z="3442"/>
+     <faction attr1="beggar"/>
+	 <missionDifficulty attr1="very_hard"/>
+	 <platform_Object>
+		 <objectID attr1="bdp01-2"/>
+		 <name attr1="dBDP1-2-1"/>
+		 <reletivePosition x="5" y="0" z="-10"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="beggar"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="bdp01-2"/>
+		 <name attr1="dBDP1-2-2"/>
+		 <reletivePosition x="-5" y="0" z="-10"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="beggar"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="bdp01-2"/>
+		 <name attr1="dBDP1-2-3"/>
+		 <reletivePosition x="5" y="2.5" z="-5"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="beggar"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="bdp01-2"/>
+		 <name attr1="dBDP1-2-4"/>
+		 <reletivePosition x="-5" y="2.5" z="-5"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="beggar"/>
+	</platform_Object>
+	<defense_ship attr1="brig"/>
+    <defense_ship attr1="killjoy"/>
+	<defense_ship attr1="killjoy"/>
+	<defense_ship attr1="rhino"/>
+	<defense_ship attr1="rhino"/>
+	<defense_ship attr1="rhino"/>
+	<defense_ship attr1="buzzard"/>
+    <defense_ship attr1="buzzard"/>
+    <defense_ship attr1="buzzard"/>
+    <defense_ship attr1="buzzard"/>
+    <defense_ship attr1="buzzard"/>
+    <defense_ship attr1="buzzard"/>
+	<defense_ship attr1="vulture"/>
+    <defense_ship attr1="vulture"/>
+    <defense_ship attr1="vulture"/>
+    <defense_ship attr1="vulture"/>
+    <defense_ship attr1="vulture"/>
+    <energyCostType attr1="consumer"/>
+    <foodCostType attr1="consumer"/>
+    <oreCostType attr1="consumer"/>
+    <weaponsCostType attr1="producer"/>
+    <narcoticsCostType attr1="producer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="cove"/>
+	 <objectVersionID attr1="8"/>
+     <name attr1="cove"/>
+	 <displayName attr1="Cove"/>
+     <position x="-3500" y="0" z="4500"/>
+     <faction attr1="beggar"/>
+	 <missionDifficulty attr1="very_hard"/>
+	 <platform_Object>
+		 <objectID attr1="bdp01-2"/>
+		 <name attr1="cBDP1-2-1"/>
+		 <reletivePosition x="5" y="0" z="-10"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="beggar"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="bdp01-2"/>
+		 <name attr1="cBDP1-2-2"/>
+		 <reletivePosition x="-5" y="0" z="-10"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="beggar"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="bdp01-2"/>
+		 <name attr1="cBDP1-2-3"/>
+		 <reletivePosition x="5" y="2.5" z="-5"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="beggar"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="bdp01-2"/>
+		 <name attr1="cBDP1-2-4"/>
+		 <reletivePosition x="-5" y="2.5" z="-5"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="beggar"/>
+	</platform_Object>
+	<defense_ship attr1="brig"/>
+	<defense_ship attr1="brig"/>
+    <defense_ship attr1="killjoy"/>
+	<defense_ship attr1="killjoy"/>
+	<defense_ship attr1="rhino"/>
+	<defense_ship attr1="rhino"/>
+	<defense_ship attr1="rhino"/>
+	<defense_ship attr1="buzzard"/>
+    <defense_ship attr1="buzzard"/>
+    <defense_ship attr1="buzzard"/>
+    <defense_ship attr1="buzzard"/>
+    <defense_ship attr1="buzzard"/>
+    <defense_ship attr1="buzzard"/>
+	<defense_ship attr1="vulture"/>
+    <defense_ship attr1="vulture"/>
+    <defense_ship attr1="vulture"/>
+    <defense_ship attr1="vulture"/>
+    <defense_ship attr1="vulture"/>
+    <energyCostType attr1="consumer"/>
+    <foodCostType attr1="consumer"/>
+    <oreCostType attr1="consumer"/>
+    <weaponsCostType attr1="producer"/>
+    <narcoticsCostType attr1="producer"/>
+	<goToPosition x="2500" y="0" z="4500"/>
+	<patrolPosition x="-4500" y="0" z="4500"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="tsfFOB"/>
+     <name attr1="fobA"/>
+	 <displayName attr1="FOB Alpha"/>
+     <position x="4660" y="0" z="-722"/>
+     <faction attr1="tsf"/>
+	 <missionDifficulty attr1="very_hard"/>
+	 <platform_Object>
+		 <objectID attr1="sdp"/>
+		 <name attr1="fobASDP1"/>
+		 <reletivePosition x="10" y="0" z="-15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	 </platform_Object>
+	 <platform_Object>
+		 <objectID attr1="sdp"/>
+		 <name attr1="fobASDP2"/>
+		 <reletivePosition x="-10" y="0" z="-15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	 </platform_Object>
+	<platform_Object>
+		 <objectID attr1="tsfShipyard00"/>
+		 <name attr1="fobAShipyard1"/>
+		 <reletivePosition x="-20" y="-7.5" z="-20"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	</platform_Object>
+	 <defense_ship attr1="pallas"/>
+	 <defense_ship attr1="victory"/>
+	 <defense_ship attr1="roals"/>
+	 <defense_ship attr1="correa"/>
+	 <defense_ship attr1="correa"/>
+	 <defense_ship attr1="correa"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <energyCostType attr1="consumer"/>
+	 <foodCostType attr1="consumer"/>
+	 <oreCostType attr1="consumer"/>
+	 <weaponsCostType attr1="producer"/>
+ 	 <narcoticsCostType attr1="no_use"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="tsfFOB"/>
+     <name attr1="fobB"/>
+	 <displayName attr1="FOB Beta"/>
+     <position x="4923" y="0" z="732"/>
+     <faction attr1="tsf"/>
+	 <missionDifficulty attr1="very_hard"/>
+	 <platform_Object>
+		 <objectID attr1="sdp"/>
+		 <name attr1="fobBSDP1"/>
+		 <reletivePosition x="10" y="0" z="-15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	 </platform_Object>
+	 <platform_Object>
+		 <objectID attr1="sdp"/>
+		 <name attr1="fobBSDP2"/>
+		 <reletivePosition x="-10" y="0" z="-15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	 </platform_Object>
+	<platform_Object>
+		 <objectID attr1="tsfShipyard00"/>
+		 <name attr1="fobBShipyard1"/>
+		 <reletivePosition x="-20" y="-7.5" z="-20"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	</platform_Object>
+	 <defense_ship attr1="pallas"/>
+	 <defense_ship attr1="victory"/>
+	 <defense_ship attr1="roals"/>
+	 <defense_ship attr1="correa"/>
+	 <defense_ship attr1="correa"/>
+	 <defense_ship attr1="correa"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <energyCostType attr1="consumer"/>
+	 <foodCostType attr1="consumer"/>
+	 <oreCostType attr1="consumer"/>
+	 <weaponsCostType attr1="producer"/>
+ 	 <narcoticsCostType attr1="no_use"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="tsfFOB"/>
+     <name attr1="fobG"/>
+	 <displayName attr1="FOB Gamma"/>
+     <position x="-1534" y="0" z="1332"/>
+     <faction attr1="tsf"/>
+	 <missionDifficulty attr1="very_hard"/>
+	  <platform_Object>
+		 <objectID attr1="sdp"/>
+		 <name attr1="fobGSDP1"/>
+		 <reletivePosition x="10" y="0" z="-15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	 </platform_Object>
+	 <platform_Object>
+		 <objectID attr1="sdp"/>
+		 <name attr1="fobGSDP2"/>
+		 <reletivePosition x="-10" y="0" z="-15"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	 </platform_Object>
+	<platform_Object>
+		 <objectID attr1="tsfShipyard00"/>
+		 <name attr1="fobGShipyard1"/>
+		 <reletivePosition x="-20" y="-7.5" z="-20"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	</platform_Object>
+	 <defense_ship attr1="pallas"/>
+	 <defense_ship attr1="victory"/>
+	 <defense_ship attr1="roals"/>
+ 	 <defense_ship attr1="correa"/>
+	 <defense_ship attr1="correa"/>
+	 <defense_ship attr1="correa"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <energyCostType attr1="consumer"/>
+	 <foodCostType attr1="consumer"/>
+	 <oreCostType attr1="consumer"/>
+	 <weaponsCostType attr1="producer"/>
+ 	 <narcoticsCostType attr1="no_use"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="sulis"/>
+     <name attr1="sulis"/>
+	 <displayName attr1="Sulis"/>
+     <position x="-672" y="0" z="1690"/>
+     <faction attr1="civilian"/>
+	 <missionDifficulty attr1="easy"/>
+	 <defense_ship attr1="hades"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <energyCostType attr1="producer"/>
+	 <foodCostType attr1="consumer"/>
+	 <oreCostType attr1="consumer"/>
+	 <weaponsCostType attr1="consumer"/>
+ 	 <narcoticsCostType attr1="consumer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="banditsQuarry"/>
+	 <objectVersionID attr1="7"/>
+     <name attr1="banditsQuarry"/>
+	 <displayName attr1="Bandit's Quarry"/>
+     <position x="1246" y="0" z="2733"/>
+     <faction attr1="civilian"/>
+	 <missionDifficulty attr1="easy"/>
+	 <defense_ship attr1="hades"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <defense_ship attr1="pug"/>
+	 <energyCostType attr1="consumer"/>
+	 <foodCostType attr1="consumer"/>
+	 <oreCostType attr1="producer"/>
+	 <weaponsCostType attr1="consumer"/>
+ 	 <narcoticsCostType attr1="consumer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="shangrila"/>
+     <name attr1="shangrila"/>
+	 <displayName attr1="Shangri-La"/>
+     <position x="2277" y="0" z="920"/>
+     <faction attr1="civilian"/>
+	 <missionDifficulty attr1="very_hard"/>
+	 <platform_Object>
+		 <objectID attr1="sdp"/>
+		 <name attr1="sSDP1"/>
+		 <orientation w="0.953257" x="0" y="0.30216" z="0"/>
+		 <reletivePosition x="10" y="0" z="-20"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	</platform_Object>
+	<platform_Object>
+		 <objectID attr1="sdp"/>
+		 <name attr1="sSDP2"/>
+		 <orientation w="0.953257" x="0" y="0.30216" z="0"/>
+		 <reletivePosition x="-10" y="0" z="-20"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	</platform_Object>
+	 <defense_ship attr1="roals"/>
+	 <defense_ship attr1="correa"/>
+	 <defense_ship attr1="correa"/>
+	 <defense_ship attr1="correa"/>
+	 <defense_ship attr1="correa"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <defense_ship attr1="perezGMK2"/>
+	 <energyCostType attr1="consumer"/>
+	 <foodCostType attr1="consumer"/>
+	 <oreCostType attr1="consumer"/>
+	 <weaponsCostType attr1="retailer"/>
+ 	 <narcoticsCostType attr1="no_use"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="civilianOutpost00"/>
+     <name attr1="civilianOutpost01"/>
+	 <displayName attr1="Civilian Outpost 01"/>
+     <position x="-6600" y="0" z="370"/>
+     <faction attr1="civilian"/>
+	 <bPrimaryHangar attr1="1"/>
+	 <missionDifficulty attr1="very_easy"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="anubis"/>
+	 <defense_ship attr1="taurus"/>
+	 <defense_ship attr1="taurus"/>
+	 <defense_ship attr1="taurus"/>
+	 <defense_ship attr1="taurus"/>
+	 <defense_ship attr1="taurus"/>
+	 <energyCostType attr1="retailer"/>
+	 <foodCostType attr1="retailer"/>
+	 <oreCostType attr1="retailer"/>
+	 <weaponsCostType attr1="consumer"/>
+ 	 <narcoticsCostType attr1="consumer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="lionBase"/>
+     <name attr1="lionBase"/>
+	 <displayName attr1="The Lion"/>
+     <position x="1114" y="0" z="718"/>
+     <faction attr1="thePride"/>
+	 <missionDifficulty attr1="very_hard"/>
+	 <defense_ship attr1="priam"/>
+	 <defense_ship attr1="priam"/>
+	 <defense_ship attr1="drake"/>
+	 <defense_ship attr1="drake"/>
+	 <defense_ship attr1="eagle"/>
+	 <defense_ship attr1="eagle"/>
+	 <defense_ship attr1="eagle"/>
+	 <defense_ship attr1="eagle"/>
+	 <defense_ship attr1="eagle"/>
+	 <defense_ship attr1="ultra"/>
+	 <defense_ship attr1="ultra"/>
+	 <defense_ship attr1="ultra"/>
+	 <defense_ship attr1="ultra"/>
+	 <defense_ship attr1="ultra"/>
+	 <energyCostType attr1="consumer"/>
+	 <foodCostType attr1="consumer"/>
+	 <oreCostType attr1="consumer"/>
+	 <weaponsCostType attr1="producer"/>
+ 	 <narcoticsCostType attr1="consumer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="sharkBase"/>
+     <name attr1="sharkBase"/>
+	 <displayName attr1="The Shark"/>
+     <position x="-1574" y="0" z="-758"/>
+     <faction attr1="thePride"/>
+	 <missionDifficulty attr1="very_hard"/>
+	 <defense_ship attr1="priam"/>
+ 	 <defense_ship attr1="priam"/>
+	 <defense_ship attr1="drake"/>
+	 <defense_ship attr1="drake"/>
+	 <defense_ship attr1="eagle"/>
+	 <defense_ship attr1="eagle"/>
+	 <defense_ship attr1="eagle"/>
+	 <defense_ship attr1="eagle"/>
+	 <defense_ship attr1="eagle"/>
+	 <defense_ship attr1="ultra"/>
+	 <defense_ship attr1="ultra"/>
+	 <defense_ship attr1="ultra"/>
+	 <defense_ship attr1="ultra"/>
+	 <defense_ship attr1="ultra"/>
+	 <energyCostType attr1="consumer"/>
+	 <foodCostType attr1="consumer"/>
+	 <oreCostType attr1="consumer"/>
+	 <weaponsCostType attr1="producer"/>
+ 	 <narcoticsCostType attr1="consumer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="olympus"/>
+     <name attr1="olympus"/>
+	 <displayName attr1="Olympus"/>
+     <position x="-7650" y="0" z="-860"/>
+     <faction attr1="hazardInc"/>
+	 <missionDifficulty attr1="very_easy"/>
+	 <energyCostType attr1="consumer"/>
+	 <foodCostType attr1="consumer"/>
+	 <oreCostType attr1="consumer"/>
+	 <weaponsCostType attr1="consumer"/>
+ 	 <narcoticsCostType attr1="consumer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="jax"/>
+	 <objectVersionID attr1="1"/>
+     <name attr1="jax"/>
+	 <displayName attr1="Jax"/>
+     <position x="-2800" y="0" z="2800"/>
+     <faction attr1="shadowTraders"/>
+	 <missionDifficulty attr1="very_easy"/>
+	 <energyCostType attr1="no_use"/>
+	 <foodCostType attr1="no_use"/>
+	 <oreCostType attr1="no_use"/>
+	 <weaponsCostType attr1="retailer"/>
+ 	 <narcoticsCostType attr1="retailer"/>
+</base_Object>
+<base_Object>
+     <objectID attr1="yellowstone"/>
+	 <objectVersionID attr1="1"/>
+     <name attr1="yellowstone"/>
+	 <displayName attr1="Yellowstone"/>
+     <position x="-2400" y="0" z="-2600"/>
+     <faction attr1="shadowTraders"/>
+	 <missionDifficulty attr1="very_easy"/>
+	 <energyCostType attr1="no_use"/>
+	 <foodCostType attr1="no_use"/>
+	 <oreCostType attr1="no_use"/>
+	 <weaponsCostType attr1="retailer"/>
+ 	 <narcoticsCostType attr1="retailer"/>
+</base_Object>
+<misc_Object>
+     <objectID attr1="raceGate00Green"/>
+	 <objectType attr1="station"/>
+     <name attr1="raceTrack00"/>
+	 <displayName attr1="Race Track - 00"/>
+     <position x="-7180" y="0" z="-850"/>
+     <faction attr1="hazardInc"/>
+	 <worldFile attr1="raceTrack00-worldFile"/>
+</misc_Object>
+<misc_Object>
+     <objectID attr1="raceGate00Green"/>
+	 <objectType attr1="station"/>
+     <name attr1="raceTrack01"/>
+	 <displayName attr1="Race Track - 01"/>
+     <position x="-8180" y="0" z="-850"/>
+     <faction attr1="hazardInc"/>
+	 <worldFile attr1="raceTrack01-worldFile"/>
+</misc_Object>
+<misc_Object>
+     <objectID attr1="raceGate00Green"/>
+	 <objectType attr1="station"/>
+     <name attr1="raceTrack02"/>
+	 <displayName attr1="Race Track - 02"/>
+     <position x="-7600" y="0" z="-1240"/>
+     <faction attr1="hazardInc"/>
+	 <worldFile attr1="raceTrack02-worldFile"/>
+</misc_Object>
+<platforms_below attr1=" ---------------------------------- " />
+<platform_Object>
+     <objectID attr1="tsfShipyard00"/>
+     <name attr1="tsfRepairPlatform01"/>
+	 <displayName attr1="TSF Shipyard Platform 01"/>
+     <position x="-1540" y="0" z="358"/>
+	 <platform_Object>
+		 <objectID attr1="sdp"/>
+		 <name attr1="shipyardSDP1"/>
+		 <orientation w="0.953257" x="0" y="0.30216" z="0"/>
+		 <reletivePosition x="-5" y="5" z="-10"/>
+		 <scale attr1="0.01"/>
+		 <faction attr1="tsf"/>
+	</platform_Object>
+     <faction attr1="tsf"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="tsfShipyard00"/>
+     <name attr1="tsfRepairPlatform02"/>
+	 <displayName attr1="TSF Shipyard Platform 02"/>
+     <position x="3762" y="0" z="-1360"/> 
+     <faction attr1="tsf"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="repairPlatform00"/>
+     <name attr1="repairPlatform01"/>
+	 <displayName attr1="Repair Platform 01"/>
+     <position x="-3423" y="0" z="-1398"/> 
+     <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="repairPlatform00"/>
+     <name attr1="repairPlatform02"/>
+	 <displayName attr1="Repair Platform 02"/>
+     <position x="1485" y="0" z="1128"/> 
+     <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="cdp01-4"/>
+     <name attr1="cdp01-4-01"/>
+	 <displayName attr1="CDP01-4"/>
+     <position x="-2704" y="0" z="-819"/> 
+     <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="cdp01-4"/>
+     <name attr1="cdp01-4-02"/>
+	 <displayName attr1="CDP01-4"/>
+     <position x="-2635" y="0" z="1067"/> 
+     <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="cdp01-4"/>
+     <name attr1="cdp01-4-03"/>
+	 <displayName attr1="CDP01-4"/>
+     <position x="-4346" y="0" z="-2912"/> 
+     <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+	 <objectID attr1="energyPlatform01"/>
+	 <objectVersionID attr1="2"/>
+	 <note_to_self_ attar1="near karakum and palm"/>
+	 <name attr1="eP01-01"/>
+	 <position x="770" y="0" z="-642"/>
+	 <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+	 <objectID attr1="energyPlatform01"/>
+	 <objectVersionID attr1="2"/>
+	 <note_to_self_ attar1="top right - near sun"/>
+	 <name attr1="eP01-02"/>
+	 <position x="487" y="0" z="1356"/>
+	 <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+	 <objectID attr1="energyPlatform01"/>
+	 <objectVersionID attr1="2"/>
+	 <note_to_self_ attar1="near mining base 01"/>
+	 <name attr1="eP01-03"/>
+	 <position x="-5669" y="0" z="-1662"/>
+	 <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+	 <objectID attr1="foodPlatform01"/>
+	 <objectVersionID attr1="2"/>
+	 <note_to_self_ attar1="near fob and black market base"/>
+	 <name attr1="fP01-01"/>
+	 <position x="-1547" y="0" z="2123"/>
+	 <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+	 <objectID attr1="foodPlatform01"/>
+	 <objectVersionID attr1="2"/>
+	 <note_to_self_ attar1="near palm and shark"/>
+	 <name attr1="fP01-02"/>
+	 <position x="-2436" y="0" z="-1278"/>
+	 <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="repairPlatform00"/>
+     <name attr1="rebornShipyard01"/>
+	 <displayName attr1="Reborn Shipyard 01"/>
+     <position x="-1220" y="0" z="-5550"/> 
+     <faction attr1="reborn"/>
+</platform_Object>
+<refuel_platforms attr1=" ------------- Refuel Platforms --------------------- " />
+<platform_Object>
+	 <objectID attr1="fuelPlatform00"/>
+	 <objectVersionID attr1="3"/>
+	 <name attr1="refuelP01"/>
+	 <position x="-6229" y="0" z="1177"/>
+	 <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+	 <objectID attr1="fuelPlatform00"/>
+	 <objectVersionID attr1="3"/>
+	 <name attr1="refuelP02"/>
+	 <position x="-3488" y="0" z="1559"/>
+	 <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+	 <objectID attr1="fuelPlatform00"/>
+	 <objectVersionID attr1="3"/>
+	 <name attr1="refuelP03"/>
+	 <position x="-4169" y="0" z="-1851"/>
+	 <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+	 <objectID attr1="fuelPlatform00"/>
+	 <objectVersionID attr1="3"/>
+	 <name attr1="refuelP04"/>
+	 <position x="-681" y="0" z="855"/>
+	 <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+	 <objectID attr1="fuelPlatform00"/>
+	 <objectVersionID attr1="3"/>
+	 <name attr1="refuelP05"/>
+	 <position x="-631" y="0" z="-1730"/>
+	 <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+	 <objectID attr1="fuelPlatform00"/>
+	 <objectVersionID attr1="3"/>
+	 <name attr1="refuelP06"/>
+	 <position x="2359" y="0" z="1599"/>
+	 <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+	 <objectID attr1="fuelPlatform00"/>
+	 <objectVersionID attr1="3"/>
+	 <name attr1="refuelP07"/>
+	 <position x="1794" y="0" z="-1660"/>
+	 <faction attr1="civilian"/>
+</platform_Object>
+<platform_Object>
+	 <objectID attr1="fuelPlatform00"/>
+	 <objectVersionID attr1="3"/>
+	 <name attr1="refuelP08"/>
+	 <position x="6063" y="0" z="-654"/>
+	 <faction attr1="civilian"/>
+</platform_Object>
+<refuel_platforms attr1=" ------------- Refuel Platforms --------------------- " />
+<beggar_platforms attr1=" ------------- Beggar Platforms --------------------- " />
+<platform_Object>
+     <objectID attr1="bcp01"/>
+     <name attr1="inSpaceBCP1-1"/>
+     <displayName attr1="BCP01-1"/>
+     <position x="-7300" y="0" z="2700"/>
+     <orientation w="0.798349" x="0" y="-0.602196" z="0"/>
+     <faction attr1="beggar"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="bcp01"/>
+     <name attr1="inSpaceBCP1-2"/>
+     <displayName attr1="BCP01-2"/>
+     <position x="-8200" y="0" z="26000"/>
+     <orientation w="0.824312" x="0" y="-0.566136" z="0"/>
+     <faction attr1="beggar"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="bcp01"/>
+     <name attr1="inSpaceBCP1-3"/>
+     <displayName attr1="BCP01-3"/>
+     <position x="-6300" y="0" z="2900"/>
+     <orientation w="0.815583" x="0" y="-0.578641" z="0"/>
+     <faction attr1="beggar"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="bcp01"/>
+     <name attr1="inSpaceBCP1-4"/>
+     <displayName attr1="BCP01-4"/>
+     <position x="-6700" y="0" z="3800"/>
+     <orientation w="0.779554" x="0" y="-0.626335" z="0"/>
+     <faction attr1="beggar"/>
+</platform_Object>
+<beggar_platforms attr1=" ------------- Beggar Platforms --------------------- " />
+<reborn_platforms attr1=" ------------- Reborn Platforms --------------------- " />
+<platform_Object>
+     <objectID attr1="rcp01"/>
+     <name attr1="inSpaceRCP1-1"/>
+	 <displayName attr1="RCP01-1"/>
+     <position x="1700" y="0" z="-3100"/>
+     <faction attr1="reborn"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="rcp01"/>
+     <name attr1="inSpaceRCP1-2"/>
+	 <displayName attr1="RCP01-2"/>
+     <position x="180" y="0" z="-3100"/>
+     <faction attr1="reborn"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="rcp01"/>
+     <name attr1="inSpaceRCP1-3"/>
+	 <displayName attr1="RCP01-3"/>
+     <position x="-900" y="0" z="-3500"/>
+     <faction attr1="reborn"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="rcp01"/>
+     <name attr1="inSpaceRCP1-4"/>
+	 <displayName attr1="RCP01-4"/>
+     <position x="-2000" y="0" z="-3800"/>
+     <faction attr1="reborn"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="rcp01"/>
+     <name attr1="inSpaceRCP1-5"/>
+	 <displayName attr1="RCP01-5"/>
+     <position x="-3500" y="0" z="-3500"/>
+     <faction attr1="reborn"/>
+</platform_Object>
+<platform_Object>
+     <objectID attr1="rcp01"/>
+     <name attr1="inSpaceRCP1-6"/>
+	 <displayName attr1="RCP01-6"/>
+     <position x="-4600" y="0" z="-4100"/>
+     <faction attr1="reborn"/>
+</platform_Object>
+<reborn_platforms attr1=" ------------- Reborn Platforms --------------------- " />
+<asteroid_fields_below attr1=" ---------------------------------- " />
+<asteroidField_Object>
+     <name attr1="farawayDreams"/>
+	 <displayName attr1="Faraway Dreams"/>
+     <position x="2478" y="0" z="-2167"/>
+	 <note_to_self_ attr1="top left - near FOB and TSF repair platform and trading base"/>
+	 <fieldSize attr1="200"/>
+	 <fieldYield attr1="2.35"/>
+	 <_dustCloudID attr1="fullCDC00"/>
+	 <maxFighters attr1="12"/>
+	 <maxGunShips attr1="4"/>
+	 <maxCorvettes attr1="2"/>
+	 <maxFrigates attr1="0"/>
+</asteroidField_Object>
+<asteroidField_Object>
+     <name attr1="lonelyRest"/>
+	 <displayName attr1="Lonely Rest"/>
+     <position x="1000" y="0" z="-2800"/>
+	 <note_to_self_ attr1="near Karakum and Reborn comms sats"/>
+	 <fieldSize attr1="200"/>
+	 <fieldYield attr1="2.8"/>
+	 <_dustCloudID attr1="fullCDC00"/>
+	 <faction attr1="reborn"/>
+	 <maxFighters attr1="12"/>
+	 <maxGunShips attr1="5"/>
+	 <maxCorvettes attr1="3"/>
+	 <maxFrigates attr1="1"/>
+	 <bForceSpawnField attr1="1"/>
+</asteroidField_Object>
+<asteroidField_Object>
+     <name attr1="hellsTeeth"/>
+	 <displayName attr1="Hell's Teeth"/>
+     <position x="-710" y="0" z="-2600"/>
+	 <note_to_self_ attr1="near Palm and Reborn comms sats"/>
+	 <fieldYield attr1="2.5"/>
+	 <fieldSize attr1="220"/>
+	 <_dustCloudID attr1="fullCDC00"/>
+	 <faction attr1="reborn"/>
+	 <maxFighters attr1="12"/>
+	 <maxGunShips attr1="5"/>
+	 <maxCorvettes attr1="2"/>
+	 <maxFrigates attr1="1"/>
+	 <bForceSpawnField attr1="1"/>
+</asteroidField_Object>
+<asteroidField_Object>
+     <name attr1="lostLuggage"/>
+	 <displayName attr1="Lost Luggage"/>
+     <position x="-1750" y="0" z="-1900"/>
+	 <note_to_self_ attr1="near Palm and Reborn comms sats"/>
+	 <fieldYield attr1="1.7"/>
+	 <fieldSize attr1="170"/>
+	 <_dustCloudID attr1="fullCDC00"/>
+	 <maxFighters attr1="8"/>
+	 <maxGunShips attr1="4"/>
+	 <maxCorvettes attr1="1"/>
+	 <maxFrigates attr1="0"/>
+</asteroidField_Object>
+<asteroidField_Object>
+     <name attr1="pebbleLake"/>
+	 <displayName attr1="Pebble Lake"/>
+	 <note_to_self_ attr1="bottom mid left - above mining base and near Hydra"/>
+     <position x="-3320" y="0" z="-2600"/>
+	 <fieldSize attr1="215"/>
+	 <fieldYield attr1="2.75"/>
+	 <_dustCloudID attr1="fullCDC00"/>
+	 <faction attr1="reborn"/>
+	 <maxFighters attr1="12"/>
+	 <maxGunShips attr1="6"/>
+	 <maxCorvettes attr1="3"/>
+	 <maxFrigates attr1="1"/>
+	 <bForceSpawnField attr1="1"/>
+	 <asteroid_Object>
+		<objectID attr1="titanRock001"/> 
+		<name attr1="titanRock001"/>
+		<displayName attr1="Titanic Asteroid"/>
+		<reletivePosition x="0" y="0" z="0"/>
+	</asteroid_Object>
+</asteroidField_Object>
+<asteroidField_Object>
+     <name attr1="hopesAbandon"/>
+	 <displayName attr1="Hope's Abandon"/>
+	 <note_to_self_ attr1="bottom near left - near mining base and civ outpost 001"/>
+     <position x="-6700" y="0" z="-1860"/>
+	 <fieldSize attr1="195"/>
+	 <fieldYield attr1="2.85"/>
+	 <_dustCloudID attr1="fullCDC00"/>
+	 <maxFighters attr1="10"/>
+	 <maxGunShips attr1="5"/>
+	 <maxCorvettes attr1="2"/>
+	 <maxFrigates attr1="1"/>
+	 <bForceSpawnField attr1="1"/>
+	 <asteroid_Object>
+		<objectID attr1="crackedTitan001"/> 
+		<name attr1="crackedTitan001"/>
+		<displayName attr1="Titanic Asteroid"/>
+		<reletivePosition x="0" y="0" z="0"/>
+	</asteroid_Object>
+</asteroidField_Object>
+<asteroidField_Object>
+     <name attr1="threeSisters"/>
+	 <displayName attr1="Three Sisters"/>
+	 <note_to_self_ attr1="fed from hope's abandon"/>
+     <position x="-4850" y="0" z="-1350"/>
+	 <fieldSize attr1="145"/>
+	 <fieldYield attr1="1.33"/>
+	 <_dustCloudID attr1="fullCDC00"/>
+	 <maxFighters attr1="10"/>
+	 <maxGunShips attr1="4"/>
+	 <maxCorvettes attr1="1"/>
+	 <maxFrigates attr1="0"/>
+	 <asteroid_Object>
+		<objectID attr1="threeSisRoid"/> 
+		<name attr1="threeSisRoid"/>
+		<displayName attr1="Titanic Asteroid"/>
+		<reletivePosition x="20" y="2" z="10"/>
+	</asteroid_Object>
+</asteroidField_Object>
+<asteroidField_Object>
+     <name attr1="adriftMountain"/>
+	 <displayName attr1="Adrift Mountain"/>
+	 <note_to_self_ attr1="bottom near right - near civ outpost 001 and Reborn comms sats"/>
+     <position x="-6150" y="0" z="2100"/>
+	 <fieldSize attr1="225"/>
+	 <fieldYield attr1="2.55"/>
+	 <_dustCloudID attr1="fullCDC00"/>
+	 <faction attr1="beggar"/>
+	 <maxFighters attr1="10"/>
+	 <maxGunShips attr1="6"/>
+	 <maxCorvettes attr1="3"/>
+	 <maxFrigates attr1="1"/>
+	 <bForceSpawnField attr1="1"/>
+</asteroidField_Object>
+<asteroidField_Object>
+     <name attr1="petrifiedBones"/>
+	 <displayName attr1="Petrified Bones"/>
+	 <note_to_self_ attr1="above beggar base"/>
+     <position x="-4500" y="0" z="2575"/>
+	 <fieldSize attr1="205"/>
+	 <fieldYield attr1="2.35"/>
+	 <_dustCloudID attr1="fullCDC00"/>
+	 <faction attr1="beggar"/>
+	 <maxFighters attr1="10"/>
+	 <maxGunShips attr1="5"/>
+	 <maxCorvettes attr1="3"/>
+	 <maxFrigates attr1="1"/>
+	 <bForceSpawnField attr1="1"/>
+	 <asteroid_Object>
+		<objectID attr1="longRoid00"/> 
+		<name attr1="pbLongRoid00"/>
+		<displayName attr1="Titanic Asteroid"/>
+		<reletivePosition x="-30" y="0" z="20"/>
+	</asteroid_Object>
+	<asteroid_Object>
+		<objectID attr1="longRoid01"/> 
+		<name attr1="pbLongRoid01"/>
+		<displayName attr1="Titanic Asteroid"/>
+		<reletivePosition x="60" y="0" z="-21"/>
+	</asteroid_Object>
+	<asteroid_Object>
+		<objectID attr1="longRoid02"/> 
+		<name attr1="pbLongRoid02"/>
+		<displayName attr1="Titanic Asteroid"/>
+		<reletivePosition x="-22" y="0" z="-18"/>
+	</asteroid_Object>
+	<asteroid_Object>
+		<objectID attr1="longRoid03"/> 
+		<name attr1="pbLongRoid03"/>
+		<displayName attr1="Titanic Asteroid"/>
+		<reletivePosition x="20" y="0" z="10"/>
+	</asteroid_Object>
+	<asteroid_Object>
+		<objectID attr1="longRoid04"/> 
+		<name attr1="pbLongRoid04"/>
+		<displayName attr1="Titanic Asteroid"/>
+		<reletivePosition x="8" y="0" z="-6"/>
+	</asteroid_Object>
+</asteroidField_Object>
+<asteroidField_Object>
+     <name attr1="hiddenPassage"/>
+	 <displayName attr1="Hidden Passage"/>
+	 <note_to_self_ attr1="fed from petrified bones and adrift mountain above"/>
+     <position x="-4660" y="0" z="1250"/>
+	 <fieldSize attr1="165"/>
+	 <fieldYield attr1="1.25"/>
+	 <_dustCloudID attr1="fullCDC00"/>
+	 <maxFighters attr1="10"/>
+	 <maxGunShips attr1="5"/>
+	 <maxCorvettes attr1="1"/>
+	 <maxFrigates attr1="0"/>
+	 <asteroid_Object>
+		<objectID attr1="hiddenPassageRoid"/> 
+		<name attr1="hiddenPassageRoid"/>
+		<displayName attr1="Titanic Asteroid"/>
+		<reletivePosition x="0" y="0" z="0"/>
+	</asteroid_Object>
+</asteroidField_Object>
+<asteroidField_Object>
+     <name attr1="calmGraves"/>
+	 <displayName attr1="Calm Graves"/>
+	 <note_to_self_ attr1="top right upper - near FOB and Shangri-La"/>
+     <position x="3671" y="0" z="2176"/>
+	 <fieldSize attr1="210"/>
+	 <fieldYield attr1="2.95"/>
+	 <_dustCloudID attr1="fullCDC00"/>
+	 <maxFighters attr1="10"/>
+	 <maxGunShips attr1="5"/>
+	 <maxCorvettes attr1="3"/>
+	 <maxFrigates attr1="1"/>
+</asteroidField_Object>
+<asteroidField_Object>
+     <name attr1="devilsWaitingRoom"/>
+	 <displayName attr1="Devil's Waiting Room"/>
+	 <note_to_self_ attr1="fed from calm graves"/>
+     <position x="3350" y="0" z="370"/>
+	 <fieldSize attr1="175"/>
+	 <fieldYield attr1="1.45"/>
+	 <_dustCloudID attr1="fullCDC00"/>
+	 <maxFighters attr1="8"/>
+	 <maxGunShips attr1="4"/>
+	 <maxCorvettes attr1="1"/>
+	 <maxFrigates attr1="0"/>
+</asteroidField_Object>
+<debris_fields_below attr1=" ---------------------------------- " />
+<debrisField_Object>
+     <name attr1="debris001"/>
+	 <displayName attr1="Debris Field"/>
+	 <note_to_self_ attr1="right near bottom - near civ outpost"/>
+     <position x="-7871" y="0" z="435"/>
+	 <overworldCount attr1="25"/>
+	 <fieldSize attr1="250"/>
+	 <debrisFaction attr1="civilian"/>	 
+	 <_radiation_Object>
+		<objectID attr1="radiation02"/> 
+		<name attr1="rad001"/>
+		<displayName attr1="Radiation Field"/>
+		<reletivePosition x="60" y="0" z="-60"/>
+	</_radiation_Object>
+	<_dustCloudID attr1="fullCDC00"/>
+</debrisField_Object>
+<debrisField_Object>
+     <name attr1="debris002"/>
+	 <displayName attr1="Debris Field"/>
+	 <objectVersionID attr1="9"/>
+	 <note_to_self_ attr1="top middle - near shangri-la"/>
+	 <note_to_self_ attr1="tsf mu and stub"/>
+     <position x="2320" y="0" z="180"/>
+	 <overworldCount attr1="10"/>
+	 <worldfactoryCount attr1="100"/>
+	 <fieldSize attr1="50"/>
+	 <debrisFaction attr1="tsf"/>
+	 <debrisFaction attr1="rockGuys"/>
+	 <debrisFaction attr1="stubs"/>
+	 <_radiation_Object>
+		<objectID attr1="radiation02"/> 
+		<name attr1="rad001"/>
+		<displayName attr1="Radiation Field"/>
+		<reletivePosition x="60" y="0" z="-60"/>
+	</_radiation_Object>
+	<_dustCloudID attr1="fullCDC00"/>
+</debrisField_Object>

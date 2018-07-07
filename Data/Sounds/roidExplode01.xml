@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<objectID attr1="roidExplode01"/> 
+<soundType attr1="random"/>
+<soundFile attr1="roidExplode00.wav"/>
+<soundFile attr1="roidExplode01.wav"/>
+<soundFile attr1="roidExplode02.wav"/>
+<maxDistance attr1="3000"/> 
+<referenceDistance attr1="1250"/>
+<defaultVolume attr1="0.8"/>
+<soundPriority attr1="150"/>

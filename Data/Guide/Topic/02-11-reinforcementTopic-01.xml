@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="reinforcementShips"/>
+<topicName attr1="  Reinforcement Ships"/>
+<mainText attr1="Reinforcement Ships:"/>
+<mainText attr1=" "/>
+<mainText attr1="If you have a link via a gate to another base (out of sector base) you can build ships via the shipyard interface."/>
+<mainText attr1="The gate will activate periodically and ships will enter the current sector."/>
+<mainText attr1="These gates are considered shipyards - in terms of the rally point system (see Rally Points and Ships topic)."/>

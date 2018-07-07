@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Third Lead"/>
+<objectID attr1="main08"/>
+<missionFactionID attr1="kind"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="-6200" y="0" z="-140"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="50000"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<minimumShipClass attr1="gunship"/>
+<maximumShipClass attr1="gunship"/>
+<bOverworldByPass attr1="1"/>
+<bOverworldShipsByPass attr1="1"/>
+<bStoryMission attr1="1"/>
+<bHidden attr1="1"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="hercules"/>
+		<shipName attr1="m08-hercules-1"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="indie"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="0" y="150" z="-2500"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="playerShip"/>
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="0.75"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="m08-hercules-1"/>
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="0.20"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="disable_maneuvering"/>
+		<shipName attr1="m08-hercules-1"/>
+		<bSetting attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="disable_engines"/>
+		<shipName attr1="m08-hercules-1"/>
+		<bSetting attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="m08-orePod01-1"/>
+		<faction attr1="indie"/>
+		<reletiveObject attr1="m08-hercules-1"/>
+		<position x="0" y="200" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<carryingShip attr1="m08-hercules-1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="m08-orePod01-1"/> 	
+		<alterType attr1="toggle_must_survive"/>
+		<bToggle attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="m08-orePod01-2"/>
+		<faction attr1="indie"/>
+		<reletiveObject attr1="m08-hercules-1"/>
+		<position x="0" y="200" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+		<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="m08-orePod01-3"/>
+		<faction attr1="indie"/>
+		<reletiveObject attr1="m08-hercules-1"/>
+		<position x="-70" y="-751" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="orePod01"/>
+		<name attr1="m08-orePod01-4"/>
+		<faction attr1="indie"/>
+		<reletiveObject attr1="m08-hercules-1"/>
+		<position x="50" y="-325" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="energyPod"/>
+		<name attr1="m08-energyPod-1"/>
+		<faction attr1="indie"/>
+		<reletiveObject attr1="m08-hercules-1"/>
+		<position x="578" y="578" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="energyPod"/>
+		<name attr1="m08-energyPod-2"/>
+		<faction attr1="indie"/>
+		<reletiveObject attr1="m08-hercules-1"/>
+		<position x="247" y="-582" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+		<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="energyPod"/>
+		<name attr1="m08-energyPod-3"/>
+		<faction attr1="indie"/>
+		<reletiveObject attr1="m08-hercules-1"/>
+		<position x="421" y="-178" z="478"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+		<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="energyPod"/>
+		<name attr1="m08-energyPod-4"/>
+		<faction attr1="indie"/>
+		<reletiveObject attr1="m08-hercules-1"/>
+		<position x="758" y="200" z="-478"/>
+		<bFillToCapacity attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="duelist"/>
+		<shipName attr1="m08-duelist-p1"/>
+		<shipID attr1="duelist"/>
+		<shipName attr1="m08-duelist-p2"/>
+		<shipID attr1="scavMK2"/>
+		<shipName attr1="m08-scavMK2-p1"/>
+		<shipID attr1="spitfire"/>
+		<shipName attr1="m08-spitfire-p1"/>
+		<shipID attr1="spitfire"/>
+		<shipName attr1="m08-spitfire-p2"/>
+		<shipID attr1="spitfire"/>
+		<shipName attr1="m08-spitfire-p3"/>
+		<shipID attr1="duelistMK2"/>
+		<shipName attr1="m08-duelistMK2-p1"/>
+		<shipID attr1="duelistMK2"/>
+		<shipName attr1="m08-duelistMK2-p2"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="m08-leo-p1"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="m08-leo-p2"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="m08-leo-p3"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="enemy"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+		<reletiveObject attr1="m08-hercules-1"/>
+		<position x="0" y="0" z="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="raptor"/>
+		<shipName attr1="m08-raptor-p1"/>
+		<shipID attr1="raptor"/>
+		<shipName attr1="m08-raptor-p2"/>
+		<shipID attr1="raptor"/>
+		<shipName attr1="m08-raptor-p3"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="enemy"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="0" y="350" z="-4500"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="look_at"/>
+		<lookAtObject attr1="m08-hercules-1"/>
+		<objectName attr1="m08-raptor-p1"/>
+		<objectName attr1="m08-raptor-p2"/>
+		<objectName attr1="m08-raptor-p3"/>
+		<bNoRoll attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="longbow"/>
+		<shipName attr1="m08-shortbow-p1"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="enemy"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="0" y="350" z="-6500"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="look_at"/>
+		<lookAtObject attr1="m08-hercules-1"/>
+		<objectName attr1="m08-shortbow-p1"/>
+		<bNoRoll attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="m08-duelist-p1"/>
+		<objectName attr1="m08-duelist-p2"/>
+		<objectName attr1="m08-scavMK2-p1"/>
+		<objectName attr1="m08-spitfire-p1"/>
+		<objectName attr1="m08-spitfire-p2"/>
+		<objectName attr1="m08-spitfire-p3"/>
+		<objectName attr1="m08-duelistMK2-p1"/>
+		<objectName attr1="m08-duelistMK2-p2"/>
+		<objectName attr1="m08-leo-p1"/>
+		<objectName attr1="m08-leo-p2"/>
+		<objectName attr1="m08-leo-p3"/>
+		<objectName attr1="m08-raptor-p1"/>
+		<objectName attr1="m08-raptor-p2"/>
+		<objectName attr1="m08-raptor-p3"/>
+		<objectName attr1="m08-shortbow-p1"/>
+		<targetName attr1="m08-hercules-1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="m08-hercules-1"/>
+		<health attr1="95"/>
+		<bAsPercent attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="m08-hercules-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="m08-hercules-1"/>
+		<characterID attr1="hammond"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="hammond"/>
+		<message attr1="I dropped the pods! What else do you want?!?"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<nextMissionNumber attr1="3000"/>
+	<failMissionNumber attr1="2000"/>
+	<missionHUDText attr1="Open Comms with the transport ship..."/>
+	<objective>
+		<objectiveType attr1="comms_target"/> 
+		<objectName attr1="m08-hercules-1"/>
+		<markObject attr1="m08-hercules-1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="m08-hercules-1"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="I repeat!"/>
+			<content attr1="I dropped the pods!"/>
+			<content attr1="Please stop attacking!"/>
+			<content attr1="Please stop..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Identity confirmed."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="What?"/>
+			<content attr1="That's?"/>
+			<content attr1="You're?"/>
+			<content attr1="Stub thing?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="I'm sorry for waking you up!"/>
+			<content attr1="I'm sorry for taking that pod!"/>
+			<content attr1="Please stop!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="That's our guy?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="One of them, yes."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="That's right! Taz!"/>
+			<content attr1="It was Taz's idea."/>
+			<content attr1="It's all his fault!"/>
+			<content attr1="And he's not here!"/>
+			<content attr1="I'll tell you where he is!"/>
+			<content attr1="Just stop!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<bClearAllText attr1="1"/>
+			<content attr1="Shut up for a moment..."/>
+			<content attr1="I'm sending the greenlight."/>
+			<content attr1="Calling the fleet."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="No please!"/>
+			<content attr1="I'll tell you where Taz is!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="The fleet to save you..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="Yes!"/>
+			<content attr1="Friend Stub!"/>
+			<content attr1="Good Stub!"/>
+			<content attr1="Taz picked the meanest looking one..."/>
+			<content attr1="But it turns out you are the sweetest!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="We are nearly there."/>
+			<content attr1="Keep em at bay."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<failMissionNumber attr1="2000"/>
+	<missionHUDText attr1="Destroy Pirates..."/>
+	<missionHUDText attr1="Protect Transport..."/>	
+	<preTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="takeEverything"/> 	
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_watched"/>
+		<objectName attr1="m08-hercules-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubMaleGeneric02"/>
+		<message attr1="We are coming! Hang tight!"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="faction_kill_count"/> 
+		<faction attr1="enemy"/>
+		<killCount attr1="4"/>
+		<bPlayerFactionKillOnly attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="enemy"/>
+		<bMarkShips attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="m08-hercules-1"/>
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<missionHUDText attr1="Destroy Pirates..."/>
+	<missionHUDText attr1="Protect Transport..."/>	
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="m08-hercules-1"/>
+		<healthPercent attr1="0.05"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="enemy"/>
+		<bMarkShips attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postCutscene attr1="main-08-downGoesTheHercScene-00"/>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubMaleGeneric02"/>
+		<message attr1="We are here!"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="takeEverything"/> 	
+	</postTrigger>
+	<note_to_self attr1="undo the alterations during cutscene"/>
+	<postTrigger>
+		<triggerType attr1="override_hostile_target_player"/>
+		<bToggle attr1="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="playerShip"/> 	
+		<alterType attr1="toggle_must_survive"/>
+		<bToggle attr1="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubMaleGeneric02"/>
+		<message attr1="Find cover near our ships!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<missionHUDText attr1="Destroy Pirates..."/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="enemy"/>
+		<bMarkShips attr1="1"/>	
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="Damn..."/>
+			<content attr1="We didn't get here in time..."/>
+			<content attr1="Still... It's not a total loss."/>
+			<content attr1="We've gained some intel..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="These ships..."/>
+			<content attr1="Unregistered... Unmarked..."/>
+			<content attr1="An odd mix..."/>
+			<content attr1="A corp kill squad."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="We'll need to find this Taz."/>
+			<content attr1="Sounds like he's still alive."/>
+			<content attr1="Could be a problem finding him."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="Hello?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="WHAT!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="I'm in the pod..."/>
+			<content attr1="I kept one docked."/>
+			<content attr1="Then ran for it before the ship blew."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<bClearAllText attr1="1"/>
+			<content attr1="I'm going to make this short..."/>
+			<content attr1="Tell us who hired you to smuggle Stubs."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="I don't know."/>
+			<content attr1="Taz would."/>
+			<content attr1="He set up the deals."/>
+			<content attr1="I did the flying."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="Where is Taz?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="You have to understand."/>
+			<content attr1="There's a official bounty on his head."/>
+			<content attr1="After we dodged a Pride patrol..."/>
+			<content attr1="I dumped him."/>
+			<content attr1="Didn't want to go down with him."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="I thought I was safe."/>
+			<content attr1="Then they showed up."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="We'll need a plan..."/>
+			<content attr1="Hammond's transport blowing will buy us some time."/>
+			<content attr1="We'll transport our guest's new home to Sanctuary."/>
+			<content attr1="We'll regroup there."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="1000"/>
+	<preTrigger>
+		<triggerType attr1="next_mission"/>
+		<missionID attr1="main09"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="mission failure"/>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubMaleGeneric02"/>
+		<message attr1="TRANSPORT DOWN!"/>
+	</preTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="playerShip"/>
+		<bSetting attr1="0"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<note_to_self attr1="hammond health dialogs ------------------------------------"/>
+<mission>
+	<missionNumber attr1="3000"/>
+	<nextMissionNumber attr1="3001"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="m08-hercules-1"/>
+		<healthPercent attr1="0.65"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="hammond"/>
+		<message attr1="SERIOUS HULL DAMAGE!"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="3001"/>
+	<nextMissionNumber attr1="3002"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="m08-hercules-1"/>
+		<healthPercent attr1="0.45"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="hammond"/>
+		<message attr1="THIS SHIP IS BREAKING APART!"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="3002"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="m08-hercules-1"/>
+		<healthPercent attr1="0.25"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="hammond"/>
+		<message attr1=" I SAID I'M SORRY!"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

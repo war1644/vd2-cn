@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="projectile"/> 
+<projectileID attr1="rbP01"/> 
+<projectileType attr1="billboard_projectile"/> 
+<materialNameHead attr1="vdp_flare_04"/> 
+<materialNameTail attr1="Weapons/S_Projectile2"/> 
+<projectileHeadSize x="0.23" y="0.23"/> 
+<projectileTailSize x="2" y="15.0"/> 
+<projectileVelocity attr1="550.0"/>
+<initialLife attr1="1.5"/> 
+<range attr1="825.0"/>
+<damage attr1="12.0"/> 
+<bMining attr1="1"/>
+<weaponPush attr1="500.0"/> 
+<explosionID attr1="cHit"/> 

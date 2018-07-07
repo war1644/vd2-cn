@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="OverworldFleet" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="ootGUI/StaticImageLargeRight" Name="OverworldFleet/Selection" >
+            <Property Name="Image" Value="set:bGUI_tacticalObjectElement image:target_frame" />
+            <Property Name="GuiClick" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.830468,0},{0.764438,0},{0.982295,0},{0.993267,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="bGUI/TacSelectionHealth" Name="OverworldFleet/Selection/prgsStatus" >
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.717788,0},{-0.0412395,0},{1.1145,0},{1.01654,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticImageRight" Name="OverworldFleet/Selection/rttImage" >
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0219372,0},{0.012397,0},{0.988399,0},{0.927371,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="OverworldFleet/Selection/btnObjectDetails" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="DETAILS" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.691985,0},{0.80155,0},{0.987299,0},{0.935173,0}}" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticText" Name="OverworldFleet/txtMouseOver" >
+            <Property Name="Font" Value="Comfortaa-12" />
+            <Property Name="Text" Value="MouseOver" />
+            <Property Name="HorzExtent" Value="89" />
+            <Property Name="VertExtent" Value="13.0947" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.123915,0},{0.806941,0},{0.421937,0},{0.987947,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="ootGUI/StaticText" Name="OverworldFleet/txtNavTooltip" >
+            <Property Name="Font" Value="Comfortaa-14" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.372619,0},{0.829226,0},{0.627381,0},{0.862214,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="OverworldFleet/txtNavTooltip/imgBackground" >
+                <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="OverworldFleet/btnBack" >
+            <Property Name="UnifiedAreaRect" Value="{{0.475212,0},{0.916924,0},{0.525331,0},{0.995407,0}}" />
+        </Window>
+        <Window Type="jhGUI/StaticImageRight" Name="OverworldFleet/SelectionControl" >
+            <Property Name="Image" Value="set:jhGUI_small_window_with_button image:jhGUI_small_window_with_button" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.669046,0},{0.764438,0},{0.82857,0},{0.993267,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="jhGUI/Right_Button" Name="OverworldFleet/SelectionControl/btnSwitchTo" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="MAKE MAIN SHIP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0829826,0},{0.0325821,0},{0.987449,0},{0.237002,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="OverworldFleet/SelectionControl/btnSeperate" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="SEPERATE FROM FLEET" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0307441,0},{0.4829,0},{0.983718,0},{0.687319,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="OverworldFleet/SelectionControl/btnGoToPrimaryHangar" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="SEND TO PRIMARY HANGAR" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0307441,0},{0.708235,0},{0.983718,0},{0.912655,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

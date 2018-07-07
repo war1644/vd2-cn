@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="skyHawkPG"/> 
+<ammunitionID attr1="lightBHP"/> 
+<name attr1="Quad Gun"/> 
+<fireSoundID attr1="rapidP06"/>
+<muzzleFlashEffectID attr1="mfLG01"/>
+<reFireRate attr1="0.1"/>  
+<capacity attr1="45"/>
+<reloadTime attr1="0.9"/>

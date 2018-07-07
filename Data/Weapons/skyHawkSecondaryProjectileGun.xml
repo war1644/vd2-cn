@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="skyHawkSPG"/> 
+<projectileWeaponType attr1="scatter_gun"/>
+<roundsPerShot attr1="2"/>
+<scatterYaw attr1="0.50"/>
+<scatterPitch attr1="0.2"/>
+<ammunitionID attr1="lightCGP"/> 
+<name attr1="Chain Gun"/> 
+<fireSoundID attr1="rapidP00"/>
+<muzzleFlashEffectID attr1="mfLG01"/>
+<reFireRate attr1="0.015"/>
+<capacity attr1="100"/>
+<reloadTime attr1="10"/> 
+<_bNoAimAssist attr1="1"/>
+<note_to_self attr1="seems too weak without aim assist"/>
+<bFireFullAmmo attr1="1"/>

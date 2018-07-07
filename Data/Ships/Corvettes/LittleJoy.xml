@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="LittleJoy"/> 
+<objectID attr1="littleJoy"/>
+<faction attr1="beggar"/> 
+<shipClass attr1="corvette"/>
+<shipClassSize attr1="heavy"/>
+<meshName attr1="LittleJoy.mesh"/>
+<descriptionText attr1="A pirate combat corvette."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The LittleJoy is a heavy corvette primarily used as a transport vehicle for breach ships."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The LittleJoy carries 2 small breach ships, which attempt to board and capture enemy ships. While breach ships are single use vehicles, the LittleJoy isn't and will regain the breach ships while docked."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="As the name suggests the LittleJoy's design is based on its much larger cousin the StealJoy. Offering a earlier entry to the lucrative trade of capturing ships."/>
+<creditCost attr1="2000000"/>
+<bBlackMarket attr1="1"/>
+<missionRankRequired attr1="5"/>
+<cruiseSpeed attr1="40.0"/> 
+<timeTillCruise attr1="2.8"/> 
+<yaw 	attr1="50.0"/>
+<pitch	attr1="50.0"/>
+<roll 	attr1="50.0"/>
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="25" z="46.775"/>
+<bHideShipInCockpitAcutal attr1="0"/>
+<cockpitInitPos x="0" y="25" z="85"/>
+<cockpitTransLimit x="2" y="2" z="2"/> 
+<chaseInitPos x="0" y="60" z="310"/>
+<chaseTransLimit x="14" y="8" z="6"/>
+<health attr1="19000"/> 
+<armor attr1="1.0"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="35.0"/> 
+    <roll attr1="-15.0"/> 
+	<yaw attr1="-32.0"/> 
+	<position x="-24.83" y="1.193" z="43.189"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="-90.0"/> 
+    <roll attr1="0.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="27.511" y="-17.107" z="45.43"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="littleBigJoyD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explodeRed04"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="20.968" y="-4.335" z="87.380"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="20.968" y="-17.770" z="79.455"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="-20.968" y="-4.335" z="87.380"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="-20.968" y="-17.770" z="79.455"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/> 
+	<position x="0" y="-13.705" z="-86.155"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.45"/> 
+    <capacity attr1="14"/>
+    <recharge attr1="16"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<turret>
+    <turretID attr1="rhinoTurret"/> 
+	<position x="0" y="20.950" z="-3.079"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="parents_target"/>
+	<bShowInCockpit attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+	<turretOrientation attr1="bottom"/> 
+	<position x="0" y="-23.485" z="-59.658"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+	<_bShowInCockpit attr1="1"/>
+</turret>
+<targetPriorityList> 
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="dreadnaught"/> 
+	<targetClass attr1="attack_station"/>
+</targetPriorityList>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="30.565" y="-19.546" z="0"/>
+	<objectID attr1="mite"/>
+	<attachedID attr1="mite"/>
+	<ejectOrientation attr1="down"/>
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="-30.565" y="-19.546" z="0"/>
+	<objectID attr1="mite"/>
+	<attachedID attr1="mite"/>
+	<ejectOrientation attr1="down"/>
+	<ejectVelocity attr1="15"/>
+</dock>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="4"/>
+	<activeUpgradeCapacity attr1="5"/>
+	<_upgradeID attr1="ammoCap00"/>
+	<_upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cShield00"/>
+	<upgradeID attr1="cShieldRecharge00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="corvetteFShield00"/>
+	<upgradeID attr1="corvetteRShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.87" y="0" z="80"/>

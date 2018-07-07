@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="gDemandCResponsNo00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="demand_cargo_response_no"/>
+<dialog attr1="Bah... I'm not afraid of you."/>
+<dialog attr1="Buzz off. I've got a schedule to keep."/>
+<dialog attr1="I can't, the boss will kill me."/>
+<dialog attr1="No man... This would kill my business."/>
+<dialog attr1="Ha ha ha! Don't make me laugh."/>
+<dialog attr1="You're making a big mistake."/>
+<dialog attr1="You don't have to do this..."/>
+<dialog attr1="Is this the best way for you to make a living?"/>
+<dialog attr1="Come on man..."/>
+<dialog attr1="Hah hah hah! You serious?"/>
+<dialog attr1="Eh? You? Come on."/>
+<dialog attr1="Empty threats."/>
+<dialog attr1="I don't like being threatened."/>
+<dialog attr1="I don't believe you."/>
+<dialog attr1="Try me!"/>
+<dialog attr1="I don't believe you'll do it."/>
+<dialog attr1="You don't have the guts..."/>
+<dialog attr1="Stop wasting my time!"/>

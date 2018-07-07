@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Forward Thrust"/> 
+<objectID attr1="cAUCharge00"/> 
+<upgradeCategory attr1="propulsion"/>
+<upgradeType attr1="active"/>
+<cost attr1="7500"/>
+<addCostAsPercentOfShip attr1="0.04"/>
+<description attr1="When active, this upgrade triggers and super charges the ship's main engines. Greatly increasing forward thrust while energy reserves last."/>
+<description attr1=" "/>
+<description attr1="Although this upgrade use is mostly seen in larger ships without afterburners, having an additional method of a quick get away or target intercept can be a game changer across all ship classes."/>
+<shipActiveUpgradeType attr1="forward_speed"/>
+<rechargeTime attr1="25"/>
+<durationTime attr1="12"/>
+<particleSystemName attr1="propulsion050"/>

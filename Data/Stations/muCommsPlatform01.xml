@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="MU Comms Platform "/> 
+<objectID attr1="mucp01"/> 
+<faction attr1="rockGuys"/> 
+<bCommsOverride attr1="1"/>
+<stationClass attr1="comms_platform"/>
+<stationSizeAsShip attr1="gunship"/>
+<creditCost attr1="100000"/>
+<meshName attr1="rgSatelite01.mesh"/> 
+<wireframeMaterial attr1="WF/SDP"/> 
+<descriptionText attr1="MU Comms Platform - 01"/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="A unmanned MU communication platform."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="During the MU uprising, these patforms were often used to jam gates in an attempt to slow down TSF forces."/>
+<health attr1="4000.0"/> 
+<explosionID attr1="explode06"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>

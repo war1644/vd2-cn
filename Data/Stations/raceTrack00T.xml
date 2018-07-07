@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Race Track - 00T"/> 
+<objectID attr1="raceGate00T"/> 
+<faction attr1="hazardInc"/> 
+<bCommsOverride attr1="1"/>
+<stationClass attr1="race_track"/>
+<stationSizeAsShip attr1="corvette"/>
+<creditCost attr1="45000"/>
+<meshName attr1="raceGate00.mesh"/> 
+<wireframeMaterial attr1="WF/SDP"/> 
+<descriptionText attr1="A part of a race track."/> 
+<health attr1="6500.0"/> 
+<explosionID attr1="explode05"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<debrisInfo>
+	<debris> 	
+		<debrisID attr1="raceGate00D00"/> 
+	</debris>
+</debrisInfo>
+<turret>
+    <turretID attr1="raceGateTurret00"/>
+	<turretOrientation attr1="right"/>
+	<position x="82.256" y="0" z="0.033"/>
+	<pitchLower attr1="-20.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="90"/>
+</turret>
+<turret>
+    <turretID attr1="raceGateTurret00"/>
+	<turretOrientation attr1="left"/>	
+	<position x="-82.256" y="0" z="0.033"/>
+	<pitchLower attr1="-20.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="90"/>
+</turret>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>

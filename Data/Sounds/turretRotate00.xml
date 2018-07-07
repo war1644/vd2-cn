@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="looping"/>
+<objectID attr1="turretR00"/> 
+<soundFile attr1="turretMove00.wav"/> 
+<tailSound attr1="turretMoveTail00.wav"/>
+<defaultVolume attr1="0.2"/>
+<maxDistance attr1="350"/> 
+<referenceDistance attr1="50"/>
+<soundPriority attr1="100"/>

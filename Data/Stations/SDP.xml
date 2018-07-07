@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Strategic Defense Platform"/> 
+<objectID attr1="sdp"/> 
+<faction attr1="tsf"/> 
+<stationClass attr1="defense_station"/>
+<stationSizeAsShip attr1="frigate"/>
+<creditCost attr1="400000"/>
+<meshName attr1="sdPlatform.mesh"/> 
+<wireframeMaterial attr1="WF/SDP"/> 
+<descriptionText attr1="Strategic Defense Platform"/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="A defensive platform, armed with turrets, missile and torpedo launchers."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="Designed to counter capital ships."/>
+<health attr1="40000.0"/> 
+<explosionID attr1="explode06"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="1"/>
+<debrisInfo>
+	<debris> 	
+		<debrisID attr1="sdPlatformD00"/> 
+	</debris>
+	<debris> 	
+		<debrisID attr1="sdPlatformD01"/> 
+	</debris>
+</debrisInfo> 
+<turret>
+    <turretID attr1="sdpTurret01"/> 
+	<position x="1.78" y="54.85" z="-82.83"/>
+	<pitchLower attr1="-15.0"/> 
+	<turretRole attr1="offense"/>
+</turret>
+<turret>
+    <turretID attr1="sdpTurret01"/> 
+    <turretOrientation attr1="bottom"/> 
+	<position x="1.78" y="-75.15" z="-82.83"/>
+	<pitchLower attr1="-15.0"/>
+	<turretRole attr1="offense"/>	
+</turret>
+<turret>
+    <turretID attr1="sdpTMT"/> 
+	<position x="0.0" y="0.0" z="0.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="sdpBMT"/> 
+	<position x="0.0" y="0.0" z="0.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="sdpTorpT"/> 
+    <turretOrientation attr1="forward"/> 
+	<position x="0.0" y="0.0" z="0.0"/>
+	<turretRole attr1="offense"/>
+</turret>

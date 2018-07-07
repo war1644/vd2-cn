@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<screenID attr1="civOutpost01"/>
+<musicID attr1="TheNewNormal-BaseApproach"/>
+<lightPosition x="0" y="0" z="0"/>
+<mainDiffuse x="1" y="1" z="1"/>
+<tacticalDiffuse x="1" y="1" z="1"/>
+<mainAmbient x="0.2" y="0.2" z="0.2"/>
+<tacticalAmbient x="0.2" y="0.2" z="0.2"/>
+<shipModeBackground attr1="Space/Blue_Nebula"/>
+<tacticalBackground attr1="Tactical/Background"/>
+<asteroidBase_Object>
+     <objectID attr1="civilianOutpost00"/>
+     <name attr1="Civilian civilianOutpost00 IA0301"/>
+     <orientation w="0.99982" x="0" y="-0.0189563" z="0"/>
+     <position x="-37.7178" y="0" z="988.378"/>
+</asteroidBase_Object>
+<cameraPosition x="309.769" y="95.09" z="-176.217"/>
+<cameraOrientation w="0.233722" x="-0.00618382" y="0.971944" z="0.0257157"/>

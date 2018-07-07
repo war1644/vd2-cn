@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="hallOfKings"/> 
+<displayName attr1="Hall Of Kings"/> 
+<objectID attr1="hallOfKings"/> 
+<faction attr1="reborn"/> 
+<meshName attr1="hallOfKings.mesh"/>
+<wireframeMaterial attr1="WF/TheHub"/> 
+<descriptionText attr1="A Reborn asteroid base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The primary base of the Reborn pirate faction."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Reborn are made up of mostly former MU rebels that didn't heed the call to unify against the Outsiders. Soon after establishing bases this faction drew in what is left of the Digger pirates, and even some TSF deserters. Those that don't quite want to 'give peace a chance' and those left over with nothing better to do."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Their goal is unchanged form the MU rebellion, the total control over this area of space. Growing in power via recruitment and piracy."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="0" y="0" z="0"/>
+<dockingArmsEnd x="0" y="0" z="-300"/>
+<dockPosition x="0" y="0" z="-60"/>
+<dockSize x="120" y="120" z="80"/>
+<_hangarID attr1="theHubH"/> 
+<maxBuildShipClass attr1="corvette"/>
+<bCanResearch attr1="1"/>
+<rockSubPosition attr1="0"/>
+<miningPlatformPosition x="-800.105" y="913.052" z="142.381"/>

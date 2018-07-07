@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="missile"/> 
+<weaponID attr1="anubisML"/> 
+<ammunitionID attr1="largeMissile00"/> 
+<name attr1="Quad Launcher"/> 
+<fireSoundID attr1="missileLS"/>
+<reFireRate attr1="2.75"/>
+<capacity attr1="4"/> 
+<reloadTime attr1="30"/> 
+<muzzleFlashEffectID attr1="mfML03"/>

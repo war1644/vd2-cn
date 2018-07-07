@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<screenEffect attr1="fade_in"/>
+	<attachment attr1="playerShip"/>
+	<cameraPosition x="-50" y="-10" z="-20"/>
+	<duration attr1="0.1"/>
+	<note_to_self attr1="separation between fade in and actual action"/>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<trigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="playerShip"/>
+		<position x="0" y="0" z="-400"/>
+		<reletiveObject attr1="playerShip"/>
+		<commandType attr1="go_to_position"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="combat07-intro"/> 	
+	</trigger>
+	<duration attr1="5.5"/>
+	<headingText attr1="Leaving base..."/>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="2"/> 
+	<trigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="playerShip"/>
+		<bSetting attr1="0"/>
+	</trigger>
+</sceneFragment>

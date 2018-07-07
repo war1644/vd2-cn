@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="formations"/>
+<topicName attr1="Formations"/>
+<mainText attr1="Formations:"/>
+<mainText attr1="Ships in formations have unique behaviour - most of which can be summed up that they stick together. Formations are great for organizing your fleet - keeping ships near each other and travelling together."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Concepts:"/>
+<mainText attr1="A formation has a lead ship."/>
+<mainText attr1="A lead ship can be a follower of another leader."/>
+<mainText attr1="When a formation leader gets destroyed - one of the follower's takes over as leader."/>
+<mainText attr1="     The follower inherits the leader's commands."/>
+<mainText attr1="The type of formation that gets created depends on ship class of the leader."/>
+<mainText attr1="    Formations can be customized in the Formations Interface (see image on right for button)"/>
+<mainText attr1="Fully custom formations are possible."/>
+<mainText attr1=" "/>
+<mainText attr1="Creating:"/>
+<mainText attr1="When one or more friendly ship(s) are selected and then right clicked on another friendly ship"/>
+<mainText attr1="You can add ships to the formation via selecting them then right clicking on the leader"/>
+<mainText attr1="    Also possible in the Formations Interface (see image on right for button)"/>
+<mainText attr1=" "/>
+<mainText attr1="Military Parade Formation:"/>
+<mainText attr1="Large ships have something called a Military Parade formation. This is a space efficient formation for a wide group of ships."/>
+<mainText attr1="For example - corvette class ships would take point in front of leader, while frigates would take the right side."/>
+<mainText attr1=" "/>
+<mainText attr1="The Military Parade formation tends to form when ships exit gates - because ships automatically form up on the Command Ship."/>
+<mainText attr1=" "/>
+<mainText attr1="Disbanding All Formations:"/>
+<mainText attr1="Sometimes it is good practice to disband all formations."/>
+<mainText attr1="Example of when you might want to disband all formations:"/>
+<mainText attr1="     You want to perform a task that you don't want the entire fleet to follow you doing."/>
+<mainText attr1="     You want to re-create some/all formations."/>
+<mainText attr1=" "/>
+<mainText attr1="How To Disband All Formations:"/>
+<mainText attr1="Click on the Formation Interface button - then click on the Disband All Formations button."/>
+<mainText attr1=" "/>
+<mainText attr1="Behind the scenes:"/>
+<mainText attr1="Formations were fairly easily added to the game - in terms of code."/>
+ <mainText attr1="However they were a huge source of bugs, crashes and headaches."/>
+<imageOne>
+	<image attr1="set:guide_formations_icon image:guide_formations_icon"/>
+</imageOne>
+<imageThree>
+	<image attr1="set:guide_disband_formations image:guide_disband_formations"/>
+</imageThree>

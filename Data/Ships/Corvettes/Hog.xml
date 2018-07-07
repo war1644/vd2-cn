@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Hog"/> 
+<objectID attr1="hog"/>
+<faction attr1="beggar"/> 
+<shipClass attr1="transport"/>
+<shipClassSize attr1="medium"/>
+<sizeShipClass attr1="corvette"/> 
+<meshName attr1="Hog.mesh"/>
+<descriptionText attr1="A medium transport ship, corvette class."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Hog is a modified Rhino. Stripped of most of its weaponry to accommodate a cargo pod."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Beggar pirates tend to favor ransom versus cargo, but in the rare circumstance where a transport pilot denies the demand, the response often yields a cargo pod."/>
+<creditCost attr1="350000"/>
+<bBlackMarket attr1="1"/>
+<missionRankRequired attr1="2"/>
+<cruiseSpeed attr1="50.0"/> 
+<timeTillCruise attr1="2.35"/> 
+<yaw 	attr1="65.0"/>
+<pitch	attr1="65.0"/>
+<roll 	attr1="65.0"/>
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="7.6" z="-14.55"/>
+<_bHideShipInCockpitAcutal attr1="0"/>
+<cockpitInitPos x="0" y="19.01" z="14.82"/>
+<cockpitTransLimit x="2" y="2" z="2"/> 
+<chaseInitPos x="0" y="60" z="300"/>
+<chaseTransLimit x="14" y="8" z="6"/>
+<health attr1="11500"/> 
+<armor attr1="1.0"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="15.0"/> 
+    <roll attr1="35.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="-9.069" y="12.188" z="-27.446"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="90.0"/> 
+    <roll attr1="-5.0"/> 
+	<yaw attr1="-12.0"/> 
+	<position x="3.13" y="19.285" z="13.431"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="rhinoD01"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="rhinoD02"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explodeRed04"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="0" y="5.82" z="90"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="0" y="-2.34" z="85.13"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="14.79" y="-7.08" z="85.88"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="-14.79" y="-7.08" z="85.88"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.55"/> 
+    <capacity attr1="15"/>
+    <recharge attr1="16"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<turret>
+    <turretID attr1="rhinoTurret"/> 
+	<yawPermitted attr1="75"/>
+	<turretOrientation attr1="bottom"/> 
+	<position x="0" y="-16.892" z="-18.641"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+	<position x="0" y="19.497" z="63.991"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+	<_bShowInCockpit attr1="1"/>
+</turret>
+<dock> 
+	<position x="0" y="-2.433" z="32.562"/>
+	<orientation attr1="bottom"/>
+	<ejectOrientation attr1="up"/> 
+	<ejectVelocity attr1="45"/>
+	<dockYawOffset attr1="90"/>
+</dock>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="3"/>
+	<activeUpgradeCapacity attr1="4"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cShield00"/>
+	<upgradeID attr1="cShieldRecharge00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="corvetteFShield00"/>
+	<upgradeID attr1="corvetteRShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.87" y="0" z="50"/>

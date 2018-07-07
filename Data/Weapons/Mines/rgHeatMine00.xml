@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="mine"/> 
+<mineType attr1="swarm_mine"/> 
+<objectID attr1="rgHeatMine00"/>
+<meshName attr1="rgHeatMine00.mesh"/> 
+<cruiseSpeed attr1="80.0"/> 
+<timeTillCruise attr1="8.0"/> 
+<initialVelocity attr1="10.0"/> 
+<initialLife attr1="240.0"/> 
+<detectionProximity attr1="2500"/>
+<timeTillActive attr1="2.5"/>
+<damage attr1="1500.0"/>
+<weaponPush attr1="200"/>
+<health attr1="10.0"/> 
+<explosionID attr1="explodeRed02"/> 
+<yaw 	attr1="100.0"/> 
+<pitch	attr1="100.0"/> 
+<roll 	attr1="100.0"/> 
+<minimumShipClass attr1="corvette"/>
+<bHeatMine attr1="1"/>
+<bSpinner attr1="1"/>
+<bIgnoresShields attr1="1"/>
+<renderingDistance attr1="3000"/>
+<bCanAddViaBattleEditorSlider attr1="1"/>

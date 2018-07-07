@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="palm"/> 
+<displayName attr1="Palm"/> 
+<objectID attr1="palm"/> 
+<faction attr1="tsf"/> 
+<meshName attr1="Palm.mesh"/>
+<wireframeMaterial attr1="WF/TheHub"/> 
+<descriptionText attr1="A TSF asteroid base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Palm, a joke name that stuck, was the first settled object in this area of space. Carved out by Digger drill ships, then settled by the MU and soon after taken over by the TSF."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The decision proved wise when it was able to rely on its strategic ore reserves to repair and rebuild losses from the MU ambush, regain ground and even withstand Outsider attacks."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Though some say, had the TSF not taken the Palm from the MU, the rebellion wouldn't have happened in the first place."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="0" y="0" z="-219.32"/>
+<dockingArmsEnd x="0" y="0" z="-512.02"/>
+<dockPosition x="0" y="0" z="-270.81"/>
+<dockSize x="60" y="60" z="30"/>
+<hangarID attr1="palmH"/> 
+<maxBuildShipClass attr1="frigate"/>
+<bCanResearch attr1="1"/>
+<rockSubPosition attr1="1"/>
+<miningPlatformPosition x="-666.390" y="267.789" z="13.514"/>

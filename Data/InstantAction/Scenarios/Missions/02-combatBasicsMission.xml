@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<position attr1="0"/> 
+<name attr1="Combat - Basics"/> 
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<nextMissionNumber attr1="1000"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="create_tutorial_listener"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="player_command"/> 
+		<playerCommandID attr1="target_enemy"/>
+	</objective>
+	<preCutscene attr1="02-combatBasicsScene"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Welcome to the combat basics tutorial."/>
+			<content attr1="First up, basic targeting."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Targeting an object is one of the most important steps to combat success."/>
+			<content attr1="When targeted, your HUD will track the target and provide sensor readings."/>
+			<content attr1="Not to mention most weapon systems will assist in aim."/>
+		</dialog>	
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Because situations vary, there's various targeting related keys."/>
+			<content attr1="Target nearest enemy - key" attr2="ship_command" attr3="target_enemy"/>
+			<content attr1="To target ship targeting you - key " attr2="ship_command" attr3="target_nearest_targeting"/>
+			<content attr1="Target cycling - next - key " attr2="ship_command" attr3="next_target"/>
+			<content attr1="Target cycling - previous - key " attr2="ship_command" attr3="previous_target"/>
+		</dialog>			
+	</preDialog>
+	<missionHUDText attr1="Target nearest enemy - key" attr2="ship_command" attr3="target_enemy"/>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="Target 1-1"/>
+	</objective>
+	<missionHUDText attr1="Destroy target"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Great, you've got the ship targeted."/>
+			<content attr1="Hitting it with weapons fire should be much easier."/>
+			<content attr1="Another key component to combat is knowing when you are within firing range."/>
+			<content attr1="There are a few indicators on the HUD."/>
+			<content attr1="The aim assist indicator will spin"/>
+			<content attr1="And orange vertical indicators will appear on the target marker."/>
+			<content attr1="Take note of the indicators then destroy the target."/>
+		</dialog>
+	</preDialog>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="Target 1-2"/>
+	</objective>
+	<missionHUDText attr1="Destroy second target"/>
+	<missionHUDText attr1="Target nearest enemy - key" attr2="ship_command" attr3="target_enemy"/>
+	<missionHUDText attr1="Secondary weapon - key" attr2="ship_command" attr3="fire_secondary"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Nice."/>
+			<content attr1="Let's talk about secondary weapons."/>
+			<content attr1="Most ships come equipped with them."/>
+			<content attr1="Secondary weapons tend to be more powerful and require more skill."/>
+			<content attr1="For example the Hornet you are in right now has a secondary charged blast type weapon."/>
+			<content attr1="You'll need to hold down the secondary fire button to charge the weapon, then release to fire."/>
+			<content attr1="Unlike the standard projectile guns, you don't have to lead the target, aim straight on."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Target the next enemy ship."/>
+			<content attr1="Then use the secondary weapon to destroy it."/>
+			<content attr1="Secondary weapon - key " attr2="ship_command" attr3="fire_secondary"/>
+		</dialog>
+	</preDialog>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="hornet"/>
+		<shipName attr1="Target 2-1"/>
+		<shipID attr1="hornet"/>
+		<shipName attr1="Target 2-2"/>
+		<shipID attr1="hornet"/>
+		<shipName attr1="Target 2-3"/>
+		<reletiveObject attr1="tutorialShip"/>
+		<position x="0" y="0" z="-1750"/>
+		<faction attr1="enemyPlayer"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="hornet"/>
+		<shipName attr1="Friendly 2-1"/>
+		<shipID attr1="hornet"/>
+		<shipName attr1="Friendly 2-2"/>
+		<reletiveObject attr1="tutorialShip"/>
+		<position x="0" y="0" z="250"/>
+		<faction attr1="player"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="Target 2-1"/>
+		<targetName attr1="Friendly 2-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="Friendly 2-1"/>
+		<targetName attr1="Target 2-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="Target 2-2"/>
+		<targetName attr1="Friendly 2-2"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="Friendly 2-2"/>
+		<targetName attr1="Target 2-2"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="Target 2-3"/>
+		<targetName attr1="tutorialShip"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="enemyPlayer"/> 
+	</objective>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Nice!"/>
+			<content attr1="Keep in mind that other ships will have different secondary weapons with their own strengths and weaknesses."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Next up, we'll create some friendly and enemy ships."/>
+			<content attr1="The key to survival in multi ship engagements..."/>
+			<content attr1="Is prioritizing targeting."/>
+			<content attr1="Try to prioritize targeting ships that are attacking you."/>
+			<content attr1="Taking out the ship that's firing on you, greatly increases the odds of survival."/>
+			<content attr1="To target ship targeting you - key " attr2="ship_command" attr3="target_nearest_targeting"/>
+		</dialog>	
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Let's recap some basic flight keys."/>
+			<content attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
+			<content attr1="Left thrust - key" attr2="ship_command" attr3="thrust_left"/>
+			<content attr1="Right thrust - key" attr2="ship_command" attr3="thrust_right"/>
+			<content attr1="Ascend thrust - key" attr2="ship_command" attr3="thrust_up"/>
+			<content attr1="Descend thrust - key" attr2="ship_command" attr3="thrust_down"/>
+			<content attr1="Afterburner - key" attr2="ship_command" attr3="afterburner"/>
+		</dialog>	
+	</preDialog>
+	<missionHUDText attr1="Eliminate enemy ships:"/>
+	<missionHUDText attr1="Target nearest enemy targeting you - key" attr2="ship_command" attr3="target_nearest_targeting"/>
+	<missionHUDText attr1="Flight Recap: "/>
+	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
+	<missionHUDText attr1="All stop - key" attr2="ship_command" attr3="zero_speed"/>
+	<missionHUDText attr1="Left thrust - key" attr2="ship_command" attr3="thrust_left"/>
+	<missionHUDText attr1="Right thrust - key" attr2="ship_command" attr3="thrust_right"/>
+	<missionHUDText attr1="Ascend thrust - key" attr2="ship_command" attr3="thrust_up"/>
+	<missionHUDText attr1="Descend thrust - key" attr2="ship_command" attr3="thrust_down"/>
+	<missionHUDText attr1="Afterburner - key" attr2="ship_command" attr3="afterburner"/>
+	<missionHUDText attr1="Target nearest enemy - key" attr2="ship_command" attr3="target_enemy"/>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<displayName attr1="Exit tutorial"/> 
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer="1000"/>
+	</objective>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Nice! Combat is a lot easier when you have friends."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="This completes the combat basics tutorial."/>
+			<content attr1="Combat is a brutal teacher when done outside the simulator."/>
+			<content attr1="Feel free to replay this tutorial as many times as you need."/>
+			<content attr1="Good luck."/>
+		</dialog>
+	</preDialog>
+	<missionHUDText attr1="Tutorial completed"/>
+	<missionHUDText attr1="ESC game menu"/>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="tutorialShip"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Looks like your ship got toasted."/>
+			<content attr1="Cheer up!"/>
+			<content attr1="If this wasn't a sim, you'd be dead."/>
+		</dialog>
+	</postDialog>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

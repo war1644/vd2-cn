@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<factionID attr1="hazardInc"/> 
+<factionType attr1="games"/>
+<factionName attr1="Hazard Inc."/>
+<factionPluralName attr1="Hazard Inc."/>
+<wireframeColor r="0.15" g="0.15" b="0.35" a="1.0"/> 
+<highlightOutlineColor r="0.0" g="0.0" b="0.35" a="0.5"/>
+<textColor r="0.15" g="0.15" b="0.35" a="1.0"/>
+<backgroundColor r="0.1" g="0.1" b="0.2" a="0.5"/>
+<cloudsColor r="0.15" g="0.15" b="0.25" a="0.5"/>
+<tacticalMaterial attr1="Overworld/Hazard"/>
+<selectedTacticalMaterial attr1="Overworld/HazardSelected"/>
+<buildTacticalMaterial attr1="Overworld/HazardBuild"/>
+<bareBonesMaterialName attr1="BaseColor/Player"/>
+<factionIconText attr1="set:brFactionIcons image:stub"/>
+<descriptionText attr1="Hazard Incorporated is a mega gambling corporation."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Some bases mine asteroids, Hazard Inc.'s bases mine desire, greed and addiction."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Gambling isn't just for the rich, if you can hold a weapon or pilot a ship you can gamble with your life. All are welcome."/>

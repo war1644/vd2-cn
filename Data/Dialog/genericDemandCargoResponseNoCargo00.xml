@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="gNoCargo00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="demand_cargo_response_no_cargo"/>
+<dialog attr1="You blind? I don't have any pods."/>
+<dialog attr1="Sorry, running empty."/>
+<dialog attr1="Not carrying any cargo."/>

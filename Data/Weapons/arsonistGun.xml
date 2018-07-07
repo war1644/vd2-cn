@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="arsonistGun"/> 
+<ammunitionID attr1="lightPlasmaP"/> 
+<name attr1="Plasma Lance"/> 
+<fireSoundID attr1="heavyPGS00"/>
+<muzzleFlashEffectID attr1="mfLG10"/>
+<reFireRate attr1="0.30"/> 
+<capacity attr1="10"/> 
+<reloadTime attr1="1.0"/>

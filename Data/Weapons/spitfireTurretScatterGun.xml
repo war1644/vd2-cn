@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="spitfireTSG"/> 
+<ammunitionID attr1="lightRGP"/> 
+<projectileWeaponType attr1="scatter_gun"/>
+<roundsPerShot attr1="3"/>
+<scatterYaw attr1="0.15"/>
+<scatterPitch attr1="0.15"/>
+<bAddRandom attr1="0"/>
+<name attr1="Light Scatter Gun"/> 
+<fireSoundID attr1="scatterGS00"/>
+<muzzleFlashEffectID attr1="mfLG035"/>
+<reFireRate attr1="0.25"/>
+<capacity attr1="3"/> 
+<reloadTime attr1="0.85"/>

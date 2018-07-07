@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="beam"/> 
+<weaponID attr1="lBJB00"/> 
+<name attr1="Beam"/> 
+<materialName attr1="Weapons/heavyBeam"/> 
+<hitParticleName attr1="vdp_muzzle_megabeam"/>
+<muzzleFlashEffectID attr1="mfMMegB00"/>
+<fireSoundID attr1="oMegBS00"/>
+<damage attr1="200.0"/> 
+<weaponPush attr1="35000"/>
+<range attr1="3500.0"/> 
+<baseScale attr1="2.5"/>
+<oscilateRange attr1="1"/>
+<oscilateAmount attr1="0.25"/>
+<capacity attr1="10"/> 
+<reloadTime attr1="3"/>
+<assistDegree attr1="1.5"/>
+<bAlwaysPlayFireSound attr1="1"/>

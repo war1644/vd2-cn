@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<screenEffect attr1="fade_in"/>
+	<trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="baseExit00"/> 	
+	</trigger>
+	<attachment attr1="tutorialShip"/>
+	<cameraPosition x="-25" y="-15" z="-20"/>
+	<duration attr1="1"/>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="5"/> 
+	<headingText attr1=" "/> 
+	<headingText attr1="Flight Advanced..."/> 
+</sceneFragment>

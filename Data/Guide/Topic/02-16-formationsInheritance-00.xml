@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="formationInheritance"/>
+<topicName attr1="  Formations Inheritance"/>
+<mainText attr1="Formations Inheritance:"/>
+<mainText attr1="Ships in formations inherit certain things from their leader."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Concepts:"/>
+<mainText attr1="When a ship joins a formation it inherits the posture"/>
+<mainText attr1="  Example: leader is set to Do Not Engage - new ship joins formation and now is set to Do Not Engage."/>
+<mainText attr1="When a ship joins a formation it inherits the weapons hold setting"/>
+<mainText attr1="  Example: leader is set to weapons hold - new ship joins formation and now is set to weapons hold."/>
+<mainText attr1="     The follower inherits the leader's commands."/>
+<mainText attr1="When a leader ship is destroyed, another ship is elected leader, this ship inherits the former leader's orders."/>
+<mainText attr1=" "/>
+<mainText attr1="Behind the scenes:"/>
+<mainText attr1="Deciding that ships should inherit postures and weapons hold settings is tricky. Overall I chose the inheritance route to make things simpler in terms of micro managing."/>
+<mainText attr1="For example - a formation leader is set to do not engage, a new ship enters the sector via a gate and forms up with the leader (rally point setting). If not for inheritance the new ship might engage the enemy instead of taking the defensive posture of lead ship.  Without inheritance the player would have to select the new ship and then set the proper setting."/>

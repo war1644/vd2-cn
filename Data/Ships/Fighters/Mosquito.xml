@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Mosquito"/> 
+<objectID attr1="mosquito"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="repair"/> 
+<sizeShipClass attr1="fighter"/> 
+<shipClassSize attr1="light"/>
+<meshName attr1="Mosquito.mesh"/> 
+<collisionMeshName attr1="mosquitoCollision.mesh"/>
+<wireframeMaterial attr1="WF/Loader"/> 
+<descriptionText attr1="A small repair ship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Completely unarmed, but very capable of turning the tides of battle."/>
+<creditCost attr1="10000"/>
+<bBlackMarket attr1="1"/>
+<cruiseSpeed attr1="100.0"/> 
+<timeTillCruise attr1="1.5"/> 
+<yaw 	attr1="75.0"/> 
+<pitch	attr1="75.0"/> 
+<roll 	attr1="75.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitID attr1="cockpit002"/>
+<cockpitActualPos x="0" y="0" z="0"/>
+<cockpitActualMesh attr1="cockpitMosquito.mesh"/> 
+<cockpitInitPos x="0" y="6.21" z="9.13"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos  x="0" y="18.75" z="93.75"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="300.0"/> 
+<buildTime	attr1="25.0"/> 
+<crew 		attr1="1.0"/> 
+<energy		attr1="200.0"/> 
+<ore		attr1="250.0"/> 
+<damage>
+    <pitch attr1="110.0"/> 
+    <roll attr1="0.0"/> 
+	<yaw attr1="15.0"/> 
+	<position x="-0.644" y="2.867" z="13"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="0.0" y="-0.61" z="-0.21"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="mosquitoD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-01"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="0" y="-1.71" z="9.92"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion012"/> 
+	<position x="0" y="3.98" z="2.375"/>
+	<direction attr1="up"/>
+	<pitch attr1="25.0"/>
+	<bPlayerShipOnly attr1="1"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion012"/> 
+	<position x="5.3125" y="-0.85" z="6.23"/>
+	<direction attr1="port"/>
+	<bPlayerShipOnly attr1="1"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion012"/> 
+	<position x="-5.3125" y="-0.85" z="6.23"/>
+	<direction attr1="starboard"/>
+	<bPlayerShipOnly attr1="1"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-02"/>
+	<tailSoundID attr1="ab-02-tail"/>
+    <multiplier attr1="5.25"/> 
+    <capacity attr1="4.0"/> 
+    <recharge attr1="8.0"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<weapon> 
+    <weaponType attr1="collision"/> 
+    <hardpointID attr1="mosquitoRT"/> 
+	<weaponPosition x="0" y="-2.88" z="-13.91"/>
+</weapon>
+<movingElement> 
+	<boneName attr1="welder"/>
+	<yaw attr1="0.0"/>
+	<pitch attr1="-24.0"/>
+	<roll attr1="0.0"/>
+	<bLinkedToWeapon attr1="1"/>
+	<speedMultiplier attr1="2.5"/>
+</movingElement>
+<upgrades> 
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fSpeed00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="lightFighterPUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="0" z="-7.4125"/>
+<shipHangarYOffset attr1="3"/>

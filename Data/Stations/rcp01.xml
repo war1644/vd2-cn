@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Reborn Comms Platform"/> 
+<objectID attr1="rcp01"/> 
+<faction attr1="reborn"/> 
+<bCommsOverride attr1="1"/>
+<stationClass attr1="comms_platform"/>
+<stationSizeAsShip attr1="corvette"/>
+<creditCost attr1="150000"/>
+<meshName attr1="rcp01.mesh"/> 
+<wireframeMaterial attr1="WF/SDP"/> 
+<descriptionText attr1="Reborn Comms Platform"/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="A Reborn communication platform,."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="A unmanned platform, whose purpose is to scan and report on nearby traffic. Designed to be hard to detect and easy to construct."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="If you are near one of these platforms and are not on friendly terms with its owner, the chances of getting attacked go up exponentially."/>
+<health attr1="10000.0"/> 
+<explosionID attr1="explode06"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<debrisInfo>
+	<debris> 	
+		<debrisID attr1="cdp01D00"/> 
+	</debris>
+	<debris> 	
+		<debrisID attr1="cdp01D01"/> 
+	</debris>
+</debrisInfo> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Food Platform"/> 
+<objectID attr1="foodPlatform01"/> 
+<faction attr1="civilian"/> 
+<stationClass attr1="production_platform"/>
+<resourceProduced attr1="food"/>
+<stationSizeAsShip attr1="carrier"/>
+<creditCost attr1="2000000"/>
+<bCommonPlatform attr1="1"/>
+<meshName attr1="foodPlatform01.mesh"/>
+<wireframeMaterial attr1="WF/FrigateShipyard"/> 
+<descriptionText attr1="A platform capable of growing food."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="A scaled down version of a food producing base, this platform sacrifices base amenities for efficiency and size."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="When owned by bases, these platforms assist in their owner's production and consumption needs."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="When interdependently run, their low prices make them sought out trading partners."/>
+<health attr1="200000"/>
+<explosionID attr1="explode15"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="foodPlatform01D00"/> 
+		<debrisMomentum attr1="2.5"/> 
+		<debrisAngular attr1="2.5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="foodPlatform01D00"/> 
+		<debrisMomentum attr1="2.5"/> 
+		<debrisAngular attr1="2.5"/> 
+	</debris>
+</debrisInfo>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>

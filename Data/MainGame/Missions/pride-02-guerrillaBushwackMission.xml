@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Guerrilla Bushwack"/>
+<missionDescriptionText attr1="We've learned the location of a high priority bounty."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="It is a light corvette class ship, often traveling in a pirate gang."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Your mission is to eliminate this target."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Prove that there is no where to hide from the Pride."/>
+<missionDescriptionText attr1=" "/>
+<objectID attr1="pride-02"/>
+<missionFactionID attr1="thePride"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="-1415" y="0" z="3676"/>
+<worldFile attr1="pride-02-guerillaBushwack-worldFile"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="100000"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<bFactionShipRequired attr1="1"/>
+<maximumShipClass attr1="gunship"/>
+<bOverworldByPass attr1="1"/>
+<bOverworldShipsByPass attr1="1"/>
+<missionRankRequired attr1="4.8"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<note_to_self attr1="ship setup"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="geb"/>
+		<shipName attr1="p02-geb-1"/>
+		<bOverworld attr1="1"/>
+		<note_to_self attr1="making part of overworld so that ransom payment works down below..."/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<orientation w="0.0920617" x="0.00157202" y="0.995607" z="-0.0170007"/>
+		<position x="370.785" y="-403.43" z="-1619.25"/>
+		<bCheckPosition attr1="0"/>
+		<aiPosture attr1="defend"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="geb"/>
+		<shipName attr1="p02-geb-2"/>
+		<bOverworld attr1="1"/>
+		<note_to_self attr1="making part of overworld so that ransom payment works down below..."/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<orientation w="0.0222133" x="0.00197808" y="0.995811" z="-0.0886761"/>
+		<position x="-37.0001" y="-607.23" z="-2784.77"/>
+		<bCheckPosition attr1="0"/>
+		<aiPosture attr1="defend"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="p02-geb-1"/>
+		<health attr1="15"/>
+		<bAsPercent attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="p02-geb-1"/>
+		<targetName attr1="p02-roid-18"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="p02-geb-2"/>
+		<targetName attr1="p02-roid-19"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="pay_ransom"/>
+		<ransomFactionID attr1="beggar"/>
+		<ransomPayer attr1="p02-geb-1"/>
+		<ransomPayer attr1="p02-geb-2"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<note_to_self attr1="pirate ship setup"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="p02-stormCrow-1"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="p02-stormCrow-2"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="p02-stormCrow-3"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="p02-stormCrow-4"/>
+		<shipID attr1="stormCrow"/>
+		<shipName attr1="p02-stormCrow-5"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<orientation w="0.0222133" x="0.00197808" y="0.995811" z="-0.0886761"/>
+		<position x="0" y="100" z="600"/>
+		<reletiveObject attr1="p02-geb-1"/>
+		<bCheckPosition attr1="0"/>
+		<aiPosture attr1="engage"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="p02-stormCrow-2"/>
+		<objectName attr1="p02-stormCrow-3"/>
+		<objectName attr1="p02-stormCrow-4"/>
+		<objectName attr1="p02-stormCrow-5"/>
+		<targetName attr1="p02-stormCrow-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="scavMK2"/>
+		<shipName attr1="p02-scavMK2-1"/>
+		<shipID attr1="scavMK2"/>
+		<shipName attr1="p02-scavMK2-2"/>
+		<shipID attr1="scavMK2"/>
+		<shipName attr1="p02-scavMK2-3"/>
+		<shipID attr1="scavMK2"/>
+		<shipName attr1="p02-scavMK2-4"/>
+		<shipID attr1="scavMK2"/>
+		<shipName attr1="p02-scavMK2-5"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<orientation w="0.997073" x="0" y="0.0764509" z="0"/>
+		<position x="331.812" y="0" z="2543.3"/>
+		<bCheckPosition attr1="0"/>
+		<aiPosture attr1="engage"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="p02-scavMK2-2"/>
+		<objectName attr1="p02-scavMK2-3"/>
+		<objectName attr1="p02-scavMK2-4"/>
+		<objectName attr1="p02-scavMK2-5"/>
+		<targetName attr1="p02-scavMK2-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="p02-scavMK2-1"/>
+		<commandType attr1="patrol_position"/>
+		<position x="0" y="0" z="0"/>
+		<reletiveObject attr1="p02-stealjoy-1"/>
+		<distance attr1="2000"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="p02-geb-1"/>
+		<objectName attr1="p02-geb-2"/>
+		<objectName attr1="p02-stormCrow-1"/>
+		<objectName attr1="p02-stormCrow-2"/>
+		<objectName attr1="p02-stormCrow-3"/>
+		<objectName attr1="p02-stormCrow-4"/>
+		<objectName attr1="p02-stormCrow-5"/>
+		<objectName attr1="p02-scavMK2-1"/>
+		<objectName attr1="p02-scavMK2-2"/>
+		<objectName attr1="p02-scavMK2-3"/>
+		<objectName attr1="p02-scavMK2-4"/>
+		<objectName attr1="p02-scavMK2-5"/>
+		<objectName attr1="p02-raptor-1"/>
+		<objectName attr1="p02-rhinoT-1"/>
+		<objectName attr1="p02-rhino-1"/>
+		<objectName attr1="p02-stealjoy-1"/>
+	</preTrigger>	
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggarGeneric01"/>
+		<message attr1="Pleasure doing business with you!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian02"/>
+		<message attr1="Next time... Please... We'd appreciate you asking with words rather than bullets."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<nextMissionNumber attr1="2000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="7"/>
+	</objective>
+		<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="prideBountyHunter01"/>
+			<nameOverride attr1="Heller"/>
+			<content attr1="Target confirmed."/>
+			<content attr1="Marking it on your HUD."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="prideBountyHunter01"/>
+			<nameOverride attr1="Heller"/>
+			<content attr1="You only need to eliminate the target."/>
+			<content attr1="How you deal with the rest is your call."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<missionHUDText attr1="Destroy target..."/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="p02-raptor-1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="1000"/>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="7"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="prideBountyHunter01"/>
+		<message attr1="Target eliminated! We are the Pride! Can't run! Can't hide!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="5.05"/>
+		<faction attr="thePride"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="pirate response"/>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="25"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="p02-raptor-1"/>
+		<goToDistance attr1="3000"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggarGeneric01"/>
+		<message attr1="Yo! Crows! There's an unwelcome guest!"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<nextMissionNumber attr1="2002"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="p02-stormCrow-1"/>
+		<shipName attr1="p02-stormCrow-2"/>
+		<shipName attr1="p02-stormCrow-3"/>
+		<shipName attr1="p02-stormCrow-4"/>
+		<shipName attr1="p02-stormCrow-5"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-drama"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2002"/>
+	<nextMissionNumber attr1="2003"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="p02-stormCrow-1"/>
+		<targetName attr1="p02-stormCrow-2"/>
+		<targetName attr1="p02-stormCrow-3"/>
+		<targetName attr1="p02-stormCrow-4"/>
+		<targetName attr1="p02-stormCrow-5"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2003"/>
+	<nextMissionNumber attr1="2004"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggarGeneric01"/>
+		<message attr1="This joker took out the Crows!"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2004"/>
+	<nextMissionNumber attr1="2005"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="p02-scavMK2-1"/>
+		<targetName attr1="p02-scavMK2-2"/>
+		<targetName attr1="p02-scavMK2-3"/>
+		<targetName attr1="p02-scavMK2-4"/>
+		<targetName attr1="p02-scavMK2-5"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2005"/>
+	<nextMissionNumber attr1="2006"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggarGeneric01"/>
+		<message attr1="So you took out our fighters? You think you can take us all out? This is a waste of time."/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

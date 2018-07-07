@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="The Beast"/> 
+<objectID attr1="theBeast"/> 
+<faction attr1="rockGuys"/> 
+<shipClass attr1="corvette"/> 
+<shipClassSize attr1="heavy"/>
+<combatAIClass attr1="frigate"/>
+<meshName attr1="theBeast.mesh"/>
+<wireframeMaterial attr1="WF/Harnden"/> 
+<descriptionText attr1="A heavy corvette."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Beast served well during both the TSF and the Outsider conflicts."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="It remains a ship that punches above its weight - specializing in attacking larger targets."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Rapid shot."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Fires three rock projectiles in a rapid fashion. Can be used to cripple smaller targets, or build up the momentum from the rock impact on larger ones."/>
+<creditCost attr1="1425000"/>
+<missionRankRequired attr1="5"/>
+<cruiseSpeed attr1="50.0"/> 
+<timeTillCruise attr1="3.45"/> 
+<yaw 	attr1="55.0"/> 
+<pitch	attr1="55.0"/> 
+<roll 	attr1="55.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="17.404" y="1.241" z="-11.89"/>
+<bHideShipInCockpitAcutal attr1="0"/>
+<cockpitInitPos x="0" y="20.06" z="-3.29"/>
+<cockpitTransLimit x="3" y="3" z="3"/>
+<chaseInitPos x="0" y="53.95" z="409.71"/>
+<chaseTransLimit x="16" y="10" z="6"/> 
+<health attr1="26000"/> 
+<armor attr1="1.5"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="15.0"/> 
+    <roll attr1="65.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="-6.361" y="-4.811" z="116.606"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="35.0"/> 
+    <roll attr1="-65.0"/> 
+	<yaw attr1="22.0"/> 
+	<position x="9.784" y="20.513" z="46.945"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<damage>
+    <pitch attr1="11.0"/> 
+    <roll attr1="-90.0"/> 
+	<yaw attr1="21.0"/> 
+	<position x="7.942" y="-19.383" z="-27.618"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="theBeastD00"/> 
+		<debrisMomentum attr1="2"/> 
+		<debrisAngular attr1="2"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="theBeastD01"/> 
+		<debrisMomentum attr1="2"/> 
+		<debrisAngular attr1="2"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode04"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="0.05" y="9.92" z="130.75"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="0.05" y="-6.47" z="130.75"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.85"/>
+    <capacity attr1="17"/>
+    <recharge attr1="16"/>
+</afterburner>
+<bNoTargetAimNodeOffset attr1="1"/>
+<bPlayerSharedFire attr1="1"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="beastG"/> 
+	<weaponPosition x="0" y="3.89" z="-79"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="beastSG"/> 
+	<weaponPosition x="0" y="3.89" z="-79"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<turret>
+    <turretID attr1="beastT"/> 
+    <turretOrientation attr1="right"/> 
+	<position x="24.72" y="1.44" z="35.85"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="beastT"/> 
+    <turretOrientation attr1="left"/> 
+	<position x="-25.56" y="9.24" z="39.5"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<targetPriorityList> 
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="dreadnaught"/> 
+	<targetClass attr1="attack_station"/>
+</targetPriorityList>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="3"/>
+	<activeUpgradeCapacity attr1="4"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="120" y="0" z="105"/>

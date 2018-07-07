@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Additional Fuel Capacity"/> 
+<objectID attr1="fuelCap00"/> 
+<upgradeCategory attr1="propulsion"/> 
+<cost attr1="2550"/>
+<addCostAsPercentOfShip attr1="0.025"/>
+<bAlwaysAvailableUpgrade attr1="1"/>
+<description attr1="Converts and utilizes ship space to accommodate additional fuel reserves."/>
+<description attr1=" "/>
+<description attr1="Fuel stored on ships is used as a way to greatly increase Overworld travel speed. Additional fuel means additional time spent in the boosted state."/>
+<description attr1=" "/>
+<description attr1="Be advised that in a fleet situation, the ship with the highest fuel capacity is what determines the fleet fuel capacity. So depending on the fleet, this upgrade might not have the desired effect."/>
+<fuelChangePercent attr1="2.0"/>

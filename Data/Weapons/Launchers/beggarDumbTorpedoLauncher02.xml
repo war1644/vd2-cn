@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="missile"/> 
+<weaponID attr1="beggarDTL02"/> 
+<ammunitionID attr1="bDumbTorp01"/> 
+<name attr1="Launcher"/> 
+<fireSoundID attr1="missileLS"/>
+<reFireRate attr1="0"/>
+<capacity attr1="2"/>
+<reloadTime attr1="20"/> 
+<muzzleFlashEffectID attr1="mfML01"/>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Maneuvering Upgrade"/> 
+<objectID attr1="gunshipMan00"/> 
+<upgradeCategory attr1="propulsion"/> 
+<cost attr1="2500"/>
+<addCostAsPercentOfShip attr1="0.045"/>
+<description attr1="Boosts the maximum potential rate of yaw, pitch and roll. While gunships turn fast compared to larger ships, some pilots may want their turning rate to be closer to fighters."/>
+<maneuveringMultiplier attr1="1.15"/>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="upgradingCommandShip"/>
+<topicName attr1="Upgrading The Command Ship"/>
+<mainText attr1="Upgrading The Command Ship:"/>
+<mainText attr1="The command ship can be upgraded with weapons, abilities and passive upgrades (see Command Ship Abilities topic in the Ship Mode section)."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Concepts:"/>
+<mainText attr1="Upgrades require time as well as ore and energy to acquire."/>
+<mainText attr1="    The most reliable way of getting resources is via the Transfer platform."/>
+<mainText attr1="    For info on building platforms see the Building Platforms topic."/>
+<mainText attr1="Some upgrades have multiple levels."/>
+<mainText attr1="New upgrades and levels become available as the mission/story game progresses."/>
+<mainText attr1=" "/>
+<mainText attr1="How to upgrade the Command Ship:"/>
+<mainText attr1="Upgrades are done in the Command Ship upgrade interface - see image on right for the button."/>
+<mainText attr1="Select the upgrade from the list then click the add Upgrade button or double click to add to the upgrade queue."/>
+<mainText attr1="If there is enough resources than the upgrade process will begin."/>
+<mainText attr1=" "/>
+<mainText attr1="Getting resources:"/>
+<mainText attr1="If there is a Transfer platform nearby - you can request resources from it."/>
+<mainText attr1="    See image on the lower right"/>
+<mainText attr1="    When requested the platform will launch cargo pods that will fly towards the Command Ship."/>
+<mainText attr1="    To speed up cargo acquisition:"/>
+<mainText attr1="         Use a tractor beam on the pod (see Command Ship Abilities topic in Ship Mode)."/>
+<mainText attr1="         Fly towards the pod - they move slow."/>
+<mainText attr1=" "/>
+<mainText attr1="Any cargo pods can be picked up."/>
+<mainText attr1="   For a cargo pod to be picked it up it needs to be targeted."/>
+<mainText attr1="   Or towed in via the use of a tractor beam."/>
+<mainText attr1="   The Command Ship has limited cargo space."/>
+<imageOne>
+	<image attr1="set:guide_commandship_upgrade_icon image:guide_commandship_upgrade_icon"/>
+</imageOne>
+<imageTwo>
+	<image attr1="set:guide_command_ship_upgrades image:guide_command_ship_upgrades"/>
+</imageTwo>
+<imageThree>
+	<image attr1="set:guide_command_ship_request image:guide_command_ship_request"/>
+</imageThree>
+
+

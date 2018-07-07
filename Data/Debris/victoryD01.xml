@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="debris"/> 
+<name attr1="Debris"/> 
+<objectID attr1="victoryD01"/> 
+<meshName attr1="victoryD01.mesh"/> 
+<faction attr1="tsf"/>
+<descriptionText attr1="Some debris."/> 
+<health attr1="11000.0"/> 
+<timeToLive attr1="45.0"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<explosionID attr1="explode06"/>
+<minimumMomentum attr="1"/>
+<minimumRotation attr="1"/>
+<debrisSizeAsShipClass attr1="frigate"/>
+<bCanAddViaBattleEditorSlider attr1="1"/>
+<turret>
+    <turretID attr1="correaT02"/>
+	<position x="29.182" y="41.479" z="-57.982"/>
+	<pitchLower attr1="1"/> 
+	<turretRole attr1="offense"/>
+</turret>
+<turret>
+    <turretID attr1="correaT02"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="23.049" y="-50.203" z="-35.085"/>
+	<pitchLower attr1="1"/> 
+	<turretRole attr1="offense"/>
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<turretOrientation attr1="left"/>
+	<position x="-49.773" y="-4.204" z="-30.357"/>
+	<pitchLower attr1="-2"/> 
+	<turretRole attr1="offense"/>
+</turret>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="beam"/> 
+<weaponID attr1="roachCB00"/> 
+<beamType attr1="particle_beam"/>
+<name attr1="Light Torch"/> 
+<hitSound attr1="beamHit.wav"/>
+<hitParticleName attr1="vdp_damage_torch00_hit"/>
+<fireSoundID attr1="repairTorch00"/>
+<fireParticleName attr1="vdp_damage_torch00"/>
+<damage attr1="85.0"/> 
+<range attr1="1250.0"/>
+<capacity attr1="5"/> 
+<reloadTime attr1="2.25"/>
+<assistDegree attr1="5"/>

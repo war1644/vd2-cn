@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<duration attr1="1.0"/>
+	<bPaused attr1="1"/>
+	<lookAtObject attr1="shangrila"/> 
+	<reletiveObject attr1="shangrila"/> 
+	<cameraPosition x="1500" y="50" z="-1000"/>
+	<trigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="arsonist-1"/>
+		<shipName attr1="arsonist-2"/>
+		<shipName attr1="arsonist-3"/>
+		<shipName attr1="arsonist-4"/>
+		<shipName attr1="perezGMK2-1"/>
+		<shipName attr1="perezGMK2-2"/>
+		<shipName attr1="perezGMK2-3"/>
+		<shipName attr1="perezGMK2-4"/>
+		<shipName attr1="perezGMK2-5"/>
+		<shipName attr1="correa-4"/>
+		<shipName attr1="correa-5"/>
+		<shipName attr1="correa-6"/>
+		<shipName attr1="correa-7"/>
+		<shipName attr1="bonnie-4"/>
+		<shipName attr1="bonnie-5"/>
+		<shipName attr1="bonnie-6"/>
+		<shipName attr1="bonnie-7"/>
+		<shipName attr1="bonnie-8"/>
+		<shipName attr1="bonnie-9"/>
+		<shipName attr1="bonnie-10"/>
+		<shipName attr1="bonnie-11"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</trigger>
+	<trigger>
+		<triggerType attr1="disable_engines"/>
+		<shipName attr1="correa-1"/>
+		<shipName attr1="correa-2"/>
+		<shipName attr1="correa-3"/>
+		<shipName attr1="theBeast-2"/>
+		<bSetting attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_ship_target_priority_list"/>
+		<shipName attr1="talon-1"/>
+		<shipName attr1="talon-2"/>
+		<shipName attr1="pincer-1"/>
+		<shipName attr1="pincer-2"/>
+		<shipName attr1="pincer-3"/>
+		<targetPriorityList> 
+			<targetClass attr1="cruiser"/>
+			<targetClass attr1="destroyer"/>
+			<targetClass attr1="frigate"/>
+			<targetClass attr1="corvette"/>
+		</targetPriorityList>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<bPaused attr1="1"/>
+	<duration attr1="2"/> 
+	<headingText attr1="Shangri-La (Stub Base)..."/>
+	<trigger>
+		<triggerType attr1="set_position"/>
+		<body attr1="playerShip"/>
+		<reletiveObject attr1="shangrila"/>
+		<position x="390" y="0" z="-27.543"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_orientation"/>
+		<body attr1="playerShip"/>
+		<reletiveObject attr1="shangrila"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="2"/>
+	<bPaused attr1="1"/>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="1"/> 
+	<bPaused attr1="1"/>
+	<trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-combat05-seg2"/> 	
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<duration attr1="0.01"/>
+	<lookAtObject attr1="shangrila"/> 
+	<reletiveObject attr1="shangrila"/> 
+	<cameraPosition x="-150" y="50" z="-6500"/>
+</sceneFragment>
+<sceneFragment>
+	<headingText attr1="Outsider Conflict..."/>
+	<cameraMode attr1="simple_translate"/>
+	<duration attr1="6.0"/>
+	<velocity x="0" y="0" z="350"/>
+</sceneFragment>
+<sceneFragment>
+	<cameraMode attr1="stop_and_idle"/>
+	<duration attr1="1.0"/>
+</sceneFragment>
+<sceneFragment>
+	<cameraMode attr1="stop_and_idle"/>
+	<duration attr1="2.0"/>
+</sceneFragment>
+<sceneFragment>
+	<duration attr1="4"/>
+	<attachment attr1="playerShip"/>
+	<cameraPosition x="-15" y="5" z="-30"/>
+	<trigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="playerShip"/>
+		<bSetting attr1="0"/>
+	</trigger>
+</sceneFragment>

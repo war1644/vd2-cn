@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="U.N.O Overhaul"/> 
+<objectID attr1="uno"/>
+<upgradeCategory attr1="engineering"/>
+<upgradeType attr1="other"/>
+<cost attr1="1000"/>
+<addCostAsPercentOfShip attr1="0.15"/>
+<bAlwaysAvailableUpgrade attr1="1"/>
+<bIllegalUpgrade attr1="1"/>
+<bRemoveCapturedFlag attr1="1"/>
+<description attr1="U.N.O. - Under New Ownership"/>
+<description attr1=" "/>
+<description attr1="Repairs and replaces ship components necessary to fully operate and own a 'acquired' ship."/>
+<description attr1=" "/>
+<description attr1="Before this overhaul 'acquired' ships cannot be upgraded."/>
+<description attr1=" "/>
+<description attr1="During the 'acquisition' process, the un-sympathetic security forces' resistance to new ownership tends to cause damage."/>
+<description attr1=" "/>
+<description attr1="Even if said damage is avoided, some systems need to be replaced to ensure security and compatibility."/>
+<description attr1=" "/>
+<description attr1="Due to the usually 'less than legal' nature of the 'acquisition' this upgrade tends to be costly and only available in 'less than legal' locations."/>

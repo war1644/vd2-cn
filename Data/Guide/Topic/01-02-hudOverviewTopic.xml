@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="hudOverview"/>
+<topicName attr1="HUD Overview"/>
+<mainImage>
+	<image attr1="set:guide_hud image:guide_hud"/>
+</mainImage>

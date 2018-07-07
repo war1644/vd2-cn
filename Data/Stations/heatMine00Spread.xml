@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Heat Mine Spread"/> 
+<objectID attr1="rgHeatMine00Spread"/> 
+<faction attr1="rockGuys"/> 
+<stationClass attr1="mine_spread"/>
+<meshName attr1="rgHeatMine00Spread.mesh"/> 
+<wireframeMaterial attr1="WF/TurretSat001"/>
+<descriptionText attr1="9 heat seeking mines."/> 
+<health attr1="250.0"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="1"/>
+<mine>
+    <mineID attr1="rgHeatMine00"/> 
+	<position x="0" y="0" z="0"/>
+</mine>
+<mine>
+    <mineID attr1="rgHeatMine00"/>
+	<position x="-15" y="0" z="0"/>
+	<linearVelocity x="-60" y="0" z="0"/>
+</mine>
+<mine>
+    <mineID attr1="rgHeatMine00"/> 
+	<position x="15" y="0" z="0"/>
+	<linearVelocity x="60" y="0" z="0"/>
+</mine>
+<mine>
+    <mineID attr1="rgHeatMine00"/> 
+	<position x="0" y="0" z="-20"/>
+	<linearVelocity x="0" y="80" z="-80"/>
+</mine>
+<mine>
+    <mineID attr1="rgHeatMine00"/> 
+	<position x="-15" y="0" z="-20"/>
+	<linearVelocity x="-30" y="-80" z="-80"/>
+</mine>
+<mine>
+    <mineID attr1="rgHeatMine00"/> 
+	<position x="15" y="0" z="-20"/>
+	<linearVelocity x="30" y="80" z="-80"/>
+</mine>
+<mine>
+    <mineID attr1="rgHeatMine00"/> 
+	<position x="0" y="0" z="20"/>
+	<linearVelocity x="0" y="-80" z="80"/>
+</mine>
+<mine>
+    <mineID attr1="rgHeatMine00"/> 
+	<position x="-15" y="0" z="20"/>
+	<linearVelocity x="-60" y="80" z="80"/>
+</mine>
+<mine>
+    <mineID attr1="rgHeatMine00"/> 
+	<position x="15" y="0" z="20"/>
+	<linearVelocity x="60" y="-80" z="80"/>
+</mine>

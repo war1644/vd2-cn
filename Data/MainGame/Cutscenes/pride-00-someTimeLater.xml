@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<screenEffect attr1="fade_in"/>
+	<attachment attr1="playerShip"/>
+	<cameraPosition x="-15" y="5" z="-25"/>
+	<duration attr1="2.5"/>
+	<trigger>
+		<triggerType attr1="ship_speed_zero"/>
+		<shipName attr1="playerShip"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="taurus"/>
+		<shipName attr1="approvalTarget"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<bReletiveToPlayer attr1="1"/>
+		<position x="3000" y="300" z="-3500"/>
+		<aiPosture attr1="defend"/>
+		<bOverworld attr1="0"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="approvalTarget"/>
+		<characterID attr1="pride-00-Target"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="approvalTarget"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="approvalTarget"/>
+		<commandType attr1="go_to_position"/>
+		<position x="-50000" y="0" z="0"/>
+		<reletiveObject attr1="approvalTarget"/>
+	</trigger>
+	<_trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-wreckage00"/> 	
+	</_trigger>
+</sceneFragment>
+<sceneFragment>
+	<attachment attr1="playerShip"/>
+	<cameraPosition x="-15" y="5" z="25"/>
+	<duration attr1="3.5"/>
+	<headingText attr1="Some time later..."/>
+</sceneFragment>
+<sceneFragment>
+	<duration attr1="3"/>
+	<attachment attr1="approvalTarget"/>
+	<cameraPosition x="-15" y="5" z="-25"/>
+</sceneFragment>
+<sceneFragment>
+	<attachment attr1="playerShip"/>
+	<cameraPosition x="-15" y="5" z="25"/>
+	<duration attr1="2.5"/>
+</sceneFragment>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="damagedHostile00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="damaged_hostile"/>
+<dialog attr1="No! It can't end like this!"/>
+<dialog attr1="You'll pay for that!"/>
+<dialog attr1="Not bad, but I'm just getting started!"/>
+<dialog attr1="Lucky shot!"/>
+<dialog attr1="You've got my attention."/>
+<dialog attr1="Now I'm pissed!"/>
+<dialog attr1="That's all you got?"/>
+<dialog attr1="Just a scratch!"/>

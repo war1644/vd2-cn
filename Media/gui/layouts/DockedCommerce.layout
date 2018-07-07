@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="DockedCommerce" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DefaultWindow" Name="DockedCommerce/UnifiedFrame" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.730356,0},{-0.000391843,0},{0.997617,0},{0.172732,0}}" />
+            <Window Type="ootGUI/StaticImage" Name="DockedCommerce/Repair/healthBG" >
+                <Property Name="Image" Value="set:jhGUI_cmd_health_BG image:jhGUI_cmd_health_BG" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.17177,0},{0.0321933,0},{0.992562,0},{0.377049,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="jhGUI/Cmd_Health" Name="DockedCommerce/UnifiedFrame/healthBG/Health" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0150876,0},{0.0429181,0},{0.976011,0},{0.895677,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="DockedCommerce/UnifiedFrame/CreditsFrame" >
+                <Property Name="Image" Value="set:jhGUI_cmd_heading image:jhGUI_cmd_heading" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.170545,0},{0.389292,0},{0.68176,0},{0.572426,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="ootGUI/StaticText" Name="DockedCommerce/UnifiedFrame/CreditsFrame/txtCredits" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="Credits:" />
+                    <Property Name="HorzExtent" Value="59" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0275794,0},{0.0971505,0},{0.964302,0},{0.708676,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="jhGUI/StaticImageLeft" Name="DockedCommerce/ShipList" >
+            <Property Name="UnifiedAreaRect" Value="{{0.00344062,0},{0.1374,0},{0.289341,0},{0.975252,0}}" />
+            <Window Type="jhGUI/FramelessListbox" Name="DockedCommerce/ShipList/lstShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0220277,0},{0.0528232,0},{0.983566,0},{0.978334,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/ShipList/txtHeader" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Commerce Ships:" />
+                <Property Name="HorzExtent" Value="129" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0135224,0},{0.00160751,0},{0.55,0},{0.0400573,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/StaticImageRight" Name="DockedCommerce/MainFrame" >
+            <Property Name="UnifiedAreaRect" Value="{{0.708332,0},{0.1374,0},{0.994232,0},{0.975252,0}}" />
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtCommerce" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Commerce:" />
+                <Property Name="HorzExtent" Value="85" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.245064,0},{0.00160751,0},{0.984626,0},{0.0477684,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtPurchase" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Base: " />
+                <Property Name="HorzExtent" Value="45" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.0418083,0},{0.655968,0},{0.0709234,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnBuyEnergy" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292033,0},{0.110024,0},{0.626535,0},{0.155023,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnBuyFood" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292033,0},{0.158332,0},{0.626535,0},{0.203331,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnBuyOre" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292033,0},{0.208161,0},{0.626535,0},{0.25316,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtSell" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Ship: " />
+                <Property Name="HorzExtent" Value="39" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.383507,0},{0.946955,0},{0.409355,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnSellEnergy" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292033,0},{0.448868,0},{0.626535,0},{0.493866,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnSellFood" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292033,0},{0.498477,0},{0.626535,0},{0.543475,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnSellOre" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292033,0},{0.548602,0},{0.626535,0},{0.5936,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtEnergyBuy" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Energy:" />
+                <Property Name="HorzExtent" Value="50" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.113607,0},{0.217647,0},{0.15025,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtFoodBuy" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Food:" />
+                <Property Name="HorzExtent" Value="36" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.161612,0},{0.217647,0},{0.198256,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtOreBuy" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Ore:" />
+                <Property Name="HorzExtent" Value="27" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.211636,0},{0.217647,0},{0.248279,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtOreSell" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Ore (Cargo):" />
+                <Property Name="HorzExtent" Value="77" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.552697,0},{0.217647,0},{0.589339,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtFoodSell" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Food:" />
+                <Property Name="HorzExtent" Value="36" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.500912,0},{0.217647,0},{0.537554,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtEnergySell" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Energy:" />
+                <Property Name="HorzExtent" Value="50" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.451302,0},{0.217647,0},{0.487945,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtNoRoomForPod" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="No room for cargo pod..." />
+                <Property Name="HorzExtent" Value="155" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.277531,0},{0.353749,0},{0.712316,0},{0.383954,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="DockedCommerce/MainFrame/btnDismiss" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="DISMISS" />
+                <Property Name="UnifiedAreaRect" Value="{{0.484971,0},{0.918482,0},{0.989867,0},{0.982656,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="DockedCommerce/MainFrame/btnHire" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="HIRE" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00487365,0},{0.917171,0},{0.521049,0},{0.981345,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtWeaponsBuy" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Weapons:" />
+                <Property Name="HorzExtent" Value="65" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.261893,0},{0.217647,0},{0.298537,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtNarcoticsBuy" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Narcotics:" />
+                <Property Name="HorzExtent" Value="65" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.309991,0},{0.217647,0},{0.346634,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnBuyNarcotics" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292033,0},{0.307817,0},{0.626535,0},{0.352816,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnBuyWeapons" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292033,0},{0.257989,0},{0.626535,0},{0.302988,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtWeaponsSell" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Weapons:" />
+                <Property Name="HorzExtent" Value="65" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.648048,0},{0.217647,0},{0.684691,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtNarcoticsSell" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Narcotics:" />
+                <Property Name="HorzExtent" Value="65" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.699207,0},{0.217647,0},{0.73585,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnSellNarcotics" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292033,0},{0.696415,0},{0.626535,0},{0.741412,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnSellWeapons" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292033,0},{0.647591,0},{0.626535,0},{0.692589,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtTradingLevel" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Trading Level:" />
+                <Property Name="HorzExtent" Value="107" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.750491,0},{0.946955,0},{0.776339,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtEnergy" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.667579,0},{0.110024,0},{0.930812,0},{0.155023,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtFood" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.667579,0},{0.158332,0},{0.930812,0},{0.203331,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtOre" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.667579,0},{0.208161,0},{0.930812,0},{0.25316,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtWeapons" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.667579,0},{0.257989,0},{0.930812,0},{0.302988,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtNarcotics" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.665271,0},{0.307817,0},{0.928504,0},{0.352816,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtSurplus" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Surplus / Cargo:" />
+                <Property Name="HorzExtent" Value="122" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.667579,0},{0.0418083,0},{0.97466,0},{0.0709234,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtEnergyShip" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.667579,0},{0.448868,0},{0.930812,0},{0.493866,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtFoodShip" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.667579,0},{0.498477,0},{0.930812,0},{0.543475,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtOreShip" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.667579,0},{0.548602,0},{0.930812,0},{0.5936,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtWeaponsShip" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.667579,0},{0.647591,0},{0.930812,0},{0.692589,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtNarcoticsShip" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.667579,0},{0.696415,0},{0.930812,0},{0.741413,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtOreRockSell" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Ore (Roid):" />
+                <Property Name="HorzExtent" Value="66" />
+                <Property Name="VertExtent" Value="15.4497" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.601395,0},{0.217647,0},{0.638037,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnSellOreRock" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="UnifiedAreaRect" Value="{{0.292033,0},{0.598061,0},{0.626535,0},{0.643059,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtOreRockShip" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.667579,0},{0.598061,0},{0.930812,0},{0.643059,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtPurchaseInfo" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.0756487,0},{0.947877,0},{0.104764,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtSellInfo" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.415895,0},{0.947876,0},{0.445011,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtHiredShipLoss" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Hired Ship: 15% commission fee on profit" />
+                <Property Name="HorzExtent" Value="309" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0453493,0},{0.777063,0},{0.946955,0},{0.802911,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnBuyEnergyAll" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="ALL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.22336,0},{0.116297,0},{0.280958,0},{0.148278,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnBuyFoodAll" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="ALL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.22336,0},{0.164995,0},{0.280958,0},{0.196976,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnBuyOreAll" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="ALL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.22336,0},{0.214995,0},{0.280958,0},{0.246976,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnBuyWeaponsAll" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="ALL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.22336,0},{0.263693,0},{0.280958,0},{0.295675,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnBuyNarcoticsAll" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="ALL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.22336,0},{0.313693,0},{0.280958,0},{0.345675,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnSellEnergyAll" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="ALL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.22336,0},{0.456104,0},{0.280958,0},{0.488085,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnSellFoodAll" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="ALL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.22336,0},{0.504802,0},{0.280958,0},{0.536783,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnSellOreAll" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="ALL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.22336,0},{0.554802,0},{0.280958,0},{0.586784,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnSellWeaponsAll" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="ALL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.22336,0},{0.653501,0},{0.280958,0},{0.685482,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnSellNarcoticsAll" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="ALL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.22336,0},{0.703501,0},{0.280958,0},{0.735482,0}}" />
+            </Window>
+            <Window Type="ootGUI/MiddileButton" Name="DockedCommerce/MainFrame/btnSellOreRockAll" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="ALL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.22336,0},{0.604802,0},{0.280958,0},{0.636784,0}}" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/LabelWithOutline" Name="DockedCommerce/txtNavTooltip" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.372619,0},{0.829226,0},{0.627381,0},{0.862214,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCommerce/txtNavTooltip/imgBackground" >
+                <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex" Name="DockedCommerce/btnUndock" >
+            <Property Name="UnifiedAreaRect" Value="{{0.358419,0},{0.872729,0},{0.408538,0},{0.951212,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="btnUndock/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:ship" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.171427,0},{0.882341,0},{0.893849,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedCommerce/btnSimulation" >
+            <Property Name="UnifiedAreaRect" Value="{{0.55238,0},{0.916924,0},{0.602498,0},{0.995407,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCommerce/btnSimulation/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:research" />
+                <Property Name="UnifiedAreaRect" Value="{{0.145699,0},{0.143637,0},{0.89421,0},{0.866059,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedCommerce/btnPurchaseShip" >
+            <Property Name="UnifiedAreaRect" Value="{{0.436408,0},{0.872729,0},{0.486527,0},{0.951212,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCommerce/btnPurchaseShip/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:formations" />
+                <Property Name="UnifiedAreaRect" Value="{{0.12196,0},{0.129742,0},{0.870471,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedCommerce/btnMissions" >
+            <Property Name="UnifiedAreaRect" Value="{{0.591702,0},{0.872729,0},{0.641821,0},{0.951212,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCommerce/btnMissions/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:command_ship" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedCommerce/btnHelp" >
+            <Property Name="UnifiedAreaRect" Value="{{0.630994,0},{0.916924,0},{0.681113,0},{0.995407,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCommerce/btnHelp/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:help" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedCommerce/btnCurrentShip" >
+            <Property Name="UnifiedAreaRect" Value="{{0.320466,0},{0.917877,0},{0.370585,0},{0.99636,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCommerce/btnCurrentShip/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:shipyard" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedCommerce/btnDockedMain" >
+            <Property Name="UnifiedAreaRect" Value="{{0.397831,0},{0.916924,0},{0.44795,0},{0.995407,0}}" />
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedCommerce/btnBase" >
+            <Property Name="UnifiedAreaRect" Value="{{0.475195,0},{0.916924,0},{0.525314,0},{0.995407,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCommerce/btnBase/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:base" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedCommerce/btnHangar" >
+            <Property Name="UnifiedAreaRect" Value="{{0.514487,0},{0.872729,0},{0.564606,0},{0.951212,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCommerce/btnHangar/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:ship_switch" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

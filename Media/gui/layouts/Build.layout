@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Build" >
+        <Property Name="Text" Value="Build" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="jhGUI/StaticImageRight" Name="Build/Main" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="UnifiedAreaRect" Value="{{0.764725,0},{0.00707592,0},{0.995626,0},{0.995214,0}}" />
+            <Window Type="ootGUI/StaticTextRight" Name="Build/Main/txtEnergy" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.190192,0},{0.128285,0},{0.968582,0},{0.170107,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticTextRight" Name="Build/Main/txtOre" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.190192,0},{0.174924,0},{0.968582,0},{0.216746,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticTextRight" Name="Build/Main/txtPopulation" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.190192,0},{0.0801862,0},{0.968582,0},{0.122008,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="Build/Main/btnPlaceScaffold" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="PLACE SCAFFOLD" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.443764,0},{0.607034,0},{0.968582,0},{0.670145,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticTextRight" Name="Build/Main/AvailableForBuild" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Can build:" />
+                <Property Name="HorzExtent" Value="72" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0376837,0},{0.220277,0},{0.968582,0},{0.262099,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticTextRight" Name="Build/Main/txtStatus" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0376837,0},{0.689129,0},{0.968582,0},{0.733084,0}}" />
+            </Window>
+            <Window Type="ootGUI/ListboxRight" Name="Build/Main/listForBuild" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0376837,0},{0.271552,0},{0.968582,0},{0.59674,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Build/Main/imgEnergy" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Image" Value="set:jmGUI_resource_icons image:energy" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0700429,0},{0.131429,0},{0.17766,0},{0.166808,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Build/Main/imgCrew" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Image" Value="set:jmGUI_resource_icons image:crew" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0700429,0},{0.0822075,0},{0.17766,0},{0.117586,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Build/Main/imgOre" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Image" Value="set:jmGUI_resource_icons image:ore" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0700429,0},{0.174819,0},{0.17766,0},{0.210198,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticTextRight" Name="Build/Main/txtBaseResources" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Base Resources:" />
+                <Property Name="HorzExtent" Value="125" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0855183,0},{0.0431061,0},{0.863908,0},{0.0849281,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticTextRight" Name="Build/Main/txtBaseName" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Base:" />
+                <Property Name="HorzExtent" Value="41" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.276275,0},{0.00481784,0},{0.977328,0},{0.0466398,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/StaticImageLeft" Name="Build/BuildInfo" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.007076,0},{0.238349,0},{0.995214,0}}" />
+            <Window Type="ootGUI/StaticTextLeft" Name="Build/BuildInfo/txtType" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0125462,0},{0.0450651,0},{0.967328,0},{0.075482,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/MultiLineEditboxLeft" Name="Build/BuildInfo/multiDesc" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" >
+</Property>
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0302169,0},{0.446541,0},{0.967328,0},{0.741467,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="SelectionBrushImage" Value="" />
+            </Window>
+            <Window Type="ootGUI/StaticTextLeft" Name="Build/BuildInfo/txtName" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Station:" />
+                <Property Name="HorzExtent" Value="59" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0125462,0},{0.0121249,0},{0.967328,0},{0.0425418,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Build/BuildInfo/rttImage" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0302169,0},{0.0681701,0},{0.967328,0},{0.419936,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Build/BuildInfo/imgHealth" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Image" Value="set:jhGUI_ship_classes image:repair" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0430409,0},{0.358073,0},{0.151706,0},{0.393452,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticTextLeft" Name="Build/BuildInfo/txtHealth" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.155084,0},{0.358073,0},{0.857655,0},{0.393452,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Build/BuildInfo/imgEnergy" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Image" Value="set:jmGUI_resource_icons image:energy" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0430409,0},{0.11153,0},{0.151706,0},{0.146909,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticTextLeft" Name="Build/BuildInfo/txtEnergy" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.155084,0},{0.11153,0},{0.478061,0},{0.146909,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticTextLeft" Name="Build/BuildInfo/txtCrew" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.155084,0},{0.181497,0},{0.478061,0},{0.216876,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Build/BuildInfo/imgCrew" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Image" Value="set:jmGUI_resource_icons image:crew" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0430406,0},{0.181497,0},{0.151706,0},{0.216876,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Build/BuildInfo/imgTime" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Image" Value="set:jmGUI_resource_icons image:time" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0430406,0},{0.219019,0},{0.151706,0},{0.252194,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="Build/BuildInfo/imgOre" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Image" Value="set:jmGUI_resource_icons image:ore" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0430406,0},{0.147949,0},{0.151706,0},{0.178918,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticTextLeft" Name="Build/BuildInfo/txtOre" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.155084,0},{0.147949,0},{0.478061,0},{0.183328,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticTextLeft" Name="Build/BuildInfo/txtTime" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.155084,0},{0.219019,0},{0.479221,0},{0.254398,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticTextLeft" Name="Build/ShipBuildInfo/ResNeeded" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Requirements:" />
+                <Property Name="HorzExtent" Value="109" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0302169,0},{0.0674313,0},{0.395438,0},{0.097848,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/LabelWithOutline" Name="Build/txtMouseOver" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Mouse Over" />
+			<Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="HorzExtent" Value="90" />
+            <Property Name="VertExtent" Value="18.5438" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.244643,0},{0.608801,0},{0.494643,0},{0.858801,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="jhGUI/StaticImageRight" Name="Build/Bases" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="UnifiedAreaRect" Value="{{0.582973,0},{0.0043572,0},{0.762328,0},{0.426487,0}}" />
+            <Window Type="ootGUI/ListboxRight" Name="Build/Bases/lstBases" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0292235,0},{0.0853323,0},{0.958782,0},{0.92961,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticTextRight" Name="Build/Bases/txtBases" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Bases:" />
+                <Property Name="HorzExtent" Value="50" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.339114,0},{-0.00339897,0},{0.967528,0},{0.0850546,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+		<Window Type="ootGUI/StaticText" Name="Build/txtNavTooltip" >
+            <Property Name="Font" Value="Comfortaa-14" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.372619,0},{0.829226,0},{0.627381,0},{0.862214,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+			<Property Name="GuiClick" Value="False" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="Build/txtNavTooltip/imgBackground" >
+                <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="GuiClick" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex" Name="Build/btnShipMode" >
+            <Property Name="UnifiedAreaRect" Value="{{0.39711,0},{0.91635,0},{0.447229,0},{0.994833,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="Build/btnShipMode/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:ship" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.171427,0},{0.882341,0},{0.893849,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="Build/btnFormation" >
+            <Property Name="UnifiedAreaRect" Value="{{0.436408,0},{0.872729,0},{0.486527,0},{0.951212,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="Build/btnFormation/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:formations" />
+                <Property Name="UnifiedAreaRect" Value="{{0.12196,0},{0.129742,0},{0.870471,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="Build/btnReturn" >
+            <Property Name="UnifiedAreaRect" Value="{{0.475212,0},{0.916924,0},{0.525331,0},{0.995407,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="Build/btnReturn/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:build" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="Build/btnShipSwitch" >
+            <Property Name="UnifiedAreaRect" Value="{{0.514487,0},{0.872729,0},{0.564606,0},{0.951212,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="Build/btnShipSwitch/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:ship_switch" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="Build/btnHelp" >
+            <Property Name="UnifiedAreaRect" Value="{{0.553613,0},{0.916924,0},{0.603732,0},{0.995407,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="Build/btnHelp/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:help" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

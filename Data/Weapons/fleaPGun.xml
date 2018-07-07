@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="fleaPGun"/> 
+<ammunitionID attr1="oLPP"/> 
+<name attr1="Plasma Launcher"/> 
+<fireSoundID attr1="heavyPGS00"/>
+<muzzleFlashEffectID attr1="mfOLP00"/>
+<reFireRate attr1="0.20"/> 
+<capacity attr1="10"/> 
+<reloadTime attr1="1.5"/>

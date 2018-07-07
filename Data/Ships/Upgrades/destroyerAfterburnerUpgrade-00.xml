@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Afterburner - Destroyer"/> 
+<objectID attr1="afterburnerDest00"/> 
+<upgradeCategory attr1="propulsion"/> 
+<cost attr1="35000"/>
+<addCostAsPercentOfShip attr1="0.055"/>
+<description attr1="Adds afterburner capability to the ship."/>
+<description attr1=" "/>
+<description attr1="Its nearly unheard of destroyers being equipped with afterburners. This upgrade is for those who consider a ship without them, not space worthy."/>
+<afterburnerCapacity attr1="15"/>
+<afterburnerRechargeRate attr1="20"/>
+<afterburnerMultiplier attr1="3.5"/>

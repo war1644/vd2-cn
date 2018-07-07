@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Twin Turrets"/> 
+<objectID attr1="pilarTT00"/> 
+<upgradeCategory attr1="weapon"/>
+<upgradeType attr1="other"/>
+<cost attr1="25250"/>
+<addCostAsPercentOfShip attr1="0.25"/>
+<turret>
+    <turretID attr1="pilarT01T"/>
+    <turretOrientation attr1="bottom"/> 
+	<position x="14.64" y="-5.82" z="-1.69"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<yawPermitted attr1="20"/>
+	<weaponPositionID attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="pilarT01T"/>
+    <turretOrientation attr1="bottom"/> 
+	<position x="-14.64" y="-5.82" z="-1.69"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<yawPermitted attr1="20"/>
+	<weaponPositionID attr1="2"/>
+</turret>
+<description attr1="Replaces the standard turrets with twin variants."/>
+<description attr1=" "/>
+<description attr1="Doubling ammo delivered at a big cost of accuracy. A close range engagement is recommended."/>
+<description attr1=" "/>
+<description attr1="In addition to the accuracy cost, as a result of the larger size, these turrets have a smaller range of movement than the standard turrets."/>
+<description attr1=" "/>
+<description attr1="While the Pride often touts its group strength, their members aren't shy to spend their bounties on equipment to give them an edge. In this case a sizable percentage of the original ship's cost."/>
+<description attr1=" "/>
+<description attr1="Further boosts to ammo capacity and re-fire rate are recommended."/>

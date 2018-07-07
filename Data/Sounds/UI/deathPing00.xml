@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<soundEngineSoundType attr1="ui"/>
+<effectType attr1="sound"/> 
+<soundType attr1="random"/>
+<objectID attr1="deathPing00"/> 
+<soundFile attr1="TwinPing1-Long.wav"/>
+<soundFile attr1="TwinPing1-Short.wav"/>
+<soundFile attr1="TwinPing2-Long.wav"/>
+<soundFile attr1="TwinPing2-Short.wav"/>
+<soundFile attr1="TwinPing3-Long.wav"/>
+<soundFile attr1="TwinPing3-Short.wav"/>
+<soundFile attr1="TwinPing4.wav"/>
+<bDisable3d attr1="1"/>
+<defaultVolume attr1="0.5"/>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="collision"/> 
+<collisionWeaponType attr1="drill"/> 
+<rotateBones> 
+	<rotateBone attr1="Drill"/> 
+</rotateBones> 
+<rotateSpeed attr1="1550"/> 
+<weaponID attr1="tytusDrill"/> 
+<name attr1="Drill"/> 
+<fireSoundID attr1="drill00"/>
+<hitParticleName attr1="vdp_drill_hit_01"/>
+<damage attr1="500.0"/> 
+<size x="50" y="55" z="45"/>
+<capacity attr1="30.0"/> 
+<reloadTime attr1="3"/> 
+<bAlwaysPlayFireSound attr1="1"/>
+<bSticky attr1="1"/>
+<penetrateZ attr1="30"/>

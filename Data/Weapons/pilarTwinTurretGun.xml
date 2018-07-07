@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="pilarTTG"/> 
+<projectileWeaponType attr1="scatter_gun"/>
+<roundsPerShot attr1="3"/>
+<scatterYaw attr1="0.65"/>
+<scatterPitch attr1="0.65"/>
+<ammunitionID attr1="lightBHP"/> 
+<name attr1="Light Gun"/> 
+<fireSoundID attr1="rapidP06"/>
+<muzzleFlashEffectID attr1="mfLG060"/>
+<capacity attr1="20"/>
+<reloadTime attr1="1.6"/>
+<reFireRate attr1="0.045"/>

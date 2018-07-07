@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Gravity Drive Trigger"/> 
+<objectID attr1="gDriveTrigger00"/> 
+<upgradeCategory attr1="propulsion"/>
+<upgradeType attr1="active"/>
+<cost attr1="1000"/>
+<addCostAsPercentOfShip attr1="0.18"/>
+<description attr1="Forces the activation of the gravity drive."/>
+<description attr1=" "/>
+<description attr1="When activated, a ship's gravity drive triggers near instant acceleration using gravity anchors to pull the ship toward them. Once disengaged the ship decelerates nearly as rapidly, effectively stopping."/>
+<description attr1=" "/>
+<description attr1="Whether running away from battle or charging into one, be sure that there's nothing in your path."/>
+<shipActiveUpgradeType attr1="trigger_gdrive"/>
+<rechargeTime attr1="20"/>
+<durationTime attr1="1.5"/>

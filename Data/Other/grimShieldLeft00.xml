@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="physical_attachment"/> 
+<name attr1="Grim Shield"/> 
+<objectID attr1="grimShieldLeft00"/> 
+<faction attr1="civilian"/>
+<meshName attr1="grimShieldLeft00.mesh"/> 
+<wireframeMaterial attr1="WF/Gate"/> 
+<descriptionText attr1="A attached shield made out of heavily armoured plate."/> 
+<health attr1="800"/> 
+<bNoShow x="1"/>
+<bShowInTactical attr1="0"/>
+<explosionID attr1="explode01"/>

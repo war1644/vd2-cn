@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Crew Killer Ammo"/> 
+<objectID attr1="cKP00"/> 
+<upgradeCategory attr1="weapon"/>
+<upgradeType attr1="other"/>
+<cost attr1="500"/>
+<addCostAsPercentOfShip attr1="0.025"/>
+<bIllegalUpgrade attr1="1"/>
+<description attr1="Replaces ship's standard ammo with ammo specialized to injure and hurt crew."/>
+<description attr1=" "/>
+<description attr1="Optimized to penetrate hull, when the ammo detects an open space it explodes sending shrapnel in all directions."/>
+<description attr1=" "/>
+<description attr1="Although the chance is low, some of this shrapnel might hit the crew, resulting in injury and even death."/>
+<description attr1=" "/>
+<description attr1="This ammo is frequently used during ship capture operations, in the hope of eliminating some of the defenders."/>
+<projectileAmmoID attr1="lightCKP"/>

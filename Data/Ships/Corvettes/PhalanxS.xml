@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="PhalanxS"/> 
+<objectID attr1="phalanxS"/> 
+<faction attr1="tsf"/> 
+<shipClass attr1="shuttle"/>
+<shipClassSize attr1="heavy"/>
+<sizeShipClass attr1="corvette"/> 
+<meshName attr1="Phalanx.mesh"/>
+<wireframeMaterial attr1="WF/Harnden"/> 
+<descriptionText attr1="A military shuttle, corvette class."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="This version of the Phalanx has been converted to be a personnel transport, most often used for ferrying VIPs from base to base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Heavily armored, but lightly armed, it is often escorted by other ships."/>
+<bNotSoldUnlessOwnedBase attr1="1"/>
+<creditCost attr1="1050000"/>
+<cruiseSpeed attr1="45.0"/> 
+<timeTillCruise attr1="3.25"/> 
+<yaw 	attr1="47.0"/> 
+<pitch	attr1="47.0"/> 
+<roll 	attr1="47.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="28.227" z="3.671"/>
+<bHideShipInCockpitAcutal attr1="0"/>
+<cockpitInitPos x="0" y="36.52" z="42.46"/>
+<cockpitTransLimit x="3" y="3" z="3"/>
+<chaseInitPos x="0" y="145" z="550"/>
+<chaseTransLimit x="16" y="10" z="6"/> 
+<health attr1="20000.0"/> 
+<armor attr1="1.0"/>
+<shieldHealth attr1="500"/> 
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="-35.0"/> 
+    <roll attr1="-105.0"/> 
+	<yaw attr1="-22.0"/> 
+	<position x="8.754" y="-19.812" z="84.053"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="0.0"/> 
+    <roll attr1="90.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="-21.446" y="3.642" z="-15.319"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="phalanxD00"/> 
+		<debrisMomentum attr1="2"/> 
+		<debrisAngular attr1="2"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explode04"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="0" y="10.8" z="98.65"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="0" y="-9.16" z="98.65"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/>
+	<position x="0" y="1.43" z="-87.39"/>
+	<direction attr1="fore"/> 
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion065"/>
+	<position x="0" y="-14.5" z="-87.39"/>
+	<direction attr1="fore"/> 
+</propulsion> 
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.55"/> 
+    <capacity attr1="15"/>
+    <recharge attr1="16"/> 
+</afterburner>
+<turret>
+    <turretID attr1="correaT01"/>
+	<position x="0" y="20.44" z="-80.26"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="correaT01"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="0" y="-30.22" z="-62.2"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="3"/>
+	<activeUpgradeCapacity attr1="4"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cShield00"/>
+	<upgradeID attr1="cShieldRecharge00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="corvetteFShield00"/>
+	<upgradeID attr1="corvetteRShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="124.128" y="-2.206" z="190"/>

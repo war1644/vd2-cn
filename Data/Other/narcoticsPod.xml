@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="cargo_pod"/> 
+<name attr1="Narcotics Pod"/> 
+<objectID attr1="narcoticsPod"/> 
+<faction attr1="civilian"/> 
+<meshName attr1="cargoPod005.mesh"/> 
+<descriptionText attr1="A container capable of holding cargo."/> 
+<cruiseSpeed attr1="5.0"/> 
+<timeTillCruise attr1="3.0"/> 
+<yaw 	attr1="15.0"/> 
+<pitch	attr1="15.0"/> 
+<roll 	attr1="15.0"/> 
+<health attr1="1500.0"/> 
+<explosionID	attr1="explode03"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<cargoBay> 
+    <cargoBayType attr1="narcotics"/> 
+	<maxAmount attr1="1000"/> 
+</cargoBay>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Taurus"/> 
+<objectID attr1="taurus"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="fighter"/> 
+<shipClassSize attr1="medium"/>
+<meshName attr1="taurus.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A medium fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="As far as civilian fighters are concerned the Taurus is one of the first in its class to feature turreted weapons as its main source of fire power."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="While not as heavily armed as the Leo, having turreted weapons means a far superior weapon arcs. Taking away nearly all blind spots."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Quad scatter gun."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Shoots loads of projectiles with little hope of accuracy. Scatter type weapons are good up close, against larger targets and versus mines and missiles."/>
+<creditCost attr1="60000"/>
+<cruiseSpeed attr1="120.0"/> 
+<timeTillCruise attr1="1.45"/> 
+<yaw 	attr1="100.0"/> 
+<pitch	attr1="100.0"/> 
+<roll 	attr1="100.0"/> 
+<bGravityDrive attr1="1"/>
+<cockpitID attr1="cockpit003"/>
+<cockpitActualPos x="0" y="0" z="7"/>
+<bShowInCockpitParticles attr1="1"/>
+<cockpitInitPos x="0" y="6.36" z="11.48"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="12.72" z="65.24"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="750.0"/> 
+<buildTime	attr1="25.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="150.0"/> 
+<ore		attr1="225.0"/> 
+<damage>
+    <pitch attr1="20.0"/> 
+    <roll attr1="-75.0"/> 
+	<yaw attr1="7.0"/> 
+	<position x="0.879" y="-2.416" z="8.173"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="taurusD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="0" y="0" z="9.4"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="0" y="-2.32" z="9.4"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="6.15"/>
+    <capacity attr1="7.0"/>
+    <recharge attr1="8.0"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<turret>
+    <turretID attr1="taurusT01R"/>
+    <turretOrientation attr1="right"/> 
+	<position x="5.04" y="-2.52" z="2.92"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/> 
+	<bShowInCockpit attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="taurusT01L"/>
+    <turretOrientation attr1="left"/> 
+	<position x="-5.04" y="-2.52" z="2.92"/>
+	<pitchLower attr1="-7"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<bShowInCockpit attr1="1"/>
+</turret>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="taurusSG"/> 
+	<weaponPosition x="3.142" y="-1.142" z="0.813"/>
+	<weaponPosition x="-3.142" y="-1.142" z="0.813"/>
+	<weaponPosition x="4.194" y="-1.310" z="1.126"/>
+	<weaponPosition x="-4.194" y="-1.310" z="1.126"/>
+	<weaponFire attr1="secondary"/> 
+</weapon> 
+<upgrades> 
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield01"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="fFrontShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed01"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="mediumFighterPUS00"/>
+	<upgradeID attr1="mediumFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="0.91" z="-1.58"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="tonPPG"/> 
+<ammunitionID attr1="lightPlasmaP"/> 
+<name attr1="Plasma Thrower"/> 
+<fireSoundID attr1="lightPGS01"/>
+<muzzleFlashEffectID attr1="mfLG060"/>
+<reFireRate attr1="0.20"/> 
+<capacity attr1="20"/> 
+<reloadTime attr1="0.9"/>

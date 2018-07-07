@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="hangar"/>
+<hangarID attr1="tsfFOBH"/> 
+<fighterShipID attr1="voytek"/> 
+<name attr1="Hangar"/> 
+<maxFighters attr1="12"/> 
+<bPrimary attr1="1"/>
+<launchTube>
+    <launchDeckBeg x="411.110" y="-162.809" z="-187.657"/>
+    <launchDeckEnd x="411.110" y="-162.809" z="-200"/>
+	<dockPosition x="0" y="0" z="-34"/>
+	<dockSize x="5" y="5" z="5"/>
+</launchTube>
+<launchTube>
+    <launchDeckBeg x="209.454" y="-162.809" z="-187.657"/>
+    <launchDeckEnd x="209.454" y="-162.809" z="-200"/>
+	<dockPosition x="0" y="0" z="-34"/>
+	<dockSize x="5" y="5" z="5"/>
+</launchTube>
+<launchTube>
+    <launchDeckBeg x="411.110" y="-212.539" z="-170.752"/>
+    <launchDeckEnd x="411.110" y="-212.539" z="-190"/>
+	<dockPosition x="0" y="0" z="-34"/>
+	<dockSize x="5" y="5" z="5"/>
+</launchTube>
+<launchTube>
+    <launchDeckBeg x="209.552" y="-212.539" z="-170.752"/>
+    <launchDeckEnd x="209.552" y="-212.539" z="-190"/>
+	<dockPosition x="0" y="0" z="-34"/>
+	<dockSize x="5" y="5" z="5"/>
+</launchTube>
+<launchSpeedMultiplier attr1="1.5"/>

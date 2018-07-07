@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Gremlin"/> 
+<objectID attr1="gremlin"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="fighter"/>
+<shipClassSize attr1="light"/>
+<meshName attr1="Gremlin.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A light fighter."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="The Gremlin is an entry level civilian fighter. Built for speed rather than fire power or survivability. Unless you plan on doing a lot of running, upgrade to a bigger ship ASAP."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="Armed with quad projectile guns, it is a noticeable upgrade of fire power over the Hornet."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Rapid fire."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Using a secondary ammo canisters, the Gremlin's guns fire a salvo of projectiles. Accuracy is sacrificed for extreme rate of fire. If well aimed and timed, could prove devastating, firing at close range or at a larger target is recommended."/>
+<creditCost attr1="19500"/>
+<cruiseSpeed attr1="150.0"/> 
+<timeTillCruise attr1="0.95"/> 
+<yaw 	attr1="100.0"/> 
+<pitch	attr1="100.0"/> 
+<roll 	attr1="100.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitID attr1="cockpit003-1"/>
+<cockpitActualPos x="0" y="1.106" z="0"/>
+<cockpitActualMesh attr1="cockpitGremlin.mesh"/> 
+<cockpitInitPos x="0" y="5.1" z="7.2"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="10" z="53"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="450.0"/> 
+<buildTime	attr1="25.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="150.0"/> 
+<ore		attr1="225.0"/> 
+<damage>
+    <pitch attr1="20.0"/> 
+    <roll attr1="-75.0"/> 
+	<yaw attr1="16.0"/> 
+	<position x="5.26" y="0.0" z="0.836"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="gremlinD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="0" y="-0.202" z="5.289"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="6.25"/> 
+    <capacity attr1="5.25"/>
+    <recharge attr1="7"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bPlayerSharedFire attr1="1"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="gremlinPG"/> 
+	<weaponPosition x="4.614" y="-1.092" z="-9.5"/>
+	<weaponPosition x="5.155" y="-2.029" z="-9.5"/>
+	<weaponPosition x="-4.614" y="-1.092" z="-9.5"/>
+	<weaponPosition x="-5.155" y="-2.029" z="-9.5"/>
+	<barrelDelay attr1="0.05"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="gremlinSPG"/> 
+	<weaponPosition x="4.614" y="-1.092" z="-9.5"/>
+	<weaponPosition x="5.155" y="-2.029" z="-9.5"/>
+	<weaponPosition x="-4.614" y="-1.092" z="-9.5"/>
+	<weaponPosition x="-5.155" y="-2.029" z="-9.5"/>
+	<barrelDelay attr1="0.01"/>
+	<weaponFire attr1="secondary"/>
+</weapon>
+<upgrades> 
+    <upgradeID attr1="gremlinlDT00"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield00"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="fFrontShield00"/>
+	<upgradeID attr1="burnerCap00"/>	
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="lightFighterPUS00"/>
+	<upgradeID attr1="lightFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="1.5" z="-5.33"/>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Upgrade Recharge"/> 
+<objectID attr1="fUpgradeRecharge00"/> 
+<upgradeCategory attr1="other"/>
+<upgradeType attr1="active"/>
+<cost attr1="2000"/>
+<addCostAsPercentOfShip attr1="0.05"/>
+<description attr1="When activated, releases stored energy into other active upgrades, to recharge them for use."/>
+<description attr1=" "/>
+<description attr1="Although a sacrifice of an ability slot, it gives the pilot the chance to re-use a favourite ability before its standard re-charge period."/>
+<shipActiveUpgradeType attr1="ability_recharge"/>
+<rechargeTime attr1="60"/>
+<durationTime attr1="0"/>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<factionID attr1="stubs"/> 
+<factionType attr1="stub_merc"/>
+<factionName attr1="Stubs"/> 
+<factionPluralName attr1="Stubs"/>
+<wireframeColor r="0.45" g="0.45" b="0.45" a="1.0"/> 
+<highlightOutlineColor r="0.45" g="0.45" b="0.45" a="0.5"/>
+<textColor r="0.45" g="0.45" b="0.45" a="1.0"/> 
+<backgroundColor r="0.25" g="0.0" b="0.0" a="0.5"/>
+<cloudsColor r="0.3" g="0.0" b="0.0" a="0.5"/>
+<tacticalMaterial attr1="Overworld/Pirate"/>
+<selectedTacticalMaterial attr1="Overworld/PirateSelected"/>
+<buildTacticalMaterial attr1="Overworld/PirateBuild"/>

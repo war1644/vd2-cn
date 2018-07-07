@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Hercules"/> 
+<objectID attr1="hercules"/> 
+<faction attr1="civilian"/> 
+<shipClass attr1="transport"/>
+<shipClassSize attr1="medium"/>
+<sizeShipClass attr1="frigate"/>
+<meshName attr1="Hercules.mesh"/>
+<collisionMeshName attr1="herculesCollision.mesh"/>
+<wireframeMaterial attr1="WF/Thrall"/> 
+<descriptionText attr1="A large cargo ship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Capable of carrying 8 cargo pods."/>
+<creditCost attr1="1000000"/>
+<bCanPurchase attr1="1"/>
+<cruiseSpeed attr1="27.0"/> 
+<timeTillCruise attr1="4.3"/>
+<yaw 	attr1="21.0"/> 
+<pitch	attr1="21.0"/> 
+<roll 	attr1="21.0"/> 
+<bGravityDrive attr1="1"/>
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002"/>
+<cockpitInitPos x="0" y="40" z="-80"/>
+<cockpitTransLimit x="3" y="3" z="3"/> 
+<chaseInitPos x="0" y="230" z="880"/>
+<chaseTransLimit x="20" y="20" z="20"/> 
+<health attr1="35000"/> 
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="600.0"/> 
+<damage>
+    <pitch attr1="12.0"/> 
+    <roll attr1="-10.0"/> 
+	<yaw attr1="-12.0"/> 
+	<position x="-20.5" y="17.330" z="-135.46"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage04"/>
+</damage>
+<damage>
+    <pitch attr1="-90.0"/> 
+    <roll attr1="-15.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="8.084" y="-27.863" z="-86.309"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage03"/>
+</damage>
+<damage>
+    <pitch attr1="21.0"/> 
+    <roll attr1="-55.0"/> 
+	<yaw attr1="11.0"/> 
+	<position x="45.259" y="0" z="104.496"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<deathTimer attr1="6"/> 
+<deathSpin x="-0.054" y="-0.083" z="-0.073"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="herculesD00"/> 
+		<debrisMomentum attr1="2"/> 
+		<debrisAngular attr1="2"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="herculesD01"/> 
+		<debrisMomentum attr1="3"/> 
+		<debrisAngular attr1="3"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode05"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<preExplosionID attr1="explode03"/>
+<tacticalExplosionID attr1="tacExp2_60"/> 
+<engineSoundID attr1="eng-03"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="0" y="29.125" z="168"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="33.625" y="0" z="160"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="0" y="-29.125" z="168"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="-33.625" y="0" z="160"/>
+</propulsion>
+<dock>
+	<position x="0" y="61.02" z="-42.68"/>
+	<boneName attr1="frontCargoArray"/>
+	<_orientation attr1="right"/> 
+	<_ejectOrientation attr1="down"/> 
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock>
+	<position x="63.52" y="-1.84" z="-42.14"/>
+	<boneName attr1="frontCargoArray"/>
+	<orientation attr1="right"/> 
+	<ejectOrientation attr1="right"/> 
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock>
+	<position x="0" y="-66.7" z="-42.68"/>
+	<boneName attr1="frontCargoArray"/>
+	<orientation attr1="bottom"/> 
+	<ejectOrientation attr1="down"/> 
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock>
+	<position x="-63.88" y="-2.78" z="-42.34"/>
+	<boneName attr1="frontCargoArray"/>
+	<orientation attr1="left"/> 
+	<ejectOrientation attr1="left"/> 
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock>
+	<position x="0" y="61.02" z="41.04"/>
+	<boneName attr1="rearCargoArray"/>
+	<_orientation attr1="right"/> 
+	<_ejectOrientation attr1="down"/> 
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock>
+	<position x="63.52" y="-1.84" z="41.04"/>
+	<boneName attr1="rearCargoArray"/>
+	<orientation attr1="right"/> 
+	<ejectOrientation attr1="right"/> 
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock>
+	<position x="0" y="-66.7" z="41.04"/>
+	<boneName attr1="rearCargoArray"/>
+	<orientation attr1="bottom"/> 
+	<ejectOrientation attr1="down"/> 
+	<ejectVelocity attr1="15"/>
+</dock>
+<dock>
+	<position x="-63.88" y="-2.78" z="41.04"/>
+	<boneName attr1="rearCargoArray"/>
+	<orientation attr1="left"/> 
+	<ejectOrientation attr1="left"/> 
+	<ejectVelocity attr1="15"/>
+</dock>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<position x="0" y="46.5" z="129.228"/>
+	<pitchLower attr1="-2"/> 
+	<turretRole attr1="point_defense"/>
+	<weaponPositionID attr1="0"/>
+</turret>
+<turret>
+    <turretID attr1="pugTurret02"/>
+	<position x="0" y="-46.436" z="129.228"/>
+	<pitchLower attr1="-2"/>
+	<turretOrientation attr1="bottom"/> 
+	<turretRole attr1="point_defense"/>
+	<weaponPositionID attr1="1"/>
+</turret>
+<rotatingElement> 
+	<boneName attr1="frontCargoArray"/>
+	<rollSpeed attr1="5"/> 
+</rotatingElement>
+<rotatingElement> 
+	<boneName attr1="rearCargoArray"/> 
+	<rollSpeed attr1="-5"/> 
+</rotatingElement>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="4"/>
+	<activeUpgradeCapacity attr1="5"/>
+	<upgradeID attr1="gunPod00"/>
+	<upgradeID attr1="hercTPT00"/>
+	<upgradeID attr1="hercBPT00"/>
+	<upgradeID attr1="frArmor00"/>
+	<upgradeID attr1="frShield00"/>
+	<upgradeID attr1="frShieldRecharge00"/>
+	<upgradeID attr1="frUpgradeRecharge00"/>
+	<upgradeID attr1="afterburnerFrig00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="frigateMan00"/>
+	<upgradeID attr1="frigateThrust00"/>
+	<upgradeID attr1="frAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="frArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="frSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="frigatePUS00"/>
+	<upgradeID attr1="frigateAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bLargeDockOnly attr1="1"/>

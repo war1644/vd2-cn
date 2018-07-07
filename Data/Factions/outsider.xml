@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<factionID attr1="outsider"/> 
+<factionType attr1="alien"/>
+<factionName attr1="Outsider"/> 
+<factionPluralName attr1="Outsiders"/>
+<wireframeColor r="0.1" g="0.1" b="0.1" a="1.0"/> 
+<highlightOutlineColor r="0.5" g="0.5" b="0.5" a="0.5"/>
+<textColor r="0.45" g="0.0" b="0.0" a="1.0"/>
+<backgroundColor r="0.05" g="0.0" b="0.0" a="0.5"/>
+<cloudsColor r="0.1" g="0.0" b="0.0" a="0.5"/>
+<tacticalMaterial attr1="Overworld/Outsider"/>
+<selectedTacticalMaterial attr1="Overworld/OutsiderSelected"/>
+<buildTacticalMaterial attr1="Overworld/OutsiderBuild"/>

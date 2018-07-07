@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="lancerTTL"/> 
+<name attr1="Torpedo Launcher"/> 
+<turretWeapon attr1="missile"/>
+<hardpointID attr1="lancerTL"/>
+<turretBarrel>
+	<weaponPosition x="-48.417" y="-3.529" z="-68.719"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-48.417" y="-3.529" z="-37.758"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-48.417" y="-3.529" z="-5.937"/>
+</turretBarrel>
+<barrelDelay attr1="1.5"/>
+<targetPriorityList> 
+	<targetClass attr1="frigate"/> 
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="attack_station"/> 
+	<targetClass attr1="corvette"/> 
+</targetPriorityList> 
+<weaponDirection>
+	<yaw attr1="90.0"/>
+	<pitch attr1="-25.0"/>
+	<roll attr1="0.0"/>
+</weaponDirection>

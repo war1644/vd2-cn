@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="correaT02G"/> 
+<ammunitionID attr1="heavyMP"/> 
+<name attr1="Turret Gun"/> 
+<fireSoundID attr1="megaGS00"/>
+<muzzleFlashEffectID attr1="mfLG080"/>
+<reFireRate attr1="0.0"/> 
+<capacity attr1="2"/> 
+<reloadTime attr1="1.5"/> 
+<recoil>
+	<recoilParentType attr1="turret_recoil"/>
+	<recoilZ attr1="2"/>
+	<recoilBone attr1="Turret"/>
+	<muzzleBone attr1="muzzle1"/>
+</recoil>
+<bAlwaysPlayFireSound attr1="1"/>

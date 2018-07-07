@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="projectile"/> 
+<projectileID attr1="raptorFlameP"/> 
+<projectileType attr1="particle_projectile"/> 
+<projectileParticleName attr1="vdp_arFlameProjectile"/>
+<projectileSize x="6" y="6" z="2.0"/> 
+<projectileVelocity attr1="50.0"/> 
+<initialLife attr1="5"/> 
+<_range attr1="414.0"/> 
+<damage attr1="2"/> 
+<note_to_self attr1="some damage to take out missiles and mines"/>
+<damageOverTime attr1="5"/>
+<damageOverTimeMax attr1="50"/>
+<duration attr1="1"/>
+<maxDuration attr1="20"/>
+<bShowProjectileExpire attr1="0"/>
+<bPersistsOnHit attr1="1"/>

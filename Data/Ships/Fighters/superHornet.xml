@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Super Hornet"/> 
+<objectID attr1="shornet"/> 
+<faction attr1="civilian"/>
+<soldByFaction attr1="hazardInc"/>
+<shipClass attr1="fighter"/>
+<shipClassSize attr1="light"/>
+<meshName attr1="superHornet.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A light fighter."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="A modified version of the Hornet, licensed by Hazard Inc. for sale in its own bases."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="Does giving a ship a different paint job make it go faster? How about swapping out the slow firing guns and replacing them with chain guns? How about upgrading the engines, boosting durability and adding a more cushy seat?"/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="The Super Hornet is primarily used by drunken wanna be pilots whose boasts turned into bets on gambling stations. Usually about how they could do a better job racing, after whoever they bet on lost. Soon someone with too much money and confidence buys a ship, and its on, often resulting in additional debris."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Charged blast."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Similar to the original Hornet's secondary weapon, but not using elements of the primary guns, thus being able to fire both primary and secondary weapons at the same time."/>
+<creditCost attr1="17500"/>
+<cruiseSpeed attr1="155.0"/> 
+<timeTillCruise attr1="1.15"/> 
+<yaw 	attr1="105.0"/> 
+<pitch	attr1="105.0"/> 
+<roll 	attr1="105.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitID attr1="cockpit003-1"/>
+<cockpitActualPos x="0" y="0" z="8.5"/>
+<cockpitActualMesh attr1="cockpitSuperHornet.mesh"/> 
+<cockpitInitPos x="0" y="5.1" z="7.2"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="10" z="53"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="425.0"/> 
+<damage>
+    <pitch attr1="-20.0"/> 
+    <roll attr1="-115.0"/> 
+	<yaw attr1="15.0"/> 
+	<position x="1.366" y="-1.702" z="2.062"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="hornetD01"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion012"/> 
+	<position x="-0.01" y="1.8" z="9.2"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion012"/> 
+	<position x="0" y="-0.122" z="7.636"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="6.5"/> 
+    <capacity attr1="5.5"/>
+    <recharge attr1="7"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="scavPCG"/> 
+	<weaponPosition x="4.401" y="1.162" z="-1.109"/>
+	<weaponPosition x="3.771" y="1.162" z="-1.109"/>
+	<weaponPosition x="3.771" y="0.620" z="-1.109"/>
+	<barrelDelay attr1="0.06"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="scavPCG"/> 
+	<weaponPosition x="-4.401" y="1.162" z="-1.109"/>
+	<weaponPosition x="-3.771" y="1.162" z="-1.109"/>
+	<weaponPosition x="-3.771" y="0.620" z="-1.109"/>
+	<barrelDelay attr1="0.06"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="instant"/> 
+    <hardpointID attr1="sHLCG"/> 
+	<weaponPosition x="0" y="-4.207" z="-2.585"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<upgrades> 
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield00"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="fFrontShield00"/>
+	<upgradeID attr1="burnerCap00"/>	
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="lightFighterPUS00"/>
+	<upgradeID attr1="lightFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="1.5" z="-5.33"/>

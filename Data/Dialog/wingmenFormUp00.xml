@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="formUp00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="form_up"/>
+<dialog attr1="Return to formation."/>
+<dialog attr1="Form up on my wing."/>

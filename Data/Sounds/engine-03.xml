@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="looping"/>
+<objectID attr1="eng-03"/> 
+<soundFile attr1="engine-03-01.wav"/>
+<soundFile attr1="engine-03-02.wav"/>
+<tailSound attr1="ab-00-tail.wav"/>
+<defaultVolume attr1="0.6"/>
+<maxDistance attr1="2500"/> 
+<referenceDistance attr1="500"/>
+<soundPriority attr1="150"/>

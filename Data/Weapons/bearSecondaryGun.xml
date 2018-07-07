@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="bearSG"/> 
+<ammunitionID attr1="bearCP"/> 
+<name attr1="Twin Cannon"/> 
+<fireSoundID attr1="cannonGS00"/>
+<muzzleFlashEffectID attr1="mfMRG"/>
+<reFireRate attr1="2"/> 
+<capacity attr1="1"/> 
+<reloadTime attr1="30.0"/> 
+<parentPush attr1="0.5"/> 
+<recoil>
+	<recoilZ attr1="18"/>
+	<recoilBone attr1="recoil"/>
+	<muzzleBoneName attr1="Muzzle"/>
+</recoil>
+<bAlwaysPlayFireSound attr1="1"/>

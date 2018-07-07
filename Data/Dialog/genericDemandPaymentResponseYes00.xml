@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="gGivePayment00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="demand_payment_response_yes"/>
+<dialog attr1="I've got kids... but take it."/>
+<dialog attr1="Damn... take it."/>
+<dialog attr1="That's cold... Transmitting credits."/>
+<dialog attr1="Again? Dammit! Transmitting credits."/>
+<dialog attr1="Just don't shoot, transmitting credits."/>
+<dialog attr1="Fine... Transmitting credits."/>
+<dialog attr1="Don't spend it all in one place... Transmitting credits."/>
+<dialog attr1="Just give me a break next time ok? Transmitting credits."/>
+<dialog attr1="Hold on, its not worth it... Transmitting credits."/>
+<dialog attr1="Just tell your friends I paid, transmitting credits."/>
+<dialog attr1="Ok ok! Take it easy! Transmitting credits."/>

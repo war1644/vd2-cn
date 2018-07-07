@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Afterburner - Frigate"/> 
+<objectID attr1="afterburnerFrig00"/> 
+<upgradeCategory attr1="propulsion"/> 
+<cost attr1="15000"/>
+<addCostAsPercentOfShip attr1="0.025"/>
+<description attr1="Adds afterburner capability to the ship."/>
+<description attr1=" "/>
+<description attr1="While frigates don't normally come with afterburners, some consider it a necessity."/>
+<afterburnerCapacity attr1="10"/>
+<afterburnerRechargeRate attr1="10"/>
+<afterburnerMultiplier attr1="4"/>

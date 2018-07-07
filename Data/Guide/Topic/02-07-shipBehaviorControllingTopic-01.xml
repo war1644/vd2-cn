@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="engage"/>
+<topicName attr1="  Engage"/>
+<mainText attr1="Engage:"/>
+<mainText attr1="Ships WILL target enemy ships on their own"/>
+<mainText attr1="Targets are chosen from within combat range"/>
+<mainText attr1="      Combat range varies ship to ship"/>
+<mainText attr1="      Targets are chosen from ship priority lists"/>
+<mainText attr1=" "/>
+<mainText attr1="Goal:"/>
+<mainText attr1="This is the default setting for ships"/>
+<mainText attr1="Ships are independent within their combat range, allowing for standard defense and offense."/>
+<mainText attr1=" "/>
+<mainText attr1="Use:"/>
+<mainText attr1="This setting is good on large areas of engagement - where there is no risk of ships charging (or being lured) into enemy strong holds."/>
+<imageThree>
+	<image attr1="set:guide_ship_behavior image:guide_ship_behavior"/>
+</imageThree>

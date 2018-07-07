@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="explosion"/> 
+<objectID attr1="cHit"/> 
+<particleSystemName attr1="vdp_xpl_medgun_01"/> 
+<life attr1="2.2"/>
+<renderingDistance attr1="3500"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieRequestDockEnemies00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="request_dock_response_enemies"/>
+<dialog attr1="Negative, hostiles nearby."/>
+<dialog attr1="Standby, hostiles in the area."/>
+<dialog attr1="Negative, too many hostiles."/>
+<dialog attr1="Negative, not while hostiles in the area."/>
+<dialog attr1="Negative, space not clear of hostiles."/>

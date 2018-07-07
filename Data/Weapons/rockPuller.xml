@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="tractor_beam"/> 
+<weaponID attr1="rockPuller00"/> 
+<name attr1="Rock Puller"/> 
+<fireSoundID attr1="cannonGS00"/>
+<muzzleFlashEffectID attr1="mfMRG"/>
+<capacity attr1="10"/>
+<reloadTime attr1="1.0"/>
+<gravityObjectType attar1="gravity_object_rock_puller"/>
+<distance attr1="4500"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="arsonistFG"/> 
+<ammunitionID attr1="arFlameP"/> 
+<name attr1="Flame Thrower"/> 
+<fireSoundID attr1="flamer00"/>
+<_muzzleFlashEffectID attr1="mfLG02"/>
+<reFireRate attr1="0.01"/> 
+<capacity attr1="100"/> 
+<reloadTime attr1="2.5"/>
+<bNoAimAssist attr1="1"/>

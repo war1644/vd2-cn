@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Heavy Turret Roid"/> 
+<objectID attr1="htRoid001"/> 
+<faction attr1="rockGuys"/> 
+<bCommsOverride attr1="1"/>
+<stationClass attr1="defense_station"/>
+<stationSizeAsShip attr1="corvette"/>
+<creditCost attr1="125000"/>
+<meshName attr1="htRoid001.mesh"/> 
+<descriptionText attr1="A offensive platform, armed with a heavy cannon."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Hoping to buy enough time, the MU placed these platforms to slow TSF advancements. Remnants of these can still be found in open space, and guarding MU bases, now against pirates."/>
+<health attr1="20000.0"/> 
+<explosionID attr1="explode04"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="1"/>
+<debrisInfo>
+	<debris> 	
+		<debrisID attr1="htRoid001TurretD01"/> 
+	</debris>
+</debrisInfo> 
+<turret>
+    <turretID attr1="htRoid001turret"/> 
+    <turretOrientation attr1="top"/> 
+	<position x="0.758" y="42.846" z="18.759"/>
+	<pitchLower attr1="-15.0"/> 
+	<turretRole attr1="offense"/>
+</turret>
+<rockSubPosition attr1="0"/>

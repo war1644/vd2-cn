@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Rapid Repair"/> 
+<objectID attr1="rapidRepair00"/> 
+<upgradeCategory attr1="engineering"/>
+<upgradeType attr1="active"/>
+<cost attr1="3000"/>
+<addCostAsPercentOfShip attr1="0.35"/>
+<description attr1="Overcharges ship's repair system at the cost of everything else, triggering a very rapid state of repair."/>
+<description attr1=" "/>
+<description attr1="There is a price... Ship's engines are left without power, maneuvering thrusters can't function, and defenses are lowered to the point of weapons fire doing more damage."/>
+<description attr1=" "/>
+<description attr1="Space offers many possibilities, from using this at a quiet moment, or when drifting rapidly away from enemies."/>
+<shipActiveUpgradeType attr1="rapid_repair"/>
+<rechargeTime attr1="45"/>
+<durationTime attr1="20"/>

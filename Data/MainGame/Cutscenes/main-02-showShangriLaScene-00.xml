@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<duration attr1="1.0"/>
+	<bPaused attr1="1"/>
+	<lookAtObject attr1="shangrila"/> 
+	<reletiveObject attr1="shangrila"/> 
+	<cameraPosition x="1500" y="50" z="-1000"/>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<bPaused attr1="1"/>
+	<duration attr1="2"/> 
+	<headingText attr1="Shangri-La (Former Stub Base)..."/>
+	<trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-spooky00"/> 	
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="2"/>
+	<bPaused attr1="1"/>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="1"/> 
+	<bPaused attr1="1"/>
+</sceneFragment>
+<sceneFragment>
+	<bPaused attr1="1"/>
+	<headingText attr1="Post-Outsider Conflict..."/>
+	<cameraMode attr1="simple_translate"/>
+	<duration attr1="6.0"/>
+	<velocity x="0" y="0" z="500"/>
+</sceneFragment>
+<sceneFragment>
+	<bPaused attr1="1"/>
+	<cameraMode attr1="stop_and_idle"/>
+	<duration attr1="1.0"/>
+</sceneFragment>
+<sceneFragment>
+	<bPaused attr1="1"/>
+	<cameraMode attr1="stop_and_idle"/>
+	<duration attr1="2.0"/>
+</sceneFragment>

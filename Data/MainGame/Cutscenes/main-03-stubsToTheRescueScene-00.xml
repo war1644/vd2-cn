@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<duration attr1="3.0"/>
+	<lookAtObject attr1="m03-caterpillarMK2-1"/> 
+	<reletiveObject attr1="m03-caterpillarMK2-1"/> 
+	<cameraPosition x="-250" y="100" z="-300"/>
+	<trigger>
+		<triggerType attr1="set_faction_score"/>
+		<factionID attr1="kind"/>
+		<factionScore attr1="70"/>
+		<note_to_self attr1="make sure kind faction isn't hostile"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="liquidatorG"/>
+		<shipName attr1="m03-liquidatorG-1"/>
+		<shipID attr1="bullfrog"/>
+		<shipName attr1="m03-bullfrog-1"/>
+		<shipID attr1="bullfrog"/>
+		<shipName attr1="m03-bullfrog-2"/>
+		<shipID attr1="houndMK2"/>
+		<shipName attr1="m03-houndMK2-1"/>
+		<shipID attr1="houndMK2"/>
+		<shipName attr1="m03-houndMK2-2"/>
+		<shipID attr1="houndMK2"/>
+		<shipName attr1="m03-houndMK2-3"/>
+		<shipID attr1="houndMK2"/>
+		<shipName attr1="m03-houndMK2-4"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="kind"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="m03-caterpillarMK2-1"/>
+		<position x="1500" y="0" z="0"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="m03-caterpillarMK2-1"/>
+		<objectName attr1="m03-taurusMK2-1"/>
+		<objectName attr1="m03-taurusMK2-2"/>
+		<faction attr1="enemy"/>
+		<note_to_self attr1="set to enemy to all to get kind to attack the former civilians"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="m03-liquidatorG-1"/>
+		<objectName attr1="m03-bullfrog-1"/>
+		<objectName attr1="m03-bullfrog-2"/>
+		<objectName attr1="m03-houndMK2-1"/>
+		<objectName attr1="m03-houndMK2-2"/>
+		<objectName attr1="m03-houndMK2-3"/>
+		<objectName attr1="m03-houndMK2-4"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="m03-liquidatorG-1"/>
+		<characterID attr1="stubFemaleGeneric03"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<cameraMode attr1="simple_translate"/>
+	<duration attr1="4.0"/>
+	<velocity x="0" y="0" z="500"/>
+</sceneFragment>
+<sceneFragment>
+	<cameraMode attr1="stop_and_idle"/>
+	<duration attr1="1.0"/>
+</sceneFragment>
+<sceneFragment>
+	<duration attr1="3.0"/>
+	<lookAtObject attr1="m03-caterpillarMK2-1"/> 
+	<reletiveObject attr1="m03-liquidatorG-1"/> 
+	<cameraPosition x="15" y="25" z="100"/>
+</sceneFragment>
+<sceneFragment>
+	<duration attr1="2.0"/>
+	<lookAtObject attr1="m03-liquidatorG-1"/> 
+	<reletiveObject attr1="m03-liquidatorG-1"/> 
+	<cameraPosition x="15" y="-25" z="-150"/>
+</sceneFragment>

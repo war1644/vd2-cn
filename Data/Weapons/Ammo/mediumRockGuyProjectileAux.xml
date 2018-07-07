@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="projectile"/> 
+<projectileID attr1="mediumRGPAux"/> 
+<projectileType attr1="billboard_projectile"/> 
+<materialNameHead attr1="vdp_flare_04"/> 
+<materialNameTail attr1="Weapons/S_Projectile12"/> 
+<projectileSize x="25" y="25" z="2.0"/>
+<projectileVelocity attr1="1100.0"/>
+<initialLife attr1="2.15"/>
+<_range attr1="2365.0"/>
+<damage attr1="25.0"/> 
+<explosionID attr1="tSExp"/>

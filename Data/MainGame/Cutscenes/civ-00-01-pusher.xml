@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<screenEffect attr1="fade_in"/>
+	<lookAtObject attr1="pusher1"/> 
+	<reletiveObject attr1="playerShip"/> 
+	<cameraPosition x="20" y="20" z="100"/>
+	<duration attr1="2.5"/>
+	<trigger>
+		<triggerType attr1="ship_speed_zero"/>
+		<shipName attr1="playerShip"/>
+	</trigger>
+	<_trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-wreckage00"/> 	
+	</_trigger>
+</sceneFragment>
+<sceneFragment>
+	<cameraMode attr1="simple_translate"/>
+	<duration attr1="2.13"/>
+	<velocity x="0" y="0" z="-3000"/>
+</sceneFragment>
+<sceneFragment>
+	<cameraMode attr1="stop_and_idle"/>
+	<duration attr1="1.0"/>
+</sceneFragment>
+<sceneFragment>
+	<cameraMode attr1="stop_and_idle"/>
+	<duration attr1="1.1"/>
+	<trigger>
+		<triggerType attr1="fire_weapons"/>
+		<objectName attr1="pusher1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="fire_weapons"/>
+		<objectName attr1="pusher2"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera arrt1="1"/>
+	<duration attr1="2"/>
+	<trigger>
+		<triggerType attr1="fire_weapons"/>
+		<objectName attr1="pusher1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="fire_weapons"/>
+		<objectName attr1="pusher2"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_linear_velocity"/>
+		<body attr1="pushDebris"/>
+		<velocity x="0" y="0" z="-5.5"/>
+		<bReletive attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="explosion"/>
+		<reletiveObject attr1="pushDebris"/>
+		<explosionID attr1="explode02"/>
+		<position x="9" y="3.03" z="15.2"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera arrt1="1"/>
+	<duration attr1="2"/>
+	<trigger>
+		<triggerType attr1="fire_weapons"/>
+		<objectName attr1="pusher1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="fire_weapons"/>
+		<objectName attr1="pusher2"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="pusher2"/> 
+	<reletiveObject attr1="pusher2"/> 
+	<cameraPosition x="-80" y="-10" z="-100"/>
+	<duration attr1="2"/>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera arrt1="1"/>
+	<cameraPosition x="-200" y="-80" z="-20"/>
+	<duration attr1="2"/>
+	<trigger>
+		<triggerType attr1="fire_weapons"/>
+		<objectName attr1="pusher1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="fire_weapons"/>
+		<objectName attr1="pusher2"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_linear_velocity"/>
+		<body attr1="pushDebris"/>
+		<velocity x="0" y="0" z="-11.0"/>
+		<bReletive attr1="1"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="pushDebris"/> 
+	<reletiveObject attr1="pushDebris"/> 
+	<cameraPosition x="20" y="100" z="300"/>
+	<duration attr1="2.5"/>
+	<trigger>
+		<triggerType attr1="explosion"/>
+		<reletiveObject attr1="pushDebris"/>
+		<explosionID attr1="explode02"/>
+		<position x="9" y="3.03" z="15.2"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="miniCarrier1"/> 
+	<reletiveObject attr1="miniCarrier1"/> 
+	<cameraPosition x="45" y="-35" z="-150"/>
+	<duration attr1="2.5"/>
+</sceneFragment>

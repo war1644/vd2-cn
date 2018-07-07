@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="flintSPCG"/> 
+<ammunitionID attr1="lightRGP"/> 
+<name attr1="Light Chain Gun"/> 
+<fireSoundID attr1="rapidP02"/>
+<muzzleFlashEffectID attr1="mfLG01"/>
+<capacity attr1="35"/> 
+<reloadTime attr1="7.75"/>
+<scatterYaw attr1="0.85"/>
+<scatterPitch attr1="0.85"/>

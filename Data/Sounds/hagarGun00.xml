@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="sequence"/>
+<objectID attr1="hagarGS00"/> 
+<defaultVolume attr1="1"/>
+<soundFile attr1="hagarGunSound00.wav"/>
+<soundFile attr1="hagarGunSound01.wav"/>
+<maxDistance attr1="10750"/> 
+<referenceDistance attr1="5500"/>
+<soundPriority attr1="80"/>

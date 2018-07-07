@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieThanks00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="thanks"/>
+<dialog attr1="A deal's a deal."/>
+<dialog attr1="We're square."/>
+<dialog attr1="Got it, thanks."/>
+<dialog attr1="Ok."/>
+<dialog attr1="Thanks."/>
+<dialog attr1="Thanks, we're good."/>

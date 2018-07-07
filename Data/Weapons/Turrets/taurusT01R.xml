@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="taurusT01R"/> 
+<name attr1="Twin Turret"/> 
+<meshName attr1="taurusT01R.mesh"/> 
+<turretWeapon attr1="projectile"/>
+<hardpointID attr1="taurusTG"/>
+<dMoveSpeed attr1="90.0"/> 
+<pitchMax attr1="50.0"/>
+<turretBarrel>
+	<weaponPosition x="0.08" y="0.96" z="-7.8"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="0.54" y="0.96" z="-7.8"/>
+	<boneName attr1="muzzle2"/>
+</turretBarrel>
+<turretViewPos  x="0" y="4.68" z="7.4"/>
+<barrelDelay attr1="0.05"/>
+<targetPriorityList> 
+	<targetClass attr1="fighter"/>
+	<targetClass attr1="gunship"/>
+	<targetClass attr1="fighter_drone"/>
+	<targetClass attr1="corvette"/> 
+	<targetClass attr1="frigate"/> 
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="attack_station"/> 
+</targetPriorityList> 
+<turnSoundID attr1="turretR00"/>

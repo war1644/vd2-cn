@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="dust_cloud"/> 
+<objectID attr1="fullCDC01"/> 
+<materialName attr1="DustCloud/DustCloud01"/> 
+<initialColor r="0.1" g="0.1" b="0.1" a="0.1"/>
+<count attr1="10"/>

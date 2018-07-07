@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieStopAttackingMe00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="stop_attacking_me"/>
+<dialog attr1="Hey! Watch it!"/>
+<dialog attr1="Check your target!"/>
+<dialog attr1="Hey! Friendly here!"/>
+<dialog attr1="Not cool!"/>
+<dialog attr1="You think this is funny?"/>
+<dialog attr1="Cease and desist!"/>
+<dialog attr1="Friendly fire!"/>

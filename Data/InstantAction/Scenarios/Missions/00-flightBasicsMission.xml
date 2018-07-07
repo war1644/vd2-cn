@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<position attr1="0"/> 
+<name attr1="Flight - Basics"/> 
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="create_tutorial_listener"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="player_command"/> 
+		<playerCommandID attr1="cruise_speed"/>
+	</objective>
+	<preCutscene attr1="00-flightBasicsScene"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Welcome to the flight basics tutorial."/>
+			<content attr1="First up, basic speed settings."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Although there are no speed limits, each ship has its own optimal speed."/>
+			<content attr1="Above this speed, ship's engines perform less efficiently."/>
+			<content attr1="Making compensating for drift harder."/>
+			<content attr1="This speed setting is called cruise speed."/>
+			<content attr1="Cruise Speed - key" attr2="ship_command" attr3="cruise_speed"/>
+		</dialog>		
+	</preDialog>
+	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
+	<missionHUDText attr1="Experiment with drift - change directions rapidly"/>
+	<missionHUDText attr1="Maneuver via mouse or controller"/>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Setting ship's speed means having less to worry about when in fight or flight."/>
+			<content attr1="Allowing for more focus on targeting, evading or combat."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Next up is stopping."/>
+			<content attr1="Set the speed to zero."/>
+			<content attr1="Your ship will automatically use its engines to stop."/>
+			<content attr1="Zero speed - key" attr2="ship_command" attr3="zero_speed"/>
+		</dialog>	
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<objective>
+		<objectiveType attr1="player_command"/> 
+		<playerCommandID attr1="zero_speed"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<missionHUDText attr1="Zero speed - key" attr2="ship_command" attr3="zero_speed"/>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+	</objective>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Like I mentioned before, there are no speed limits."/>
+			<content attr1="You can increase and decrease the speed setting manually."/>
+			<content attr1="Including travelling in reverse."/>
+			<content attr1="Your ship will automatically thrust to maintain this setting."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Constant movement is important to survival."/>
+			<content attr1="But so is managing your speed to avoid collisions."/>
+			<content attr1="Experiment with these commands:"/>
+			<content attr1="Increase speed setting - key" attr2="ship_command" attr3="increase_speed"/>
+			<content attr1="Decrease speed setting - key" attr2="ship_command" attr3="decrease_speed"/>
+			<content attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
+			<content attr1="All stop - key" attr2="ship_command" attr3="zero_speed"/>
+		</dialog>
+	</preDialog>
+	<missionHUDText attr1="Experiment with speed settings"/>
+	<missionHUDText attr1="Maneuver via mouse or controller"/>
+	<missionHUDText attr1="Increase speed setting - key" attr2="ship_command" attr3="increase_speed"/>
+	<missionHUDText attr1="Decrease speed setting - key" attr2="ship_command" attr3="decrease_speed"/>
+	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
+	<missionHUDText attr1="All stop - key" attr2="ship_command" attr3="zero_speed"/>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Next up, more advanced thruster controls."/>
+			<content attr1="You can manually thrust in any direction."/>
+			<content attr1="Forward thrust - key" attr2="ship_command" attr3="thrust_foreward"/>
+			<content attr1="Reverse thrust - key" attr2="ship_command" attr3="thrust_back"/>
+			<content attr1="Left thrust - key" attr2="ship_command" attr3="thrust_left"/>
+			<content attr1="Right thrust - key" attr2="ship_command" attr3="thrust_right"/>
+			<content attr1="Ascend thrust - key" attr2="ship_command" attr3="thrust_up"/>
+			<content attr1="Descend thrust - key" attr2="ship_command" attr3="thrust_down"/>
+			<content attr1="Manual thruster control can be a life saver in combat."/>
+			<content attr1="Evading enemy fire or doing strafing runs."/>
+			<content attr1="As well as good use during docking or picking up objects."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Bring your ship to a stop."/>
+			<content attr1="All stop - key" attr2="ship_command" attr3="zero_speed"/>
+			<content attr1="Then experiment with manual thruster control."/>
+		</dialog>
+	</preDialog>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+	</objective>
+	<missionHUDText attr1="Experiment with manual thrusters:"/>
+	<missionHUDText attr1="Left thrust - key" attr2="ship_command" attr3="thrust_left"/>
+	<missionHUDText attr1="Right thrust - key" attr2="ship_command" attr3="thrust_right"/>
+	<missionHUDText attr1="Ascend thrust - key" attr2="ship_command" attr3="thrust_up"/>
+	<missionHUDText attr1="Descend thrust - key" attr2="ship_command" attr3="thrust_down"/>
+	<missionHUDText attr1="Forward thrust - key" attr2="ship_command" attr3="thrust_foreward"/>
+	<missionHUDText attr1="Reverse thrust - key" attr2="ship_command" attr3="thrust_back"/>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<objective>
+		<objectiveType attr1="player_command"/> 
+		<playerCommandID attr1="afterburner"/> 
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<missionHUDText attr1="Afterburner - key" attr2="ship_command" attr3="afterburner"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Next up is the afterburner."/>
+			<content attr1="Although not standard on all ships, nearly all small ship have them."/>
+			<content attr1="The afterburner has many uses."/>
+			<content attr1="Getting into weapons range, or escaping an enemy..."/>
+			<content attr1="Countering reverse momentum, or just speeding up rapidly."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>	
+			<content attr1="Whenever you need a powerful and quick burst of forward thrust, use the afterburner."/>
+			<content attr1="Afterburner systems use stored energy, which takes time to recharge."/>
+			<content attr1="Afterburner - key" attr2="ship_command" attr3="afterburner"/>
+		</dialog>
+	</preDialog>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Your ship can turn on its Z (forward) axis."/>
+			<content attr1="This is called rolling."/>
+			<content attr1="Rolling is useful for evading enemy fire."/>
+			<content attr1="Aligning turret firing arcs."/> 
+			<content attr1="Aligning positional shields to take enemy fire."/> 
+			<content attr1="And looking damn boss after fragging a hostile."/> 
+		</dialog>	
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="To roll your ship use these keys:"/>
+			<content attr1="Roll left - key" attr2="ship_command" attr3="roll_left"/>
+			<content attr1="Roll right - key" attr2="ship_command" attr3="roll_right"/>
+		</dialog>	
+	</preDialog>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/> 
+	</objective>
+	<missionHUDText attr1="Experiment with rolling:"/>
+	<missionHUDText attr1="Roll left - key" attr2="ship_command" attr3="roll_left"/>
+	<missionHUDText attr1="Roll right - key" attr2="ship_command" attr3="roll_right"/>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<displayName attr1="Exit tutorial"/> 
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer="1000"/>
+	</objective>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="This completes the flight basics tutorial."/>
+			<content attr1="Mastering flight can be a challenging task."/>
+			<content attr1="Feel free to replay this tutorial as many times as you need."/>
+			<content attr1="Good luck."/>
+		</dialog>
+	</preDialog>
+	<missionHUDText attr1="Tutorial completed"/>
+	<missionHUDText attr1="ESC game menu"/>
+</mission>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="pick_one"/>
+<objectID attr1="heavyCS00"/> 
+<defaultVolume attr1="0.75"/>
+<soundFile attr1="heavyCannon00.wav"/>
+<soundFile attr1="heavyCannon01.wav"/>
+<soundFile attr1="heavyCannon02.wav"/>
+<soundFile attr1="heavyCannon03.wav"/>
+<soundFile attr1="heavyCannon04.wav"/>
+<soundFile attr1="heavyCannon05.wav"/>
+<soundFile attr1="heavyCannon06.wav"/>
+<soundFile attr1="heavyCannon07.wav"/>
+<soundFile attr1="heavyCannon08.wav"/>
+<maxDistance attr1="3750"/> 
+<referenceDistance attr1="1750"/>
+<soundPriority attr1="75"/>

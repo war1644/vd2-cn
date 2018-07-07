@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="fleetGUI"/>
+<topicName attr1="Fleet Interface"/>
+<mainText attr1="Fleet Interface:"/>
+<mainText attr1="The fleet interface is a way of quickly seeing the status of your fleet as well as switching from ship to ship."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Concepts:"/>
+<mainText attr1="Can be used in both Ship and Tactical modes."/>
+<mainText attr1="Handy way of finding a particular ship."/>
+<mainText attr1="     When ship is found in list - clicking on it selects it in Tactical mode"/>
+<mainText attr1="Shows current ship class count and unit cap."/>
+<mainText attr1="If you notice that the ship class count is over the unit cap"/>
+<mainText attr1="     Captured ships don't count towards the unit cap"/>
+<mainText attr1="     Some ships don't count towards the unit cap under special circumstances"/>
+<mainText attr1=" "/>
+<mainText attr1="Using:"/>
+<mainText attr1="The Fleet Interface has two rows of buttons - each representing a class of ship."/>
+<mainText attr1="Click on the desired ship class to see a list of ships in that class."/>
+<mainText attr1="Click on a ship in that list - to select it - Tactical Mode"/>
+<mainText attr1="     A button will become available - click that button to switch to the ship"/>
+<mainText attr1="Click on a ship in that list - to switch to it - Ship Mode"/>
+<imageOne>
+	<image attr1="set:guide_fleet_gui_icon image:guide_fleet_gui_icon"/>
+</imageOne>
+
+

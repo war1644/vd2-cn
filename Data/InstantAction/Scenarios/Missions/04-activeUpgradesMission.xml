@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<position attr1="0"/> 
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="create_tutorial_listener"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<preCutscene attr1="04-activeUpgradesScene"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Welcome to the active upgrade tutorial."/>
+			<content attr1="This tutorial covers the use of active upgrades."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Active upgrades, like the name suggests must be activated."/>
+			<content attr1="Their function varies, but often has a dramatic and powerful effect."/>
+			<content attr1="Some instantly cause an effect, while others have a duration."/>
+			<content attr1="Either way, after activation, they require time to recharge."/>
+		</dialog>	
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Active upgrades vary ship by ship, and usually have to be bought."/>
+			<content attr1="As part of this simulation, we'll add an active upgrade to your system."/>
+		</dialog>		
+	</preDialog>
+	<postTrigger>
+		<triggerType attr1="upgrade_completed"/>
+		<upgradeID attr1="fFrontShield00"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="There we go..."/>
+			<content attr1="A energy barrier upgrade should be available."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Here's where we have some fun."/>
+			<content attr1="As part of this tutorial, you are to destroy a gun pod."/>
+			<content attr1="Normally a Hornet class fighter might find destroying it a challenge."/>
+			<content attr1="But with this upgrade it should be a breeze."/>
+		</dialog>	
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="So your task is to head towards the gun pod."/>
+			<content attr1="When it begins firing on you, activate the upgrade."/>
+			<content attr1="When active it should keep your ship safe from the gun pod's fire."/>
+			<content attr1="Use that opportunity to destroy the gun pod."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Let's cover how to activate active upgrades."/>
+			<content attr1="Next Ability  - key" attr2="command_common" attr3="ability_up"/>
+			<content attr1="Previous Ability  - key" attr2="command_common" attr3="ability_down"/>
+			<content attr1="Activate Selected Ability  - key" attr2="command_common" attr3="ability_activate"/>
+			<content attr1="Same key to deactivate."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="One final note."/>
+			<content attr1="This barrier will only cover your front..."/>
+			<content attr1="Orient your ship so that the barrier sits between you and the gun pod."/>
+		</dialog>
+	</preDialog>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="Target Gun Pod"/>
+	</objective>
+	<missionHUDText attr1="Destroy Gun Pod"/>
+	<missionHUDText attr1=" "/>
+	<missionHUDText attr1="Fly within weapons range and activate ability for protection"/>
+	<missionHUDText attr1="Next Ability  - key" attr2="command_common" attr3="ability_up"/>
+	<missionHUDText attr1="Previous Ability  - key" attr2="command_common" attr3="ability_down"/>
+	<missionHUDText attr1="Activate Selected Ability  - key" attr2="command_common" attr3="ability_activate"/>
+	<missionHUDText attr1=" - Same key to deactivate"/>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<displayName attr1="Exit tutorial"/> 
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer="1000"/>
+	</objective>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="Nice!"/>
+			<content attr1="While powerful, active upgrades don't eliminate the need for skill and tactics."/>
+			<content attr1="For example, that gun pod's weapons coverage is limited."/>
+			<content attr1="Making certain vectors of attack safe."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="coachTrain"/>
+			<content attr1="This completes the active upgrade tutorial."/>
+			<content attr1="Active upgrades can be a tremendous advantage in combat or non-combat situation."/>
+			<content attr1="Ignore them at your peril..."/>
+			<content attr1="Feel free to replay this tutorial as many times as you need."/>
+			<content attr1="Good luck."/>
+		</dialog>
+	</preDialog>
+	<missionHUDText attr1="Tutorial completed"/>
+	<missionHUDText attr1="ESC game menu"/>
+</mission>

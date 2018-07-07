@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<cameraPosition x="0" y="0" z="-1000"/>
+	<duration attr1="1.5"/>
+	<trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-wreckage00"/> 	
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="3"/> 
+	<headingText attr1="Oort Cloud..."/>
+</sceneFragment>
+<sceneFragment>
+	<attachment attr1="Hercules 1-1"/>
+	<cameraPosition x="-400" y="-70" z="-320"/>
+	<duration attr1="5.5"/> 
+	<headingText attr1="Edge of the solar system..."/>
+</sceneFragment>
+<sceneFragment>
+	<duration attr1="4"/>
+	<attachment attr1="playerShip"/>
+	<cameraPosition x="-15" y="5" z="-25"/>
+	<headingText attr1="You feel awake..."/>
+	<trigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="playerShip"/>
+		<bSetting attr1="0"/>
+	</trigger>
+</sceneFragment>

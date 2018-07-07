@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="random"/>
+<objectID attr1="smallHit00"/> 
+<soundFile attr1="smallHit00.wav"/>
+<soundFile attr1="smallHit01.wav"/>
+<soundFile attr1="smallHit02.wav"/>
+<soundFile attr1="smallHit03.wav"/>
+<soundFile attr1="smallHit04.wav"/>
+<soundFile attr1="smallHit05.wav"/>
+<soundFile attr1="smallHit06.wav"/>
+<maxDistance attr1="500"/> 
+<referenceDistance attr1="250"/>
+<defaultVolume attr1="0.6"/>
+<soundPriority attr1="60"/>

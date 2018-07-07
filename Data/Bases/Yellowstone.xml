@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="yellowstone"/> 
+<displayName attr1="Yellowstone"/> 
+<objectID attr1="yellowstone"/> 
+<faction attr1="shadowTraders"/>
+<meshName attr1="Yellowstone.mesh"/>
+<descriptionText attr1="A black market base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="A abandoned military outpost, barely functioning as a meeting point."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Dealing with goods normally gated behind legal barriers, Yellowstone is a trading hub for a variety of goods, including ships."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="If you want to buy something, but aren't allowed to, the Shadow Traders are here to help. A loosely organized group facilitating illegal trade."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="This base isn't officially recognized, making it essentially lawless. Anyone can dock, and no form of security is provided."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Yellowstone was originally a TSF base. It was abandoned during construction. A accident created instability in the tunnels, making further development too costly."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="0" y="0" z="0"/>
+<dockingArmsEnd x="0" y="0" z="-20"/>
+<dockPosition x="0" y="0" z="0"/>
+<dockSize x="120" y="120" z="120"/>
+<hangarID attr1="theHubH"/> 
+<maxBuildShipClass attr1="corvette"/>
+<rockSubPosition attr1="1"/>
+<miningPlatformPosition x="-1105.473" y="-14.136" z="248.605"/>

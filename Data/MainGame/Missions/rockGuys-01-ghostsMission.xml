@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Ghosts"/>
+<missionDescriptionText attr1="Looking for some discrete help."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Medium mission threat level."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Drone fighting experience and a heavy fighter preferred."/>
+<objectID attr1="rockGuys-01"/>
+<missionFactionID attr1="rockGuys"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="1600" y="0" z="-400"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="22500"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<maximumShipClass attr1="fighter"/>
+<bOverworldByPass attr1="1"/>
+<missionRankRequired attr1="2.8"/>
+<worldFile attr1="rockGuys-01-ghosts-worldFile"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_platform"/>
+		<stationID attr1="hangar001"/>
+		<platformName attr1="rg01-hangar-1"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="tsf"/>
+		<orientation w="0.99997" x="0" y="-0.00775567" z="0"/>
+		<position x="-0.0294973" y="0" z="1.90149"/>
+		<bCheckPosition attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="rg01-hangar-1"/>
+		<health attr1="94"/>
+		<bAsPercent attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<note_to_self attr1="lowering damage multiplier so that player doesn't have to damage platform as much - bit of a 'logic' type thinking - don't want to damage it too much - but I want player to spend more time damaging it"/>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="rg01-hangar-1"/>
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="0.65"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_active"/>
+		<objectName attr1="rg01-hangar-1"/>
+		<bActive attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="rg01-hangar-1"/> 	
+		<alterType attr1="toggle_must_survive"/>
+		<bToggle attr1="1"/>
+		<note_to_self attr1="ensure player can't destroy - so that we don't have to worry about a destroy objective later"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="thrallD00"/>
+		<name attr1="rg01-thrallDebris-1"/>
+		<faction attr1="enemyPlayer"/>
+		<position x="-800" y="350" z="200"/>
+		<angularVelocity x="-0.107292" y="-0.088076" z="0.134"/>
+		<bTurrets attr1="1"/>
+		<bLimitLife attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="rg01-thrallDebris-1"/>
+		<health attr1="63"/>
+		<bAsPercent attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="theBeastD00"/>
+		<name attr1="rg01-theBeastD00-1"/>
+		<faction attr1="neutral"/>
+		<position x="400" y="-550" z="-350"/>
+		<angularVelocity x="-0.307292" y="0.048076" z="-0.134"/>
+		<bLimitLife attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="rg01-theBeastD00-1"/>
+		<health attr1="18"/>
+		<bAsPercent attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="olaD01"/>
+		<name attr1="rg01-olaD01-1"/>
+		<faction attr1="neutral"/>
+		<position x="884" y="250" z="550"/>
+		<angularVelocity x="-0.107292" y="-0.088076" z="0.134"/>
+		<bLimitLife attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="olaD00"/>
+		<name attr1="rg01-olaD00-1"/>
+		<faction attr1="neutral"/>
+		<position x="984" y="200" z="450"/>
+		<angularVelocity x="0.107292" y="-0.088076" z="-0.134"/>
+		<bLimitLife attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="tug"/>
+		<shipName attr1="rg01-tug-1"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="rockGuys"/>
+		<bAutoPilot attr1="0"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="-1000" y="100" z="-3500"/>
+		<aiPosture attr1="hold"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="look_at"/>
+		<lookAtObject attr1="rg01-hangar-1"/>
+		<objectName attr1="rg01-tug-1"/>
+		<bNoRoll attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="rg01-tug-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="rg01-tug-1"/>
+		<characterID attr1="muGeneric02"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric02"/>
+		<message attr1="Get closer and I'll brief you."/>
+	</preTrigger>
+	<missionHUDText attr1="Approach the Tug..."/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="rg01-tug-1"/>
+		<goToDistance attr1="1500"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric02"/>
+			<nameOverride attr1="Stratos"/>
+			<content attr1="Thanks for taking the mission."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric02"/>
+			<nameOverride attr1="Stratos"/>
+			<content attr1="In the center of this little field is a TSF Hangar platform."/>
+			<content attr1="I paid good money for it's location."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric02"/>
+			<nameOverride attr1="Stratos"/>
+			<content attr1="It looks to be left over from the..."/>
+			<content attr1="Well, as they say MU rebellion."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric02"/>
+			<nameOverride attr1="Stratos"/>
+			<content attr1="It's damaged."/>
+			<content attr1="The comms and id sub systems don't work."/>
+			<content attr1="But its manufacture capabilities are still intact."/>
+			<content attr1="The information broker mentioned that someone learned that the hard way..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric02"/>
+			<nameOverride attr1="Stratos"/>
+			<content attr1="A juicy piece of tech."/>
+			<content attr1="If you can find a buyer..."/>
+			<content attr1="I have one. That information wasn't cheap either."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric02"/>
+			<nameOverride attr1="Stratos"/>
+			<content attr1="And here's where you come in."/>
+			<content attr1="We have two options."/>
+			<bClearAllText attr1="1"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric02"/>
+			<nameOverride attr1="Stratos"/>
+			<content attr1="Destroy any drones it launches."/>
+			<content attr1="It should run out... Eventually."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric02"/>
+			<nameOverride attr1="Stratos"/>
+			<content attr1="Damage it just enough that it can't build anymore."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric02"/>
+			<nameOverride attr1="Stratos"/>
+			<content attr1="Then it's all mine."/>
+			<content attr1="Then you'll get good money too."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="muGeneric02"/>
+			<nameOverride attr1="Stratos"/>
+			<content attr1="Oh! Almost forgot."/>
+			<content attr1="You'll need to shoot it at least once."/>
+			<content attr1="It needs a bit of a jolt to wake up."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<missionHUDText attr1="Damage the platform..."/>
+	<missionHUDText attr1="Or destroy all of its drones..."/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="rg01-hangar-1"/>
+		<healthPercent attr1="0.45"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric02"/>
+		<message attr1="Good! It can't build any more drones. Clean up the ones in the air."/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="rg01-hangar-1"/>
+		<faction attr1="neutral"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</preTrigger>
+	<missionHUDText attr1="Destroy remaining drones..."/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="enemyPlayer"/>
+		<bMarkShips attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric02"/>
+		<message attr1="No more drones. Reminds me of old times..."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric02"/>
+		<message attr1="Almost there. Clean up any hostile debris and mines."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<missionHUDText attr1="Clean up the area..."/>
+	<objective>
+		<objectiveType attr1="destroy_faction_mines"/> 
+		<faction attr1="enemy"/>
+		<bMarkMines attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="rg01-thrallDebris-1"/>
+		<bSilent attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric02"/>
+		<message attr1="Good, here we go."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<nextMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<commandType attr1="go_to_object"/>
+		<shipName attr1="rg01-tug-1"/>
+		<target attr1="rg01-hangar-1"/>
+		<distance attr1="100"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="11"/>
+	<nextMissionNumber attr1="12"/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="rg01-tug-1"/>
+		<goToObject attr1="rg01-hangar-1"/>
+		<goToDistance attr1="1000"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="25"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postCutscene attr1="rockGuys-01-pickUp"/>
+</mission>
+<mission>
+	<missionNumber attr1="12"/>
+	<nextMissionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric02"/>
+		<message attr1="That's the good stuff! Next stop money money money!"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<commandType attr1="go_to_position"/>
+		<shipName attr1="rg01-tug-1"/>
+		<position x="0" y="0" z="-20000"/>
+		<reletiveObject attr1="rg01-tug-1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="3.05"/>
+		<faction attr="rockGuys"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="drone launches ------------"/>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="2001"/>
+	<bForceActive attr1="1"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="rg01-hangar-1"/>
+		<healthPercent attr1="0.92"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="rg01-hangar-1"/> 	
+		<faction attr1="enemyPlayer"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric02"/>
+		<message attr1="It's waking up. Stay sharp..."/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<nextMissionNumber attr1="2002"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="launch_fighter"/>
+		<hangar attr1="rg01-hangar-1"/>
+		<shipName attr1="rg01-drone-1"/>
+		<shipName attr1="rg01-drone-2"/>
+		<shipName attr1="rg01-drone-3"/>
+		<shipName attr1="rg01-drone-4"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-combat03"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2002"/>
+	<nextMissionNumber attr1="2003"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="30"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="enemyPlayer"/>
+		<bMarkShips attr1="0"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="rg01-hangar-1"/>
+		<healthPercent attr1="0.45"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="launch_fighter"/>
+		<hangar attr1="rg01-hangar-1"/>
+		<shipName attr1="rg01-drone-5"/>
+		<shipName attr1="rg01-drone-6"/>
+		<shipName attr1="rg01-drone-7"/>
+		<shipName attr1="rg01-drone-8"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2003"/>
+	<nextMissionNumber attr1="2004"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="35"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="enemyPlayer"/>
+		<bMarkShips attr1="0"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="rg01-hangar-1"/>
+		<healthPercent attr1="0.45"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="launch_fighter"/>
+		<hangar attr1="rg01-hangar-1"/>
+		<shipName attr1="rg01-drone-9"/>
+		<shipName attr1="rg01-drone-10"/>
+		<shipName attr1="rg01-drone-11"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2004"/>
+	<nextMissionNumber attr1="2005"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="40"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="enemyPlayer"/>
+		<bMarkShips attr1="0"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="rg01-hangar-1"/>
+		<healthPercent attr1="0.45"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="launch_fighter"/>
+		<hangar attr1="rg01-hangar-1"/>
+		<shipName attr1="rg01-drone-12"/>
+		<shipName attr1="rg01-drone-13"/>
+		<shipName attr1="rg01-drone-14"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2005"/>
+	<nextMissionNumber attr1="2006"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="45"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="enemyPlayer"/>
+		<bMarkShips attr1="0"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="rg01-hangar-1"/>
+		<healthPercent attr1="0.45"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="launch_fighter"/>
+		<hangar attr1="rg01-hangar-1"/>
+		<shipName attr1="rg01-drone-15"/>
+		<shipName attr1="rg01-drone-16"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2006"/>
+	<nextMissionNumber attr1="2007"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="40"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="enemyPlayer"/>
+		<bMarkShips attr1="0"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="rg01-hangar-1"/>
+		<healthPercent attr1="0.45"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="launch_fighter"/>
+		<hangar attr1="rg01-hangar-1"/>
+		<shipName attr1="rg01-drone-17"/>
+		<shipName attr1="rg01-drone-18"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2007"/>
+	<nextMissionNumber attr1="5"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="40"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="enemyPlayer"/>
+		<bMarkShips attr1="0"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="rg01-hangar-1"/>
+		<healthPercent attr1="0.45"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="launch_fighter"/>
+		<hangar attr1="rg01-hangar-1"/>
+		<shipName attr1="rg01-drone-19"/>
+		<shipName attr1="rg01-drone-20"/>
+		<shipName attr1="rg01-drone-21"/>
+		<shipName attr1="rg01-drone-22"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<note_to_self attr1="end - drone launches ------------"/>
+<mission>
+	<missionNumber attr1="5000"/>
+	<nextMissionNumber attr1="5001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="8"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="5001"/>
+	<objective>
+		<objectiveType attr1="repair"/> 
+		<objectName attr1="r01-hangar-1"/> 
+		<healthPercent attr1="0.80"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric02"/>
+		<message attr1="Almost forgot... Low damage... It will sell for more... Here's a bonus!"/>
+	</postTrigger>
+	<reward>
+		<rewardType attr="credit"/>
+		<credits attr="10000"/>
+	</reward>
+</mission>
+<note_to_self attr1="mission failures below"/>
+<mission>
+	<missionNumber attr1="6000"/>
+	<nextMissionNumber attr1="6001"/>
+	<bForceActive attr1="1"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="rg01-tug-1"/>
+		<healthPercent attr1="0.97"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric02"/>
+		<message attr1="What's going on?"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="6001"/>
+	<nextMissionNumber attr1="6002"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="rg01-tug-1"/>
+		<healthPercent attr1="0.94"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="muGeneric02"/>
+		<message attr1="What!? You are here to help me, not attack me!"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="6002"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="playerShip"/>
+		<bSetting attr1="0"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

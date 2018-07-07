@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Cutter"/> 
+<objectID attr1="cutter"/>
+<faction attr1="reborn"/>  
+<shipClass attr1="corvette"/>
+<shipClassSize attr1="medium"/>
+<meshName attr1="Cutter.mesh"/>
+<wireframeMaterial attr1="WF/Condor"/> 
+<descriptionText attr1="A medium corvette."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Capable of carrying Fury fighters, but otherwise lightly armed. Often seen in the hands of future pirate lords."/>
+<creditCost attr1="1050000"/>
+<bBlackMarket attr1="1"/>
+<missionRankRequired attr1="4"/>
+<cruiseSpeed attr1="55.0"/> 
+<timeTillCruise attr1="2.75"/> 
+<yaw 	attr1="65.0"/> 
+<pitch	attr1="65.0"/> 
+<roll 	attr1="65.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitID attr1="cockpit004"/>
+<cockpitActualPos x="0" y="18" z="33"/>
+<cockpitActualMesh attr1="cockpitCutter.mesh"/> 
+<bShowInCockpitParticles attr1="1"/>
+<cockpitInitPos x="0" y="25" z="20"/>
+<cockpitTransLimit x="3" y="3" z="3"/>
+<chaseInitPos x="0" y="71.38" z="290"/>
+<chaseTransLimit x="16" y="10" z="6"/> 
+<health attr1="14500"/> 
+<armor attr1="1.0"/>
+<buildTime	attr1="32.0"/> 
+<crew 		attr1="3"/> 
+<energy		attr1="375.0"/> 
+<ore		attr1="550.0"/>  
+<damage>
+    <pitch attr1="15.0"/> 
+    <roll attr1="75.0"/> 
+	<yaw attr1="22.0"/> 
+	<position x="-6.417" y="5.991" z="-6.924"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="0.0"/> 
+    <roll attr1="-90.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="7.309" y="6.249" z="20.045"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<deathTimer attr1="4"/> 
+<deathSpin x="0.07" y="0.5" z="-0.1"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="cutterD00"/> 
+		<debrisMomentum attr1="3"/> 
+		<debrisAngular attr1="3"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="cutterD01"/> 
+		<debrisMomentum attr1="3"/> 
+		<debrisAngular attr1="3"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explodeRed03"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp2_60"/>
+<engineSoundID attr1="eng-02"/>
+<propulsion>
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="33.823" y="-2.070" z="44.863"/>
+</propulsion>
+<propulsion>
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-33.823" y="-2.070" z="44.863"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/>
+	<position x="33.823" y="-2.070" z="-14.616"/>
+	<direction attr1="fore"/> 
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/>
+	<position x="-33.823" y="-2.070" z="-14.616"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.55"/> 
+    <capacity attr1="15"/>
+    <recharge attr1="14"/> 
+</afterburner>
+<turret>
+    <turretID attr1="rageTurret01"/>
+	<position x="0" y="13.57" z="0.47"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="point_defense"/>
+</turret>
+<turret>
+    <turretID attr1="wrathTurret01"/>
+	<turretOrientation attr1="right"/> 
+	<position x="45.930" y="-2.070" z="14.647"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+</turret>
+<turret>
+    <turretID attr1="wrathTurret01"/>
+	<turretOrientation attr1="left"/> 
+	<position x="-45.930" y="-2.070" z="14.647"/>
+	<pitchLower attr1="-1"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+</turret>
+<turret>
+    <turretID attr1="wrathTurret01"/>
+	<position x="5.813" y="-5.786" z="-31"/>
+	<pitchLower attr1="-1"/>
+	<turretOrientation attr1="right"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<yawPermitted attr1="30"/>
+</turret>
+<turret>
+    <turretID attr1="wrathTurret01"/>
+	<position x="-5.813" y="-5.786" z="-31"/>
+	<pitchLower attr1="-1"/>
+	<turretOrientation attr1="left"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<yawPermitted attr1="30"/>
+</turret>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="9.76" y="-24.66" z="-6.02"/>
+	<objectID attr1="fury"/>
+	<attachedID attr1="fury"/>
+	<_orientation attr1="right"/>
+	<ejectOrientation attr1="down"/>
+	<ejectVelocity attr1="15"/>
+	<dockRollOffset attr1="45"/>
+</dock>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="9.7" y="-20.9" z="7.36"/>
+	<objectID attr1="fury"/>
+	<attachedID attr1="fury"/>
+	<_orientation attr1="right"/>
+	<ejectOrientation attr1="down"/>
+	<ejectVelocity attr1="15"/>
+	<dockRollOffset attr1="45"/>
+</dock>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="9.76" y="-17.72" z="20.96"/>
+	<objectID attr1="fury"/>
+	<attachedID attr1="fury"/>
+	<_orientation attr1="right"/>
+	<ejectOrientation attr1="down"/>
+	<ejectVelocity attr1="15"/>
+	<dockRollOffset attr1="45"/>
+</dock>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="-9.76" y="-24.66" z="-6.02"/>
+	<objectID attr1="fury"/>
+	<attachedID attr1="fury"/>
+	<_orientation attr1="right"/>
+	<ejectOrientation attr1="down"/>
+	<ejectVelocity attr1="15"/>
+	<dockRollOffset attr1="-45"/>
+</dock>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="-9.7" y="-20.9" z="7.36"/>
+	<objectID attr1="fury"/>
+	<attachedID attr1="fury"/>
+	<_orientation attr1="right"/>
+	<ejectOrientation attr1="down"/>
+	<ejectVelocity attr1="15"/>
+	<dockRollOffset attr1="-45"/>
+</dock>
+<dock> 
+	<dockType attr1="ship_dock"/>
+	<position x="-9.76" y="-17.72" z="20.96"/>
+	<objectID attr1="fury"/>
+	<attachedID attr1="fury"/>
+	<_orientation attr1="right"/>
+	<ejectOrientation attr1="down"/>
+	<ejectVelocity attr1="15"/>
+	<dockRollOffset attr1="-45"/>
+</dock>
+<movingElement> 
+	<boneName attr1="Bridge"/>
+	<translateAmount x="0" y="0" z="-4"/> 
+	<bCombat attr1="1"/>
+</movingElement>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="4"/>
+	<activeUpgradeCapacity attr1="5"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cShield00"/>
+	<upgradeID attr1="cShieldRecharge00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="corvetteFShield00"/>
+	<upgradeID attr1="corvetteRShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.87" y="-5" z="136.39"/>

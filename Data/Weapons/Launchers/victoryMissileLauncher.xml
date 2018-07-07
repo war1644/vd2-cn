@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="missile"/> 
+<weaponID attr1="victoryML"/> 
+<ammunitionID attr1="largeMissile00"/> 
+<name attr1="Launcher"/> 
+<fireSoundID attr1="missileLS"/>
+<reFireRate attr1="1.0"/>
+<capacity attr1="8"/>
+<reloadTime attr1="15"/> 
+<muzzleFlashEffectID attr1="mfML01"/>

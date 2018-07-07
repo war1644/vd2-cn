@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="projectile"/> 
+<projectileID attr1="oLPP"/> 
+<projectileType attr1="particle_projectile"/> 
+<projectileParticleName attr1="vdp_oProjectile_01"/>
+<projectileVelocity attr1="1100.0"/> 
+<initialLife attr1="3.4"/> 
+<_range attr1="3750.0"/> 
+<damage attr1="140.0"/> 
+<explosionID attr1="oPHit"/> 
+<bAntiCapital attr1="1"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="tonSPL"/> 
+<ammunitionID attr1="tonPL"/> 
+<name attr1="Plasma Lobber"/> 
+<fireSoundID attr1="plasmaLL00"/>
+<muzzleFlashEffectID attr1="mfLG02"/>
+<reFireRate attr1="0.30"/> 
+<capacity attr1="2"/> 
+<reloadTime attr1="5.5"/>

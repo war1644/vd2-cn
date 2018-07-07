@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Simulator" >
+        <Property Name="Font" Value="Exo-SemiBold-12" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="jhGUI/Right_Button" Name="Simulator/btnStartBattle" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="START SIMULATION" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0950903,0},{0.328161,0},{0.251143,0},{0.383863,0}}" />
+        </Window>
+        <Window Type="jhGUI/Right_Button" Name="Simulator/btnArena" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="ARENA" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0950903,0},{0.448281,0},{0.251143,0},{0.497266,0}}" />
+        </Window>
+        <Window Type="jhGUI/Right_Button" Name="Simulator/btnBattleEditor" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="BATTLE EDITOR" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0950903,0},{0.504107,0},{0.251143,0},{0.553093,0}}" />
+        </Window>
+        <Window Type="jhGUI/StaticImageRight" Name="Simulator/Main" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Simulator" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.254067,0},{0.129221,0},{0.986863,0},{0.941137,0}}" />
+            <Window Type="ootGUI/TabControl" Name="Simulator/Main/tabCtrl" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="TabHeight" Value="{0,27.9164}" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0117027,0},{0.0439936,0},{0.323241,0},{0.722022,0}}" />
+                <Window Type="DefaultWindow" Name="Simulator/Main/tabCtrl/Main" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value=" Scenarios" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="ootGUI/ListboxRight" Name="Simulator/Main/tabCtrl/Main/lstSimulator" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Simulator/Main/tabCtrl/Mod" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="  Mod" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="ootGUI/ListboxRight" Name="Simulator/Main/tabCtrl/Mod/lstSimulatorMod" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="ootGUI/MultiLineEditboxRight" Name="Simulator/Main/editInfo" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" >
+Select from pre-created scenarios on the left
+
+Setup a quick battle in the ARENA.
+
+Or create a custom battle via the BATTLE EDITOR
+</Property>
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.324489,0},{0.0454515,0},{0.993035,0},{0.973611,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="SelectionBrushImage" Value="" />
+            </Window>
+            <Window Type="ootGUI/ListboxRight" Name="Simulator/Main/lstSimulatorCustom" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0158212,0},{0.762893,0},{0.315494,0},{0.97259,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="Simulator/Main/txtCustom" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="CUSTOM MAPS:" />
+                <Property Name="HorzExtent" Value="115" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0158212,0},{0.726417,0},{0.26582,0},{0.758087,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="Simulator/Main/txtHeader" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="SIMULATOR:" />
+                <Property Name="HorzExtent" Value="92" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0885652,0},{0.00583721,0},{0.320694,0},{0.0388499,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Right_Button" Name="Simulator/btnClose" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="BACK" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0950903,0},{0.635149,0},{0.251143,0},{0.684135,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

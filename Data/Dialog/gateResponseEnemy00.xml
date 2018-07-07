@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="gateResponseEnemy00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="gate_response_enemy"/>
+<dialog attr1="Negative, access denied."/>
+<dialog attr1="You kidding me? Access denied."/>
+<dialog attr1="Negative, hostiles not permitted."/>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<lookAtObject attr1="salvager00"/> 
+	<reletiveObject attr1="salvager00"/> 
+	<cameraPosition x="-250" y="100" z="-150"/>
+	<duration attr1="2"/>
+	<trigger>
+		<triggerType attr1="disable_maneuvering"/>
+		<shipName attr1="salvager00"/>
+		<bSetting attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="disable_engines"/>
+		<shipName attr1="salvager00"/>
+		<bSetting attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="salvager00"/>
+		<bSetting attr1="0"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="1"/>
+	<trigger>
+		<triggerType attr1="drop_all_carried"/>
+		<shipName attr1="salvager00"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="6"/>
+	<trigger>
+		<triggerType attr1="destroy_named"/>
+		<objectName attr1="boobyTrapPod 1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_health"/>
+		<objectName attr1="salvager00"/>
+		<health attr1="12"/>
+		<bAsPercent attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_linear_velocity"/>
+		<body attr1="salvager00"/>
+		<velocity x="-1.75" y="5.51" z="1.75"/>
+		<bReletive attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_angular_velocity"/>
+		<body attr1="salvager00"/>
+		<velocity x="-0.08" y="0.15" z="-0.09"/>
+		<bReletive attr1="1"/>
+	</trigger>
+</sceneFragment>

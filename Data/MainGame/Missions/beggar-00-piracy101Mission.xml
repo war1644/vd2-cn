@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Piracy 101"/>
+<missionDescriptionText attr1="Introductory course on piracy."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Attendance non-mandatory, pass fail grading system, open book and cheating allowed."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Tuition: we pay you!"/>
+<objectID attr1="beggar-00"/>
+<missionFactionID attr1="beggar"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="-5500" y="0" z="900"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="0"/>
+<note_to_self attr1="credit reward part of successful completion"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<bFactionShipRequired attr1="1"/>
+<maximumShipClass attr1="fighter"/>
+<bOverworldByPass attr1="1"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="tinyRock001"/>
+		<name attr1="lookAtRock"/>
+		<bOverworld attr1="0"/>
+		<bReletiveToPlayer attr1="1"/>
+		<position x="0" y="0" z="-20000"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="holeRock005"/>
+		<name attr1="meetingPointRoid"/>
+		<bOverworld attr1="0"/>
+		<bReletiveToPlayer attr1="1"/>
+		<position x="1500" y="0" z="-7500"/>
+		<bRandomOrientation attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="hog"/>
+		<shipName attr1="pirateTrainer"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="beggar"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="0"/>
+		<reletiveObject attr1="meetingPointRoid"/>
+		<position x="0" y="0" z="0"/>
+		<aiPosture attr1="hold"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="pirateTrainer"/>
+		<characterID attr1="beggar-00-PPlt"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="pirateTrainer"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="look_at"/>
+		<lookAtObject attr1="lookAtRock"/>
+		<objectName attr1="meetingPointRoid"/>
+		<objectName attr1="pirateTrainer"/>
+		<bNoRoll attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="destroy_named"/>
+		<objectName attr1="lookAtRock"/>
+		<bSilent attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="Psssttt... hey kid... over here..."/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="pirateTrainer"/>
+		<goToDistance attr1="2000"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="In the rock, form up beside me."/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="go_to_position"/> 
+		<traveler attr1="playerShip"/> 
+		<goToPosition x="-50" y="0" z="0"/>
+		<reletiveObject attr1="pirateTrainer"/>
+		<goToDistance attr1="50"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Hey! You the noob?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Yes."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Glad to meet ya!"/>
+			<content attr1="I want you to know that our official policy at Beggar Inc. is an open house policy."/>
+			<content attr1="All are welcome!"/>
+			<content attr1="Even Stubs."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Of course... some of our members can be a bit... stabby."/>
+			<content attr1="I mean we are pirate scum..."/>
+			<content attr1="But in the end all that matters is money."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="And isn't that why we are here?"/>
+			<content attr1="Well.. you might not know this... being a Stub..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="But goods can be exchanged for credits."/>
+			<content attr1="And uh... vice versa. You can get stuff for money."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Instead of making things, mining, or whatever."/>
+			<content attr1="Which takes money, time and effort."/>
+			<content attr1="We just take the thing and sell it. That cuts out the middle man."/>
+			<content attr1="Which maximizes profit."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="For us..."/>
+			<content attr1="It's called capitalism."/>
+			<content attr1="CAP-ITA-LISM"/>
+			<bClearAllText attr1="1"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="CAP-ITA-LISM"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Just kidding! It's piracy! Hah Hah!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Anyway..."/>
+			<content attr1="We are between two civilian bases."/>
+			<content attr1="That means heavy transport ship traffic."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="This rock should hide us pretty well."/>
+			<content attr1="Let's wait a moment..."/>
+		</dialog>
+	</preDialog>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postCutscene attr1="beggar-00-waiting"/>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<nextMissionNumber attr1="100"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="That wasn't so bad!"/>
+			<content attr1="One time I waited for days..."/>
+			<content attr1="Turns out I drifted a bit."/>
+			<content attr1="Faulty thruster..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Where were we?"/>
+			<content attr1="Oh yeah... First things first!"/>
+			<content attr1="Take out the escorts."/>
+			<content attr1="No one is going to give you anything if they have escorts."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Hope you don't mind a bit of murder now and again."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<missionHUDText attr1="Destroy escorts..."/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="escort1"/>
+		<targetName attr1="escort2"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="pirateTrainer"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="-5000"/>
+		<reletiveObject attr1="cargoShip"/>
+	</postTrigger>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Not bad! I see a bright future for you."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Aight, next up is getting the cargo pod."/>
+			<content attr1="So the point is to get the cargo."/>
+			<content attr1="Now that doesn't necessarily mean having to destroy the ship."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Eventually ships will just drop them at the sight of you..."/>
+			<content attr1="But you ain't there yet. You have to build up a rep."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Basically... You threaten someone, if they don't cough up the goods..."/>
+			<content attr1="You gotta follow through. Waste em."/>
+			<content attr1="Your rep goes up and the next guy might be more co-operative."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>	
+			<content attr1="If they do drop... Let them go."/>
+			<content attr1="If you waste em, your rep will go down and the next guy won't comply."/>
+			<content attr1="Why submit if you are going to die anyway?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Simple eh?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Aight, so you have two choices."/>
+			<content attr1="Nuke the ship, but be careful. Don't destroy the cargo!"/>
+			<content attr1="When it blows, it will drop it."/>
+			<bClearAllText attr1="1"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Or..."/>
+			<content attr1="Rough it up a bit, I'd say... Somewhere below 50%."/>
+			<content attr1="Then comms it, and threaten it."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="If I saw your face..."/>
+			<content attr1="I'd drop my load right then and there! hah hah!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Aight... Go get me that cargo kid!"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<missionHUDText attr1="Force ship to drop cargo pod..."/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="cargoShip"/>
+		<healthPercent attr1="0.50"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="pirateTrainer"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="-4000"/>
+		<reletiveObject attr1="cargoShip"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<failMissionNumber attr1="12"/>
+	<missionHUDText attr1="Force ship to drop cargo pod..."/>
+	<objective>
+		<objectiveType attr1="comms_target"/> 
+		<objectName attr1="cargoShip"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="cargoShip"/>
+		<bSingleCompletesMission attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<preDialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="LOOK AT MY FACE!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civPNC03"/>
+			<content attr1="OH GOD!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civPNC03"/>
+			<content attr1="Why are you shooting at me? What do you want?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Drop cargo pod."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civPNC03"/>
+			<content attr1="I don't need this today..."/>
+			<content attr1="Dropping."/>
+		</dialog>
+	</preDialog>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="2"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="drop_all_carried"/>
+		<shipName attr1="cargoShip"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="pay_ransom"/>
+		<ransomFactionID attr1="player"/>
+		<ransomPayer attr1="cargoShip"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="11"/>
+	<nextMissionNumber attr1="12"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Hey you in the cargo ship!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civPNC03"/>
+			<content attr1="I knew it... I knew it... You pirate scum!"/>
+			<content attr1="I dropped the pod dammit! What else do you want?"/>
+			<content attr1="You're gonna kill me? I hope the Pride make you suck vacuum. "/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Relax a sec. We're cool."/>
+			<content attr1="I just want to talk."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civPNC03"/>
+			<content attr1="Ok..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Listen... Being shot up by pirates... You hate it right?"/>
+			<content attr1="And for what?"/>
+			<content attr1="Some stupid corp..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civPNC03"/>
+			<content attr1="Its not exactly pleasant..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Damn straight!"/>
+			<content attr1="You see this cool ship?"/>
+			<content attr1="Imagine yourself in it..."/>
+			<content attr1="Not being afraid ever again..."/>
+			<content attr1="All I'm saying is... think it over... join the winning team."/>
+			<bClearAllText attr1="1"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Anyway!"/>
+			<content attr1="Thanks for helping me train this kid."/>
+			<content attr1="Thanks to you, we'll have another pirate!"/>
+			<content attr1="Have a great day!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civPNC03"/>
+			<content attr1="Uhh.... yeah.. you too."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="12"/>
+	<nextMissionNumber attr1="13"/>
+	<missionHUDText attr1="Stand by..."/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="Hey kid! Cover me while I grab the pod."/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="pirateTrainer"/> 	
+		<targetName attr1="weaponsPod"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="pick_up"/> 
+		<objectName attr1="weaponsPod"/>
+		<pickerName attr1="pirateTrainer"/>
+		<markObject attr1="pirateTrainer"/>
+		<markObjectType attr1="go_to_object"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="13"/>
+	<nextMissionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="See kid?"/>
+			<content attr1="Working weekends..."/>
+			<content attr1="Not seeing the wife and kids..."/>
+			<content attr1="Taking crap from a boss or worse yet... customers!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Can you imagine?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="This is the life!"/>
+			<content attr1="Piracy is awesome!"/>
+			<content attr1="Except for software piracy... that's just lame."/>
+			<content attr1="Especially pirating games..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="You did good kid..."/>
+			<content attr1="Welcome aboard!"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="100"/>
+	<nextMissionNumber attr1="101"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="weaponsPod"/>
+		<healthPercent attr1="0.50"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="Watch the pod kid!"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="101"/>
+	<nextMissionNumber attr1="102"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="weaponsPod"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="beggar-00-PPlt"/>
+		<message attr1="Dammit!!!"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="102"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="KID! Kid!.. kid.. kid?"/>
+			<content attr1="What happened? Your eye implants malfunctioning?"/>
+			<content attr1="What's the number one rule?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Money!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="No pod! No money!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="No money! No pirate!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="beggar-00-PPlt"/>
+			<content attr1="Alright... get out of here."/>
+			<content attr1="And do better next time!"/>
+		</dialog>
+	</postDialog>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="1.05"/>
+		<faction attr="beggar"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="credit"/>
+		<credits attr="5000"/>
+	</reward>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="1"/>
+		<faction attr="beggar"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="mission failures below"/>
+<mission>
+	<missionNumber attr1="2000"/>
+	<bForceActive attr1="1"/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="pirateTrainer"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

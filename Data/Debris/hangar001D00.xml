@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="debris"/> 
+<name attr1="Debris"/> 
+<objectID attr1="hangar001D00"/> 
+<meshName attr1="hangar001D00.mesh"/> 
+<faction attr1="tsf"/>
+<descriptionText attr1="Some debris."/> 
+<health attr1="3000.0"/> 
+<timeToLive attr1="15.0"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<explosionID attr1="explode03"/>
+<minimumMomentum attr="5"/>
+<minimumRotation attr="1"/>
+<debrisSizeAsShipClass attr1="corvette"/>
+<bCanAddViaBattleEditorSlider attr1="1"/>

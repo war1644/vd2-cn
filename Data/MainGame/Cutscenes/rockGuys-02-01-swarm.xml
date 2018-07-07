@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<screenEffect attr1="fade_in"/>
+	<lookAtObject attr1="rg02-holeRock-1"/> 
+	<reletiveObject attr1="rg02-holeRock-1"/> 
+	<cameraPosition x="-50" y="50" z="4500"/>
+	<duration attr1="1.5"/>
+	<trigger>
+		<triggerType attr1="ship_speed_zero"/>
+		<shipName attr1="playerShip"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="dropper"/>
+		<shipName attr1="rg02-dropper-1"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="indiePirate"/>
+		<bAutoPilot attr1="0"/>
+		<bCheckPosition attr1="0"/>
+		<bFillAttachedShips attr1="1"/>
+		<reletiveObject attr1="rg02-holeRock-1"/>
+		<position x="-580" y="220" z="0"/>
+		<aiPosture attr1="search_and_destroy"/>	
+	</trigger>
+	<trigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="rg02-dropper-1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="rg02-dropper-1"/>
+		<characterID attr1="stubFemaleGeneric01"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="look_at"/>
+		<lookAtObject attr1="rg02-tug-1"/>
+		<objectName attr1="rg02-dropper-1"/>
+		<bNoRoll attr1="1"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="rg02-dropper-1"/> 
+	<reletiveObject attr1="rg02-dropper-1"/> 
+	<cameraPosition x="45" y="-35" z="-150"/>
+	<duration attr1="2.0"/>
+</sceneFragment>
+<sceneFragment>
+	<bSkipCamera attr1="1"/>
+	<duration attr1="3.0"/>
+	<trigger>
+		<triggerType attr1="drop_all_carried"/>
+		<shipName attr1="rg02-dropper-1"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="rg02-dropper-1"/> 
+	<reletiveObject attr1="rg02-dropper-1"/> 
+	<cameraPosition x="45" y="155" z="550"/>
+	<duration attr1="3.0"/>
+	<trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-combat05-seg2"/>
+	</trigger>
+</sceneFragment>

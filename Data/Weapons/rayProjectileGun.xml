@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="rayPG"/> 
+<ammunitionID attr1="mediumMP"/>
+<name attr1="Triple Gun"/> 
+<fireSoundID attr1="rapidP01"/>
+<muzzleFlashEffectID attr1="mfLG035"/>
+<reFireRate attr1="0.1"/>
+<capacity attr1="35"/> 
+<reloadTime attr1="1.25"/>

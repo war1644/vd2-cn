@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<sceneFragment>
+	<lookAtObject attr1="pirateTrainer"/> 
+	<reletiveObject attr1="pirateTrainer"/> 
+	<cameraPosition x="-250" y="100" z="-350"/>
+	<duration attr1="2.0"/>
+	<trigger>
+		<triggerType attr1="ship_speed_zero"/>
+		<shipName attr1="playerShip"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="clear_velocities"/>
+		<body attr1="playerShip"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_position"/>
+		<body attr1="playerShip"/>
+		<reletiveObject attr1="pirateTrainer"/>
+		<position x="-50" y="0" z="0"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_orientation"/>
+		<body attr1="playerShip"/>
+		<reletiveObject attr1="pirateTrainer"/>
+	</trigger>
+	<_trigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-wreckage00"/> 	
+	</_trigger>
+	<trigger>
+		<triggerType attr1="create_roid"/>
+		<roidID attr1="tinyRock001"/>
+		<name attr1="lookAtRock2"/>
+		<bOverworld attr1="0"/>
+		<reletiveObject attr1="meetingPointRoid"/>
+		<position x="3000" y="0" z="-10000"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="gebT"/>
+		<shipName attr1="cargoShip"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="meetingPointRoid"/>
+		<position x="-3000" y="0" z="-10000"/>
+		<aiPosture attr1="engage"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="cargoShip"/>
+		<characterID attr1="civPNC03"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="weaponsPod"/>
+		<name attr1="weaponsPod"/>
+		<faction attr1="civilian"/>
+		<reletiveObject attr1="cargoShip"/>
+		<position x="0" y="200" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<carryingShip attr1="cargoShip"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="escort1"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="escort2"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="cargoShip"/>
+		<position x="0" y="100" z="200"/>
+		<aiPosture attr1="defend"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="escort1"/>
+		<objectName attr1="escort2"/>
+		<targetName attr1="cargoShip"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="look_at"/>
+		<lookAtObject attr1="lookAtRock2"/>
+		<objectName attr1="cargoShip"/>
+		<bNoRoll attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="cargoShip"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="-50000"/>
+		<reletiveObject attr1="cargoShip"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="destroy_named"/>
+		<objectName attr1="lookAtRock2"/>
+		<bSilent attr1="1"/>
+	</trigger>
+	<trigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="cargoShip"/>
+		<objectName attr1="escort1"/>
+		<objectName attr1="escort2"/>
+	</trigger>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="pirateTrainer"/> 
+	<reletiveObject attr1="pirateTrainer"/> 
+	<cameraPosition x="-25" y="25" z="-150"/>
+	<duration attr1="2.0"/>
+</sceneFragment>
+<sceneFragment>
+	<lookAtObject attr1="pirateTrainer"/> 
+	<reletiveObject attr1="pirateTrainer"/> 
+	<cameraPosition x="25" y="25" z="250"/>
+	<duration attr1="3.0"/>
+</sceneFragment>

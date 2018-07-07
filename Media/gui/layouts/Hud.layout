@@ -1,0 +1,1690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="HUD" >
+        <Property Name="Font" Value="Exo-SemiBold-12" />
+        <Property Name="Text" Value=" " />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DefaultWindow" Name="HUD/CenterParent" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value=" " />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="ootGUI/StaticImageLargeRight" Name="HUD/Thrusters" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.506686,0},{0.529705,0},{0.791073,0},{0.842079,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="ootGUI/LabelWithOutline" Name="HUD/Thrusters/txtFR" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="SP" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.236325,0},{0.367182,0},{0.388944,0},{0.491555,0}}" />
+                    <Property Name="InheritsTooltipText" Value="False" />
+                </Window>
+                <Window Type="ootGUI/LabelWithOutline" Name="HUD/Thrusters/txtSet" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="Set" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.238969,0},{0.488129,0},{0.391587,0},{0.612502,0}}" />
+                    <Property Name="InheritsTooltipText" Value="False" />
+                </Window>
+                <Window Type="cmGUI/Afterburner" Name="HUD/Thrusters/Afterburner" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.547512,0},{0.293397,0},{0.679762,0},{0.684443,0}}" />
+                </Window>
+                <Window Type="cmGUI/MainThrustUp" Name="HUD/Thrusters/MainThrustUp" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.346661,0},{0.296446,0},{0.460556,0},{0.468773,0}}" />
+                </Window>
+                <Window Type="cmGUI/MainThrustDown" Name="HUD/Thrusters/MainThrustDown" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.346661,0},{0.493824,0},{0.460556,0},{0.66615,0}}" />
+                </Window>
+                <Window Type="cmGUI/AxisThrustUp" Name="HUD/AxisThrusters/AxisUp" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.425959,0},{0.310582,0},{0.578126,0},{0.423749,0}}" />
+                </Window>
+                <Window Type="cmGUI/AxisThrustDown" Name="HUD/AxisThrusters/AxisDown" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.425959,0},{0.536216,0},{0.578126,0},{0.649383,0}}" />
+                </Window>
+                <Window Type="cmGUI/AxisThrustRight" Name="HUD/AxisThrusters/AxisRight" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.539043,0},{0.36508,0},{0.623054,0},{0.580121,0}}" />
+                </Window>
+                <Window Type="cmGUI/AxisThrustLeft" Name="HUD/AxisThrusters/AxisLeft" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.384036,0},{0.365081,0},{0.468046,0},{0.580121,0}}" />
+                </Window>
+                <Window Type="ootGUI/LabelWithOutline" Name="HUD/AxisThrusters/txtTop" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="TextT" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.282984,0},{0.32557,0},{0.719388,0},{0.409884,0}}" />
+                    <Property Name="InheritsTooltipText" Value="False" />
+                </Window>
+                <Window Type="ootGUI/LabelWithOutline" Name="HUD/AxisThrusters/txtBottom" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="TextB" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.327794,0},{0.543272,0},{0.674577,0},{0.627586,0}}" />
+                    <Property Name="InheritsTooltipText" Value="False" />
+                </Window>
+                <Window Type="ootGUI/LabelWithOutline" Name="HUD/AxisThrusters/txtRight" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="TextR" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.446782,0},{0.435026,0},{0.731077,0},{0.51934,0}}" />
+                    <Property Name="InheritsTooltipText" Value="False" />
+                </Window>
+                <Window Type="ootGUI/LabelWithOutline" Name="HUD/AxisThrusters/txtLeft" >
+                    <Property Name="Font" Value="Exo-SemiBold-10" />
+                    <Property Name="Text" Value="TextL" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.261991,0},{0.428929,0},{0.568929,0},{0.513242,0}}" />
+                    <Property Name="InheritsTooltipText" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImage" Name="HUD/Thrusters/imgFrame" >
+                    <Property Name="Font" Value="Comfortaa-10" />
+                    <Property Name="Image" Value="set:thruster_frame image:thruster_frame" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.296964,0},{0.290322,0},{0.63448,0},{0.674786,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="cmGUI/VAR" Name="HUD/AxisThrusters/chkSmartThrust" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.448703,0},{0.398222,0},{0.559611,0},{0.560783,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/FrameLeft" >
+                <Property Name="Image" Value="set:leftFrame image:leftFrame" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.340476,0},{0.36136,0},{0.432737,0},{0.646598,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="cmGUI/ShieldHealthLeft" Name="HUD/FrameLeft/TargetShieldHealth" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.295181,0},{0.159581,0},{0.42381,0},{0.837643,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/FrameRight" >
+                <Property Name="Image" Value="set:rightFrame image:rightFrame" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.563096,0},{0.36136,0},{0.655357,0},{0.646598,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="cmGUI/ShieldHealthRight" Name="HUD/FrameRight/PlayerShieldHealth" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.565262,0},{0.160671,0},{0.693892,0},{0.838733,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/OrientationBar" >
+                <Property Name="Image" Value="set:orientation_bar image:orientation_bar" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.439286,0},{0.600392,0},{0.560119,0},{0.623943,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="cmGUI/HealthRight" Name="HUD/Ship" >
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.38035,0},{0.365292,0},{-0.349584,0},{0.644354,0}}" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Window Type="ootGUI/StaticImageLargeLeft" Name="HUD/Ship/Info" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.2736,0},{0.131993,0},{1.4799,0},{0.931993,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Window Type="ootGUI/LabelWithOutline" Name="HUD/Ship/Info/txtName" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Name" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.836072,0},{-0.121994,0},{4.7513,0},{0.00394417,0}}" />
+                        <Property Name="InheritsTooltipText" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/LabelWithOutline" Name="HUD/Ship/Info/txtShieldStatus" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="100%" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.906309,0},{0.347566,0},{2.3297,0},{0.473504,0}}" />
+                        <Property Name="InheritsTooltipText" Value="False" />
+                        <Window Type="ootGUI/LabelWithOutline" Name="HUD/Ship/Info/txtShieldStatus/Timer" >
+                            <Property Name="Font" Value="Exo-SemiBold-10" />
+                            <Property Name="Text" Value="00.0" />
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="InheritsAlpha" Value="False" />
+                            <Property Name="ClippedByParent" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0323467,0},{0.979367,0},{0.621918,0},{1.76468,0}}" />
+                            <Property Name="InheritsTooltipText" Value="False" />
+                        </Window>
+                    </Window>
+                    <Window Type="ootGUI/LabelWithOutline" Name="HUD/Ship/Info/txtPilotName" >
+                        <Property Name="Font" Value="Exo-SemiBold-10" />
+                        <Property Name="Text" Value="Pilot" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.996232,0},{-0.0215023,0},{7.27699,0},{0.104435,0}}" />
+                        <Property Name="InheritsTooltipText" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/LabelWithOutline" Name="HUD/Ship/Info/txtStatus" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="100%" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{-1.47227,0},{-0.140028,0},{-0.092882,0},{-0.0140891,0}}" />
+                        <Property Name="InheritsTooltipText" Value="False" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="cmGUI/HealthLeft" Name="HUD/Target" >
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.376804,0},{0.365292,0},{0.40757,0},{0.644354,0}}" />
+                <Window Type="ootGUI/StaticImageLargeRight" Name="HUD/Target/Info" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.451664,0},{0.131993,0},{0.986801,0},{0.931993,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Window Type="ootGUI/LabelWithOutline" Name="HUD/Target/Info/txtShieldStatus" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="100%" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{-1.31095,0},{0.347566,0},{0.0684364,0},{0.473504,0}}" />
+                        <Property Name="InheritsTooltipText" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/LabelWithOutline" Name="HUD/Target/Info/txtName" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Name" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{-3.81229,0},{-0.121994,0},{0.102937,0},{0.00394417,0}}" />
+                        <Property Name="InheritsTooltipText" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/LabelWithOutline" Name="HUD/Target/Info/txtStatus" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="100%" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0898942,0},{-0.142333,0},{1.46928,0},{-0.0163946,0}}" />
+                        <Property Name="InheritsTooltipText" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="ootGUI/StaticImageRight" Name="HUD/Target/rttImage" >
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{-3.97852,0},{0.293146,0},{-0.495327,0},{0.886244,0}}" />
+                </Window>
+            </Window>
+            <Window Type="cmGUI/AmmoRight" Name="HUD/AmmoPrimary" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Test" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.589333,0},{0.507522,0},{0.607525,0},{0.604638,0}}" />
+            </Window>
+            <Window Type="cmGUI/AmmoLeft" Name="HUD/AmmoSecondary" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Test" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.388363,0},{0.507522,0},{0.406555,0},{0.604638,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="HUD/ShipControls" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.215614,0},{0.529705,0},{0.500003,0},{0.842079,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="ootGUI/StaticImage" Name="HUD/ShipControls/gDriveFrame" >
+                    <Property Name="Font" Value="Comfortaa-10" />
+                    <Property Name="Image" Value="set:jmGUI_left_hud_widgets image:gDriveFrame" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.265336,0},{0.328522,0},{0.368433,0},{0.677983,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Window Type="jmGUI/GravityDriveProgress" Name="HUD/ShipControls/gDriveFrame/gDriveProgress" >
+                        <Property Name="StepSize" Value="0.01" />
+                        <Property Name="CurrentProgress" Value="0" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0969834,0},{0.0228162,0},{0.874828,0},{0.967041,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="ootGUI/StaticImage" Name="HUD/ShipControls/imgFrame" >
+                    <Property Name="Font" Value="Comfortaa-10" />
+                    <Property Name="Image" Value="set:jmGUI_left_hud_widgets image:left_hud_frame" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.303243,0},{0.290322,0},{0.596806,0},{0.71747,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Window Type="jmGUI/CrewControl" Name="HUD/ShipControls/imgFrame/chkCrewControl" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.352877,0},{0.321243,0},{0.66408,0},{0.623823,0}}" />
+                    </Window>
+                    <Window Type="jmGUI/Maneuver" Name="HUD/ShipControls/imgFrame/chkCmdModeMouseManeuver" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.649879,0},{0.195298,0},{0.90656,0},{0.452641,0}}" />
+                    </Window>
+                    <Window Type="jmGUI/ShipDock" Name="HUD/ShipControls/imgFrame/chkShipDocked" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.519384,0},{0.614805,0},{0.846169,0},{0.958262,0}}" />
+                    </Window>
+                    <Window Type="jmGUI/CargoDock" Name="HUD/ShipControls/imgFrame/chkCargoPod" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.176902,0},{0.613771,0},{0.503688,0},{0.957228,0}}" />
+                    </Window>
+                    <Window Type="jmGUI/OreDock" Name="HUD/ShipControls/imgFrame/chkOreRock" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.032714,0},{0.46824,0},{0.3595,0},{0.797319,0}}" />
+                    </Window>
+                    <Window Type="jmGUI/TurretAuto" Name="HUD/ShipControls/imgFrame/chkTrackTarget" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.224176,0},{0.0738488,0},{0.495117,0},{0.324054,0}}" />
+                    </Window>
+                    <Window Type="jmGUI/SPROG" Name="HUD/ShipControls/imgFrame/chkCmdSprogFire" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.503715,0},{0.0697029,0},{0.774656,0},{0.319909,0}}" />
+                    </Window>
+                    <Window Type="jmGUI/GravityDrive" Name="HUD/ShipControls/imgFrame/chkGravityDrive" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0650829,0},{0.161423,0},{0.357413,0},{0.447317,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/OverworldNavBar" >
+                <Property Name="Image" Value="set:bGUI_HudNavBar image:bGUI_HudNavBar" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.230952,0},{0.117131,0},{0.770237,0},{0.177759,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/LabelWithOutline" Name="HUD/txtEconomy" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="UnifiedAreaRect" Value="{{0.282679,0},{0.321333,0},{0.717302,0},{0.352958,0}}" />
+        </Window>
+        <Window Type="ootGUI/LabelWithOutline" Name="HUD/txtCombat" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="UnifiedAreaRect" Value="{{0.282679,0},{0.281241,0},{0.7173,0},{0.311823,0}}" />
+        </Window>
+        <Window Type="ootGUI/LabelWithOutline" Name="HUD/txtLocalShip" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="UnifiedAreaRect" Value="{{0.282679,0},{0.241149,0},{0.717303,0},{0.27173,0}}" />
+        </Window>
+        <Window Type="ootGUI/LabelWithOutline" Name="HUD/txtGui" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="UnifiedAreaRect" Value="{{0.282679,0},{0.201162,0},{0.717301,0},{0.231743,0}}" />
+        </Window>
+        <Window Type="ootGUI/LabelWithOutline" Name="HUD/txtIncomingMissile" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="!!! INCOMING OBJECT(S) !!!" />
+            <Property Name="UnifiedAreaRect" Value="{{0.439822,0},{0.353834,0},{0.560754,0},{0.385505,0}}" />
+        </Window>
+        <Window Type="ootGUI/LabelWithOutline" Name="HUD/txtMouseOver" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="MouseOver" />
+            <Property Name="UnifiedAreaRect" Value="{{0.417191,0},{0.554627,0},{0.589931,0},{0.587838,0}}" />
+        </Window>
+        <Window Type="DefaultWindow" Name="HUD/TargetLockedOffscreen" >
+            <Property Name="UnifiedAreaRect" Value="{{0.658929,0},{0.018426,0},{0.716666,0},{0.0815737,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/TargetLockedOffscreen/imgArrow" >
+                <Property Name="Image" Value="set:jhGUI_target image:target_offscreen" />
+                <Property Name="UnifiedAreaRect" Value="{{0.124263,0},{0.246706,0},{0.868578,0},{0.855231,0}}" />
+            </Window>
+            <Window Type="jhGUI/PrimaryRangeChevOffscreen" Name="HUD/TargetLockedOffscreen/chevGreen" >
+                <Property Name="Font" Value="Comfortaa-10" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.455874,0},{0.217344,0},{0.529901,0},{0.928768,0}}" />
+            </Window>
+            <Window Type="jhGUI/SecondaryRangeChevOffscreen" Name="HUD/TargetLockedOffscreen/chevYellow" >
+                <Property Name="Font" Value="Comfortaa-10" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.115661,0},{0.249764,0},{0.890732,0},{0.374263,0}}" />
+            </Window>
+            <Window Type="jhGUI/EnemyTargetingChevOffscreen" Name="HUD/TargetLockedOffscreen/chevRed" >
+                <Property Name="Font" Value="Comfortaa-10" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.146589,0},{0.499891,0},{0.828876,0},{0.780274,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="HUD/winArrowTxt" >
+            <Property Name="UnifiedAreaRect" Value="{{0.599405,0},{0.0219028,0},{0.666073,0},{0.0840105,0}}" />
+            <Window Type="ootGUI/LabelWithOutline" Name="HUD/winArrowTxt/txtHealth" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value=" 99%" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.209927,0},{0.661161,0},{0.835371,0},{0.988689,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/winArrowTxt/txtHealth/imgGreybar" >
+                    <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.90302,0},{0.810457,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/LabelWithOutline" Name="HUD/winArrowTxt/txtDistance" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="1" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.209927,0},{0.0460165,0},{0.835371,0},{0.343336,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/winArrowTxt/txtDistance/imgGreybar" >
+                    <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.90302,0},{0.881589,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/LabelWithOutline" Name="HUD/winArrowTxt/txtSpeed" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="1" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.209927,0},{0.352197,0},{0.835371,0},{0.649516,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/winArrowTxt/txtSpeed/imgGreybar" >
+                    <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.90302,0},{0.881589,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/TargetLocked/imgDistance2" >
+                <Property Name="Image" Value="set:jhGUI_target image:distance" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0117213,0},{0.0981411,0},{0.182048,0},{0.270253,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/TargetLocked/imgDistance12" >
+                <Property Name="Image" Value="set:jhGUI_target image:speed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0104383,0},{0.387938,0},{0.180765,0},{0.580658,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/TargetLocked/imgDistance111" >
+                <Property Name="Image" Value="set:jhGUI_target image:health" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0412073,0},{0.707112,0},{0.166661,0},{0.902693,0}}" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/LabelWithOutline" Name="HUD/txtMissionHUDText" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Mission HUD Text" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.674405,0},{0.183354,0},{0.997618,0},{0.609925,0}}" />
+            <Window Type="ootGUI/LabelWithOutline" Name="HUD/txtMissionHUDText/txtSecondaryText" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Secondary HUD Text" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.396755,0},{1,0},{0.996755,0}}" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticImage" Name="HUD/DamageLeft" >
+            <Property Name="Image" Value="set:damage_left image:damage_left" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.230357,0},{0.227267,0},{0.317857,0},{0.766791,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="ootGUI/StaticImage" Name="HUD/DamageRight" >
+            <Property Name="Image" Value="set:damage_right image:damage_right" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.696428,0},{0.227267,0},{0.783928,0},{0.766791,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="ootGUI/StaticImage" Name="HUD/DamageTop" >
+            <Property Name="Image" Value="set:damage_top image:damage_top" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.33631,0},{0.0920819,0},{0.667857,0},{0.229919,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="ootGUI/StaticImage" Name="HUD/DamageBottom" >
+            <Property Name="Image" Value="set:damage_down image:damage_down" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.33631,0},{0.78619,0},{0.667857,0},{0.924028,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="ootGUI/StaticTextLeft" Name="HUD/txtDebug" >
+            <Property Name="Font" Value="Comfortaa-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.348214,0},{0.942749,0},{0.695238,0},{0.991004,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="ootGUI/StaticImageLeft" Name="HUD/CommandWeapons" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00118957,0},{0.125112,0},{0.196428,0},{0.541975,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkPrimary" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Primary Fire" />
+                <Property Name="Selected" Value="True" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{-0.00230574,0},{0.914226,0},{0.0617391,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret0" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret0" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.0546862,0},{0.914226,0},{0.118731,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret1" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret1" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.113335,0},{0.914226,0},{0.17738,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret2" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret2" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.169172,0},{0.914226,0},{0.233217,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret3" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret3" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.227625,0},{0.914226,0},{0.29167,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret4" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret4" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.285473,0},{0.914226,0},{0.349519,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret5" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret5" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.343926,0},{0.914226,0},{0.407971,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret6" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret6" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.399763,0},{0.914226,0},{0.463808,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret7" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret7" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.458821,0},{0.914226,0},{0.522867,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret8" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret8" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.516669,0},{0.914226,0},{0.580714,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret9" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret9" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.572506,0},{0.914226,0},{0.636551,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret10" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret10" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.630354,0},{0.914226,0},{0.694399,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret11" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret11" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.688202,0},{0.914226,0},{0.752246,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret12" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret12" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.746655,0},{0.914226,0},{0.8107,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret13" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret13" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.802491,0},{0.914226,0},{0.866537,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret14" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret14" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.863229,0},{0.914226,0},{0.927275,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret15" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="Turret15" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.919397,0},{0.914226,0},{0.983443,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="HUD/unifiedHealthAndTime" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.730356,0},{-0.000391843,0},{0.997617,0},{0.172732,0}}" />
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/healthBG" >
+                <Property Name="Image" Value="set:jhGUI_cmd_health_BG image:jhGUI_cmd_health_BG" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.17177,0},{0.0321933,0},{0.992562,0},{0.377049,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="jhGUI/Cmd_Health" Name="HUD/unifiedHealthAndTime/healthBG/Health" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0150876,0},{0.0429181,0},{0.976011,0},{0.895677,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/unifiedHealthAndTime/healthBG/txtRemoteInterface" >
+                    <Property Name="Font" Value="Exo-SemiBold-16" />
+                    <Property Name="Text" Value="REMOTE INTERFACE" />
+                    <Property Name="HorzExtent" Value="195" />
+                    <Property Name="VertExtent" Value="24.7527" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0233104,0},{0.0740877,0},{0.984454,0},{0.74041,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/CmdFrame" >
+                <Property Name="Image" Value="set:jhGUI_cmd_heading image:jhGUI_cmd_heading" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.170545,0},{0.389292,0},{0.62608,0},{0.572426,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="ootGUI/StaticText" Name="HUD/unifiedHealthAndTime/CmdFrame/txtCredits" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="Credits:" />
+                    <Property Name="HorzExtent" Value="59" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0275794,0},{0.0971505,0},{0.964302,0},{0.708676,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/WantedFrame" >
+                <Property Name="Image" Value="set:jhGUI_cmd_heading image:jhGUI_cmd_heading" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.173774,0},{0.575477,0},{0.595902,0},{0.758611,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="ootGUI/StaticText" Name="HUD/unifiedHealthAndTime/WantedFrame/txtWanted" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="Wanted: " />
+                    <Property Name="HorzExtent" Value="67" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0275794,0},{0.0971505,0},{0.964302,0},{0.708676,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="jhGUI/Dilation" Name="HUD/unifiedHealthAndTime/chkTimeDilation" >
+                <Property Name="UnifiedAreaRect" Value="{{0.618264,0},{0.608081,0},{0.992986,0},{0.822086,0}}" />
+                <Window Type="ootGUI/StaticText" Name="HUD/unifiedHealthAndTime/chkTimeDilation/txtINACTIVE" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="INACTIVE" />
+                    <Property Name="HorzExtent" Value="70" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0380833,0},{0.0683807,0},{0.745874,0},{0.679906,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/cmdIcon" >
+                <Property Name="Image" Value="set:jhGUI_cmd_ship_small_ICON image:jhGUI_cmd_ship_small_ICON" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00556858,0},{0.0437295,0},{0.162027,0},{0.411229,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/imgDot0" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.87294,0},{0.781668,0},{0.891314,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/imgDot1" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.844989,0},{0.781668,0},{0.863363,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/imgDot2" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.814811,0},{0.781668,0},{0.833185,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/imgDot3" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.789088,0},{0.781668,0},{0.807462,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/imgDot4" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.761136,0},{0.781668,0},{0.77951,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/imgDot5" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.733186,0},{0.781668,0},{0.75156,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/imgDot6" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.703008,0},{0.781668,0},{0.721382,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/imgDot7" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.67283,0},{0.781668,0},{0.691203,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/imgDot8" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.640425,0},{0.781668,0},{0.658798,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/imgDot9" >
+                <Property Name="Image" Value="set:jhGUI_dot_1 image:jhGUI_dot_1" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.610247,0},{0.781668,0},{0.62862,0},{0.831024,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/DilateFrame" >
+                <Property Name="Image" Value="set:jhGUI_dilate_heading image:jhGUI_dilate_heading" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.619858,0},{0.455795,0},{0.99458,0},{0.598742,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="ootGUI/StaticText" Name="HUD/unifiedHealthAndTime/DilateFrame/txtDilate" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="TIME DILATION" />
+                    <Property Name="HorzExtent" Value="111" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0215924,0},{0.149661,0},{0.958315,0},{0.893384,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="HUD/unifiedHealthAndTime/OverworldFrame" >
+                <Property Name="Image" Value="set:jhGUI_cmd_heading image:jhGUI_cmd_heading" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.610301,0},{0.850241,0},{0.990112,0},{1.01137,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="ootGUI/StaticText" Name="HUD/unifiedHealthAndTime/OverworldFrame/txtOverworld" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="OVERWORLD - AVAILABLE" />
+                    <Property Name="HorzExtent" Value="133" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0275794,0},{0.0971505,0},{0.964302,0},{0.708676,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="HUD/Hangar" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.835253,0},{0.618515,0},{0.995317,0},{0.737134,0}}" />
+            <Window Type="jmGUI/AutoLaunch" Name="HUD/Hangar/chkAutoLaunch" >
+                <Property Name="UnifiedAreaRect" Value="{{0.705749,0},{0.161708,0},{0.814438,0},{0.286862,0}}" />
+            </Window>
+            <Window Type="jmGUI/Launch" Name="HUD/Hangar/btnLaunch" >
+                <Property Name="UnifiedAreaRect" Value="{{0.82103,0},{0.162811,0},{0.981779,0},{0.426663,0}}" />
+            </Window>
+            <Window Type="jmGUI/LaunchAll" Name="HUD/Hangar/btnLaunchAll" >
+                <Property Name="UnifiedAreaRect" Value="{{0.82103,0},{0.43963,0},{0.981779,0},{0.703482,0}}" />
+            </Window>
+            <Window Type="jmGUI/HangarProgress" Name="HUD/Hangar/prgsBuild" >
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.367344,0},{0.579011,0},{0.814438,0},{0.716605,0}}" />
+                <Window Type="ootGUI/StaticText" Name="HUD/Hangar/prgsBuild/txtBuild" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="BUILD" />
+                    <Property Name="HorzExtent" Value="32" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0748586,0},{0.133631,0},{0.96673,0},{1,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="jmGUI/HangarProgress" Name="HUD/Hangar/prgsDocked" >
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.367344,0},{0.442812,0},{0.814438,0},{0.580406,0}}" />
+                <Window Type="ootGUI/StaticText" Name="HUD/Hangar/prgsDocked/txtDocked" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="DOCKED" />
+                    <Property Name="HorzExtent" Value="43" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0748586,0},{0.133631,0},{0.96673,0},{1,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="jmGUI/HangarProgress" Name="HUD/Hangar/prgsLaunched" >
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.367344,0},{0.29742,0},{0.814438,0},{0.435014,0}}" />
+                <Window Type="ootGUI/StaticText" Name="HUD/Hangar/prgsLaunched/txtLaunched" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="LAUNCHED" />
+                    <Property Name="HorzExtent" Value="56" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0748586,0},{0.133631,0},{0.966729,0},{1,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="HUD/TargetLocked" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.457007,0},{0.406776,0},{0.549862,0},{0.554192,0}}" />
+            <Window Type="ootGUI/LabelWithOutline" Name="HUD/TargetLocked/txtHealth" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value=" 99%" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.938823,0},{0.583669,0},{1.35313,0},{0.734437,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/TargetLocked/txtHealth/imgGreybar" >
+                    <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.947111,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/LabelWithOutline" Name="HUD/TargetLocked/txtDistance" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="1" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.938823,0},{0.27236,0},{1.35313,0},{0.423129,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/TargetLocked/txtDistance/imgGreybar" >
+                    <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.947111,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/LabelWithOutline" Name="HUD/TargetLocked/txtSpeed" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="Text" Value="1" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.938823,0},{0.42832,0},{1.35313,0},{0.579089,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/TargetLocked/txtSpeed/imgGreybar" >
+                    <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.947111,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="jhGUI/SecondaryRangeChev" Name="HUD/TargetLocked/chevYellow" >
+                <Property Name="Font" Value="Comfortaa-10" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.212023,0},{0.48629,0},{0.766844,0},{0.537625,0}}" />
+            </Window>
+            <Window Type="jhGUI/EnemyTargetingChev" Name="HUD/TargetLocked/chevRed" >
+                <Property Name="Font" Value="Comfortaa-10" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.288063,0},{0.31102,0},{0.69545,0},{0.716497,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/TargetLocked/imgDistance" >
+                <Property Name="Image" Value="set:jhGUI_target image:distance" />
+                <Property Name="UnifiedAreaRect" Value="{{0.789751,0},{0.304662,0},{0.924364,0},{0.387429,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/TargetLocked/imgSpeed" >
+                <Property Name="Image" Value="set:jhGUI_target image:speed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.788468,0},{0.460101,0},{0.923081,0},{0.536407,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/TargetLocked/imgHealth" >
+                <Property Name="Image" Value="set:jhGUI_target image:health" />
+                <Property Name="UnifiedAreaRect" Value="{{0.819237,0},{0.604395,0},{0.908977,0},{0.687161,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/TargetLocked/imgTarget" >
+                <Property Name="Image" Value="set:jhGUI_target image:target" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.278202,0},{0.292686,0},{0.726925,0},{0.741482,0}}" />
+            </Window>
+            <Window Type="jhGUI/PrimaryRangeChev" Name="HUD/TargetLocked/chevGreen" >
+                <Property Name="Font" Value="Comfortaa-10" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.467303,0},{0.237493,0},{0.528528,0},{0.777064,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="HUD/Watched" >
+            <Property Name="UnifiedAreaRect" Value="{{-0.0047619,0},{0.520114,0},{0.0729831,0},{0.993428,0}}" />
+            <Window Type="ootGUI/StaticImageLargeRight" Name="HUD/Watched/Watched1" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191406,0},{0.0212451,0},{0.877287,0},{0.191775,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="HUD/Watched/Watched1/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.0162,0},{0.140479,0},{1.28217,0},{0.851076,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched1/txtName" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="HorzExtent" Value="33" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.0165651,0},{1.00643,0},{0.184861,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="bGUI/WatchedHealth" Name="HUD/Watched/Watched1/prgsStatus" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.187627,0},{-0.0883577,0},{0.472808,0},{1.04397,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched1/txt1" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt1" />
+                    <Property Name="HorzExtent" Value="18" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.201673,0},{1.00643,0},{0.369969,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched1/txt2" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt2" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.386781,0},{1.00643,0},{0.555077,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched1/txt3" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt3" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.571889,0},{1.00643,0},{0.740185,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched1/txt4" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt4" />
+                    <Property Name="HorzExtent" Value="20" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.756997,0},{1.00643,0},{0.925293,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageRight" Name="HUD/Watched/Watched1/image" >
+                    <Property Name="Image" Value="set:jhGUI_ship_classes image:fighter" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.218212,0},{0.213257,0},{0.772949,0},{0.777914,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="HUD/Watched/Watched2" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191406,0},{0.221005,0},{0.877288,0},{0.391535,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="HUD/Watched/Watched2/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.0162,0},{0.140479,0},{1.28217,0},{0.851076,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched2/txtName" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="HorzExtent" Value="33" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.0165651,0},{1.00643,0},{0.211883,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="bGUI/WatchedHealth" Name="HUD/Watched/Watched2/prgsStatus" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.187627,0},{-0.0883577,0},{0.472808,0},{1.04396,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched2/txt1" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt1" />
+                    <Property Name="HorzExtent" Value="18" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.201673,0},{1.00643,0},{0.369969,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched2/txt2" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt2" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.386781,0},{1.00643,0},{0.555077,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched2/txt3" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt3" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.571889,0},{1.00643,0},{0.740185,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched2/txt4" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt4" />
+                    <Property Name="HorzExtent" Value="20" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.756997,0},{1.00643,0},{0.925293,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageRight" Name="HUD/Watched/Watched2/image" >
+                    <Property Name="Image" Value="set:jhGUI_ship_classes image:fighter" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.218212,0},{0.213257,0},{0.772949,0},{0.777914,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="HUD/Watched/Watched3" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191406,0},{0.423068,0},{0.877289,0},{0.593598,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="HUD/Watched/Watched3/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.0162,0},{0.140479,0},{1.28217,0},{0.851076,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched3/txtName" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="HorzExtent" Value="33" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.0165651,0},{1.00643,0},{0.211883,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="bGUI/WatchedHealth" Name="HUD/Watched/Watched3/prgsStatus" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.187627,0},{-0.0883577,0},{0.472808,0},{1.04396,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched3/txt1" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt1" />
+                    <Property Name="HorzExtent" Value="18" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.201673,0},{1.00643,0},{0.369969,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched3/txt2" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt2" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.386781,0},{1.00643,0},{0.555077,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched3/txt3" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt3" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.571889,0},{1.00643,0},{0.740185,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched3/txt4" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt4" />
+                    <Property Name="HorzExtent" Value="20" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.756997,0},{1.00643,0},{0.925293,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageRight" Name="HUD/Watched/Watched3/image" >
+                    <Property Name="Image" Value="set:jhGUI_ship_classes image:fighter" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.218212,0},{0.213257,0},{0.772949,0},{0.777914,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="HUD/Watched/Watched4" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191406,0},{0.627436,0},{0.877288,0},{0.797966,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="HUD/Watched/Watched4/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.0162,0},{0.140479,0},{1.28217,0},{0.851076,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched4/txtName" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="HorzExtent" Value="33" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.0165651,0},{1.00643,0},{0.211883,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="bGUI/WatchedHealth" Name="HUD/Watched/Watched4/prgsStatus" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.187627,0},{-0.0883577,0},{0.472808,0},{1.04396,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched4/txt1" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt1" />
+                    <Property Name="HorzExtent" Value="18" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.201673,0},{1.00643,0},{0.369969,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched4/txt2" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt2" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.386781,0},{1.00643,0},{0.555077,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched4/txt3" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt3" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.571889,0},{1.00643,0},{0.740185,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched4/txt4" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt4" />
+                    <Property Name="HorzExtent" Value="20" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.756997,0},{1.00643,0},{0.925293,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageRight" Name="HUD/Watched/Watched4/image" >
+                    <Property Name="Image" Value="set:jhGUI_ship_classes image:fighter" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.218212,0},{0.213257,0},{0.772949,0},{0.777914,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="HUD/Watched/Watched5" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191406,0},{0.8295,0},{0.877289,0},{1.00003,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="HUD/Watched/Watched5/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.0162,0},{0.140479,0},{1.28217,0},{0.851076,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched5/txtName" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="HorzExtent" Value="33" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.0165651,0},{1.00643,0},{0.211883,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="bGUI/WatchedHealth" Name="HUD/Watched/Watched5/prgsStatus" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.187627,0},{-0.0883577,0},{0.472808,0},{1.04396,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched5/txt1" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt1" />
+                    <Property Name="HorzExtent" Value="18" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.201673,0},{1.00643,0},{0.369969,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched5/txt2" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt2" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.386781,0},{1.00643,0},{0.555077,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched5/txt3" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt3" />
+                    <Property Name="HorzExtent" Value="21" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.571889,0},{1.00643,0},{0.740185,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticText" Name="HUD/Watched/Watched5/txt4" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="Text" Value="txt4" />
+                    <Property Name="HorzExtent" Value="20" />
+                    <Property Name="VertExtent" Value="12.3762" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0388882,0},{0.756997,0},{1.00643,0},{0.925293,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageRight" Name="HUD/Watched/Watched5/image" >
+                    <Property Name="Image" Value="set:jhGUI_ship_classes image:fighter" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.218212,0},{0.213257,0},{0.772949,0},{0.777914,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="HUD/Watched/Hidden1" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame_hidden" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0189068,0},{0.0205572,0},{0.138691,0},{0.191087,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="HUD/Watched/Hidden1/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.12447,0},{0.140479,0},{2.27401,0},{0.851076,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="HUD/Watched/Hidden2" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame_hidden" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0189068,0},{0.220317,0},{0.138691,0},{0.390847,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="HUD/Watched/Hidden2/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.12447,0},{0.140479,0},{2.27401,0},{0.851076,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="HUD/Watched/Hidden3" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame_hidden" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00453071,0},{0.424685,0},{0.162129,0},{0.595215,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="HUD/Watched/Hidden3/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.12447,0},{0.140479,0},{2.27401,0},{0.851076,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="HUD/Watched/Hidden4" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame_hidden" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0189068,0},{0.626749,0},{0.138691,0},{0.797279,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="HUD/Watched/Hidden4/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.12447,0},{0.140479,0},{2.27401,0},{0.851076,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="HUD/Watched/Hidden5" >
+                <Property Name="Image" Value="set:bGUI_watched image:frame_hidden" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0189068,0},{0.828812,0},{0.138691,0},{0.999342,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="bGUI/WatchButton" Name="HUD/Watched/Hidden5/btnWatch" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{1.12447,0},{0.140479,0},{2.27401,0},{0.851076,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/AimLead" >
+            <Property Name="Image" Value="set:bGUI_aim_lead image:aim_lead" />
+            <Property Name="UnifiedAreaRect" Value="{{0.445016,0},{0.507258,0},{0.4582,0},{0.52509,0}}" />
+        </Window>
+        <Window Type="ootGUI/StaticImageLargeRight" Name="HUD/Abilities" >
+            <Property Name="Image" Value="set:bGUI_command_abilities image:frame" />
+            <Property Name="GuiClick" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00238061,0},{0.00291973,0},{0.417854,0},{0.107496,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="bGUI/AbilityButton" Name="HUD/Abilities/btnAbility0" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0400383,0},{0.316606,0},{0.127977,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="HUD/Abilities/btnAbility0/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility0/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:tractor" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="HUD/Abilities/btnAbility0/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="HUD/Abilities/btnAbility0/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility0/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.157169,0},{1.09902,0},{0.856047,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="HUD/Abilities/btnAbility1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.133492,0},{0.316606,0},{0.22143,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="HUD/Abilities/btnAbility1/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility1/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:charge" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="HUD/Abilities/btnAbility1/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="HUD/Abilities/btnAbility1/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility1/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.157169,0},{1.09902,0},{0.856047,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="HUD/Abilities/btnAbility2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.225939,0},{0.316606,0},{0.313877,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="HUD/Abilities/btnAbility2/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility2/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:withdraw" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="HUD/Abilities/btnAbility2/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="HUD/Abilities/btnAbility2/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility2/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="HUD/Abilities/btnAbility3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.319393,0},{0.316606,0},{0.407332,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="HUD/Abilities/btnAbility3/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility3/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:command" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="HUD/Abilities/btnAbility3/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="HUD/Abilities/btnAbility3/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility3/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="HUD/Abilities/btnAbility4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.411839,0},{0.316606,0},{0.499777,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="HUD/Abilities/btnAbility4/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility4/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:radiation_field" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="HUD/Abilities/btnAbility4/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="HUD/Abilities/btnAbility4/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility4/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="HUD/Abilities/btnAbility5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.502852,0},{0.316606,0},{0.590791,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="HUD/Abilities/btnAbility5/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility5/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:missile_mines" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="HUD/Abilities/btnAbility5/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="HUD/Abilities/btnAbility5/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility5/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="HUD/Abilities/btnAbility6" >
+                <Property Name="UnifiedAreaRect" Value="{{0.594872,0},{0.316606,0},{0.68281,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="HUD/Abilities/btnAbility6/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility6/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:taunt" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="HUD/Abilities/btnAbility6/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="HUD/Abilities/btnAbility6/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility6/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="HUD/Abilities/btnAbility7" >
+                <Property Name="UnifiedAreaRect" Value="{{0.685886,0},{0.316606,0},{0.773824,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="HUD/Abilities/btnAbility7/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility7/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:rts" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="HUD/Abilities/btnAbility7/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="HUD/Abilities/btnAbility7/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility7/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="HUD/Abilities/btnAbility8" >
+                <Property Name="UnifiedAreaRect" Value="{{0.777906,0},{0.316606,0},{0.865845,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="HUD/Abilities/btnAbility8/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility8/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:rapid_repair" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="HUD/Abilities/btnAbility8/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="HUD/Abilities/btnAbility8/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility8/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="bGUI/AbilityButton" Name="HUD/Abilities/btnAbility9" >
+                <Property Name="UnifiedAreaRect" Value="{{0.870353,0},{0.316606,0},{0.958291,0},{0.86544,0}}" />
+                <Window Type="ootGUI/StaticText" Name="HUD/Abilities/btnAbility9/txtText" >
+                    <Property Name="Font" Value="Exo-SemiBold-8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.172051,0},{-0.00309856,0},{0.72913,0},{0.230949,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility9/image" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:shield" />
+                    <Property Name="GuiClick" Value="True" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityRedProgress" Name="HUD/Abilities/btnAbility9/progressRed" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="bGUI/AbilityGreenProgress" Name="HUD/Abilities/btnAbility9/progressGreen" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="HUD/Abilities/btnAbility9/Selector" >
+                    <Property Name="Image" Value="set:bGUI_command_abilities image:selector" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.140877,0},{1.09902,0},{0.839755,0},{1.19054,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/LabelWithOutline" Name="HUD/Abilities/txtTooltip" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0189087,0},{0.00638085,0},{0.574068,0},{0.256381,0}}" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticImage" Name="HUD/Radar" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.373809,0},{0.370963,0},{0.623809,0},{0.620961,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Type="DefaultWindow" Name="HUD/Comms" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0976187,0},{0.129117,0},{0.776784,0},{0.523063,0}}" />
+            <Window Type="brGUI/CommsFrame" Name="HUD/Comms/PortraitFrame" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0089271,0},{0.0176462,0},{0.217613,0},{0.555537,0}}" />
+                <Window Type="ootGUI/StaticImage" Name="HUD/Comms/PortraitFrame/imgPortrait" >
+                    <Property Name="Image" Value="set:brBadGuy image:brBadGuy" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0295983,0},{0.0173261,0},{0.970402,0},{0.978831,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="ootGUI/LabelWithOutline" Name="HUD/Comms/PortraitFrame/txtName" >
+                    <Property Name="Font" Value="Exo-SemiBold-14" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{1.02058,0},{1,0},{1.15439,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/LabelWithOutline" Name="HUD/Comms/leftText" >
+                <Property Name="Font" Value="Exo-SemiBold-14" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.231639,0},{0.0176462,0},{0.977696,0},{0.555537,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

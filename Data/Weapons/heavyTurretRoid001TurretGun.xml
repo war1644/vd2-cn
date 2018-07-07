@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="htR01TG"/> 
+<ammunitionID attr1="htRCS"/> 
+<name attr1="Heavy Cannon"/> 
+<fireSoundID attr1="megaGS00"/>
+<muzzleFlashEffectID attr1="mfLG080"/>
+<reFireRate attr1="0.0"/> 
+<capacity attr1="2"/> 
+<reloadTime attr1="2.5"/> 
+<recoil>
+	<recoilParentType attr1="turret_recoil"/>
+	<recoilZ attr1="8.5"/>
+	<recoilBone attr1="recoil"/>
+	<muzzleBone attr1="muzzle1"/>
+	<muzzleBone attr1="muzzle2"/>
+</recoil>
+<bAlwaysPlayFireSound attr1="1"/>

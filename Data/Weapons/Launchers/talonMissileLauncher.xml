@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="missile"/> 
+<weaponID attr1="talonML"/> 
+<ammunitionID attr1="oLM"/> 
+<name attr1="Missle Launcher"/> 
+<capacity attr1="6"/>
+<reloadTime attr1="10"/> 
+<muzzleFlashEffectID attr1="mfOLP00"/>
+<fireSoundID attr1="outsiderMLS"/>

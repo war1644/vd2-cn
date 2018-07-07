@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="random"/>
+<objectID attr1="missileLS"/> 
+<soundFile attr1="mLaunch00.wav"/>
+<soundFile attr1="mLaunch01.wav"/>
+<soundFile attr1="mLaunch02.wav"/>
+<soundFile attr1="mLaunch03.wav"/>
+<soundFile attr1="mLaunch04.wav"/>
+<defaultVolume attr1="0.38"/>
+<maxDistance attr1="750"/> 
+<referenceDistance attr1="250"/>
+<soundPriority attr1="70"/>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="projectile"/> 
+<weaponID attr1="bonnieTG"/> 
+<ammunitionID attr1="lightP"/>
+<projectileWeaponType attr1="scatter_gun"/>
+<roundsPerShot attr1="2"/>
+<scatterYaw attr1="0.2"/>
+<scatterPitch attr1="0.2"/>
+<name attr1="Light Gun"/> 
+<fireSoundID attr1="rapidP02"/>
+<muzzleFlashEffectID attr1="mfLG035"/>
+<capacity attr1="15"/> 
+<reloadTime attr1="1.25"/>
+<reFireRate attr1="0.1"/>

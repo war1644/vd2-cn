@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="explosion"/> 
+<objectID attr1="explode02"/> 
+<particleSystemName attr1="vdp_animexplode_02"/> 
+<explosionSoundID attr1="explode02M"/>
+<life attr1="6.5"/>
+<bCausesShake attr1="1"/>
+<shakeDistance attr1="2000"/>
+<renderingDistance attr1="12500"/>

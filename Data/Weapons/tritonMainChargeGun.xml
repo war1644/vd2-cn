@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="instant"/> 
+<instantType attr1="chain_instant"/> 
+<weaponID attr1="tritonMCG"/> 
+<name attr1="Main Gun"/> 
+<materialName attr1="Weapons/RailGunBase"/>
+<color r="0.7" g="0.5" b="0.05" a="0.6"/>
+<baseScale attr1="25.5"/>
+<explosionID attr1="explode03"/> 
+<fireSoundID attr1="heavyPGS00"/>
+<chargeSoundID attr1="chargingG00"/>
+<chargedSoundID attr1="chargedG00"/>
+<muzzleFlashEffectID attr1="mfLG600"/>
+<bChargeGun attr1="1"/> 
+<chargeParticleName attr1="weaponCharge50"/>
+<damage attr1="85000.0"/> 
+<range attr1="9200.0"/>
+<capacity attr1="4.0"/> 
+<reFireRate attr1="0.0"/>
+<visualTimer attr1="0.5"/>
+<reloadTime attr1="10.25"/>
+<weaponPush attr1="35000000"/> 
+<bIgnoresShields attr1="1"/>
+<parentPush attr1="3.0"/> 
+<recoil>
+	<recoilZ attr1="-25"/>
+	<recoilBone attr1="Recoil"/>
+</recoil>
+<bAlwaysPlayFireSound attr1="1"/>
+<_bNoAimAssist attr1="1"/>

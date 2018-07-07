@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid"/> 
+<name attr1="Titanic Asteroid"/> 
+<objectID attr1="longRoid00"/> 
+<meshName attr1="longRoid00.mesh"/>
+<wireframeMaterial attr1="WF/Asteroid"/>
+<descriptionText attr1="A titanic asteroid."/> 
+<bShowInTactical attr1="1"/>
+<tacticalExplosionID attr1="vdp_tac_ping_15_40"/> 
+<health attr1="990000.0"/> 
+<collisionShape attr1="trimesh"/>
+<babySpawnDamage attr="990000"/>
+<baby>
+	<asteroidID attr="mediumRock001"/>
+	<linearVelocity x="0.05" y="0.07" z="0.5"/>
+</baby>
+<baby>
+	<asteroidID attr="smallRock001"/>
+	<linearVelocity x="0.05" y="0.07" z="0.5"/>
+</baby>
+<baby>
+	<asteroidID attr="tinyRock001"/>
+	<lifeTimer attr="180.0"/>
+	<linearVelocity x="3.0" y="3.0" z="10.0"/>
+</baby>
+<baby>
+	<asteroidID attr="tinyRock002"/>
+	<lifeTimer attr="180.0"/>
+	<linearVelocity x="3.0" y="3.0" z="10.0"/>
+</baby>
+<baby>
+	<asteroidID attr="tinyRock003"/>
+	<lifeTimer attr="180.0"/>
+	<linearVelocity x="3.0" y="3.0" z="10.0"/>
+</baby>
+<babyExplosionID attr="dirtExp00"/>
+<explosionID attr="roidExplode02"/>
+<deathSpawn>
+	<asteroidID attr="largeRock001"/>
+	<asteroidID attr="mediumRock001"/>
+</deathSpawn>
+<asteroidSize attr="titanic"/>
+<isMassInfinite attr1="1"/>

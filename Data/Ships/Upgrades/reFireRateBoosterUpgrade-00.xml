@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Re-Fire Rate Booster"/> 
+<objectID attr1="refireRate00"/> 
+<upgradeCategory attr1="weapon"/> 
+<cost attr1="1000"/>
+<addCostAsPercentOfShip attr1="0.032"/>
+<description attr1="Optimizes primary weapon(s) barrel(s) and adds additional coolants to increase the rate of fire, via decreasing the delay on the next round fired. If your shots only land 1/10th of the time, fire more shots!"/>
+<fireRateMultiplier attr1="0.80"/>

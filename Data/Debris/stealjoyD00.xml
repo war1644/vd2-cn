@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="debris"/> 
+<name attr1="Debris"/> 
+<objectID attr1="stealjoyD00"/> 
+<meshName attr1="stealjoyD00.mesh"/> 
+<faction attr1="civilian"/>
+<descriptionText attr1="Some debris."/> 
+<health attr1="5000.0"/> 
+<timeToLive attr1="35.0"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<explosionID attr1="explode04"/>
+<minimumMomentum attr="5"/>
+<minimumRotation attr="1"/>
+<debrisSizeAsShipClass attr1="corvette"/>
+<bCanAddViaBattleEditorSlider attr1="1"/>
+<turret>
+    <turretID attr1="rhinoTurret"/>
+	<position x="0" y="43.14" z="38.505"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+</turret>

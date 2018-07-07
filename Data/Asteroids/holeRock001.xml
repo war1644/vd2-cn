@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid"/> 
+<name attr1="Medium Asteroid"/> 
+<objectID attr1="holeRock001"/> 
+<meshName attr1="holeRock001.mesh"/>
+<wireframeMaterial attr1="WF/Asteroid"/> 
+<descriptionText attr1="A medium asteroid."/> 
+<bShowInTactical attr1="1"/>
+<tacticalExplosionID attr1="vdp_tac_ping_15_40"/> 
+<health attr1="2500.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="0"/>
+<babySpawnDamage attr="30"/>
+<baby>
+	<asteroidID attr="tinyRock001"/>
+	<lifeTimer attr="180.0"/>
+	<linearVelocity x="3.0" y="3.0" z="10"/>
+</baby>
+<baby>
+	<asteroidID attr="tinyRock002"/>
+	<lifeTimer attr="180.0"/>
+	<linearVelocity x="3.0" y="3.0" z="10"/>
+</baby>
+<baby>
+	<asteroidID attr="tinyRock003"/>
+	<lifeTimer attr="180.0"/>
+	<linearVelocity x="3.0" y="3.0" z="10"/>
+</baby>
+<babyExplosionID attr="dirtExp00"/>
+<explosionID attr="roidExplode01"/>
+<deathSpawn>
+	<asteroidID attr="smallRock001"/>
+	<asteroidID attr="tinyRock001"/>
+</deathSpawn>
+<asteroidSize attr="medium"/>
+<bCanAddViaBattleEditorSlider attr1="0"/>

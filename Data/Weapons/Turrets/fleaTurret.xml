@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="fleaTurret"/> 
+<name attr1="Light Beam Turret"/> 
+<meshName attr1="fleaTurret.mesh"/> 
+<turretWeapon attr1="beam"/>
+<hardpointID attr1="scorpionB"/>
+<dMoveSpeed attr1="80.0"/>
+<pitchMax attr1="70.0"/>
+<turretBarrel>
+	<weaponPosition x="-5.316" y="0.051" z="-16.308"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretViewPos x="0" y="8.5" z="27.59"/>
+<targetPriorityList> 
+	<targetClass attr1="gunship"/>
+	<targetClass attr1="fighter"/>
+	<targetClass attr1="fighter_drone"/>
+	<targetClass attr1="corvette"/> 
+	<targetClass attr1="frigate"/> 
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="attack_station"/> 
+</targetPriorityList> 
+<turnSoundID attr1="turretR00"/>

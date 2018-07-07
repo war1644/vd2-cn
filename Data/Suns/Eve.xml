@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="sun"/> 
+<sunType attr1="physical_sun"/> 
+<name attr1="Eve"/> 
+<diffuseColor r="0.99" g="0.72" b="0.07" a="1.0"/>
+<specularColor r="0.99" g="0.72" b="0.07" a="1.0"/>
+<objectID attr1="eveSun"/> 
+<faction attr1="neutral"/> 
+<meshName attr1="icosphere.mesh"/>
+<wireframeMaterial attr1="WF/Sphere"/>
+<scale attr1="500"/>
+<overworldScale attr1="200"/>
+<materialName attr1="Sun/YellowRedSun"/> 
+<billboardFlareMaterial attr1="Space/SunFlare"/>
+<flareSize attr1="3500"/>
+<rotateSpeed attr1="5"/>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<collisionShapeScale attr1="700"/>
+<damageCollisionField>
+	<damage attr1="750"/>
+	<scale attr1="6000"/>
+</damageCollisionField>
+<damageCollisionField>
+	<damage attr1="50"/>
+	<scale attr1="10000"/>
+</damageCollisionField>
+<damageCollisionField>
+	<damage attr1="5"/>
+	<scale attr1="15000"/>
+</damageCollisionField>

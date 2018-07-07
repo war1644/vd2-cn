@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="pilarT01R"/> 
+<name attr1="Quad Turret"/> 
+<meshName attr1="pilarTurret01R.mesh"/> 
+<turretWeapon attr1="projectile"/>
+<hardpointID attr1="pilarTG"/>
+<dMoveSpeed attr1="90.0"/> 
+<pitchMax attr1="50.0"/>
+<turretBarrel>
+	<weaponPosition x="-1.43" y="0.63" z="-7.91"/>
+	<boneName attr1="muzzle1"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-1.43" y="-0.6" z="-7.91"/>
+	<boneName attr1="muzzle2"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-2.62" y="0.58" z="-7.94"/>
+	<boneName attr1="muzzle3"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-2.62" y="-0.6" z="-7.94"/>
+	<boneName attr1="muzzle4"/>
+</turretBarrel>
+<turretViewPos x="0" y="4.07" z="12.19"/>
+<barrelDelay attr1="0.05"/>
+<targetPriorityList> 
+	<targetClass attr1="fighter"/>
+	<targetClass attr1="gunship"/>
+	<targetClass attr1="fighter_drone"/>
+	<targetClass attr1="corvette"/> 
+	<targetClass attr1="frigate"/> 
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="cruiser"/> 
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="attack_station"/> 
+</targetPriorityList> 
+<turnSoundID attr1="turretR00"/>

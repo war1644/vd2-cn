@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<soundEngineSoundType attr1="ui"/>
+<effectType attr1="sound"/> 
+<soundType attr1="looping"/>
+<objectID attr1="refuel00"/>
+<soundFile attr1="clawCharge00.wav"/>
+<tailSound attr1="clawCharge00Tail.wav"/>
+<maxDistance attr1="2000"/> 
+<referenceDistance attr1="1000"/>
+<defaultVolume attr1="0.5"/>

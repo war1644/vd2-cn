@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="tractor_beam"/> 
+<weaponID attr1="anubisCTB"/> 
+<name attr1="Ship Puller"/> 
+<fireSoundID attr1="tractorBeamW00"/>
+<muzzleFlashEffectID attr1="mfMRG"/>
+<capacity attr1="6"/> 
+<reloadTime attr1="13.0"/>
+<gravityObjectType attar1="gravity_object_simple"/>
+<maxShipSize attar1="corvette"/>
+<distance attar1="4900"/>

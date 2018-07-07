@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Arsonist MK2"/> 
+<objectID attr1="arsonistMK2"/> 
+<faction attr1="rockGuys"/> 
+<shipClass attr1="fighter"/> 
+<shipClassSize attr1="heavy"/>
+<meshName attr1="ArsonistMK2.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A heavy fighter."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="A modified version of the Arsonist. The power node is moved to where the defense turret used to be, to make room for an additional plasma lance to double the primary damage output."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="An attempt to compete with the recent arms race."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Twin plasma stream."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="If you are the impatient type, cooking with twice the gas tends to speed things along."/>
+<creditCost attr1="65000"/>
+<missionRankRequired attr1="3"/>
+<cruiseSpeed attr1="80.0"/> 
+<timeTillCruise attr1="1.95"/> 
+<yaw 	attr1="85.0"/> 
+<pitch	attr1="85.0"/> 
+<roll 	attr1="85.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitActualPos x="0" y="0" z="7.76"/>
+<cockpitActualMesh attr1="cockpitArsonistMK2.mesh"/> 
+<cockpitInitPos x="0" y="10.15" z="18.03"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="21.85" z="100"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="1600.0"/> 
+<armor attr1="1.00"/>
+<buildTime	attr1="25.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="150.0"/> 
+<ore		attr1="225.0"/> 
+<damage>
+    <pitch attr1="-20.0"/> 
+    <roll attr1="-115.0"/> 
+	<yaw attr1="-23.0"/> 
+	<position x="7.52" y="-2.212" z="2.523"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.4" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="duelistD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explodeRed02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="0" y="2.13" z="16.57"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion035"/> 
+	<position x="0.05" y="-1.31" z="16.76"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="6.05"/>
+    <capacity attr1="10.0"/>
+    <recharge attr1="13.5"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bPlayerSharedFire attr1="1"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="arsonistGun"/> 
+	<weaponPosition x="5.56" y="0.24" z="-13.22"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="arsonistGun"/> 
+	<weaponPosition x="-5.675" y="0.25" z="-13.002"/>
+</weapon> 
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="arsonistFG"/> 
+	<weaponPosition x="5.56" y="0.24" z="-13.22"/>
+	<weaponFire attr1="secondary"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="arsonistFG"/> 
+	<weaponPosition x="-5.675" y="0.25" z="-13.002"/>
+	<weaponFire attr1="secondary"/>
+</weapon>
+<upgrades> 
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed02"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="heavyFighterPUS00"/>
+	<upgradeID attr1="heavyFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="-0.59" y="-1.4" z="-6.44"/>
+<shipHangarYOffset attr1="3"/>
+<rockSubPosition attr1="1"/>

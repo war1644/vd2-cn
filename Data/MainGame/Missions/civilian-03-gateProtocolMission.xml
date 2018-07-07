@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Gate Protocol"/>
+<missionDescriptionText attr1="The TSF has contracted us to distribute updated activation protocols to the in system gates. The goal of which is to harden against illegal gate use."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="We are seeking experienced combat pilots to provide overwatch for the operation."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Pirate forces are very likely to attempt to interfere with the process."/>
+<objectID attr1="civ-03"/>
+<missionFactionID attr1="civilian"/>
+<missionLocation attr1="gate03-A"/>
+<creditReward attr1="50000"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<maximumShipClass attr1="gunship"/>
+<bOverworldByPass attr1="1"/>
+<bOverworldShipsByPass attr1="1"/>
+<missionRankRequired attr1="5.8"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<failMissionNumber attr1="5000"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="hermes"/>
+		<shipName attr1="shuttle"/>
+		<displayName attr1="CC-SHUTTLE-223"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="0"/>
+		<position x="0" y="0" z="-5000"/>
+		<reletiveObject attr1="gate03-A"/>
+		<bCheckPosition attr1="0"/>
+		<aiPosture attr1="hold"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="look_at"/>
+		<lookAtObject attr1="gate03-A"/>
+		<objectName attr1="shuttle"/>
+		<bNoRoll attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="shuttle"/>
+		<characterID attr1="civilian01"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_watched"/>
+		<objectName attr1="shuttle"/>
+	</preTrigger>
+	<note_to_self attr1="escorts ------------------------------"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="anubis"/>
+		<shipName attr1="s-escort-1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="shuttle"/>
+		<position x="500" y="-150" z="1500"/>
+		<aiPosture attr1="defend"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="s-escort-1"/>
+		<commandType attr1="go_to_position"/>
+		<reletiveObject attr1="shuttle"/>
+		<position x="500" y="-150" z="-1000"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="cobra"/>
+		<shipName attr1="s-cobra-1"/>
+		<shipID attr1="cobra"/>
+		<shipName attr1="s-cobra-2"/>
+		<shipID attr1="cobra"/>
+		<shipName attr1="s-cobra-3"/>
+		<shipID attr1="cobra"/>
+		<shipName attr1="s-cobra-4"/>
+		<shipID attr1="cobra"/>
+		<shipName attr1="s-cobra-5"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="s-escort-1"/>
+		<position x="500" y="0" z="0"/>
+		<aiPosture attr1="defend"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="s-cobra-1"/>
+		<targetName attr1="s-escort-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="s-cobra-2"/>
+		<objectName attr1="s-cobra-3"/>
+		<objectName attr1="s-cobra-4"/>
+		<objectName attr1="s-cobra-5"/>
+		<targetName attr1="s-cobra-1"/>
+	</preTrigger>	
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="taurus"/>
+		<shipName attr1="s-taurus-1"/>
+		<shipID attr1="taurus"/>
+		<shipName attr1="s-taurus-2"/>
+		<shipID attr1="taurus"/>
+		<shipName attr1="s-taurus-3"/>
+		<shipID attr1="taurus"/>
+		<shipName attr1="s-taurus-4"/>
+		<shipID attr1="taurus"/>
+		<shipName attr1="s-taurus-5"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<reletiveObject attr1="s-escort-1"/>
+		<position x="500" y="0" z="2000"/>
+		<aiPosture attr1="search_and_destroy"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="s-taurus-2"/>
+		<objectName attr1="s-taurus-3"/>
+		<objectName attr1="s-taurus-4"/>
+		<objectName attr1="s-taurus-5"/>
+		<targetName attr1="s-taurus-1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="s-taurus-1"/>
+		<commandType attr1="go_to_position"/>
+		<reletiveObject attr1="shuttle"/>
+		<position x="0" y="0" z="-500"/>
+	</preTrigger>
+	<note_to_self attr1="escorts ------------------------------"/>	
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="shuttle"/>
+		<objectName attr1="s-escort-1"/>
+		<objectName attr1="s-cobra-1"/>
+		<objectName attr1="s-cobra-2"/>
+		<objectName attr1="s-cobra-3"/>
+		<objectName attr1="s-cobra-4"/>
+		<objectName attr1="s-cobra-5"/>
+		<objectName attr1="s-taurus-1"/>
+		<objectName attr1="s-taurus-2"/>
+		<objectName attr1="s-taurus-3"/>
+		<objectName attr1="s-taurus-4"/>
+		<objectName attr1="s-taurus-5"/>
+	</preTrigger>
+	<missionHUDText attr1="Approach the Shuttle"/>
+	<objective>
+		<objectiveType attr1="go_to_object"/> 
+		<traveler attr1="playerShip"/>
+		<goToObject attr1="shuttle"/>
+		<goToDistance attr1="1000"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian01"/>
+		<message attr1="We all here? Beginning upload."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+		<markObject attr1="shuttle"/>
+		<markObjectType attr1="go_to_object"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian01"/>
+		<message attr1="Getting some gate activity. Prepare for arrivals."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="reborn"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="activate_gate"/>
+		<gateName attr1="gate03-A"/> 
+		<timeTillSpawn attr1="0.1"/> 
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="gate_spawn"/>
+		<gateName attr1="gate03-A"/>
+		<shipID attr1="fury"/> 
+		<shipName attr1="r-fury-1"/>
+		<shipID attr1="fury"/> 
+		<shipName attr1="r-fury-2"/>
+		<shipID attr1="fury"/> 
+		<shipName attr1="r-fury-3"/>
+		<shipID attr1="fury"/> 
+		<shipName attr1="r-fury-4"/>
+		<shipID attr1="fury"/> 
+		<shipName attr1="r-fury-5"/>
+		<shipID attr1="fury"/> 
+		<shipName attr1="r-fury-6"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-1"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-2"/>
+		<shipID attr1="wrath"/> 
+		<shipName attr1="r-wrath-1"/>
+		<faction attr1="reborn"/>
+		<bAllDirectCommand attr1="1"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<failMissionNumber attr1="5000"/>
+	<preTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="interlinked"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="rebornFemaleGeneric01"/>
+		<message attr1="Gates belong to the people! Not just the military and their lackeys!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="gate_de_activated"/> 
+		<gateName attr1="gate03-A"/>
+		<gateStatus attr1="spawning"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="r-fury-1"/>
+		<objectName attr1="r-fury-2"/>
+		<objectName attr1="r-fury-3"/>
+		<objectName attr1="r-fury-4"/>
+		<objectName attr1="r-fury-5"/>
+		<objectName attr1="r-fury-6"/>
+		<objectName attr1="r-rage-1"/>
+		<objectName attr1="r-rage-2"/>
+		<objectName attr1="r-wrath-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="r-fury-1"/>
+		<shipName attr1="r-fury-2"/>
+		<shipName attr1="r-fury-3"/>
+		<shipName attr1="r-fury-4"/>
+		<shipName attr1="r-fury-5"/>
+		<shipName attr1="r-fury-6"/>
+		<shipName attr1="r-rage-1"/>
+		<shipName attr1="r-rage-2"/>
+		<shipName attr1="r-wrath-1"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="reborn"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="reborn"/>
+		<bMarkShips attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</postTrigger>
+	<missionHUDText attr1="Destroy Pirate Ships..."/>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian01"/>
+		<message attr1="Response more hostile than expected... I'm going to request additional support."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian01"/>
+		<message attr1="Progress report... We are at about 28% upload."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="8"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian01"/>
+		<message attr1="Getting another activation signal. Prepare for another wave."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="reborn"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="activate_gate"/>
+		<gateName attr1="gate03-A"/> 
+		<timeTillSpawn attr1="0.1"/> 
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="gate_spawn"/>
+		<gateName attr1="gate03-A"/>
+		<shipID attr1="fury"/> 
+		<shipName attr1="r-fury-1"/>
+		<shipID attr1="fury"/> 
+		<shipName attr1="r-fury-2"/>
+		<shipID attr1="fury"/> 
+		<shipName attr1="r-fury-3"/>
+		<shipID attr1="fury"/> 
+		<shipName attr1="r-fury-4"/>
+		<shipID attr1="fury"/> 
+		<shipName attr1="r-fury-5"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-1"/>
+		<shipID attr1="fury"/> 
+		<shipName attr1="r-rage-2"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-3"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-4"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-5"/>
+		<shipID attr1="wrath"/> 
+		<shipName attr1="r-wrath-1"/>
+		<shipID attr1="wrath"/> 
+		<shipName attr1="r-wrath-2"/>
+		<shipID attr1="cutterG"/> 
+		<shipName attr1="r-cutterG-1"/>
+		<faction attr1="reborn"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="11"/>
+	<nextMissionNumber attr1="12"/>
+	<failMissionNumber attr1="5000"/>
+	<preTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="interlinked"/>
+	</preTrigger>
+	<missionHUDText attr1="Destroy Pirate Ships..."/>
+	<objective>
+		<objectiveType attr1="gate_de_activated"/> 
+		<gateName attr1="gate03-A"/>
+		<gateStatus attr1="spawning"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="r-fury-1"/>
+		<objectName attr1="r-fury-2"/>
+		<objectName attr1="r-fury-3"/>
+		<objectName attr1="r-fury-4"/>
+		<objectName attr1="r-fury-5"/>
+		<objectName attr1="r-rage-1"/>
+		<objectName attr1="r-rage-2"/>
+		<objectName attr1="r-rage-3"/>
+		<objectName attr1="r-rage-4"/>
+		<objectName attr1="r-rage-5"/>
+		<objectName attr1="r-wrath-1"/>
+		<objectName attr1="r-wrath-2"/>
+		<objectName attr1="r-cutterG-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="r-fury-1"/>
+		<shipName attr1="r-fury-2"/>
+		<shipName attr1="r-fury-3"/>
+		<shipName attr1="r-fury-4"/>
+		<shipName attr1="r-fury-5"/>
+		<shipName attr1="r-rage-1"/>
+		<shipName attr1="r-rage-2"/>
+		<shipName attr1="r-rage-3"/>
+		<shipName attr1="r-rage-4"/>
+		<shipName attr1="r-rage-5"/>
+		<shipName attr1="r-wrath-1"/>
+		<shipName attr1="r-wrath-2"/>
+		<shipName attr1="r-cutterG-1"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="reborn"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="12"/>
+	<nextMissionNumber attr1="13"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="reborn"/>
+		<bMarkShips attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="taurusMK2"/>
+		<shipName attr1="s-taurusMK2-1"/>
+		<shipID attr1="taurusMK2"/>
+		<shipName attr1="s-taurusMK2-2"/>
+		<shipID attr1="taurusMK2"/>
+		<shipName attr1="s-taurusMK2-3"/>
+		<faction attr1="civilian"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="gate03-A"/>
+		<position x="2500" y="1250" z="-20000"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="s-taurusMK2-1"/>
+		<shipName attr1="s-taurusMK2-2"/>
+		<shipName attr1="s-taurusMK2-3"/>
+		<reletiveObject attr1="gate03-A"/>
+		<hopPosition x="0" y="0" z="-4000"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="s-taurusMK2-1"/>
+		<objectName attr1="s-taurusMK2-2"/>
+		<objectName attr1="s-taurusMK2-3"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="13"/>
+	<nextMissionNumber attr1="14"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="7"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="set_target"/>
+		<objectName attr1="s-taurusMK2-2"/>
+		<objectName attr1="s-taurusMK2-3"/>
+		<targetName attr1="s-taurusMK2-1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="s-taurusMK2-1"/>
+		<commandType attr1="go_to_position"/>
+		<reletiveObject attr1="shuttle"/>
+		<position x="500" y="0" z="-500"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian01"/>
+		<message attr1="Upload 74% complete... Additional support arriving."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="14"/>
+	<nextMissionNumber attr1="15"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="18"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+	<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian01"/>
+		<message attr1="Gate activating..."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="reborn"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="activate_gate"/>
+		<gateName attr1="gate03-A"/> 
+		<timeTillSpawn attr1="0.1"/> 
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="gate_spawn"/>
+		<gateName attr1="gate03-A"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-1"/>
+		<shipID attr1="fury"/> 
+		<shipName attr1="r-rage-2"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-3"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-4"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-5"/>
+		<shipID attr1="wrath"/> 
+		<shipName attr1="r-wrath-1"/>
+		<shipID attr1="wrath"/> 
+		<shipName attr1="r-wrath-2"/>
+		<shipID attr1="wrath"/> 
+		<shipName attr1="r-wrath-3"/>
+		<shipID attr1="wrath"/> 
+		<shipName attr1="r-wrath-4"/>
+		<faction attr1="reborn"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="15"/>
+	<nextMissionNumber attr1="16"/>
+	<failMissionNumber attr1="5000"/>
+	<preTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="interlinked"/>
+	</preTrigger>
+	<missionHUDText attr1="Destroy Pirate Ships..."/>
+	<objective>
+		<objectiveType attr1="gate_de_activated"/> 
+		<gateName attr1="gate03-A"/>
+		<gateStatus attr1="spawning"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="r-rage-1"/>
+		<objectName attr1="r-rage-2"/>
+		<objectName attr1="r-rage-3"/>
+		<objectName attr1="r-rage-4"/>
+		<objectName attr1="r-rage-5"/>
+		<objectName attr1="r-wrath-1"/>
+		<objectName attr1="r-wrath-2"/>
+		<objectName attr1="r-wrath-3"/>
+		<objectName attr1="r-wrath-4"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="r-rage-1"/>
+		<shipName attr1="r-rage-2"/>
+		<shipName attr1="r-rage-3"/>
+		<shipName attr1="r-rage-4"/>
+		<shipName attr1="r-rage-5"/>
+		<shipName attr1="r-wrath-1"/>
+		<shipName attr1="r-wrath-2"/>
+		<shipName attr1="r-wrath-3"/>
+		<shipName attr1="r-wrath-4"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="reborn"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="16"/>
+	<nextMissionNumber attr1="17"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="reborn"/>
+		<bMarkShips attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian01"/>
+		<message attr1="And... Upload complete!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="17"/>
+	<nextMissionNumber attr1="18"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian01"/>
+			<nameOverride attr1="IT OPs ID#522"/>
+			<content attr1="Alright everyone. Mission complete."/>
+			<content attr1="The gate should be harden..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian01"/>
+			<nameOverride attr1="IT OPs ID#522"/>
+			<content attr1="And... I'm getting a incoming signal."/>
+			<content attr1="I don't understand..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian01"/>
+			<nameOverride attr1="IT OPs ID#522"/>
+			<content attr1="Dammit..."/>
+			<content attr1="I can't have another strike on my employee record."/>
+			<content attr1="Going to upload the package again."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="18"/>
+	<nextMissionNumber attr1="19"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian01"/>
+		<message attr1="Re-starting upload."/>
+	</preTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="19"/>
+	<nextMissionNumber attr1="20"/>
+	<failMissionNumber attr1="5000"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian01"/>
+		<message attr1="Re-starting upload."/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian01"/>
+		<message attr1="We're at 4%... Newcomers... ETA 30 seconds."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="20"/>
+	<nextMissionNumber attr1="21"/>
+	<failMissionNumber attr1="5000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="25"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian01"/>
+		<message attr1="16% - gate activation imminent."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="s-cobra-1"/>
+		<shipName attr1="s-cobra-2"/>
+		<shipName attr1="s-cobra-3"/>
+		<shipName attr1="s-cobra-4"/>
+		<shipName attr1="s-cobra-5"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="21"/>
+	<nextMissionNumber attr1="22"/>
+	<nextMissionNumber attr1="3000"/>
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="reborn"/>
+	</postTrigger>
+	<preTrigger>
+		<triggerType attr1="activate_gate"/>
+		<gateName attr1="gate03-A"/> 
+		<timeTillSpawn attr1="0.1"/> 
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="gate_spawn"/>
+		<gateName attr1="gate03-A"/>
+		<shipID attr1="spitfire"/> 
+		<shipName attr1="r-spitfire-1"/>
+		<shipID attr1="spitfire"/> 
+		<shipName attr1="r-spitfire-2"/>
+		<shipID attr1="spitfire"/> 
+		<shipName attr1="r-spitfire-3"/>
+		<shipID attr1="spitfire"/> 
+		<shipName attr1="r-spitfire-4"/>
+		<shipID attr1="spitfire"/> 
+		<shipName attr1="r-spitfire-5"/>
+		<shipID attr1="cutterG"/> 
+		<shipName attr1="r-cutterG-1"/>
+		<shipID attr1="cutterG"/> 
+		<shipName attr1="r-cutterG-2"/>
+		<shipID attr1="cutterG"/> 
+		<shipName attr1="r-cutterG-3"/>
+		<shipID attr1="racer"/> 
+		<shipName attr1="r-racer-1"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-1"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-2"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-3"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-4"/>
+		<shipID attr1="rage"/> 
+		<shipName attr1="r-rage-5"/>
+		<shipID attr1="cutter"/> 
+		<shipName attr1="r-cutter-1"/>
+		<shipID attr1="cutter"/> 
+		<shipName attr1="r-cutter-2"/>
+		<shipID attr1="wrath"/> 
+		<shipName attr1="r-wrath-1"/>
+		<shipID attr1="wrath"/> 
+		<shipName attr1="r-wrath-2"/>
+		<faction attr1="reborn"/>
+		<bAllDirectCommand attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="interlinked-l"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/>
+		<timer attr1="22"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="shuttle"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bIsFailObjective attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian01"/>
+		<message attr1="Screw this! We're bailing."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="ship_command"/>
+		<shipName attr1="shuttle"/>
+		<commandType attr1="go_to_position"/>
+		<position x="0" y="0" z="-50000"/>
+		<reletiveObject attr1="gate03-A"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="22"/>
+	<nextMissionNumber attr1="23"/>
+	<objective>
+		<objectiveType attr1="gate_de_activated"/> 
+		<gateName attr1="gate03-A"/>
+		<gateStatus attr1="spawning"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="r-spitfire-1"/>
+		<objectName attr1="r-spitfire-2"/>
+		<objectName attr1="r-spitfire-3"/>
+		<objectName attr1="r-spitfire-4"/>
+		<objectName attr1="r-spitfire-5"/>
+		<objectName attr1="r-spitfire-5"/>
+		<objectName attr1="r-cutterG-1"/>
+		<objectName attr1="r-cutterG-2"/>
+		<objectName attr1="r-cutterG-3"/>
+		<objectName attr1="r-racer-1"/>
+		<objectName attr1="r-rage-1"/>
+		<objectName attr1="r-rage-2"/>
+		<objectName attr1="r-rage-3"/>
+		<objectName attr1="r-rage-4"/>
+		<objectName attr1="r-rage-5"/>
+		<objectName attr1="r-cutter-1"/>
+		<objectName attr1="r-cutter-2"/>
+		<objectName attr1="r-wrath-1"/>
+		<objectName attr1="r-wrath-2"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="r-spitfire-1"/>
+		<shipName attr1="r-spitfire-2"/>
+		<shipName attr1="r-spitfire-3"/>
+		<shipName attr1="r-spitfire-4"/>
+		<shipName attr1="r-spitfire-5"/>
+		<shipName attr1="r-spitfire-5"/>
+		<shipName attr1="r-rage-1"/>
+		<shipName attr1="r-rage-2"/>
+		<shipName attr1="r-rage-3"/>
+		<shipName attr1="r-rage-4"/>
+		<shipName attr1="r-rage-5"/>
+		<shipName attr1="r-wrath-1"/>
+		<shipName attr1="r-wrath-2"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="reborn"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="23"/>
+	<nextMissionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="reborn"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="tsfGeneric01"/>
+		<message attr1="That was fun! Gotta love patches!"/>
+	</postTrigger>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="6.05"/>
+		<faction attr="civilian"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<mission>
+	<missionNumber attr1="3000"/>
+	<nextMissionNumber attr1="3001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="50"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="roals"/>
+		<shipName attr1="tsf-Roals-1"/>
+		<shipID attr1="correa"/>
+		<shipName attr1="tsf-Correa-1"/>
+		<shipID attr1="intrepid"/>
+		<shipName attr1="tsf-Intrepid-1"/>
+		<shipID attr1="intrepid"/>
+		<shipName attr1="tsf-Intrepid-2"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="tsf-perezGMK2-1"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="tsf-perezGMK2-2"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="tsf-perezGMK2-3"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="tsf-perezGMK2-4"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="tsf-perezGMK2-5"/>
+		<shipID attr1="ray"/>
+		<shipName attr1="tsf-ray-1"/>
+		<shipID attr1="ray"/>
+		<shipName attr1="tsf-ray-2"/>
+		<faction attr1="tsf"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="gate03-A"/>
+		<position x="2500" y="1250" z="-20000"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="tsf-Roals-1"/>
+		<shipName attr1="tsf-Correa-1"/>
+		<shipName attr1="tsf-Intrepid-1"/>
+		<shipName attr1="tsf-Intrepid-2"/>
+		<shipName attr1="tsf-perezGMK2-1"/>
+		<shipName attr1="tsf-perezGMK2-2"/>
+		<shipName attr1="tsf-perezGMK2-3"/>
+		<shipName attr1="tsf-perezGMK2-4"/>
+		<shipName attr1="tsf-perezGMK2-5"/>
+		<shipName attr1="tsf-ray-1"/>
+		<shipName attr1="tsf-ray-2"/>
+		<reletiveObject attr1="gate03-A"/>
+		<hopPosition x="0" y="0" z="-5000"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="3001"/>
+	<nextMissionNumber attr1="3002"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="tsfGeneric01"/>
+		<message attr1="Reborn forces, cease all hostilities. Final notice."/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="rebornGeneric02"/>
+			<nameOverride attr1="Commander Tark"/>
+			<content attr1="Hey! Totalitarian Suck Fellons!"/>
+			<content attr1="Great job on those new protocols!"/>
+			<content attr1="Took us a whole extra second to crack!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="Roals Commander ID#8683"/>
+			<content attr1="Heh..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="Roals Commander ID#8683"/>
+			<content attr1="That update wasn't to make it harder to crack..."/>
+			<content attr1="It's for faster reporting of illegal activations."/>
+			<content attr1="Why do you think we are here?"/>
+		</dialog>
+		<dialog>
+			<checkIfExists attr1="shuttle"/>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="civilian01"/>
+			<nameOverride attr1="IT OPs ID#522"/>
+			<content attr1="What?!?"/>
+		</dialog>
+	</postDialog>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<note_to_self attr1="--- MISSION FAILURES ---"/>
+<mission>
+	<missionNumber attr1="5000"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="civilian01"/>
+		<message attr1="MAYDAY! MAYDAY! BREACH!"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="6"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

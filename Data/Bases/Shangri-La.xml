@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="shangrila"/> 
+<displayName attr1="Shangri-La"/> 
+<objectID attr1="shangrila"/> 
+<faction attr1="civilian"/>
+<meshName attr1="Shangrila.mesh"/>
+<wireframeMaterial attr1="WF/TheHub"/> 
+<descriptionText attr1="A former Stub base now a civilian outpost."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Discovered abandoned near the end of the Outsider wars. This base now houses medical and aid facilities which attempt to re-integrate Stubs into society."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Stubs, a name that references to their short lives are a mercenary for hire outfit found in many areas of space."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="These types of bases serve as recruitment and preparation facilities to those desperate enough to join."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Though it may be hard to imagine being desperate enough, when faced with impossible debt, sickness, or a kidnapped family member, the only option left may be to literally sell your self. To some these are salvation."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The conversion process results in a unidentifiable human, littered with implants, clear from guilt, debt, history and memory. Stubs make the perfect shock troops, following orders without question."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Arrivals to the base find it abandoned, no one is forced into the conversion chambers."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="390" y="0" z="60"/>
+<dockingArmsEnd x="390" y="0" z="-190"/>
+<dockPosition x="388.02" y="0" z="32.31"/>
+<dockSize x="120" y="120" z="60"/>
+<_hangarID attr1="theHubH"/> 
+<maxBuildShipClass attr1="corvette"/>
+<bCanResearch attr1="1"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="missile"/> 
+<weaponID attr1="duelistML"/> 
+<ammunitionID attr1="smallMissile00"/> 
+<name attr1="Launcher"/> 
+<fireSoundID attr1="missileLS"/>
+<reFireRate attr1="1.75"/>
+<capacity attr1="2"/>
+<reloadTime attr1="10"/> 
+<muzzleFlashEffectID attr1="mfML01"/>

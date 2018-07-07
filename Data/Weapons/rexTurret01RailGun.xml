@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="instant"/> 
+<instantType attr1="chain_instant"/> 
+<weaponID attr1="rexTurret01RG"/> 
+<name attr1="Mega Rail Gun"/> 
+<materialName attr1="Effects/RibbonTrail"/> 
+<baseScale attr1="2.25"/>
+<explosionID attr1="railGunHit02"/> 
+<fireSoundID attr1="megaCS00"/>
+<muzzleFlashEffectID attr1="mfLG060"/>
+<damage attr1="450.0"/>
+<range attr1="7350.0"/> 
+<capacity attr1="1.0"/> 
+<reFireRate attr1="0.0"/>
+<visualTimer attr1="0.3"/>
+<reloadTime attr1="2.2"/>
+<recoil>
+	<recoilParentType attr1="turret_recoil"/>
+	<recoilZ attr1="9"/>
+	<recoilBone attr1="Turret"/>
+	<muzzleBone attr1="muzzle1"/>
+</recoil>
+<weaponPush attr1="8000000"/> 
+<bIgnoresShields attr1="1"/>
+<bAlwaysPlayFireSound attr1="1"/>

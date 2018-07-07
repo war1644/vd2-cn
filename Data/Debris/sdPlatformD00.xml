@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="debris"/> 
+<name attr1="Debris"/> 
+<objectID attr1="sdPlatformD00"/> 
+<meshName attr1="sdPlatformD00.mesh"/> 
+<faction attr1="tsf"/>
+<descriptionText attr1="Some debris."/> 
+<health attr1="3000.0"/> 
+<timeToLive attr1="35.0"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<explosionID attr1="explode04"/>
+<minimumMomentum attr="5"/>
+<minimumRotation attr="1"/>
+<debrisSizeAsShipClass attr1="corvette"/>
+<bCanAddViaBattleEditorSlider attr1="1"/>
+<turret>
+    <turretID attr1="sdpTurret01"/> 
+	<position x="0" y="65.377" z="-17.344"/>
+	<pitchLower attr1="-15.0"/> 
+	<turretRole attr1="offense"/>
+</turret>
+<turret>
+    <turretID attr1="sdpTurret01"/> 
+    <turretOrientation attr1="bottom"/> 
+	<position x="0" y="-65.541" z="-17.344"/>
+	<pitchLower attr1="-15.0"/>
+	<turretRole attr1="offense"/>	
+</turret>

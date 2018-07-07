@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="beam"/> 
+<weaponID attr1="roninB00"/> 
+<name attr1="Beam"/> 
+<materialName attr1="Weapons/lightBeam"/> 
+<hitParticleName attr1="vdp_muzzle_megabeam"/>
+<muzzleFlashEffectID attr1="mfMMegB00"/>
+<fireSoundID attr1="oMegBS00"/>
+<damage attr1="800.0"/> 
+<weaponPush attr1="150000"/>
+<range attr1="4200.0"/> 
+<baseScale attr1="6"/>
+<oscilateRange attr1="2.5"/>
+<oscilateAmount attr1="0.25"/>
+<capacity attr1="15"/> 
+<reloadTime attr1="3.7"/>
+<assistDegree attr1="1.0"/>
+<bAlwaysPlayFireSound attr1="1"/>

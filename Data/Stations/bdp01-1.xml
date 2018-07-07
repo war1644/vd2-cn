@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Beggar Defense Platform - 01-1"/> 
+<objectID attr1="bdp01-1"/> 
+<faction attr1="beggar"/> 
+<bCommsOverride attr1="1"/>
+<stationClass attr1="defense_station"/>
+<stationSizeAsShip attr1="gunship"/>
+<creditCost attr1="150000"/>
+<bBaseDefenseOverride attr1="1"/>
+<meshName attr1="bdp01-1.mesh"/> 
+<wireframeMaterial attr1="WF/SDP"/> 
+<descriptionText attr1="Beggar Defense Platform - 01-1"/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="A Beggar defensive platform, armed with 3 anti-corvette turrets."/> 
+<descriptionText attr1=" "/> 
+<descriptionText attr1="The bare minimum needed to field Rhino turrets, this platform is little more than a nuisance to passing ships."/>
+<health attr1="5500.0"/> 
+<explosionID attr1="explode06"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<debrisInfo>
+	<debris> 	
+		<debrisID attr1="rdp01D01"/> 
+	</debris>
+</debrisInfo> 
+<turret>
+    <turretID attr1="rhinoTurret"/> 
+	<position x="0" y="17.667" z="0"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="80"/>
+</turret>
+<turret>
+    <turretID attr1="rhinoTurret"/>
+	<turretOrientation attr1="bottom"/>
+	<position x="0" y="-17.667" z="0"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="80"/>
+</turret>
+<turret>
+    <turretID attr1="rhinoTurret"/>
+	<turretOrientation attr1="left"/>
+	<position x="-25.103" y="0" z="0"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="offense"/>
+	<yawPermitted attr1="90"/>
+</turret>
+<attachment>
+	<attachmentID attr1="bdp01Shield01"/>
+	<attachmentPosition x="0" y="0" z="-21.011"/>
+</attachment>
+<attachment>
+	<attachmentID attr1="bdp01Shield01"/>
+	<attachmentPosition x="0" y="0" z="21.011"/>
+	<attachmentOrientation attr1="back"/>
+</attachment>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>

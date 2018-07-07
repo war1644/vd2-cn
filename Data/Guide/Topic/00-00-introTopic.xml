@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="intro"/>
+<topicName attr1="Introduction"/>
+<mainText attr1="Welcome to the in game guide for Void Destroyer 2."/>
+<mainText attr1=" ------------------------------------------------ "/>
+<mainText attr1="This guide is a copy of Void Destroyer's guide - so some info is missing or out of date for Void Destroyer 2."/>
+<mainText attr1=" ------------------------------------------------ "/>
+<mainText attr1=" "/>
+<mainText attr1="The goal of this guide is to supplement and complement tutorials, with a quick and easy reference available within the game."/>
+<mainText attr1=" "/>
+<mainText attr1="Use: "/>
+<mainText attr1="I grew up with games that required reading the manual (PC games), there were no tutorials and in the early days you had to have a joystick (which needed a dedicated card added to the PC), mouse support was a luxury that came later. Still the intent isn't that this manual is read from top to bottom, rather based on your interest and need when playing the game."/>
+<mainText attr1=" "/>
+<mainText attr1="Organization: "/>
+<mainText attr1="The guide is organized along game modes - ship and tactical."/>
+<mainText attr1=" "/>
+<mainText attr1="The ship mode guide contains HUD element explanations."/>
+<mainText attr1="Camera modes, targeting options and the use of command ship abilities."/>
+<mainText attr1=" "/>
+<mainText attr1="The tactical mode guide contains interface element explanations."/>
+<mainText attr1="Camera controls, issuing orders, building, and base management."/>
+<mainText attr1=" "/>
+<mainText attr1="The guide also contains a quick overview of game modes."/>
+<mainText attr1="Tips and tricks and story/mission hints."/>
+<mainText attr1=" "/>
+<mainText attr1="Thank you for supporting Void Destroyer."/>
+<imageTwo>
+	<image attr1="set:guide_guide_icon image:guide_guide_icon"/>
+</imageTwo>

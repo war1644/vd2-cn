@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="gDemandCResponsYes00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="demand_cargo_response_yes"/>
+<dialog attr1="Damn... take it."/>
+<dialog attr1="Another loss... take it."/>
+<dialog attr1="The boss won't like this... detaching pod."/>
+<dialog attr1="Again? Dammit! Detaching pod."/>
+<dialog attr1="Just don't shoot, detaching pod."/>
+<dialog attr1="Fine... Detaching pod."/>
+<dialog attr1="Just give me a break next time ok? Detaching pod."/>
+<dialog attr1="Hold on, its not worth it... Detaching pod."/>
+<dialog attr1="Ok ok! Take it easy! Detaching pod."/>
+<dialog attr1="Damn, I was going to be in the black... Detaching pod."/>

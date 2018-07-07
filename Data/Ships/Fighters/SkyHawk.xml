@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Sky Hawk"/> 
+<objectID attr1="skyHawk"/> 
+<faction attr1="thePride"/> 
+<shipClass attr1="fighter"/> 
+<shipClassSize attr1="medium"/>
+<meshName attr1="SkyHawk.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A medium fighter, commonly used by bounty hunters."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Skyhawk is an all around excellent fighter. Fast maneuverable and heavily armed, in the right hands it is capable of out gunning ships of higher tiers."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Projectile spray."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="When activated, rapidly fires projectiles from the nose of the craft until the mechanism runs out of ammo and needs to reload. The Pride's ships often have very accurate weapons, but in this case speed is valued more."/>
+<creditCost attr1="60000"/>
+<bBlackMarket attr1="1"/>
+<missionRankRequired attr1="2"/>
+<cruiseSpeed attr1="150.0"/> 
+<timeTillCruise attr1="1.25"/> 
+<yaw 	attr1="110.0"/> 
+<pitch	attr1="110.0"/> 
+<roll 	attr1="110.0"/> 
+<bGravityDrive attr1="1"/>
+<cockpitID attr1="cockpit003"/>
+<cockpitActualPos x="0" y="4" z="12.5"/>
+<cockpitActualMesh attr1="cockpitSkyHawk.mesh"/> 
+<cockpitInitPos x="0" y="5" z="10.9"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="13.75" z="70.2"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="650.0"/> 
+<shieldHealth attr1="50"/>
+<armor attr1="0.55"/>
+<buildTime	attr1="25.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="150.0"/> 
+<ore		attr1="225.0"/> 
+<damage>
+    <pitch attr1="48.0"/> 
+    <roll attr1="75.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="-1.046" y="1.077" z="8.450"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="skyHawkD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="skyHawkD01"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explode02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion020"/> 
+	<position x="0" y="0.375" z="11"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="6.75"/>
+    <capacity attr1="8.0"/>
+    <recharge attr1="7.5"/>
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="skyHawkPG"/> 
+	<weaponPosition x="1.9" y="-1.95" z="-11.15"/>
+	<weaponPosition x="1.55" y="-2.2" z="-11.15"/>
+	<weaponPosition x="2.15" y="-2.2" z="-11.15"/>
+	<weaponPosition x="-1.9" y="-1.95" z="-11.15"/>
+	<weaponPosition x="-1.55" y="-2.2" z="-11.15"/>
+	<weaponPosition x="-2.15" y="-2.2" z="-11.15"/>
+</weapon> 
+<weapon>
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="skyHawkSPG"/>
+	<weaponPosition x="0" y="-0.2" z="-9.6"/> 
+	<weaponPosition x="-0.9" y="-0.75" z="-9.95"/>
+	<weaponPosition x="-0.9" y="-1.75" z="-9.95"/>
+	<weaponPosition x="0" y="-2.2" z="-9.95"/>
+	<weaponPosition x="0.9" y="-0.75" z="-9.95"/>
+	<weaponPosition x="0.9" y="-1.75" z="-9.95"/>
+	<barrelDelay attr1="0.01"/>
+	<weaponFire attr1="secondary"/>
+</weapon>
+<upgrades> 
+	<activeUpgradeCapacity attr1="2"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="fArmor00"/>
+	<upgradeID attr1="fShield01"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="fFrontShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="fSpeed01"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="mediumFighterPUS00"/>
+	<upgradeID attr1="mediumFighterAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<shipHangarPosition x="0" y="0.85" z="-7.787"/>
+<shipHangarYOffset attr1="-4"/>

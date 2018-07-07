@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="gate"/> 
+<name attr1="Gate"/> 
+<objectID attr1="sunGate"/> 
+<faction attr1="tsf"/>
+<meshName attr1="sunGate.mesh"/> 
+<wireframeMaterial attr1="WF/SunGate"/> 
+<descriptionText attr1="A gate."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Sun Gate is both a means of rapid travel to and from the inner solar system and an early means of power generation."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="A marvel of technology, it is capable of generating an artificial sun. The radiation given off can be used as a power source by nearby bases."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="This area of space was settled due to the unusually large amounts of near proximity of mega asteroids and clusters of smaller roids forming asteroid fields."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Largely ignored, until the newly discovered resource of Outsider tech, in the form of debris from the recent conflict. The dreams of great riches draws in a larger and larger number of treasure seekers, and with them those that truly profit, the suppliers of resources necessary to seek."/>
+<health attr1="500000.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<bNoShow x="1"/>

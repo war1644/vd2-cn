@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="buildingPlatforms"/>
+<topicName attr1="Building Platforms"/>
+<mainText attr1="Building Platforms Overview:"/>
+<mainText attr1="You can augment base defenses and capabilities via building platforms."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Concepts:"/>
+<mainText attr1="Most platforms need to be researched before they can be built (see Research topic)"/>
+<mainText attr1="Capturing enemy bases - allows you to build different faction platforms."/>
+<mainText attr1="Building platforms requires resources such as ore and energy - as well as crew"/>
+<mainText attr1="Platform crew consume resources periodically - just like base crew"/>
+<mainText attr1="Platforms sometimes cost upkeep to maintain"/>
+<mainText attr1=" "/>
+<mainText attr1="Upkeep:"/>
+<mainText attr1="Platform upkeep kicks in only when a certain number of the same platform types are built"/>
+<mainText attr1="Upkeep cost is exponential - based on the number of platforms built"/>
+<mainText attr1="If there are no resources in a base platforms become inactive"/>
+<mainText attr1="When resources are once again available bases will return to active state"/>
+<mainText attr1=" "/>
+<mainText attr1="How to Building Platforms:"/>
+<mainText attr1="Building platforms is probably the most complex task in Void Destroyer - due to the number of steps."/>
+<mainText attr1="1. Click on the - Build - button in tactical mode - this brings up the - Build - interface"/>
+<mainText attr1="2. Select a platform to be built from the list of available platforms on the right"/>
+<mainText attr1="3. Click the Place Scaffold button (as a shortcut you can double click the platform in the list as well)"/>
+<mainText attr1="   If you have the necessary resources - a place holder object will be created"/>
+<mainText attr1="5. Click on the place holder object and position it where you want the platform to be"/>
+<mainText attr1="   To move the place holder - click and hold it - then move the mouse to position it"/>
+<mainText attr1="      To move the up and down - do the above but press and hold the ALT key - then move to the mouse up/down"/>
+<mainText attr1="   To rotate the place holder - click and hold it - then press and hold the CTRL key and move the mouse left/right"/>
+<mainText attr1="   Before the platform can be built - collision and distance checks are performed"/>
+<mainText attr1="      Platforms can't be too far or too close to a base or another object"/>
+<mainText attr1="6. When you are happy with the position and rotation of the platform, click the - Build - button to start the process"/>
+<imageOne>
+	<image attr1="set:guide_build_icon image:guide_build_icon"/>
+</imageOne>
+<imageTwo>
+	<image attr1="set:guide_build_first_steps image:guide_build_first_steps"/>
+</imageTwo>
+<imageThree>
+	<image attr1="set:guide_build_final_steps image:guide_build_final_steps"/>
+</imageThree>

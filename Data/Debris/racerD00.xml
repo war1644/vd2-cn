@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="debris"/> 
+<name attr1="Debris"/> 
+<objectID attr1="racerD00"/> 
+<meshName attr1="racerD00.mesh"/> 
+<faction attr1="reborn"/>
+<descriptionText attr1="Some debris."/> 
+<health attr1="3000.0"/> 
+<timeToLive attr1="32.0"/> 
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<explosionID attr1="explode04"/>
+<minimumMomentum attr="5"/>
+<minimumRotation attr="1"/>
+<debrisSizeAsShipClass attr1="corvette"/>
+<bCanAddViaBattleEditorSlider attr1="1"/>
+<turret>
+    <turretID attr1="wrathTurret01"/>
+	<position x="0" y="25.867" z="29.219"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="offense"/>
+</turret>
+<_turret>
+    <turretID attr1="wrathTurret01"/>
+	<position x="0" y="14.05" z="-33.877"/>
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="offense"/>
+</_turret>
+<_turret>
+    <turretID attr1="wrathTurret01"/>
+	<position x="21.065" y="10.077" z="-12.995"/>
+	<turretOrientation attr1="right"/> 
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="offense"/>
+</_turret>
+<turret>
+    <turretID attr1="wrathTurret01"/>
+	<position x="-21.065" y="10.077" z="12.995"/>
+	<turretOrientation attr1="left"/> 
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="offense"/>
+</turret>
+<turret>
+    <turretID attr1="wrathTurret01"/>
+	<position x="0" y="-31.486" z="-8.807"/>
+	<turretOrientation attr1="bottom"/> 
+	<pitchLower attr1="-2"/>
+	<turretRole attr1="offense"/>
+</turret>

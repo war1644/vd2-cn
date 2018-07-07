@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="repair00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="repair_target_or_me"/>
+<dialog attr1="Need repairs!"/>
+<dialog attr1="Repairs needed!"/>
+<dialog attr1="Repair ships, move in!"/>
+<dialog attr1="Little help?"/>
+<dialog attr1="Patch em up."/>

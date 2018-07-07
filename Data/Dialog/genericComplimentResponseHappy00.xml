@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieInsult00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="compliment_response_happy"/>
+<dialog attr1="Thanks bud!"/>
+<dialog attr1="That's cool!"/>
+<dialog attr1="Awwwww yeah!"/>
+<dialog attr1="You too!"/>
+<dialog attr1="Appreciate it!"/>
+<dialog attr1="Thanks!"/>
+<dialog attr1="You too bro!"/>
+<dialog attr1="That's sweet..."/>
+<dialog attr1="Awwww..."/>
+<dialog attr1="You know it!"/>
+<dialog attr1="Hell yeah!"/>

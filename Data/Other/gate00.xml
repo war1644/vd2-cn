@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="gate"/> 
+<name attr1="Gate"/> 
+<objectID attr1="gate00"/> 
+<faction attr1="tsf"/>
+<meshName attr1="gate00.mesh"/> 
+<wireframeMaterial attr1="WF/SunGate"/> 
+<descriptionText attr1="A TSF gate."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Before the Outsider conflict, most standard travel was done via gates."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Powered by the radiation of the Sun Gate, this gate will quickly accelerate a object towards its partner, at which point the partner gate will rapidly decelerate the object. The first application of the gravity drive, before it became standard on ships."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Gates have now become obsolete due to gravity drive improvements (which most speculate came from studying Outsiders) and the MU and Outsider conflicts showing their strategic vulnerability."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Obsolete or not, with a bit of planning, they can shorten your journey."/>
+<health attr1="500000.0"/> 
+<gateCollision>
+	<gateCollisionSize x="780.0" y="780.0" z="200.0"/> 
+</gateCollision>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<_bNoShow x="1"/>

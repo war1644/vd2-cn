@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="random"/>
+<objectID attr1="scatterGS00"/> 
+<soundFile attr1="lightScatter00.wav"/>
+<soundFile attr1="lightScatter01.wav"/>
+<soundFile attr1="lightScatter02.wav"/>
+<soundFile attr1="lightScatter03.wav"/>
+<defaultVolume attr1="0.7"/>
+<maxDistance attr1="750"/> 
+<referenceDistance attr1="250"/>
+<soundPriority attr1="50"/>

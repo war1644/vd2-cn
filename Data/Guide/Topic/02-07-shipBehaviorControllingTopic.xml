@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="tacControllingShipBehaviour"/>
+<topicName attr1="Controlling Ship Behavior"/>
+<mainText attr1="Controlling Behaviour Overview:"/>
+<mainText attr1="Void Destroyer has several ways of controlling ships. Direct flight, targeting, issuing orders. Another method of control is setting how ships acquire targets on their own - described in this topic."/>
+<mainText attr1=" "/>
+<mainText attr1="Key Points:"/>
+<mainText attr1="You can specify overall ship behavior"/>
+<mainText attr1="     How/when ships acquire targets on their own"/>
+<mainText attr1="You can still issue go to or attack orders"/>
+<mainText attr1="     Ships will (nearly) always obey your orders"/>
+<mainText attr1=" "/>
+<mainText attr1="Ship Behavior How To:"/>
+<mainText attr1="Select a friendly ship or ship - select from three choices"/>
+<mainText attr1="     Do not engage"/>
+<mainText attr1="     Engage"/>
+<mainText attr1="     Search and Destroy"/>
+<mainText attr1=" "/>
+<mainText attr1="Weapons Hold"/>
+<mainText attr1="You can override ships weapons use, see Weapons Hold topic for more details."/>
+<mainText attr1=" "/>
+<mainText attr1="Inheritance:"/>
+<mainText attr1="Ships inherit these settings from their formation leader. See Inheritance topic below for more details."/>
+<imageThree>
+	<image attr1="set:guide_ship_behavior image:guide_ship_behavior"/>
+</imageThree>

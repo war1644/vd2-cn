@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="turret"/> 
+<weaponID attr1="raptorMT"/> 
+<name attr1="Missile Launcher"/> 
+<turretWeapon attr1="missile"/>
+<hardpointID attr1="raptorML"/>
+<turretBarrel>
+	<weaponPosition x="2.55" y="-8.09" z="-23.06"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="2.55" y="-10.51" z="-23.06"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="0" y="-8.09" z="-23.39"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="0" y="-10.52" z="-23.39"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-2.55" y="-8.12" z="-23.23"/>
+</turretBarrel>
+<turretBarrel>
+	<weaponPosition x="-2.55" y="-10.51" z="-23.23"/>
+</turretBarrel>
+<turretViewPos x="0.0" y="2.8" z="0.5"/>
+<barrelDelay attr1="0.25"/>
+<weaponDirection>
+	<yaw attr1="0.0"/>
+	<pitch attr1="0.0"/>
+	<roll attr1="0.0"/>
+</weaponDirection>

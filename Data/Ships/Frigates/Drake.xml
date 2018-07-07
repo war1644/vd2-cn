@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Drake"/> 
+<objectID attr1="drake"/> 
+<faction attr1="thePride"/> 
+<shipClass attr1="frigate"/>
+<shipClassSize attr1="medium"/>
+<meshName attr1="Drake.mesh"/>
+<descriptionText attr1="A Bounty Hunter frigate."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Drake is a medium frigate of The Pride. Its role is primarily base defense, but is often seen on kill missions against higher profile targets."/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="Its primary weapons are eight plasma launchers, powerful at the cost of short range and low accuracy. Unusual weapons for bounty hunters. Best used against larger targets or the largest profile of a target, where the lack of accuracy is a non-issue."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Push beam."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="A particle beam optimized for push rather than damage. Savvy Drake captains use it in instances where more distance yields greater hit accuracy."/>
+<creditCost attr1="6850000"/>
+<missionRankRequired attr1="6"/>
+<bCanPurchase attr1="1"/>
+<cruiseSpeed attr1="32.0"/> 
+<timeTillCruise attr1="3.3"/>
+<yaw 	attr1="35.0"/> 
+<pitch	attr1="35.0"/> 
+<roll 	attr1="35.0"/> 
+<bGravityDrive attr1="1"/>
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="35.6" z="-53.67"/>
+<bHideShipInCockpitAcutal attr1="0"/>
+<cockpitInitPos x="0" y="50.38" z="30"/>
+<cockpitTransLimit x="3" y="3" z="3"/> 
+<chaseInitPos x="0" y="230" z="800"/>
+<chaseTransLimit x="20" y="20" z="20"/> 
+<health attr1="85000.0"/> 
+<armor attr1="1.25"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="4.0"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="600.0"/> 
+<damage>
+    <pitch attr1="12.0"/> 
+    <roll attr1="0.0"/> 
+	<yaw attr1="-5.0"/> 
+	<position x="-35.722" y="33.65" z="-44.969"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<damage>
+    <pitch attr1="25.0"/> 
+    <roll attr1="-135.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="59.152" y="3.701" z="-58.0"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage04"/>
+</damage>
+<damage>
+    <pitch attr1="-90.0"/> 
+    <roll attr1="-15.0"/> 
+	<yaw attr1="-12.0"/> 
+	<position x="15.341" y="-33.39" z="-73.946"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<damage>
+    <pitch attr1="12.0"/> 
+    <roll attr1="112.0"/> 
+	<yaw attr1="-11.0"/> 
+	<position x="-76.139" y="-25.102" z="56.569"/>
+	<healthPoint attr1="0.58"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<deathTimer attr1="6"/> 
+<deathSpin x="-0.054" y="-0.083" z="-0.073"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="drakeD00"/> 
+		<debrisMomentum attr1="2"/> 
+		<debrisAngular attr1="2"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explode05"/> 
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<preExplosionID attr1="explode03"/>
+<tacticalExplosionID attr1="tacExp2_60"/> 
+<engineSoundID attr1="eng-03"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="64.284" y="-17.567" z="105.136"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="-64.284" y="-17.567" z="105.136"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="0" y="-18.665" z="79.754"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="64.284" y="-17.567" z="36.633"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion150"/> 
+	<position x="-64.284" y="-17.567" z="36.633"/>
+	<direction attr1="fore"/> 
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-00"/>
+    <multiplier attr1="4.85"/>
+    <capacity attr1="10.0"/>
+    <recharge attr1="12.0"/>
+</afterburner>
+<bNoTargetAimNodeOffset attr1="1"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="drakeGun"/> 
+	<weaponPosition x="35.356" y="10.476" z="-93.371"/>
+	<weaponPosition x="-35.356" y="10.476" z="-93.371"/>
+	<weaponPosition x="47.308" y="10.996" z="-81.422"/>
+	<weaponPosition x="-47.308" y="10.996" z="-81.422"/>
+	<weaponPosition x="31.474" y="-26.274" z="-66.362"/>
+	<weaponPosition x="-31.474" y="-26.274" z="-66.362"/>
+	<weaponPosition x="36.475" y="-31.705" z="-66.362"/>
+	<weaponPosition x="-36.475" y="-31.705" z="-66.362"/>
+	<barrelDelay attr1="0.20"/>
+</weapon>
+<weapon> 
+    <weaponType attr1="beam"/> 
+    <hardpointID attr1="drakePB00"/> 
+	<weaponPosition x="0" y="-7.418" z="-105.876"/>
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<turret>
+    <turretID attr1="priamTurret01"/>
+	<position x="0" y="50.426" z="51.454"/>
+	<pitchLower attr1="-1.5"/>
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="eagleT01"/>
+	<position x="97.249" y="12" z="-22.858"/>
+	<pitchLower attr1="-5"/> 
+	<turretRole attr1="defense"/>
+	<turretOrientation attr1="right"/>
+</turret>
+<turret>
+    <turretID attr1="eagleT01"/>
+	<position x="-97.249" y="12" z="-22.858"/>
+	<pitchLower attr1="-5"/> 
+	<turretRole attr1="defense"/>
+	<turretOrientation attr1="left"/>
+</turret>
+<turret>
+    <turretID attr1="eagleT01"/>
+	<position x="0" y="-54" z="-33.933"/>
+	<pitchLower attr1="-5"/> 
+	<turretRole attr1="defense"/>
+	<turretOrientation attr1="bottom"/>
+</turret>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="5"/>
+	<activeUpgradeCapacity attr1="6"/>
+	<upgradeID attr1="gunPod00"/>
+	<upgradeID attr1="frArmor00"/>
+	<upgradeID attr1="frShield00"/>
+	<upgradeID attr1="frShieldRecharge00"/>
+	<upgradeID attr1="frUpgradeRecharge00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="frigateMan00"/>
+	<upgradeID attr1="frigateThrust00"/>
+	<upgradeID attr1="frAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="frArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="frSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="frigatePUS00"/>
+	<upgradeID attr1="frigateAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bLargeDockOnly attr1="1"/>

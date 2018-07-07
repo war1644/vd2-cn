@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="sulis"/> 
+<displayName attr1="Sulis"/> 
+<objectID attr1="sulis"/> 
+<faction attr1="civilian"/>
+<meshName attr1="Sulis.mesh"/>
+<physicalRotatingElement> 
+	<meshName attr1="demeterHabitat.mesh"/>
+	<rollSpeed attr1="1"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<physicalRotatingElement> 
+	<meshName attr1="sulisEnergyGen1.mesh"/>
+	<rollSpeed attr1="-10"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<physicalRotatingElement> 
+	<meshName attr1="sulisEnergyGen2.mesh"/>
+	<rollSpeed attr1="10"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<descriptionText attr1="A Civilian base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Specialized for energy production, this base is able to undercut any other supplier."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="0" y="0" z="-328"/>
+<dockingArmsEnd x="0" y="0" z="-350"/>
+<dockPosition x="0" y="0" z="-328"/>
+<dockSize x="175" y="100" z="150"/>
+<hangarID attr1="theHubH"/> 
+<maxBuildShipClass attr1="corvette"/>
+<bCanResearch attr1="1"/>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="RhinoG"/> 
+<objectID attr1="rhinoG"/>
+<faction attr1="beggar"/> 
+<shipClass attr1="corvette"/>
+<shipClassSize attr1="medium"/>
+<meshName attr1="RhinoG.mesh"/>
+<descriptionText attr1="A medium combat corvette."/> 
+<descriptionText attr1=" "/>
+<descriptionText attr1="A variant of the Rhino, equipped with the Raptor's heavy guns. Making this variant to be often regarded as the upgraded version of the Raptor."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Like the Raptor, its focus is on larger targets, but its capable of taking quite a lot more punishment."/>
+<creditCost attr1="1150000"/>
+<missionRankRequired attr1="4"/>
+<cruiseSpeed attr1="50.0"/> 
+<timeTillCruise attr1="2.35"/> 
+<yaw 	attr1="65.0"/> 
+<pitch	attr1="65.0"/> 
+<roll 	attr1="65.0"/> 
+<bGravityDrive attr1="1"/> 
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="11.59" z="-32.45"/>
+<_bHideShipInCockpitAcutal attr1="0"/>
+<cockpitInitPos x="0" y="25.6" z="25.62"/>
+<cockpitTransLimit x="2" y="2" z="2"/> 
+<chaseInitPos x="0" y="62.53" z="280"/>
+<chaseTransLimit x="14" y="8" z="6"/>
+<health attr1="13500"/> 
+<armor attr1="1.0"/>
+<buildTime	attr1="30.0"/> 
+<crew 		attr1="1"/> 
+<energy		attr1="300.0"/> 
+<ore		attr1="400.0"/> 
+<damage>
+    <pitch attr1="15.0"/> 
+    <roll attr1="35.0"/> 
+	<yaw attr1="12.0"/> 
+	<position x="-9.069" y="12.188" z="-27.446"/>
+	<healthPoint attr1="0.22"/>
+	<damageEffectID attr1="damage01"/>
+</damage>
+<damage>
+    <pitch attr1="90.0"/> 
+    <roll attr1="-5.0"/> 
+	<yaw attr1="-12.0"/> 
+	<position x="3.13" y="19.285" z="13.431"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<damage>
+    <pitch attr1="0.0"/> 
+    <roll attr1="-90.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="6.924" y="4.059" z="33.985"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="damage02"/>
+</damage>
+<deathTimer attr1="2.8"/> 
+<deathSpin x="-0.07" y="0.02" z="0.07"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="rhinoD01"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+	<debris>
+		<debrisID attr1="rhinoD02"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris> 
+</debrisInfo> 
+<explosionID attr1="explodeRed04"/>
+<preExplosionID attr1="explode01"/>
+<preExplosionID attr1="explode02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="0" y="9.31" z="55.85"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="0" y="1.16" z="50.43"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="14.77" y="-3.55" z="51.5"/>
+</propulsion> 
+<propulsion> 
+    <propulsionEffectID attr1="propulsion050"/> 
+	<position x="-14.77" y="-3.55" z="51.4"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="5.65"/> 
+    <capacity attr1="15"/>
+    <recharge attr1="16"/> 
+</afterburner>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<weapon> 
+    <weaponType attr1="projectile"/> 
+    <hardpointID attr1="raptorG"/> 
+	<weaponPosition x="18.946" y="-6.736" z="-53.87"/>
+	<weaponPosition x="-18.946" y="-6.736" z="-53.87"/>
+</weapon>
+<turret>
+    <turretID attr1="rhinoTurret"/>
+	<yawPermitted attr1="75"/>
+	<turretOrientation attr1="bottom"/> 
+	<position x="0" y="-12.942" z="-44.979"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+</turret>
+<turret>
+    <turretID attr1="vultureTurret01"/> 
+	<position x="0" y="23.153" z="28.539"/>
+	<pitchLower attr1="-5.0"/> 
+	<turretRole attr1="defense"/>
+	<_bShowInCockpit attr1="1"/>
+</turret>
+<weapon> 
+    <weaponType attr1="missile"/> 
+    <hardpointID attr1="raptorML"/> 
+	<weaponPosition x="13.88" y="-11.47" z="-27.38"/>
+	<weaponPosition x="15.96" y="-12.66" z="-27.56"/>
+	<weaponPosition x="12.59" y="-13.63" z="-27.67"/>
+	<weaponPosition x="14.67" y="-14.84" z="-27.72"/>
+	<weaponPosition x="11.29" y="-15.82" z="-27.71"/>
+	<weaponPosition x="13.43" y="-17.07" z="-27.69"/>
+	<barrelDelay attr1="0.4"/> 
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<weapon> 
+    <weaponType attr1="missile"/> 
+    <hardpointID attr1="raptorML"/> 
+	<weaponPosition x="-13.88" y="-11.47" z="-27.38"/>
+	<weaponPosition x="-15.96" y="-12.66" z="-27.56"/>
+	<weaponPosition x="-12.59" y="-13.63" z="-27.67"/>
+	<weaponPosition x="-14.67" y="-14.84" z="-27.72"/>
+	<weaponPosition x="-11.29" y="-15.82" z="-27.71"/>
+	<weaponPosition x="-13.43" y="-17.07" z="-27.69"/>
+	<barrelDelay attr1="0.5"/> 
+	<weaponFire attr1="secondary"/> 
+</weapon>
+<targetPriorityList> 
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="dreadnaught"/>
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="attack_station"/>
+</targetPriorityList>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="4"/>
+	<activeUpgradeCapacity attr1="5"/>
+	<upgradeID attr1="cArmor00"/>
+	<upgradeID attr1="cShield00"/>
+	<upgradeID attr1="cShieldRecharge00"/>
+	<upgradeID attr1="cUpgradeRecharge00"/>
+	<upgradeID attr1="corvetteFShield00"/>
+	<upgradeID attr1="corvetteRShield01"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="corvetteMan00"/>
+	<upgradeID attr1="corvetteThrust00"/>
+	<upgradeID attr1="cAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="cArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="tractorBeam00"/>
+	<upgradeID attr1="cSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="attackMe00"/>
+	<upgradeID attr1="corvettePUS00"/>
+	<upgradeID attr1="corvetteAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="121.87" y="0" z="80"/>

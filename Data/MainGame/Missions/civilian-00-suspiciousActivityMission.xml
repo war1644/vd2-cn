@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Suspicious Activity"/>
+<missionDescriptionText attr1="A shuttle pilot reported some suspicious activity near Outpost 01."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Go to the area and transmit sensor readings."/>
+<objectID attr1="civ-00"/>
+<missionFactionID attr1="civilian"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="-5728" y="0" z="493"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="1000"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<maximumShipClass attr1="fighter"/>
+<bOverworldByPass attr1="1"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="cutterG"/>
+		<shipName attr1="pusher1"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="reborn"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="0"/>
+		<bReletiveToPlayer attr1="1"/>
+		<position x="-1000" y="500" z="-8000"/>
+		<aiPosture attr1="hold"/>
+		<lookAtObject attr1="playerShip"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_debris"/>
+		<debrisID attr1="raceGate00D00"/>
+		<name attr1="pushDebris"/>
+		<bLimitLife attr1="0"/>
+		<reletiveObject attr1="pusher1"/>
+		<position x="0" y="0" z="-1000"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="pushDebris"/> 	
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="0.01"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="cutterG"/>
+		<shipName attr1="pusher2"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="reborn"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="0"/>
+		<reletiveObject attr1="pusher1"/>
+		<position x="-500" y="0" z="0"/>
+		<aiPosture attr1="hold"/>
+		<lookAtObject attr1="pushDebris"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="cutter"/>
+		<shipName attr1="miniCarrier1"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="reborn"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="pusher2"/>
+		<position x="1000" y="200" z="0"/>
+		<aiPosture attr1="hold"/>
+		<lookAtObject attr1="playerShip"/>
+		<bFillAttachedShips attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="bhApprovalShip"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postCutscene attr1="civ-00-01-pusher"/>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="2"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="This is Civilian Outpost 01 mission control."/>
+			<content attr1="We have you at the mission site."/>
+			<content attr1="Acknowledge."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<content attr1="Acknowledged."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="*$#@@#!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="Sorry."/>
+			<content attr1="I don't think I'll ever get used to seeing Stubs."/>
+			<content attr1="Receiving sensor data."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="Yeah... yep..."/>
+			<content attr1="No worries, standard 'push the debris' at us Tuesday."/>
+			<content attr1="We'll pay them off and everything will be alright."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="Hmm... sensors showing incoming ships."/>
+			<content attr1="Stand by."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>	
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="4"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="correa"/>
+		<shipName attr1="incCorrea 1"/>
+		<shipID attr1="intrepid"/>
+		<shipName attr1="incIntrepid 1-1"/>
+		<shipID attr1="intrepid"/>
+		<shipName attr1="incIntrepid 1-2"/>
+		<shipID attr1="bonnie"/>
+		<shipName attr1="incBonnie 1-1"/>
+		<shipID attr1="bonnie"/>
+		<shipName attr1="incBonnie 1-2"/>
+		<shipID attr1="bonnie"/>
+		<shipName attr1="incBonnie 1-3"/>
+		<shipID attr1="bonnie"/>
+		<shipName attr1="incBonnie 1-4"/>
+		<shipID attr1="bonnie"/>
+		<shipName attr1="incBonnie 1-5"/>
+		<bReletiveToPlayer attr1="1"/>
+		<position x="3000" y="0" z="-3000"/>
+		<faction attr1="tsf"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="incCorrea 1"/>
+		<shipName attr1="incIntrepid 1-1"/>
+		<shipName attr1="incIntrepid 1-2"/>
+		<shipName attr1="incBonnie 1-1"/>
+		<shipName attr1="incBonnie 1-2"/>
+		<shipName attr1="incBonnie 1-3"/>
+		<shipName attr1="incBonnie 1-4"/>
+		<shipName attr1="incBonnie 1-5"/>
+		<hopPosition x="0" y="0" z="0"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="incCorrea 1"/>
+		<objectName attr1="incIntrepid 1-1"/>
+		<objectName attr1="incIntrepid 1-2"/>
+		<objectName attr1="incBonnie 1-1"/>
+		<objectName attr1="incBonnie 1-2"/>
+		<objectName attr1="incBonnie 1-3"/>
+		<objectName attr1="incBonnie 1-4"/>
+		<objectName attr1="incBonnie 1-5"/>
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="0.5"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="playerShip"/> 	
+		<alterType attr1="set_damage_multiplier"/>
+		<floatValue attr1="0.75"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="play_music"/>
+		<musicID attr1="vd1-hopefull00"/> 	
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="alter_ship"/>
+		<alterType attr1="alter_ai_posture"/>
+		<shipName attr1="pusher1"/>
+		<shipName attr1="pusher2"/>
+		<aiPosture attr1="search_and_destroy"/>		
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<nextMissionNumber attr1="100"/>
+	<nextMissionNumber attr1="200"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="2"/>
+	</objective>
+	<postCutscene attr1="civ-00-02-incoming"/>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<missionHUDText attr1="Stand by..."/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="reborn"/> 
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="1000"/>
+	<missionHUDText attr1="Stand by..."/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="reborn"/> 
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="Well the Reborn aren't going to like this..."/>
+			<content attr1="The Reborn are a local pirate faction."/>
+			<content attr1="They threaten to push debris at us, we pay them not to."/>
+			<content attr1="Everyone's happy."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="Except, now it looks like we ratted them out to the TSF."/>
+			<content attr1="The Reborn won't be happy."/>
+			<content attr1="There is going to be a lot more... stuff... flying at us."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="Any who..."/>
+			<content attr1="I've been authorized to compensate you an additional 500 credits, as hazard pay."/>
+			<content attr1="By accepting these credits you agree to waive all claims against the Civilian Conglomerate."/>
+			<content attr1="It's affiliates and shareholders."/>
+			<content attr1="Yadda yadda yadda, you know the drill..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="sam"/>
+			<content attr1="Thank you for your co-operation."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="100"/>
+	<failMissionNumber attr1="101"/>
+	<note_to_self attr1="taking too long for enemies to be destroyed"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="120"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="reborn"/> 
+		<bIsFailObjective attr1="1"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="incPerezGMK2 2-1"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="incPerezGMK2 2-2"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="incPerezGMK2 2-3"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="incPerezGMK2 2-4"/>
+		<shipID attr1="perezGMK2"/>
+		<shipName attr1="incPerezGMK2 2-5"/>
+		<bReletiveToPlayer attr1="1"/>
+		<position x="3000" y="0" z="-3000"/>
+		<faction attr1="tsf"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="incPerezGMK2 2-1"/>
+		<shipName attr1="incPerezGMK2 2-2"/>
+		<shipName attr1="incPerezGMK2 2-3"/>
+		<shipName attr1="incPerezGMK2 2-4"/>
+		<shipName attr1="incPerezGMK2 2-5"/>
+		<hopPosition x="0" y="0" z="0"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="101"/>
+	<note_to_self attr1="failure in this case is enemies destroyed - no need for reinforcements"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="200"/>
+	<note_to_self attr1="player kills something dialog"/>
+	<objective>
+		<objectiveType attr1="faction_kill_count"/> 
+		<faction attr1="reborn"/>
+		<killCount attr1="1"/>
+		<bPlayerFactionKillOnly attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric02"/>
+			<nameOverride attr1="Flight Wingman ID 23AB31"/>
+			<content attr1="That damn civie stole my kill!"/>
+			<content attr1="Permission for preemptive criminal prosecution sir?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tsfGeneric01"/>
+			<nameOverride attr1="Flight Leader ID 08GB83"/>
+			<content attr1="Heh heh... Maybe next time."/>
+			<content attr1="I thought it was kind of cute."/>
+			<content attr1="Baby's first kill..."/>
+		</dialog>
+	</postDialog>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<nextMissionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+	<reward>
+		<rewardType attr="credit"/>
+		<credits attr="500"/>
+	</reward>
+	<reward>
+		<rewardType attr="mission_rank"/>
+		<rank attr="1.05"/>
+		<faction attr="civilian"/>
+	</reward>
+</mission>
+<mission>
+	<missionNumber attr1="1001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>

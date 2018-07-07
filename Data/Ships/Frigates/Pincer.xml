@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Pincer"/> 
+<objectID attr1="pincer"/> 
+<faction attr1="outsider"/>
+<shipClass attr1="frigate"/>
+<shipClassSize attr1="heavy"/>
+<combatAIClass attr1="frigate"/>
+<meshName attr1="Pincer.mesh"/>
+<descriptionText attr1="A frigate class ship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Pincer features powerful beam turrets, a energy missile launcher and a energy barrier."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="From Outsider debris, the energy barrier has been extensively studied and has now appeared on the open market."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="This form of defense was extremely jarring to TSF forces during the Outsider conflict."/>
+<creditCost attr1="0"/>
+<cruiseSpeed attr1="35.0"/> 
+<timeTillCruise attr1="3.0"/>
+<yaw 	attr1="40.0"/>
+<pitch	attr1="40.0"/>
+<roll 	attr1="40.0"/>
+<bGravityDrive attr1="1"/>
+<bEveryShipyardOk attr1="1"/>
+<cockpitID attr1="cockpit002-1"/>
+<cockpitActualPos x="0" y="0" z="0"/>
+<cockpitInitPos x="-53.31" y="18.95" z="107.31"/>
+<cockpitTransLimit x="3" y="3" z="3"/>
+<chaseInitPos x="0.0" y="128.58" z="928.15"/>
+<chaseTransLimit x="16" y="10" z="6"/>
+<health attr1="70000.0"/>
+<armor attr1="1.25"/>
+<shieldHealth attr1="0"/>
+<damage>
+    <pitch attr1="135.0"/> 
+    <roll attr1="5.0"/> 
+	<yaw attr1="-15.0"/> 
+	<position x="0" y="76.437" z="89.015"/>
+	<healthPoint attr1="0.32"/>
+	<damageEffectID attr1="outsiderD01"/>
+</damage>
+<damage>
+    <pitch attr1="-4.0"/> 
+    <roll attr1="2.0"/> 
+	<yaw attr1="125.0"/> 
+	<position x="-23.961" y="9.127" z="10.24"/>
+	<healthPoint attr1="0.52"/>
+	<damageEffectID attr1="outsiderD01"/>
+</damage>
+<deathTimer attr1="2.8"/>
+<deathSpin x="-0.07" y="0.02" z="0.07"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="pincerD00"/>
+		<debrisMomentum attr1="2"/>
+		<debrisAngular attr1="2"/>
+	</debris>
+</debrisInfo>
+<explosionID attr1="outsiderE05"/>
+<preExplosionID attr1="outsiderE00"/>
+<preExplosionID attr1="outsiderE01"/>
+<preExplosionID attr1="outsiderE02"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<turret>
+    <turretID attr1="pincerTurret"/>
+	<position x="35.19" y="0.0" z="0"/>
+	<pitchLower attr1="-5"/>
+	<turretOrientation attr1="right"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/> 
+	<bShowInCockpit attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="pincerTurret"/>
+	<position x="-35.19" y="0.0" z="0"/>
+	<pitchLower attr1="-5"/>
+	<turretOrientation attr1="left"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/> 
+	<bShowInCockpit attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="pincerMT"/> 
+   	<position x="0.0" y="0.0" z="0.0"/> 
+	<turretRole attr1="parents_target"/>
+</turret>
+<shield>
+    <shieldID attr1="oSS00"/>
+	<shieldPosition x="-35.561" y="58.467" z="113"/>
+	<shieldOrientation attr1="left"/>
+	<roll attr1="75"/>
+</shield>
+<targetPriorityList> 
+	<targetClass attr1="corvette"/>
+	<targetClass attr1="frigate"/>
+	<targetClass attr1="destroyer"/> 
+	<targetClass attr1="cruiser"/>
+	<targetClass attr1="carrier"/>  
+	<targetClass attr1="dreadnaught"/> 
+	<targetClass attr1="attack_station"/>
+</targetPriorityList>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<bLargeHangarOnly attr1="1"/>
+<shipHangarPosition x="124.128" y="-2.206" z="230"/>

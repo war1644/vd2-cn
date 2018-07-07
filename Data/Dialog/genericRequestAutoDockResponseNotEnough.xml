@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieAutoDockNotEnough00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="request_auto_dock_response_not_enough"/>
+<dialog attr1="Negative, auto dock is for VIPs only."/>
+<dialog attr1="No, you need to put in some more work."/>
+<dialog attr1="Reserved for VIPS only."/>
+<dialog attr1="Gotta keep the pattern clear, VIPS only."/>
+<dialog attr1="Big ships or big wigs only."/>

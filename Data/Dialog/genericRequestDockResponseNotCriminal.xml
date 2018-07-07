@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<dialogID attr1="civieRequestDockNotCriminal00"/> 
+<bGeneric attr1="1"/> 
+<factionID attr1="civilian"/>
+<dialogType attr1="request_dock_response_not_criminal"/>
+<dialog attr1="No. You've got to prove yourself before you can dock."/>
+<dialog attr1="Nope. Too much of a goody two shoes."/>
+<dialog attr1="Prove you are one of us, break some laws."/>
+<dialog attr1="You aren't wanted here.. Get it?! Wanted! hah hah!"/>
+<dialog attr1="Denied. Friends and criminals only."/>

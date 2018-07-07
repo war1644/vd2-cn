@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="asteroid_base"/> 
+<name attr1="tsfFOB"/> 
+<displayName attr1="tsfFOB"/> 
+<objectID attr1="tsfFOB"/> 
+<faction attr1="tsf"/> 
+<meshName attr1="tsfFOB.mesh"/>
+<wireframeMaterial attr1="WF/TheHub"/> 
+<descriptionText attr1="A TSF base."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="These forward operation bases have been built to shore up security against possible Outsider attacks."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Due to the loss of the Coach base during the MU rebellion, and the decision to decommission the Hub base after surveying its damage, new bases became necessary."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Quickly assembled and with bare minimum accommodations, they are hungry consumers of resources."/>
+<oreProductionModifier attr1="0.0"/>
+<maxCrew attr1="350.0"/> 
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>
+<dockingArms x="0" y="0" z="-112"/>
+<dockingArmsEnd x="0" y="0" z="-350"/>
+<dockPosition x="0" y="0" z="-175"/>
+<dockSize x="200" y="90" z="38"/>
+<hangarID attr1="tsfFOBH"/> 
+<maxBuildShipClass attr1="frigate"/>
+<bCanResearch attr1="1"/>

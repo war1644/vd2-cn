@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<topicID attr1="searchAndDestroy"/>
+<topicName attr1="  Search And Destroy"/>
+<mainText attr1="Search And Destroy:"/>
+<mainText attr1="Ships WILL target enemy ships on their own"/>
+<mainText attr1="At first - targets are chosen just like in Engage setting (within combat range)"/>
+<mainText attr1="IF NOT FOUND - targets are chosen from within an ever expanding range"/>
+<mainText attr1="      Example: if no targets found within 5k units, then search 10k units"/>
+<mainText attr1=" "/>
+<mainText attr1="Goal:"/>
+<mainText attr1="Complete ship independence."/>
+<mainText attr1=" "/>
+<mainText attr1="Use:"/>
+<mainText attr1="This is a great mop up enemies setting."/>
+<mainText attr1="     When there are more friendly ships than enemy ships and enemy defenses are destroyed or not significant."/>
+<mainText attr1="This setting is good on large areas of engagement."/>
+<mainText attr1="     No need to micro manage."/>
+<mainText attr1="Hop into a ship - and pilot it yourself. Your forces will engage on their own as well."/>
+<imageThree>
+	<image attr1="set:guide_ship_behavior image:guide_ship_behavior"/>
+</imageThree>

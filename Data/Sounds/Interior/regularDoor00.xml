@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="sound"/> 
+<soundType attr1="looping"/>
+<objectID attr1="regularDoor00"/> 
+<soundFile attr1="regularDoor00.wav"/>
+<tailSound attr1="regularDoor00-tail.wav"/>
+<defaultVolume attr1="0.9"/>
+<maxDistance attr1="50"/> 
+<referenceDistance attr1="25"/>
+<soundPriority attr1="150"/>

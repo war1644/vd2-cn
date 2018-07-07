@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="station"/> 
+<name attr1="Mining Platform"/> 
+<objectID attr1="miningPlatform01"/> 
+<faction attr1="civilian"/> 
+<stationClass attr1="production_platform"/>
+<resourceProduced attr1="ore"/>
+<stationSizeAsShip attr1="carrier"/>
+<creditCost attr1="1500000"/>
+<bCommonPlatform attr1="1"/>
+<meshName attr1="miningPlatform01.mesh"/>
+<physicalRotatingElement> 
+	<meshName attr1="mp01-drill.mesh"/>
+	<pitchSpeed attr1="55"/> 
+	<collisionShape attr1="trimesh"/>
+</physicalRotatingElement>
+<alwaysOnEffect>
+    <effectID attr1="miningDustCloud00"/> 
+	<position x="300" y="0" z="0"/>
+</alwaysOnEffect>
+<descriptionText attr1="A platform capable of mining ore."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Usually attached to asteroid bases for the purpose of mining ore or engaging in independent mining operations."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="When interdependently run, their low prices make them sought out trading partners."/>
+<health attr1="150000"/>
+<explosionID attr1="explode15"/>
+<tacticalExplosionID attr1="tacExp25_75"/> 
+<debrisInfo>
+	<debris>
+		<debrisID attr1="miningPlatform01D00"/> 
+		<debrisMomentum attr1="2.5"/> 
+		<debrisAngular attr1="2.5"/> 
+	</debris>
+</debrisInfo>
+<collisionShape attr1="trimesh"/>
+<isMassInfinite attr1="1"/>

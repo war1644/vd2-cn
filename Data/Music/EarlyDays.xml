@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<effectType attr1="music"/> 
+<objectID attr1="earlyDays"/> 
+<musicFile attr1="EarlyDays.ogg"/>
+<defaultVolume attr1="1.0"/>
+<bLooping attr1="0"/>
