@@ -12,32 +12,32 @@
         </Window>
         <Window Type="jhGUI/Left_Button" Name="MainMenu/btnNewGame" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="NEW GAME" />
+            <Property Name="Text" Value="新游戏" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.248186,0},{0.248776,0},{0.289913,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="MainMenu/btnLoad" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="LOAD" />
+            <Property Name="Text" Value="载入存档" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.299671,0},{0.248776,0},{0.341398,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="MainMenu/btnOptions" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="OPTIONS" />
+            <Property Name="Text" Value="选项" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.350722,0},{0.248776,0},{0.392449,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="MainMenu/btnControlMapping" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="CONTROL MAPPING" />
+            <Property Name="Text" Value="按键设置" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.402143,0},{0.248776,0},{0.443871,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="MainMenu/btnCredits" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="CREDITS" />
+            <Property Name="Text" Value="致谢" />
             <Property Name="UnifiedAreaRect" Value="{{0.0821873,0},{0.453363,0},{0.248181,0},{0.495092,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="MainMenu/btnExit" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="EXIT GAME" />
+            <Property Name="Text" Value="退出游戏" />
             <Property Name="UnifiedAreaRect" Value="{{0.0821873,0},{0.503946,0},{0.24818,0},{0.545676,0}}" />
         </Window>
         <Window Type="ootGUI/StaticTextRight" Name="MainMenu/txtVersion" >
@@ -79,7 +79,7 @@ Striving for the ultimate space sandbox - together!</Property>
         </Window>
         <Window Type="jhGUI/Left_Button" Name="MainMenu/btnGuide" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="GUIDE" />
+            <Property Name="Text" Value="游戏手册" />
             <Property Name="AlwaysOnTop" Value="True" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.196669,0},{0.248776,0},{0.238396,0}}" />
         </Window>
