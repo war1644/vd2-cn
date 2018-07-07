@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="MainMenu" >
+        <Property Name="Font" Value="Exo-SemiBold-12" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="ootGUI/StaticImageLarge" Name="MainMenu/Logo" >
+            <Property Name="Image" Value="set:VD2logoStrokeGrey_Small image:VD2logoStrokeGrey_Small" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00178563,0},{0.0041081,0},{0.322024,0},{0.204632,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="jhGUI/Left_Button" Name="MainMenu/btnNewGame" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="mod新游戏" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.248186,0},{0.248776,0},{0.289913,0}}" />
+        </Window>
+        <Window Type="jhGUI/Left_Button" Name="MainMenu/btnLoad" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="mod载入存档" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.299671,0},{0.248776,0},{0.341398,0}}" />
+        </Window>
+        <Window Type="jhGUI/Left_Button" Name="MainMenu/btnOptions" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="选项" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.350722,0},{0.248776,0},{0.392449,0}}" />
+        </Window>
+        <Window Type="jhGUI/Left_Button" Name="MainMenu/btnControlMapping" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="按键设置" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.402143,0},{0.248776,0},{0.443871,0}}" />
+        </Window>
+        <Window Type="jhGUI/Left_Button" Name="MainMenu/btnCredits" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="致谢" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0821873,0},{0.453363,0},{0.248181,0},{0.495092,0}}" />
+        </Window>
+        <Window Type="jhGUI/Left_Button" Name="MainMenu/btnExit" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="退出游戏" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0821873,0},{0.503946,0},{0.24818,0},{0.545676,0}}" />
+        </Window>
+        <Window Type="ootGUI/StaticTextRight" Name="MainMenu/txtVersion" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" >Void Destroyer 2 - 预览版 - 感谢你的支持!
+争取成为最好的太空沙盒游戏 - together!</Property>
+            <Property Name="HorzExtent" Value="387" />
+            <Property Name="VertExtent" Value="55.6314" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.671771,0},{0.874473,0},{0.992068,0},{0.980546,0}}" />
+        </Window>
+        <Window Type="ootGUI/StaticImageLarge" Name="MainMenu/ExitGame" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Exit Game: Are you Sure?" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMinSize" Value="{{0.1,0},{0.1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.353043,0},{0.372361,0},{0.624717,0},{0.515233,0}}" />
+            <Window Type="jhGUI/Right_Button" Name="MainMenu/ExitGame/btnYes" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="YES" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0652931,0},{0.586461,0},{0.489313,0},{0.923281,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="MainMenu/ExitGame/btnNo" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="NO" />
+                <Property Name="UnifiedAreaRect" Value="{{0.539647,0},{0.586461,0},{0.963667,0},{0.923281,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="MainMenu/ExitGame/txtExitYesNo" >
+                <Property Name="Font" Value="Exo-SemiBold-14" />
+                <Property Name="Text" Value="EXIT GAME?" />
+                <Property Name="HorzExtent" Value="105" />
+                <Property Name="VertExtent" Value="21.6585" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.32342,0},{0.153692,0},{0.706739,0},{0.441248,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Left_Button" Name="MainMenu/btnGuide" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="游戏手册" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.196669,0},{0.248776,0},{0.238396,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

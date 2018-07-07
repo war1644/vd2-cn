@@ -7,7 +7,7 @@
             <Property Name="UnifiedAreaRect" Value="{{0.302975,0},{0.27286,0},{0.697618,0},{0.601148,0}}" />
             <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtMainTxt" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="Control Mapping:" />
+                <Property Name="Text" Value="按键设置:" />
                 <Property Name="HorzExtent" Value="129" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -17,7 +17,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtDevice" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="Device:" />
+                <Property Name="Text" Value="设备:" />
                 <Property Name="HorzExtent" Value="54" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -71,7 +71,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtPressEscape" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="Press Escape to Cancel" />
+                <Property Name="Text" Value="按esc取消" />
                 <Property Name="HorzExtent" Value="176" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -90,7 +90,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtDirective" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="Use Device to specify new input" />
+                <Property Name="Text" Value="按下按钮设置" />
                 <Property Name="HorzExtent" Value="240" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -99,7 +99,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtConflict" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="[colour=&apos;FFFF0000&apos;]!! CONFLICT DETECTED !!" />
+                <Property Name="Text" Value="[colour=&apos;FFFF0000&apos;]!! 按键冲突 !!" />
                 <Property Name="HorzExtent" Value="181" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -108,7 +108,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="JoystickPreset/winPopup/txtIgnoreList" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="[colour=&apos;FFFF0000&apos;]!! IGNORE LIST BUTTON DETECTED !!" />
+                <Property Name="Text" Value="[colour=&apos;FFFF0000&apos;]!! 忽略列表按键 !!" />
                 <Property Name="HorzExtent" Value="265" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />

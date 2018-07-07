@@ -69,17 +69,17 @@
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="hammond"/>
-			<content attr1="Hey Taz... "/>
-			<content attr1="How do we work this thing?"/>
+			<content attr1="嘿，Taz... "/>
+			<content attr1="我们如何处理这事？"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="taz"/>
-			<content attr1="We just tell it what to do."/>
-			<content attr1="Let's try something easy..."/>
+			<content attr1="我们只是告诉它该做什么。"/>
+			<content attr1="放轻松点..."/>
 			<content attr1="Hey!"/>
 			<content attr1="Stub!"/>
-			<content attr1="Go to the position marked on your HUD."/>
+			<content attr1="转到界面上标记的位置."/>
 		</dialog>
 	</postDialog>
 </mission>
@@ -101,8 +101,8 @@
 		<bIsFailObjective attr1="1"/>
 		<bNoObjectiveMarker attr1="1"/>
 	</objective>
-	<missionHUDText attr1="Go to the marked position"/>
-	<missionHUDText attr1="Maneuver via mouse or controller"/>
+	<missionHUDText attr1="前往标记位置"/>
+	<missionHUDText attr1="通过鼠标或控制器进行操作"/>
 	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
 	<missionHUDText attr1="All stop - key" attr2="ship_command" attr3="zero_speed"/>
 	<postDialog>

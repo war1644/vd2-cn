@@ -12,7 +12,7 @@
         </Window>
         <Window Type="jhGUI/StaticImageRight" Name="Options/Main" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="Options:" />
+            <Property Name="Text" Value="选项:" />
             <Property Name="AlwaysOnTop" Value="True" />
             <Property Name="UnifiedMinSize" Value="{{0.1,0},{0.1,0}}" />
             <Property Name="UnifiedAreaRect" Value="{{0.238207,0},{0.136615,0},{0.987117,0},{0.893686,0}}" />
@@ -24,12 +24,12 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.0117027,0},{0.0439936,0},{0.989314,0},{0.97784,0}}" />
                 <Window Type="DefaultWindow" Name="Options/Main/Graphics" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="  Graphics" />
+                    <Property Name="Text" Value="  画质" />
                     <Property Name="AlwaysOnTop" Value="True" />
                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                     <Window Type="ootGUI/StaticText" Name="Options/Main/Graphics/txtResolution" >
                         <Property Name="Font" Value="Exo-SemiBold-12" />
-                        <Property Name="Text" Value="Resolution:" />
+                        <Property Name="Text" Value="分辨率:" />
                         <Property Name="HorzExtent" Value="86" />
                         <Property Name="VertExtent" Value="18.5438" />
                         <Property Name="FrameEnabled" Value="False" />
@@ -43,7 +43,7 @@
                     </Window>
                     <Window Type="ootGUI/StaticText" Name="Options/Main/Graphics/txtFSAA" >
                         <Property Name="Font" Value="Exo-SemiBold-12" />
-                        <Property Name="Text" Value="FSAA:" />
+                        <Property Name="Text" Value="全屏抗锯齿:" />
                         <Property Name="HorzExtent" Value="44" />
                         <Property Name="VertExtent" Value="18.5438" />
                         <Property Name="FrameEnabled" Value="False" />

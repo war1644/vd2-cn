@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <objectType attr1="asteroid_base"/> 
 <name attr1="shangrila"/> 
-<displayName attr1="Shangri-La"/> 
+<displayName attr1="香格里拉"/> 
 <objectID attr1="shangrila"/> 
 <faction attr1="civilian"/>
 <meshName attr1="Shangrila.mesh"/>
 <wireframeMaterial attr1="WF/TheHub"/> 
-<descriptionText attr1="A former Stub base now a civilian outpost."/>
+<descriptionText attr1="以前的Stub基地，现在是一个民用前哨。"/>
 <descriptionText attr1=" "/>
 <descriptionText attr1="Discovered abandoned near the end of the Outsider wars. This base now houses medical and aid facilities which attempt to re-integrate Stubs into society."/>
 <descriptionText attr1=" "/>

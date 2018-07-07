@@ -3,19 +3,19 @@
 <objectID attr1="main01"/>
 <missionLocation attr1="civilianOutpost01"/>
 <bCompleteOnNextDock attr1="1"/>
-<missionOverworldText attr1="Travel to the marked object"/>
-<missionOverworldText attr1="Go to position - "/>
-<missionOverworldText attr1="   Right click to initiate"/>
-<missionOverworldText attr1="   Left click to confirm"/>
-<missionOverworldText attr1="Go to object - right click on object"/>
+<missionOverworldText attr1="前往标记物体"/>
+<missionOverworldText attr1="前往位置 - "/>
+<missionOverworldText attr1="   右键启动"/>
+<missionOverworldText attr1="   左键确认"/>
+<missionOverworldText attr1="前往目标 - 右键点击该目标"/>
 <missionOverworldText attr1=" "/>
-<missionOverworldText attr1="Camera Control - "/>
-<missionOverworldText attr1="   Rotate - hold right mouse button, move mouse"/>
-<missionOverworldText attr1="   Zoom - Mouse wheel"/>
+<missionOverworldText attr1="摄像机控制 - "/>
+<missionOverworldText attr1="   旋转镜头 - 按住右键并移动鼠标"/>
+<missionOverworldText attr1="   缩放镜头 - 滚动鼠标滚轮"/>
 <missionOverworldText attr1=" "/>
-<missionOverworldText attr1="When near destination - "/>
-<missionOverworldText attr1="   Click the 'Ship Mode' button"/>
-<missionOverworldText attr1="   Or toggle Overworld mode - SHIFT + ENTER (default)"/>
+<missionOverworldText attr1="在目的地附近时 - "/>
+<missionOverworldText attr1="   点击'Ship Mode'按钮"/>
+<missionOverworldText attr1="   切换游戏地图模式 - SHIFT + ENTER (默认按键)"/>
 <creditReward attr1="0"/>
 <bRepeatable attr1="0"/>
 <bRemoveMissionOnNextDock attr1="1"/>
@@ -37,14 +37,14 @@
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="This is Civilian Outpost 01"/>
-			<content attr1="Unidentified craft, state your intentions."/>
+			<content attr1="这里是平民前哨站 01"/>
+			<content attr1="不明飞船, 报告你的来意."/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="I repeat."/>
-			<content attr1="State your intentions."/>
+			<content attr1="重复."/>
+			<content attr1="报告你的来意."/>
 		</dialog>
 	</postDialog>
 </mission>
@@ -59,8 +59,8 @@
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="Hello? Anybody home?"/>
-			<content attr1="Are your comms open?"/>
+			<content attr1="Hello? 有人在么?"/>
+			<content attr1="你有打开通讯么?"/>
 		</dialog>
 	</postDialog>
 </mission>
@@ -72,9 +72,9 @@
 		<objectName attr1="civilianOutpost01"/>
 		<markObject attr1="civilianOutpost01"/>
 	</objective>
-	<missionHUDText attr1="Open Comms:"/>
-	<missionHUDText attr1="Target the base - left click on base"/>
-	<missionHUDText attr1="Open Comms - key" attr2="command_common" attr3="comms"/>
+	<missionHUDText attr1="打开通讯:"/>
+	<missionHUDText attr1="定位通讯基地 - 左键点击该基地"/>
+	<missionHUDText attr1="打开通讯 - key" attr2="command_common" attr3="comms"/>
 	<postDialog>
 		<dialog>
 			<dialogCharacterType attr1="player"/>
@@ -83,10 +83,10 @@
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="And I was just about to alert station security..."/>
-			<content attr1="Actually..."/>
-			<content attr1="Your ship doesn't seem to be registered."/>
-			<content attr1="Care to explain that?"/>
+			<content attr1="我正准备让前哨站进行安全检查..."/>
+			<content attr1="事实上..."/>
+			<content attr1="你的飞船似乎没有登记过哦."/>
+			<content attr1="请解释下?"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="player"/>
