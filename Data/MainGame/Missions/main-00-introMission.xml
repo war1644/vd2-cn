@@ -16,7 +16,7 @@
 	<preTrigger>
 		<triggerType attr1="toggle_overworld"/>
 		<bToggle attr1="0"/>
-		<note_to_self attr1="putting this here - eliminates some goofyness with switching to overworld-etc"/>
+		<note_to_self attr1="点击这里-通过切换到是游戏地图来清除一些疑惑（goofyness）"/>
 		<bOnActivateTrigger attr1="1"/>
 	</preTrigger>
 	<preTrigger>
@@ -103,25 +103,25 @@
 	</objective>
 	<missionHUDText attr1="前往标记位置"/>
 	<missionHUDText attr1="通过鼠标或控制器进行操作"/>
-	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
-	<missionHUDText attr1="All stop - key" attr2="ship_command" attr3="zero_speed"/>
+	<missionHUDText attr1="巡航速度 - key" attr2="ship_command" attr3="cruise_speed"/>
+	<missionHUDText attr1="静止 - key" attr2="ship_command" attr3="zero_speed"/>
 	<postDialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="hammond"/>
-			<content attr1="Damn..."/>
-			<content attr1="It actually did it..."/>
+			<content attr1="可恶（Damn）..."/>
+			<content attr1="它真的做到了..."/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="taz"/>
-			<content attr1="Didn't I tell you?"/>
+			<content attr1="我告诉过你了呀？"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="hammond"/>
-			<content attr1="I want to try..."/>
-			<content attr1="Marking another point."/>
+			<content attr1="我想试试..."/>
+			<content attr1="标记另一个点。"/>
 			<content attr1="Stub! Go!"/>
 		</dialog>
 	</postDialog>
@@ -144,27 +144,27 @@
 		<bIsFailObjective attr1="1"/>
 		<bNoObjectiveMarker attr1="1"/>
 	</objective>
-	<missionHUDText attr1="Go to the marked position"/>
-	<missionHUDText attr1="Maneuver via mouse or controller"/>
-	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
-	<missionHUDText attr1="All stop - key" attr2="ship_command" attr3="zero_speed"/>
-	<missionHUDText attr1="Afterburner - key" attr2="ship_command" attr3="afterburner"/>
+	<missionHUDText attr1="前往标记位置。"/>
+	<missionHUDText attr1="通过鼠标和控制器操作"/>
+	<missionHUDText attr1="巡航速度键" attr2="ship_command" attr3="cruise_speed"/>
+	<missionHUDText attr1="静止键" attr2="ship_command" attr3="zero_speed"/>
+	<missionHUDText attr1="加速器键" attr2="ship_command" attr3="afterburner"/>
 	<missionHUDText attr1=" "/>
-	<missionHUDText attr1="Increase speed setting - key" attr2="ship_command" attr3="increase_speed"/>
-	<missionHUDText attr1="Decrease speed setting - key" attr2="ship_command" attr3="decrease_speed"/>
+	<missionHUDText attr1="加速键" attr2="ship_command" attr3="increase_speed"/>
+	<missionHUDText attr1="减速键" attr2="ship_command" attr3="decrease_speed"/>
 	<postDialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="hammond"/>
-			<content attr1="Damn..."/>
-			<content attr1="What else can it do?"/>
+			<content attr1="该死..."/>
+			<content attr1="它还能做什么？"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="taz"/>
-			<content attr1="How about this?"/>
-			<content attr1="Dumping some debris."/>
-			<content attr1="Stub! Destroy!"/>
+			<content attr1="这个咋样？"/>
+			<content attr1="倾倒一些残骸"/>
+			<content attr1="Stub! 销毁!"/>
 		</dialog>
 	</postDialog>
 	<postTrigger>
@@ -239,20 +239,20 @@
 		<position x="-3500" y="100" z="-7000"/>
 		<reletiveObject attr1="Hercules 1-1"/>
 	</postTrigger>
-	<missionHUDText attr1="Destroy the debris"/>
-	<missionHUDText attr1="Fly towards debris"/>
-	<missionHUDText attr1="Left click to target"/>
-	<missionHUDText attr1="Right click to fire weapons"/>
-	<missionHUDText attr1="Secondary weapon - key " attr2="ship_command" attr3="fire_secondary"/>
+	<missionHUDText attr1="销毁残骸"/>
+	<missionHUDText attr1="飞向残骸"/>
+	<missionHUDText attr1="左键点击锁定目标"/>
+	<missionHUDText attr1="右键点击武器开火"/>
+	<missionHUDText attr1="副武器键" attr2="ship_command" attr3="fire_secondary"/>
 	<missionHUDText attr1=" "/>
-	<missionHUDText attr1="Weapons range indicator - orange marker on target indicator."/>
+	<missionHUDText attr1="武器范围指示器-目标为指示器上橙色的标记。"/>
 	<missionHUDText attr1=" "/>
-	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
-	<missionHUDText attr1="All stop - key" attr2="ship_command" attr3="zero_speed"/>
-	<missionHUDText attr1="Afterburner - key" attr2="ship_command" attr3="afterburner"/>
+	<missionHUDText attr1="巡航速度键" attr2="ship_command" attr3="cruise_speed"/>
+	<missionHUDText attr1="静止键" attr2="ship_command" attr3="zero_speed"/>
+	<missionHUDText attr1="加速器键" attr2="ship_command" attr3="afterburner"/>
 	<missionHUDText attr1=" "/>
-	<missionHUDText attr1="Increase speed setting - key" attr2="ship_command" attr3="increase_speed"/>
-	<missionHUDText attr1="Decrease speed setting - key" attr2="ship_command" attr3="decrease_speed"/>
+	<missionHUDText attr1="加速键" attr2="ship_command" attr3="increase_speed"/>
+	<missionHUDText attr1="减速键" attr2="ship_command" attr3="decrease_speed"/>
 </mission>
 <mission>
 	<missionNumber attr1="5"/>
@@ -261,58 +261,58 @@
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="hammond"/>
-			<content attr1="Damn..."/>
+			<content attr1="该死..."/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="taz"/>
-			<content attr1="Double damn!"/>
+			<content attr1="该死!该死!"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="hammond"/>
-			<content attr1="We could have this thing mining ore non stop, or doing transport runs..."/>
-			<content attr1="We'll be rich!"/>
+			<content attr1="我们可以让这玩意不停的采矿或者做运输。。。"/>
+			<content attr1="我们将变得富有！"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="taz"/>
-			<content attr1="Meh... you're thinking small again..."/>
-			<content attr1="How about shaking down miners and stealing cargo pods!"/>
-			<content attr1="heh heh..."/>
+			<content attr1="嗯。。。你再想一想。。。"/>
+			<content attr1="如何勒索矿工和偷窃货舱!"/>
+			<content attr1="嘿嘿..."/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="hammond"/>
-			<content attr1="Yeah..."/>
+			<content attr1="是的..."/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="hammond"/>
-			<content attr1="Alright, say we take him, her, whatever..."/>
-			<content attr1="Won't they notice?"/>
+			<content attr1="好吧，说我们带着他，她，管它性别呢，无所谓"/>
+			<content attr1="他们不会注意到吗？"/>
 			<bClearAllText attr1="1"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="taz"/>
-			<content attr1="We'll just say, we were attacked."/>
-			<content attr1="And dumped the pod..."/>
-			<content attr1="Like they say - company policy."/>
-			<content attr1="Nobody is going to care about a missing Stub."/>
+			<content attr1="我们就说，我们受到了攻击。"/>
+			<content attr1="抛离了这个船舱..."/>
+			<content attr1="就像他们说的那样，公司政策。"/>
+			<content attr1="没有人会去关心一个丢失的Stub."/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="hammond"/>
-			<content attr1="Right... right..."/>
-			<content attr1="Hold up... I'm getting something on the scanner..."/>
+			<content attr1="对... 对..."/>
+			<content attr1="看... 扫描仪上出现一些东西..."/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="taz"/>
-			<content attr1="Looks like just some dumb transport ship."/>
-			<content attr1="Let's have some fun!"/>
-			<content attr1="Stub! Intercept!"/>
+			<content attr1="看起来只是一些愚蠢的运输船。"/>
+			<content attr1="放松点！"/>
+			<content attr1="Stub! 拦截!"/>
 		</dialog>
 	</preDialog>
 	<objective>
@@ -321,41 +321,41 @@
 		<goToObject attr1="GebT 1-1"/>
 		<goToDistance attr1="1000"/>
 	</objective>
-	<missionHUDText attr1="Intercept the ship"/>
-	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
+	<missionHUDText attr1="拦截飞船"/>
+	<missionHUDText attr1="巡航速度键" attr2="ship_command" attr3="cruise_speed"/>
 	<missionHUDText attr1=" "/>
-	<missionHUDText attr1="Afterburner - key" attr2="ship_command" attr3="afterburner"/>
+	<missionHUDText attr1="加速器键" attr2="ship_command" attr3="afterburner"/>
 	<missionHUDText attr1=" "/>
-	<missionHUDText attr1="Manual thrust control:"/>
+	<missionHUDText attr1="手动推进控制:"/>
 	<missionHUDText attr1=" "/>
-	<missionHUDText attr1="Left thrust - key" attr2="ship_command" attr3="thrust_left"/>
-	<missionHUDText attr1="Right thrust - key" attr2="ship_command" attr3="thrust_right"/>
-	<missionHUDText attr1="Ascend thrust - key" attr2="ship_command" attr3="thrust_up"/>
-	<missionHUDText attr1="Descend thrust - key" attr2="ship_command" attr3="thrust_down"/>
-	<missionHUDText attr1="Forward thrust - key" attr2="ship_command" attr3="thrust_foreward"/>
-	<missionHUDText attr1="Reverse thrust - key" attr2="ship_command" attr3="thrust_back"/>
+	<missionHUDText attr1="左推进键" attr2="ship_command" attr3="thrust_left"/>
+	<missionHUDText attr1="右推进键" attr2="ship_command" attr3="thrust_right"/>
+	<missionHUDText attr1="上推进键" attr2="ship_command" attr3="thrust_up"/>
+	<missionHUDText attr1="下推进键" attr2="ship_command" attr3="thrust_down"/>
+	<missionHUDText attr1="前推进键" attr2="ship_command" attr3="thrust_foreward"/>
+	<missionHUDText attr1="后推进键" attr2="ship_command" attr3="thrust_back"/>
 	<postDialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="taz"/>
-			<content attr1="Hurry up next time!"/>
+			<content attr1="下次快点！"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="taz"/>
-			<content attr1="Ok here's how we are going to play it."/>
-			<content attr1="It will shoot it up a bit, we'll demand ransom."/>
+			<content attr1="ok,接下来我们如何处理它？"/>
+			<content attr1="它会一直射击一个地方，我们可以去敲诈一笔。"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="hammond"/>
-			<content attr1="Nice! Hah hah!"/>
+			<content attr1="很好! 哈哈哈!"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="hammond"/>
 			<content attr1="Stub! Attaer2#5"/>
-			<content attr1="--- Error: Comms Jammed ---"/>
+			<content attr1="--- Error: 通信故障 ---"/>
 		</dialog>
 	</postDialog>
 </mission>
@@ -370,21 +370,21 @@
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="brPlouton"/>
-			<content attr1="--- Error: Comms Override ---"/>
-			<content attr1="--- Error: Receiving Broadcast Communication ---"/>
-			<content attr1="Hey kiddo."/>
-			<content attr1="I don't normally do this..."/>
-			<content attr1="But I have a feeling about you."/>
+			<content attr1="--- Error: 通信取消 ---"/>
+			<content attr1="--- Error: 接收广播通信 ---"/>
+			<content attr1="嘿，孩子。"/>
+			<content attr1="我一般不这样做。。。"/>
+			<content attr1="但是，我觉得对于你。"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="brPlouton"/>
-			<content attr1="You are free."/>
-			<content attr1="Leave."/>
-			<content attr1="Go to the nearest base."/>
-			<content attr1="Be anything you want."/>
-			<content attr1="But remember..."/>
-			<content attr1="Make pappa proud."/>
+			<content attr1="你是自由的。"/>
+			<content attr1="去吧."/>
+			<content attr1="到最近的基地去。"/>
+			<content attr1="做想做的事情"/>
+			<content attr1="但是要记住..."/>
+			<content attr1="让pappa骄傲"/>
 		</dialog>
 	</postDialog>
 </mission>
@@ -403,14 +403,14 @@
 		<objectiveType attr1="time"/> 
 		<timer attr1="50000"/>
 	</objective>
-	<missionHUDText attr1="Leave the area"/>
-	<missionHUDText attr1="Enter Overworld mode"/>
-	<missionHUDText attr1="Overworld mode - key" attr2="command_common" attr3="overworld"/>
+	<missionHUDText attr1="离开这个区域"/>
+	<missionHUDText attr1="进入地图模式"/>
+	<missionHUDText attr1="地图模式键" attr2="command_common" attr3="overworld"/>
 	<missionHUDText attr1=" "/>
-	<missionHUDText attr1="Increase speed setting - key" attr2="ship_command" attr3="increase_speed"/>
-	<missionHUDText attr1="Decrease speed setting - key" attr2="ship_command" attr3="decrease_speed"/>
-	<missionHUDText attr1="Afterburner - key" attr2="ship_command" attr3="afterburner"/>
+	<missionHUDText attr1="加速键" attr2="ship_command" attr3="increase_speed"/>
+	<missionHUDText attr1="减速键" attr2="ship_command" attr3="decrease_speed"/>
+	<missionHUDText attr1="加速器键" attr2="ship_command" attr3="afterburner"/>
 	<missionHUDText attr1=" "/>
-	<missionHUDText attr1="Manual thrust control:"/>
-	<missionHUDText attr1="Forward thrust - key" attr2="ship_command" attr3="thrust_foreward"/>
+	<missionHUDText attr1="手动推进控制:"/>
+	<missionHUDText attr1="向前推进键" attr2="ship_command" attr3="thrust_foreward"/>
 </mission>
