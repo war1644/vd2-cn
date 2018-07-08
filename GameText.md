@@ -106,6 +106,18 @@ Be anything you want.
 Make pappa proud.
 让pappa骄傲。
 
+Localized language mod garbled problem
+
+I am trying to make a game language localization mod, the main menu has been successfully localized. But after I started the new game, the text in the upper left corner was garbled.
+I guess the gui/*.layout is inconsistent with the rendering of data/MainGame/*.xml.
+what should I do? Any help that can help me, thank you
+
+successfully localized main game image url：
+https://steamuserimages-a.akamaihd.net/ugc/945077059924893839/47265E55490265BF6AFEA2A97BFDC8FA16E71B20/
+
+faild localized,garbled problem iamge url:
+https://steamuserimages-a.akamaihd.net/ugc/945077059924894390/E566FF0A02366455F8BB969620ABBBC205508883/
+
 
 
 
