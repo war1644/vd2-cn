@@ -12,12 +12,12 @@
         </Window>
         <Window Type="jhGUI/Left_Button" Name="MainMenu/btnNewGame" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="mod新游戏" />
+            <Property Name="Text" Value="新游戏" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.248186,0},{0.248776,0},{0.289913,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="MainMenu/btnLoad" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="mod载入存档" />
+            <Property Name="Text" Value="载入存档" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.299671,0},{0.248776,0},{0.341398,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="MainMenu/btnOptions" >
