@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<missionName attr1="New Game Intro Mission"/>
+<missionName attr1="新游戏任务介绍"/>
 <objectID attr1="newGame00"/>
 <missionFactionID attr1="outsider"/>
 <missionLocation attr1="newGameStartLocation"/>
@@ -14,7 +14,7 @@
 	<preTrigger>
 		<triggerType attr1="toggle_overworld"/>
 		<bToggle attr1="0"/>
-		<note_to_self attr1="putting this here - eliminates some goofyness with switching to overworld-etc"/>
+		<note_to_self attr1="点击这里-通过切换到是游戏地图来清除一些疑惑（goofyness）"/>
 		<bOnActivateTrigger attr1="1"/>
 	</preTrigger>
 	<preTrigger>
