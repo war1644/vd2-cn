@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="FactionsInterface" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.00952,0}}" />
+        <Window Type="jhGUI/StaticImageLeft" Name="FactionsInterface/DetailsLeft" >
+            <Property Name="UnifiedAreaRect" Value="{{0.00476192,0},{0.0731735,0},{0.361904,0},{0.846249,0}}" />
+            <Window Type="jhGUI/FramelessListbox" Name="FactionsInterface/DetailsLeft/lstFactions" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0175634,0},{0.0458366,0},{0.985798,0},{0.975539,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="FactionsInterface/DetailsLeft/txtCaption" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="KNOWN FACTIONS:" />
+                <Property Name="HorzExtent" Value="142" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0165172,0},{0.00237224,0},{0.746429,0},{0.0413781,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/StaticImageRight" Name="FactionsInterface/DetailsRight" >
+            <Property Name="Text" Value="aaa" />
+            <Property Name="UnifiedAreaRect" Value="{{0.638095,0},{0.0731735,0},{0.995237,0},{0.846249,0}}" />
+            <Window Type="ootGUI/StaticText" Name="FactionsInterface/DetailsRight/txtText" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0163391,0},{0.0428256,0},{0.988899,0},{0.972363,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="FactionsInterface/DetailsRight/txtFaction" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="FACTION:" />
+                <Property Name="HorzExtent" Value="70" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.173184,0},{0.00206896,0},{0.903096,0},{0.0410749,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="FactionsInterface/DetailsRight/chkOverrideNonHostile" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" OVERRIDE - NON-HOSTILE" />
+                <Property Name="UnifiedAreaRect" Value="{{0.598333,0},{0.159662,0},{0.991667,0},{0.194476,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="FactionsInterface/DetailsRight/chkOverrideHostile" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" OVERRIDE - HOSTILE" />
+                <Property Name="UnifiedAreaRect" Value="{{0.598333,0},{0.123029,0},{0.991667,0},{0.157843,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="FactionsInterface/DetailsRight/chkOverrideTrade" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" OVERRIDE - NO TRADE" />
+                <Property Name="UnifiedAreaRect" Value="{{0.598333,0},{0.0863956,0},{0.991667,0},{0.12121,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="FactionsInterface/DetailsRight/chkMissionListener" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" MISSION LISTENER" />
+                <Property Name="UnifiedAreaRect" Value="{{0.598333,0},{0.0497622,0},{0.991667,0},{0.0845764,0}}" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticText" Name="FactionsInterface/txtNavTooltip" >
+            <Property Name="Font" Value="Comfortaa-14" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.372619,0},{0.829226,0},{0.627381,0},{0.862214,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="FactionsInterface/txtNavTooltip/imgBackground" >
+                <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="FactionsInterface/btnBack" >
+            <Property Name="UnifiedAreaRect" Value="{{0.475212,0},{0.916924,0},{0.525331,0},{0.995407,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

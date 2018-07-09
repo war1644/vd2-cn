@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="DockedHangar" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00109051,0},{1,0},{1.00109,0}}" />
+        <Window Type="DefaultWindow" Name="DockedHangar/UnifiedFrame" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.730356,0},{-0.000391843,0},{0.997617,0},{0.172732,0}}" />
+            <Window Type="ootGUI/StaticImage" Name="DockedHangar/Repair/healthBG" >
+                <Property Name="Image" Value="set:jhGUI_cmd_health_BG image:jhGUI_cmd_health_BG" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.17177,0},{0.0321933,0},{0.992562,0},{0.377049,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="jhGUI/Cmd_Health" Name="DockedHangar/UnifiedFrame/healthBG/Health" >
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0150876,0},{0.0429181,0},{0.976011,0},{0.895677,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="DockedHangar/UnifiedFrame/CreditsFrame" >
+                <Property Name="Image" Value="set:jhGUI_cmd_heading image:jhGUI_cmd_heading" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.170545,0},{0.389292,0},{0.68176,0},{0.572426,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Type="ootGUI/StaticText" Name="DockedHangar/UnifiedFrame/CreditsFrame/txtCredits" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="Credits:" />
+                    <Property Name="HorzExtent" Value="59" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0275794,0},{0.0971505,0},{0.964302,0},{0.708676,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="DockedHangar/UnifiedFrame/btnRepair" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="REPAIR" />
+                <Property Name="UnifiedAreaRect" Value="{{0.638308,0},{0.429102,0},{0.986304,0},{0.720885,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="DockedHangar/UnifiedFrame/chkAutoRepair" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" AUTO REPAIR FLEET" />
+                <Property Name="UnifiedAreaRect" Value="{{0.201559,0},{0.56299,0},{0.636415,0},{0.712206,0}}" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticImageLarge" Name="DockedHangar/MainFrame" >
+            <Property Name="Image" Value="set:jhGUI_asset_list_long image:jhGUI_asset_list_long" />
+            <Property Name="GuiClick" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00939267,0},{0.1374,0},{0.27963,0},{0.975252,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="jhGUI/FramelessListbox" Name="DockedHangar/MainFrame/lstShips" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0220277,0},{0.128677,0},{0.983566,0},{0.893022,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="DockedHangar/MainFrame/txtHeader" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="HANGAR:" />
+                <Property Name="HorzExtent" Value="46" />
+                <Property Name="VertExtent" Value="12.3762" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0179706,0},{0.000690647,0},{0.736505,0},{0.0293046,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="jhGUI/Button_AssetList" Name="DockedHangar/MainFrame/btnHangar" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0619435,0},{0.036048,0},{0.198613,0},{0.102658,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedHangar/MainFrame/btnHangar/imgIcon" >
+                    <Property Name="Image" Value="set:jhGUI_mode_icons image:ship_switch" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="jhGUI/Button_AssetList" Name="DockedHangar/MainFrame/btnFleet" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.205191,0},{0.036048,0},{0.34186,0},{0.102658,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedHangar/MainFrame/btnFleet/imgIcon" >
+                    <Property Name="Image" Value="set:jhGUI_mode_icons image:formations" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0341298,0},{1,0},{0.982935,0}}" />
+                </Window>
+            </Window>
+            <Window Type="jhGUI/AssetListHide" Name="DockedHangar/MainFrame/btnHideAssets" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.961366,0},{0.0574678,0},{1.0743,0},{0.171615,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="DockedHangar/MainFrame/chkPrimaryHangar" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="DESIGNATE AS PRIMARY HANGAR" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0273784,0},{0.945209,0},{0.98573,0},{0.981893,0}}" />
+            </Window>
+            <Window Type="jhGUI/Button_AssetList" Name="DockedHangar/MainFrame/btnBase" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.343222,0},{0.0365888,0},{0.479891,0},{0.103199,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedHangar/MainFrame/btnBase/imgIcon" >
+                    <Property Name="Image" Value="set:jhGUI_asset_list image:bases" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="jhGUI/StaticImageRight" Name="DockedHangar/ShipInfo" >
+            <Property Name="UnifiedAreaRect" Value="{{0.729759,0},{0.1374,0},{0.993637,0},{0.975252,0}}" />
+            <Window Type="ootGUI/StaticTextLeft" Name="DockedHangar/ShipInfo/editText" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" >
+</Property>
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0219686,0},{0.0396888,0},{0.982911,0},{0.848896,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticTextLeft" Name="DockedHangar/ShipInfo/txtShip" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Ship:" />
+                <Property Name="HorzExtent" Value="35" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.319094,0},{0.00738316,0},{0.970998,0},{0.0420484,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="DockedHangar/ShipInfo/imgShipClass" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Image" Value="set:jmGUI_resource_icons image:crew" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.229239,0},{0.00303646,0},{0.302697,0},{0.0355267,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="DockedHangar/ShipInfo/chkBuild" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" BUILD" />
+                <Property Name="UnifiedAreaRect" Value="{{0.765802,0},{0.0416291,0},{0.988733,0},{0.0801531,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="DockedHangar/ShipInfo/btnSwitchTo" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="SWITCH TO" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00449954,0},{0.923627,0},{0.333448,0},{0.977233,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="DockedHangar/ShipInfo/btnSellShip" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="SELL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.333836,0},{0.923627,0},{0.662785,0},{0.977233,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="DockedHangar/ShipInfo/btnDuplicateShip" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="DUPLICATE" />
+                <Property Name="UnifiedAreaRect" Value="{{0.665429,0},{0.923627,0},{0.994378,0},{0.977233,0}}" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="DockedHangar/ShipInfo/btnConvertToHangar" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" >SEND TO
+HANGAR</Property>
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00675503,0},{0.858549,0},{0.238708,0},{0.912155,0}}" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="DockedHangar/ShipInfo/btnConvertToFleet" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" >SEND TO
+FLEET</Property>
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.245862,0},{0.858549,0},{0.477816,0},{0.912155,0}}" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="DockedHangar/ShipInfo/btnConvertToBase" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" >SEND TO
+BASE</Property>
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.491737,0},{0.858549,0},{0.72369,0},{0.912155,0}}" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="DockedHangar/ShipInfo/btnSendToOverworld" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" >SEND TO
+OVERWORLD</Property>
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.726707,0},{0.858549,0},{0.990241,0},{0.912154,0}}" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/LabelWithOutline" Name="DockedHangar/txtNavTooltip" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.372619,0},{0.829226,0},{0.627381,0},{0.862214,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedHangar/txtNavTooltip/imgBackground" >
+                <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex" Name="DockedHangar/btnUndock" >
+            <Property Name="UnifiedAreaRect" Value="{{0.358419,0},{0.872729,0},{0.408538,0},{0.951212,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedHangar/btnUndock/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:ship" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.171427,0},{0.882341,0},{0.893849,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedHangar/btnSimulation" >
+            <Property Name="UnifiedAreaRect" Value="{{0.55238,0},{0.916924,0},{0.602498,0},{0.995407,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedHangar/btnSimulation/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:research" />
+                <Property Name="UnifiedAreaRect" Value="{{0.145699,0},{0.143637,0},{0.89421,0},{0.866059,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedHangar/btnPurchaseShip" >
+            <Property Name="UnifiedAreaRect" Value="{{0.436408,0},{0.872729,0},{0.486527,0},{0.951212,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedHangar/btnPurchaseShip/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:formations" />
+                <Property Name="UnifiedAreaRect" Value="{{0.12196,0},{0.129742,0},{0.870471,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedHangar/btnMissions" >
+            <Property Name="UnifiedAreaRect" Value="{{0.591702,0},{0.872729,0},{0.641821,0},{0.951212,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedHangar/btnMissions/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:command_ship" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedHangar/btnHelp" >
+            <Property Name="UnifiedAreaRect" Value="{{0.630994,0},{0.916924,0},{0.681113,0},{0.995407,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedHangar/btnHelp/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:help" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedHangar/btnCurrentShip" >
+            <Property Name="UnifiedAreaRect" Value="{{0.320466,0},{0.917877,0},{0.370585,0},{0.99636,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedHangar/btnCurrentShip/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:shipyard" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedHangar/btnCommerce" >
+            <Property Name="UnifiedAreaRect" Value="{{0.397831,0},{0.916924,0},{0.44795,0},{0.995407,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedHangar/btnCommerce/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:build" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedHangar/btnBase" >
+            <Property Name="UnifiedAreaRect" Value="{{0.475195,0},{0.916924,0},{0.525314,0},{0.995407,0}}" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedHangar/btnBase/imgIcon" >
+                <Property Name="Image" Value="set:jhGUI_mode_icons image:base" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="DockedHangar/btnDockedMain" >
+            <Property Name="UnifiedAreaRect" Value="{{0.514487,0},{0.872729,0},{0.564606,0},{0.951212,0}}" />
+        </Window>
+        <Window Type="ootGUI/EditboxNoFrame" Name="DockedHangar/edtRename" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="SHIP NAME RENAME" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedAreaRect" Value="{{0.419047,0},{0.0521265,0},{0.582738,0},{0.0916568,0}}" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedHangar/edtRename/imgBackground" >
+                <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/RoundRedButton" Name="DockedHangar/btnRename" >
+            <Property Name="Font" Value="Exo-SemiBold-10" />
+            <Property Name="Text" Value="SAVE" />
+            <Property Name="UnifiedAreaRect" Value="{{0.588095,0},{0.0553985,0},{0.620834,0},{0.0851147,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

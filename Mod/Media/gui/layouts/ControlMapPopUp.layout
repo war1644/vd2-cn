@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="ControlMapPopUp" >
+        <Property Name="UnifiedAreaRect" Value="{{-0.000595238,0},{0,0},{0.999405,0},{1,0}}" />
+        <Window Type="ootGUI/StaticImage" Name="ControlMapPopUp/winPopup" >
+            <Property Name="UnifiedAreaRect" Value="{{0.302975,0},{0.27286,0},{0.697618,0},{0.632773,0}}" />
+            <Window Type="ootGUI/StaticText" Name="ControlMapPopUp/winPopup/txtMainTxt" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="控制映射:" />
+                <Property Name="HorzExtent" Value="129" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0137817,0},{0.0024602,0},{0.984628,0},{0.101784,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="ControlMapPopUp/winPopup/txtDevice" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="设备:" />
+                <Property Name="HorzExtent" Value="54" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.059718,0},{0.114371,0},{0.417492,0},{0.191437,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="ControlMapPopUp/winPopup/txtDeviceHere" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="这是设备名" />
+                <Property Name="HorzExtent" Value="131" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.427739,0},{0.114371,0},{0.985159,0},{0.191437,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="ControlMapPopUp/winPopup/txtCommand" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="指令名:" />
+                <Property Name="HorzExtent" Value="126" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.059718,0},{0.209102,0},{0.417492,0},{0.286167,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="ControlMapPopUp/winPopup/txtCurrent" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="当前:" />
+                <Property Name="HorzExtent" Value="62" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0597176,0},{0.322695,0},{0.417492,0},{0.39976,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="ControlMapPopUp/winPopup/txtCurrentHere" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="这是当前按钮" />
+                <Property Name="HorzExtent" Value="149" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.427739,0},{0.322695,0},{0.985159,0},{0.39976,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="ControlMapPopUp/winPopup/txtCommandHere" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="这是指令名" />
+                <Property Name="HorzExtent" Value="156" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.427738,0},{0.209102,0},{0.985159,0},{0.286167,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="ControlMapPopUp/winPopup/txtPressEscape" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="按esc退出" />
+                <Property Name="HorzExtent" Value="176" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapRightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.483631,0},{0.728007,0},{0.981324,0},{0.805073,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="ControlMapPopUp/winPopup/txtModifierText" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="提示:你可以用SHIFT/CTRL和ALT来修改" />
+                <Property Name="HorzExtent" Value="355" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0597176,0},{0.636911,0},{0.961659,0},{0.713977,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="ControlMapPopUp/winPopup/txtDirective" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="使用设备设置新输入" />
+                <Property Name="HorzExtent" Value="240" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0597171,0},{0.518389,0},{0.961659,0},{0.595455,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="ControlMapPopUp/winPopup/txtConflict" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="[colour=&apos;FFFF0000&apos;]!! 发现冲突 !!" />
+                <Property Name="HorzExtent" Value="181" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0597171,0},{0.426787,0},{0.961659,0},{0.503852,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="ControlMapPopUp/winPopup/txtIgnoreList" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="[colour=&apos;FFFF0000&apos;]!! 发现忽略的按钮 !!" />
+                <Property Name="HorzExtent" Value="265" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0597176,0},{0.720129,0},{0.66,0},{0.797195,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

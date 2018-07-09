@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="CreditsInterface" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.00109051,0},{1,0},{0.998909,0}}" />
+        <Window Type="jhGUI/StaticImageLeft" Name="CreditsInterface/Income" >
+            <Property Name="UnifiedAreaRect" Value="{{0.00476192,0},{0.0731735,0},{0.361904,0},{0.846249,0}}" />
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtTransportShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="TRANSPORT:" />
+                <Property Name="HorzExtent" Value="96" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515159,0},{0.0972086,0},{0.251427,0},{0.136214,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtMiningShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="MINING:" />
+                <Property Name="HorzExtent" Value="57" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515159,0},{0.137333,0},{0.251426,0},{0.176339,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtShuttleShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="SHUTTLE:" />
+                <Property Name="HorzExtent" Value="72" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515159,0},{0.179652,0},{0.251426,0},{0.218657,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtShuttleThisCycle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.179652,0},{0.583095,0},{0.218657,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtMiningThisCycle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.294849,0},{0.138744,0},{0.584761,0},{0.17775,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtTransportThisCycle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.294849,0},{0.0972086,0},{0.584761,0},{0.136215,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtTradeIncome" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="TRADE SHIPS INCOME:" />
+                <Property Name="HorzExtent" Value="163" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0181825,0},{0.0581857,0},{0.373096,0},{0.0971927,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtThisCycle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="THIS CYCLE:" />
+                <Property Name="HorzExtent" Value="89" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.303181,0},{0.00755755,0},{0.593093,0},{0.0465639,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtPreviousCycle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="PREVIOUS CYCLE:" />
+                <Property Name="HorzExtent" Value="131" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.604851,0},{0.00755755,0},{0.87143,0},{0.0465638,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtMiningLastCycle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.604851,0},{0.138744,0},{0.981429,0},{0.17775,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtShuttleLastCycle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.604851,0},{0.179652,0},{0.981429,0},{0.218658,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtTransportLastCycle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.604851,0},{0.0972086,0},{0.981429,0},{0.136215,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtTradeIncome1" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="COMBAT SHIPS INCOME:" />
+                <Property Name="HorzExtent" Value="177" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0181825,0},{0.281692,0},{0.373096,0},{0.320698,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtFieldPatrol" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="FIELD PATROL:" />
+                <Property Name="HorzExtent" Value="111" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515159,0},{0.322907,0},{0.251427,0},{0.361913,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtFieldPatrolThisCycle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.294849,0},{0.322907,0},{0.584761,0},{0.361914,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtFieldPatrolLastCycle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.604851,0},{0.322907,0},{0.981429,0},{0.361914,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtTradeShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="TOTAL:" />
+                <Property Name="HorzExtent" Value="55" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.159849,0},{0.219778,0},{0.284761,0},{0.258783,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtTradeShipsTotal" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.219778,0},{0.961428,0},{0.258783,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtBounty" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="BOUNTY:" />
+                <Property Name="HorzExtent" Value="67" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515159,0},{0.363815,0},{0.251427,0},{0.40282,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtBountyThisCycle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.294849,0},{0.363815,0},{0.584761,0},{0.402821,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtBountyLastCycle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.604851,0},{0.363815,0},{0.981429,0},{0.402821,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtCombatShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="TOTAL:" />
+                <Property Name="HorzExtent" Value="55" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.159849,0},{0.405197,0},{0.284761,0},{0.444202,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtCombatShipsTotal" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.405197,0},{0.961428,0},{0.444202,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtAllShipsTotal" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.291516,0},{0.728228,0},{0.959761,0},{0.767233,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtAllShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="GRAND TOTAL:" />
+                <Property Name="HorzExtent" Value="112" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0731821,0},{0.728228,0},{0.284761,0},{0.767233,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtOtherTotal" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.554722,0},{0.961428,0},{0.593727,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtOther" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="TOTAL:" />
+                <Property Name="HorzExtent" Value="55" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.159849,0},{0.554722,0},{0.284761,0},{0.593727,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtMissionLastCycle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.604851,0},{0.51334,0},{0.981429,0},{0.552347,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtMissionThisCycle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.294849,0},{0.51334,0},{0.584761,0},{0.552347,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtMission" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="MISSION:" />
+                <Property Name="HorzExtent" Value="65" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515159,0},{0.51334,0},{0.251427,0},{0.552346,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Income/txtOtherIncome" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="OTHER INCOME:" />
+                <Property Name="HorzExtent" Value="116" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0181825,0},{0.472125,0},{0.373096,0},{0.511131,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticText" Name="CreditsInterface/txtNavTooltip" >
+            <Property Name="Font" Value="Comfortaa-14" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.372619,0},{0.829226,0},{0.627381,0},{0.862214,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="CreditsInterface/txtNavTooltip/imgBackground" >
+                <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="CreditsInterface/btnBack" >
+            <Property Name="UnifiedAreaRect" Value="{{0.475212,0},{0.916924,0},{0.525331,0},{0.995407,0}}" />
+        </Window>
+        <Window Type="jhGUI/StaticImageRight" Name="CreditsInterface/Upkeep" >
+            <Property Name="UnifiedAreaRect" Value="{{0.639881,0},{0.0731735,0},{0.997023,0},{0.846249,0}}" />
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtTransportShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="TRANSPORT:" />
+                <Property Name="HorzExtent" Value="96" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515149,0},{0.0972086,0},{0.251426,0},{0.136214,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="UPKEEP:" />
+                <Property Name="HorzExtent" Value="63" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.00755755,0},{0.633096,0},{0.0465638,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtTransportUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.0972086,0},{0.976429,0},{0.136215,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtTransportCount" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.294849,0},{0.0972086,0},{0.488094,0},{0.136215,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtMiningShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="MINING:" />
+                <Property Name="HorzExtent" Value="57" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515159,0},{0.138744,0},{0.251426,0},{0.17775,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtMiningUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.138744,0},{0.976429,0},{0.17775,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtMiningCount" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.294849,0},{0.138744,0},{0.488094,0},{0.17775,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="CreditsInterface/Upkeep/btnPayShortFall" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="PAY SHORTFALL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.473334,0},{0.92872,0},{0.866667,0},{0.989039,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtShuttleShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="SHUTTLE:" />
+                <Property Name="HorzExtent" Value="72" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515159,0},{0.179652,0},{0.251426,0},{0.218657,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtShuttleCount" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.179652,0},{0.486428,0},{0.218657,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtShuttleUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.179652,0},{0.976429,0},{0.218658,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtUpkeep11" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="ACTIVE/CAP:" />
+                <Property Name="HorzExtent" Value="97" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293182,0},{0.00755755,0},{0.478095,0},{0.0465639,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtTradeShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="TOTAL:" />
+                <Property Name="HorzExtent" Value="55" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.276516,0},{0.219778,0},{0.486428,0},{0.258783,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtTradeShipsTotal" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.219778,0},{0.976429,0},{0.258783,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtActiveCombatShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="ACTIVE COMBAT SHIPS:" />
+                <Property Name="HorzExtent" Value="174" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0181825,0},{0.263507,0},{0.373096,0},{0.302514,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtFighterShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="FIGHTER:" />
+                <Property Name="HorzExtent" Value="66" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515149,0},{0.305043,0},{0.284761,0},{0.34405,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtGunshipShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="GUNSHIP:" />
+                <Property Name="HorzExtent" Value="69" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515149,0},{0.345169,0},{0.284761,0},{0.384176,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtCorvetteShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="CORVETTE" />
+                <Property Name="HorzExtent" Value="80" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515149,0},{0.386706,0},{0.284761,0},{0.425712,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtFrigateShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="FRIGATE:" />
+                <Property Name="HorzExtent" Value="67" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515149,0},{0.426831,0},{0.284761,0},{0.465838,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtDestroyerShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="DESTROYER:" />
+                <Property Name="HorzExtent" Value="93" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515149,0},{0.468368,0},{0.284761,0},{0.507374,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtCruiserShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="CRUISER:" />
+                <Property Name="HorzExtent" Value="67" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515149,0},{0.508493,0},{0.284761,0},{0.5475,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtCarrierShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="CARRIER:" />
+                <Property Name="HorzExtent" Value="68" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515149,0},{0.55003,0},{0.284761,0},{0.589036,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtDreadnoughtShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="DREADNOUGHT:" />
+                <Property Name="HorzExtent" Value="119" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515149,0},{0.591566,0},{0.284761,0},{0.630572,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtFighterCount" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.305043,0},{0.486428,0},{0.344048,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtGunshipCount" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.345169,0},{0.486428,0},{0.384174,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtCorvetteCount" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.386706,0},{0.486428,0},{0.425711,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtFrigateCount" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.428242,0},{0.486428,0},{0.467247,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtDestroyerCount" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.468368,0},{0.486428,0},{0.507373,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtCruiserCount" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.508493,0},{0.486428,0},{0.547498,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtCarrierCount" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.55003,0},{0.486428,0},{0.589034,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtDreadnoughtCount" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.591566,0},{0.486428,0},{0.630571,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtFighterUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.305043,0},{0.976429,0},{0.344049,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtGunshipUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.345169,0},{0.976429,0},{0.384175,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtCorvetteUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.386706,0},{0.976429,0},{0.425712,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtFrigateUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.426831,0},{0.976429,0},{0.465837,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtDestroyerUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.468368,0},{0.976429,0},{0.507374,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtCruiserUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.508493,0},{0.976429,0},{0.547499,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtCarrierUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.55003,0},{0.976429,0},{0.589035,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtDreadnoughtUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.591566,0},{0.976429,0},{0.630572,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtActiveTradeShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="ACTIVE TRADE SHIPS:" />
+                <Property Name="HorzExtent" Value="160" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0181825,0},{0.0581857,0},{0.373096,0},{0.0971927,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtCombatShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="TOTAL:" />
+                <Property Name="HorzExtent" Value="55" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.276516,0},{0.632306,0},{0.486428,0},{0.671311,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtCombatShipsTotal" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.632306,0},{0.976429,0},{0.671311,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtRepairShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="REPAIR:" />
+                <Property Name="HorzExtent" Value="58" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515149,0},{0.711622,0},{0.284761,0},{0.750629,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtShipCaptureShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="SHIP CAPTURE:" />
+                <Property Name="HorzExtent" Value="112" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515149,0},{0.753159,0},{0.284761,0},{0.792165,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtBaseCaptureShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="BASE CAPTURE:" />
+                <Property Name="HorzExtent" Value="118" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0515149,0},{0.794695,0},{0.284761,0},{0.833701,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtMiscShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="TOTAL:" />
+                <Property Name="HorzExtent" Value="55" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.276516,0},{0.835435,0},{0.486428,0},{0.87444,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtMiscShipsTotal" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.835435,0},{0.976429,0},{0.87444,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtBaseCaptureUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.794695,0},{0.976429,0},{0.833701,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtShipCaptureUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.753159,0},{0.976429,0},{0.792164,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtRepairUpkeep" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.711622,0},{0.976429,0},{0.750628,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtRepairCount" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.711622,0},{0.486428,0},{0.750627,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtShipCaptureCount" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.753159,0},{0.486428,0},{0.792163,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtBaseCaptureCount" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293183,0},{0.794695,0},{0.486428,0},{0.8337,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtActiveMiscShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="ACTIVE MISC SHIPS:" />
+                <Property Name="HorzExtent" Value="145" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0181825,0},{0.671803,0},{0.373096,0},{0.71081,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtAllShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="GRAND TOTAL:" />
+                <Property Name="HorzExtent" Value="112" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.276516,0},{0.876343,0},{0.486428,0},{0.915348,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="CreditsInterface/Upkeep/txtAllShipsTotal" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.504851,0},{0.876343,0},{0.976429,0},{0.915348,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

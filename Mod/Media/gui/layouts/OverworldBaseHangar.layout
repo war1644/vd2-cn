@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="OverworldBaseHangar" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="ootGUI/StaticText" Name="OverworldBaseHangar/txtNavTooltip" >
+            <Property Name="Font" Value="Comfortaa-14" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.372619,0},{0.829226,0},{0.627381,0},{0.862214,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="OverworldBaseHangar/txtNavTooltip/imgBackground" >
+                <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="OverworldBaseHangar/btnBack" >
+            <Property Name="UnifiedAreaRect" Value="{{0.475212,0},{0.916924,0},{0.525331,0},{0.995407,0}}" />
+        </Window>
+        <Window Type="ootGUI/StaticImageLarge" Name="OverworldBaseHangar/MainFrame" >
+            <Property Name="Image" Value="set:jhGUI_asset_list_long image:jhGUI_asset_list_long" />
+            <Property Name="GuiClick" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00939267,0},{0.1374,0},{0.27963,0},{0.975252,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="jhGUI/FramelessListbox" Name="OverworldBaseHangar/MainFrame/lstShips" >
+                <Property Name="Font" Value="Exo-SemiBold-10" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0220277,0},{0.128677,0},{0.983566,0},{0.893022,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="OverworldBaseHangar/MainFrame/txtHeader" >
+                <Property Name="Font" Value="Exo-SemiBold-8" />
+                <Property Name="Text" Value="BASE HANGAR:" />
+                <Property Name="HorzExtent" Value="76" />
+                <Property Name="VertExtent" Value="12.3762" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0179706,0},{0.000690647,0},{0.736505,0},{0.0293046,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="jhGUI/Button_AssetList" Name="OverworldBaseHangar/MainFrame/btnHangar" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0619435,0},{0.036048,0},{0.198613,0},{0.102658,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="OverworldBaseHangar/MainFrame/btnHangar/imgIcon" >
+                    <Property Name="Image" Value="set:jhGUI_mode_icons image:ship_switch" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="jhGUI/Button_AssetList" Name="OverworldBaseHangar/MainFrame/btnBase" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.205191,0},{0.036048,0},{0.34186,0},{0.102658,0}}" />
+                <Window Type="ootGUI/StaticImageClickPassThrough" Name="OverworldBaseHangar/MainFrame/btnBase/imgIcon" >
+                    <Property Name="Image" Value="set:jhGUI_asset_list image:bases" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0341298,0},{1,0},{0.982935,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="OverworldBaseHangar/MainFrame/chkPrimaryHangar" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="DESIGNATE AS PRIMARY HANGAR" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0273784,0},{0.945209,0},{0.98573,0},{0.981893,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/StaticImageRight" Name="OverworldBaseHangar/DetailsRight" >
+            <Property Name="Text" Value="aaa" />
+            <Property Name="UnifiedAreaRect" Value="{{0.728571,0},{0.1374,0},{0.995237,0},{0.975252,0}}" />
+            <Window Type="ootGUI/StaticText" Name="OverworldBaseHangar/DetailsRight/txtText" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0263391,0},{0.0428256,0},{0.977232,0},{0.962583,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="OverworldBaseHangar/DetailsRight/btnToHangarBase" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" >SEND TO
+BASE HANGAR</Property>
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.667681,0},{0.914514,0},{0.966962,0},{0.981137,0}}" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="OverworldBaseHangar/DetailsRight/btnJoinFleet" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" >SEND TO
+MAIN FLEET</Property>
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0382167,0},{0.914514,0},{0.337496,0},{0.981136,0}}" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="OverworldBaseHangar/DetailsRight/btnLaunchShip" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" >SEND TO
+OVERWORLD</Property>
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.352949,0},{0.914514,0},{0.652229,0},{0.981137,0}}" />
+            </Window>
+        </Window>
+        <Window Type="brGUI/CommsFrame" Name="OverworldBaseHangar/LaunchFrame" >
+            <Property Name="UnifiedAreaRect" Value="{{0.373214,0},{0.0393675,0},{0.627976,0},{0.0930744,0}}" />
+            <Window Type="ootGUI/LabelWithOutline" Name="OverworldBaseHangar/LaunchFrame/txtShipName" >
+                <Property Name="Font" Value="Exo-SemiBold-14" />
+                <Property Name="Text" Value="Ship:" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0313086,0},{0.173759,0},{0.968224,0},{0.784877,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

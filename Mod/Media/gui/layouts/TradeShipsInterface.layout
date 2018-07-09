@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="TradeShipsInterface" >
+        <Property Name="UnifiedAreaRect" Value="{{0.000595238,0},{-0.00109051,0},{1.0006,0},{0.998909,0}}" />
+        <Window Type="jhGUI/StaticImageLeft" Name="TradeShipsInterface/TradeShipList" >
+            <Property Name="UnifiedAreaRect" Value="{{0.00476192,0},{0.0731735,0},{0.361904,0},{0.846249,0}}" />
+            <Window Type="jhGUI/FramelessListbox" Name="TradeShipsInterface/TradeShipList/lstShips" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0175634,0},{0.0458366,0},{0.985798,0},{0.975539,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TradeShipList/txtCaption" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="TRADE SHIPS:" />
+                <Property Name="HorzExtent" Value="101" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0165172,0},{0.00237224,0},{0.746429,0},{0.0413781,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/StaticImageRight" Name="TradeShipsInterface/TransportShip" >
+            <Property Name="Text" Value="aaa" />
+            <Property Name="UnifiedAreaRect" Value="{{0.638095,0},{0.0731735,0},{0.995237,0},{0.846249,0}}" />
+            <Window Type="ootGUI/RightButton" Name="TradeShipsInterface/TransportShip/btnRoute1" >
+                <Property Name="Font" Value="Exo-SemiBold-14" />
+                <Property Name="Text" Value="WAYPOINT I" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.246668,0},{0.0700763,0},{-0.0033344,0},{0.123974,0}}" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="TradeShipsInterface/TransportShip/btnRoute2" >
+                <Property Name="Font" Value="Exo-SemiBold-14" />
+                <Property Name="Text" Value="WAYPOINT II" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.246668,0},{0.125836,0},{-0.0033344,0},{0.179734,0}}" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="TradeShipsInterface/TransportShip/btnRoute3" >
+                <Property Name="Font" Value="Exo-SemiBold-14" />
+                <Property Name="Text" Value="WAYPOINT III" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.246668,0},{0.184251,0},{-0.00333442,0},{0.238149,0}}" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="TradeShipsInterface/TransportShip/btnRoute4" >
+                <Property Name="Font" Value="Exo-SemiBold-14" />
+                <Property Name="Text" Value="WAYPOINT IV" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.246668,0},{0.242666,0},{-0.00333422,0},{0.296565,0}}" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="TradeShipsInterface/TransportShip/btnRoute5" >
+                <Property Name="Font" Value="Exo-SemiBold-14" />
+                <Property Name="Text" Value="WAYPOINT V" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.246668,0},{0.301081,0},{-0.00333448,0},{0.35498,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtWaypoint" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="WAYPOINT:" />
+                <Property Name="HorzExtent" Value="87" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.206517,0},{0.00206896,0},{0.963096,0},{0.0410749,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtBuyPickup" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="BUY/PICKUP:" />
+                <Property Name="HorzExtent" Value="97" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.714852,0},{0.0464797,0},{0.948186,0},{0.0854856,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/TransportShip/chkBuyEnergy" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" ENERGY" />
+                <Property Name="UnifiedAreaRect" Value="{{0.748333,0},{0.0863956,0},{0.966667,0},{0.12121,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/TransportShip/chkBuyFood" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" FOOD" />
+                <Property Name="UnifiedAreaRect" Value="{{0.748333,0},{0.123029,0},{0.966667,0},{0.157843,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/TransportShip/chkBuyOre" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" ORE" />
+                <Property Name="UnifiedAreaRect" Value="{{0.748333,0},{0.159662,0},{0.966667,0},{0.194476,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/TransportShip/chkBuyWeapons" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" WEAPONS" />
+                <Property Name="UnifiedAreaRect" Value="{{0.748333,0},{0.195688,0},{0.966667,0},{0.230502,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/TransportShip/chkBuyNarcotics" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" NARCOTICS" />
+                <Property Name="UnifiedAreaRect" Value="{{0.748333,0},{0.233113,0},{0.966667,0},{0.267927,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtSellDeliver" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="SELL/DELIVER:" />
+                <Property Name="HorzExtent" Value="110" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.714852,0},{0.291971,0},{0.948186,0},{0.330977,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/TransportShip/chkSellEnergy" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" ENERGY" />
+                <Property Name="UnifiedAreaRect" Value="{{0.748333,0},{0.337779,0},{0.966667,0},{0.372593,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/TransportShip/chkSellFood" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" FOOD" />
+                <Property Name="UnifiedAreaRect" Value="{{0.748333,0},{0.374413,0},{0.966667,0},{0.409227,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/TransportShip/chkSellOre" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" ORE" />
+                <Property Name="UnifiedAreaRect" Value="{{0.748333,0},{0.411046,0},{0.966667,0},{0.44586,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/TransportShip/chkSellWeapons" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" WEAPONS" />
+                <Property Name="UnifiedAreaRect" Value="{{0.748333,0},{0.447072,0},{0.966667,0},{0.481886,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/TransportShip/chkSellNarcotics" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" NARCOTICS" />
+                <Property Name="UnifiedAreaRect" Value="{{0.748333,0},{0.484497,0},{0.966667,0},{0.519311,0}}" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="TradeShipsInterface/TransportShip/btnBasePreferences" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="SET TO BASE PREFERENCES" />
+                <Property Name="UnifiedAreaRect" Value="{{0.665001,0},{0.526348,0},{0.985001,0},{0.618358,0}}" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="TradeShipsInterface/TransportShip/btnClearWaypoint" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="CLEAR WAYPOINT" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0230933,0},{0.672589,0},{0.319759,0},{0.746527,0}}" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="TradeShipsInterface/TransportShip/btnClearAllWaypoints" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="CLEAR ALL WAYPOINTS" />
+                <Property Name="UnifiedAreaRect" Value="{{0.326666,0},{0.672589,0},{0.664999,0},{0.746527,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="TradeShipsInterface/TransportShip/ListHolder" >
+                <Property Name="Text" Value=" " />
+                <Property Name="UnifiedAreaRect" Value="{{0.0230933,0},{0.0455896,0},{0.65857,0},{0.635285,0}}" />
+                <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/ListHolder/txtBase" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="BASE:" />
+                    <Property Name="HorzExtent" Value="43" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.039426,0},{0.00781924,0},{0.577879,0},{0.0732015,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="jhGUI/FramelessListbox" Name="TradeShipsInterface/TransportShip/ListHolder/lstBases" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0255633,0},{0.0720994,0},{0.987133,0},{0.975169,0}}" />
+                </Window>
+                <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/TransportShip/ListHolder/chkOwnedOnly" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value=" OWNED ONLY" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.59179,0},{0.00546995,0},{0.996972,0},{0.0761656,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtWaypoint1" >
+                <Property Name="Font" Value="Exo-SemiBold-18" />
+                <Property Name="Text" Value="&gt;&gt;" />
+                <Property Name="HorzExtent" Value="22" />
+                <Property Name="VertExtent" Value="27.8468" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.298484,0},{0.0700763,0},{-0.25024,0},{0.123974,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtWaypoint2" >
+                <Property Name="Font" Value="Exo-SemiBold-18" />
+                <Property Name="Text" Value="&gt;&gt;" />
+                <Property Name="HorzExtent" Value="22" />
+                <Property Name="VertExtent" Value="27.8468" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.298484,0},{0.125836,0},{-0.25024,0},{0.179734,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtWaypoint3" >
+                <Property Name="Font" Value="Exo-SemiBold-18" />
+                <Property Name="Text" Value="&gt;&gt;" />
+                <Property Name="HorzExtent" Value="22" />
+                <Property Name="VertExtent" Value="27.8468" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.298484,0},{0.184251,0},{-0.25024,0},{0.238149,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtWaypoint4" >
+                <Property Name="Font" Value="Exo-SemiBold-18" />
+                <Property Name="Text" Value="&gt;&gt;" />
+                <Property Name="HorzExtent" Value="22" />
+                <Property Name="VertExtent" Value="27.8468" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.300151,0},{0.242666,0},{-0.251907,0},{0.296564,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtWaypoint5" >
+                <Property Name="Font" Value="Exo-SemiBold-18" />
+                <Property Name="Text" Value="&gt;&gt;" />
+                <Property Name="HorzExtent" Value="22" />
+                <Property Name="VertExtent" Value="27.8468" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.298484,0},{0.301081,0},{-0.25024,0},{0.354979,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtMinWaypoints" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="NOTE: Minimum 2 valid waypoints required." />
+                <Property Name="HorzExtent" Value="324" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0230933,0},{0.633243,0},{0.779673,0},{0.672249,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/TransportShip/chkAutoTrader" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" AUTO TRADER" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0397599,0},{0.834958,0},{0.329761,0},{0.869772,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/TransportShip/chkMiningSupport" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" MINING SUPPORT" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0397599,0},{0.908939,0},{0.329762,0},{0.943753,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtOverrides" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="TRANSPORT SHIP ROLE: " />
+                <Property Name="HorzExtent" Value="180" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0197599,0},{0.793271,0},{0.369672,0},{0.832277,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtEnergy" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="E" />
+                <Property Name="HorzExtent" Value="9" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.673095,0},{0.337779,0},{0.738006,0},{0.372593,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtFood" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="F" />
+                <Property Name="HorzExtent" Value="9" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.673095,0},{0.374413,0},{0.738006,0},{0.409227,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtOre" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="O" />
+                <Property Name="HorzExtent" Value="11" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.673095,0},{0.411046,0},{0.738006,0},{0.44586,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtWeapons" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="W" />
+                <Property Name="HorzExtent" Value="16" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.673095,0},{0.447072,0},{0.738006,0},{0.481886,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtNarcotics" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="N" />
+                <Property Name="HorzExtent" Value="11" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.673095,0},{0.484497,0},{0.738006,0},{0.519311,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/TransportShip/chkWaypointTrader" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" WAYPOINT TRADER" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0397599,0},{0.872263,0},{0.374761,0},{0.907077,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtProfit" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="PROFIT MADE:" />
+                <Property Name="HorzExtent" Value="106" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.509851,0},{0.872263,0},{0.9831,0},{0.907077,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/TransportShip/txtTradingLevel" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="TRADING LEVEL:" />
+                <Property Name="HorzExtent" Value="122" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.509851,0},{0.834958,0},{0.9831,0},{0.869772,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/MiningShip/txtTransportUnitCap" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="MINING SHIP UNIT CAP: " />
+                <Property Name="HorzExtent" Value="173" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0197599,0},{0.962389,0},{0.819677,0},{0.997203,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/txtNavTooltip" >
+            <Property Name="Font" Value="Comfortaa-14" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.372619,0},{0.829226,0},{0.627381,0},{0.862214,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Type="ootGUI/StaticImageClickPassThrough" Name="TradeShipsInterface/txtNavTooltip/imgBackground" >
+                <Property Name="Image" Value="set:jhGUI_target image:greybar" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Button_Hex_Red" Name="TradeShipsInterface/btnBack" >
+            <Property Name="UnifiedAreaRect" Value="{{0.475212,0},{0.916924,0},{0.525331,0},{0.995407,0}}" />
+        </Window>
+        <Window Type="jhGUI/StaticImageRight" Name="TradeShipsInterface/MiningShip" >
+            <Property Name="Text" Value="aaa" />
+            <Property Name="UnifiedAreaRect" Value="{{0.638691,0},{0.0731735,0},{0.995833,0},{0.846249,0}}" />
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/MiningShip/txtMiningShip" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="MINING SHIP:" />
+                <Property Name="HorzExtent" Value="94" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.206517,0},{0.00206896,0},{0.963096,0},{0.0410749,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="TradeShipsInterface/MiningShip/ListHolder1" >
+                <Property Name="Text" Value=" " />
+                <Property Name="UnifiedAreaRect" Value="{{0.57976,0},{0.0455896,0},{0.988569,0},{0.635285,0}}" />
+                <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/MiningShip/BaseListHolder/txtBase1" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="BASE:" />
+                    <Property Name="HorzExtent" Value="43" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.039426,0},{0.00781924,0},{0.270725,0},{0.0732015,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="jhGUI/FramelessListbox" Name="TradeShipsInterface/MiningShip/BaseListHolder/lstBases" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0255633,0},{0.0720994,0},{0.987133,0},{0.975169,0}}" />
+                </Window>
+                <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/MiningShip/BaseListHolder/chkOwnedOnly" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value=" OWNED ONLY" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.391916,0},{0.00546995,0},{0.989903,0},{0.0761656,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="TradeShipsInterface/MiningShip/FieldListHolder" >
+                <Property Name="Text" Value=" " />
+                <Property Name="UnifiedAreaRect" Value="{{0.0230933,0},{0.0455896,0},{0.56857,0},{0.635285,0}}" />
+                <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/MiningShip/FieldListHolder/txtField" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="FIELD:" />
+                    <Property Name="HorzExtent" Value="46" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.039426,0},{0.00781924,0},{0.389913,0},{0.0732015,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="jhGUI/FramelessListbox" Name="TradeShipsInterface/MiningShip/FieldListHolder/lstFields" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0255633,0},{0.0720994,0},{0.987133,0},{0.975169,0}}" />
+                </Window>
+                <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/MiningShip/FieldListHolder/chkOwnedOnly" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value=" OWNED ONLY" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.432192,0},{0.00546995,0},{0.97782,0},{0.0761656,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/MiningShip/txtMiningLevel" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="MINING LEVEL:" />
+                <Property Name="HorzExtent" Value="108" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.509851,0},{0.761606,0},{0.9831,0},{0.79642,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/MiningShip/txtProfit" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="PROFIT MADE:" />
+                <Property Name="HorzExtent" Value="106" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.509851,0},{0.872263,0},{0.9831,0},{0.907077,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/MiningShip/txtTradingLevel" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="TRADING LEVEL:" />
+                <Property Name="HorzExtent" Value="122" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.509851,0},{0.834958,0},{0.9831,0},{0.869772,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/MiningShip/txtOreMined" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="ORE MINED:" />
+                <Property Name="HorzExtent" Value="86" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.509851,0},{0.798129,0},{0.9831,0},{0.832943,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/MiningShip/txtMiningUnitCap" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="MINING SHIP UNIT CAP: " />
+                <Property Name="HorzExtent" Value="173" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0197599,0},{0.96176,0},{0.819677,0},{0.996574,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/StaticImageRight" Name="TradeShipsInterface/ShuttleShip" >
+            <Property Name="Text" Value="aaa" />
+            <Property Name="UnifiedAreaRect" Value="{{0.641071,0},{0.0731735,0},{0.998214,0},{0.846249,0}}" />
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/ShuttleShip/txtShuttleShip" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="SHUTTLE SHIP:" />
+                <Property Name="HorzExtent" Value="109" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.206517,0},{0.00206896,0},{0.963096,0},{0.0410749,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="TradeShipsInterface/ShuttleShip/ListHolder" >
+                <Property Name="Text" Value=" " />
+                <Property Name="UnifiedAreaRect" Value="{{0.0147591,0},{0.0455896,0},{0.988568,0},{0.635285,0}}" />
+                <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/ShuttleShip/BaseListHolder/txtBase" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="BASES (MULTI SELECT):" />
+                    <Property Name="HorzExtent" Value="175" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.039426,0},{0.00781924,0},{0.563389,0},{0.0732015,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="jhGUI/FramelessListbox" Name="TradeShipsInterface/ShuttleShip/BaseListHolder/lstBases" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="MultiSelect" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0255633,0},{0.0720994,0},{0.987133,0},{0.975169,0}}" />
+                </Window>
+                <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/ShuttleShip/BaseListHolder/chkOwnedOnly" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value=" OWNED ONLY" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.708542,0},{0.00546995,0},{0.989903,0},{0.0761656,0}}" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/ShuttleShip/txtProfit" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="PROFIT MADE:" />
+                <Property Name="HorzExtent" Value="106" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.509851,0},{0.872263,0},{0.9831,0},{0.907077,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/ShuttleShip/txtShuttleUnitCap" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="SHUTTLE SHIP UNIT CAP: " />
+                <Property Name="HorzExtent" Value="188" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0197599,0},{0.96176,0},{0.819677,0},{0.996574,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/ShuttleShip/chkBaseListShuttle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" BASE  LIST SHUTTLE" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0397599,0},{0.871481,0},{0.374761,0},{0.906295,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="TradeShipsInterface/ShuttleShip/chkAutoShuttle" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value=" AUTO SHUTTLE" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0397599,0},{0.834958,0},{0.329761,0},{0.869772,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="TradeShipsInterface/ShuttleShip/txtOverrides" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="SHUTTLE SHIP ROLE: " />
+                <Property Name="HorzExtent" Value="156" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0197599,0},{0.793271,0},{0.369672,0},{0.832277,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/RightButton" Name="TradeShipsInterface/ShuttleShip/btnClearAllBases" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="CLEAR ALL BASES" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0230933,0},{0.672589,0},{0.361426,0},{0.746527,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

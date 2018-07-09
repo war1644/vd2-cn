@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Defeat" >
+        <Property Name="Font" Value="Exo-SemiBold-12" />
+        <Property Name="UnifiedAreaRect" Value="{{0.000804505,0},{-0.000471988,0},{1.0008,0},{0.999528,0}}" />
+        <Window Type="ootGUI/StaticTextRight" Name="Defeat/txtEndGame" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Defeat - Press ESC for the menu" />
+            <Property Name="HorzExtent" Value="245" />
+            <Property Name="VertExtent" Value="18.5438" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapRightAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.738482,0},{0.001872,0},{0.994742,0},{0.0629038,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="ootGUI/LabelWithOutline" Name="Defeat/txtMissionFailed" >
+            <Property Name="Font" Value="Exo-SemiBold-18" />
+            <Property Name="Text" Value="!!! MISSION FAILED !!!" />
+            <Property Name="UnifiedAreaRect" Value="{{0.282679,0},{0.194,0},{0.7173,0},{0.26384,0}}" />
+        </Window>
+        <Window Type="jhGUI/Right_Button" Name="Defeat/btnLoadLastSave" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="LOAD LAST SAVED GAME" />
+            <Property Name="UnifiedAreaRect" Value="{{0.81469,0},{0.926392,0},{0.979454,0},{0.98228,0}}" />
+        </Window>
+        <Window Type="jhGUI/Right_Button" Name="Defeat/btnHintsAndTips" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="HINTS/TIPS" />
+            <Property Name="UnifiedAreaRect" Value="{{0.81469,0},{0.856435,0},{0.979454,0},{0.912323,0}}" />
+        </Window>
+        <Window Type="ootGUI/StaticTextRight" Name="Defeat/txtEndGameSimulator" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Defeat - Press ESC to exit simulator" />
+            <Property Name="HorzExtent" Value="275" />
+            <Property Name="VertExtent" Value="18.5438" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapRightAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.738482,0},{0.001872,0},{0.994743,0},{0.0629038,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

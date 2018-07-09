@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Credits" >
+        <Property Name="Font" Value="Exo-SemiBold-12" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="ootGUI/StaticImageLarge" Name="Credits/Logo" >
+            <Property Name="Image" Value="set:VD2logoStrokeGrey_Small image:VD2logoStrokeGrey_Small" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00178563,0},{0.0041081,0},{0.322024,0},{0.204632,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="jhGUI/StaticImageRight" Name="Credits/Credits" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Credits:" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedMinSize" Value="{{0.1,0},{0.1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.329994,0},{0.116545,0},{0.988154,0},{0.873615,0}}" />
+            <Window Type="ootGUI/TabControl" Name="Credits/Credits/" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="TabHeight" Value="{0,27.9164}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0263493,0},{0.0445975,0},{0.992606,0},{0.969352,0}}" />
+                <Window Type="DefaultWindow" Name="Credits/Credits/Programming" >
+                    <Property Name="Text" Value="Programming" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.00093598,0},{0,0},{0.999064,0},{1,0}}" />
+                    <Window Type="ootGUI/MultiLineEditboxRight" Name="Credits/Credits/Programming/multiProgramming" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" >
+</Property>
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="SelectionBrushImage" Value="" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Credits/Credits/Visual" >
+                    <Property Name="Text" Value="Visual" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="ootGUI/MultiLineEditboxRight" Name="Credits/Credits/Visual/multiVisual" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" >
+</Property>
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="SelectionBrushImage" Value="" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Credits/Credits/Sound" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="Sound" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.000882096,0},{0,0},{1.00088,0},{1,0}}" />
+                    <Window Type="ootGUI/MultiLineEditboxRight" Name="Credits/Credits/Sound/multiSound" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" >
+</Property>
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="SelectionBrushImage" Value="" />
+                    </Window>
+                </Window>
+				<Window Type="DefaultWindow" Name="Credits/Credits/Writing" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="Writing" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="ootGUI/MultiLineEditboxRight" Name="Credits/Credits/Writing/multiWriting" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" >
+</Property>
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="SelectionBrushImage" Value="" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Credits/Credits/SpecialThanks" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="Special Thanks" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="ootGUI/MultiLineEditboxRight" Name="Credits/Credits/SpecialThanks/multiSpecialThanks" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" >
+</Property>
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="SelectionBrushImage" Value="" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticText" Name="Credits/Credits/txtHeader" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="CREDITS:" />
+                <Property Name="HorzExtent" Value="67" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0997401,0},{0.00243901,0},{0.34974,0},{0.0392545,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/Right_Button" Name="Credits/btnClose" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="BACK" />
+            <Property Name="UnifiedAreaRect" Value="{{0.167446,0},{0.431113,0},{0.321795,0},{0.485193,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

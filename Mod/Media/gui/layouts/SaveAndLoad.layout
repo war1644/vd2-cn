@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="SaveAndLoad" >
+        <Property Name="Font" Value="Exo-SemiBold-12" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="ootGUI/StaticImageLarge" Name="SaveAndLoad/Logo" >
+            <Property Name="Image" Value="set:VD2logoStrokeGrey_Small image:VD2logoStrokeGrey_Small" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00178563,0},{0.0041081,0},{0.322024,0},{0.204632,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="DefaultWindow" Name="SaveAndLoad/LoadParent" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="UnifiedAreaRect" Value="{{0.323214,0},{0.0076338,0},{0.939878,0},{0.884406,0}}" />
+            <Window Type="jhGUI/StaticImageRight" Name="SaveAndLoad/LoadParent/Load" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Load:" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0957983,0},{0.0266359,0},{0.612596,0},{0.983606,0}}" />
+                <Window Type="ootGUI/ListboxRight" Name="SaveAndLoad/LoadParent/Load/lstLoadGames" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.050282,0},{0.04994,0},{0.950924,0},{0.973243,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticTextLeft" Name="SaveAndLoad/LoadParent/Load/txtHeader" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="SAVED GAMES:" />
+                    <Property Name="HorzExtent" Value="111" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.199836,0},{0.00710169,0},{0.606494,0},{0.0420154,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="ootGUI/StaticImageLargeRight" Name="SaveAndLoad/LoadParent/LoadButtons" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Load:" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.140549,0},{0.328762,0},{0.08088,0},{0.709061,0}}" />
+                <Window Type="jhGUI/Right_Button" Name="SaveAndLoad/LoadParent/LoadButtons/btnLoadOk" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="LOAD" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.12874,0},{0.0350593,0},{0.876477,0},{0.168467,0}}" />
+                </Window>
+                <Window Type="jhGUI/Right_Button" Name="SaveAndLoad/LoadParent/LoadButtons/btnLoadCancel" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="BACK" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.12874,0},{0.208697,0},{0.876477,0},{0.337723,0}}" />
+                </Window>
+                <Window Type="jhGUI/Right_Button" Name="SaveAndLoad/LoadParent/LoadButtons/btnDelete" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="DELETE" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.12874,0},{0.623996,0},{0.876477,0},{0.757404,0}}" />
+                </Window>
+                <Window Type="jhGUI/Right_Button" Name="SaveAndLoad/LoadParent/LoadButtons/btnDeleteAll" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="DELETE ALL" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.12874,0},{0.796681,0},{0.876477,0},{0.930089,0}}" />
+                </Window>
+                <Window Type="jhGUI/Right_Button" Name="SaveAndLoad/LoadParent/LoadButtons/btnContinueLast" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="LOAD LAST SAVED" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0277894,0},{0.420816,0},{0.965551,0},{0.571498,0}}" />
+                </Window>
+            </Window>
+            <Window Type="jhGUI/StaticImageRight" Name="SaveAndLoad/LoadParent/AutoSave" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Load:" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.619106,0},{0.0266359,0},{1.08957,0},{0.983606,0}}" />
+                <Window Type="ootGUI/ListboxRight" Name="SaveAndLoad/LoadParent/AutoSave/lstLoadGames" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.050282,0},{0.0498308,0},{0.974661,0},{0.977852,0}}" />
+                </Window>
+                <Window Type="ootGUI/StaticTextLeft" Name="SaveAndLoad/LoadParent/AutoSave/txtHeader" >
+                    <Property Name="Font" Value="Exo-SemiBold-12" />
+                    <Property Name="Text" Value="AUTO SAVES:" />
+                    <Property Name="HorzExtent" Value="100" />
+                    <Property Name="VertExtent" Value="18.5438" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="LeftAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.275918,0},{0.0051134,0},{0.682576,0},{0.0400271,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticImageLargeRight" Name="SaveAndLoad/LoadParent/DeleteAll" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Load:" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.309532,0},{0.350517,0},{0.749462,0},{0.520967,0}}" />
+            <Window Type="jhGUI/Right_Button" Name="SaveAndLoad/LoadParent/DeleteAll/btnOk" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="DELETE ALL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.12874,0},{0.55989,0},{0.434036,0},{0.83822,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="SaveAndLoad/LoadParent/DeleteAll/btnCancel" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="CANCEL" />
+                <Property Name="UnifiedAreaRect" Value="{{0.521119,0},{0.55989,0},{0.826415,0},{0.833839,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticTextLeft" Name="SaveAndLoad/DeleteAll/txtDeleteAll" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Delete ALL saved games?" />
+                <Property Name="HorzExtent" Value="196" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.13161,0},{0.16579,0},{0.823214,0},{0.420033,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

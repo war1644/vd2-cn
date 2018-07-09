@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="InstantEditor" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="jhGUI/StaticImageRight" Name="InstantEditor/Main" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Battle Editor:" />
+            <Property Name="UnifiedMinSize" Value="{{0.1,0},{0.1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.751473,0},{0.00873796,0},{0.998956,0},{0.995448,0}}" />
+            <Window Type="ootGUI/TabControl" Name="InstantEditor/Main/tabMain" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="TabHeight" Value="{0,31.736}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0340435,0},{0.0310885,0},{0.967111,0},{0.740419,0}}" />
+                <Window Type="DefaultWindow" Name="InstantEditor/Main/tabMain/Objects" >
+                    <Property Name="Text" Value=" Objects" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.99658,0}}" />
+                    <Window Type="jhGUI/StaticImageRight" Name="InstantEditor/Main/tabMain/Objects/ButtonsFrame" >
+                        <Property Name="Image" Value="set:jhGUI_asset_list image:closedFrame" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0231993,0},{0.00854976,0},{0.981956,0},{0.926618,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Window Type="jhGUI/Button_AssetList" Name="InstantEditor/Main/tabMain/Objects/ButtonsFrame/btnShip" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.130395,0},{0.0633547,0},{0.322093,0},{0.164836,0}}" />
+                            <Window Type="ootGUI/StaticImageClickPassThrough" Name="InstantEditor/Main/tabMain/Objects/ButtonsFrame/btnShip/imgIcon" >
+                                <Property Name="Image" Value="set:jhGUI_asset_list image:ships" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="jhGUI/Button_AssetList" Name="InstantEditor/Main/tabMain/Objects/ButtonsFrame/btnStations" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.3288,0},{0.0633547,0},{0.520498,0},{0.164837,0}}" />
+                            <Window Type="ootGUI/StaticImageClickPassThrough" Name="InstantEditor/Main/tabMain/Objects/ButtonsFrame/btnStations/imgIcon" >
+                                <Property Name="Image" Value="set:jhGUI_asset_list image:stations" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="jhGUI/FramelessListbox" Name="InstantEditor/Main/tabMain/Objects/ButtonsFrame/ListBox" >
+                            <Property Name="Font" Value="Exo-SemiBold-12" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0157374,0},{0.201446,0},{0.986561,0},{0.965351,0}}" />
+                        </Window>
+                        <Window Type="ootGUI/StaticText" Name="InstantEditor/Main/tabMain/Objects/ButtonsFrame/txtHeader" >
+                            <Property Name="Font" Value="Exo-SemiBold-10" />
+                            <Property Name="Text" Value="CATEGORY:" />
+                            <Property Name="HorzExtent" Value="73" />
+                            <Property Name="VertExtent" Value="15.4497" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.253002,0},{0.00144558,0},{0.995917,0},{0.0435473,0}}" />
+                            <Property Name="BackgroundEnabled" Value="False" />
+                        </Window>
+                        <Window Type="jhGUI/Button_AssetList" Name="InstantEditor/Main/tabMain/Objects/ButtonsFrame/btnBases" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.526672,0},{0.0624607,0},{0.71837,0},{0.163943,0}}" />
+                            <Window Type="ootGUI/StaticImageClickPassThrough" Name="InstantEditor/Main/tabMain/Objects/ButtonsFrame/btnBases/imgIcon" >
+                                <Property Name="Image" Value="set:jhGUI_asset_list image:bases" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="jhGUI/Button_AssetList" Name="InstantEditor/Main/tabMain/Objects/ButtonsFrame/btnOther" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.724545,0},{0.0624607,0},{0.916243,0},{0.163943,0}}" />
+                            <Window Type="ootGUI/StaticImageClickPassThrough" Name="InstantEditor/Main/tabMain/Objects/ButtonsFrame/btnOther/imgIcon" >
+                                <Property Name="Image" Value="set:jhGUI_asset_list image:other" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="InstantEditor/Main/tabMain/Objects/txtObjectsLocked" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Objects Locked:" />
+                        <Property Name="HorzExtent" Value="119" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="LeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0471559,0},{0.941599,0},{0.518887,0},{0.981611,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/CheckBox" Name="InstantEditor/Main/tabMain/Objects/chkHideLocked" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value=" HIDE LOCKED" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.533317,0},{0.940036,0},{0.962487,0},{0.980048,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="InstantEditor/Main/tabMain/Environment" >
+                    <Property Name="Text" Value=" Environment" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="ootGUI/StaticText" Name="InstantEditor/Main/tabMain/Environment/txtAsterods" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Asteroid Field:" />
+                        <Property Name="HorzExtent" Value="110" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0473855,0},{0.0284089,0},{0.948128,0},{0.0836867,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="jmGUI/HorizontalScrollbar" Name="InstantEditor/Main/tabMain/Environment/sldrAsteroids" >
+                        <Property Name="PageSize" Value="0" />
+                        <Property Name="StepSize" Value="1" />
+                        <Property Name="OverlapSize" Value="0" />
+                        <Property Name="DocumentSize" Value="1" />
+                        <Property Name="ScrollPosition" Value="0" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.446942,0},{0.142204,0},{0.963882,0},{0.185525,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="InstantEditor/Main/tabMain/Environment/txtRoidDensity" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Density:" />
+                        <Property Name="HorzExtent" Value="62" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0473855,0},{0.133028,0},{0.4024,0},{0.188306,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="InstantEditor/Main/tabMain/Environment/txtRoidArea" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Area Scale:" />
+                        <Property Name="HorzExtent" Value="84" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0473855,0},{0.0919961,0},{0.442684,0},{0.147274,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="jmGUI/HorizontalScrollbar" Name="InstantEditor/Main/tabMain/Environment/sldrRoidArea" >
+                        <Property Name="PageSize" Value="0" />
+                        <Property Name="StepSize" Value="1" />
+                        <Property Name="OverlapSize" Value="0" />
+                        <Property Name="DocumentSize" Value="1" />
+                        <Property Name="ScrollPosition" Value="0" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.446942,0},{0.0988961,0},{0.963882,0},{0.142217,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="InstantEditor/Main/tabMain/Environment/btnRoidsClear" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Clear Current" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.637727,0},{0.255313,0},{0.983773,0},{0.33918,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="InstantEditor/Main/tabMain/Environment/btnRoidsUnlink" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Unlink Current" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.260703,0},{0.255313,0},{0.629312,0},{0.33918,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="InstantEditor/Main/tabMain/Environment/txtDebris" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Debris Field:" />
+                        <Property Name="HorzExtent" Value="93" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0433571,0},{0.353781,0},{0.9441,0},{0.409058,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="InstantEditor/Main/tabMain/Environment/txtDebrisDensity" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Density:" />
+                        <Property Name="HorzExtent" Value="62" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0473855,0},{0.447088,0},{0.402399,0},{0.502366,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="InstantEditor/Main/tabMain/Environment/txtDebrisArea" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Area Scale:" />
+                        <Property Name="HorzExtent" Value="84" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0433571,0},{0.410608,0},{0.434627,0},{0.465885,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="InstantEditor/Main/tabMain/Environment/btnDebrisUnlink" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Unlink Current" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.260703,0},{0.550828,0},{0.629312,0},{0.634695,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="InstantEditor/Main/tabMain/Environment/btnDebrisClear" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Clear Current" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.637727,0},{0.550828,0},{0.983772,0},{0.634695,0}}" />
+                    </Window>
+                    <Window Type="jmGUI/HorizontalScrollbar" Name="InstantEditor/Main/tabMain/Environment/sldrDebrisArea" >
+                        <Property Name="PageSize" Value="0" />
+                        <Property Name="StepSize" Value="1" />
+                        <Property Name="OverlapSize" Value="0" />
+                        <Property Name="DocumentSize" Value="1" />
+                        <Property Name="ScrollPosition" Value="0" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.446942,0},{0.415232,0},{0.963882,0},{0.458553,0}}" />
+                    </Window>
+                    <Window Type="jmGUI/HorizontalScrollbar" Name="InstantEditor/Main/tabMain/Environment/sldrDebris" >
+                        <Property Name="PageSize" Value="0" />
+                        <Property Name="StepSize" Value="1" />
+                        <Property Name="OverlapSize" Value="0" />
+                        <Property Name="DocumentSize" Value="1" />
+                        <Property Name="ScrollPosition" Value="0" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.446942,0},{0.457542,0},{0.963882,0},{0.500864,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="InstantEditor/Main/tabMain/Environment/txtRoidSpin" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Spin:" />
+                        <Property Name="HorzExtent" Value="35" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0514139,0},{0.178616,0},{0.406428,0},{0.233894,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="jmGUI/HorizontalScrollbar" Name="InstantEditor/Main/tabMain/Environment/sldrRoidSpin" >
+                        <Property Name="PageSize" Value="0" />
+                        <Property Name="StepSize" Value="1" />
+                        <Property Name="OverlapSize" Value="0" />
+                        <Property Name="DocumentSize" Value="1" />
+                        <Property Name="ScrollPosition" Value="0" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.446942,0},{0.187361,0},{0.963883,0},{0.230682,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="InstantEditor/Main/tabMain/Environment/txtDebrisSpin" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Spin:" />
+                        <Property Name="HorzExtent" Value="35" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0473855,0},{0.487486,0},{0.402399,0},{0.542764,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="jmGUI/HorizontalScrollbar" Name="InstantEditor/Main/tabMain/Environment/sldrDebrisSpin" >
+                        <Property Name="PageSize" Value="0" />
+                        <Property Name="StepSize" Value="1" />
+                        <Property Name="OverlapSize" Value="0" />
+                        <Property Name="DocumentSize" Value="1" />
+                        <Property Name="ScrollPosition" Value="0" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.446941,0},{0.499504,0},{0.963882,0},{0.542825,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="InstantEditor/Main/tabMain/Environment/btnSelectRoids" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Select" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0297336,0},{0.255313,0},{0.248837,0},{0.33918,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="InstantEditor/Main/tabMain/Environment/btnSelectDebris" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Select" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0297336,0},{0.550828,0},{0.248837,0},{0.634695,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/CheckBox" Name="InstantEditor/Main/tabMain/Environment/chkDust" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value=" Dust" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0401827,0},{0.926725,0},{0.308227,0},{0.985224,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="InstantEditor/Main/tabMain/Environment/txtMines" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Mine Field:" />
+                        <Property Name="HorzExtent" Value="79" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0433571,0},{0.67366,0},{0.9441,0},{0.728937,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="InstantEditor/Main/tabMain/Environment/txtMineDensity" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Density:" />
+                        <Property Name="HorzExtent" Value="62" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0473855,0},{0.763084,0},{0.402399,0},{0.818363,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="InstantEditor/Main/tabMain/Environment/txtMinesArea" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Area Scale:" />
+                        <Property Name="HorzExtent" Value="84" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0433571,0},{0.726604,0},{0.434627,0},{0.781881,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="jmGUI/HorizontalScrollbar" Name="InstantEditor/Main/tabMain/Environment/sldrMinesArea" >
+                        <Property Name="PageSize" Value="0" />
+                        <Property Name="StepSize" Value="1" />
+                        <Property Name="OverlapSize" Value="0" />
+                        <Property Name="DocumentSize" Value="1" />
+                        <Property Name="ScrollPosition" Value="0" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.446942,0},{0.731228,0},{0.963882,0},{0.774549,0}}" />
+                    </Window>
+                    <Window Type="jmGUI/HorizontalScrollbar" Name="InstantEditor/Main/tabMain/Environment/sldrMines" >
+                        <Property Name="PageSize" Value="0" />
+                        <Property Name="StepSize" Value="1" />
+                        <Property Name="OverlapSize" Value="0" />
+                        <Property Name="DocumentSize" Value="1" />
+                        <Property Name="ScrollPosition" Value="0" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.446942,0},{0.773538,0},{0.963882,0},{0.81686,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="InstantEditor/Main/tabMain/Environment/btnSelectMines" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Select" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0297336,0},{0.824122,0},{0.248837,0},{0.907989,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="InstantEditor/Main/tabMain/Environment/btnMinesUnlink" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Unlink Current" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.260703,0},{0.824122,0},{0.629312,0},{0.907989,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/MiddileButton" Name="InstantEditor/Main/tabMain/Environment/btnMinesClear" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Clear Current" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.637727,0},{0.824122,0},{0.983772,0},{0.907989,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/CheckBox" Name="InstantEditor/Main/tabMain/Environment/chkMusic" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value=" Music" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.322176,0},{0.926725,0},{0.59022,0},{0.985224,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="InstantEditor/Main/tabMain/Other" >
+                    <Property Name="Text" Value=" Other" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="ootGUI/CheckBox" Name="InstantEditor/Main/tabMain/Other/chkMustResearch" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value=" Must Research" />
+                        <Property Name="Selected" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0257407,0},{0.0187408,0},{0.605686,0},{0.0772399,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/CheckBox" Name="InstantEditor/Main/tabMain/Other/chkCommandFullyUpgraded" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Command Ship Upgraded to Unlocked" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0257407,0},{0.821119,0},{0.953676,0},{0.879618,0}}" />
+                    </Window>
+                    <Window Type="jhGUI/Right_Button" Name="InstantEditor/Main/tabMain/Other/btnAddCommandShip" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="ADD COMMAND SHIP" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.385577,0},{0.891457,0},{0.964093,0},{0.981393,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/CheckBox" Name="InstantEditor/Main/tabMain/Other/chkMaxUnitCap" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value=" Max Unit Cap" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0257407,0},{0.0687408,0},{0.605686,0},{0.12724,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/CheckBox" Name="InstantEditor/Main/tabMain/Other/chkEasyDifficulty" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value=" Easy" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.023163,0},{0.185429,0},{0.270586,0},{0.243928,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/CheckBox" Name="InstantEditor/Main/tabMain/Other/chkMediumDifficulty" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value=" Medium" />
+                        <Property Name="Selected" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.281957,0},{0.185429,0},{0.529378,0},{0.243928,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/CheckBox" Name="InstantEditor/Main/tabMain/Other/chkHardDifficulty" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value=" Hard" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.538172,0},{0.185429,0},{0.785594,0},{0.243928,0}}" />
+                    </Window>
+                    <Window Type="ootGUI/StaticText" Name="InstantEditor/Main/tabMain/Other/txtDifficulty" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value="Difficulty:" />
+                        <Property Name="HorzExtent" Value="75" />
+                        <Property Name="VertExtent" Value="18.5438" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0257407,0},{0.123811,0},{0.311829,0},{0.185717,0}}" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                    </Window>
+                    <Window Type="ootGUI/CheckBox" Name="InstantEditor/Main/tabMain/Other/chkHostileStart" >
+                        <Property Name="Font" Value="Exo-SemiBold-12" />
+                        <Property Name="Text" Value=" Ship Hostile Start (Search and Destroy)" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.023163,0},{0.235429,0},{0.951099,0},{0.293928,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="InstantEditor/Main/btnResetClear" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="CLEAR ALL" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0855401,0},{0.830029,0},{0.535169,0},{0.878926,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="InstantEditor/Main/btnPlay" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="PLAY" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.066562,0},{0.940249,0},{0.516191,0},{0.989146,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="InstantEditor/Main/btnExit" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="EXIT" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.51847,0},{0.940249,0},{0.968099,0},{0.989146,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="InstantEditor/Main/btnGuide" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="GUIDE" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.51847,0},{0.774554,0},{0.968099,0},{0.823451,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="InstantEditor/Main/btnSave" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="SAVE" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.066562,0},{0.88511,0},{0.516191,0},{0.934007,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="InstantEditor/Main/btnLoad" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="LOAD" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.51847,0},{0.88511,0},{0.968099,0},{0.934007,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="InstantEditor/Main/btnResetCamera" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="RESET CAMERA" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.51847,0},{0.830029,0},{0.968099,0},{0.878926,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/StaticImageLeft" Name="InstantEditor/SelectedObjects" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Selected Object:" />
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="UnifiedMinSize" Value="{{0.1,0},{0.1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0122464,0},{0.0131596,0},{0.295256,0},{0.211301,0}}" />
+            <Window Type="jhGUI/Left_Button" Name="InstantEditor/SelectedObjects/btnDuplicate" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="DUPLICATE" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0248593,0},{0.0255495,0},{0.412187,0},{0.310082,0}}" />
+            </Window>
+            <Window Type="jhGUI/Left_Button" Name="InstantEditor/SelectedObjects/btnMoveApart" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="MOVE APART" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0267943,0},{0.331015,0},{0.414122,0},{0.603876,0}}" />
+            </Window>
+            <Window Type="jhGUI/Left_Button" Name="InstantEditor/SelectedObjects/btnRemove" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="REMOVE" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0287294,0},{0.637063,0},{0.416057,0},{0.917704,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticTextLeft" Name="InstantEditor/SelectedObjects/txtSide" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Set Side:" />
+                <Property Name="HorzExtent" Value="64" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.42709,0},{0.00655604,0},{0.846122,0},{0.13375,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/Combobox" Name="InstantEditor/SelectedObjects/comSide" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.42709,0},{0.177773,0},{0.975315,0},{2.07524,0}}" />
+                <Property Name="MaxEditTextLength" Value="1073741823" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="InstantEditor/SelectedObjects/chkPreserveOnDup" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Add To Selected" />
+                <Property Name="Selected" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.443652,0},{0.395699,0},{0.943982,0},{0.593398,0}}" />
+            </Window>
+            <Window Type="ootGUI/CheckBox" Name="InstantEditor/SelectedObjects/chkStartingShip" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="Starting Ship" />
+                <Property Name="Selected" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.443652,0},{0.699938,0},{0.943982,0},{0.897636,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/StaticImageLeft" Name="InstantEditor/ObjectInfo" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Object:" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0117601,0},{0.00899804,0},{0.283322,0},{0.786208,0}}" />
+            <Window Type="jhGUI/Left_Button" Name="InstantEditor/ObjectInfo/btnAdd" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="ADD OBJECT" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.217943,0},{0.926192,0},{0.577354,0},{0.991103,0}}" />
+            </Window>
+            <Window Type="ootGUI/StaticImage" Name="InstantEditor/ObjectInfo/rttImage" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="GuiClick" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0360902,0},{0.045319,0},{0.965587,0},{0.548484,0}}" />
+            </Window>
+            <Window Type="ootGUI/MultiLineEditboxLeft" Name="InstantEditor/ObjectInfo/multiDesc" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" >
+</Property>
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0342603,0},{0.566101,0},{0.969439,0},{0.879153,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="SelectionBrushImage" Value="" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticTextLeft" Name="InstantEditor/txtMessage" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Message:" />
+            <Property Name="HorzExtent" Value="72" />
+            <Property Name="VertExtent" Value="18.5438" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0160714,0},{0.845637,0},{0.734524,0},{0.880057,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="jhGUI/StaticImageRight" Name="InstantEditor/Save" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Save:" />
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="UnifiedMinSize" Value="{{0.1,0},{0.1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.34503,0},{0.314736,0},{0.662771,0},{0.785561,0}}" />
+            <Window Type="jhGUI/Right_Button" Name="InstantEditor/Save/btnSave" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="OK" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.297975,0},{0.876128,0},{0.63052,0},{0.983473,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="InstantEditor/Save/btnCancel" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="CANCEL" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.634302,0},{0.876128,0},{0.966847,0},{0.983473,0}}" />
+            </Window>
+            <Window Type="ootGUI/Editbox" Name="InstantEditor/Save/edtSaveFileName" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035707,0},{0.0866632,0},{0.98072,0},{0.187059,0}}" />
+                <Property Name="TextParsingEnabled" Value="False" />
+            </Window>
+            <Window Type="ootGUI/Listbox" Name="InstantEditor/Save/lstSaveGames" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035707,0},{0.211597,0},{0.98072,0},{0.84921,0}}" />
+            </Window>
+        </Window>
+        <Window Type="jhGUI/StaticImageRight" Name="InstantEditor/Load" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Load:" />
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="UnifiedMinSize" Value="{{0.1,0},{0.1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.346241,0},{0.312554,0},{0.663983,0},{0.783378,0}}" />
+            <Window Type="ootGUI/Listbox" Name="InstantEditor/Load/lstLoadGames" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035707,0},{0.0718627,0},{0.96573,0},{0.827981,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="InstantEditor/Load/btnLoad" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="OK" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.299848,0},{0.862231,0},{0.630519,0},{0.974218,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="InstantEditor/Load/btnCancel" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="CANCEL" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.636176,0},{0.862231,0},{0.966847,0},{0.974218,0}}" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticImageLarge" Name="InstantEditor/Exit" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Exit?" />
+            <Property Name="Alpha" Value="0.7" />
+            <Property Name="UnifiedMinSize" Value="{{0.1,0},{0.1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.347185,0},{0.399843,0},{0.664926,0},{0.54943,0}}" />
+            <Window Type="ootGUI/StaticText" Name="InstantEditor/Exit/txtExitEditor" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="EXIT BATTLE EDITOR?" />
+                <Property Name="HorzExtent" Value="164" />
+                <Property Name="VertExtent" Value="18.5438" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.221998,0},{0.266298,0},{0.737107,0},{0.516298,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="InstantEditor/Exit/btnYes" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="YES" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.14831,0},{0.564894,0},{0.480856,0},{0.898591,0}}" />
+            </Window>
+            <Window Type="jhGUI/Right_Button" Name="InstantEditor/Exit/btnNo" >
+                <Property Name="Font" Value="Exo-SemiBold-12" />
+                <Property Name="Text" Value="NO" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.522104,0},{0.564894,0},{0.854648,0},{0.898591,0}}" />
+            </Window>
+        </Window>
+        <Window Type="ootGUI/StaticText" Name="InstantEditor/txtShipCount" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="Ship Count:" />
+            <Property Name="HorzExtent" Value="84" />
+            <Property Name="VertExtent" Value="18.5438" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0160714,0},{0.944768,0},{0.745833,0},{0.979188,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="ootGUI/StaticText" Name="InstantEditor/txtMouseOver" >
+            <Property Name="Font" Value="Exo-SemiBold-12" />
+            <Property Name="Text" Value="MouseOver" />
+            <Property Name="HorzExtent" Value="86" />
+            <Property Name="VertExtent" Value="18.5438" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.166085,0},{0.909481,0},{0.38273,0},{0.943901,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>
