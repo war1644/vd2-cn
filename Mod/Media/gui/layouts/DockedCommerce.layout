@@ -24,7 +24,7 @@
                 <Property Name="BackgroundEnabled" Value="False" />
                 <Window Type="ootGUI/StaticText" Name="DockedCommerce/UnifiedFrame/CreditsFrame/txtCredits" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Credits:" />
+                    <Property Name="Text" Value="金钱:" />
                     <Property Name="HorzExtent" Value="59" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -42,7 +42,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="DockedCommerce/ShipList/txtHeader" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="Commerce Ships:" />
+                <Property Name="Text" Value="货船:" />
                 <Property Name="HorzExtent" Value="129" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -54,7 +54,7 @@
             <Property Name="UnifiedAreaRect" Value="{{0.708332,0},{0.1374,0},{0.994232,0},{0.975252,0}}" />
             <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtCommerce" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="Commerce:" />
+                <Property Name="Text" Value="交易类型:" />
                 <Property Name="HorzExtent" Value="85" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -63,7 +63,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtPurchase" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="Base: " />
+                <Property Name="Text" Value="购买: " />
                 <Property Name="HorzExtent" Value="45" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -84,7 +84,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtSell" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="Ship: " />
+                <Property Name="Text" Value="舰船: " />
                 <Property Name="HorzExtent" Value="39" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -105,7 +105,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtEnergyBuy" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="Energy:" />
+                <Property Name="Text" Value="能量:" />
                 <Property Name="HorzExtent" Value="50" />
                 <Property Name="VertExtent" Value="15.4497" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -114,7 +114,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtFoodBuy" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="Food:" />
+                <Property Name="Text" Value="食物:" />
                 <Property Name="HorzExtent" Value="36" />
                 <Property Name="VertExtent" Value="15.4497" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -123,7 +123,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtOreBuy" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="Ore:" />
+                <Property Name="Text" Value="矿石:" />
                 <Property Name="HorzExtent" Value="27" />
                 <Property Name="VertExtent" Value="15.4497" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -132,7 +132,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="DockedCommerce/MainFrame/txtOreSell" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="Ore (Cargo):" />
+                <Property Name="Text" Value="矿(货船):" />
                 <Property Name="HorzExtent" Value="77" />
                 <Property Name="VertExtent" Value="15.4497" />
                 <Property Name="FrameEnabled" Value="False" />

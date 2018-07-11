@@ -40,7 +40,7 @@
             </Window>
             <Window Type="ootGUI/CheckBox" Name="DockedHangar/UnifiedFrame/chkAutoRepair" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value=" AUTO REPAIR FLEET" />
+                <Property Name="Text" Value=" AUTO REPAIR FLEET舰队" />
                 <Property Name="UnifiedAreaRect" Value="{{0.201559,0},{0.56299,0},{0.636415,0},{0.712206,0}}" />
             </Window>
         </Window>

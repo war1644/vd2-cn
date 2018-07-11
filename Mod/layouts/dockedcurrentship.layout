@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GUILayout>
+	<Window Type="DefaultWindow" Name="DockedCurrentShip">
+		<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}"/>
+		<Window Type="ootGUI/StaticImageLarge" Name="DockedCurrentShip/UpgradeList">
+			<Property Name="Image" Value="set:jhGUI_asset_list image:frame"/>
+			<Property Name="GuiClick" Value="True"/>
+			<Property Name="FrameEnabled" Value="False"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.00939267,0},{0.1374,0},{0.17963,0},{0.598942,0}}"/>
+			<Property Name="BackgroundEnabled" Value="False"/>
+			<Window Type="jhGUI/FramelessListbox" Name="DockedCurrentShip/UpgradeList/ListBox">
+				<Property Name="Font" Value="Exo-SemiBold-10"/>
+				<Property Name="AlwaysOnTop" Value="True"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0220277,0},{0.207109,0},{0.983566,0},{0.806633,0}}"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="DockedCurrentShip/UpgradeList/txtHeader">
+				<Property Name="Font" Value="Exo-SemiBold-8"/>
+				<Property Name="Text" Value="升级："/>
+				<Property Name="HorzExtent" Value="60"/>
+				<Property Name="VertExtent" Value="12.3762"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0223759,0},{0.000690647,0},{0.74091,0},{0.0474917,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="jhGUI/Button_AssetList" Name="DockedCurrentShip/UpgradeList/btnWeapons">
+				<Property Name="AlwaysOnTop" Value="True"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0859326,0},{0.0610553,0},{0.27477,0},{0.165176,0}}"/>
+				<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCurrentShip/UpgradeList/btnWeapons/imgIcon">
+					<Property Name="Image" Value="set:jhGUI_asset_list image:weapons"/>
+					<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}"/>
+				</Window>
+			</Window>
+			<Window Type="jhGUI/Button_AssetList" Name="DockedCurrentShip/UpgradeList/btnEngineering">
+				<Property Name="AlwaysOnTop" Value="True"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.282284,0},{0.0610553,0},{0.471121,0},{0.165176,0}}"/>
+				<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCurrentShip/UpgradeList/btnEngineering/imgIcon">
+					<Property Name="Image" Value="set:jhGUI_asset_list image:engineering"/>
+					<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}"/>
+				</Window>
+			</Window>
+			<Window Type="jhGUI/Button_AssetList" Name="DockedCurrentShip/UpgradeList/btnPropulsion">
+				<Property Name="AlwaysOnTop" Value="True"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.48257,0},{0.0610553,0},{0.671407,0},{0.165176,0}}"/>
+				<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCurrentShip/UpgradeList/btnPropulsion/imgIcon">
+					<Property Name="Image" Value="set:jhGUI_asset_list image:propulsion"/>
+					<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}"/>
+				</Window>
+			</Window>
+			<Window Type="jhGUI/Button_AssetList" Name="DockedCurrentShip/UpgradeList/btnOther">
+				<Property Name="AlwaysOnTop" Value="True"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.682856,0},{0.0610553,0},{0.871693,0},{0.165176,0}}"/>
+				<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCurrentShip/UpgradeList/btnOther/imgIcon">
+					<Property Name="Image" Value="set:jhGUI_asset_list image:tech"/>
+					<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}"/>
+				</Window>
+			</Window>
+			<Window Type="jhGUI/AssetListHide" Name="DockedCurrentShip/UpgradeList/btnHideAssets">
+				<Property Name="AlwaysOnTop" Value="True"/>
+				<Property Name="ClippedByParent" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.950352,0},{0.0968011,0},{1.10245,0},{0.271192,0}}"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="DockedCurrentShip/UpgradeList/txtPrimaryUpgrades">
+				<Property Name="Font" Value="Exo-SemiBold-10"/>
+				<Property Name="Text" Value="主武器升级："/>
+				<Property Name="HorzExtent" Value="131"/>
+				<Property Name="VertExtent" Value="15.4497"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0150347,0},{0.872938,0},{0.971332,0},{0.919739,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="DockedCurrentShip/UpgradeList/txtSecondaryUpgrades">
+				<Property Name="Font" Value="Exo-SemiBold-10"/>
+				<Property Name="Text" Value="副武器升级："/>
+				<Property Name="HorzExtent" Value="152"/>
+				<Property Name="VertExtent" Value="15.4497"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0150347,0},{0.922938,0},{0.971333,0},{0.969739,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="DockedCurrentShip/UpgradeList/txtActiveUpgrades">
+				<Property Name="Font" Value="Exo-SemiBold-10"/>
+				<Property Name="Text" Value="活动中的升级："/>
+				<Property Name="HorzExtent" Value="121"/>
+				<Property Name="VertExtent" Value="15.4497"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0150347,0},{0.824083,0},{0.971333,0},{0.870884,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+		</Window>
+		<Window Type="DefaultWindow" Name="DockedCurrentShip/UnifiedFrame">
+			<Property Name="AlwaysOnTop" Value="True"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.730356,0},{-0.000391843,0},{0.997617,0},{0.172732,0}}"/>
+			<Window Type="ootGUI/StaticImage" Name="DockedCurrentShip/Repair/healthBG">
+				<Property Name="Image" Value="set:jhGUI_cmd_health_BG image:jhGUI_cmd_health_BG"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.17177,0},{0.0321933,0},{0.992562,0},{0.377049,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+				<Window Type="jhGUI/Cmd_Health" Name="DockedCurrentShip/UnifiedFrame/healthBG/Health">
+					<Property Name="StepSize" Value="0.01"/>
+					<Property Name="CurrentProgress" Value="0"/>
+					<Property Name="UnifiedAreaRect" Value="{{0.0150876,0},{0.0429181,0},{0.976011,0},{0.895677,0}}"/>
+				</Window>
+			</Window>
+			<Window Type="ootGUI/StaticImage" Name="DockedCurrentShip/UnifiedFrame/CreditsFrame">
+				<Property Name="Image" Value="set:jhGUI_cmd_heading image:jhGUI_cmd_heading"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.170545,0},{0.389292,0},{0.68176,0},{0.572426,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+				<Window Type="ootGUI/StaticText" Name="DockedCurrentShip/UnifiedFrame/CreditsFrame/txtCredits">
+					<Property Name="Font" Value="Exo-SemiBold-12"/>
+					<Property Name="Text" Value="开发人员："/>
+					<Property Name="HorzExtent" Value="59"/>
+					<Property Name="VertExtent" Value="18.5438"/>
+					<Property Name="FrameEnabled" Value="False"/>
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="UnifiedAreaRect" Value="{{0.0275794,0},{0.0971505,0},{0.964302,0},{0.708676,0}}"/>
+					<Property Name="BackgroundEnabled" Value="False"/>
+				</Window>
+			</Window>
+			<Window Type="jhGUI/Right_Button" Name="DockedCurrentShip/UnifiedFrame/btnRepair">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="维修"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.638308,0},{0.429102,0},{0.986304,0},{0.720885,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/StaticImageRight" Name="DockedCurrentShip/ShipUpgrade">
+			<Property Name="UnifiedAreaRect" Value="{{0.730354,0},{0.1374,0},{0.994232,0},{0.992023,0}}"/>
+			<Window Type="ootGUI/StaticTextLeft" Name="DockedCurrentShip/ShipUpgrade/editText">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="VertExtent" Value="18.5438"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="InheritsAlpha" Value="False"/>
+				<Property Name="VertFormatting" Value="TopAligned"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0219686,0},{0.0355963,0},{0.98291,0},{0.423858,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="ootGUI/StaticTextLeft" Name="DockedCurrentShip/ShipUpgrade/txtShipUpgrade">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="升级："/>
+				<Property Name="HorzExtent" Value="68"/>
+				<Property Name="VertExtent" Value="18.5438"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="InheritsAlpha" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.251422,0},{0.00155961,0},{0.903326,0},{0.0323969,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="jhGUI/Right_Button" Name="DockedCurrentShip/ShipUpgrade/btnAddUpgrade">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="安装升级"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0112673,0},{0.917831,0},{0.516163,0},{0.980065,0}}"/>
+			</Window>
+			<Window Type="jhGUI/Right_Button" Name="DockedCurrentShip/ShipUpgrade/btnTest">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="在模拟装置中测试"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.478577,0},{0.91652,0},{0.994753,0},{0.978754,0}}"/>
+			</Window>
+			<Window Type="ootGUI/StaticTextLeft" Name="DockedCurrentShip/ShipUpgrade/txtShipStats">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="VertExtent" Value="18.5438"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="InheritsAlpha" Value="False"/>
+				<Property Name="VertFormatting" Value="TopAligned"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0219686,0},{0.430121,0},{0.98291,0},{0.910255,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+		</Window>
+		<Window Type="ootGUI/LabelWithOutline" Name="DockedCurrentShip/txtNavTooltip">
+			<Property Name="Font" Value="Exo-SemiBold-12"/>
+			<Property Name="AlwaysOnTop" Value="True"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.372619,0},{0.829226,0},{0.627381,0},{0.862214,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCurrentShip/txtNavTooltip/imgBackground">
+				<Property Name="Image" Value="set:jhGUI_target image:greybar"/>
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex" Name="DockedCurrentShip/btnUndock">
+			<Property Name="UnifiedAreaRect" Value="{{0.358419,0},{0.872729,0},{0.408538,0},{0.951212,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCurrentShip/btnUndock/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:ship"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.171427,0},{0.882341,0},{0.893849,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedCurrentShip/btnSimulation">
+			<Property Name="UnifiedAreaRect" Value="{{0.55238,0},{0.916924,0},{0.602498,0},{0.995407,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCurrentShip/btnSimulation/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:research"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.145699,0},{0.143637,0},{0.89421,0},{0.866059,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedCurrentShip/btnPurchaseShip">
+			<Property Name="UnifiedAreaRect" Value="{{0.436408,0},{0.872729,0},{0.486527,0},{0.951212,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCurrentShip/btnPurchaseShip/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:formations"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.12196,0},{0.129742,0},{0.870471,0},{0.852164,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedCurrentShip/btnMissions">
+			<Property Name="UnifiedAreaRect" Value="{{0.591702,0},{0.872729,0},{0.641821,0},{0.951212,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCurrentShip/btnMissions/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:command_ship"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedCurrentShip/btnHelp">
+			<Property Name="UnifiedAreaRect" Value="{{0.630994,0},{0.916924,0},{0.681113,0},{0.995407,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCurrentShip/btnHelp/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:help"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedCurrentShip/btnDockedMain">
+			<Property Name="UnifiedAreaRect" Value="{{0.320466,0},{0.917877,0},{0.370585,0},{0.99636,0}}"/>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedCurrentShip/btnCommerce">
+			<Property Name="UnifiedAreaRect" Value="{{0.397831,0},{0.916924,0},{0.44795,0},{0.995407,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCurrentShip/btnCommerce/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:build"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedCurrentShip/btnBase">
+			<Property Name="UnifiedAreaRect" Value="{{0.475195,0},{0.916924,0},{0.525314,0},{0.995407,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCurrentShip/btnBase/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:base"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedCurrentShip/btnHangar">
+			<Property Name="UnifiedAreaRect" Value="{{0.514487,0},{0.872729,0},{0.564606,0},{0.951212,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedCurrentShip/btnHangar/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:ship_switch"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}"/>
+			</Window>
+		</Window>
+	</Window>
+</GUILayout>
+

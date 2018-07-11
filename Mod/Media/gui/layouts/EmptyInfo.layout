@@ -10,7 +10,7 @@
             <Property Name="UnifiedAreaRect" Value="{{0.00297618,0},{0.0307427,0},{0.998809,0},{0.280742,0}}" />
             <Window Type="ootGUI/LabelWithOutline" Name="EmptyInfo/PatrolCircle/txtInfo" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="Patrol Command - move mouse to expand/contract patrol area - left click to confirm" />
+                <Property Name="Text" Value="巡逻Patrol Command - move mouse to expand/contract patrol area - left click to confirm" />
                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.218049,0}}" />
             </Window>
             <Window Type="ootGUI/LabelWithOutline" Name="EmptyInfo/PatrolCircle/txtRadius" >
@@ -23,7 +23,7 @@
             <Property Name="UnifiedAreaRect" Value="{{0.00535713,0},{0.0262646,0},{1.00119,0},{0.276264,0}}" />
             <Window Type="ootGUI/LabelWithOutline" Name="EmptyInfo/TurnCircle/txtInfo" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="Rotate Command - move mouse to asign rotation direction - left click to confirm" />
+                <Property Name="Text" Value="转圈Rotate Command - move mouse to 指定assign rotation direction - left click to confirm" />
                 <Property Name="UnifiedAreaRect" Value="{{0.352327,0},{0.235499,0},{0.645273,0},{0.379916,0}}" />
             </Window>
         </Window>
@@ -32,13 +32,13 @@
             <Window Type="ootGUI/LabelWithOutline" Name="EmptyInfo/MoveCommand/txtInfo" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
                 <Property Name="Text" >Move Command - move mouse to desired go to location 
-Left click to confirm - hold down SHIFT to select multiple waypoints - hold ALT and move mouse to change Y position
+Left click to confirm - hold down SHIFT to select multiple 航点waypoints - hold ALT and move mouse to change Y position
 Hold CTRL key to enable snap to object</Property>
                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.218049,0}}" />
             </Window>
             <Window Type="ootGUI/LabelWithOutline" Name="EmptyInfo/MoveCommand/txtSnapMessage" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="Snap Message" />
+                <Property Name="Text" Value="捕捉Snap Message" />
                 <Property Name="UnifiedAreaRect" Value="{{0.352327,0},{0.235499,0},{0.645273,0},{0.379916,0}}" />
             </Window>
         </Window>

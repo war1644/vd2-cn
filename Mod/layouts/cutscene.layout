@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GUILayout>
+	<Window Type="DefaultWindow" Name="Cutscene">
+		<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}"/>
+		<Window Type="ootGUI/StaticImage" Name="Cutscene/imgFullScreen">
+			<Property Name="FrameEnabled" Value="False"/>
+			<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}"/>
+			<Property Name="BackgroundEnabled" Value="False"/>
+			<Window Type="DefaultWindow" Name="Cutscene/winHeading">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.01,0},{0,0},{0.389881,0},{0.393109,0}}"/>
+				<Window Type="ootGUI/LabelWithOutline" Name="Cutscene/winHeading/txtHeading">
+					<Property Name="Font" Value="Exo-SemiBold-14"/>
+					<Property Name="Text" Value="标题"/>
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="ClippedByParent" Value="False"/>
+					<Property Name="UnifiedAreaRect" Value="{{0,0},{-0.00277407,0},{1,0},{0.791946,0}}"/>
+				</Window>
+			</Window>
+			<Window Type="DefaultWindow" Name="Cutscene/winBody">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.409417,0},{0.642262,0},{0.783868,0}}"/>
+				<Window Type="ootGUI/LabelWithOutline" Name="Cutscene/winBody/txtBody">
+					<Property Name="Font" Value="Exo-SemiBold-12"/>
+					<Property Name="Text" Value="主体"/>
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="TopAligned"/>
+					<Property Name="ClippedByParent" Value="False"/>
+					<Property Name="UnifiedAreaRect" Value="{{0,0},{-0.238808,0},{1,0},{1.0233,0}}"/>
+				</Window>
+			</Window>
+			<Window Type="DefaultWindow" Name="Cutscene/winFooter">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.802929,0},{0.692262,0},{0.990902,0}}"/>
+				<Window Type="ootGUI/LabelWithOutline" Name="Cutscene/winFooter/txtFooter">
+					<Property Name="Font" Value="Exo-SemiBold-12"/>
+					<Property Name="Text" Value="注脚"/>
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="VertFormatting" Value="TopAligned"/>
+					<Property Name="ClippedByParent" Value="False"/>
+					<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}"/>
+				</Window>
+			</Window>
+			<Window Type="ootGUI/LabelWithOutline" Name="Cutscene/txtEscape">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="按ESC跳过"/>
+				<Property Name="HorzFormatting" Value="RightAligned"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.876785,0},{0.940197,0},{0.98988,0},{0.995207,0}}"/>
+			</Window>
+			<Window Type="ootGUI/LabelWithOutline" Name="Cutscene/txtPaused">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="暂停"/>
+				<Property Name="HorzFormatting" Value="RightAligned"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.755356,0},{0.940197,0},{0.860713,0},{0.995207,0}}"/>
+			</Window>
+		</Window>
+	</Window>
+</GUILayout>
+

@@ -184,7 +184,7 @@
         </Window>
         <Window Type="ootGUI/StaticText" Name="DockedMain/txtCommission1" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="Commission 1" />
+            <Property Name="Text" Value="委托Commission 1" />
             <Property Name="HorzExtent" Value="103" />
             <Property Name="VertExtent" Value="18.5438" />
             <Property Name="FrameEnabled" Value="False" />

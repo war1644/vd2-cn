@@ -38,7 +38,7 @@
             <Property Name="UnifiedAreaRect" Value="{{0.00344062,0},{0.124842,0},{0.313747,0},{0.902036,0}}" />
             <Window Type="ootGUI/StaticText" Name="DockedMission/DockedMissionsFrame/txtMissions" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="Available Missions:" />
+                <Property Name="Text" Value="可用Available Missions:" />
                 <Property Name="HorzExtent" Value="145" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />

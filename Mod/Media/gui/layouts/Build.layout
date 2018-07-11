@@ -30,7 +30,7 @@
             </Window>
             <Window Type="jhGUI/Right_Button" Name="Build/Main/btnPlaceScaffold" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="放置脚手架" />
+                <Property Name="Text" Value="放置支架" />
                 <Property Name="InheritsAlpha" Value="False" />
                 <Property Name="UnifiedAreaRect" Value="{{0.443764,0},{0.607034,0},{0.968582,0},{0.670145,0}}" />
             </Window>
@@ -90,7 +90,7 @@
             </Window>
             <Window Type="ootGUI/StaticTextRight" Name="Build/Main/txtBaseName" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="基地:" />
+                <Property Name="Text" Value="基础费用:" />
                 <Property Name="HorzExtent" Value="41" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />

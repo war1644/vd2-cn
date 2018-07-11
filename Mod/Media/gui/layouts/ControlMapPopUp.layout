@@ -81,7 +81,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="ControlMapPopUp/winPopup/txtModifierText" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="提示:你可以用SHIFT/CTRL和ALT来修改" />
+                <Property Name="Text" Value="提示:SHIFT/CTRL和ALT为组合键" />
                 <Property Name="HorzExtent" Value="355" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />

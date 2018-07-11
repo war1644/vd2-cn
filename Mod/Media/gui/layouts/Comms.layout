@@ -80,12 +80,12 @@
                 </Window>
                 <Window Type="ootGUI/MiddileButton" Name="Comms/PlayerCommsFrame/btnDemandPayment" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="索要金钱" />
+                    <Property Name="Text" Value="索要资金" />
                     <Property Name="UnifiedAreaRect" Value="{{0.0219307,0},{0.403579,0},{0.213238,0},{0.583517,0}}" />
                 </Window>
                 <Window Type="ootGUI/MiddileButton" Name="Comms/PlayerCommsFrame/btnGivePayment" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="支付金钱" />
+                    <Property Name="Text" Value="交出资金" />
                     <Property Name="UnifiedAreaRect" Value="{{0.216257,0},{0.403579,0},{0.407564,0},{0.583517,0}}" />
                 </Window>
                 <Window Type="ootGUI/MiddileButton" Name="Comms/PlayerCommsFrame/btnDemandCargo" >
@@ -95,7 +95,7 @@
                 </Window>
                 <Window Type="ootGUI/MiddileButton" Name="Comms/PlayerCommsFrame/btnGiveCargo" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="给予货物" />
+                    <Property Name="Text" Value="交出货物" />
                     <Property Name="UnifiedAreaRect" Value="{{0.216257,0},{0.640563,0},{0.407564,0},{0.820501,0}}" />
                 </Window>
                 <Window Type="ootGUI/MiddileButton" Name="Comms/PlayerCommsFrame/btnBlank11" >
@@ -109,12 +109,12 @@
                 </Window>
                 <Window Type="ootGUI/MiddileButton" Name="Comms/PlayerCommsFrame/btnRequestRepair" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="请求修理" />
+                    <Property Name="Text" Value="请求维修" />
                     <Property Name="UnifiedAreaRect" Value="{{0.61075,0},{0.403579,0},{0.802056,0},{0.583517,0}}" />
                 </Window>
                 <Window Type="ootGUI/MiddileButton" Name="Comms/PlayerCommsFrame/btnOfferRepair" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="提供修理" />
+                    <Property Name="Text" Value="提供维修" />
                     <Property Name="UnifiedAreaRect" Value="{{0.416423,0},{0.403579,0},{0.60773,0},{0.583517,0}}" />
                 </Window>
                 <Window Type="ootGUI/MiddileButton" Name="Comms/PlayerCommsFrame/btnBlank22" >
@@ -127,8 +127,8 @@
                 </Window>
                 <Window Type="ootGUI/MiddileButton" Name="Comms/PlayerCommsFrame/btnDockRequest" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" >要求
-进入船坞
+                    <Property Name="Text" >请求
+停靠
 许可</Property>
                     <Property Name="UnifiedAreaRect" Value="{{0.809887,0},{0.162804,0},{0.980026,0},{0.588601,0}}" />
                 </Window>

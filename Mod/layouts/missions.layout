@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GUILayout>
+	<Window Type="DefaultWindow" Name="Mission">
+		<Property Name="Font" Value="Exo-SemiBold-12"/>
+		<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}"/>
+		<Window Type="ootGUI/StaticImageLarge" Name="Mission/Main">
+			<Property Name="Font" Value="Exo-SemiBold-12"/>
+			<Property Name="Text" Value="任务："/>
+			<Property Name="Alpha" Value="0.7"/>
+			<Property Name="UnifiedMinSize" Value="{{0.1,0},{0.1,0}}"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.0160713,0},{0.0141304,0},{0.984167,0},{0.991305,0}}"/>
+			<Window Type="ootGUI/Listbox" Name="Mission/Main/listMissions">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="InheritsAlpha" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.00775692,0},{0.0846763,0},{0.340212,0},{0.935016,0}}"/>
+			</Window>
+			<Window Type="ootGUI/MultiLineEditbox" Name="Mission/Main/multiDesc">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text"/>
+				<Property Name="ReadOnly" Value="True"/>
+				<Property Name="InheritsAlpha" Value="False"/>
+				<Property Name="MaxTextLength" Value="1073741823"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.355399,0},{0.0846763,0},{0.984814,0},{0.935016,0}}"/>
+				<Property Name="TextParsingEnabled" Value="False"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="Mission/Main/txtHelpText">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="任务："/>
+				<Property Name="HorzExtent" Value="107"/>
+				<Property Name="VertExtent" Value="14.957"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="HorzFormatting" Value="LeftAligned"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0139055,0},{0.034125,0},{0.337406,0},{0.0727794,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="ootGUI/MiddileButton" Name="Mission/Main/btnClose">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="关闭"/>
+				<Property Name="InheritsAlpha" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.822847,0},{0.939092,0},{0.980619,0},{0.987319,0}}"/>
+			</Window>
+		</Window>
+	</Window>
+</GUILayout>
+

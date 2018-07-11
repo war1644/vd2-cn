@@ -24,7 +24,7 @@
                 <Property Name="BackgroundEnabled" Value="False" />
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/UnifiedFrame/CreditsFrame/txtCredits" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Credits:" />
+                    <Property Name="Text" Value="金钱:" />
                     <Property Name="HorzExtent" Value="59" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -47,7 +47,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/txtHeader" >
                 <Property Name="Font" Value="Exo-SemiBold-8" />
-                <Property Name="Text" Value="ECONOMY:" />
+                <Property Name="Text" Value="经济:" />
                 <Property Name="HorzExtent" Value="55" />
                 <Property Name="VertExtent" Value="12.3762" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -87,7 +87,7 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.0174272,0},{0.129029,0},{0.990633,0},{0.9748,0}}" />
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtCreditsLabel" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Credits:" />
+                    <Property Name="Text" Value="捡钱Credits:" />
                     <Property Name="HorzExtent" Value="59" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -96,7 +96,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtCredits" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Amount" />
+                    <Property Name="Text" Value="总计Amount" />
                     <Property Name="HorzExtent" Value="60" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -105,17 +105,17 @@
                 </Window>
                 <Window Type="ootGUI/LeftButton" Name="DockedBaseManage/MainFrame/EconomyFrame/btnTakeCredits" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Take Credits" />
+                    <Property Name="Text" Value="需要Take Credits" />
                     <Property Name="UnifiedAreaRect" Value="{{0.529551,0},{0.74105,0},{0.767686,0},{0.79695,0}}" />
                 </Window>
                 <Window Type="ootGUI/LeftButton" Name="DockedBaseManage/MainFrame/EconomyFrame/btnGiveCredits" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Give Credits" />
+                    <Property Name="Text" Value="支付Give Credits" />
                     <Property Name="UnifiedAreaRect" Value="{{0.765105,0},{0.74105,0},{1.00324,0},{0.79695,0}}" />
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtStockLabel" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Stock:" />
+                    <Property Name="Text" Value="存货Stock:" />
                     <Property Name="HorzExtent" Value="47" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -124,7 +124,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtProductionLabel" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Production:" />
+                    <Property Name="Text" Value="产量Production:" />
                     <Property Name="HorzExtent" Value="87" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -158,7 +158,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtNarcoticsProductionAmount" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Amount" />
+                    <Property Name="Text" Value="总计Amount" />
                     <Property Name="HorzExtent" Value="60" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -167,7 +167,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtWeaponsProductionAmount" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Amount" />
+                    <Property Name="Text" Value="总计Amount" />
                     <Property Name="HorzExtent" Value="60" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -176,7 +176,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtOreProductionAmount" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Amount" />
+                    <Property Name="Text" Value="总计Amount" />
                     <Property Name="HorzExtent" Value="60" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -185,7 +185,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtFoodProductionAmount" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Amount" />
+                    <Property Name="Text" Value="总计Amount" />
                     <Property Name="HorzExtent" Value="60" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -194,7 +194,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtEnergyProductionAmount" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Amount" />
+                    <Property Name="Text" Value="总计Amount" />
                     <Property Name="HorzExtent" Value="60" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -203,7 +203,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtEnergyAmount" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Amount" />
+                    <Property Name="Text" Value="总计Amount" />
                     <Property Name="HorzExtent" Value="60" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -212,7 +212,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtFoodAmount" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Amount" />
+                    <Property Name="Text" Value="总计Amount" />
                     <Property Name="HorzExtent" Value="60" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -221,7 +221,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtOreAmount" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Amount" />
+                    <Property Name="Text" Value="总计Amount" />
                     <Property Name="HorzExtent" Value="60" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -230,7 +230,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtWeaponsAmount" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Amount" />
+                    <Property Name="Text" Value="总计Amount" />
                     <Property Name="HorzExtent" Value="60" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -239,7 +239,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtNarcoticsAmount" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Amount" />
+                    <Property Name="Text" Value="总计Amount" />
                     <Property Name="HorzExtent" Value="60" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -248,7 +248,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtNarcotics" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Narcotics:" />
+                    <Property Name="Text" Value="麻醉毒品Narcotics:" />
                     <Property Name="HorzExtent" Value="77" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -257,7 +257,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtWeapons" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Weapons:" />
+                    <Property Name="Text" Value="武器:" />
                     <Property Name="HorzExtent" Value="75" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -266,7 +266,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtOre" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Ore:" />
+                    <Property Name="Text" Value="矿Ore:" />
                     <Property Name="HorzExtent" Value="31" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -275,7 +275,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtFood" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Food:" />
+                    <Property Name="Text" Value="食物Food:" />
                     <Property Name="HorzExtent" Value="42" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -284,7 +284,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/EconomyFrame/txtEnergy" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Energy:" />
+                    <Property Name="Text" Value="能量Energy:" />
                     <Property Name="HorzExtent" Value="57" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -293,22 +293,22 @@
                 </Window>
                 <Window Type="ootGUI/CheckBox" Name="DockedBaseManage/MainFrame/EconomyFrame/chkEnergySupply" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value=" Supply" />
+                    <Property Name="Text" Value="补给Supply" />
                     <Property Name="UnifiedAreaRect" Value="{{0.0157782,0},{0.118348,0},{0.24299,0},{0.161936,0}}" />
                 </Window>
                 <Window Type="ootGUI/CheckBox" Name="DockedBaseManage/MainFrame/EconomyFrame/chkEnergyRequest" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value=" Request" />
+                    <Property Name="Text" Value=" 需要Request" />
                     <Property Name="UnifiedAreaRect" Value="{{0.253681,0},{0.118348,0},{0.498999,0},{0.161936,0}}" />
                 </Window>
                 <Window Type="ootGUI/CheckBox" Name="DockedBaseManage/MainFrame/EconomyFrame/chkEnergySell" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value=" Sell" />
+                    <Property Name="Text" Value="卖Sell" />
                     <Property Name="UnifiedAreaRect" Value="{{0.777999,0},{0.118348,0},{0.946364,0},{0.161936,0}}" />
                 </Window>
                 <Window Type="ootGUI/CheckBox" Name="DockedBaseManage/MainFrame/EconomyFrame/chkFoodSupply" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value=" Supply" />
+                    <Property Name="Text" Value="补给Supply" />
                     <Property Name="UnifiedAreaRect" Value="{{0.0135149,0},{0.24146,0},{0.240727,0},{0.285049,0}}" />
                 </Window>
                 <Window Type="ootGUI/CheckBox" Name="DockedBaseManage/MainFrame/EconomyFrame/chkFoodRequest" >
@@ -484,7 +484,7 @@
                 </Window>
                 <Window Type="ootGUI/CheckBox" Name="DockedBaseManage/MainFrame/DefenseFrame/chkUseEnergy" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value=" Use Energy Stock (Concurrent Build and Buy)" />
+                    <Property Name="Text" Value=" Use Energy Stock (同时Concurrent Build and Buy)" />
                     <Property Name="UnifiedAreaRect" Value="{{0.0157782,0},{0.215088,0},{0.949137,0},{0.258676,0}}" />
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="DockedBaseManage/MainFrame/DefenseFrame/txtEnergyUseExplainer" >
@@ -552,7 +552,7 @@
             </Window>
             <Window Type="jhGUI/Right_Button" Name="DockedBaseManage/PlatformFrame/btnTest" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="TEST IN SIMULATOR" />
+                <Property Name="Text" Value="在模拟器中测试" />
                 <Property Name="UnifiedAreaRect" Value="{{0.489482,0},{0.926914,0},{0.987611,0},{0.98052,0}}" />
             </Window>
         </Window>
@@ -626,7 +626,7 @@
         </Window>
         <Window Type="ootGUI/EditboxNoFrame" Name="DockedBaseManage/edtRename" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="BASE NAME RENAME" />
+            <Property Name="Text" Value="基地重命名" />
             <Property Name="AlwaysOnTop" Value="True" />
             <Property Name="MaxTextLength" Value="1073741823" />
             <Property Name="UnifiedAreaRect" Value="{{0.419047,0},{0.0521265,0},{0.582738,0},{0.0916568,0}}" />

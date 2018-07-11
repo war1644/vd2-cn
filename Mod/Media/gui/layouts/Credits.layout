@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <GUILayout >
     <Window Type="DefaultWindow" Name="Credits" >
@@ -12,7 +12,7 @@
         </Window>
         <Window Type="jhGUI/StaticImageRight" Name="Credits/Credits" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="Credits:" />
+            <Property Name="Text" Value="开发人员:" />
             <Property Name="AlwaysOnTop" Value="True" />
             <Property Name="UnifiedMinSize" Value="{{0.1,0},{0.1,0}}" />
             <Property Name="UnifiedAreaRect" Value="{{0.329994,0},{0.116545,0},{0.988154,0},{0.873615,0}}" />
@@ -22,7 +22,7 @@
                 <Property Name="TabPanePosition" Value="Top" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0263493,0},{0.0445975,0},{0.992606,0},{0.969352,0}}" />
                 <Window Type="DefaultWindow" Name="Credits/Credits/Programming" >
-                    <Property Name="Text" Value="Programming" />
+                    <Property Name="Text" Value="编程" />
                     <Property Name="UnifiedAreaRect" Value="{{-0.00093598,0},{0,0},{0.999064,0},{1,0}}" />
                     <Window Type="ootGUI/MultiLineEditboxRight" Name="Credits/Credits/Programming/multiProgramming" >
                         <Property Name="Font" Value="Exo-SemiBold-12" />
@@ -36,7 +36,7 @@
                     </Window>
                 </Window>
                 <Window Type="DefaultWindow" Name="Credits/Credits/Visual" >
-                    <Property Name="Text" Value="Visual" />
+                    <Property Name="Text" Value="视效" />
                     <Property Name="Visible" Value="False" />
                     <Property Name="AlwaysOnTop" Value="True" />
                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
@@ -54,7 +54,7 @@
                 </Window>
                 <Window Type="DefaultWindow" Name="Credits/Credits/Sound" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Sound" />
+                    <Property Name="Text" Value="音效" />
                     <Property Name="Visible" Value="False" />
                     <Property Name="UnifiedAreaRect" Value="{{0.000882096,0},{0,0},{1.00088,0},{1,0}}" />
                     <Window Type="ootGUI/MultiLineEditboxRight" Name="Credits/Credits/Sound/multiSound" >
@@ -71,7 +71,7 @@
                 </Window>
 				<Window Type="DefaultWindow" Name="Credits/Credits/Writing" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Writing" />
+                    <Property Name="Text" Value="故事脚本" />
                     <Property Name="Visible" Value="False" />
                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                     <Window Type="ootGUI/MultiLineEditboxRight" Name="Credits/Credits/Writing/multiWriting" >
@@ -88,7 +88,7 @@
                 </Window>
                 <Window Type="DefaultWindow" Name="Credits/Credits/SpecialThanks" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="Special Thanks" />
+                    <Property Name="Text" Value="特别鸣谢" />
                     <Property Name="Visible" Value="False" />
                     <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
                     <Window Type="ootGUI/MultiLineEditboxRight" Name="Credits/Credits/SpecialThanks/multiSpecialThanks" >
@@ -106,7 +106,7 @@
             </Window>
             <Window Type="ootGUI/StaticText" Name="Credits/Credits/txtHeader" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="CREDITS:" />
+                <Property Name="Text" Value="开发人员:" />
                 <Property Name="HorzExtent" Value="67" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -116,7 +116,7 @@
         </Window>
         <Window Type="jhGUI/Right_Button" Name="Credits/btnClose" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="BACK" />
+            <Property Name="Text" Value="返回" />
             <Property Name="UnifiedAreaRect" Value="{{0.167446,0},{0.431113,0},{0.321795,0},{0.485193,0}}" />
         </Window>
     </Window>

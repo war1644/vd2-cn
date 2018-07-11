@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GUILayout>
+	<Window Type="DefaultWindow" Name="InstantActionArena">
+		<Property Name="Font" Value="Exo-SemiBold-12"/>
+		<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}"/>
+		<Window Type="ootGUI/StaticImageLarge" Name="InstantActionArena/Logo">
+			<Property Name="Image" Value="set:ootGUIWhiteLogo-1000 image:ootGUIWhiteLogo-1000"/>
+			<Property Name="FrameEnabled" Value="False"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.00654753,0},{0.0556894,0},{0.313691,0},{0.155756,0}}"/>
+			<Property Name="BackgroundEnabled" Value="False"/>
+		</Window>
+		<Window Type="jhGUI/StaticImageRight" Name="InstantActionArena/Main">
+			<Property Name="Font" Value="Exo-SemiBold-12"/>
+			<Property Name="Text" Value="InstantActionArena"/>
+			<Property Name="AlwaysOnTop" Value="True"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.254663,0},{0.130201,0},{0.988056,0},{0.882139,0}}"/>
+			<Window Type="ootGUI/StaticText" Name="InstantActionArena/Main/txtPlayer">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="玩家："/>
+				<Property Name="HorzExtent" Value="63"/>
+				<Property Name="VertExtent" Value="18.5438"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0316424,0},{0.0436383,0},{0.129057,0},{0.0777829,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="ootGUI/ListboxRight" Name="InstantActionArena/Main/lstPlayer">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0316424,0},{0.090422,0},{0.331316,0},{0.943037,0}}"/>
+			</Window>
+			<Window Type="ootGUI/StaticImage" Name="InstantActionArena/Main/rttImagePlayer">
+				<Property Name="UnifiedAreaRect" Value="{{0.334304,0},{0.0387975,0},{0.673632,0},{0.453948,0}}"/>
+			</Window>
+			<Window Type="jmGUI/HorizontalScrollbar" Name="InstantActionArena/Main/imgArena/sldrPlayer">
+				<Property Name="PageSize" Value="0"/>
+				<Property Name="StepSize" Value="1"/>
+				<Property Name="OverlapSize" Value="0"/>
+				<Property Name="DocumentSize" Value="1"/>
+				<Property Name="ScrollPosition" Value="0"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.137684,0},{0.0436383,0},{0.333308,0},{0.0777829,0}}"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="InstantActionArena/Main/txtVersus">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="对抗："/>
+				<Property Name="HorzExtent" Value="63"/>
+				<Property Name="VertExtent" Value="18.5438"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="HorzFormatting" Value="WordWrapCentred"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.462031,0},{0.463036,0},{0.549755,0},{0.55077,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="InstantActionArena/Main/txtEnemy">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="敌人："/>
+				<Property Name="HorzExtent" Value="56"/>
+				<Property Name="VertExtent" Value="18.5438"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.678299,0},{0.0436383,0},{0.775713,0},{0.0777829,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="ootGUI/ListboxRight" Name="InstantActionArena/Main/lstEnemy">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.677868,0},{0.0889717,0},{0.977541,0},{0.941587,0}}"/>
+			</Window>
+			<Window Type="ootGUI/StaticImage" Name="InstantActionArena/Main/rttImageEnemy">
+				<Property Name="UnifiedAreaRect" Value="{{0.334304,0},{0.564089,0},{0.673632,0},{0.979241,0}}"/>
+			</Window>
+			<Window Type="jmGUI/HorizontalScrollbar" Name="InstantActionArena/Main/imgArena/sldrEnemy">
+				<Property Name="PageSize" Value="0"/>
+				<Property Name="StepSize" Value="1"/>
+				<Property Name="OverlapSize" Value="0"/>
+				<Property Name="DocumentSize" Value="1"/>
+				<Property Name="ScrollPosition" Value="0"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.781918,0},{0.0436383,0},{0.977541,0},{0.0777829,0}}"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="InstantActionArena/Main/txtHeader">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="竞技场："/>
+				<Property Name="HorzExtent" Value="56"/>
+				<Property Name="VertExtent" Value="18.5438"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0909424,0},{0.00110746,0},{0.340942,0},{0.0364674,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="InstantActionArena/Main/txtPlayerCount">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="HorzFormatting" Value="WordWrapCentred"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.373244,0},{0.463036,0},{0.460968,0},{0.55077,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="InstantActionArena/Main/txtEnemyCount">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="HorzFormatting" Value="WordWrapCentred"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.550668,0},{0.463036,0},{0.638392,0},{0.55077,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="InstantActionArena/Main/txtNote">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="注意：舰船数量过多可能会导致游戏不稳定"/>
+				<Property Name="HorzExtent" Value="338"/>
+				<Property Name="VertExtent" Value="18.5438"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0316424,0},{0.953648,0},{0.324658,0},{0.987792,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="InstantActionArena/Main/txtPlayerShip">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="AlwaysOnTop" Value="True"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="HorzFormatting" Value="HorzCentred"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.334304,0},{0.0533002,0},{0.673632,0},{0.0917254,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="InstantActionArena/Main/txtEnemyShip">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="AlwaysOnTop" Value="True"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="HorzFormatting" Value="HorzCentred"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.334304,0},{0.578591,0},{0.673632,0},{0.617016,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/StaticImageRight" Name="InstantActionArena/Map">
+			<Property Name="UnifiedAreaRect" Value="{{0.0254875,0},{0.552514,0},{0.247782,0},{0.882931,0}}"/>
+			<Window Type="ootGUI/CheckBox" Name="InstantActionArena/Map/chkDust">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="星尘"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0278188,0},{0.873552,0},{0.374952,0},{0.975969,0}}"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="InstantActionArena/Map/txtAsteroids">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="小行星："/>
+				<Property Name="HorzExtent" Value="88"/>
+				<Property Name="VertExtent" Value="18.5438"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0278188,0},{0.0986872,0},{0.379242,0},{0.181166,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="jmGUI/HorizontalScrollbar" Name="InstantActionArena/Map/sldrAsteroids">
+				<Property Name="PageSize" Value="0"/>
+				<Property Name="StepSize" Value="1"/>
+				<Property Name="OverlapSize" Value="0"/>
+				<Property Name="DocumentSize" Value="1"/>
+				<Property Name="ScrollPosition" Value="0"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.396811,0},{0.0986872,0},{0.966875,0},{0.181166,0}}"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="InstantActionArena/Map/txtDebris">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="残骸："/>
+				<Property Name="HorzExtent" Value="57"/>
+				<Property Name="VertExtent" Value="18.5438"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0278188,0},{0.191613,0},{0.379242,0},{0.274092,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="jmGUI/HorizontalScrollbar" Name="InstantActionArena/Map/sldrDebris">
+				<Property Name="PageSize" Value="0"/>
+				<Property Name="StepSize" Value="1"/>
+				<Property Name="OverlapSize" Value="0"/>
+				<Property Name="DocumentSize" Value="1"/>
+				<Property Name="ScrollPosition" Value="0"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.396811,0},{0.191613,0},{0.966875,0},{0.274091,0}}"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="InstantActionArena/Map/txtMines">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="地雷："/>
+				<Property Name="HorzExtent" Value="50"/>
+				<Property Name="VertExtent" Value="18.5438"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0278188,0},{0.284518,0},{0.379242,0},{0.366997,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="jmGUI/HorizontalScrollbar" Name="InstantActionArena/Map/sldrMines">
+				<Property Name="PageSize" Value="0"/>
+				<Property Name="StepSize" Value="1"/>
+				<Property Name="OverlapSize" Value="0"/>
+				<Property Name="DocumentSize" Value="1"/>
+				<Property Name="ScrollPosition" Value="0"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.396811,0},{0.284518,0},{0.966875,0},{0.366996,0}}"/>
+			</Window>
+			<Window Type="ootGUI/CheckBox" Name="InstantActionArena/Map/chkMusic">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="音乐"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0269425,0},{0.77784,0},{0.374076,0},{0.880257,0}}"/>
+			</Window>
+			<Window Type="ootGUI/StaticText" Name="InstantActionArena/Map/txtHeader">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="地图选项："/>
+				<Property Name="HorzExtent" Value="108"/>
+				<Property Name="VertExtent" Value="18.5438"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.274827,0},{0.0148029,0},{0.955936,0},{0.0798666,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+			</Window>
+			<Window Type="ootGUI/CheckBox" Name="InstantActionArena/Map/chkCommandShip">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="旗舰"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.398267,0},{0.77784,0},{0.833765,0},{0.880257,0}}"/>
+			</Window>
+			<Window Type="ootGUI/CheckBox" Name="InstantActionArena/Map/chkHideLockedShips">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="隐藏未开启的项目"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.0269425,0},{0.398787,0},{0.548126,0},{0.501203,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Right_Button" Name="InstantActionArena/btnBack">
+			<Property Name="Font" Value="Exo-SemiBold-12"/>
+			<Property Name="Text" Value="返回"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.0772952,0},{0.446105,0},{0.246637,0},{0.50506,0}}"/>
+		</Window>
+		<Window Type="jhGUI/Right_Button" Name="InstantActionArena/btnSeed">
+			<Property Name="Font" Value="Exo-SemiBold-12"/>
+			<Property Name="Text" Value="发送至战斗编辑器"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.0772952,0},{0.37859,0},{0.246637,0},{0.437545,0}}"/>
+		</Window>
+		<Window Type="jhGUI/Right_Button" Name="InstantActionArena/btnOk">
+			<Property Name="Font" Value="Exo-SemiBold-12"/>
+			<Property Name="Text" Value="开始竞技场"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.0772952,0},{0.310815,0},{0.246637,0},{0.36977,0}}"/>
+		</Window>
+	</Window>
+</GUILayout>
+

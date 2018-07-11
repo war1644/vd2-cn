@@ -12,34 +12,34 @@
         </Window>
         <Window Type="jhGUI/Left_Button" Name="GuideMain/btnGeneral" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="GENERAL INFO/GUIDE" />
+            <Property Name="Text" Value="一般 信息/指南" />
             <Property Name="UnifiedAreaRect" Value="{{0.00183016,0},{0.00825873,0},{0.167824,0},{0.0614153,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="GuideMain/btnShipMode" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="SHIP MODE GUIDE" />
+            <Property Name="Text" Value="舰船模式指南" />
             <Property Name="UnifiedAreaRect" Value="{{0.154211,0},{0.00825873,0},{0.320205,0},{0.0614143,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="GuideMain/btnTacticalMode" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="TACTICAL MODE GUIDE" />
+            <Property Name="Text" Value="战术模式指南" />
             <Property Name="UnifiedAreaRect" Value="{{0.308973,0},{0.00825873,0},{0.474967,0},{0.0614143,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="GuideMain/btnInstantAction" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="INSTANT ACTION GUIDE" />
+            <Property Name="Text" Value="即时战斗指南" />
             <Property Name="UnifiedAreaRect" Value="{{0.463735,0},{0.00825873,0},{0.629728,0},{0.0614153,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="GuideMain/btnExitGuide" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="EXIT GUIDE" />
+            <Property Name="Text" Value="退出" />
             <Property Name="UnifiedAreaRect" Value="{{0.779211,0},{0.00825873,0},{0.945204,0},{0.0614143,0}}" />
         </Window>
         <Window Type="jhGUI/StaticImageLeft" Name="GuideMain/TopicsList" >
             <Property Name="UnifiedAreaRect" Value="{{0.00416663,0},{0.0679612,0},{0.2,0},{0.823959,0}}" />
             <Window Type="ootGUI/StaticText" Name="GuideMain/TopicsList/txtHeader" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="General Info/Guide:" />
+                <Property Name="Text" Value="一般 信息/指南:" />
                 <Property Name="HorzExtent" Value="144" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -108,7 +108,7 @@
         </Window>
         <Window Type="jhGUI/Left_Button" Name="GuideMain/btnTips" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="HINTS, TIPS AND TRICKS" />
+            <Property Name="Text" Value="一些技巧" />
             <Property Name="UnifiedAreaRect" Value="{{0.620877,0},{0.00825873,0},{0.78687,0},{0.0614153,0}}" />
         </Window>
     </Window>

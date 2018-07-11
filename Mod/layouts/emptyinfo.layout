@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GUILayout>
+	<Window Type="DefaultWindow" Name="EmptyInfo">
+		<Property Name="Font" Value="Exo-SemiBold-12"/>
+		<Property Name="Text"/>
+		<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}"/>
+		<Window Type="DefaultWindow" Name="EmptyInfo/PatrolCircle">
+			<Property Name="UnifiedAreaRect" Value="{{0.00297618,0},{0.0307427,0},{0.998809,0},{0.280742,0}}"/>
+			<Window Type="ootGUI/LabelWithOutline" Name="EmptyInfo/PatrolCircle/txtInfo">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="巡逻指令 - 移动鼠标来扩大/减少巡逻区域 - 鼠标左单击确认"/>
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.218049,0}}"/>
+			</Window>
+			<Window Type="ootGUI/LabelWithOutline" Name="EmptyInfo/PatrolCircle/txtRadius">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="半径信息"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.35433,0},{0.220395,0},{0.647275,0},{0.364812,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="DefaultWindow" Name="EmptyInfo/TurnCircle">
+			<Property Name="UnifiedAreaRect" Value="{{0.00535713,0},{0.0262646,0},{1.00119,0},{0.276264,0}}"/>
+			<Window Type="ootGUI/LabelWithOutline" Name="EmptyInfo/TurnCircle/txtInfo">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="旋转指令 - 移动鼠标来设定旋转方向 - 鼠标左单击确认"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.352327,0},{0.235499,0},{0.645273,0},{0.379916,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="DefaultWindow" Name="EmptyInfo/MoveCommand">
+			<Property Name="UnifiedAreaRect" Value="{{0.00535713,0},{0.0371816,0},{1.00119,0},{0.287181,0}}"/>
+			<Window Type="ootGUI/LabelWithOutline" Name="EmptyInfo/MoveCommand/txtInfo">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text">移动指令 - 移动鼠标来指定目标地点 
+鼠标左单击确认 - 按住SHIFT以选择多个路径点 - 按住ALT并移动鼠标来更改Y轴位置
+按住CTRL键来启用磁贴模式</Property>
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.218049,0}}"/>
+			</Window>
+			<Window Type="ootGUI/LabelWithOutline" Name="EmptyInfo/MoveCommand/txtSnapMessage">
+				<Property Name="Font" Value="Exo-SemiBold-12"/>
+				<Property Name="Text" Value="放置信息"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.352327,0},{0.235499,0},{0.645273,0},{0.379916,0}}"/>
+			</Window>
+		</Window>
+	</Window>
+</GUILayout>
+

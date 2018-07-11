@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GUILayout>
+	<Window Type="DefaultWindow" Name="DockedMain">
+		<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}"/>
+		<Window Type="DefaultWindow" Name="DockedMain/UnifiedFrame">
+			<Property Name="AlwaysOnTop" Value="True"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.730356,0},{-0.000391843,0},{0.997617,0},{0.172732,0}}"/>
+			<Window Type="ootGUI/StaticImage" Name="DockedMain/Repair/healthBG">
+				<Property Name="Image" Value="set:jhGUI_cmd_health_BG image:jhGUI_cmd_health_BG"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.17177,0},{0.0321933,0},{0.992562,0},{0.377049,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+				<Window Type="jhGUI/Cmd_Health" Name="DockedMain/UnifiedFrame/healthBG/Health">
+					<Property Name="StepSize" Value="0.01"/>
+					<Property Name="CurrentProgress" Value="0"/>
+					<Property Name="UnifiedAreaRect" Value="{{0.0150876,0},{0.0429181,0},{0.976011,0},{0.895677,0}}"/>
+				</Window>
+			</Window>
+			<Window Type="ootGUI/StaticImage" Name="DockedMain/UnifiedFrame/CreditsFrame">
+				<Property Name="Image" Value="set:jhGUI_cmd_heading image:jhGUI_cmd_heading"/>
+				<Property Name="FrameEnabled" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.170545,0},{0.389292,0},{0.68176,0},{0.572426,0}}"/>
+				<Property Name="BackgroundEnabled" Value="False"/>
+				<Window Type="ootGUI/StaticText" Name="DockedMain/UnifiedFrame/CreditsFrame/txtCredits">
+					<Property Name="Font" Value="Exo-SemiBold-12"/>
+					<Property Name="Text" Value="开发人员："/>
+					<Property Name="HorzExtent" Value="59"/>
+					<Property Name="VertExtent" Value="18.5438"/>
+					<Property Name="FrameEnabled" Value="False"/>
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="UnifiedAreaRect" Value="{{0.0275794,0},{0.0971505,0},{0.964302,0},{0.708676,0}}"/>
+					<Property Name="BackgroundEnabled" Value="False"/>
+				</Window>
+			</Window>
+		</Window>
+		<Window Type="ootGUI/LabelWithOutline" Name="DockedMain/txtNavTooltip">
+			<Property Name="Font" Value="Exo-SemiBold-12"/>
+			<Property Name="AlwaysOnTop" Value="True"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.372619,0},{0.829226,0},{0.627381,0},{0.862214,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedMain/txtNavTooltip/imgBackground">
+				<Property Name="Image" Value="set:jhGUI_target image:greybar"/>
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex" Name="DockedMain/btnUndock">
+			<Property Name="UnifiedAreaRect" Value="{{0.358419,0},{0.872729,0},{0.408538,0},{0.951212,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedMain/btnUndock/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:ship"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.171427,0},{0.882341,0},{0.893849,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedMain/btnSimulation">
+			<Property Name="UnifiedAreaRect" Value="{{0.55238,0},{0.916924,0},{0.602498,0},{0.995407,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedMain/btnSimulation/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:research"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.145699,0},{0.143637,0},{0.89421,0},{0.866059,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedMain/btnPurchaseShip">
+			<Property Name="UnifiedAreaRect" Value="{{0.436408,0},{0.872729,0},{0.486527,0},{0.951212,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedMain/btnPurchaseShip/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:formations"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.12196,0},{0.129742,0},{0.870471,0},{0.852164,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedMain/btnMissions">
+			<Property Name="UnifiedAreaRect" Value="{{0.591702,0},{0.872729,0},{0.641821,0},{0.951212,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedMain/btnMissions/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:command_ship"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedMain/btnHelp">
+			<Property Name="UnifiedAreaRect" Value="{{0.630994,0},{0.916924,0},{0.681113,0},{0.995407,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedMain/btnHelp/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:help"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedMain/btnCurrentShip">
+			<Property Name="UnifiedAreaRect" Value="{{0.320466,0},{0.917877,0},{0.370585,0},{0.99636,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedMain/btnCurrentShip/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:shipyard"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedMain/btnCommerce">
+			<Property Name="UnifiedAreaRect" Value="{{0.397831,0},{0.916924,0},{0.44795,0},{0.995407,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedMain/btnCommerce/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:build"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedMain/btnBase">
+			<Property Name="UnifiedAreaRect" Value="{{0.475195,0},{0.916924,0},{0.525314,0},{0.995407,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedMain/btnBase/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:base"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="jhGUI/Button_Hex_Red" Name="DockedMain/btnHangar">
+			<Property Name="UnifiedAreaRect" Value="{{0.514487,0},{0.872729,0},{0.564606,0},{0.951212,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedMain/btnHangar/imgIcon">
+				<Property Name="Image" Value="set:jhGUI_mode_icons image:ship_switch"/>
+				<Property Name="UnifiedAreaRect" Value="{{0.13383,0},{0.129742,0},{0.882341,0},{0.852164,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="ootGUI/LabelWithOutline" Name="DockedMain/txDockedMessage">
+			<Property Name="Font" Value="Exo-SemiBold-12"/>
+			<Property Name="AlwaysOnTop" Value="True"/>
+			<Property Name="HorzFormatting" Value="WordWrapCentred"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.298214,0},{0.0940564,0},{0.71369,0},{0.127044,0}}"/>
+			<Window Type="ootGUI/StaticImageClickPassThrough" Name="DockedMain/txtDockedMessage/imgBackground">
+				<Property Name="Image" Value="set:jhGUI_target image:greybar"/>
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{1.2815e-006,0},{1,0},{1,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="ootGUI/StaticText" Name="DockedMain/txtMission1">
+			<Property Name="Font" Value="Exo-SemiBold-12"/>
+			<Property Name="Text" Value="任务 1"/>
+			<Property Name="HorzExtent" Value="68"/>
+			<Property Name="VertExtent" Value="18.5438"/>
+			<Property Name="FrameEnabled" Value="False"/>
+			<Property Name="HorzFormatting" Value="WordWrapRightAligned"/>
+			<Property Name="VertFormatting" Value="TopAligned"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.727975,0},{0.237186,0},{0.977975,0},{0.258176,0}}"/>
+			<Property Name="BackgroundEnabled" Value="False"/>
+			<Window Type="ootGUI/RightRedButton" Name="DockedMain/txtMission1/btnCancelMission">
+				<Property Name="Font" Value="Exo-SemiBold-10"/>
+				<Property Name="Text" Value="X"/>
+				<Property Name="ClippedByParent" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{1.00952,0},{-0.0910571,0},{1.07857,0},{1.06795,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="ootGUI/StaticText" Name="DockedMain/txtMission2">
+			<Property Name="Font" Value="Exo-SemiBold-12"/>
+			<Property Name="Text" Value="任务 2"/>
+			<Property Name="HorzExtent" Value="72"/>
+			<Property Name="VertExtent" Value="18.5438"/>
+			<Property Name="FrameEnabled" Value="False"/>
+			<Property Name="HorzFormatting" Value="WordWrapRightAligned"/>
+			<Property Name="VertFormatting" Value="TopAligned"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.727975,0},{0.265376,0},{0.977975,0},{0.286366,0}}"/>
+			<Property Name="BackgroundEnabled" Value="False"/>
+			<Window Type="ootGUI/RightRedButton" Name="DockedMain/txtMission2/btnCancelMission">
+				<Property Name="Font" Value="Exo-SemiBold-10"/>
+				<Property Name="Text" Value="X"/>
+				<Property Name="ClippedByParent" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{1.00952,0},{-0.0910571,0},{1.07857,0},{1.06795,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="ootGUI/StaticText" Name="DockedMain/txtMission3">
+			<Property Name="Font" Value="Exo-SemiBold-12"/>
+			<Property Name="Text" Value="任务 3"/>
+			<Property Name="HorzExtent" Value="71"/>
+			<Property Name="VertExtent" Value="18.5438"/>
+			<Property Name="FrameEnabled" Value="False"/>
+			<Property Name="HorzFormatting" Value="WordWrapRightAligned"/>
+			<Property Name="VertFormatting" Value="TopAligned"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.727975,0},{0.293566,0},{0.977975,0},{0.314556,0}}"/>
+			<Property Name="BackgroundEnabled" Value="False"/>
+			<Window Type="ootGUI/RightRedButton" Name="DockedMain/txtMission3/btnCancelMission">
+				<Property Name="Font" Value="Exo-SemiBold-10"/>
+				<Property Name="Text" Value="X"/>
+				<Property Name="ClippedByParent" Value="False"/>
+				<Property Name="UnifiedAreaRect" Value="{{1.00952,0},{-0.0910571,0},{1.07857,0},{1.06795,0}}"/>
+			</Window>
+		</Window>
+		<Window Type="ootGUI/StaticText" Name="DockedMain/txtLeft">
+			<Property Name="Font" Value="Exo-SemiBold-14"/>
+			<Property Name="FrameEnabled" Value="False"/>
+			<Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{0.0103595,0},{0.270833,0},{0.57988,0}}"/>
+			<Property Name="BackgroundEnabled" Value="False"/>
+		</Window>
+	</Window>
+</GUILayout>
+
