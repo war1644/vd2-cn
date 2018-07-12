@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<missionName attr1="Beginnings Part 2"/>
+<missionName attr1="开端第二部分"/>
 <objectID attr1="main01"/>
 <missionLocation attr1="civilianOutpost01"/>
 <bCompleteOnNextDock attr1="1"/>
@@ -74,7 +74,7 @@
 	</objective>
 	<missionHUDText attr1="打开通讯:"/>
 	<missionHUDText attr1="定位通讯基地 - 左键点击该基地"/>
-	<missionHUDText attr1="打开通讯 - key" attr2="command_common" attr3="comms"/>
+	<missionHUDText attr1="打开通讯 - 快捷键" attr2="command_common" attr3="comms"/>
 	<postDialog>
 		<dialog>
 			<dialogCharacterType attr1="player"/>
@@ -83,20 +83,20 @@
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="我正准备让前哨站进行安全检查..."/>
+			<content attr1="我正准备去通知太空站警备人员……"/>
 			<content attr1="事实上..."/>
 			<content attr1="你的飞船似乎没有登记过哦."/>
 			<content attr1="请解释下?"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="player"/>
-			<content attr1="I don't know..."/>
+			<content attr1="我不明白你在说什么……"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="What do you mean you don't..."/>
-			<content attr1="Oh great, another one..."/>
+			<content attr1="什么叫你说你不……"/>
+			<content attr1="哦，又来一个……"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="player"/>
@@ -105,99 +105,98 @@
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="Tell me if this sounds familiar."/>
-			<content attr1="You woke up in a ship."/>
-			<content attr1="You have no idea who, what or where you are."/>
-			<content attr1="And some idiots were telling you what to do."/>
+			<content attr1="你是不是在一艘飞船中醒来？"/>
+			<content attr1="你不知道自己是谁，也不知道自己身在何处，"/>
+			<content attr1="然后有一些蠢货开始对你下达各种命令？"/>
+			<content attr1="我前面说的对不对？"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="player"/>
-			<content attr1="Yes!"/>
-			<content attr1="Can you help me?"/>
+			<content attr1="没错！"/>
+			<content attr1="你能帮助我吗？"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
 			<bClearAllText attr1="1"/>
-			<content attr1="Dammit! Another one!"/>
-			<content attr1="You're a Stub."/>
-			<content attr1="You are beyond help."/>
+			<content attr1="见鬼！又来一个！"/>
+			<content attr1="你是一个废渣。"/>
+			<content attr1="你已经没救了。"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="Listen, I don't have the time or patience to explain it all to you."/>
-			<content attr1="You having no memory... Its the result of your conversion."/>
-			<content attr1="Its normal."/>
-			<content attr1="I'm going to register you, and your ship."/>
-			<content attr1="That will automatically transfer 487 credits to your account."/>
+			<content attr1="听着，我没时间也没耐心跟你解释一切。"/>
+			<content attr1="你失去了记忆……那是你的转变过程所造成的结果。"/>
+			<content attr1="这并不奇怪。"/>
+			<content attr1="我会帮你和你的飞船进行注册。"/>
+			<content attr1="注册完成后你的账户上就会有数额为487的资金转入。"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="player"/>
-			<content attr1="Thank you."/>
+			<content attr1="谢谢你。"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="Its standard procedure."/>
-			<content attr1="There's a 'war compensation' fund for Stubs."/>
+			<content attr1="这只是正常流程罢了。"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="This might not make a lot of sense right now..."/>
-			<content attr1="There was a war and you were meant to be a part of it."/>
-			<content attr1="Normally your kind are rehabbed at Shangri-La."/>
-			<content attr1="Shangri-La is a base."/>
-			<content attr1="With TSF medical facilities."/>
-			<content attr1="The TSF is the local peacekeeping force."/>
-			<content attr1="They don't want a bunch of amnesiac cyborgs with military grade gear in them stumbling around."/>
+			<content attr1="或许这听起来有些不可思议……"/>
+			<content attr1="但你和你的同胞们曾经参加过一场战争。"/>
+			<content attr1="一般情况下，你们都会在香格里拉进行修整。"/>
+			<content attr1="香格里拉是一个基地。"/>
+			<content attr1="那里有TSF医疗设施。"/>
+			<content attr1="TSF是我们这里的维和部队。"/>
+			<content attr1="他们不允许失忆的武装生化人四处行动。"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="But there's people and groups that do."/>
-			<content attr1="Usually not of the good variety."/>
-			<content attr1="You can be sure that people will try to take advantage of you."/>
-			<content attr1="Or just kill you.."/>
+			<content attr1="但这样的生化人确实有不少，有些还拉帮结派。"/>
+			<content attr1="不过那种人一般都不是好人。"/>
+			<content attr1="在这宇宙中，肯定有人想要利用你。"/>
+			<content attr1="或者想杀死你……"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="player"/>
 			<bClearAllText attr1="1"/>
-			<content attr1="What do I do?"/>
+			<content attr1="我该怎么做？"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="Well... You have two choices."/>
-			<content attr1="Head to Shangri-La, get a evaluation."/>
+			<content attr1="嗯……你有两个选择。"/>
+			<content attr1="前往香格里拉，获得评价。"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="If you are lucky. You'll get put on ice."/>
-			<content attr1="Sooner or later they'll defrost you, put you through rehab and give you a job."/>
-			<content attr1="You'll be scrubbing vents in no time!"/>
+			<content attr1="如果你很幸运。 你会被放到冰上。"/>
+			<content attr1="他们迟早会解冻你，让你通过康复治疗并给你一份工作。"/>
+			<content attr1="你马上就会擦洗通风口！"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="player"/>
-			<content attr1="What's the other choice?"/>
+			<content attr1="另一个选择是什么？"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="Do anything else."/>
-			<content attr1="Start with docking at this base."/>
-			<content attr1="Pick up some easy missions."/>
-			<content attr1="Upgrade that piece of junk and buy a better ship."/>
-			<content attr1="After that, deciding what to do next will be easier."/>
-			<content attr1="Maybe..."/>
+			<content attr1="随便你怎么做。"/>
+			<content attr1="先从在这个基地停靠开始。"/>
+			<content attr1="先接手一些简单的任务。"/>
+			<content attr1="把你那堆破烂升升级，再去买一艘更好的船。"/>
+			<content attr1="在那之后，你就可以去找点其他事情做了。"/>
+			<content attr1="或许……"/>
 		</dialog>
 		<dialog>
 			<dialogCharacterType attr1="non_player"/>
 			<characterID attr1="sam"/>
-			<content attr1="Oh and it's not a bad idea to spend some time in the simulator, learning how to fly."/>
-			<content attr1="If I have to fill out another collision report..."/>
+			<content attr1="你可以花点时间在模拟装置中练习一下飞行。"/>
+			<content attr1="毕竟我也不想再去向上头提交撞毁报告……"/>
 		</dialog>
 	</postDialog>
 	<postTrigger>
@@ -231,8 +230,8 @@
 		<timer attr1="20000"/>
 		<markObject attr1="civilianOutpost01"/>
 	</objective>
-	<missionHUDText attr1="Dock with the base"/>
-	<missionHUDText attr1="Fly into the dock area"/>
-	<missionHUDText attr1="Base must be targeted to dock"/>
-	<missionHUDText attr1="Target the base - left click on base"/>
+	<missionHUDText attr1="在基地停靠"/>
+	<missionHUDText attr1="飞往停靠区域"/>
+	<missionHUDText attr1="必须将基地设为目标后才能停靠。"/>
+	<missionHUDText attr1="将基地设为目标 - 在基地上单击鼠标左键"/>
 </mission>

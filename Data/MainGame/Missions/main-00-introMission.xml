@@ -16,7 +16,7 @@
 	<preTrigger>
 		<triggerType attr1="toggle_overworld"/>
 		<bToggle attr1="0"/>
-		<note_to_self attr1="点击这里-通过切换到是游戏地图来清除一些疑惑（goofyness）"/>
+		<note_to_self attr1="putting this here - eliminates some goofyness with switching to overworld-etc"/>
 		<bOnActivateTrigger attr1="1"/>
 	</preTrigger>
 	<preTrigger>
