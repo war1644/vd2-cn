@@ -16,6 +16,7 @@
 <maximumShipClass attr1="gunship"/>
 <bOverworldByPass attr1="1"/>
 <bOverworldShipsByPass attr1="1"/>
+<bShowDespiteRank attr1="1"/>
 <bStoryMission attr1="1"/>
 <mission>
 	<missionNumber attr1="1"/>

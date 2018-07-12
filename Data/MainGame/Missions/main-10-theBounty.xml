@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Bounty - Hammond"/>
+<missionDescriptionText attr1="Target - a notorious smuggler named Hammond."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Wanted for smuggling Stubs."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Whereabouts unknown. Happy hunting!"/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="Biometrics and markers included in mission data packet."/>
+<missionDescriptionText attr1=" "/>
+<missionDescriptionText attr1="A private corporation has escalated and subsidized this bounty."/>
+<objectID attr1="main10"/>
+<requiredMissionID attr1="main09"/>
+<missionFactionID attr1="thePride"/>
+<missionLocationType attr1="mission_space"/>
+<missionLocationPosition x="-2300" y="0" z="2500"/>
+<bNearRangeMarkerOverride attr1="1"/>
+<creditReward attr1="250000"/>
+<bRepeatable attr1="0"/>
+<bSoloEnforced attr1="1"/>
+<bFactionShipRequired attr1="1"/>
+<missionRankRequired attr1="3"/>
+<bShowDespiteRank attr1="1"/>
+<minimumShipClass attr1="gunship"/>
+<maximumShipClass attr1="gunship"/>
+<bOverworldByPass attr1="1"/>
+<bOverworldShipsByPass attr1="1"/>
+<bStoryMission attr1="1"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<nextMissionNumber attr1="2"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="0"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="stop_music"/>
+		<bFade attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="caterpillarMK2"/>
+		<shipName attr1="m10-caterpillarMK2-1"/>
+		<bOverworld attr1="0"/>
+		<faction attr1="indie"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="1000" y="-550" z="-3500"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="toggle_comms_override"/>
+		<objectName attr1="m10-caterpillarMK2-1"/>
+		<bOnActivateTrigger attr1="1"/>
+		<bHudCommsOverride attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="disable_maneuvering"/>
+		<shipName attr1="m10-caterpillarMK2-1"/>
+		<bSetting attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="disable_engines"/>
+		<shipName attr1="m10-caterpillarMK2-1"/>
+		<bSetting attr1="1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="create_cargo_pod"/>
+		<cargoPodID attr1="narcoticsPod"/>
+		<name attr1="m10-peoplePod-1"/>
+		<faction attr1="indie"/>
+		<reletiveObject attr1="m10-caterpillarMK2-1"/>
+		<position x="0" y="200" z="0"/>
+		<bFillToCapacity attr1="1"/>
+		<carryingShip attr1="m10-caterpillarMK2-1"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="alter_physical_object"/>
+		<objectName attr1="m10-peoplePod-1"/> 	
+		<alterType attr1="toggle_must_survive"/>
+		<bToggle attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="set_characterID"/>
+		<objectName attr1="m10-caterpillarMK2-1"/>
+		<characterID attr1="hammond"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="This is the plan?"/>
+			<content attr1="For us to get killed?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="No..."/>
+			<content attr1="Just the ship."/>
+			<content attr1="To get the Pride off our backs."/>
+			<content attr1="Then we'll be safe."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="You idiot!"/>
+			<content attr1="That ship IS THE PRIDE!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="You know... I was almost proud of you when you dumped me on that rock."/>
+			<content attr1="Now I see you are still as dumb as a rock."/>
+			<content attr1="Can I at least see who is going to kill me?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<bClearAllText attr1="1"/>
+			<content attr1="Hello."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="Oh no no no!"/>
+			<content attr1="NO NO NO NO!"/>
+			<content attr1="OUR STUB? OUR STUB!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="Don't you see they want revenge?"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="Enough wasting time."/>
+			<content attr1="Let's proceed."/>
+			<content attr1="Go ahead Hammond."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="What? What is he talking about?"/>
+			<content attr1="Hammond? HAMMOND?"/>
+			<content attr1="What is that?"/>
+			<content attr1="No! NO NOOO!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="Uhh... Hold still... Buddy..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="I knew it! I KNEW IT!!!"/>
+			<content attr1="I'm going to haunt you!"/>
+			<content attr1="AAAAAAHHHH!!! AAAHHHH!!!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="Almost ready..."/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="2"/>
+	<nextMissionNumber attr1="3"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="15"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubMaleGeneric02"/>
+		<message attr1="Got the go ahead. Announce the bounty and collect."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="3"/>
+	<nextMissionNumber attr1="4"/>
+	<missionHUDText attr1="Announce Bounty Via Comms..."/>
+	<objective>
+		<objectiveType attr1="comms_target"/> 
+		<objectName attr1="m10-caterpillarMK2-1"/>
+		<markObject attr1="m10-caterpillarMK2-1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="m10-caterpillarMK2-1"/>
+		<bNoObjectiveMarker attr1="1"/>
+		<bSingleCompletesMission attr1="1"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="player"/>
+			<bClearAllText attr1="1"/>
+			<content attr1="This is your bounty announcement."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="taz"/>
+			<content attr1="Uh..."/>
+			<content attr1="What?"/>
+			<content attr1="Who? You?"/>
+			<content attr1="What's..."/>
+			<content attr1="Happening..."/>
+			<content attr1="Hammy? What's in your hand?"/>
+			<content attr1="*** IDENTITY CONFIRMED ***"/>
+		</dialog>
+	</postDialog>
+</mission>
+<mission>
+	<missionNumber attr1="4"/>
+	<nextMissionNumber attr1="5"/>
+	<missionHUDText attr1="Destroy Transport..."/>
+	<preTrigger>
+		<triggerType attr1="object_faction"/>
+		<objectName attr1="m10-caterpillarMK2-1"/>
+		<faction attr1="enemy"/>
+		<bPreservePlayerTarget attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="m10-caterpillarMK2-1"/>
+		<healthPercent attr1="0.25"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="hammond"/>
+		<message attr1="WAIT! I need more time! He's heavier than I thought!"/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="5"/>
+	<nextMissionNumber attr1="6"/>
+	<missionHUDText attr1="Don't Destroy Transport..."/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="35"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="hammond"/>
+		<message attr1="OK! We're in."/>
+	</postTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="6"/>
+	<nextMissionNumber attr1="7"/>
+	<missionHUDText attr1="Destroy Transport..."/>
+	<objective>
+		<objectiveType attr1="destroy_target"/> 
+		<targetName attr1="m10-caterpillarMK2-1"/>
+	</objective>	
+</mission>
+<mission>
+	<missionNumber attr1="7"/>
+	<nextMissionNumber attr1="8"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubMaleGeneric02"/>
+		<message attr1="Good! Sending in a transport for pod pickup."/>
+	</preTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="8"/>
+	<nextMissionNumber attr1="9"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubMaleGeneric02"/>
+		<message attr1="Scratch that... Seeing some traffic coming your way."/>
+	</preTrigger>
+</mission>
+<mission>
+	<missionNumber attr1="9"/>
+	<nextMissionNumber attr1="10"/>
+	<nextMissionNumber attr1="5000"/>
+	<preTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="hog"/>
+		<shipName attr1="m10-hog-p1"/>
+		<shipID attr1="taurusMK2"/>
+		<shipName attr1="m10-taurusMK2-p1"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="m10-brick-p1"/>
+		<shipID attr1="duelistMK2"/>
+		<shipName attr1="m10-duelistMK2-p1"/>
+		<shipID attr1="duelist"/>
+		<shipName attr1="m10-duelist-p1"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="m10-leo-p1"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="indiePirate"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="1000" y="500" z="-10500"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="m10-hog-p1"/>
+		<shipName attr1="m10-taurusMK2-p1"/>
+		<shipName attr1="m10-brick-p1"/>
+		<shipName attr1="m10-duelistMK2-p1"/>
+		<shipName attr1="m10-duelist-p1"/>
+		<shipName attr1="m10-leo-p1"/>
+		<reletiveObject attr1="playerShip"/>
+		<hopPosition x="0" y="0" z="-2000"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="10"/>
+	<nextMissionNumber attr1="11"/>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubMaleGeneric02"/>
+		<message attr1="They came for the pod! Can't let them take it!"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="force_hostile_flag"/>
+		<faction attr1="indiePirate"/>
+	</preTrigger>
+	<missionHUDText attr1="Destroy Pirates..."/>
+	<objective>
+		<objectiveType attr1="destroy_faction_ships"/> 
+		<faction attr1="indiePirate"/>
+		<bMarkShips attr1="1"/>
+	</objective>
+</mission>
+<mission>
+	<missionNumber attr1="11"/>
+	<nextMissionNumber attr1="1000"/>
+	<preTrigger>
+		<triggerType attr1="next_mission"/>
+		<missionID attr1="main11"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="prideBountyHunter09"/>
+			<nameOverride attr1="HERA"/>
+			<content attr1="You got the big score?"/>
+			<content attr1="Nice!"/>
+			<content attr1="Guess it's all over now."/>
+			<content attr1="We're heading out."/>
+			<content attr1="Next one will be OURS!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="We'll pick up the pod once the Pride clears out."/>
+			<content attr1="Let's regroup at Shangri-La."/>
+			<content attr1="Taz should be... Talkative then."/>
+		</dialog>
+	</postDialog>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="1000"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="toggle_overworld"/>
+		<bToggle attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="mission_completed_sound"/>
+	</postTrigger>	
+</mission>
+<note_to_self attr1="mission failure"/>
+<mission>
+	<missionNumber attr1="2000"/>
+	<nextMissionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<preTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="stubMaleGeneric02"/>
+		<message attr1="TRANSPORT DOWN!"/>
+	</preTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="2001"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="3"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="game_over"/>
+		<bMissionFailedEndGameFlag attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="crew_control"/>
+		<shipName attr1="playerShip"/>
+		<bSetting attr1="0"/>
+	</postTrigger>
+	<bSilent attr1="1"/>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<note_to_self attr1="pride helpers ------------------"/>
+<mission>
+	<missionNumber attr1="5000"/>
+	<nextMissionNumber attr1="5001"/>
+	<objective>
+		<objectiveType attr1="damage"/> 
+		<objectName attr1="m10-hog-p1"/>
+		<healthPercent attr1="0.65"/>
+		<bNoObjectiveMarker attr1="1"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="pilar"/>
+		<shipName attr1="m10-pilar-1"/>
+		<shipID attr1="pilar"/>
+		<shipName attr1="m10-pilar-2"/>
+		<shipID attr1="reaper"/>
+		<shipName attr1="m10-reaper-1"/>
+		<shipID attr1="reaper"/>
+		<shipName attr1="m10-reaper-2"/>
+		<shipID attr1="reaper"/>
+		<shipName attr1="m10-reaper-3"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="thePride"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="1000" y="500" z="-10500"/>
+		<bOnActivateTrigger attr1="1"/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="m10-pilar-1"/>
+		<shipName attr1="m10-pilar-2"/>
+		<shipName attr1="m10-reaper-1"/>
+		<shipName attr1="m10-reaper-2"/>
+		<shipName attr1="m10-reaper-3"/>
+		<reletiveObject attr1="playerShip"/>
+		<hopPosition x="0" y="0" z="-1000"/>
+	</postTrigger>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>
+<mission>
+	<missionNumber attr1="5001"/>
+	<nextMissionNumber attr1="5002"/>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="5"/>
+	</objective>
+	<postTrigger>
+		<triggerType attr1="hud_comms"/>
+		<characterID attr1="prideBountyHunter09"/>
+		<message attr1="Hey hunter! We tracked a bounty here... looks like we might help bag some pirates instead."/>
+	</postTrigger>
+	<postTrigger>
+		<triggerType attr1="named_ship"/>
+		<shipID attr1="roachC"/>
+		<shipName attr1="m10-roachC-p1"/>
+		<shipID attr1="roachC"/>
+		<shipName attr1="m10-roachC-p2"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="m10-brick-p2"/>
+		<shipID attr1="brick"/>
+		<shipName attr1="m10-brick-p3"/>
+		<shipID attr1="leo"/>
+		<shipName attr1="m10-leo-p2"/>
+		<bOverworld attr1="1"/>
+		<faction attr1="indiePirate"/>
+		<bAutoPilot attr1="1"/>
+		<bCheckPosition attr1="1"/>
+		<aiPosture attr1="search_and_destroy"/>
+		<reletiveObject attr1="playerShip"/>
+		<position x="10500" y="500" z="-5000"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<preTrigger>
+		<triggerType attr1="place_in_gravity_drive"/>
+		<shipName attr1="m10-roachC-p1"/>
+		<shipName attr1="m10-roachC-p2"/>
+		<shipName attr1="m10-brick-p2"/>
+		<shipName attr1="m10-brick-p3"/>
+		<shipName attr1="m10-leo-p2"/>
+		<reletiveObject attr1="playerShip"/>
+		<hopPosition x="2500" y="0" z="-1000"/>
+	</preTrigger>
+	<bNoHUDTextReSet attr1="1"/>
+	<bNoHUDTextClearOnEnd attr1="1"/>
+</mission>

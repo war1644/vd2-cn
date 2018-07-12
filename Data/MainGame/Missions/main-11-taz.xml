@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<missionName attr1="Taz Talks"/>
+<objectID attr1="main11"/>
+<missionFactionID attr1="kind"/>
+<missionLocation attr1="sanctuary"/>
+<bStoryMission attr1="1"/>
+<bRepeatable attr1="0"/>
+<bHidden attr1="1"/>
+<mission>
+	<missionNumber attr1="1"/>
+	<bForceActive attr1="1"/>
+	<preTrigger>
+		<triggerType attr1="set_faction_score"/>
+		<factionID attr1="kind"/>
+		<factionScore attr1="70"/>
+		<note_to_self attr1="make sure kind faction isn't hostile"/>
+		<bOnActivateTrigger attr1="1"/>
+	</preTrigger>
+	<objective>
+		<objectiveType attr1="time"/> 
+		<timer attr1="10"/>
+	</objective>
+	<postDialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric01"/>
+			<nameOverride attr1="ONE EAR"/>
+			<content attr1="Patching you in to Elephant Face."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="Taz... tell him what you told us."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tazNoEye"/>
+			<content attr1="MY EYE! YOU TOOK MY EYE!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="No... Not that."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tazNoEye"/>
+			<content attr1="MY EYE!"/>
+			<content attr1="I'M DEFORMED NOW!"/>
+			<content attr1="UGLY!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="As I said..."/>
+			<content attr1="We needed your retina to confirm your death."/>
+			<content attr1="We can easily replace it with a synthetic variant."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tazNoEye"/>
+			<content attr1="YOU WANT TO MAKE ME INTO A STUB!"/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="We don't want you."/>
+			<content attr1="I mean... We don't want that."/>
+			<content attr1="Trust me."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<bClearAllText attr1="1"/>
+			<content attr1="Tell us about the smuggling."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tazNoEye"/>
+			<content attr1="We got hired to smuggle cargo."/>
+			<content attr1="We did a few runs, things were going well."/>
+			<content attr1="It was boring work, so I decided to give myself a raise."/>
+			<content attr1="Then... we wake that up, it's cursed or something."/>
+			<content attr1="All of a sudden we are being hunted."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tazNoEye"/>
+			<content attr1="I can give you the locations and contacts."/>
+			<content attr1="It's a pretty big outfit, so finding them shouldn't be hard."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="stubMaleGeneric02"/>
+			<nameOverride attr1="ELEPHANT FACE"/>
+			<content attr1="Good."/>
+			<content attr1="We'll formulate a plan."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tazNoEye"/>
+			<content attr1="My eye..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="hammond"/>
+			<content attr1="Looks kind of cool..."/>
+			<content attr1="Maybe I've got a future in doctoring..."/>
+		</dialog>
+		<dialog>
+			<dialogCharacterType attr1="non_player"/>
+			<characterID attr1="tazNoEye"/>
+			<content attr1="SHUT UP HAMMOND..."/>
+			<content attr1="YOU DON'T UNDERSTAND... YOU'VE ALWAYS BEEN A FREAK..."/>
+		</dialog>
+	</postDialog>
+	<bSetMissionCompletedInOverworld attr1="1"/>
+</mission>
