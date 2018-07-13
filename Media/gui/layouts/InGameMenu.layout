@@ -12,37 +12,37 @@
         </Window>
         <Window Type="jhGUI/Left_Button" Name="InGameMenu/btnResume" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="继续游戏" />
+            <Property Name="Text" Value="RESUME GAME" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.193973,0},{0.248776,0},{0.236653,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="InGameMenu/btnSave" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="保存" />
+            <Property Name="Text" Value="SAVE" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.307226,0},{0.248776,0},{0.349906,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="InGameMenu/btnLoad" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="载入" />
+            <Property Name="Text" Value="LOAD" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.364426,0},{0.248776,0},{0.407106,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="InGameMenu/btnOptions" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="选项" />
+            <Property Name="Text" Value="OPTIONS" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.421075,0},{0.248776,0},{0.463756,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="InGameMenu/btnControlMapping" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="按键设置" />
+            <Property Name="Text" Value="CONTROL MAPPING" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.47805,0},{0.248776,0},{0.52073,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="InGameMenu/btnExit" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="返回主菜单" />
+            <Property Name="Text" Value="EXIT TO MAIN MENU" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.588759,0},{0.248776,0},{0.631439,0}}" />
         </Window>
         <Window Type="ootGUI/StaticTextLeft" Name="InGameMenu/txtPaused" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="暂停" />
+            <Property Name="Text" Value="Paused" />
             <Property Name="HorzExtent" Value="55" />
             <Property Name="VertExtent" Value="18.5438" />
             <Property Name="HorzFormatting" Value="HorzCentred" />
@@ -84,17 +84,17 @@
         </Window>
         <Window Type="jhGUI/Left_Button" Name="InGameMenu/btnGuide" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="手册" />
+            <Property Name="Text" Value="GUIDE" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.250519,0},{0.248776,0},{0.293199,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="InGameMenu/btnDifficulty" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="难度" />
+            <Property Name="Text" Value="DIFFICULTY" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.532576,0},{0.248776,0},{0.575256,0}}" />
         </Window>
         <Window Type="jhGUI/Left_Button" Name="InGameMenu/btnExitSimulator" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="结束模拟" />
+            <Property Name="Text" Value="END SIMULATION" />
             <Property Name="UnifiedAreaRect" Value="{{0.0827825,0},{0.588759,0},{0.248776,0},{0.631439,0}}" />
         </Window>
     </Window>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<objectType attr1="ship"/> 
+<name attr1="Ultra"/> 
+<objectID attr1="ultra"/>
+<faction attr1="thePride"/>
+<shipClass attr1="gunship"/> 
+<shipClassSize attr1="light"/>
+<meshName attr1="Ultra.mesh"/>
+<wireframeMaterial attr1="WF/Hunter"/> 
+<descriptionText attr1="A bounty hunter light gunship."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="The Ultra is what happens when you strap gunship weapons and engines to a fighter's frame. The result is a ship that's as easy to fly as a fighter that can compete with gunships."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="Armed with two ball turrets and two light turrets, it combines forward firepower with near total coverage. Spitting out the Pride's own proprietary ammo, you want to be behind it, not in front of it."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1=" "/> 
+<descriptionText attr1="[colour='FFFFFF00']Secondary weapon:[colour='FFFFFFFF'] Rail gun spray."/>
+<descriptionText attr1=" "/>
+<descriptionText attr1="When activated, fires an entire magazine of rail gun projectiles. A terrifying weapon requiring skillfull use, be sure to aim properly to hit with the entire mag."/>
+<creditCost attr1="355000"/>
+<bBlackMarket attr1="1"/>
+<missionRankRequired attr1="4"/>
+<cruiseSpeed attr1="100.0"/> 
+<timeTillCruise attr1="2.15"/>
+<yaw 	attr1="80.0"/> 
+<pitch	attr1="80"/> 
+<roll 	attr1="80.0"/> 
+<bGravityDrive attr1="1"/> 
+<cockpitID attr1="cockpit003"/>
+<cockpitActualPos x="0" y="3.47" z="8.74"/>
+<cockpitActualMesh attr1="cockpitUltra.mesh"/> 
+<cockpitInitPos x="0" y="9.65" z="12.91"/>
+<cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
+<chaseInitPos x="0" y="25" z="135"/>
+<chaseTransLimit x="6" y="3" z="3"/>
+<health attr1="2800.0"/>
+<shieldHealth attr1="100"/>
+<armor attr1="0.75"/>
+<damage>
+    <pitch attr1="23.0"/> 
+    <roll attr1="-65.0"/> 
+	<yaw attr1="0.0"/> 
+	<position x="9.396" y="-0.474" z="7.298"/>
+</damage>
+<deathTimer attr1="2"/> 
+<deathSpin x="-0.7" y="0.0" z="0.7"/>
+<debrisInfo>
+	<debris>
+		<debrisID attr1="ultraD00"/> 
+		<debrisMomentum attr1="5"/> 
+		<debrisAngular attr1="5"/> 
+	</debris>
+</debrisInfo> 
+<explosionID attr1="explode02"/>
+<preExplosionID attr1="mHit00"/>
+<preExplosionID attr1="explode00"/>
+<tacticalExplosionID attr1="tacExp15_40"/> 
+<engineSoundID attr1="eng-00"/>
+<propulsionRibbonID attr1="shipRibbon00"/>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="7.128" y="-0.868" z="18.321"/>
+</propulsion>
+<propulsion> 
+    <propulsionEffectID attr1="propulsion100"/> 
+	<position x="-7.128" y="-0.868" z="18.321"/>
+</propulsion>
+<afterburner> 
+	<soundID attr1="ab-01"/>
+	<tailSoundID attr1="ab-01-tail"/>
+    <multiplier attr1="6.05"/>
+    <capacity attr1="12.0"/>
+    <recharge attr1="14.0"/>
+</afterburner>
+<turret>
+    <turretID attr1="pilarT02"/>
+    <turretOrientation attr1="bottom"/>
+	<position x="7.296" y="-0.868" z="-4.254"/>
+	<pitchLower attr1="-30"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<yawPermitted attr1="45"/>
+	<bShowInCockpit attr1="1"/>
+	<weaponPositionID attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="pilarT02"/>
+    <turretOrientation attr1="bottom"/>
+	<position x="-7.296" y="-0.868" z="-4.254"/>
+	<pitchLower attr1="-30"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<yawPermitted attr1="45"/>
+	<bShowInCockpit attr1="1"/>
+	<weaponPositionID attr1="2"/>
+</turret>
+<turret>
+    <turretID attr1="reaperT"/>
+	<position x="0.0" y="6.397" z="6.846"/>
+	<pitchLower attr1="-2"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<weaponPositionID attr1="3"/>
+</turret>
+<turret>
+    <turretID attr1="reaperT"/>
+    <turretOrientation attr1="bottom"/>
+	<position x="0.0" y="-6.169" z="-1.725"/>
+	<pitchLower attr1="-2"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<weaponPositionID attr1="4"/>
+</turret>
+<weapon> 
+    <weaponType attr1="instant"/> 
+    <hardpointID attr1="ultraRG"/> 
+	<weaponPosition x="12.403" y="-0.868" z="3.722"/>
+	<weaponPosition x="-12.403" y="-0.868" z="3.722"/>
+	<weaponFire attr1="secondary"/>
+	<barrelDelay attr1="0.05"/>
+</weapon>
+<upgrades> 
+	<primaryUpgradeCapacity attr1="2"/>
+	<activeUpgradeCapacity attr1="3"/>
+	<upgradeID attr1="ultraBeamBallT00"/>
+	<upgradeID attr1="ultraBT00"/>
+	<upgradeID attr1="cKP00"/>
+	<upgradeID attr1="ammoCap00"/>
+	<upgradeID attr1="refireRate00"/>
+	<upgradeID attr1="gArmor00"/>
+	<upgradeID attr1="gShield00"/>
+	<upgradeID attr1="fShieldRecharge00"/>
+	<upgradeID attr1="fUpgradeRecharge00"/>
+	<upgradeID attr1="gunshipFShield00"/>
+	<upgradeID attr1="burnerCap00"/>
+	<upgradeID attr1="gunshipMan00"/>
+	<upgradeID attr1="gunshipThrust00"/>
+	<upgradeID attr1="fAUCharge00"/>
+	<upgradeID attr1="gDriveTrigger00"/>
+	<upgradeID attr1="fArmorBoostAU00"/>
+	<upgradeID attr1="rapidRepair00"/>
+	<upgradeID attr1="gSpeed00"/>
+	<upgradeID attr1="sensorShield00"/>
+	<upgradeID attr1="targetScramble00"/>
+	<upgradeID attr1="gunshipPUS00"/>
+	<upgradeID attr1="gunshipAUS00"/>
+	<upgradeID attr1="convertPtA00"/>
+	<upgradeID attr1="convertAtP00"/>
+	<upgradeID attr1="addPUS00"/>
+	<upgradeID attr1="addAUS00"/>
+</upgrades>
+<collisionShape attr1="simple_convex"/>
+<isMassInfinite attr1="0"/>
+<shipHangarPosition x="0" y="1.138" z="-3.775"/>
+<shipHangarYOffset attr1="3"/>

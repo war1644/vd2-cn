@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<missionName attr1="新游戏介绍任务"/>
+<missionName attr1="New Game Intro Mission"/>
 <objectID attr1="newGame00"/>
 <missionFactionID attr1="outsider"/>
 <missionLocation attr1="newGameStartLocation"/>
@@ -50,8 +50,8 @@
 		<bToggle attr1="0"/>
 		<timer attr1="0.0"/>
 	</postTrigger>
-	<missionHUDText attr1="主引擎 -"/>
-	<missionHUDText attr1="巡航速度键-" attr2="ship_command" attr3="cruise_speed"/>
+	<missionHUDText attr1="Main Engines -"/>
+	<missionHUDText attr1="Cruise speed - key" attr2="ship_command" attr3="cruise_speed"/>
 	<postCutscene attr1="newGame-00-introMissionScene-01"/>
 </mission>
 <mission>
@@ -64,7 +64,7 @@
 	<postTrigger>
 		<triggerType attr1="hud_comms"/>
 		<characterID attr1="tsfGeneric01"/>
-		<message attr1="所有舰船! 自由开火!"/>
+		<message attr1="All ships! Weapons free!"/>
 	</postTrigger>
 </mission>
 <mission>
@@ -96,10 +96,10 @@
 		<bToggle attr1="0"/>
 		<timer attr1="5.0"/>
 	</postTrigger>
-	<missionHUDText attr1="锁定最近的敌人键-" attr2="ship_command" attr3="target_enemy"/>
-	<missionHUDText attr1="通过鼠标操作"/>
-	<missionHUDText attr1="主武器-右键"/>
-	<missionHUDText attr1="目标选择-左键"/>
+	<missionHUDText attr1="Target nearest enemy - key" attr2="ship_command" attr3="target_enemy"/>
+	<missionHUDText attr1="Maneuver via mouse"/>
+	<missionHUDText attr1="Primary weapon - Right click"/>
+	<missionHUDText attr1="Target select - Left click"/>
 	<bNoHUDTextClearOnEnd attr1="1"/>
 </mission>
 <mission>
@@ -245,7 +245,7 @@
 	<preTrigger>
 		<triggerType attr1="hud_comms"/>
 		<characterID attr1="tsfGeneric01"/>
-		<message attr1="我们有增援了!"/>
+		<message attr1="We've got reinforcements!"/>
 	</preTrigger>
 	<objective>
 		<objectiveType attr1="destroy_faction_ships"/> 

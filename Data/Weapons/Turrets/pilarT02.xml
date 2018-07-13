@@ -4,7 +4,7 @@
 <name attr1="Quad Turret"/> 
 <meshName attr1="pilarTurret02.mesh"/> 
 <turretWeapon attr1="projectile"/>
-<hardpointID attr1="pilarTG"/>
+<hardpointID attr1="pilarTG02"/>
 <dMoveSpeed attr1="70.0"/> 
 <pitchMax attr1="50.0"/>
 <turretBarrel>
@@ -24,7 +24,7 @@
 	<boneName attr1="muzzle4"/>
 </turretBarrel>
 <turretViewPos x="0" y="0" z="-0.7"/>
-<barrelDelay attr1="0.05"/>
+<barrelDelay attr1="0.025"/>
 <targetPriorityList> 
 	<targetClass attr1="fighter"/>
 	<targetClass attr1="gunship"/>

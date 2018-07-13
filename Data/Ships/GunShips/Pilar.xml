@@ -17,7 +17,7 @@
 <descriptionText attr1="Missile mines float in space and activate when a hostile craft is in their detection range."/>
 <descriptionText attr1=" "/>
 <descriptionText attr1="The mines are medium missiles, specialized to do increased damage against capital ships."/>
-<creditCost attr1="485000"/>
+<creditCost attr1="555000"/>
 <bBlackMarket attr1="1"/>
 <missionRankRequired attr1="4"/>
 <cruiseSpeed attr1="75.0"/> 

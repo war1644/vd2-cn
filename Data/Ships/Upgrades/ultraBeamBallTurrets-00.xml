@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<displayName attr1="Beam Ball Turrets"/> 
+<objectID attr1="ultraBeamBallT00"/> 
+<upgradeCategory attr1="weapon"/>
+<upgradeType attr1="other"/>
+<cost attr1="15250"/>
+<addCostAsPercentOfShip attr1="0.55"/>
+<turret>
+    <turretID attr1="pilarT03"/>
+    <turretOrientation attr1="bottom"/>
+	<position x="7.296" y="-0.868" z="-4.254"/>
+	<pitchLower attr1="-30"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<yawPermitted attr1="45"/>
+	<bShowInCockpit attr1="1"/>
+	<weaponPositionID attr1="1"/>
+</turret>
+<turret>
+    <turretID attr1="pilarT03"/>
+    <turretOrientation attr1="bottom"/>
+	<position x="-7.296" y="-0.868" z="-4.254"/>
+	<pitchLower attr1="-30"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<yawPermitted attr1="45"/>
+	<bShowInCockpit attr1="1"/>
+	<weaponPositionID attr1="2"/>
+</turret>
+<description attr1="Replaces the standard turrets with beam variants."/>
+<description attr1=" "/>
+<description attr1="With this upgrade the Ultra becomes a very rare gunship - one using turreted beam weapons as it's primary source of damage."/>
+<description attr1=" "/>
+<description attr1="While the Pride often touts its group strength, their members aren't shy to spend their bounties on equipment to give them an edge. In this case a very significant percentage of the original ship's cost."/>

@@ -6,6 +6,7 @@
 <shipClass attr1="fighter"/>
 <shipClassSize attr1="light"/>
 <meshName attr1="Grim.mesh"/>
+<collisionMeshName attr1="grimCollision.mesh"/>
 <wireframeMaterial attr1="WF/Hunter"/> 
 <descriptionText attr1="A light Bounty Hunter fighter."/>
 <descriptionText attr1=" "/>

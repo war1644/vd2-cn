@@ -30,7 +30,7 @@
 <cockpitTransLimit x="0.75" y="0.75" z="0.75"/>
 <chaseInitPos x="0" y="30" z="138"/>
 <chaseTransLimit x="6" y="3" z="3"/>
-<health attr1="2500.0"/> 
+<health attr1="2400.0"/> 
 <buildTime	attr1="25.0"/> 
 <crew 		attr1="1"/> 
 <energy		attr1="150.0"/> 

@@ -58,7 +58,7 @@
 	<bSkipCamera attr1="1"/>
 	<bPaused attr1="1"/>
 	<duration attr1="2"/> 
-	<headingText attr1="香格里拉(Stub基地)..."/>
+	<headingText attr1="Shangri-La (Stub Base)..."/>
 	<trigger>
 		<triggerType attr1="set_position"/>
 		<body attr1="playerShip"/>
@@ -92,7 +92,7 @@
 	<cameraPosition x="-150" y="50" z="-6500"/>
 </sceneFragment>
 <sceneFragment>
-	<headingText attr1="局外人战争..."/>
+	<headingText attr1="Outsider Conflict..."/>
 	<cameraMode attr1="simple_translate"/>
 	<duration attr1="6.0"/>
 	<velocity x="0" y="0" z="350"/>

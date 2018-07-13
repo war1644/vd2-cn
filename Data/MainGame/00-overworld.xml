@@ -22,7 +22,7 @@
      <name attr1="newGameStartLocation"/>
 	 <displayName attr1="Shangri-La"/>
      <position x="-2277" y="0" z="920"/>
-	 <note_to_self attr1="不是真正的香格里拉位置 - 但是朝向太阳的方向正确..我似乎把事情搞砸了"/>
+	 <note_to_self attr1="not actual shangri-la position - but gets correct orientation to sun.. I messed up apparently"/>
      <faction attr1="outsider"/>
 	 <worldFile attr1="newGame-00-worldFile"/>
 	 <bDiscovered attr1="1"/>

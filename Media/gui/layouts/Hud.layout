@@ -349,7 +349,7 @@
         </Window>
         <Window Type="ootGUI/LabelWithOutline" Name="HUD/txtIncomingMissile" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="!!! 进入对象 !!!" />
+            <Property Name="Text" Value="!!! INCOMING OBJECT(S) !!!" />
             <Property Name="UnifiedAreaRect" Value="{{0.439822,0},{0.353834,0},{0.560754,0},{0.385505,0}}" />
         </Window>
         <Window Type="ootGUI/LabelWithOutline" Name="HUD/txtMouseOver" >
@@ -429,13 +429,13 @@
         </Window>
         <Window Type="ootGUI/LabelWithOutline" Name="HUD/txtMissionHUDText" >
             <Property Name="Font" Value="Exo-SemiBold-12" />
-            <Property Name="Text" Value="任务界面" />
+            <Property Name="Text" Value="Mission HUD Text" />
             <Property Name="HorzFormatting" Value="LeftAligned" />
             <Property Name="VertFormatting" Value="TopAligned" />
             <Property Name="UnifiedAreaRect" Value="{{0.674405,0},{0.183354,0},{0.997618,0},{0.609925,0}}" />
             <Window Type="ootGUI/LabelWithOutline" Name="HUD/txtMissionHUDText/txtSecondaryText" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="卫星界面" />
+                <Property Name="Text" Value="Secondary HUD Text" />
                 <Property Name="HorzFormatting" Value="LeftAligned" />
                 <Property Name="VertFormatting" Value="TopAligned" />
                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0.396755,0},{1,0},{0.996755,0}}" />
@@ -479,104 +479,104 @@
             <Property Name="BackgroundEnabled" Value="False" />
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkPrimary" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="主要火力" />
+                <Property Name="Text" Value="Primary Fire" />
                 <Property Name="Selected" Value="True" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{-0.00230574,0},{0.914226,0},{0.0617391,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret0" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔0" />
+                <Property Name="Text" Value="Turret0" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.0546862,0},{0.914226,0},{0.118731,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret1" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔1" />
+                <Property Name="Text" Value="Turret1" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.113335,0},{0.914226,0},{0.17738,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret2" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔2" />
+                <Property Name="Text" Value="Turret2" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.169172,0},{0.914226,0},{0.233217,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret3" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔3" />
+                <Property Name="Text" Value="Turret3" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.227625,0},{0.914226,0},{0.29167,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret4" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔4" />
+                <Property Name="Text" Value="Turret4" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.285473,0},{0.914226,0},{0.349519,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret5" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔5" />
+                <Property Name="Text" Value="Turret5" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.343926,0},{0.914226,0},{0.407971,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret6" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔6" />
+                <Property Name="Text" Value="Turret6" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.399763,0},{0.914226,0},{0.463808,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret7" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔7" />
+                <Property Name="Text" Value="Turret7" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.458821,0},{0.914226,0},{0.522867,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret8" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔8" />
+                <Property Name="Text" Value="Turret8" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.516669,0},{0.914226,0},{0.580714,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret9" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔9" />
+                <Property Name="Text" Value="Turret9" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.572506,0},{0.914226,0},{0.636551,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret10" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔10" />
+                <Property Name="Text" Value="Turret10" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.630354,0},{0.914226,0},{0.694399,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret11" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔11" />
+                <Property Name="Text" Value="Turret11" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.688202,0},{0.914226,0},{0.752246,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret12" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔12" />
+                <Property Name="Text" Value="Turret12" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.746655,0},{0.914226,0},{0.8107,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret13" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔13" />
+                <Property Name="Text" Value="Turret13" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.802491,0},{0.914226,0},{0.866537,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret14" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔14" />
+                <Property Name="Text" Value="Turret14" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.863229,0},{0.914226,0},{0.927275,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="HUD/CommandWeapons/chkTurret15" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value="炮塔15" />
+                <Property Name="Text" Value="Turret15" />
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0300761,0},{0.919397,0},{0.914226,0},{0.983443,0}}" />
             </Window>
@@ -596,7 +596,7 @@
                 </Window>
                 <Window Type="ootGUI/StaticText" Name="HUD/unifiedHealthAndTime/healthBG/txtRemoteInterface" >
                     <Property Name="Font" Value="Exo-SemiBold-16" />
-                    <Property Name="Text" Value="远程连接" />
+                    <Property Name="Text" Value="REMOTE INTERFACE" />
                     <Property Name="HorzExtent" Value="195" />
                     <Property Name="VertExtent" Value="24.7527" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -612,7 +612,7 @@
                 <Property Name="BackgroundEnabled" Value="False" />
                 <Window Type="ootGUI/StaticText" Name="HUD/unifiedHealthAndTime/CmdFrame/txtCredits" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="信用:" />
+                    <Property Name="Text" Value="Credits:" />
                     <Property Name="HorzExtent" Value="59" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -628,7 +628,7 @@
                 <Property Name="BackgroundEnabled" Value="False" />
                 <Window Type="ootGUI/StaticText" Name="HUD/unifiedHealthAndTime/WantedFrame/txtWanted" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="通缉: " />
+                    <Property Name="Text" Value="Wanted: " />
                     <Property Name="HorzExtent" Value="67" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -641,7 +641,7 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.618264,0},{0.608081,0},{0.992986,0},{0.822086,0}}" />
                 <Window Type="ootGUI/StaticText" Name="HUD/unifiedHealthAndTime/chkTimeDilation/txtINACTIVE" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="损伤" />
+                    <Property Name="Text" Value="INACTIVE" />
                     <Property Name="HorzExtent" Value="70" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -723,7 +723,7 @@
                 <Property Name="BackgroundEnabled" Value="False" />
                 <Window Type="ootGUI/StaticText" Name="HUD/unifiedHealthAndTime/DilateFrame/txtDilate" >
                     <Property Name="Font" Value="Exo-SemiBold-12" />
-                    <Property Name="Text" Value="时间延迟" />
+                    <Property Name="Text" Value="TIME DILATION" />
                     <Property Name="HorzExtent" Value="111" />
                     <Property Name="VertExtent" Value="18.5438" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -740,7 +740,7 @@
                 <Property Name="BackgroundEnabled" Value="False" />
                 <Window Type="ootGUI/StaticText" Name="HUD/unifiedHealthAndTime/OverworldFrame/txtOverworld" >
                     <Property Name="Font" Value="Exo-SemiBold-8" />
-                    <Property Name="Text" Value="游戏地图 - 可用" />
+                    <Property Name="Text" Value="OVERWORLD - AVAILABLE" />
                     <Property Name="HorzExtent" Value="133" />
                     <Property Name="VertExtent" Value="12.3762" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -768,7 +768,7 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.367344,0},{0.579011,0},{0.814438,0},{0.716605,0}}" />
                 <Window Type="ootGUI/StaticText" Name="HUD/Hangar/prgsBuild/txtBuild" >
                     <Property Name="Font" Value="Exo-SemiBold-8" />
-                    <Property Name="Text" Value="建造" />
+                    <Property Name="Text" Value="BUILD" />
                     <Property Name="HorzExtent" Value="32" />
                     <Property Name="VertExtent" Value="12.3762" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -783,7 +783,7 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.367344,0},{0.442812,0},{0.814438,0},{0.580406,0}}" />
                 <Window Type="ootGUI/StaticText" Name="HUD/Hangar/prgsDocked/txtDocked" >
                     <Property Name="Font" Value="Exo-SemiBold-8" />
-                    <Property Name="Text" Value="船坞" />
+                    <Property Name="Text" Value="DOCKED" />
                     <Property Name="HorzExtent" Value="43" />
                     <Property Name="VertExtent" Value="12.3762" />
                     <Property Name="FrameEnabled" Value="False" />
@@ -798,7 +798,7 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.367344,0},{0.29742,0},{0.814438,0},{0.435014,0}}" />
                 <Window Type="ootGUI/StaticText" Name="HUD/Hangar/prgsLaunched/txtLaunched" >
                     <Property Name="Font" Value="Exo-SemiBold-8" />
-                    <Property Name="Text" Value="发射" />
+                    <Property Name="Text" Value="LAUNCHED" />
                     <Property Name="HorzExtent" Value="56" />
                     <Property Name="VertExtent" Value="12.3762" />
                     <Property Name="FrameEnabled" Value="False" />

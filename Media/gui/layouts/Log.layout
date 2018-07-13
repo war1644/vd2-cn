@@ -7,12 +7,12 @@
             <Property Name="UnifiedAreaRect" Value="{{0.00535716,0},{0.0731735,0},{0.514285,0},{0.846249,0}}" />
             <Window Type="jhGUI/Left_Button" Name="Log/Main/btnClearLog" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="清除所有事件" />
+                <Property Name="Text" Value="CLEAR ALL EVENTS" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0116661,0},{0.916241,0},{0.300731,0},{0.97688,0}}" />
             </Window>
             <Window Type="ootGUI/StaticText" Name="Log/Upkeep/txtLog" >
                 <Property Name="Font" Value="Exo-SemiBold-12" />
-                <Property Name="Text" Value="日志:" />
+                <Property Name="Text" Value="LOG:" />
                 <Property Name="HorzExtent" Value="34" />
                 <Property Name="VertExtent" Value="18.5438" />
                 <Property Name="FrameEnabled" Value="False" />
@@ -26,19 +26,19 @@
             </Window>
             <Window Type="ootGUI/CheckBox" Name="Log/Main/chkCombat" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value=" 战斗" />
+                <Property Name="Text" Value=" COMBAT" />
                 <Property Name="Selected" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.0221334,0},{0.0420408,0},{0.133303,0},{0.0804484,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="Log/Main/chkEconomy" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value=" 经济" />
+                <Property Name="Text" Value=" ECONOMY" />
                 <Property Name="Selected" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.141138,0},{0.0420408,0},{0.262834,0},{0.0804484,0}}" />
             </Window>
             <Window Type="ootGUI/CheckBox" Name="Log/Main/chkFaction" >
                 <Property Name="Font" Value="Exo-SemiBold-10" />
-                <Property Name="Text" Value=" 派系" />
+                <Property Name="Text" Value=" FACTION" />
                 <Property Name="Selected" Value="True" />
                 <Property Name="UnifiedAreaRect" Value="{{0.269501,0},{0.0420408,0},{0.386518,0},{0.0804484,0}}" />
             </Window>

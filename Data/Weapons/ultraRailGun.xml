@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<weaponType attr1="instant"/> 
+<instantType attr1="chain_instant"/> 
+<weaponID attr1="ultraRG"/> 
+<name attr1="Light Rail Gun"/> 
+<materialName attr1="Effects/RibbonTrail"/> 
+<baseScale attr1="0.6"/>
+<explosionID attr1="railGunHit00"/> 
+<fireSoundID attr1="heavyGS00"/>
+<muzzleFlashEffectID attr1="mfLG01"/>
+<damage attr1="100.0"/> 
+<range attr1="2400.0"/> 
+<capacity attr1="6.0"/> 
+<reFireRate attr1="0.05"/>
+<note_to_self attr1="high refire rate due to how it interacts with visual timer - refire rate shouldn't affect anything here"/>
+<visualTimer attr1="0.05"/>
+<reloadTime attr1="20.0"/>
+<weaponPush attr1="150000.0"/> 
+<bIgnoresShields attr1="1"/>
+<bFireFullAmmo attr1="1"/>

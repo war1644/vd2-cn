@@ -7,21 +7,23 @@
 <addCostAsPercentOfShip attr1="0.25"/>
 <turret>
     <turretID attr1="reaperBT"/>
-	<position x="0" y="6.583" z="8.473"/>
-	<pitchLower attr1="-4"/> 
-	<turretRole attr1="defense"/>
-	<weaponPositionID attr1="1"/>
+	<position x="0.0" y="6.397" z="6.846"/>
+	<pitchLower attr1="-2"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<weaponPositionID attr1="3"/>
 </turret>
 <turret>
     <turretID attr1="reaperBT"/>
-	<turretOrientation attr1="bottom"/> 
-	<position x="0" y="-7.51" z="-1.28"/>
-	<pitchLower attr1="-4"/> 
-	<turretRole attr1="defense"/>
-	<weaponPositionID attr1="2"/>
+    <turretOrientation attr1="bottom"/>
+	<position x="0.0" y="-6.169" z="-1.725"/>
+	<pitchLower attr1="-2"/> 
+	<turretRole attr1="parents_target"/>
+	<weaponFire attr1="primary"/>
+	<weaponPositionID attr1="4"/>
 </turret>
-<description attr1="Replaces the standard defense turrets with beam variants."/>
+<description attr1="Replaces the light top and bottom turrets with beam variants."/>
 <description attr1=" "/>
-<description attr1="A big technological leap, turreted beam weapons. Only possible due to diverting the plentiful energy generating capability of the Ultra."/>
+<description attr1="Complements the Ball Beam turret's upgrade for a unified source of damage and tracking."/>
 <description attr1=" "/>
 <description attr1="The yield pushed as far as possible, even at the cost of range."/>
